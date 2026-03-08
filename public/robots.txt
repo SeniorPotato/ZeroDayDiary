@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zerodaydiary.com/sitemap-index.xml
