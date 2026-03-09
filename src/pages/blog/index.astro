@@ -10,103 +10,76 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+const [lead, ...rest] = posts;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={`Briefings | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
 		<style>
-			main {
-				width: 960px;
+			main { width: min(1120px, calc(100% - 2rem)); max-width: none; }
+			.hero-listing { margin: 2rem 0 3rem; }
+			.lead-card, .post-card {
+				background: rgba(15, 23, 42, 0.72);
+				border: 1px solid rgba(148, 163, 184, 0.14);
+				border-radius: 1.3rem;
+				overflow: hidden;
 			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
+			.lead-card { display: grid; grid-template-columns: 1.1fr 0.9fr; }
+			.lead-copy { padding: 1.5rem; }
+			.lead-copy h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 0.8rem; }
+			.lead-copy a, .post-card a { text-decoration: none; color: #f8fafc; }
+			.lead-copy p, .post-card p { color: rgba(226,232,240,0.74); }
+			.lead-media img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+			.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+			.post-card { padding: 1.2rem; }
+			.post-card h3 { margin: 0.4rem 0 0.6rem; font-size: 1.45rem; }
+			.meta { color: #7dd3fc; font-size: 0.86rem; }
+			.tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
+			.tag-list li { font-size: 0.78rem; padding: 0.35rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+			.header-copy { margin: 1rem 0 2rem; }
+			@media (max-width: 900px) {
+				.lead-card, .grid { grid-template-columns: 1fr; }
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
+			<section class="header-copy">
+				<p class="eyebrow">Archive</p>
+				<h1>Briefings and field notes</h1>
+				<p>Fast summaries of security failures, privacy regressions, regulatory movement, and AI risk signals worth tracking.</p>
+			</section>
+			{lead && (
+				<section class="hero-listing">
+					<article class="lead-card">
+						<div class="lead-copy">
+							<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+							<h2><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h2>
+							<p>{lead.data.description}</p>
+							{lead.data.tags.length > 0 && (
+								<ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+							)}
+						</div>
+						{lead.data.heroImage && (
+							<div class="lead-media"><Image width={900} height={620} src={lead.data.heroImage} alt="" /></div>
+						)}
+					</article>
+				</section>
+			)}
+			<section class="grid">
+				{rest.map((post) => (
+					<article class="post-card">
+						<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+						<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+						<p>{post.data.description}</p>
+						{post.data.tags.length > 0 && (
+							<ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+						)}
+					</article>
+				))}
 			</section>
 		</main>
 		<Footer />
