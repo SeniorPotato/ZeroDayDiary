@@ -10,8 +10,21 @@ tags:
 canonical: "https://zerodaydiary.com/blog/2026/03/why-the-next-wave-of-ai-security-stories-will-be-about-interfaces/"
 ---
 
-A lot of AI security debate still centres on the model in isolation. But the next wave of meaningful incidents is likely to be about interfaces: browser extensions, enterprise copilots, document connectors, automation bridges, and other layers where user intent, access permissions, and external systems meet.
+## What happened
+Recent reporting and product discussion around AI-enabled workplace tooling continues to point toward the same operational problem: the model is only one layer of the risk surface. Extensions, browser integrations, document connectors, and action-taking interfaces are becoming the place where access, workflow execution, and data exposure converge.
 
-That matters because interface layers are where practical compromise becomes easier to imagine. A risky prompt is one thing. A risky extension with access to chat histories, enterprise documents, or action-taking workflows is another. The security question is increasingly about what the surrounding tooling can read, trigger, or export.
+## Why it matters
+That changes how AI security should be assessed. A risky model output is one issue. A risky interface with access to chat history, enterprise documents, or execution pathways is a more practical incident path. The interface layer is where poor permissions, weak controls, and convenience-driven deployment decisions become real security problems.
 
-This is also why AI security reporting needs to pay attention to deployment architecture, not only to model behaviour. The most important failure may not be that the model answered badly. It may be that the surrounding system gave it too much reach.
+## Who is affected
+- organisations rolling out AI assistants and copilots
+- security teams responsible for browser, extension, and SaaS control surfaces
+- workers interacting with tools that blur the line between suggestion and action
+
+## What to watch next
+- whether official advisories begin focusing on AI extension or browser-layer exposure
+- whether enterprises tighten approval pathways for AI-integrated tooling
+- whether future incidents are explained through interface design rather than model behavior alone
+
+## Sources and verification status
+This article is an analytical briefing based on recent public reporting and deployment patterns. It should be read as a directional risk note, not a claim about one isolated incident.
