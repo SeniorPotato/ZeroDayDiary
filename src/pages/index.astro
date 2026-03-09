@@ -7,9 +7,13 @@ import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { CATEGORY_LIST } from '../data/categories';
 
-const allPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.map((post) => ({
+		...post,
+		readingTime: estimateReadingTime(`${post.data.title} ${post.data.description} ${post.body}`),
+	}));
 
 const [lead, ...remaining] = allPosts;
 const todaysBriefings = remaining.slice(0, 3);
@@ -57,9 +61,13 @@ const categoryCounts = Object.fromEntries(
 					</div>
 					<article class="lead-story">
 						<div class="lead-story-copy">
-							<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+							<div class="meta-row">
+								<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+								<span class="meta-dot">•</span>
+								<p class="meta">{lead.readingTime} min read</p>
+							</div>
 							<h3><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h3>
-							<p>{lead.data.description}</p>
+							<p class="desc">{lead.data.description}</p>
 							{lead.data.tags.length > 0 && <ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
 						</div>
 					</article>
@@ -74,9 +82,15 @@ const categoryCounts = Object.fromEntries(
 				<div class="post-grid dense three-up">
 					{todaysBriefings.map((post) => (
 						<article class="post-card compact-card">
-							<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-							<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
-							<p>{post.data.description}</p>
+							<div>
+								<div class="meta-row">
+									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+									<span class="meta-dot">•</span>
+									<p class="meta">{post.readingTime} min read</p>
+								</div>
+								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+								<p class="desc">{post.data.description}</p>
+							</div>
 							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
 						</article>
 					))}
@@ -91,9 +105,15 @@ const categoryCounts = Object.fromEntries(
 				<div class="post-grid dense two-up">
 					{latestUpdates.map((post) => (
 						<article class="post-card compact-card">
-							<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-							<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
-							<p>{post.data.description}</p>
+							<div>
+								<div class="meta-row">
+									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+									<span class="meta-dot">•</span>
+									<p class="meta">{post.readingTime} min read</p>
+								</div>
+								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+								<p class="desc">{post.data.description}</p>
+							</div>
 							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
 						</article>
 					))}
@@ -133,23 +153,29 @@ const categoryCounts = Object.fromEntries(
 	.button { display:inline-flex; align-items:center; justify-content:center; padding:.85rem 1.15rem; border-radius:999px; text-decoration:none; font-weight:700; }
 	.button.primary { background: linear-gradient(135deg, #06b6d4, #8b5cf6); color:#fff; box-shadow:0 16px 40px rgba(34,211,238,.16); }
 	.button.secondary { border:1px solid rgba(148,163,184,.24); color:#e2e8f0; }
-	.lead-story, .compact-card, .category-card { padding:1.1rem 1.15rem; border-radius:1.05rem; background:linear-gradient(180deg, rgba(15,23,42,.86), rgba(15,23,42,.64)); border:1px solid rgba(148,163,184,.12); box-shadow:0 18px 44px rgba(2,6,23,.25); }
+	.lead-story, .compact-card, .category-card { padding:1.1rem 1.15rem; border-radius:1.05rem; background:linear-gradient(180deg, rgba(15,23,42,.9), rgba(15,23,42,.7)); border:1px solid rgba(148,163,184,.12); box-shadow:0 18px 44px rgba(2,6,23,.25); }
 	.section-head.compact { margin-bottom: .95rem; }
 	.section-head.split { display:flex; justify-content:space-between; align-items:end; gap:1rem; }
 	.text-link { text-decoration:none; font-weight:700; color:#a5f3fc; }
 	.lead-block, .briefing-grid, .latest-updates, .categories-section { margin: 0 0 2rem; }
-	.lead-story-copy { max-width: 50rem; }
-	.lead-story h3, .compact-card h3, .category-card h3 { margin:.25rem 0 .45rem; }
+	.lead-story-copy { max-width: 52rem; }
+	.lead-story h3 { margin:.2rem 0 .5rem; font-size: 1.45rem; line-height:1.08; max-width: 28ch; }
+	.compact-card h3, .category-card h3 { margin:.2rem 0 .5rem; }
+	.compact-card h3 { font-size:1.16rem; line-height:1.12; max-width: 26ch; }
 	.lead-story h3 a, .compact-card h3 a, .category-card h3 a { text-decoration:none; color:#f8fafc; }
 	.post-grid.dense, .category-grid { display:grid; gap:.85rem; }
 	.post-grid.three-up { grid-template-columns: repeat(3, 1fr); }
 	.post-grid.two-up { grid-template-columns: repeat(2, 1fr); }
 	.category-grid { grid-template-columns: repeat(3, 1fr); }
-	.compact-card, .category-card { min-height: 0; }
+	.compact-card, .category-card { min-height: 250px; }
+	.compact-card { display:flex; flex-direction:column; justify-content:space-between; }
 	.compact-card p, .category-card p { color: rgba(226,232,240,.72); }
-	.meta { font-size:.82rem; color:#7dd3fc; margin-bottom:.25rem; }
-	.tag-list { display:flex; flex-wrap:wrap; gap:.4rem; list-style:none; padding:0; margin:.85rem 0 0; }
-	.tag-list li { font-size:.74rem; padding:.28rem .5rem; border-radius:999px; background:rgba(34,211,238,.12); color:#a5f3fc; }
+	.meta { font-size:.78rem; color:#bae6fd; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+	.meta-row { display:flex; gap:.55rem; align-items:center; flex-wrap:wrap; margin-bottom:.35rem; }
+	.meta-dot { color: rgba(148,163,184,.7); }
+	.desc { color: rgba(226,232,240,.8); line-height:1.58; font-size:.95rem; max-width:52ch; }
+	.tag-list { display:flex; flex-wrap:wrap; gap:.45rem; list-style:none; padding:0; margin:1rem 0 0; }
+	.tag-list li { font-size:.73rem; font-weight:700; padding:.32rem .55rem; border-radius:999px; background:rgba(34,211,238,.2); color:#ecfeff; border:1px solid rgba(103,232,249,.22); }
 	.category-count { font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:#7dd3fc; }
 	@media (max-width: 960px) {
 		.post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr 1fr; }

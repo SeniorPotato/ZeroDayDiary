@@ -7,6 +7,8 @@ import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 import { CATEGORY_META, CATEGORY_LIST } from '../../data/categories';
 
+const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
+
 export async function getStaticPaths() {
   return CATEGORY_LIST.map(({ slug }) => ({ params: { category: slug } }));
 }
@@ -15,7 +17,10 @@ const category = Astro.params.category ?? 'security';
 const meta = CATEGORY_META[category as keyof typeof CATEGORY_META];
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(category))).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+).map((post) => ({
+  ...post,
+  readingTime: estimateReadingTime(`${post.data.title} ${post.data.description} ${post.body}`),
+}));
 const [lead, ...rest] = posts;
 ---
 
@@ -31,21 +36,23 @@ const [lead, ...rest] = posts;
       .head-row { display:flex; justify-content:space-between; gap:1rem; align-items:end; }
       .text-link { text-decoration:none; color:#a5f3fc; font-weight:700; }
       .lead-card, .card {
-        background: linear-gradient(180deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.68));
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.7));
         border: 1px solid rgba(148, 163, 184, 0.12);
         border-radius: 1.05rem;
         box-shadow: 0 18px 44px rgba(2, 6, 23, 0.25);
       }
       .lead-card { padding: 1.2rem 1.25rem; margin: 0 0 1rem; }
-      .lead-card h2 { margin: .25rem 0 .45rem; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height:.98; max-width: 18ch; }
+      .lead-card h2 { margin: .2rem 0 .5rem; font-size: clamp(1.8rem, 3vw, 2.45rem); line-height:.98; max-width: 17ch; }
       .lead-card h2 a, .card h2 a { text-decoration:none; color:#f8fafc; }
-      .lead-card p, .card p { color: rgba(226,232,240,0.74); }
+      .lead-card .desc, .card .desc { color: rgba(226,232,240,0.8); line-height: 1.58; }
       .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .85rem; }
-      .card { padding: 1rem 1.05rem; }
-      .card h2 { margin: 0.3rem 0 0.45rem; font-size: 1.3rem; line-height:1.05; }
-      .meta { font-size: 0.8rem; color: #7dd3fc; }
-      .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; padding: 0; margin: 0.85rem 0 0; }
-      .tag-list li { font-size: 0.72rem; padding: 0.28rem 0.48rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+      .card { padding: 1rem 1.05rem; min-height: 250px; display:flex; flex-direction:column; justify-content:space-between; }
+      .card h2 { margin: 0.2rem 0 0.5rem; font-size: 1.16rem; line-height:1.12; max-width: 26ch; }
+      .meta { font-size: 0.78rem; color: #bae6fd; font-weight:700; letter-spacing: .04em; text-transform: uppercase; }
+      .meta-row { display:flex; gap:.55rem; align-items:center; flex-wrap:wrap; margin-bottom:.35rem; }
+      .meta-dot { color: rgba(148,163,184,.7); }
+      .tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
+      .tag-list li { font-size: 0.73rem; font-weight:700; padding: 0.32rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.2); color: #ecfeff; border: 1px solid rgba(103,232,249,.22); }
       @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .head-row { flex-direction:column; align-items:flex-start; } }
     </style>
   </head>
@@ -64,18 +71,28 @@ const [lead, ...rest] = posts;
       </section>
       {lead && (
         <article class="lead-card">
-          <p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+          <div class="meta-row">
+            <p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+            <span class="meta-dot">•</span>
+            <p class="meta">{lead.readingTime} min read</p>
+          </div>
           <h2><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h2>
-          <p>{lead.data.description}</p>
+          <p class="desc">{lead.data.description}</p>
           <ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>
         </article>
       )}
       <section class="grid">
         {rest.map((post) => (
           <article class="card">
-            <p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-            <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
-            <p>{post.data.description}</p>
+            <div>
+              <div class="meta-row">
+                <p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+                <span class="meta-dot">•</span>
+                <p class="meta">{post.readingTime} min read</p>
+              </div>
+              <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+              <p class="desc">{post.data.description}</p>
+            </div>
             <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
           </article>
         ))}
