@@ -9,7 +9,7 @@ import HeaderLink from './HeaderLink.astro';
 			<span class="brand-mark">ZD</span>
 			<span class="brand-copy">
 				<strong>{SITE_TITLE}</strong>
-				<small>Security • Privacy • AI Risk</small>
+				<small>Global risk journal</small>
 			</span>
 		</a>
 		<div class="internal-links">
@@ -27,48 +27,48 @@ import HeaderLink from './HeaderLink.astro';
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		backdrop-filter: blur(16px);
-		background: rgba(7, 10, 18, 0.82);
-		border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+		backdrop-filter: blur(14px);
+		background: rgba(7, 10, 18, 0.92);
+		border-bottom: 1px solid rgba(148, 163, 184, 0.14);
 	}
 	.brand {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.9rem;
+		gap: 0.8rem;
 		text-decoration: none;
-		padding: 0.9rem 0;
+		padding: 0.72rem 0;
 	}
 	.brand-mark {
 		display: grid;
 		place-items: center;
-		width: 2.5rem;
-		height: 2.5rem;
-		border-radius: 0.85rem;
-		font-size: 0.95rem;
+		width: 2.15rem;
+		height: 2.15rem;
+		border-radius: 0.7rem;
+		font-size: 0.84rem;
 		font-weight: 800;
 		letter-spacing: 0.08em;
 		color: #f8fafc;
 		background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
-		box-shadow: 0 10px 30px rgba(14, 165, 233, 0.25);
+		box-shadow: 0 10px 24px rgba(14, 165, 233, 0.2);
 	}
 	.brand-copy {
 		display: flex;
 		flex-direction: column;
-		line-height: 1.05;
+		line-height: 1.02;
 	}
 	.brand-copy strong {
 		color: #f8fafc;
-		font-size: 1rem;
-		letter-spacing: 0.02em;
+		font-size: 0.96rem;
+		letter-spacing: 0.01em;
 	}
 	.brand-copy small {
-		color: rgba(226, 232, 240, 0.74);
-		font-size: 0.72rem;
+		color: rgba(226, 232, 240, 0.64);
+		font-size: 0.67rem;
 		text-transform: uppercase;
-		letter-spacing: 0.14em;
+		letter-spacing: 0.16em;
 	}
 	nav {
-		width: min(1120px, calc(100% - 2rem));
+		width: min(1180px, calc(100% - 2rem));
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
@@ -78,14 +78,16 @@ import HeaderLink from './HeaderLink.astro';
 	.internal-links {
 		display: flex;
 		align-items: center;
-		gap: 0.35rem;
+		gap: 0.15rem;
 	}
 	:global(.internal-links a) {
-		padding: 1.2rem 0.9rem;
-		color: rgba(226, 232, 240, 0.85);
+		padding: 1rem 0.72rem;
+		color: rgba(226, 232, 240, 0.82);
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
-		font-size: 0.95rem;
+		font-size: 0.88rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
 	}
 	:global(.internal-links a.active) {
 		border-bottom-color: #22d3ee;
@@ -95,14 +97,13 @@ import HeaderLink from './HeaderLink.astro';
 		nav {
 			flex-direction: column;
 			align-items: flex-start;
-			padding: 0.4rem 0 0.7rem;
+			padding: 0.35rem 0 0.6rem;
 		}
 		.internal-links {
 			flex-wrap: wrap;
-			gap: 0.15rem;
 		}
 		:global(.internal-links a) {
-			padding: 0.55rem 0.65rem;
+			padding: 0.45rem 0.58rem;
 		}
 	}
 </style>
