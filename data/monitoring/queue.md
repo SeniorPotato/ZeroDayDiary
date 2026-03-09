@@ -23,16 +23,15 @@
   - Next action: connect to primary regulator or policy documents where possible
 
 ## DRAFTING
-- Last 48 hours watchlist: three signals worth tracking
-- Student cyber safety is becoming a global policy issue
-- Why the next wave of AI security stories will be about interfaces
-- Privacy guardrails are becoming an AI competitiveness question
+- Daily watchlist / roundup cadence post template
+- Next concrete event entry sourced from regulator / official notice
 
 ## REVIEW
 - *(empty)*
 
 ## HOLD
 - any item discovered only through weak aggregation without a stronger source path
+- items better suited to later pattern analysis rather than immediate publication
 
 ## REJECTED
 - pure opinion pieces without event signal
@@ -46,3 +45,7 @@
 - AI risk reporting should focus on deployment reality
 - Surveillance is expanding through ordinary systems
 - Global risk journals need taxonomy, not chaos
+- Last 48 hours watchlist: three signals worth tracking
+- Why the next wave of AI security stories will be about interfaces
+- Student cyber safety is becoming a global policy issue
+- Privacy guardrails are becoming an AI competitiveness question
