@@ -1,0 +1,75 @@
+# ZeroDayDiary Monitoring Workflow
+
+## Objective
+Create a repeatable, low-maintenance system for discovering, triaging, drafting, and publishing globally relevant security, privacy, and AI risk events.
+
+## Principles
+- No inbox-style email operations.
+- No reader PII capture.
+- Source-first, evidence-aware publication.
+- Draft before publish when confidence is incomplete.
+- Prefer durable archive quality over speed theater.
+
+## Workflow stages
+
+### 1. Discovery
+Inputs:
+- official alerts and regulator updates
+- trusted specialist reporting
+- search / RSS / manual web monitoring
+- public disclosures and incident notices
+
+Output:
+- candidate event added to `data/monitoring/intake.md`
+
+### 2. Triage
+Questions:
+- Is this globally relevant or a useful local signal?
+- Is there a primary source or at least a strong secondary source?
+- Which primary category fits best?
+- Is this an event entry, watchlist note, or analysis piece?
+
+Output:
+- event moved to `queue.md` with status
+
+### 3. Classification
+Assign:
+- one primary category
+- 2-4 supporting tags
+- confidence level: high / medium / low
+- content type: event / watchlist / analysis
+
+### 4. Drafting
+Create a Markdown draft using the event-entry template.
+Drafts should answer:
+- what happened
+- why it matters
+- who is affected
+- what to watch next
+
+### 5. Review gate
+Check:
+- title and standfirst accuracy
+- claims attributable
+- no hype language
+- taxonomy consistent
+- uncertainty explicitly stated
+
+### 6. Publish
+- merge through Git workflow
+- archive becomes searchable via category + search pages
+
+## Status model
+- DISCOVERED
+- TRIAGED
+- DRAFTING
+- REVIEW
+- PUBLISHED
+- HOLD
+- REJECTED
+
+## Cadence
+Recommended:
+- light scan: 2-3 times per day
+- structured roundup: daily or every 48 hours
+- deeper analysis: only when there is a meaningful pattern or policy shift

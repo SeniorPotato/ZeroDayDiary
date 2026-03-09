@@ -1,0 +1,108 @@
+name: Agent Publish Event Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: Event title
+        required: true
+        type: string
+      slug:
+        description: URL slug
+        required: true
+        type: string
+      description:
+        description: Standfirst / summary
+        required: true
+        type: string
+      tags:
+        description: Comma-separated tags
+        required: true
+        type: string
+      draft:
+        description: Keep as draft
+        required: true
+        default: true
+        type: boolean
+      what_happened:
+        description: What happened section
+        required: true
+        type: string
+      why_it_matters:
+        description: Why it matters section
+        required: true
+        type: string
+      who_is_affected:
+        description: Who is affected section
+        required: true
+        type: string
+      what_to_watch:
+        description: What to watch next section
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-event-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create event markdown
+        shell: bash
+        run: |
+          DATE=$(date +%F)
+          YEAR=$(date +%Y)
+          MONTH=$(date +%m)
+          mkdir -p src/content/blog/$YEAR/$MONTH
+          FILE="src/content/blog/$YEAR/$MONTH/${{ inputs.slug }}.md"
+          TAGS=$(printf '%s' "${{ inputs.tags }}" | awk -F',' '{printf("[\n"); for(i=1;i<=NF;i++) printf("  \"%s\"%s\n", $i, i<NF ? "," : ""); printf("]\n")}')
+          cat > "$FILE" <<EOF
+          ---
+          title: "${{ inputs.title }}"
+          description: "${{ inputs.description }}"
+          pubDate: $DATE
+          draft: ${{ inputs.draft }}
+          tags: $TAGS
+          canonical: "https://zerodaydiary.com/blog/$YEAR/$MONTH/${{ inputs.slug }}/"
+          ---
+
+          ## What happened
+          ${{ inputs.what_happened }}
+
+          ## Why it matters
+          ${{ inputs.why_it_matters }}
+
+          ## Who is affected
+          ${{ inputs.who_is_affected }}
+
+          ## What to watch next
+          ${{ inputs.what_to_watch }}
+          EOF
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "feat(event): add ${{ inputs.slug }} draft"
+          title: "feat(event): add ${{ inputs.title }}"
+          body: |
+            Agent-generated event draft.
+
+            - Title: ${{ inputs.title }}
+            - Slug: ${{ inputs.slug }}
+            - Draft: ${{ inputs.draft }}
+          branch: "feat/event-${{ inputs.slug }}"
+          delete-branch: true
