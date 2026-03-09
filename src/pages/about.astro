@@ -4,34 +4,77 @@ import Layout from '../layouts/BlogPost.astro';
 
 <Layout
 	title="About ZeroDayDiary"
-	description="Why ZeroDayDiary exists and how it tracks security, privacy, and AI risk developments around the world."
+	description="What ZeroDayDiary is, who runs it, and how it approaches security, privacy, and AI risk coverage."
 	pubDate={new Date('2026-03-09')}
 >
+	<h2>What this website is</h2>
 	<p>
-		ZeroDayDiary is an editorial monitoring project focused on security breaches, privacy harms,
-		regulatory shifts, platform abuse, and emerging AI risks. The goal is simple: collect signal,
-		reduce noise, and publish clear, reviewable briefings.
+		ZeroDayDiary is an independent editorial monitoring project focused on cybersecurity incidents,
+		privacy harms, surveillance expansion, regulatory change, and operational AI risk. It is not trying
+		to be a general technology news site. The purpose is narrower: track meaningful developments,
+		preserve useful context, and publish concise briefings that are easier to revisit than a fast-moving
+		social feed.
 	</p>
 
 	<p>
-		The publication is intentionally Git-first. Articles are drafted as Markdown, reviewed through pull
-		requests, checked in CI, and then deployed. That keeps the publishing chain transparent and reduces
-		the operational surface area.
+		The site is designed as an archive-first journal. That means the priority is not daily volume for its
+		own sake, but a durable record of what changed, why it matters, and what readers should watch next.
+	</p>
+
+	<h2>Who runs ZeroDayDiary</h2>
+	<p>
+		ZeroDayDiary is run as an independent solo publication by <strong>Peter J. Kovacs</strong>. The site is
+		not presented as a large newsroom or institutional research lab. It is a focused editorial project
+		with a clear scope, direct authorship, and a preference for signal over noise.
 	</p>
 
 	<p>
-		Coverage prioritises developments with real-world impact: surveillance expansion, critical security
-		failures, model misuse, safety regressions, policy enforcement gaps, and systemic governance risk.
+		That matters because readers should know what they are looking at: a curated specialist publication,
+		not anonymous content marketing, not a press-release mirror, and not an automated content farm.
+	</p>
+
+	<h2>How coverage works</h2>
+	<p>
+		Coverage prioritises developments with real-world impact: breaches, ransomware, enforcement action,
+		platform governance failures, harmful privacy shifts, public-sector risk, and emerging AI deployment
+		problems. The editorial model is deliberately structured around a repeatable format:
+	</p>
+
+	<ul>
+		<li>what happened</li>
+		<li>why it matters</li>
+		<li>who is affected</li>
+		<li>what to watch next</li>
+		<li>sources and verification status</li>
+	</ul>
+
+	<p>
+		The aim is clarity, consistency, and traceability. Readers should be able to understand the event,
+		the significance, and the confidence level without wading through filler.
+	</p>
+
+	<h2>Editorial approach</h2>
+	<p>
+		ZeroDayDiary is intentionally Git-first. Articles are written in Markdown, reviewed through a
+		versioned workflow, checked in CI, and then deployed. That keeps the publishing chain reviewable and
+		reduces unnecessary operational complexity.
 	</p>
 
 	<p>
-		This is not a hype site. It is a record of what matters, what changed, what broke, and what needs
-		closer scrutiny.
+		The site also avoids building unnecessary reader-data burden. For now, the operating model remains
+		simple: archive, RSS, and public pages first; no routine collection of reader email addresses unless
+		there is a strong reason to introduce that later.
+	</p>
+
+	<h2>What ZeroDayDiary is not</h2>
+	<p>
+		This is not a hype site, a breaking-news firehose, or an attempt to comment on every story in the
+		security industry. It is a narrow publication designed to make important developments legible over
+		time.
 	</p>
 
 	<p>
-		For now, the operating model is intentionally simple: no newsletter list, no routine collection of
-		reader email addresses, and no extra PII burden. The priority is the archive itself — a durable,
-		searchable reference point for globally relevant events.
+		In short: ZeroDayDiary exists to document meaningful security, privacy, and AI-risk developments in a
+		way that stays useful after the news cycle moves on.
 	</p>
 </Layout>
