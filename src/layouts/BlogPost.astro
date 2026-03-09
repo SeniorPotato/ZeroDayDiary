@@ -16,22 +16,73 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
 		<style>
-			main { width: min(1080px, calc(100% - 2rem)); max-width: none; padding-top: 2rem; }
-			.article-shell { display: grid; gap: 1.5rem; }
-			.hero-image img { display: block; width: 100%; margin: 0 auto; border-radius: 18px; box-shadow: var(--box-shadow); }
+			main { width: min(1120px, calc(100% - 2rem)); max-width: none; padding-top: 1.2rem; }
+			.article-shell { display: grid; gap: 1rem; }
+			.kicker { margin: 0 0 0.75rem; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.18em; color: #22d3ee; }
+			.hero-image img { display: block; width: 100%; margin: 0 auto; border-radius: 16px; box-shadow: 0 20px 56px rgba(2, 6, 23, 0.28); }
 			.prose {
 				width: min(760px, 100%);
 				margin: 0 auto;
-				padding: 1em 0 2em;
+				padding: 0 0 2rem;
 				color: rgb(var(--gray-dark));
 			}
-			.title { margin-bottom: 1.6rem; }
-			.title h1 { margin: 0.35rem 0 0.8rem; font-size: clamp(2.4rem, 6vw, 4.5rem); }
-			.date { margin-bottom: 0.8rem; color: rgb(var(--gray)); display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
+			.title-wrap {
+				width: min(860px, 100%);
+				margin: 0 auto;
+				padding: 0.6rem 0 0.5rem;
+			}
+			.title-panel {
+				padding: 1.2rem 1.25rem;
+				border-radius: 1rem;
+				background: linear-gradient(180deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.68));
+				border: 1px solid rgba(148, 163, 184, 0.12);
+				box-shadow: 0 18px 44px rgba(2, 6, 23, 0.24);
+			}
+			.title h1 { margin: 0.3rem 0 0.8rem; font-size: clamp(2.3rem, 5vw, 4.5rem); line-height: 0.95; max-width: 13ch; }
+			.date { margin-bottom: 0.9rem; color: rgba(226, 232, 240, 0.74); display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; font-size: 0.9rem; }
 			.last-updated-on { font-style: italic; }
-			.tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 0 0 1rem; }
-			.tag-list li { font-size: 0.78rem; padding: 0.35rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
-			.deck { font-size: 1.18rem; color: rgba(226, 232, 240, 0.78); max-width: 52ch; }
+			.tag-list { display: flex; flex-wrap: wrap; gap: 0.42rem; list-style: none; padding: 0; margin: 0 0 0.95rem; }
+			.tag-list li { font-size: 0.73rem; padding: 0.28rem 0.5rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+			.deck { font-size: 1.1rem; color: rgba(226, 232, 240, 0.78); max-width: 58ch; margin: 0; }
+			.article-meta-bar {
+				width: min(760px, 100%);
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				gap: 1rem;
+				padding: 0.3rem 0 0;
+				font-size: 0.78rem;
+				text-transform: uppercase;
+				letter-spacing: 0.12em;
+				color: rgba(148, 163, 184, 0.84);
+			}
+			:global(.prose h2) {
+				margin-top: 2rem;
+				padding-top: 1rem;
+				border-top: 1px solid rgba(148, 163, 184, 0.14);
+				font-size: 1.25rem;
+				letter-spacing: 0.01em;
+			}
+			:global(.prose p), :global(.prose li) {
+				font-size: 1.02rem;
+				line-height: 1.72;
+				color: rgba(226, 232, 240, 0.82);
+			}
+			:global(.prose ul) { padding-left: 1.15rem; }
+			:global(.prose a) { color: #7dd3fc; text-decoration: none; }
+			:global(.prose a:hover) { text-decoration: underline; }
+			:global(.prose strong) { color: #f8fafc; }
+			:global(.prose blockquote) {
+				margin: 1.5rem 0;
+				padding: 0.9rem 1rem;
+				border-left: 3px solid #22d3ee;
+				background: rgba(15, 23, 42, 0.5);
+				border-radius: 0.6rem;
+			}
+			@media (max-width: 760px) {
+				.title-panel { padding: 1rem; }
+				.article-meta-bar { flex-direction: column; }
+			}
 		</style>
 	</head>
 
@@ -39,14 +90,21 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 		<Header />
 		<main>
 			<article class="article-shell">
-				<div class="prose title">
-					<ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>
-					<div class="date">
-						<FormattedDate date={pubDate} />
-						{updatedDate && <div class="last-updated-on">Updated <FormattedDate date={updatedDate} /></div>}
+				<div class="title-wrap title">
+					<div class="title-panel">
+						<p class="kicker">Filed for the archive</p>
+						<ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>
+						<div class="date">
+							<FormattedDate date={pubDate} />
+							{updatedDate && <div class="last-updated-on">Updated <FormattedDate date={updatedDate} /></div>}
+						</div>
+						<h1>{title}</h1>
+						<p class="deck">{description}</p>
 					</div>
-					<h1>{title}</h1>
-					<p class="deck">{description}</p>
+				</div>
+				<div class="article-meta-bar">
+					<span>ZeroDayDiary briefing</span>
+					<span>Source record: <a href={canonical}>permalink</a></span>
 				</div>
 				<div class="hero-image">{heroImage && <Image width={1260} height={720} src={heroImage} alt="" />}</div>
 				<div class="prose">
