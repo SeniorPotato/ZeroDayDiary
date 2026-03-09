@@ -5,10 +5,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { getPrimaryCategory } from '../data/categories';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, tags = [] } = Astro.props;
+const primaryCat = getPrimaryCategory(tags);
 const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
 ---
 
@@ -18,7 +20,7 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 		<style>
 			main { width: min(1120px, calc(100% - 2rem)); max-width: none; padding-top: 1.2rem; }
 			.article-shell { display: grid; gap: 1rem; }
-			.kicker { margin: 0 0 0.75rem; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.18em; color: #22d3ee; }
+			.topic-chip { display:inline-block; font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.25rem .58rem; border-radius:999px; border:1px solid; margin:0 0 .85rem; }
 			.hero-image img { display: block; width: 100%; margin: 0 auto; border-radius: 16px; box-shadow: 0 20px 56px rgba(2, 6, 23, 0.28); }
 			.prose {
 				width: min(760px, 100%);
@@ -92,7 +94,7 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 			<article class="article-shell">
 				<div class="title-wrap title">
 					<div class="title-panel">
-						<p class="kicker">Filed for the archive</p>
+						<span class="topic-chip" style={`color:${primaryCat.color};background:${primaryCat.chipBackground};border-color:${primaryCat.color}33`}>{primaryCat.title}</span>
 						<ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>
 						<div class="date">
 							<FormattedDate date={pubDate} />

@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-import { CATEGORY_LIST } from '../data/categories';
+import { CATEGORY_LIST, getPrimaryCategory } from '../data/categories';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
@@ -61,6 +61,7 @@ const categoryCounts = Object.fromEntries(
 					</div>
 					<article class="lead-story">
 						<div class="lead-story-copy">
+							{(() => { const cat = getPrimaryCategory(lead.data.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
 							<div class="meta-row">
 								<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
 								<span class="meta-dot">•</span>
@@ -83,6 +84,7 @@ const categoryCounts = Object.fromEntries(
 					{todaysBriefings.map((post) => (
 						<article class="post-card compact-card">
 							<div>
+								{(() => { const cat = getPrimaryCategory(post.data.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
 								<div class="meta-row">
 									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
 									<span class="meta-dot">•</span>
@@ -106,6 +108,7 @@ const categoryCounts = Object.fromEntries(
 					{latestUpdates.map((post) => (
 						<article class="post-card compact-card">
 							<div>
+								{(() => { const cat = getPrimaryCategory(post.data.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
 								<div class="meta-row">
 									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
 									<span class="meta-dot">•</span>
@@ -176,6 +179,7 @@ const categoryCounts = Object.fromEntries(
 	.desc { color: rgba(226,232,240,.8); line-height:1.58; font-size:.95rem; max-width:52ch; }
 	.tag-list { display:flex; flex-wrap:wrap; gap:.45rem; list-style:none; padding:0; margin:1rem 0 0; }
 	.tag-list li { font-size:.73rem; font-weight:700; padding:.32rem .55rem; border-radius:999px; background:rgba(34,211,238,.2); color:#ecfeff; border:1px solid rgba(103,232,249,.22); }
+	.topic-chip { display:inline-block; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.22rem .52rem; border-radius:999px; border:1px solid; margin-bottom:.45rem; }
 	.category-count { font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:#7dd3fc; }
 	@media (max-width: 960px) {
 		.post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr 1fr; }
