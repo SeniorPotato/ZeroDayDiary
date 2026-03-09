@@ -1,8 +1,14 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
 ---
 
 <!doctype html>
@@ -12,38 +18,219 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+		<main class="home-shell">
+			<section class="hero">
+				<div class="hero-copy">
+					<p class="eyebrow">Global watchpoint</p>
+					<h1>Tracking security, privacy, and AI risk with signal over noise.</h1>
+					<p class="lede">
+						ZeroDayDiary is a fast-moving briefing site covering breaches, surveillance shifts,
+						governance gaps, platform abuse, and emerging AI threat patterns around the world.
+					</p>
+					<div class="hero-actions">
+						<a class="button primary" href="/blog">Read briefings</a>
+						<a class="button secondary" href="/about">Why this exists</a>
+					</div>
+				</div>
+				<div class="hero-panel">
+					<div class="panel-card">
+						<p class="panel-label">Coverage lanes</p>
+						<ul>
+							<li>Security incidents & exploitation trends</li>
+							<li>Privacy erosion, tracking, surveillance policy</li>
+							<li>AI misuse, governance failures, safety regressions</li>
+						</ul>
+					</div>
+					<div class="panel-card muted">
+						<p class="panel-label">Publishing model</p>
+						<p>
+							Markdown drafts → pull request review → CI checks → deploy. Every change is visible.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="signal-strip">
+				<div><span>01</span><strong>Git-first publishing</strong><p>Reviewable edits, low-maintenance delivery.</p></div>
+				<div><span>02</span><strong>Static architecture</strong><p>Minimal attack surface, fast global delivery.</p></div>
+				<div><span>03</span><strong>High-signal briefings</strong><p>Operationally relevant summaries over recycled commentary.</p></div>
+			</section>
+
+			<section class="latest">
+				<div class="section-head">
+					<p class="eyebrow">Latest briefings</p>
+					<h2>Recent entries</h2>
+				</div>
+				<div class="post-grid">
+					{posts.map((post) => (
+						<article class="post-card">
+							<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+							<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+							<p>{post.data.description}</p>
+							{post.data.tags.length > 0 && (
+								<ul class="tag-list">
+									{post.data.tags.map((tag) => <li>{tag}</li>)}
+								</ul>
+							)}
+						</article>
+					))}
+				</div>
+			</section>
 		</main>
 		<Footer />
 	</body>
 </html>
+
+<style>
+	.home-shell {
+		width: min(1120px, calc(100% - 2rem));
+		max-width: none;
+		padding: 2rem 0 4rem;
+	}
+	.hero {
+		display: grid;
+		grid-template-columns: 1.2fr 0.8fr;
+		gap: 2rem;
+		align-items: stretch;
+		padding: 3rem 0 2rem;
+	}
+	.eyebrow {
+		margin: 0 0 1rem;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.18em;
+		color: #22d3ee;
+	}
+	.hero h1 {
+		font-size: clamp(3rem, 7vw, 5.8rem);
+		line-height: 0.95;
+		max-width: 12ch;
+		margin-bottom: 1.3rem;
+	}
+	.lede {
+		font-size: 1.15rem;
+		max-width: 42rem;
+		color: rgba(226, 232, 240, 0.78);
+	}
+	.hero-actions {
+		display: flex;
+		gap: 0.9rem;
+		margin-top: 2rem;
+		flex-wrap: wrap;
+	}
+	.button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.95rem 1.3rem;
+		border-radius: 999px;
+		text-decoration: none;
+		font-weight: 700;
+	}
+	.button.primary {
+		background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+		color: #fff;
+		box-shadow: 0 16px 50px rgba(34, 211, 238, 0.18);
+	}
+	.button.secondary {
+		border: 1px solid rgba(148, 163, 184, 0.24);
+		color: #e2e8f0;
+	}
+	.hero-panel {
+		display: grid;
+		gap: 1rem;
+	}
+	.panel-card {
+		padding: 1.4rem;
+		border-radius: 1.3rem;
+		background: rgba(15, 23, 42, 0.78);
+		border: 1px solid rgba(34, 211, 238, 0.16);
+		box-shadow: 0 20px 60px rgba(2, 6, 23, 0.32);
+	}
+	.panel-card.muted {
+		border-color: rgba(139, 92, 246, 0.18);
+	}
+	.panel-label {
+		margin: 0 0 0.8rem;
+		font-size: 0.8rem;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: #93c5fd;
+	}
+	.panel-card ul {
+		margin: 0;
+		padding-left: 1.2rem;
+		color: rgba(226, 232, 240, 0.86);
+	}
+	.signal-strip {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+		margin: 1rem 0 4rem;
+	}
+	.signal-strip div,
+	.post-card {
+		padding: 1.3rem;
+		border-radius: 1.2rem;
+		background: rgba(15, 23, 42, 0.66);
+		border: 1px solid rgba(148, 163, 184, 0.12);
+	}
+	.signal-strip span {
+		display: inline-block;
+		margin-bottom: 0.9rem;
+		color: #22d3ee;
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+	.signal-strip strong {
+		display: block;
+		margin-bottom: 0.5rem;
+	}
+	.signal-strip p,
+	.post-card p {
+		margin: 0;
+		color: rgba(226, 232, 240, 0.72);
+	}
+	.section-head h2 {
+		margin-bottom: 1.4rem;
+	}
+	.post-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+	}
+	.post-card h3 {
+		margin: 0.55rem 0 0.6rem;
+		font-size: 1.35rem;
+	}
+	.post-card h3 a {
+		text-decoration: none;
+		color: #f8fafc;
+	}
+	.post-card .meta {
+		font-size: 0.85rem;
+		color: #7dd3fc;
+	}
+	.tag-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem;
+		list-style: none;
+		padding: 0;
+		margin: 1rem 0 0;
+	}
+	.tag-list li {
+		font-size: 0.78rem;
+		padding: 0.35rem 0.55rem;
+		border-radius: 999px;
+		background: rgba(34, 211, 238, 0.12);
+		color: #a5f3fc;
+	}
+	@media (max-width: 960px) {
+		.hero,
+		.signal-strip,
+		.post-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
