@@ -64,7 +64,14 @@ jobs:
           canonical: "https://zerodaydiary.com/blog/${{ inputs.slug }}/"
           ---
 
-          Write article content here.
+          ## What happened
+          Add the initial article draft here.
+
+          ## Why it matters
+          Explain the operational, regulatory, or public-interest significance.
+
+          ## What to watch next
+          Capture the next checkpoints, unresolved questions, or likely follow-on developments.
           EOF
 
       - name: Create Pull Request
