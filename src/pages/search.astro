@@ -1,0 +1,141 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { SITE_TITLE } from '../consts';
+import { CATEGORY_LIST } from '../data/categories';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((post) => ({
+    id: post.id,
+    title: post.data.title,
+    description: post.data.description,
+    pubDate: post.data.pubDate,
+    tags: post.data.tags,
+  }));
+const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Search | ${SITE_TITLE}`} description="Search and filter the ZeroDayDiary archive." />
+    <style>
+      main { width: min(1180px, calc(100% - 2rem)); max-width: none; }
+      .layout { display: grid; grid-template-columns: 320px 1fr; gap: 1rem; align-items: start; }
+      .panel, .result-card {
+        padding: 1.25rem;
+        border-radius: 1.35rem;
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.62));
+        border: 1px solid rgba(148, 163, 184, 0.12);
+        box-shadow: 0 22px 60px rgba(2, 6, 23, 0.28);
+      }
+      .results { display: grid; gap: 1rem; }
+      input[type="search"] {
+        width: 100%; padding: 0.95rem 1rem; border-radius: 0.9rem; border: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(2,6,23,0.55); color: #f8fafc;
+      }
+      .pill-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
+      .pill {
+        border: 1px solid rgba(34,211,238,0.18); background: rgba(34,211,238,0.1); color: #a5f3fc;
+        padding: 0.45rem 0.7rem; border-radius: 999px; cursor: pointer; font-size: 0.82rem;
+      }
+      .pill.active { background: rgba(34,211,238,0.22); color: #ecfeff; }
+      .result-card h2 { margin: 0.35rem 0 0.5rem; font-size: 1.45rem; }
+      .result-card a { text-decoration: none; color: #f8fafc; }
+      .meta { color: #7dd3fc; font-size: 0.85rem; }
+      .tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
+      .tag-list li { font-size: 0.78rem; padding: 0.35rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+      .count { color: rgba(226,232,240,0.68); margin-bottom: 1rem; }
+      @media (max-width: 960px) { .layout { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="page-head">
+        <p class="eyebrow">Archive tools</p>
+        <h1>Search and filter</h1>
+        <p>Find events by keyword, category, or tag without leaving the static archive model.</p>
+      </section>
+      <section class="layout">
+        <aside class="panel">
+          <label for="searchBox">Keyword</label>
+          <input id="searchBox" type="search" placeholder="Search headlines, descriptions, tags..." />
+
+          <div>
+            <p class="eyebrow" style="margin-top:1.2rem;">Categories</p>
+            <div class="pill-list" id="categoryFilters">
+              {CATEGORY_LIST.map((category) => <button class="pill" data-filter={category.slug}>{category.title}</button>)}
+            </div>
+          </div>
+
+          <div>
+            <p class="eyebrow" style="margin-top:1.2rem;">Tags</p>
+            <div class="pill-list" id="tagFilters">
+              {allTags.map((tag) => <button class="pill" data-filter={tag}>{tag}</button>)}
+            </div>
+          </div>
+        </aside>
+
+        <div>
+          <p class="count" id="resultCount"></p>
+          <section class="results" id="results">
+            {posts.map((post) => (
+              <article class="result-card" data-title={post.title.toLowerCase()} data-description={post.description.toLowerCase()} data-tags={post.tags.join(' ').toLowerCase()}>
+                <p class="meta"><FormattedDate date={post.pubDate} /></p>
+                <h2><a href={`/blog/${post.id}/`}>{post.title}</a></h2>
+                <p>{post.description}</p>
+                <ul class="tag-list">{post.tags.map((tag) => <li>{tag}</li>)}</ul>
+              </article>
+            ))}
+          </section>
+        </div>
+      </section>
+    </main>
+    <Footer />
+
+    <script>
+      const searchBox = document.getElementById('searchBox');
+      const results = [...document.querySelectorAll('#results .result-card')];
+      const resultCount = document.getElementById('resultCount');
+      const categoryButtons = [...document.querySelectorAll('#categoryFilters .pill')];
+      const tagButtons = [...document.querySelectorAll('#tagFilters .pill')];
+      let activeCategory = '';
+      let activeTag = '';
+
+      const render = () => {
+        const term = (searchBox.value || '').trim().toLowerCase();
+        let visible = 0;
+        for (const card of results) {
+          const haystack = [card.dataset.title, card.dataset.description, card.dataset.tags].join(' ');
+          const matchesTerm = !term || haystack.includes(term);
+          const matchesCategory = !activeCategory || (card.dataset.tags || '').includes(activeCategory);
+          const matchesTag = !activeTag || (card.dataset.tags || '').includes(activeTag);
+          const show = matchesTerm && matchesCategory && matchesTag;
+          card.style.display = show ? '' : 'none';
+          if (show) visible += 1;
+        }
+        resultCount.textContent = `${visible} result${visible === 1 ? '' : 's'} shown`;
+      };
+
+      const toggleSingle = (buttons, clicked, setterName) => {
+        const current = setterName === 'category' ? activeCategory : activeTag;
+        const value = clicked.dataset.filter || '';
+        const next = current === value ? '' : value;
+        buttons.forEach((btn) => btn.classList.toggle('active', btn === clicked && next !== ''));
+        if (setterName === 'category') activeCategory = next;
+        if (setterName === 'tag') activeTag = next;
+        render();
+      };
+
+      searchBox.addEventListener('input', render);
+      categoryButtons.forEach((btn) => btn.addEventListener('click', () => toggleSingle(categoryButtons, btn, 'category')));
+      tagButtons.forEach((btn) => btn.addEventListener('click', () => toggleSingle(tagButtons, btn, 'tag')));
+      render();
+    </script>
+  </body>
+</html>
