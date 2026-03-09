@@ -10,27 +10,11 @@ type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, tags = [] } = Astro.props;
 const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
-const jsonLd = {
-	'@context': 'https://schema.org',
-	'@type': 'BlogPosting',
-	headline: title,
-	description,
-	datePublished: pubDate,
-	dateModified: updatedDate ?? pubDate,
-	mainEntityOfPage: canonical,
-	url: canonical,
-	keywords: tags.join(', '),
-	publisher: {
-		'@type': 'Organization',
-		name: 'ZeroDayDiary',
-	},
-};
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
-		<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 		<style>
 			main { width: min(1080px, calc(100% - 2rem)); max-width: none; padding-top: 2rem; }
 			.article-shell { display: grid; gap: 1.5rem; }

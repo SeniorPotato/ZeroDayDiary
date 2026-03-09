@@ -13,13 +13,6 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = FallbackImage } = Astro.props;
 const ogImage = new URL(image.src, Astro.url);
-const jsonLd = {
-	'@context': 'https://schema.org',
-	'@type': 'WebSite',
-	name: SITE_TITLE,
-	description,
-	url: Astro.site,
-};
 ---
 
 <meta charset="utf-8" />
@@ -48,4 +41,3 @@ const jsonLd = {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogImage} />
-<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
