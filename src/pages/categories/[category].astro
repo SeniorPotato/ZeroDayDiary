@@ -16,6 +16,7 @@ const meta = CATEGORY_META[category as keyof typeof CATEGORY_META];
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(category))).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+const [lead, ...rest] = posts;
 ---
 
 <!doctype html>
@@ -24,34 +25,53 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tag
     <BaseHead title={`${meta.title} | ${SITE_TITLE}`} description={meta.description} />
     <style>
       main { width: min(1180px, calc(100% - 2rem)); max-width: none; }
-      .page-head { margin: 1rem 0 2rem; }
+      .page-head { margin: .8rem 0 1.6rem; }
+      .eyebrow { margin:0 0 .7rem; font-size:.76rem; text-transform:uppercase; letter-spacing:.18em; color:#22d3ee; }
       .page-head p { max-width: 50rem; color: rgba(226,232,240,0.74); }
-      .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-      .card {
-        padding: 1.35rem;
-        border-radius: 1.35rem;
-        background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.62));
+      .head-row { display:flex; justify-content:space-between; gap:1rem; align-items:end; }
+      .text-link { text-decoration:none; color:#a5f3fc; font-weight:700; }
+      .lead-card, .card {
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.68));
         border: 1px solid rgba(148, 163, 184, 0.12);
-        box-shadow: 0 22px 60px rgba(2, 6, 23, 0.28);
+        border-radius: 1.05rem;
+        box-shadow: 0 18px 44px rgba(2, 6, 23, 0.25);
       }
-      .card h2 { margin: 0.35rem 0 0.6rem; font-size: 1.6rem; }
-      .card h2 a { text-decoration: none; color: #f8fafc; }
-      .meta { font-size: 0.85rem; color: #7dd3fc; }
-      .tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
-      .tag-list li { font-size: 0.78rem; padding: 0.35rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
-      @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+      .lead-card { padding: 1.2rem 1.25rem; margin: 0 0 1rem; }
+      .lead-card h2 { margin: .25rem 0 .45rem; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height:.98; max-width: 18ch; }
+      .lead-card h2 a, .card h2 a { text-decoration:none; color:#f8fafc; }
+      .lead-card p, .card p { color: rgba(226,232,240,0.74); }
+      .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .85rem; }
+      .card { padding: 1rem 1.05rem; }
+      .card h2 { margin: 0.3rem 0 0.45rem; font-size: 1.3rem; line-height:1.05; }
+      .meta { font-size: 0.8rem; color: #7dd3fc; }
+      .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; padding: 0; margin: 0.85rem 0 0; }
+      .tag-list li { font-size: 0.72rem; padding: 0.28rem 0.48rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+      @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .head-row { flex-direction:column; align-items:flex-start; } }
     </style>
   </head>
   <body>
     <Header />
     <main>
       <section class="page-head">
-        <p class="eyebrow">Category / {meta.title}</p>
-        <h1>{meta.title}</h1>
-        <p>{meta.description}</p>
+        <div class="head-row">
+          <div>
+            <p class="eyebrow">Category / {meta.title}</p>
+            <h1>{meta.title}</h1>
+            <p>{meta.description}</p>
+          </div>
+          <a class="text-link" href="/blog">All briefings →</a>
+        </div>
       </section>
+      {lead && (
+        <article class="lead-card">
+          <p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
+          <h2><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h2>
+          <p>{lead.data.description}</p>
+          <ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+        </article>
+      )}
       <section class="grid">
-        {posts.map((post) => (
+        {rest.map((post) => (
           <article class="card">
             <p class="meta"><FormattedDate date={post.data.pubDate} /></p>
             <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
