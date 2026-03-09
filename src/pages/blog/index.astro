@@ -6,7 +6,7 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
-import { getPrimaryCategory } from '../../data/categories';
+import { getPrimaryCategory, getTagTheme } from '../../data/categories';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
@@ -49,7 +49,8 @@ const [lead, ...rest] = posts;
 			.meta-row { display:flex; gap:.55rem; align-items:center; flex-wrap:wrap; margin-bottom:.35rem; }
 			.meta-dot { color: rgba(148,163,184,.7); }
 			.tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
-			.tag-list li { font-size: 0.73rem; font-weight:700; padding: 0.32rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.2); color: #ecfeff; border: 1px solid rgba(103,232,249,.22); }
+			.tag-list li { font-size: 0.73rem; font-weight:700; padding: 0.32rem 0.55rem; border-radius: 999px; border: 1px solid; }
+			.lead-copy .topic-chip { margin-top: .1rem; }
 			.archive-label { display: flex; align-items: center; gap: 0.55rem; margin-bottom: .8rem; color: #93c5fd; text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.74rem; }
 			.archive-label::before { content: ''; width: 2rem; height: 1px; background: rgba(34,211,238,0.6); }
 			.topic-chip { display:inline-block; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.22rem .52rem; border-radius:999px; border:1px solid; margin-bottom:.45rem; }
@@ -74,6 +75,7 @@ const [lead, ...rest] = posts;
 				<section class="hero-listing">
 					<article class="lead-card">
 						<div class="lead-copy">
+							{(() => { const cat = getPrimaryCategory(lead.data.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
 							<div class="meta-row">
 								<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
 								<span class="meta-dot">•</span>
@@ -82,7 +84,7 @@ const [lead, ...rest] = posts;
 							<h2><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h2>
 							<p class="desc">{lead.data.description}</p>
 							{lead.data.tags.length > 0 && (
-								<ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+								<ul class="tag-list">{lead.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>
 							)}
 						</div>
 						{lead.data.heroImage && (
@@ -105,7 +107,7 @@ const [lead, ...rest] = posts;
 							<p class="desc">{post.data.description}</p>
 						</div>
 						{post.data.tags.length > 0 && (
-							<ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
+							<ul class="tag-list">{post.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>
 						)}
 					</article>
 				))}

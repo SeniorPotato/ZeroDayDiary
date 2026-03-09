@@ -45,3 +45,16 @@ export function getPrimaryCategory(tags: string[]) {
   const slug = CATEGORY_PRIORITY.find((item) => tags.includes(item)) ?? 'governance';
   return { slug, ...CATEGORY_META[slug] };
 }
+
+export function getTagTheme(tag: string) {
+  if (tag in CATEGORY_META) {
+    const key = tag as keyof typeof CATEGORY_META;
+    return CATEGORY_META[key];
+  }
+
+  return {
+    title: tag,
+    color: '#67e8f9',
+    chipBackground: 'rgba(34, 211, 238, 0.16)',
+  };
+}

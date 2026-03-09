@@ -5,7 +5,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
-import { getPrimaryCategory } from '../data/categories';
+import { getPrimaryCategory, getTagTheme } from '../data/categories';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -44,7 +44,7 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 			.date { margin-bottom: 0.9rem; color: rgba(226, 232, 240, 0.74); display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; font-size: 0.9rem; }
 			.last-updated-on { font-style: italic; }
 			.tag-list { display: flex; flex-wrap: wrap; gap: 0.42rem; list-style: none; padding: 0; margin: 0 0 0.95rem; }
-			.tag-list li { font-size: 0.73rem; padding: 0.28rem 0.5rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
+			.tag-list li { font-size: 0.73rem; padding: 0.28rem 0.5rem; border-radius: 999px; border:1px solid; }
 			.deck { font-size: 1.1rem; color: rgba(226, 232, 240, 0.78); max-width: 58ch; margin: 0; }
 			.article-meta-bar {
 				width: min(760px, 100%);
@@ -95,7 +95,7 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 				<div class="title-wrap title">
 					<div class="title-panel">
 						<span class="topic-chip" style={`color:${primaryCat.color};background:${primaryCat.chipBackground};border-color:${primaryCat.color}33`}>{primaryCat.title}</span>
-						<ul class="tag-list">{tags.map((tag) => <li>{tag}</li>)}</ul>
+						{tags.length > 0 && <ul class="tag-list">{tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{updatedDate && <div class="last-updated-on">Updated <FormattedDate date={updatedDate} /></div>}

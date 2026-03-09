@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-import { CATEGORY_LIST, getPrimaryCategory } from '../data/categories';
+import { CATEGORY_LIST, getPrimaryCategory, getTagTheme } from '../data/categories';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
@@ -69,7 +69,7 @@ const categoryCounts = Object.fromEntries(
 							</div>
 							<h3><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h3>
 							<p class="desc">{lead.data.description}</p>
-							{lead.data.tags.length > 0 && <ul class="tag-list">{lead.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
+							{lead.data.tags.length > 0 && <ul class="tag-list">{lead.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						</div>
 					</article>
 				</section>
@@ -93,7 +93,7 @@ const categoryCounts = Object.fromEntries(
 								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
 								<p class="desc">{post.data.description}</p>
 							</div>
-							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
+							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						</article>
 					))}
 				</div>
@@ -117,7 +117,7 @@ const categoryCounts = Object.fromEntries(
 								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
 								<p class="desc">{post.data.description}</p>
 							</div>
-							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>}
+							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						</article>
 					))}
 				</div>
@@ -178,7 +178,7 @@ const categoryCounts = Object.fromEntries(
 	.meta-dot { color: rgba(148,163,184,.7); }
 	.desc { color: rgba(226,232,240,.8); line-height:1.58; font-size:.95rem; max-width:52ch; }
 	.tag-list { display:flex; flex-wrap:wrap; gap:.45rem; list-style:none; padding:0; margin:1rem 0 0; }
-	.tag-list li { font-size:.73rem; font-weight:700; padding:.32rem .55rem; border-radius:999px; background:rgba(34,211,238,.2); color:#ecfeff; border:1px solid rgba(103,232,249,.22); }
+	.tag-list li { font-size:.73rem; font-weight:700; padding:.32rem .55rem; border-radius:999px; border:1px solid; }
 	.topic-chip { display:inline-block; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.22rem .52rem; border-radius:999px; border:1px solid; margin-bottom:.45rem; }
 	.category-count { font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:#7dd3fc; }
 	@media (max-width: 960px) {
