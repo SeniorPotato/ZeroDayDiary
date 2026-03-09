@@ -18,27 +18,31 @@ const [lead, ...rest] = posts;
 	<head>
 		<BaseHead title={`Briefings | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
 		<style>
-			main { width: min(1120px, calc(100% - 2rem)); max-width: none; }
-			.hero-listing { margin: 2rem 0 3rem; }
+			main { width: min(1180px, calc(100% - 2rem)); max-width: none; }
+			.header-copy { margin: 1rem 0 2.4rem; }
+			.header-copy p { max-width: 50rem; color: rgba(226,232,240,0.74); }
+			.hero-listing { margin: 0 0 2.2rem; }
 			.lead-card, .post-card {
-				background: rgba(15, 23, 42, 0.72);
+				background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.62));
 				border: 1px solid rgba(148, 163, 184, 0.14);
-				border-radius: 1.3rem;
+				border-radius: 1.4rem;
 				overflow: hidden;
+				box-shadow: 0 22px 60px rgba(2, 6, 23, 0.28);
 			}
-			.lead-card { display: grid; grid-template-columns: 1.1fr 0.9fr; }
-			.lead-copy { padding: 1.5rem; }
-			.lead-copy h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 0.8rem; }
+			.lead-card { display: grid; grid-template-columns: 1.05fr 0.95fr; }
+			.lead-copy { padding: 1.8rem; }
+			.lead-copy h2 { font-size: clamp(2.2rem, 4vw, 3.6rem); margin-bottom: 0.8rem; max-width: 13ch; }
 			.lead-copy a, .post-card a { text-decoration: none; color: #f8fafc; }
 			.lead-copy p, .post-card p { color: rgba(226,232,240,0.74); }
 			.lead-media img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
 			.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-			.post-card { padding: 1.2rem; }
-			.post-card h3 { margin: 0.4rem 0 0.6rem; font-size: 1.45rem; }
+			.post-card { padding: 1.35rem; min-height: 220px; display: flex; flex-direction: column; justify-content: space-between; }
+			.post-card h3 { margin: 0.4rem 0 0.6rem; font-size: 1.5rem; }
 			.meta { color: #7dd3fc; font-size: 0.86rem; }
 			.tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 1rem 0 0; }
 			.tag-list li { font-size: 0.78rem; padding: 0.35rem 0.55rem; border-radius: 999px; background: rgba(34,211,238,0.12); color: #a5f3fc; }
-			.header-copy { margin: 1rem 0 2rem; }
+			.archive-label { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1rem; color: #93c5fd; text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.78rem; }
+			.archive-label::before { content: ''; width: 2.2rem; height: 1px; background: rgba(34,211,238,0.6); }
 			@media (max-width: 900px) {
 				.lead-card, .grid { grid-template-columns: 1fr; }
 			}
@@ -48,9 +52,9 @@ const [lead, ...rest] = posts;
 		<Header />
 		<main>
 			<section class="header-copy">
-				<p class="eyebrow">Archive</p>
+				<div class="archive-label">Archive / briefings</div>
 				<h1>Briefings and field notes</h1>
-				<p>Fast summaries of security failures, privacy regressions, regulatory movement, and AI risk signals worth tracking.</p>
+				<p>Structured reporting on cybersecurity incidents, privacy harms, platform governance, and AI operational risk — written for people who need clear signal, not recycled noise.</p>
 			</section>
 			{lead && (
 				<section class="hero-listing">
@@ -72,9 +76,11 @@ const [lead, ...rest] = posts;
 			<section class="grid">
 				{rest.map((post) => (
 					<article class="post-card">
-						<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-						<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
-						<p>{post.data.description}</p>
+						<div>
+							<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
+							<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+							<p>{post.data.description}</p>
+						</div>
 						{post.data.tags.length > 0 && (
 							<ul class="tag-list">{post.data.tags.map((tag) => <li>{tag}</li>)}</ul>
 						)}

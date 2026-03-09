@@ -6,7 +6,7 @@
 	--gray-light: 30, 41, 59;
 	--gray-dark: 226, 232, 240;
 	--gray-gradient: rgba(8, 15, 31, 0.96), rgba(15, 23, 42, 1);
-	--box-shadow: 0 12px 38px rgba(2, 6, 23, 0.44);
+	--box-shadow: 0 18px 44px rgba(2, 6, 23, 0.48);
 }
 @font-face {
 	font-family: "Atkinson";
@@ -22,9 +22,7 @@
 	font-style: normal;
 	font-display: swap;
 }
-html {
-	scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 body {
 	font-family: "Atkinson", sans-serif;
 	margin: 0;
@@ -32,12 +30,23 @@ body {
 	text-align: left;
 	background:
 		radial-gradient(circle at top, rgba(34, 211, 238, 0.08), transparent 18%),
+		radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1), transparent 24%),
 		linear-gradient(180deg, #020617 0%, #08101f 22%, #0f172a 100%);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
+}
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+	background-size: 42px 42px;
+	opacity: 0.18;
+	mask-image: radial-gradient(circle at center, black 30%, transparent 82%);
 }
 main {
 	width: 720px;
@@ -53,15 +62,15 @@ h5,
 h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
-	line-height: 1.08;
+	line-height: 1.02;
+	letter-spacing: -0.03em;
 }
 h1 { font-size: 3.052em; }
 h2 { font-size: 2.441em; }
 h3 { font-size: 1.953em; }
 h4 { font-size: 1.563em; }
 h5 { font-size: 1.25em; }
-strong,
-b { font-weight: 700; }
+strong, b { font-weight: 700; }
 a { color: var(--accent); }
 a:hover { color: #67e8f9; }
 p { margin-bottom: 1em; }
@@ -95,6 +104,7 @@ blockquote {
 hr { border: none; border-top: 1px solid rgba(148, 163, 184, 0.16); }
 @media (max-width: 720px) {
 	body { font-size: 18px; }
+	body::before { display: none; }
 	main { padding: 1em; }
 }
 .sr-only {
