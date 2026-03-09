@@ -1,0 +1,47 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import { CATEGORY_LIST } from '../../data/categories';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Categories | ${SITE_TITLE}`} description="Browse ZeroDayDiary by category." />
+    <style>
+      main { width: min(1180px, calc(100% - 2rem)); max-width: none; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+      .card {
+        padding: 1.35rem;
+        border-radius: 1.35rem;
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.62));
+        border: 1px solid rgba(148, 163, 184, 0.12);
+        box-shadow: 0 22px 60px rgba(2, 6, 23, 0.28);
+      }
+      .card a { text-decoration: none; color: #f8fafc; }
+      .card p { color: rgba(226,232,240,0.74); }
+      @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="page-head">
+        <p class="eyebrow">Browse</p>
+        <h1>Categories</h1>
+        <p>Navigate the archive by the major risk lanes ZeroDayDiary is tracking.</p>
+      </section>
+      <section class="grid">
+        {CATEGORY_LIST.map((category) => (
+          <article class="card">
+            <h2><a href={`/categories/${category.slug}/`}>{category.title}</a></h2>
+            <p>{category.description}</p>
+          </article>
+        ))}
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
