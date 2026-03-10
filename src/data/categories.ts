@@ -1,37 +1,37 @@
 export const CATEGORY_META = {
   security: {
     title: 'Security',
-    description: 'Breaches, vulnerabilities, exploit activity, ransomware, and systemic security failures.',
+    description: 'Cybersecurity briefings on breaches, exploited vulnerabilities, ransomware, incident response, and systemic security failures.',
     color: '#22d3ee',
     chipBackground: 'rgba(34, 211, 238, 0.18)',
   },
   privacy: {
     title: 'Privacy',
-    description: 'Data misuse, tracking changes, surveillance expansion, and privacy enforcement developments.',
+    description: 'Privacy briefings on data misuse, tracking changes, surveillance harms, regulator action, and data rights enforcement.',
     color: '#a78bfa',
     chipBackground: 'rgba(167, 139, 250, 0.18)',
   },
   'ai-risk': {
     title: 'AI Risk',
-    description: 'Model misuse, safety regressions, governance gaps, and deployment-driven AI risk.',
+    description: 'AI risk briefings on model misuse, deployment failures, safety regressions, governance gaps, and synthetic-media harms.',
     color: '#f59e0b',
     chipBackground: 'rgba(245, 158, 11, 0.18)',
   },
   governance: {
     title: 'Policy',
-    description: 'Regulation, enforcement, standards, court action, and institutional accountability.',
+    description: 'Policy and regulation briefings on enforcement, standards, court action, regulator opinions, and institutional accountability.',
     color: '#94a3b8',
     chipBackground: 'rgba(148, 163, 184, 0.18)',
   },
   infrastructure: {
     title: 'Infrastructure',
-    description: 'Cloud, telecoms, transport, public systems, and critical infrastructure risk developments.',
+    description: 'Infrastructure briefings on cloud, telecoms, public systems, network edge, and critical infrastructure risk developments.',
     color: '#38bdf8',
     chipBackground: 'rgba(56, 189, 248, 0.18)',
   },
   surveillance: {
     title: 'Surveillance',
-    description: 'Biometrics, monitoring systems, identity correlation, and public/private observation systems.',
+    description: 'Surveillance briefings on biometrics, monitoring systems, identity correlation, tracking technology, and public or private observation systems.',
     color: '#cbd5e1',
     chipBackground: 'rgba(203, 213, 225, 0.18)',
   },

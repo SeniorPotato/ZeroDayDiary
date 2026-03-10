@@ -1,6 +1,6 @@
 ---
 title: "Digital Omnibus opinion shows EU privacy regulators will tolerate simplification but not weaker definitions"
-description: "The EDPB and EDPS say parts of the EU’s Digital Omnibus proposal could reduce burden and improve certainty, but warn that proposed changes to the definition of personal data would go too far."
+description: "EU privacy regulators say the Digital Omnibus proposal can simplify compliance, but warn that narrowing the definition of personal data would weaken data protection."
 pubDate: 2026-03-10
 draft: false
 tags:

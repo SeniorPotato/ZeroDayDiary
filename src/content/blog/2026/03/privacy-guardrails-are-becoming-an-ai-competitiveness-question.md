@@ -1,6 +1,6 @@
 ---
 title: "Privacy guardrails are becoming an AI competitiveness question"
-description: "Weak privacy controls can make AI deployment politically unstable, operationally fragile, and harder to sustain over time."
+description: "Weak privacy controls can make AI systems harder to deploy, govern, and defend over time, turning privacy into an operational AI risk question."
 pubDate: 2026-03-09
 draft: false
 tags:

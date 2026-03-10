@@ -1,6 +1,6 @@
 ---
 title: "EDPB links cross-border data-transfer rules with AI skills and governance capacity"
-description: "A June 2025 EDPB update combined finalized guidance on third-country authority requests with new AI and data-protection training material, pointing to a more operational privacy-governance agenda."
+description: "An EDPB update on cross-border data requests and AI training signals a more operational European privacy-governance agenda for organisations handling sensitive data."
 pubDate: 2026-03-09
 draft: false
 tags:

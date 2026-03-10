@@ -1,6 +1,6 @@
 ---
 title: "Student cyber safety is becoming a global policy issue"
-description: "Education systems are increasingly exposed to AI-enabled fraud, manipulation, and surveillance, making student cyber safety a serious governance topic."
+description: "Student cyber safety is emerging as a global policy issue as schools face AI-enabled fraud, platform abuse, manipulation, and surveillance risk."
 pubDate: 2026-03-09
 draft: false
 tags:

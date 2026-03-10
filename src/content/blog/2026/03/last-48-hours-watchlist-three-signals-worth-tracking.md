@@ -1,6 +1,6 @@
 ---
 title: "Last 48 hours watchlist: three signals worth tracking"
-description: "A monitoring note on three public signals worth following across student cyber safety, AI workplace tooling risk, and privacy governance."
+description: "A security and privacy watchlist covering student cyber safety policy, AI workplace tooling risk, and emerging privacy-governance signals worth monitoring."
 pubDate: 2026-03-09
 draft: false
 tags:

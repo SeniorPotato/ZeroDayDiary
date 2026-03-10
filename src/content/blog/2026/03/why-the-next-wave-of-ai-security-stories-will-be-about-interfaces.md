@@ -1,6 +1,6 @@
 ---
 title: "Why the next wave of AI security stories will be about interfaces"
-description: "The practical risk surface for AI deployment is increasingly shaped by extensions, workplace tooling, browser flows, and user-facing integrations."
+description: "AI security risk is increasingly concentrated in extensions, browser flows, workplace tooling, and other user-facing interfaces rather than models alone."
 pubDate: 2026-03-09
 draft: false
 tags:

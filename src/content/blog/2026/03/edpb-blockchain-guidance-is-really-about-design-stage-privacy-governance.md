@@ -1,6 +1,6 @@
 ---
 title: "EDPB blockchain guidance is really about design-stage privacy governance"
-description: "The EDPB’s 2025 blockchain guidance emphasizes early design decisions, role clarity, DPIAs, data minimisation, and limits on placing personal data into immutable systems."
+description: "The EDPB’s blockchain guidance focuses on privacy by design, DPIAs, data minimisation, and the risks of storing personal data in immutable systems."
 pubDate: 2026-03-09
 draft: false
 tags:
