@@ -28,3 +28,9 @@ Use this file to record scheduled source-review passes.
 - **Sources checked:** CISA alert on Cisco SD-WAN exploitation, EDPB announcement on AI-generated imagery and privacy
 - **Result:** published
 - **Notes:** Promoted the two strongest candidates from the review packet into publishable briefings.
+
+- **Timestamp:** 2026-03-10 07:12 UTC
+- **Reviewer:** manual triage + drafting
+- **Sources checked:** EDPB right to erasure report, EDPB/EDPS Digital Omnibus joint opinion announcement
+- **Result:** published
+- **Notes:** Promoted two additional governance/privacy candidates from the review packet using the revised article structure.
