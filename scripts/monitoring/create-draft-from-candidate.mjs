@@ -29,21 +29,24 @@ canonical: "https://zerodaydiary.com/blog/${year}/${month}/${slug}/"
 ---
 
 ## Summary
-${candidate.summary || 'Explain the event in 2–3 sentences, including what changed and who is affected.'}
+${candidate.summary || 'Two to three sentences summarising the event, what changed, and why it matters.'}
 
-## What happened
-${candidate.what_happened || 'Add verified facts, timeline, and scope.'}
+## Overview
+${candidate.overview || 'Describe the development clearly and factually.'}
 
-## Why it matters
-${candidate.why_it_matters || 'Explain the operational, regulatory, or public-interest significance.'}
+## Key Details
+${candidate.key_details || 'Add the most important technical, operational, legal, or policy details.'}
 
-## Assessment
-${candidate.assessment || 'Interpret the implications, note uncertainty, and explain what may come next.'}
+## Why It Matters
+${candidate.why_it_matters || 'Explain the operational, regulatory, or strategic significance.'}
 
-## Recommended actions
-${candidate.recommended_actions || '- verify relevance inside your environment or remit\n- patch, harden, or monitor as appropriate\n- track follow-on guidance from the primary source'}
+## Analysis
+${candidate.analysis || 'Provide disciplined interpretation, implications, and uncertainty where relevant.'}
 
-## Further reading
+## Practical Takeaway
+${candidate.practical_takeaway || '- verify exposure or relevance\n- patch, harden, or monitor as appropriate\n- track follow-on guidance from the primary source'}
+
+## Further Reading
 ${(candidate.sources || []).map((src) => `- [${src.label || src.url}](${src.url})`).join('\n') || '- Add primary and supporting sources.'}
 `;
 
