@@ -68,18 +68,6 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 						</div>
 					</div>
 				</div>
-				<aside class="hero-sidecard">
-					<p class="panel-label">Editorial desk</p>
-					<h2>What this front page is for</h2>
-					<p>
-						Use the lead package for the most important current entry, today’s briefings for the newest items, and categories when you want to track a recurring risk lane over time.
-					</p>
-					<ul class="desk-list">
-						<li>archive-first, not feed-first</li>
-						<li>official sources prioritized</li>
-						<li>briefings designed for repeat reference</li>
-					</ul>
-				</aside>
 			</section>
 
 			{lead && (
@@ -184,7 +172,7 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 	.home-shell { width: min(1180px, calc(100% - 2rem)); max-width: none; padding: 1.25rem 0 4rem; }
 	.hero {
 		display:grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+		grid-template-columns: minmax(0, 1fr);
 		gap: 1rem;
 		align-items: stretch;
 		padding: 1.4rem 0 1.2rem;
