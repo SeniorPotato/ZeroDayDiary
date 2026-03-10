@@ -37,12 +37,15 @@ const readingTime = estimateReadingTime(pageText);
 				border: 1px solid rgba(148, 163, 184, 0.12);
 				box-shadow: 0 18px 44px rgba(2, 6, 23, 0.24);
 			}
-			.title-main { min-width: 0; }
+			.title-main {
+				min-width: 0;
+				max-width: 760px;
+			}
 			.top-meta {
 				display: flex;
-				flex-wrap: wrap;
-				align-items: center;
-				gap: 0.7rem 0.8rem;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 0.75rem;
 				margin: 0 0 1rem;
 			}
 			.topic-chip {
@@ -141,10 +144,10 @@ const readingTime = estimateReadingTime(pageText);
 									<span><strong>{readingTime} min read</strong></span>
 									{updatedDate && <><span class="meta-sep">•</span><span>Updated <FormattedDate date={updatedDate} /></span></>}
 								</div>
+								{tags.length > 0 && <ul class="tag-list">{tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 							</div>
 							<h1>{title}</h1>
 							<p class="deck">{description}</p>
-							{tags.length > 0 && <ul class="tag-list">{tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						</div>
 					</div>
 				</div>
