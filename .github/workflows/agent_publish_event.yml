@@ -24,6 +24,10 @@ on:
         required: true
         default: true
         type: boolean
+      summary:
+        description: Summary section
+        required: true
+        type: string
       what_happened:
         description: What happened section
         required: true
@@ -32,12 +36,16 @@ on:
         description: Why it matters section
         required: true
         type: string
-      who_is_affected:
-        description: Who is affected section
+      assessment:
+        description: Assessment section
         required: true
         type: string
-      what_to_watch:
-        description: What to watch next section
+      recommended_actions:
+        description: Recommended actions section
+        required: true
+        type: string
+      further_reading:
+        description: Further reading section
         required: true
         type: string
 
@@ -80,17 +88,23 @@ jobs:
           canonical: "https://zerodaydiary.com/blog/$YEAR/$MONTH/${{ inputs.slug }}/"
           ---
 
+          ## Summary
+          ${{ inputs.summary }}
+
           ## What happened
           ${{ inputs.what_happened }}
 
           ## Why it matters
           ${{ inputs.why_it_matters }}
 
-          ## Who is affected
-          ${{ inputs.who_is_affected }}
+          ## Assessment
+          ${{ inputs.assessment }}
 
-          ## What to watch next
-          ${{ inputs.what_to_watch }}
+          ## Recommended actions
+          ${{ inputs.recommended_actions }}
+
+          ## Further reading
+          ${{ inputs.further_reading }}
           EOF
 
       - name: Create Pull Request

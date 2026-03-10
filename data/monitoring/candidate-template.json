@@ -5,15 +5,15 @@
   "pubDate": "2026-03-10T06:00:00Z",
   "draft": true,
   "tags": ["security", "ransomware", "infrastructure"],
-  "what_happened": "One-paragraph factual summary.",
-  "why_it_matters": "Operational or policy significance.",
-  "who_is_affected": "- affected organisations\n- users or institutions touched by the event",
-  "what_to_watch": "- follow-on official guidance\n- mitigation or enforcement developments",
+  "summary": "Explain the event in 2–3 sentences, including what changed and who is affected.",
+  "what_happened": "Verified facts, timeline, and scope.",
+  "why_it_matters": "Operational, regulatory, or strategic significance.",
+  "assessment": "Interpret the implications, note uncertainty, and explain what may come next.",
+  "recommended_actions": "- verify exposure or relevance\n- patch, harden, or monitor as appropriate\n- track follow-on guidance from the primary source",
   "sources": [
     {
       "label": "Primary source",
       "url": "https://example.com"
     }
-  ],
-  "verification_status": "Based on primary-source review; publish after editorial check."
+  ]
 }

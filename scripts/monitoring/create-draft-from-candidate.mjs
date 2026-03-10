@@ -28,23 +28,23 @@ tags:\n${tagsYaml}
 canonical: "https://zerodaydiary.com/blog/${year}/${month}/${slug}/"
 ---
 
+## Summary
+${candidate.summary || 'Explain the event in 2–3 sentences, including what changed and who is affected.'}
+
 ## What happened
-${candidate.what_happened || 'Add sourced event summary.'}
+${candidate.what_happened || 'Add verified facts, timeline, and scope.'}
 
 ## Why it matters
 ${candidate.why_it_matters || 'Explain the operational, regulatory, or public-interest significance.'}
 
-## Who is affected
-${candidate.who_is_affected || '- organisations directly exposed\n- users, customers, or institutions affected by the development'}
+## Assessment
+${candidate.assessment || 'Interpret the implications, note uncertainty, and explain what may come next.'}
 
-## What to watch next
-${candidate.what_to_watch || '- follow-on regulator or agency updates\n- incident confirmation, mitigation, or enforcement details'}
+## Recommended actions
+${candidate.recommended_actions || '- verify relevance inside your environment or remit\n- patch, harden, or monitor as appropriate\n- track follow-on guidance from the primary source'}
 
-## Sources and links
+## Further reading
 ${(candidate.sources || []).map((src) => `- [${src.label || src.url}](${src.url})`).join('\n') || '- Add primary and supporting sources.'}
-
-## Verification status
-${candidate.verification_status || 'Draft created from reviewed candidate; confirm sourcing before publication.'}
 `;
 
 await fs.writeFile(outPath, body, 'utf8');
