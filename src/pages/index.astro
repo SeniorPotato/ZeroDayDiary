@@ -8,6 +8,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { CATEGORY_LIST, getPrimaryCategory, getTagTheme } from '../data/categories';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
+const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
 const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.map((post) => ({
@@ -67,7 +68,7 @@ const categoryCounts = Object.fromEntries(
 								<span class="meta-dot">•</span>
 								<p class="meta">{lead.readingTime} min read</p>
 							</div>
-							<h3><a href={`/blog/${lead.id}/`}>{lead.data.title}</a></h3>
+							<h3><a href={`/blog/${cleanSlug(lead.id)}/`}>{lead.data.title}</a></h3>
 							<p class="desc">{lead.data.description}</p>
 							{lead.data.tags.length > 0 && <ul class="tag-list">{lead.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
 						</div>
@@ -90,7 +91,7 @@ const categoryCounts = Object.fromEntries(
 									<span class="meta-dot">•</span>
 									<p class="meta">{post.readingTime} min read</p>
 								</div>
-								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+								<h3><a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a></h3>
 								<p class="desc">{post.data.description}</p>
 							</div>
 							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
@@ -114,7 +115,7 @@ const categoryCounts = Object.fromEntries(
 									<span class="meta-dot">•</span>
 									<p class="meta">{post.readingTime} min read</p>
 								</div>
-								<h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+								<h3><a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a></h3>
 								<p class="desc">{post.data.description}</p>
 							</div>
 							{post.data.tags.length > 0 && <ul class="tag-list">{post.data.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}

@@ -8,6 +8,7 @@ import { SITE_TITLE } from '../consts';
 import { CATEGORY_LIST, getPrimaryCategory, getTagTheme } from '../data/categories';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
+const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((post) => ({
@@ -124,7 +125,7 @@ const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
                   <span class="meta-dot">•</span>
                   <p class="meta">{post.readingTime} min read</p>
                 </div>
-                <h2><a href={`/blog/${post.id}/`}>{post.title}</a></h2>
+                <h2><a href={`/blog/${cleanSlug(post.id)}/`}>{post.title}</a></h2>
                 <p class="desc">{post.description}</p>
                 {post.tags.length > 0 && <ul class="tag-list">{post.tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
               </article>
