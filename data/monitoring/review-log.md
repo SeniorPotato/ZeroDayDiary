@@ -22,3 +22,9 @@ Use this file to record scheduled source-review passes.
 - **Sources checked:** CISA Cybersecurity Advisories, ICO News and Blogs, EDPB News
 - **Result:** 10 new candidate(s)
 - **Notes:** Review packet generated at `data/monitoring/review-packets/2026-03-10T064713Z.md`.
+
+- **Timestamp:** 2026-03-10 06:54 UTC
+- **Reviewer:** manual triage + drafting
+- **Sources checked:** CISA alert on Cisco SD-WAN exploitation, EDPB announcement on AI-generated imagery and privacy
+- **Result:** published
+- **Notes:** Promoted the two strongest candidates from the review packet into publishable briefings.

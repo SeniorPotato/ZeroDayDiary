@@ -24,10 +24,10 @@
 
 ## DRAFTING
 - Daily watchlist / roundup cadence post template
-- Next concrete event entry sourced from regulator / official notice
 
 ## REVIEW
-- *(empty)*
+- CISA guidance on ongoing global exploitation of Cisco SD-WAN systems → drafted and published 2026-03-10
+- EDPB / GPA statement on AI-generated imagery and privacy harms → drafted and published 2026-03-10
 
 ## HOLD
 - any item discovered only through weak aggregation without a stronger source path
