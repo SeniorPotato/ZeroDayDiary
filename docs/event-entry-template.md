@@ -15,22 +15,32 @@ tags:
 canonical: "https://zerodaydiary.com/blog/YYYY/MM/<slug>/"
 ---
 
+## Summary
+Explain the event in 2–3 sentences, including what changed and who is affected.
+
 ## What happened
-A concise factual summary of the event.
+Verified facts, timeline, and scope.
 
 ## Why it matters
 Operational, regulatory, or strategic significance.
 
-## Who is affected
-Directly affected populations, sectors, or institutions.
+## Assessment
+Interpretation and implications. Note uncertainty, limitations, or what may come next.
 
-## What to watch next
-Unresolved questions, upcoming deadlines, likely escalation points.
+## Recommended actions
+Practical takeaways for the relevant audience: security teams, privacy teams, product owners, organisations, or affected users.
+
+## Further reading
+- Link to primary source(s)
+- Link to supporting material
 ```
 
 ## Rules
 - Keep one core event per post.
 - Use one primary category tag.
 - Add only the supporting tags that materially help retrieval.
+- Keep the Summary section short and factual.
+- Use Assessment for interpretation; do not smuggle judgment into the facts section.
+- Make recommended actions concrete where possible.
 - Link to primary sources when possible.
-- If details are uncertain, say so explicitly.
+- State uncertainty explicitly when details are incomplete or still developing.
