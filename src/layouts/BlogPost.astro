@@ -16,7 +16,7 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} image={heroImage} />
+		<BaseHead title={`${title} | ${primaryCat.title} Briefing | ZeroDayDiary`} description={description} image={heroImage} />
 		<style>
 			main { width: min(1120px, calc(100% - 2rem)); max-width: none; padding-top: 1.2rem; }
 			.article-shell { display: grid; gap: 1rem; }
