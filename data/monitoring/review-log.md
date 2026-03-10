@@ -41,6 +41,12 @@ Use this file to record scheduled source-review passes.
 - **Result:** triaged
 - **Notes:** Promoted four candidates to drafting, held the KEV CVE list and weaker standards / workshop items for roundup use, and rejected off-scope ISO / FTC items with low cyber or privacy relevance.
 
+- **Timestamp:** 2026-03-10 08:07 UTC
+- **Reviewer:** manual drafting + publication
+- **Sources checked:** ENISA Threat Landscape 2025, ENISA EU Cybersecurity Reserve announcement, EDPB work programme 2026-2027 announcement
+- **Result:** published
+- **Notes:** Published three strong candidates without waiting for manual approval, leaving the FTC COPPA age-verification statement for a more careful follow-up pass.
+
 - **Timestamp:** 2026-03-10 07:57:16.980 UTC
 - **Reviewer:** scheduled workflow
 - **Sources checked:** CISA Cybersecurity Advisories, CISA Known Exploited Vulnerabilities Catalog, ICO News and Blogs, EDPB News, ENISA News, NCSC UK News, FTC Press Releases, ISO Insights and Updates

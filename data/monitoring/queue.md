@@ -24,9 +24,6 @@
 
 ## DRAFTING
 - FTC COPPA age-verification policy statement → strong privacy / children / platform-governance candidate
-- ENISA Threat Landscape 2025 summary → strong security / threat-trends candidate
-- ENISA to operate the EU Cybersecurity Reserve with EUR 36 million → strong infrastructure / policy candidate
-- EDPB work programme 2026-2027 compliance templates initiative → strong governance / privacy candidate
 - Daily watchlist / roundup cadence post template
 
 ## REVIEW
@@ -34,6 +31,9 @@
 - EDPB / GPA statement on AI-generated imagery and privacy harms → drafted and published 2026-03-10
 - EDPB right to erasure enforcement report → drafted and published 2026-03-10
 - EDPB / EDPS Digital Omnibus joint opinion → drafted and published 2026-03-10
+- ENISA Threat Landscape 2025 summary → drafted and published 2026-03-10
+- ENISA to operate the EU Cybersecurity Reserve with EUR 36 million → drafted and published 2026-03-10
+- EDPB work programme 2026-2027 compliance templates initiative → drafted and published 2026-03-10
 
 ## HOLD
 - CISA KEV individual CVE additions → useful for roundups unless tied to a stronger operational story
