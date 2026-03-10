@@ -18,8 +18,8 @@ export const CATEGORY_META = {
     chipBackground: 'rgba(245, 158, 11, 0.18)',
   },
   governance: {
-    title: 'Policy',
-    description: 'Policy and regulation briefings on enforcement, standards, court action, regulator opinions, and institutional accountability.',
+    title: 'Governance',
+    description: 'Governance briefings on enforcement, standards, court action, regulator opinions, institutional accountability, and policy shifts.',
     color: '#94a3b8',
     chipBackground: 'rgba(148, 163, 184, 0.18)',
   },
