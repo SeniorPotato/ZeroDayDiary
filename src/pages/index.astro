@@ -40,7 +40,7 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 			<section class="hero">
 				<div class="hero-copy">
 					<p class="eyebrow">Independent cybersecurity / privacy / AI risk journal</p>
-					<h1>Signal over noise for cybersecurity, privacy, and AI risk.</h1>
+					<h1>Signal over noise<span>Cybersecurity</span><span>Privacy</span><span>AI / GRC</span></h1>
 					<p class="lede">
 						ZeroDayDiary tracks incidents, regulation, surveillance expansion, infrastructure pressure,
 						and deployment failures across the digital risk landscape — with archive-first briefings built to stay useful after the news cycle moves on.
@@ -191,7 +191,8 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 			radial-gradient(circle at 80% 10%, rgba(139,92,246,.12), transparent 28%),
 			linear-gradient(180deg, rgba(10,16,30,.98), rgba(15,23,42,.86));
 	}
-	.hero h1 { font-size: clamp(2.55rem, 5vw, 4.55rem); line-height: .92; max-width: 12ch; margin-bottom: 1rem; }
+	.hero h1 { font-size: clamp(2.55rem, 5vw, 4.55rem); line-height: .92; max-width: 12ch; margin-bottom: 1rem; display:grid; gap:.14em; }
+	.hero h1 span { display:block; font-size: clamp(1.2rem, 2.1vw, 1.7rem); line-height:1; letter-spacing:-.02em; color:rgba(226,232,240,.9); }
 	.lede { font-size: 1.05rem; max-width: 52rem; color: rgba(226,232,240,.8); }
 	.hero-actions { display:flex; gap:.75rem; margin-top:1.35rem; flex-wrap:wrap; }
 	.button { display:inline-flex; align-items:center; justify-content:center; padding:.88rem 1.15rem; border-radius:999px; text-decoration:none; font-weight:700; }
