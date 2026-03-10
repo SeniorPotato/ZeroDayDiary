@@ -35,6 +35,12 @@ Use this file to record scheduled source-review passes.
 - **Result:** published
 - **Notes:** Promoted two additional governance/privacy candidates from the review packet using the revised article structure.
 
+- **Timestamp:** 2026-03-10 08:00 UTC
+- **Reviewer:** manual triage
+- **Sources checked:** expanded Tier 1 review packet from CISA KEV, ENISA, FTC, and EDPB sources
+- **Result:** triaged
+- **Notes:** Promoted four candidates to drafting, held the KEV CVE list and weaker standards / workshop items for roundup use, and rejected off-scope ISO / FTC items with low cyber or privacy relevance.
+
 - **Timestamp:** 2026-03-10 07:57:16.980 UTC
 - **Reviewer:** scheduled workflow
 - **Sources checked:** CISA Cybersecurity Advisories, CISA Known Exploited Vulnerabilities Catalog, ICO News and Blogs, EDPB News, ENISA News, NCSC UK News, FTC Press Releases, ISO Insights and Updates
