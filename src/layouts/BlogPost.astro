@@ -11,67 +11,124 @@ type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, tags = [] } = Astro.props;
 const primaryCat = getPrimaryCategory(tags);
-const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
+const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
+const pageText = `${title} ${description}`;
+const readingTime = estimateReadingTime(pageText);
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead title={`${title} | ${primaryCat.title} Briefing | ZeroDayDiary`} description={description} image={heroImage} />
 		<style>
-			main { width: min(1120px, calc(100% - 2rem)); max-width: none; padding-top: 1.2rem; }
+			main { width: min(1180px, calc(100% - 2rem)); max-width: none; padding-top: 1.15rem; }
 			.article-shell { display: grid; gap: 1rem; }
-			.topic-chip { display:inline-block; font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.25rem .58rem; border-radius:999px; border:1px solid; margin:0 0 .85rem; }
+			.title-wrap {
+				width: min(980px, 100%);
+				margin: 0 auto;
+				padding: 0.5rem 0 0.35rem;
+			}
+			.title-panel {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr) 220px;
+				gap: 1.1rem;
+				padding: 1.25rem 1.3rem;
+				border-radius: 1rem;
+				background:
+					radial-gradient(circle at top left, rgba(34, 211, 238, 0.08), transparent 26%),
+					radial-gradient(circle at 85% 12%, rgba(139, 92, 246, 0.1), transparent 24%),
+					linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.7));
+				border: 1px solid rgba(148, 163, 184, 0.12);
+				box-shadow: 0 18px 44px rgba(2, 6, 23, 0.24);
+			}
+			.title-main { min-width: 0; }
+			.title-side {
+				display: grid;
+				align-content: start;
+				gap: 0.75rem;
+				padding-left: 1rem;
+				border-left: 1px solid rgba(148, 163, 184, 0.12);
+			}
+			.topic-chip {
+				display:inline-block;
+				font-size:.72rem;
+				font-weight:700;
+				text-transform:uppercase;
+				letter-spacing:.1em;
+				padding:.25rem .58rem;
+				border-radius:999px;
+				border:1px solid;
+				margin:0 0 .85rem;
+			}
+			.title h1 { margin: 0.15rem 0 0.9rem; font-size: clamp(2.45rem, 5vw, 4.8rem); line-height: 0.94; max-width: 12ch; }
+			.deck { font-size: 1.12rem; color: rgba(226, 232, 240, 0.8); max-width: 60ch; margin: 0; }
+			.meta-stack {
+				display: grid;
+				gap: 0.65rem;
+				font-size: 0.8rem;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+			}
+			.meta-label { color: #7dd3fc; font-weight: 700; }
+			.meta-value, .meta-value :global(time) { color: rgba(226, 232, 240, 0.78); }
+			.meta-value strong { color: #f8fafc; font-size: 0.95rem; letter-spacing: 0; text-transform: none; }
+			.last-updated-on { color: rgba(226, 232, 240, 0.74); }
+			.hero-image {
+				width: min(980px, 100%);
+				margin: 0 auto;
+			}
 			.hero-image img { display: block; width: 100%; margin: 0 auto; border-radius: 16px; box-shadow: 0 20px 56px rgba(2, 6, 23, 0.28); }
 			.prose {
-				width: min(760px, 100%);
+				width: min(820px, 100%);
 				margin: 0 auto;
 				padding: 0 0 2rem;
 				color: rgb(var(--gray-dark));
 			}
-			.title-wrap {
-				width: min(860px, 100%);
-				margin: 0 auto;
-				padding: 0.6rem 0 0.5rem;
-			}
-			.title-panel {
-				padding: 1.2rem 1.25rem;
+			.prose-inner {
+				padding: 1.15rem 1.2rem 1.5rem;
 				border-radius: 1rem;
-				background: linear-gradient(180deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.68));
-				border: 1px solid rgba(148, 163, 184, 0.12);
-				box-shadow: 0 18px 44px rgba(2, 6, 23, 0.24);
+				background: linear-gradient(180deg, rgba(15, 23, 42, 0.62), rgba(15, 23, 42, 0.38));
+				border: 1px solid rgba(148, 163, 184, 0.1);
 			}
-			.title h1 { margin: 0.3rem 0 0.8rem; font-size: clamp(2.3rem, 5vw, 4.5rem); line-height: 0.95; max-width: 13ch; }
-			.date { margin-bottom: 0.9rem; color: rgba(226, 232, 240, 0.74); display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; font-size: 0.9rem; }
-			.last-updated-on { font-style: italic; }
-			.tag-list { display: flex; flex-wrap: wrap; gap: 0.42rem; list-style: none; padding: 0; margin: 0 0 0.95rem; }
+			.tag-list { display: flex; flex-wrap: wrap; gap: 0.42rem; list-style: none; padding: 0; margin: 0; }
 			.tag-list li { font-size: 0.73rem; padding: 0.28rem 0.5rem; border-radius: 999px; border:1px solid; }
-			.deck { font-size: 1.1rem; color: rgba(226, 232, 240, 0.78); max-width: 58ch; margin: 0; }
 			:global(.prose h2) {
-				margin-top: 2rem;
+				margin-top: 2.2rem;
 				padding-top: 1rem;
-				border-top: 1px solid rgba(148, 163, 184, 0.14);
-				font-size: 1.25rem;
-				letter-spacing: 0.01em;
+				border-top: 1px solid rgba(148, 163, 184, 0.16);
+				font-size: 1.18rem;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: #e2e8f0;
 			}
+			:global(.prose h2:first-child) { margin-top: 0; }
 			:global(.prose p), :global(.prose li) {
-				font-size: 1.02rem;
-				line-height: 1.72;
-				color: rgba(226, 232, 240, 0.82);
+				font-size: 1.04rem;
+				line-height: 1.78;
+				color: rgba(226, 232, 240, 0.84);
 			}
+			:global(.prose p + p) { margin-top: -0.15rem; }
 			:global(.prose ul) { padding-left: 1.15rem; }
+			:global(.prose li + li) { margin-top: 0.45rem; }
 			:global(.prose a) { color: #7dd3fc; text-decoration: none; }
 			:global(.prose a:hover) { text-decoration: underline; }
 			:global(.prose strong) { color: #f8fafc; }
 			:global(.prose blockquote) {
 				margin: 1.5rem 0;
-				padding: 0.9rem 1rem;
+				padding: 0.95rem 1rem;
 				border-left: 3px solid #22d3ee;
 				background: rgba(15, 23, 42, 0.5);
 				border-radius: 0.6rem;
 			}
+			:global(.prose hr) { margin: 2rem 0; }
+			@media (max-width: 860px) {
+				.title-panel { grid-template-columns: 1fr; }
+				.title-side { padding-left: 0; border-left: none; border-top: 1px solid rgba(148, 163, 184, 0.12); padding-top: 0.9rem; }
+			}
 			@media (max-width: 760px) {
-				.title-panel { padding: 1rem; }
-				.article-meta-bar { flex-direction: column; }
+				.title-panel, .prose-inner { padding: 1rem; }
+				.title h1 { font-size: clamp(2rem, 10vw, 3.2rem); }
+				.deck { font-size: 1rem; }
+				:global(.prose p), :global(.prose li) { font-size: 1rem; line-height: 1.72; }
 			}
 		</style>
 	</head>
@@ -82,19 +139,42 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 			<article class="article-shell">
 				<div class="title-wrap title">
 					<div class="title-panel">
-						<span class="topic-chip" style={`color:${primaryCat.color};background:${primaryCat.chipBackground};border-color:${primaryCat.color}33`}>{primaryCat.title}</span>
-						{tags.length > 0 && <ul class="tag-list">{tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>}
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{updatedDate && <div class="last-updated-on">Updated <FormattedDate date={updatedDate} /></div>}
+						<div class="title-main">
+							<span class="topic-chip" style={`color:${primaryCat.color};background:${primaryCat.chipBackground};border-color:${primaryCat.color}33`}>{primaryCat.title}</span>
+							<h1>{title}</h1>
+							<p class="deck">{description}</p>
 						</div>
-						<h1>{title}</h1>
-						<p class="deck">{description}</p>
+						<aside class="title-side">
+							<div class="meta-stack">
+								<div>
+									<div class="meta-label">Published</div>
+									<div class="meta-value"><FormattedDate date={pubDate} /></div>
+								</div>
+								<div>
+									<div class="meta-label">Reading time</div>
+									<div class="meta-value"><strong>{readingTime} min read</strong></div>
+								</div>
+								{updatedDate && (
+									<div>
+										<div class="meta-label">Updated</div>
+										<div class="meta-value last-updated-on"><FormattedDate date={updatedDate} /></div>
+									</div>
+								)}
+								{tags.length > 0 && (
+									<div>
+										<div class="meta-label">Tags</div>
+										<ul class="tag-list">{tags.map((tag) => { const theme = getTagTheme(tag); return <li style={`color:${theme.color};background:${theme.chipBackground};border-color:${theme.color}33`}>{tag}</li>; })}</ul>
+									</div>
+								)}
+							</div>
+						</aside>
 					</div>
 				</div>
 				<div class="hero-image">{heroImage && <Image width={1260} height={720} src={heroImage} alt="" />}</div>
 				<div class="prose">
-					<slot />
+					<div class="prose-inner">
+						<slot />
+					</div>
 				</div>
 			</article>
 		</main>
