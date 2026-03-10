@@ -1,0 +1,27 @@
+{
+  "title": "CISA issues urgent guidance on ongoing global exploitation of Cisco SD-WAN systems",
+  "slug": "cisa-issues-urgent-guidance-on-ongoing-global-exploitation-of-cisco-sd-wan-systems",
+  "description": "CISA and international partners say attackers are actively exploiting Cisco SD-WAN systems and urge organisations to inventory assets, patch immediately, collect forensic artifacts, and hunt for compromise.",
+  "pubDate": "2026-03-10T06:48:00Z",
+  "draft": false,
+  "tags": ["security", "infrastructure", "kev", "network-edge"],
+  "what_happened": "CISA and partner agencies released guidance on 25 February 2026 warning of ongoing global exploitation affecting Cisco SD-WAN systems. The alert says threat actors have exploited CVE-2026-20127 for initial access, then used CVE-2022-20775 for privilege escalation and long-term persistence. CISA also added the relevant vulnerabilities to the Known Exploited Vulnerabilities Catalog and issued Emergency Directive 26-03 for US federal civilian agencies.",
+  "why_it_matters": "This is the kind of network-edge event that deserves immediate attention because it combines active exploitation, privilege escalation, persistence, and formal emergency direction from CISA. The guidance also reinforces a broader pattern: edge infrastructure and management planes remain attractive targets when patching, hardening, and logging are uneven.",
+  "who_is_affected": "- organisations running Cisco SD-WAN systems\n- public-sector and enterprise network teams responsible for edge infrastructure\n- defenders who may need to validate whether exploitation preceded patching",
+  "what_to_watch": "- whether follow-on advisories expand the list of observed tactics or affected product versions\n- whether incident disclosures begin attributing compromise to this exploitation cluster\n- whether organisations treat forensic collection and threat hunting as mandatory alongside patching",
+  "sources": [
+    {
+      "label": "CISA alert",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems"
+    },
+    {
+      "label": "Emergency Directive 26-03",
+      "url": "https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems"
+    },
+    {
+      "label": "Supplemental direction ED 26-03",
+      "url": "https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems"
+    }
+  ],
+  "verification_status": "Based on an official CISA alert and linked federal directives."
+}

@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "monitor:review": "node scripts/monitoring/review-sources.mjs",
+    "monitor:draft": "node scripts/monitoring/create-draft-from-candidate.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

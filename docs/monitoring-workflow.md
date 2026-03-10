@@ -10,6 +10,14 @@ Create a repeatable, low-maintenance system for discovering, triaging, drafting,
 - Draft before publish when confidence is incomplete.
 - Prefer durable archive quality over speed theater.
 
+## System components
+- `data/monitoring/sources.json` — structured source registry for scheduled review
+- `scripts/monitoring/review-sources.mjs` — fetches configured source pages, detects unseen links, creates review packets, updates intake, and logs the pass
+- `data/monitoring/review-packets/` — timestamped packets of newly detected candidate links for editorial triage
+- `data/monitoring/state/source-review-state.json` — remembers seen links to avoid repeat candidate spam
+- `scripts/monitoring/create-draft-from-candidate.mjs` — turns a reviewed candidate JSON file into a Markdown draft in the site content tree
+- `data/monitoring/candidate-template.json` — example payload for the draft generator
+
 ## Workflow stages
 
 ### 1. Discovery

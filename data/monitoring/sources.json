@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cisa-advisories",
+    "name": "CISA Cybersecurity Advisories",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+    "kind": "html",
+    "includePatterns": ["/news-events/cybersecurity-advisories/", "/news-events/alerts/"]
+  },
+  {
+    "id": "ico-news",
+    "name": "ICO News and Blogs",
+    "tier": "Tier 1",
+    "category": "privacy",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/",
+    "kind": "html",
+    "includePatterns": ["/about-the-ico/media-centre/news-and-blogs/"]
+  },
+  {
+    "id": "edpb-news",
+    "name": "EDPB News",
+    "tier": "Tier 1",
+    "category": "governance",
+    "url": "https://www.edpb.europa.eu/news/news_en",
+    "kind": "html",
+    "includePatterns": ["/news/news/"]
+  }
+]

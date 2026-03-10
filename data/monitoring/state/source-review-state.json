@@ -1,0 +1,37 @@
+{
+  "seen": {
+    "cisa-advisories": [
+      "https://www.cisa.gov/news-events/alerts/2026/03/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
+      "https://www.cisa.gov/news-events/alerts/2026/03/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
+      "https://www.cisa.gov/news-events/alerts/2026/02/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/17/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/02/13/cisa-adds-one-known-exploited-vulnerability-catalog"
+    ],
+    "ico-news": [],
+    "edpb-news": [
+      "https://www.edpb.europa.eu/news/news/2026/ai-generated-imagery-and-protection-privacy-edpb-supports-joint-global-privacy_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-identifies-challenges-hindering-full-implementation-right-erasure_en",
+      "https://www.edpb.europa.eu/news/news/2026/making-gdpr-compliance-easier-through-new-initiatives-key-focus-edpb-work-programme_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-work-programme-2026-2027-easing-compliance-and-strengthening-cooperation-across_en",
+      "https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en",
+      "https://www.edpb.europa.eu/news/news/2026/ai-generated-imagery-and-protection-privacy-edpb-supports-joint-global-privacy_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-identifies-challenges-hindering-full-implementation-right-erasure_en",
+      "https://www.edpb.europa.eu/news/news/2026/making-gdpr-compliance-easier-through-new-initiatives-key-focus-edpb-work-programme_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-work-programme-2026-2027-easing-compliance-and-strengthening-cooperation-across_en",
+      "https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en",
+      "https://www.edpb.europa.eu/news/news/2026/register-now-our-conference-cross-regulatory-cooperation-eu-17-march_en",
+      "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-political-advertising-express-your-interest_en",
+      "https://www.edpb.europa.eu/news/news/2026/data-protection-day-2026-keeping-childrens-personal-data-safe-online_en"
+    ]
+  }
+}

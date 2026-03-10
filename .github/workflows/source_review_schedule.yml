@@ -9,29 +9,26 @@ permissions:
   contents: write
 
 jobs:
-  log-review-window:
+  review-sources:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Append scheduled review entry
-        shell: bash
-        run: |
-          NOW=$(date -u +"%Y-%m-%d %H:%M UTC")
-          mkdir -p data/monitoring
-          touch data/monitoring/review-log.md
-          cat <<EOF >> data/monitoring/review-log.md
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-- **Timestamp:** ${NOW}
-- **Reviewer:** scheduled workflow
-- **Sources checked:** review window opened for Tier 1 source pass
-- **Result:** review due
-- **Notes:** Scheduled 4-hour review window triggered. Complete manual/editorial source pass and replace this placeholder outcome with the real result when acted on.
-EOF
+      - name: Run source review
+        run: node scripts/monitoring/review-sources.mjs
 
-      - name: Commit review heartbeat
+      - name: Commit review outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(monitoring): log 4-hour source review window"
-          file_pattern: data/monitoring/review-log.md
+          commit_message: "chore(monitoring): run scheduled source review"
+          file_pattern: |
+            data/monitoring/intake.md
+            data/monitoring/review-log.md
+            data/monitoring/review-packets/*.md
+            data/monitoring/state/source-review-state.json
