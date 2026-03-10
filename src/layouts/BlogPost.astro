@@ -46,18 +46,6 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 			.tag-list { display: flex; flex-wrap: wrap; gap: 0.42rem; list-style: none; padding: 0; margin: 0 0 0.95rem; }
 			.tag-list li { font-size: 0.73rem; padding: 0.28rem 0.5rem; border-radius: 999px; border:1px solid; }
 			.deck { font-size: 1.1rem; color: rgba(226, 232, 240, 0.78); max-width: 58ch; margin: 0; }
-			.article-meta-bar {
-				width: min(760px, 100%);
-				margin: 0 auto;
-				display: flex;
-				justify-content: space-between;
-				gap: 1rem;
-				padding: 0.3rem 0 0;
-				font-size: 0.78rem;
-				text-transform: uppercase;
-				letter-spacing: 0.12em;
-				color: rgba(148, 163, 184, 0.84);
-			}
 			:global(.prose h2) {
 				margin-top: 2rem;
 				padding-top: 1rem;
@@ -103,10 +91,6 @@ const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.sit
 						<h1>{title}</h1>
 						<p class="deck">{description}</p>
 					</div>
-				</div>
-				<div class="article-meta-bar">
-					<span>ZeroDayDiary briefing</span>
-					<span>Source record: <a href={canonical}>permalink</a></span>
 				</div>
 				<div class="hero-image">{heroImage && <Image width={1260} height={720} src={heroImage} alt="" />}</div>
 				<div class="prose">
