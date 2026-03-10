@@ -28,20 +28,24 @@ on:
         description: Summary section
         required: true
         type: string
-      what_happened:
-        description: What happened section
+      overview:
+        description: Overview section
+        required: true
+        type: string
+      key_details:
+        description: Key details section
         required: true
         type: string
       why_it_matters:
         description: Why it matters section
         required: true
         type: string
-      assessment:
-        description: Assessment section
+      analysis:
+        description: Analysis section
         required: true
         type: string
-      recommended_actions:
-        description: Recommended actions section
+      practical_takeaway:
+        description: Practical takeaway section
         required: true
         type: string
       further_reading:
@@ -91,19 +95,22 @@ jobs:
           ## Summary
           ${{ inputs.summary }}
 
-          ## What happened
-          ${{ inputs.what_happened }}
+          ## Overview
+          ${{ inputs.overview }}
 
-          ## Why it matters
+          ## Key Details
+          ${{ inputs.key_details }}
+
+          ## Why It Matters
           ${{ inputs.why_it_matters }}
 
-          ## Assessment
-          ${{ inputs.assessment }}
+          ## Analysis
+          ${{ inputs.analysis }}
 
-          ## Recommended actions
-          ${{ inputs.recommended_actions }}
+          ## Practical Takeaway
+          ${{ inputs.practical_takeaway }}
 
-          ## Further reading
+          ## Further Reading
           ${{ inputs.further_reading }}
           EOF
 
