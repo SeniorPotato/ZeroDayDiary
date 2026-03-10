@@ -70,6 +70,11 @@ Check:
 
 ## Cadence
 Recommended:
-- light scan: 2-3 times per day
+- scheduled source review task every 4 hours
 - structured roundup: daily or every 48 hours
 - deeper analysis: only when there is a meaningful pattern or policy shift
+
+## Review logging
+- record each manual or scheduled review pass in `data/monitoring/review-log.md`
+- mark whether the pass produced a candidate, draft, publication, or no publishable change
+- prefer "no publishable change" over rushed low-confidence posting
