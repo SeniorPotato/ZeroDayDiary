@@ -34,3 +34,9 @@ Use this file to record scheduled source-review passes.
 - **Sources checked:** EDPB right to erasure report, EDPB/EDPS Digital Omnibus joint opinion announcement
 - **Result:** published
 - **Notes:** Promoted two additional governance/privacy candidates from the review packet using the revised article structure.
+
+- **Timestamp:** 2026-03-10 07:57:16.980 UTC
+- **Reviewer:** scheduled workflow
+- **Sources checked:** CISA Cybersecurity Advisories, CISA Known Exploited Vulnerabilities Catalog, ICO News and Blogs, EDPB News, ENISA News, NCSC UK News, FTC Press Releases, ISO Insights and Updates
+- **Result:** 20 new candidate(s)
+- **Notes:** Review packet generated at `data/monitoring/review-packets/2026-03-10T075716Z.md`.

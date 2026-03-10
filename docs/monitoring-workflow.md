@@ -11,7 +11,7 @@ Create a repeatable, low-maintenance system for discovering, triaging, drafting,
 - Prefer durable archive quality over speed theater.
 
 ## System components
-- `data/monitoring/sources.json` — structured source registry for scheduled review
+- `data/monitoring/sources.json` — structured source registry for scheduled review across the Tier 1 source spine (CISA, CISA KEV, ICO, EDPB, ENISA, NCSC UK, FTC, ISO)
 - `scripts/monitoring/review-sources.mjs` — fetches configured source pages, detects unseen links, creates review packets, updates intake, and logs the pass
 - `data/monitoring/review-packets/` — timestamped packets of newly detected candidate links for editorial triage
 - `data/monitoring/state/source-review-state.json` — remembers seen links to avoid repeat candidate spam

@@ -9,6 +9,15 @@
     "includePatterns": ["/news-events/cybersecurity-advisories/", "/news-events/alerts/"]
   },
   {
+    "id": "cisa-kev",
+    "name": "CISA Known Exploited Vulnerabilities Catalog",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "kind": "html",
+    "includePatterns": ["cve.org/CVERecord?id=CVE-"]
+  },
+  {
     "id": "ico-news",
     "name": "ICO News and Blogs",
     "tier": "Tier 1",
@@ -25,5 +34,41 @@
     "url": "https://www.edpb.europa.eu/news/news_en",
     "kind": "html",
     "includePatterns": ["/news/news/"]
+  },
+  {
+    "id": "enisa-news",
+    "name": "ENISA News",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://www.enisa.europa.eu/news",
+    "kind": "html",
+    "includePatterns": ["/news/"]
+  },
+  {
+    "id": "ncsc-news",
+    "name": "NCSC UK News",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://www.ncsc.gov.uk/news",
+    "kind": "html",
+    "includePatterns": ["/news/"]
+  },
+  {
+    "id": "ftc-press",
+    "name": "FTC Press Releases",
+    "tier": "Tier 1",
+    "category": "privacy",
+    "url": "https://www.ftc.gov/news-events/news/press-releases",
+    "kind": "html",
+    "includePatterns": ["/news-events/news/press-releases/"]
+  },
+  {
+    "id": "iso-insights",
+    "name": "ISO Insights and Updates",
+    "tier": "Tier 1",
+    "category": "governance",
+    "url": "https://www.iso.org/insights",
+    "kind": "html",
+    "includePatterns": ["/contents/news/"]
   }
 ]
