@@ -796,3 +796,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** FTC Sends Checks Totaling More Than $47.2 Million to Consumers Deceived by Invitation Homes’ Undisclosed Fees and Other Unlawful Charges
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-checks-totaling-more-472-million-consumers-deceived-invitation-homes-undisclosed-fees
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** FTC Seeks Public Comment in Response to Advance Notice of Proposed Rulemaking Regarding Negative Option Marketing Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Canada Needs Nationalized, Public AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials
+- **Source URL:** https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown
+- **Source URL:** https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices
+- **Source URL:** https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** What Boards Must Demand in the Age of AI-Automated Exploitation
+- **Source URL:** https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days
+- **Source URL:** https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
