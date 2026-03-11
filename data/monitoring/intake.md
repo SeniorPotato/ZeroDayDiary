@@ -748,3 +748,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours
+- **Source URL:** https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
