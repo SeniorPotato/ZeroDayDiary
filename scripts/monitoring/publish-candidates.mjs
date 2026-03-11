@@ -136,11 +136,24 @@ function extractDescription(html) {
   );
 }
 
+function isBoilerplateText(text = '') {
+  return /the \.gov means it'?s official|the site is secure|an official website of the united states government|here'?s how you know|skip to main content|report fraud|get consumer alerts|search the legal library|federal government websites often end in \.gov|https:\/\//i.test(text);
+}
+
+function extractArticleBody(html) {
+  const articleMatch = html.match(/<article[\s\S]*?<\/article>/i)
+    || html.match(/<main[\s\S]*?<\/main>/i)
+    || html.match(/<div[^>]+class=["'][^"']*(?:node__content|field--name-body|page__content|l-content)[^"']*["'][\s\S]*?<\/div>/i);
+  return articleMatch?.[0] || html;
+}
+
 function extractParagraphs(html, limit = 8) {
-  const matches = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+  const articleHtml = extractArticleBody(html);
+  const matches = [...articleHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
     .map((match) => normaliseSentence(match[1]))
     .filter((text) => text.length > 70)
-    .filter((text) => !/cookie|subscribe|newsletter|sign up|all rights reserved|javascript|advertisement|related articles/i.test(text));
+    .filter((text) => !/cookie|subscribe|newsletter|sign up|all rights reserved|javascript|advertisement|related articles/i.test(text))
+    .filter((text) => !isBoilerplateText(text));
 
   const deduped = [];
   const seen = new Set();
@@ -176,8 +189,17 @@ function trimClause(text = '') {
     .trim();
 }
 
+function cleanDescription(text = '') {
+  return trimClause(text)
+    .replace(/the \.gov means it'?s official\.?/gi, '')
+    .replace(/the site is secure\.?/gi, '')
+    .replace(/here'?s how you know\.?/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function buildStandfirst(candidate, description, paragraphs, profile) {
-  const desc = trimClause(description);
+  const desc = cleanDescription(description);
   const first = trimClause(firstUsefulSentence(paragraphs[0] || ''));
   const second = trimClause(firstUsefulSentence(paragraphs[1] || ''));
 
@@ -345,6 +367,8 @@ function shouldSkipCandidate(candidate) {
   if (/agenda available now|programme available now/i.test(candidate.title)) return true;
   if (/webinar|podcast|newsletter|speaking/i.test(candidate.title)) return true;
   if (/\?|\bmust\b|\bneeds\b|\bwhy\b|\bopinion\b/i.test(candidate.title)) return true;
+  if (/negative option marketing practices/i.test(candidate.title)) return true;
+  if (/invitation homes[’']? undisclosed fees/i.test(candidate.title)) return true;
   return false;
 }
 
@@ -382,9 +406,19 @@ async function main() {
     };
 
     const sourceTitle = extractTitle(html) || candidate.title;
-    const description = extractDescription(html) || `New ${candidate.category} development detected from ${candidate.source}.`;
+    const description = cleanDescription(extractDescription(html) || `New ${candidate.category} development detected from ${candidate.source}.`);
     const paragraphs = extractParagraphs(html, 6);
     const combinedText = `${sourceTitle} ${description} ${paragraphs.join(' ')}`;
+
+    if (paragraphs.length === 0) {
+      console.log(`Skip ${candidate.link}: no usable article paragraphs after boilerplate filtering`);
+      continue;
+    }
+
+    if (isBoilerplateText(description) || /the \.gov means it'?s official|the site is secure/i.test(combinedText)) {
+      console.log(`Skip ${candidate.link}: extracted copy still looks like site boilerplate`);
+      continue;
+    }
     const resolvedCategory = inferCategory(candidate, combinedText);
     const resolvedCandidate = { ...candidate, category: resolvedCategory };
     const tags = inferTags(resolvedCandidate, combinedText, resolvedCategory);
