@@ -70,5 +70,50 @@
     "url": "https://www.iso.org/insights",
     "kind": "html",
     "includePatterns": ["/contents/news/"]
+  },
+  {
+    "id": "krebs-on-security",
+    "name": "Krebs on Security",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://krebsonsecurity.com/",
+    "kind": "html",
+    "includePatterns": ["krebsonsecurity.com/"]
+  },
+  {
+    "id": "schneier-on-security",
+    "name": "Schneier on Security",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://www.schneier.com/",
+    "kind": "html",
+    "includePatterns": ["/blog/"]
+  },
+  {
+    "id": "the-hacker-news",
+    "name": "The Hacker News",
+    "tier": "Tier 1",
+    "category": "security",
+    "url": "https://thehackernews.com/",
+    "kind": "html",
+    "includePatterns": ["thehackernews.com/"]
+  },
+  {
+    "id": "reddit-security",
+    "name": "Reddit r/security",
+    "tier": "Tier 2",
+    "category": "security",
+    "url": "https://old.reddit.com/r/security/",
+    "kind": "html",
+    "includePatterns": ["/r/security/comments/"]
+  },
+  {
+    "id": "reddit-privacy",
+    "name": "Reddit r/privacy",
+    "tier": "Tier 2",
+    "category": "privacy",
+    "url": "https://old.reddit.com/r/privacy/",
+    "kind": "html",
+    "includePatterns": ["/r/privacy/comments/"]
   }
 ]

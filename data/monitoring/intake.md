@@ -276,3 +276,203 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** governance
 - **Why it may matter:** newly detected through scheduled source review from iso insights and updates
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** About the Author
+- **Source URL:** https://krebsonsecurity.com/about/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Advertising/Speaking
+- **Source URL:** https://krebsonsecurity.com/cpm/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Microsoft Patch Tuesday, March 2026 Edition
+- **Source URL:** https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** How AI Assistants are Moving the Security Goalposts
+- **Source URL:** https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Who is the Kimwolf Botmaster &#8220;Dort&#8221;?
+- **Source URL:** https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** About Me
+- **Source URL:** https://www.schneier.com/blog/about/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Jailbreaking the F-35 Fighter Jet
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/jailbreaking-the-f-35-fighter-jet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Posted on March 10, 2026 at 5:50 AM
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/jailbreaking-the-f-35-fighter-jet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** New Attack Against Wi-Fi
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Posted on March 9, 2026 at 6:57 AM
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** &#59393; Home
+- **Source URL:** https://thehackernews.com/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** &#59397; Webinars
+- **Source URL:** https://thehackernews.com/p/upcoming-hacker-news-webinars.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Threat Intelligence
+- **Source URL:** https://thehackernews.com/search/label/Threat%20Intelligence
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Vulnerabilities
+- **Source URL:** https://thehackernews.com/search/label/Vulnerability
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Cyber Attacks
+- **Source URL:** https://thehackernews.com/search/label/Cyber%20Attack
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Mobile Patrol Paladin security
+- **Source URL:** https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** I dont think I can handle overnight shifts anymore.
+- **Source URL:** https://old.reddit.com/r/security/comments/1roxl2x/i_dont_think_i_can_handle_overnight_shifts_anymore/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** 9 comments
+- **Source URL:** https://old.reddit.com/r/security/comments/1roxl2x/i_dont_think_i_can_handle_overnight_shifts_anymore/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Security officer position at Duke University of Durham NC.
+- **Source URL:** https://old.reddit.com/r/security/comments/1rp8pn4/security_officer_position_at_duke_university_of/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** 1 comment
+- **Source URL:** https://old.reddit.com/r/security/comments/1rp8pn4/security_officer_position_at_duke_university_of/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Uptick in security and off-topic posts. Please read the rules, this is not r/cybersecurity. We’re removing many more of these posts these days than ever before it seems.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** 31 comments
+- **Source URL:** https://old.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** The US Government is considering a crazy new law.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rq5j32/the_us_government_is_considering_a_crazy_new_law/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** 181 comments
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rq5j32/the_us_government_is_considering_a_crazy_new_law/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** 26 comments
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rqbfx3/ukrainian_bank_owner_posted_a_private_photo_of_a/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
