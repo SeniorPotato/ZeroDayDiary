@@ -756,3 +756,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Canada Needs Nationalized, Public AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices
+- **Source URL:** https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** What Boards Must Demand in the Age of AI-Automated Exploitation
+- **Source URL:** https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days
+- **Source URL:** https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours
+- **Source URL:** https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
