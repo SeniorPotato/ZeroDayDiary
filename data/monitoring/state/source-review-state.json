@@ -64,7 +64,11 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-reminds-data-brokers-their-obligations-comply-padfaa",
       "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-issues-second-report-congress-its-work-fight-ransomware-other-cyberattacks",
       "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-sending-nearly-23-million-consumers-who-invested-deceptive-sanctuary-belize-kanantik-real-estate",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-checks-totaling-more-472-million-consumers-deceived-invitation-homes-undisclosed-fees",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-checks-totaling-more-472-million-consumers-deceived-invitation-homes-undisclosed-fees",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -91,7 +95,8 @@
       "https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/",
       "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
       "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
-      "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/"
+      "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -106,7 +111,9 @@
       "https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html",
       "https://www.schneier.com/blog/archives/2024/04/the-rise-of-large.html",
       "https://www.schneier.com/blog/archives/2026/03/on-moltbook.html",
-      "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"
+      "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html",
+      "https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html",
+      "https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -135,10 +142,17 @@
       "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
       "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
       "https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html",
-      "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
-      "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
-      "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
-      "https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html"
+      "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+      "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+      "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+      "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
+      "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+      "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+      "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+      "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
+      "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
