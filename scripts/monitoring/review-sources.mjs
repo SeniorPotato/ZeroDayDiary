@@ -7,6 +7,7 @@ const statePath = path.join(root, 'data/monitoring/state/source-review-state.jso
 const reviewLogPath = path.join(root, 'data/monitoring/review-log.md');
 const packetDir = path.join(root, 'data/monitoring/review-packets');
 const intakePath = path.join(root, 'data/monitoring/intake.md');
+const latestReviewStatePath = path.join(root, 'data/monitoring/state/latest-source-review.json');
 
 const now = new Date();
 const iso = now.toISOString();
@@ -153,6 +154,7 @@ for (const source of sources) {
 
 await fs.writeFile(packetPath, reviewLines.join('\n'), 'utf8');
 await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n', 'utf8');
+await fs.writeFile(latestReviewStatePath, JSON.stringify({ generatedAt: iso, packetPath: path.relative(root, packetPath).replace(/\\/g, '/'), candidates: newCandidates }, null, 2) + '\n', 'utf8');
 
 if (newCandidates.length > 0) {
   const intakeLines = newCandidates.map((item) => `\n- **Date discovered:** ${item.discovered}\n- **Headline / event:** ${item.title}\n- **Source URL:** ${item.link}\n- **Source tier:** ${item.tier}\n- **Initial category guess:** ${item.category}\n- **Why it may matter:** newly detected through scheduled source review from ${item.source.toLowerCase()}\n- **Status:** DISCOVERED\n`).join('');
