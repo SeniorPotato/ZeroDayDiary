@@ -476,3 +476,275 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Please Don&#8217;t Feed the Scattered Lapsus ShinyHunters
+- **Source URL:** https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** distributed social network that facilitates instant collaboration
+- **Source URL:** https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Who Operates the Badbox 2.0 Botnet?
+- **Source URL:** https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Israel Hacked Traffic Cameras in Iran
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/israel-hacked-traffic-cameras-in-iran.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Hacked App Part of US/Israeli Propaganda Campaign Against Iran
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/hacked-app-part-of-us-israeli-propaganda-campaign-against-iran.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Manipulating AI Summarization Features
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** wrote about this
+- **Source URL:** https://www.schneier.com/blog/archives/2024/04/the-rise-of-large.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** On Moltbook
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/on-moltbook.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows &#59394; Mar 10, 2026 Artificial Intelligence / Threat Detection Artificial Intelligence (AI) is no longer just a tool we talk to; it is a tool that does things for us. These are called AI Agents . They can send emails, move data, and even manage software on their own. But there is a problem. While these agents make work faster, they also open a new &quot;back door&quot; for hackers. The Problem: &quot;The Invisible Employee&quot; Think of an AI Agent like a new employee who has the keys to every office in your building but doesn&#39;t have a name tag. Because these agents act on their own, they often have access to sensitive information that nobody is watching. Hackers have figured this out. They don&#39;t need to break your password anymore&#8212;they just need to trick your AI Agent into doing the work for them. If your company uses AI to automate tasks, you might be at risk. Traditional security tools were built to protect humans, not &quot;digital workers.&quot; In our upcoming webinar, Beyond the Model: The Expanded Attack Surface of AI Agen...
+- **Source URL:** https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet &#59394; Mar 10, 2026 Malware / Network Security Cybersecurity researchers have discovered a new malware called KadNap that&#39;s primarily targeting Asus routers to enlist them into a botnet for proxying malicious traffic. The malware, first detected in the wild in August 2025, has expanded to over 14,000 infected devices, with more than 60% of victims located in the U.S., according to the Black Lotus Labs team at Lumen. A lesser number of infections have been detected in Taiwan, Hong Kong, Russia, the U.K., Australia, Brazil, France, Italy, and Spain. &quot;KadNap employs a custom version of the Kademlia Distributed Hash Table ( DHT ) protocol, which is used to conceal the IP address of their infrastructure within a peer-to-peer system to evade traditional network monitoring,&quot; the cybersecurity company said in a report shared with The Hacker News. Compromised nodes in the network leverage the DHT protocol to locate and connect with a command-and-control (C2) server, thereby making it resilient to detection and disrupt...
+- **Source URL:** https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool &#59394; Mar 10, 2026 Cloud Security / API Security Salesforce has warned of an increase in threat actor activity that&#39;s aimed at exploiting misconfigurations in publicly accessible Experience Cloud sites by making use of a customized version of an open-source tool called AuraInspector. The activity, per the company, involves the exploitation of customers&#39; overly permissive Experience Cloud guest user configurations to obtain access to sensitive data. &quot;Evidence indicates the threat actor is leveraging a modified version of the open-source tool AuraInspector [...] to perform mass scanning of public-facing Experience Cloud sites,&quot; Salesforce said . &quot;While the original AuraInspector is limited to identifying vulnerable objects by probing API endpoints that these sites expose (specifically the /s/sfsites/aura endpoint), the actor has developed a custom version of the tool capable of going beyond identification to actually extract data &#8212; exploiting overly permissive guest user settings.&quot; AuraInspector refe...
+- **Source URL:** https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials &#59394; Mar 09, 2026 Malware / Developer Security Cybersecurity researchers have discovered a malicious npm package that masquerades as an OpenClaw installer to deploy a remote access trojan (RAT) and steal sensitive data from compromised hosts. The package, named &quot; @openclaw-ai/openclawai ,&quot; was uploaded to the registry by a user named &quot;openclaw-ai&quot; on March 3, 2026. It has been downloaded 178 times to date. The library is still available for download as of writing. JFrog, which discovered the package, said it&#39;s designed to steal system credentials, browser data, crypto wallets, SSH keys, Apple Keychain databases, and iMessage history, as well as install a persistent RAT with remote access capabilities, SOCKS5 proxy, and live browser session cloning. It&#39;s tracking the activity under the name GhostClaw. &quot;The attack is notable for its broad data collection, its use of social engineering to harvest the victim&#39;s system password, and the sophistication of its persistence and C2 [command-and-contro...
+- **Source URL:** https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket
+- **Source URL:** https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Question
+- **Source URL:** https://old.reddit.com/r/security/comments/1rmaio4/question/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** My friend and I built a free app where you learn IT by solving real troubleshooting scenarios — looking for feedback
+- **Source URL:** https://old.reddit.com/r/security/comments/1rlktjf/my_friend_and_i_built_a_free_app_where_you_learn/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Do I want NVR/DVR/IP/BNC with PCI capture card security system?
+- **Source URL:** https://old.reddit.com/r/security/comments/1rklht1/do_i_want_nvrdvripbnc_with_pci_capture_card/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** ShinyHunters' No-Malware SaaS Heist??
+- **Source URL:** https://old.reddit.com/r/security/comments/1rkohrv/shinyhunters_nomalware_saas_heist/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Security management vent thread
+- **Source URL:** https://old.reddit.com/r/security/comments/1riq8pb/security_management_vent_thread/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** If every computer knows its user’s age, isn’t it easier for predators to find children?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rqlj3n/if_every_computer_knows_its_users_age_isnt_it/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Trying to bypass Youtube age verification, need help
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rqalcv/trying_to_bypass_youtube_age_verification_need/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** How did we end up here?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rqd7mp/how_did_we_end_up_here/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** We'd never email our ID number to a stranger, but we paste it into AI chatbots daily
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rpxurh/wed_never_email_our_id_number_to_a_stranger_but/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Good grief man. So much is happening here.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rqjz3v/good_grief_man_so_much_is_happening_here/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** The Kimwolf Botnet is Stalking Your Local Network
+- **Source URL:** https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** New "LeakyLooker" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries
+- **Source URL:** https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction
+- **Source URL:** https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** APT28 Uses BEARDSHELL and COVENANT
+- **Source URL:** https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device
+- **Source URL:** https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Security review requested: local-only health dashboard (Apple Health + Whoop) threat model
+- **Source URL:** https://old.reddit.com/r/security/comments/1rehebj/security_review_requested_localonly_health/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** User IAM works fine but API authentication is complete chaos
+- **Source URL:** https://old.reddit.com/r/security/comments/1rd9uvk/user_iam_works_fine_but_api_authentication_is/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** What is the best online password manager right now? Bitwarden, NordPass,1Password, etc?
+- **Source URL:** https://old.reddit.com/r/security/comments/1rce7w0/what_is_the_best_online_password_manager_right/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Amazon is turning smart displays inside people’s homes into ad surfaces with no real opt-out, and that should worry everyone
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rp7gf4/amazon_is_turning_smart_displays_inside_peoples/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** How to explain my gf that she should care about privacy
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rpzyqy/how_to_explain_my_gf_that_she_should_care_about/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-11
+- **Headline / event:** Any nonpartisan sites fighting the mandatory ID crap?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rql40j/any_nonpartisan_sites_fighting_the_mandatory_id/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED

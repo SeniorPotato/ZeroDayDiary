@@ -78,7 +78,9 @@
     "category": "security",
     "url": "https://krebsonsecurity.com/",
     "kind": "html",
-    "includePatterns": ["krebsonsecurity.com/"]
+    "includePatterns": ["https://krebsonsecurity.com/20"],
+    "excludePatterns": ["/about/", "/cpm/", "/contact/", "/feed/"],
+    "titleRejectPatterns": ["about the author", "advertising/speaking"]
   },
   {
     "id": "schneier-on-security",
@@ -87,7 +89,9 @@
     "category": "security",
     "url": "https://www.schneier.com/",
     "kind": "html",
-    "includePatterns": ["/blog/"]
+    "includePatterns": ["/archives/20"],
+    "excludePatterns": ["/about/", "/essays/", "/crypto-gram/"],
+    "titleRejectPatterns": ["about me", "posted on"]
   },
   {
     "id": "the-hacker-news",
@@ -96,7 +100,9 @@
     "category": "security",
     "url": "https://thehackernews.com/",
     "kind": "html",
-    "includePatterns": ["thehackernews.com/"]
+    "includePatterns": ["https://thehackernews.com/20"],
+    "excludePatterns": ["/search/label/", "/p/", "/search?", "/contact", "/about"],
+    "titleRejectPatterns": ["home", "webinars", "threat intelligence", "vulnerabilities", "cyber attacks"]
   },
   {
     "id": "reddit-security",
@@ -105,7 +111,8 @@
     "category": "security",
     "url": "https://old.reddit.com/r/security/",
     "kind": "html",
-    "includePatterns": ["/r/security/comments/"]
+    "includePatterns": ["/r/security/comments/"],
+    "titleRejectPatterns": ["comments?$", "overnight shifts", "security officer position", "vent thread", "looking for feedback", "do i want", "question"]
   },
   {
     "id": "reddit-privacy",
@@ -114,6 +121,7 @@
     "category": "privacy",
     "url": "https://old.reddit.com/r/privacy/",
     "kind": "html",
-    "includePatterns": ["/r/privacy/comments/"]
+    "includePatterns": ["/r/privacy/comments/"],
+    "titleRejectPatterns": ["comments?$", "uptick in security and off-topic posts", "crazy new law", "need help", "how did we end up here", "good grief"]
   }
 ]

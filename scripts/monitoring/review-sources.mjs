@@ -35,7 +35,7 @@ function stripTags(text) {
     .trim();
 }
 
-function extractHtmlLinks(html, baseUrl, includePatterns = []) {
+function extractHtmlLinks(html, baseUrl, includePatterns = [], excludePatterns = [], titleRejectPatterns = []) {
   const matches = [...html.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
   const items = [];
 
@@ -47,10 +47,19 @@ function extractHtmlLinks(html, baseUrl, includePatterns = []) {
     const url = new URL(href);
     if (url.hash) continue;
     if (includePatterns.length && !includePatterns.some((p) => href.includes(p))) continue;
+    if (excludePatterns.length && excludePatterns.some((p) => href.includes(p))) continue;
 
-    const title = stripTags(match[2]);
+    let title = stripTags(match[2]);
     if (!title || title.length < 8) continue;
-    if (/^(read more|learn more|more|next|previous|skip to main content|back to top)$/i.test(title)) continue;
+    title = title.replace(/&#\d+;/g, ' ').replace(/\s+/g, ' ').trim();
+    title = title.split(/\s+Mar\s+\d{1,2},\s+20\d{2}\b/i)[0].trim();
+    title = title.split(/\s+(Artificial Intelligence|Threat Detection|Malware|Network Security|Cloud Security|API Security|Developer Security)\b/i)[0].trim();
+    if (!title || title.length < 8) continue;
+    if (/^(read more|learn more|more|next|previous|skip to main content|back to top|question)$/i.test(title)) continue;
+    if (/^posted on /i.test(title)) continue;
+    if (/^\d+ comments?$/i.test(title)) continue;
+    if (title.split(/\s+/).length < 4) continue;
+    if (titleRejectPatterns.length && titleRejectPatterns.some((pattern) => new RegExp(pattern, 'i').test(title))) continue;
 
     items.push({ title, link: href });
   }
@@ -103,7 +112,13 @@ for (const source of sources) {
     continue;
   }
 
-  const links = extractHtmlLinks(html, source.url, source.includePatterns || []);
+  const links = extractHtmlLinks(
+    html,
+    source.url,
+    source.includePatterns || [],
+    source.excludePatterns || [],
+    source.titleRejectPatterns || []
+  );
   const seenForSource = new Set(state.seen[source.id] || []);
   const unseen = links.filter((item) => !seenForSource.has(item.link));
   const publishable = unseen.filter((item) => !/agenda available now|programme available now/i.test(item.title));
