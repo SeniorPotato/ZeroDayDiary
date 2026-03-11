@@ -49,23 +49,6 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 						<a class="button secondary" href="/search">Search archive</a>
 						<a class="button secondary" href="/categories">Browse topics</a>
 					</div>
-					<div class="hero-metrics">
-						<div class="metric-card">
-							<span class="metric-label">Archive</span>
-							<strong>{totalBriefings}</strong>
-							<small>published briefings</small>
-						</div>
-						<div class="metric-card">
-							<span class="metric-label">Coverage</span>
-							<strong>{CATEGORY_LIST.length}</strong>
-							<small>risk lanes</small>
-						</div>
-						<div class="metric-card">
-							<span class="metric-label">Updated</span>
-							<strong>{lastUpdated ? <FormattedDate date={lastUpdated} /> : '—'}</strong>
-							<small>latest briefing</small>
-						</div>
-					</div>
 				</div>
 			</section>
 
@@ -144,6 +127,26 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 				</div>
 			</section>
 
+			<section class="home-metrics metrics-section">
+				<div class="hero-metrics">
+					<div class="metric-card">
+						<span class="metric-label">Archive</span>
+						<strong>{totalBriefings}</strong>
+						<small>published briefings</small>
+					</div>
+					<div class="metric-card">
+						<span class="metric-label">Coverage</span>
+						<strong>{CATEGORY_LIST.length}</strong>
+						<small>risk lanes</small>
+					</div>
+					<div class="metric-card">
+						<span class="metric-label">Updated</span>
+						<strong>{lastUpdated ? <FormattedDate date={lastUpdated} /> : '—'}</strong>
+						<small>latest briefing</small>
+					</div>
+				</div>
+			</section>
+
 			<section class="categories-section">
 				<div class="section-head split compact">
 					<div>
@@ -215,7 +218,8 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 	.section-head.compact { margin-bottom: 1rem; }
 	.section-head.split { display:flex; justify-content:space-between; align-items:end; gap:1rem; }
 	.text-link { text-decoration:none; font-weight:700; color:#a5f3fc; }
-	.lead-block, .briefing-grid, .latest-updates, .categories-section { margin: 0 0 2rem; }
+	.lead-block, .briefing-grid, .latest-updates, .metrics-section, .categories-section { margin: 0 0 2rem; }
+	.home-metrics { margin-top: .5rem; }
 	.lead-story {
 		display:grid;
 		grid-template-columns: 1fr;
