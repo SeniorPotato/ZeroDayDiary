@@ -1,24 +1,5 @@
 {
-  "generatedAt": "2026-03-11T20:51:46.305Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-11T205146Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-03-11",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-03-11",
-      "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
-      "link": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "researchers-trick-perplexity-s-comet-ai-browser-into-phishing-scam-in-under-four-minutes",
-      "source": "The Hacker News"
-    }
-  ]
+  "generatedAt": "2026-03-12T03:13:41.948Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-12T031341Z.md",
+  "candidates": []
 }
