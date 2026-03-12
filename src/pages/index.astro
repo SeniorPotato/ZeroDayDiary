@@ -39,9 +39,6 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 		<main class="home-shell">
 			<section class="hero">
 				<div class="hero-copy">
-					<div class="hero-brand-lockup">
-						<img src="/logo-lockup.svg" alt="ZeroDayDiary" />
-					</div>
 					<p class="eyebrow">Independent cybersecurity / privacy / AI risk journal</p>
 					<h1>Signal over noise<span>Cybersecurity</span><span>Privacy</span><span>AI Risk</span></h1>
 					<p class="lede">
@@ -182,17 +179,6 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 		align-items: stretch;
 		padding: 1.4rem 0 1.2rem;
 	}
-	.hero-brand-lockup {
-		margin: 0 0 1.3rem;
-		display: flex;
-		align-items: flex-start;
-		justify-content: flex-start;
-	}
-	.hero-brand-lockup img {
-		display: block;
-		width: min(100%, 34rem);
-		height: auto;
-	}
 	.eyebrow { margin:0 0 .8rem; font-size:.76rem; text-transform:uppercase; letter-spacing:.18em; color:#22d3ee; }
 	.hero-copy, .hero-sidecard, .lead-story, .compact-card, .category-card {
 		padding:1.15rem 1.2rem;
@@ -207,7 +193,7 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 			radial-gradient(circle at 80% 10%, rgba(139,92,246,.12), transparent 28%),
 			linear-gradient(180deg, rgba(10,16,30,.98), rgba(15,23,42,.86));
 	}
-	.hero h1 { font-size: clamp(2.55rem, 5vw, 4.55rem); line-height: .92; max-width: 12ch; margin: 0 0 1rem; display:grid; gap:.14em; }
+	.hero h1 { font-size: clamp(2.55rem, 5vw, 4.55rem); line-height: .92; max-width: 12ch; margin-bottom: 1rem; display:grid; gap:.14em; }
 	.hero h1 span { display:block; font-size: clamp(1.2rem, 2.1vw, 1.7rem); line-height:1; letter-spacing:-.02em; color:rgba(226,232,240,.9); }
 	.lede { font-size: 1.05rem; max-width: 52rem; color: rgba(226,232,240,.8); }
 	.hero-actions { display:flex; gap:.75rem; margin-top:1.35rem; flex-wrap:wrap; }
@@ -278,7 +264,6 @@ const lastUpdated = allPosts[0]?.data.pubDate;
 		.post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr 1fr; }
 	}
 	@media (max-width: 720px) {
-		.hero-brand-lockup img { width: min(100%, 19rem); }
 		.hero h1 { font-size: clamp(2rem, 10vw, 3rem); }
 		.hero-metrics, .post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr; }
 		.section-head.split { flex-direction:column; align-items:flex-start; }
