@@ -996,3 +996,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** FTC Seeks Public Comment on a Proposed Rulemaking Regarding Unfair or Deceptive Rental Housing Fee Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-proposed-rulemaking-regarding-unfair-or-deceptive-rental-housing-fee
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** Hive0163 Uses AI-Assisted Slopoly
+- **Source URL:** https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

@@ -1,50 +1,23 @@
 {
-  "generatedAt": "2026-03-12T13:38:25.179Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-12T133825Z.md",
+  "generatedAt": "2026-03-12T17:13:35.999Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-12T171335Z.md",
   "candidates": [
     {
       "discovered": "2026-03-12",
-      "title": "EDPB and EDPS support harmonisation of clinical trials under European Biotech Act, but call for specific safeguards for sensitive health data",
-      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-harmonisation-clinical-trials-under-european-biotech-act-call_en",
+      "title": "FTC Seeks Public Comment on a Proposed Rulemaking Regarding Unfair or Deceptive Rental Housing Fee Practices",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-proposed-rulemaking-regarding-unfair-or-deceptive-rental-housing-fee",
       "tier": "Tier 1",
-      "category": "governance",
-      "slug": "edpb-and-edps-support-harmonisation-of-clinical-trials-under-european-biotech-act-but-call",
-      "source": "EDPB News"
+      "category": "privacy",
+      "slug": "ftc-seeks-public-comment-on-a-proposed-rulemaking-regarding-unfair-or-deceptive-rental-hou",
+      "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-03-12",
-      "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
-      "link": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
+      "title": "Hive0163 Uses AI-Assisted Slopoly",
+      "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-to-scale-phishing-detection-in-your-soc-3-steps-for-cisos",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-03-12",
-      "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
-      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "threatsday-bulletin-oauth-trap-edr-killer-signal-phishing-zombie-zip-ai-platform-hack-more",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-03-12",
-      "title": "Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload",
-      "link": "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "attackers-don-t-just-send-phishing-emails-they-weaponize-your-soc-s-workload",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-03-12",
-      "title": "Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit",
-      "link": "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "apple-issues-security-updates-for-older-ios-devices-targeted-by-coruna-webkit-exploit",
+      "slug": "hive0163-uses-ai-assisted-slopoly",
       "source": "The Hacker News"
     }
   ]
