@@ -117,8 +117,8 @@ export const TAG_META = {
   },
   automation: {
     title: 'Automation',
-    color: '#06b6d4',
-    chipBackground: 'rgba(6, 182, 212, 0.18)',
+    color: '#84cc16',
+    chipBackground: 'rgba(132, 204, 22, 0.18)',
   },
 } as const;
 
