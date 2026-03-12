@@ -10,6 +10,9 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  FALLBACK_REVIEW_MODEL: ${{ vars.FALLBACK_REVIEW_MODEL }}
+  REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL }}
+  OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
 jobs:
   review-sources:
@@ -32,6 +35,9 @@ jobs:
 
       - name: Publish qualifying candidates
         run: npm run monitor:publish
+
+      - name: Review generated posts with fallback model
+        run: npm run monitor:review-published
 
       - name: Build site
         run: npm run build
