@@ -72,8 +72,8 @@ export const TAG_META = {
   },
   'network-edge': {
     title: 'Network Edge',
-    color: '#38bdf8',
-    chipBackground: 'rgba(56, 189, 248, 0.18)',
+    color: '#0ea5e9',
+    chipBackground: 'rgba(14, 165, 233, 0.18)',
   },
   compliance: {
     title: 'Compliance',
@@ -82,8 +82,13 @@ export const TAG_META = {
   },
   regulation: {
     title: 'Regulation',
-    color: '#94a3b8',
-    chipBackground: 'rgba(148, 163, 184, 0.18)',
+    color: '#eab308',
+    chipBackground: 'rgba(234, 179, 8, 0.18)',
+  },
+  enforcement: {
+    title: 'Enforcement',
+    color: '#14b8a6',
+    chipBackground: 'rgba(20, 184, 166, 0.18)',
   },
   children: {
     title: 'Children',
@@ -92,13 +97,13 @@ export const TAG_META = {
   },
   'data-rights': {
     title: 'Data Rights',
-    color: '#a78bfa',
-    chipBackground: 'rgba(167, 139, 250, 0.18)',
+    color: '#8b5cf6',
+    chipBackground: 'rgba(139, 92, 246, 0.18)',
   },
   'public-sector': {
     title: 'Public Sector',
-    color: '#cbd5e1',
-    chipBackground: 'rgba(203, 213, 225, 0.18)',
+    color: '#f97316',
+    chipBackground: 'rgba(249, 115, 22, 0.18)',
   },
   'threat-intelligence': {
     title: 'Threat Intelligence',
@@ -107,8 +112,13 @@ export const TAG_META = {
   },
   espionage: {
     title: 'Espionage',
-    color: '#f97316',
-    chipBackground: 'rgba(249, 115, 22, 0.18)',
+    color: '#ef4444',
+    chipBackground: 'rgba(239, 68, 68, 0.18)',
+  },
+  automation: {
+    title: 'Automation',
+    color: '#06b6d4',
+    chipBackground: 'rgba(6, 182, 212, 0.18)',
   },
 } as const;
 
