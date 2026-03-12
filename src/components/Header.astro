@@ -6,7 +6,7 @@ import HeaderLink from './HeaderLink.astro';
 <header class="site-header">
 	<nav>
 		<a class="brand" href="/">
-			<span class="brand-mark"><img src="/logo-mark.svg" alt="" aria-hidden="true" /></span>
+			<span class="brand-mark">ZD</span>
 			<span class="brand-copy">
 				<strong>{SITE_TITLE}</strong>
 				<small>Signal over noise</small>
@@ -43,12 +43,14 @@ import HeaderLink from './HeaderLink.astro';
 		place-items: center;
 		width: 2.3rem;
 		height: 2.3rem;
+		border-radius: 0.7rem;
+		color: #f8fafc;
+		background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+		box-shadow: 0 10px 24px rgba(14, 165, 233, 0.2);
+		font-size: 0.84rem;
+		font-weight: 800;
+		letter-spacing: 0.08em;
 		line-height: 1;
-	}
-	.brand-mark img {
-		display: block;
-		width: 2.3rem;
-		height: 2.3rem;
 	}
 	.brand-copy {
 		display: flex;
