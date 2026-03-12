@@ -956,3 +956,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** EDPB and EDPS support harmonisation of clinical trials under European Biotech Act, but call for specific safeguards for sensitive health data
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-harmonisation-clinical-trials-under-european-biotech-act-call_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs
+- **Source URL:** https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More
+- **Source URL:** https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload
+- **Source URL:** https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit
+- **Source URL:** https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
