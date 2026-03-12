@@ -8,6 +8,14 @@ tags:
   - enforcement
   - children
 canonical: "https://zerodaydiary.com/blog/2026/03/ico-fines-reddit-over-childrens-privacy-failures-and-age-assurance-gaps/"
+geo:
+  type: country
+  countries:
+    - GB
+  points:
+    - name: "United Kingdom"
+      lat: 54.5
+      lng: -2.5
 ---
 
 ## Summary

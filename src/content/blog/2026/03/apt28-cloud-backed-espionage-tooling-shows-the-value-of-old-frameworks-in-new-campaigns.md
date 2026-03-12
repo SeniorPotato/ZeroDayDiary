@@ -9,6 +9,14 @@ tags:
   - espionage
   - cloud
 canonical: "https://zerodaydiary.com/blog/2026/03/apt28-cloud-backed-espionage-tooling-shows-the-value-of-old-frameworks-in-new-campaigns/"
+geo:
+  type: country
+  countries:
+    - UA
+  points:
+    - name: "Ukraine"
+      lat: 48.4
+      lng: 31.2
 ---
 
 ## Summary

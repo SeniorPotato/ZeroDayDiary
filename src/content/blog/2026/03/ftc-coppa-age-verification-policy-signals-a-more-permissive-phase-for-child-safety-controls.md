@@ -9,6 +9,14 @@ tags:
   - children
   - regulation
 canonical: "https://zerodaydiary.com/blog/2026/03/ftc-coppa-age-verification-policy-signals-a-more-permissive-phase-for-child-safety-controls/"
+geo:
+  type: country
+  countries:
+    - US
+  points:
+    - name: "United States"
+      lat: 39.8
+      lng: -98.5
 ---
 
 ## Summary

@@ -9,6 +9,13 @@ tags:
   - infrastructure
   - compliance
 canonical: "https://zerodaydiary.com/blog/2026/03/enisa-nis2-guidance-pushes-european-cyber-compliance-toward-a-more-operational-model/"
+geo:
+  type: region
+  region: EU
+  points:
+    - name: "Europe"
+      lat: 50
+      lng: 10
 ---
 
 ## Summary

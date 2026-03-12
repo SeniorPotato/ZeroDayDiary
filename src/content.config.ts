@@ -1,5 +1,18 @@
 import { defineCollection, z } from 'astro:content';
 
+const geoPointSchema = z.object({
+	name: z.string(),
+	lat: z.number().min(-90).max(90),
+	lng: z.number().min(-180).max(180),
+});
+
+const postGeoSchema = z.object({
+	type: z.enum(['country', 'region', 'multi-country', 'global']),
+	countries: z.array(z.string()).optional(),
+	region: z.string().optional(),
+	points: z.array(geoPointSchema).optional(),
+});
+
 const blog = defineCollection({
 	// Type-check frontmatter using a schema
 	schema: ({ image }) =>
@@ -13,6 +26,7 @@ const blog = defineCollection({
 			tags: z.array(z.string()).default([]),
 			canonical: z.string().url().optional(),
 			heroImage: image().optional(),
+			geo: postGeoSchema.optional(),
 		}),
 });
 

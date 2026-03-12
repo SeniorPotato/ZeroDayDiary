@@ -8,6 +8,14 @@ tags:
   - ransomware
   - critical-infrastructure
 canonical: "https://zerodaydiary.com/blog/2026/03/cisa-updates-play-ransomware-guidance-as-victim-count-nears-900/"
+geo:
+  type: country
+  countries:
+    - US
+  points:
+    - name: "United States"
+      lat: 39.8
+      lng: -98.5
 ---
 
 ## Summary

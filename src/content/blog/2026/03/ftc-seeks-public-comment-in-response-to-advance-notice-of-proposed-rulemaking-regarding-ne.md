@@ -9,6 +9,14 @@ tags:
   - regulation
   - public-sector
 canonical: "https://zerodaydiary.com/blog/2026/03/ftc-seeks-public-comment-in-response-to-advance-notice-of-proposed-rulemaking-regarding-ne/"
+geo:
+  type: country
+  countries:
+    - US
+  points:
+    - name: "United States"
+      lat: 39.8
+      lng: -98.5
 ---
 
 ## Summary

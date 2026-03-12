@@ -8,6 +8,13 @@ tags:
   - privacy
   - governance
 canonical: "https://zerodaydiary.com/blog/2026/03/edpb-llm-privacy-report-signals-a-more-operational-phase-of-ai-governance/"
+geo:
+  type: region
+  region: EU
+  points:
+    - name: "Europe"
+      lat: 50
+      lng: 10
 ---
 
 ## Summary

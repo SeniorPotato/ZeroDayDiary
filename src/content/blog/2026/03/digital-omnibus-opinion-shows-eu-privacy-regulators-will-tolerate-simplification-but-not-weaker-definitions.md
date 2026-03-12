@@ -9,6 +9,13 @@ tags:
   - ai-risk
   - regulation
 canonical: "https://zerodaydiary.com/blog/2026/03/digital-omnibus-opinion-shows-eu-privacy-regulators-will-tolerate-simplification-but-not-weaker-definitions/"
+geo:
+  type: region
+  region: EU
+  points:
+    - name: "Europe"
+      lat: 50
+      lng: 10
 ---
 
 ## Summary

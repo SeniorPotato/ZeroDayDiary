@@ -9,6 +9,13 @@ tags:
   - governance
   - public-sector
 canonical: "https://zerodaydiary.com/blog/2026/03/enisa-taking-over-the-eu-cybersecurity-reserve-makes-cyber-solidarity-more-operational/"
+geo:
+  type: region
+  region: EU
+  points:
+    - name: "Europe"
+      lat: 50
+      lng: 10
 ---
 
 ## Summary
