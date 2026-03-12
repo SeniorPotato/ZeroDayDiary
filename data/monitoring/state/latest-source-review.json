@@ -1,24 +1,15 @@
 {
-  "generatedAt": "2026-03-12T17:13:35.999Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-12T171335Z.md",
+  "generatedAt": "2026-03-12T20:55:16.255Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-12T205516Z.md",
   "candidates": [
     {
       "discovered": "2026-03-12",
-      "title": "FTC Seeks Public Comment on a Proposed Rulemaking Regarding Unfair or Deceptive Rental Housing Fee Practices",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-proposed-rulemaking-regarding-unfair-or-deceptive-rental-housing-fee",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-seeks-public-comment-on-a-proposed-rulemaking-regarding-unfair-or-deceptive-rental-hou",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-03-12",
-      "title": "Hive0163 Uses AI-Assisted Slopoly",
-      "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+      "title": "iPhones and iPads Approved for NATO Classified Data",
+      "link": "https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hive0163-uses-ai-assisted-slopoly",
-      "source": "The Hacker News"
+      "slug": "iphones-and-ipads-approved-for-nato-classified-data",
+      "source": "Schneier on Security"
     }
   ]
 }
