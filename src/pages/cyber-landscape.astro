@@ -6,6 +6,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
 import { getTagTheme } from '../data/categories';
+import LandscapeMap from '../components/landscape/LandscapeMap.astro';
 import { applyLandscapeFilters, getGeoLabel, getRenderableMarkers, normalizeLandscapePosts } from '../lib/landscape';
 
 const allPosts = normalizeLandscapePosts(await getCollection('blog', ({ data }) => !data.draft));
@@ -60,15 +61,7 @@ const regions = [...new Set(allPosts.flatMap((post) => (post.geo?.region ? [post
 				</div>
 			</form>
 
-			<section class="map-placeholder">
-				<div class="section-head">
-					<div>
-						<p class="eyebrow">Slice 1</p>
-						<h2>Map foundation is ready next</h2>
-					</div>
-				</div>
-				<p>This first slice ships the schema, geo metadata foundation, filters, and the feed-only landscape view. The interactive map layer comes next once we wire Leaflet onto the normalized post dataset.</p>
-			</section>
+			<LandscapeMap markers={markers} />
 
 			<section class="timeline-section">
 				<div class="section-head split">
@@ -107,7 +100,7 @@ const regions = [...new Set(allPosts.flatMap((post) => (post.geo?.region ? [post
 
 <style>
 	.landscape-shell { width: min(1180px, calc(100% - 2rem)); max-width: none; padding: 1.25rem 0 4rem; }
-	.hero-card, .filters, .map-placeholder, .timeline-card {
+	.hero-card, .filters, .timeline-card {
 		padding: 1.15rem 1.2rem;
 		border-radius: 1.05rem;
 		background: linear-gradient(180deg, rgba(15,23,42,.92), rgba(15,23,42,.72));
@@ -123,7 +116,7 @@ const regions = [...new Set(allPosts.flatMap((post) => (post.geo?.region ? [post
 	}
 	.eyebrow { margin:0 0 .8rem; font-size:.76rem; text-transform:uppercase; letter-spacing:.18em; color:#22d3ee; }
 	h1 { font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: .96; margin: 0 0 .8rem; max-width: 14ch; }
-	.lede, .map-placeholder p, .subcopy, .desc { color: rgba(226,232,240,.78); }
+	.lede, .subcopy, .desc { color: rgba(226,232,240,.78); }
 	.counts { display:flex; gap:.8rem; flex-wrap:wrap; margin-top:1rem; }
 	.counts div { padding:.75rem .9rem; border-radius:.85rem; background:rgba(2,6,23,.34); border:1px solid rgba(148,163,184,.12); }
 	.counts strong { display:block; color:#f8fafc; font-size:1.1rem; }
@@ -148,7 +141,6 @@ const regions = [...new Set(allPosts.flatMap((post) => (post.geo?.region ? [post
 	}
 	.filters button { cursor:pointer; justify-content:center; font-weight:700; }
 	.filter-actions { display:flex; gap:.7rem; }
-	.map-placeholder { margin-bottom: 1rem; }
 	.section-head.split { display:flex; justify-content:space-between; align-items:end; gap:1rem; margin-bottom:1rem; }
 	.timeline-grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:.85rem; }
 	.timeline-card { min-height: 220px; display:flex; flex-direction:column; justify-content:space-between; }
