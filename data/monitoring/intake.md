@@ -948,3 +948,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-12
+- **Headline / event:** CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed
+- **Source URL:** https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
