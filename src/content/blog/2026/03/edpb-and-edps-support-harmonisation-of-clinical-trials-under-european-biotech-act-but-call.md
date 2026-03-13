@@ -28,10 +28,5 @@ This matters because health-data governance is exactly where policy simplificati
 ## Assessment
 The important signal is not simply that the EDPB and EDPS commented on another Commission proposal. It is that they are trying to shape the terms on which innovation, harmonisation, and data protection can coexist. For organisations working around clinical trials, health research, or biotech-adjacent platforms, that means governance quality and evidentiary discipline will remain central even when policymakers are under pressure to reduce complexity.
 
-## Recommended actions
-- review whether clinical-trial or health-data workflows rely on broad simplification assumptions that are not matched by special-category data safeguards
-- treat this as a legal-design and governance issue, not just a policy headline about biotech competitiveness
-- monitor follow-on EU drafting for how lawmakers translate harmonisation goals into operational protections and accountability requirements
-
 ## Further reading
 - [Primary source](https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-harmonisation-clinical-trials-under-european-biotech-act-call_en)

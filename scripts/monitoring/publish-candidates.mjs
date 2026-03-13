@@ -432,7 +432,6 @@ async function main() {
     const keyDetails = summariseKeyDetails(resolvedCandidate, paragraphs, tags, profile);
     const whyItMatters = buildWhyItMatters(resolvedCandidate, tags, profile);
     const assessment = buildAssessment(resolvedCandidate, tags, profile);
-    const recommendedActions = buildRecommendedActions(tags, resolvedCategory, profile);
 
     const pubDate = new Date(review.generatedAt || new Date().toISOString());
     const year = String(pubDate.getUTCFullYear());
@@ -463,9 +462,6 @@ ${whyItMatters}
 
 ## Assessment
 ${assessment}
-
-## Recommended actions
-${recommendedActions.map((item) => `- ${item}`).join('\n')}
 
 ## Further reading
 - [Primary source](${candidate.link})

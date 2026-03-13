@@ -40,10 +40,6 @@ on:
         description: Analysis section
         required: true
         type: string
-      practical_takeaway:
-        description: Practical takeaway section
-        required: true
-        type: string
       further_reading:
         description: Further reading section
         required: true
@@ -99,9 +95,6 @@ jobs:
 
           ## Analysis
           ${{ inputs.analysis }}
-
-          ## Practical Takeaway
-          ${{ inputs.practical_takeaway }}
 
           ## Further Reading
           ${{ inputs.further_reading }}
