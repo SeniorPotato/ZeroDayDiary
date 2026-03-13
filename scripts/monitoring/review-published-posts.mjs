@@ -101,9 +101,7 @@ async function main() {
   }
 
   if (!apiKey || !model) {
-    console.log('Reviewer: fallback review model not configured; skipping AI review.');
-    console.log(`Reviewer: pending posts would have been reviewed: ${changedPosts.join(', ')}`);
-    return;
+    throw new Error(`Reviewer required but not configured. Missing ${!apiKey ? 'OPENROUTER_API_KEY' : 'FALLBACK_REVIEW_MODEL'} for posts: ${changedPosts.join(', ')}`);
   }
 
   for (const relativePath of changedPosts) {

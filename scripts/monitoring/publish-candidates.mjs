@@ -283,9 +283,14 @@ function buildWhatHappened(candidate, standfirst, paragraphs, profile) {
       ? `The latest ${profile.sourceNoun.toLowerCase()} sets out the regulator's position on ${candidate.title.toLowerCase()}.`
       : `The latest ${profile.sourceNoun.toLowerCase()} sets out a development that is directly relevant to ${candidate.category} operators.`;
 
-  const sentences = [intro, standfirst];
-  if (first && !sentences.join(' ').toLowerCase().includes(first.toLowerCase())) sentences.push(first);
-  if (second && !sentences.join(' ').toLowerCase().includes(second.toLowerCase())) sentences.push(second);
+  const standfirstSentence = firstUsefulSentence(standfirst);
+  const sentences = [intro];
+  if (first && (!standfirstSentence || first.toLowerCase() !== standfirstSentence.toLowerCase()) && !sentences.join(' ').toLowerCase().includes(first.toLowerCase())) {
+    sentences.push(first);
+  }
+  if (second && !sentences.join(' ').toLowerCase().includes(second.toLowerCase()) && (!standfirstSentence || second.toLowerCase() !== standfirstSentence.toLowerCase())) {
+    sentences.push(second);
+  }
   return sentences.map(normaliseSentence).join(' ');
 }
 
