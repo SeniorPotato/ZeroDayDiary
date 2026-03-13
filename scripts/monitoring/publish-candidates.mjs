@@ -429,7 +429,6 @@ async function main() {
     const tags = inferTags(resolvedCandidate, combinedText, resolvedCategory);
     const standfirst = buildStandfirst(resolvedCandidate, description, paragraphs, profile);
     const whatHappened = buildWhatHappened(resolvedCandidate, standfirst, paragraphs, profile);
-    const keyDetails = summariseKeyDetails(resolvedCandidate, paragraphs, tags, profile);
     const whyItMatters = buildWhyItMatters(resolvedCandidate, tags, profile);
     const assessment = buildAssessment(resolvedCandidate, tags, profile);
 
@@ -453,9 +452,6 @@ canonical: "https://zerodaydiary.com/blog/${year}/${month}/${slug}/"
 
 ## What happened
 ${whatHappened}
-
-## Key details
-${keyDetails.map((item) => `- ${sentenceCase(item)}`).join('\n')}
 
 ## Why it matters
 ${whyItMatters}

@@ -28,10 +28,6 @@ on:
         description: What happened / overview section
         required: true
         type: string
-      key_details:
-        description: Key details section
-        required: true
-        type: string
       why_it_matters:
         description: Why it matters section
         required: true
@@ -86,9 +82,6 @@ jobs:
 
           ## What happened
           ${{ inputs.overview }}
-
-          ## Key Details
-          ${{ inputs.key_details }}
 
           ## Why It Matters
           ${{ inputs.why_it_matters }}

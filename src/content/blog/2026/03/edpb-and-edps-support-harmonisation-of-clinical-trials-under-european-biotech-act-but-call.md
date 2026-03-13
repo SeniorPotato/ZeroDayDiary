@@ -16,12 +16,6 @@ In a joint opinion, the two EU data protection bodies backed the Commission’s 
 
 The opinion effectively supports the direction of travel while drawing a boundary around what regulators will accept: less fragmentation, yes; weaker protections for sensitive medical data, no.
 
-## Key details
-- the opinion supports the broader objective of improving consistency in the application of the Clinical Trials Regulation
-- the regulators emphasise that sensitive health data still requires explicit and durable safeguards inside any simplification effort
-- the intervention frames biotech competitiveness and data protection as governance questions that must be reconciled in the legal design, not traded off informally
-- Primary source: https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-harmonisation-clinical-trials-under-european-biotech-act-call_en
-
 ## Why it matters
 This matters because health-data governance is exactly where policy simplification can become risky if lawmakers treat privacy safeguards as administrative friction rather than core operating constraints. The opinion is also a signal that European regulators are willing to support competitiveness arguments, but only within a framework that preserves high-threshold protections for sensitive data.
 
