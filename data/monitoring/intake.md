@@ -1020,3 +1020,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from schneier on security
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries
+- **Source URL:** https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution
+- **Source URL:** https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
