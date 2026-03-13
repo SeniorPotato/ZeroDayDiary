@@ -1,14 +1,32 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-13T14:39:44.698Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-13T143944Z.md",
   "candidates": [
     {
       "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "title": "Academia and the “AI Brain Drain”",
+      "link": "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "academia-and-the-ai-brain-drain",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-13",
+      "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials Mar 13, 2026 VPN Security /",
+      "link": "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "storm-2561-spreads-trojan-vpn-clients-via-seo-poisoning-to-steal-credentials-mar-13-2026-v",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-13",
+      "title": "Investigating a New Click-Fix Variant Mar 13, 2026",
+      "link": "https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "investigating-a-new-click-fix-variant-mar-13-2026",
       "source": "The Hacker News"
     }
   ]
