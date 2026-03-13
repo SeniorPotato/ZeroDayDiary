@@ -11,9 +11,6 @@ tags:
 canonical: "https://zerodaydiary.com/blog/2026/03/edpb-and-edps-support-harmonisation-of-clinical-trials-under-european-biotech-act-but-call/"
 ---
 
-## Summary
-The EDPB and EDPS say the proposed European Biotech Act can help reduce fragmentation in clinical-trials rules, but warn that simplification cannot come at the expense of clear safeguards for sensitive health data.
-
 ## What happened
 In a joint opinion, the two EU data protection bodies backed the Commission’s goal of making the clinical-trials environment more coherent across member states. But they also argued that any harmonisation effort needs tighter legal and governance treatment of special-category health data, especially where research efficiency could otherwise be used to justify looser protections.
 

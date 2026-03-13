@@ -24,12 +24,8 @@ on:
         required: true
         default: true
         type: boolean
-      summary:
-        description: Summary section
-        required: true
-        type: string
       overview:
-        description: Overview section
+        description: What happened / overview section
         required: true
         type: string
       key_details:
@@ -92,10 +88,7 @@ jobs:
           canonical: "https://zerodaydiary.com/blog/$YEAR/$MONTH/${{ inputs.slug }}/"
           ---
 
-          ## Summary
-          ${{ inputs.summary }}
-
-          ## Overview
+          ## What happened
           ${{ inputs.overview }}
 
           ## Key Details

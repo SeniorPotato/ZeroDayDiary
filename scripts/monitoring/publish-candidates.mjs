@@ -452,9 +452,6 @@ ${tags.map((tag) => `  - ${tag}`).join('\n')}
 canonical: "https://zerodaydiary.com/blog/${year}/${month}/${slug}/"
 ---
 
-## Summary
-${standfirst}
-
 ## What happened
 ${whatHappened}
 
