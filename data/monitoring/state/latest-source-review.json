@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-03-12T20:55:16.255Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-12T205516Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-03-12",
-      "title": "iPhones and iPads Approved for NATO Classified Data",
-      "link": "https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "iphones-and-ipads-approved-for-nato-classified-data",
-      "source": "Schneier on Security"
-    }
-  ]
+  "generatedAt": "2026-03-13T03:10:26.926Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-13T031026Z.md",
+  "candidates": []
 }
