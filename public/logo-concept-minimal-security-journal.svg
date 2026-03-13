@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" fill="none">
+  <rect x="28" y="28" width="164" height="164" rx="28" fill="#09111F"/>
+  <path d="M60 70h98v14H89l62 55v16H60v-14h58L60 86V70Z" fill="#FFFFFF"/>
+  <path d="M138 56h10c17.7 0 32 14.3 32 32v43c0 17.7-14.3 32-32 32h-10v-14h7c10.5 0 19-8.5 19-19V91c0-10.5-8.5-19-19-19h-7V56Z" fill="#22D3EE"/>
+  <line x1="222" y1="56" x2="222" y2="182" stroke="#1E293B" stroke-width="2"/>
+  <text x="258" y="108" fill="#F8FAFC" font-size="84" font-family="Arial, sans-serif" font-weight="800" letter-spacing="-2">ZeroDayDiary</text>
+  <text x="260" y="152" fill="#7C8DA6" font-size="24" font-family="Arial, sans-serif" letter-spacing="6">SIGNAL OVER NOISE</text>
+</svg>
