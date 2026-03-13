@@ -1,4 +1,5 @@
 ---
+import 'leaflet/dist/leaflet.css';
 import type { RenderableMarker } from '../../lib/landscape';
 
 interface Props {
@@ -8,13 +9,6 @@ interface Props {
 const { markers } = Astro.props;
 const markerPayload = JSON.stringify(markers);
 ---
-
-<link
-	rel="stylesheet"
-	href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-	integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-	crossorigin=""
-/>
 
 <section class="map-card">
 	<div class="map-head">
@@ -28,6 +22,8 @@ const markerPayload = JSON.stringify(markers);
 </section>
 
 <script>
+	import L from 'leaflet';
+
 	const markerColors = {
 		security: '#22d3ee',
 		privacy: '#a78bfa',
@@ -38,34 +34,47 @@ const markerPayload = JSON.stringify(markers);
 	};
 
 	function createMarkerIcon(color) {
-		return window.L.divIcon({
+		const marker = document.createElement('span');
+		marker.className = 'landscape-marker';
+		marker.style.setProperty('--marker', color);
+		return L.divIcon({
 			className: 'landscape-marker-shell',
-			html: `<span class="landscape-marker" style="--marker:${color}"></span>`,
+			html: marker.outerHTML,
 			iconSize: [18, 18],
 			iconAnchor: [9, 9],
 		});
 	}
 
-	async function ensureLeaflet() {
-		if (window.L) return window.L;
-		await new Promise((resolve, reject) => {
-			const script = document.createElement('script');
-			script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-			script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
-			script.crossOrigin = '';
-			script.onload = resolve;
-			script.onerror = reject;
-			document.head.appendChild(script);
-		});
-		return window.L;
+	function buildPopupContent(marker, href) {
+		const wrapper = document.createElement('div');
+		wrapper.className = 'landscape-popup';
+
+		const kicker = document.createElement('p');
+		kicker.className = 'landscape-popup-kicker';
+		kicker.textContent = marker.category;
+		wrapper.appendChild(kicker);
+
+		const title = document.createElement('h3');
+		title.textContent = marker.title;
+		wrapper.appendChild(title);
+
+		const point = document.createElement('p');
+		point.textContent = marker.pointName;
+		wrapper.appendChild(point);
+
+		const link = document.createElement('a');
+		link.href = href;
+		link.textContent = 'Open briefing';
+		wrapper.appendChild(link);
+
+		return wrapper;
 	}
 
-	async function initLandscapeMap() {
+	function initLandscapeMap() {
 		const el = document.getElementById('landscape-map');
 		if (!el || el.dataset.ready === 'true') return;
 		el.dataset.ready = 'true';
 		const markers = JSON.parse(el.dataset.markers || '[]');
-		const L = await ensureLeaflet();
 
 		const map = L.map(el, {
 			worldCopyJump: true,
@@ -84,17 +93,11 @@ const markerPayload = JSON.stringify(markers);
 		const bounds = [];
 		markers.forEach((marker) => {
 			const color = markerColors[marker.category] || '#22d3ee';
+			const href = `/blog/${marker.slug}/`;
 			const leafletMarker = L.marker([marker.lat, marker.lng], { icon: createMarkerIcon(color), keyboard: true }).addTo(map);
-			leafletMarker.bindPopup(`
-				<div class="landscape-popup">
-					<p class="landscape-popup-kicker">${marker.category}</p>
-					<h3>${marker.title}</h3>
-					<p>${marker.pointName}</p>
-					<a href="/blog/${marker.slug}/">Open briefing</a>
-				</div>
-			`);
+			leafletMarker.bindPopup(buildPopupContent(marker, href));
 			leafletMarker.on('click', () => {
-				window.location.href = `/blog/${marker.slug}/`;
+				window.location.href = href;
 			});
 			bounds.push([marker.lat, marker.lng]);
 		});

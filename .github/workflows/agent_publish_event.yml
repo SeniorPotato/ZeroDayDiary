@@ -61,37 +61,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create event markdown
-        shell: bash
-        run: |
-          DATE=$(date +%F)
-          YEAR=$(date +%Y)
-          MONTH=$(date +%m)
-          mkdir -p src/content/blog/$YEAR/$MONTH
-          FILE="src/content/blog/$YEAR/$MONTH/${{ inputs.slug }}.md"
-          TAGS=$(printf '%s' "${{ inputs.tags }}" | awk -F',' '{printf("[\n"); for(i=1;i<=NF;i++) printf("  \"%s\"%s\n", $i, i<NF ? "," : ""); printf("]\n")}')
-          cat > "$FILE" <<EOF
-          ---
-          title: "${{ inputs.title }}"
-          description: "${{ inputs.description }}"
-          pubDate: $DATE
-          draft: ${{ inputs.draft }}
-          tags: $TAGS
-          canonical: "https://zerodaydiary.com/blog/$YEAR/$MONTH/${{ inputs.slug }}/"
-          ---
+      - name: Create validated event markdown draft
+        env:
+          DRAFT_MODE: event
+          INPUT_TITLE: ${{ inputs.title }}
+          INPUT_SLUG: ${{ inputs.slug }}
+          INPUT_DESCRIPTION: ${{ inputs.description }}
+          INPUT_TAGS: ${{ inputs.tags }}
+          INPUT_DRAFT: ${{ inputs.draft }}
+          INPUT_OVERVIEW: ${{ inputs.overview }}
+          INPUT_WHY_IT_MATTERS: ${{ inputs.why_it_matters }}
+          INPUT_ANALYSIS: ${{ inputs.analysis }}
+          INPUT_FURTHER_READING: ${{ inputs.further_reading }}
+        run: npm run draft:agent
 
-          ## What happened
-          ${{ inputs.overview }}
-
-          ## Why It Matters
-          ${{ inputs.why_it_matters }}
-
-          ## Analysis
-          ${{ inputs.analysis }}
-
-          ## Further Reading
-          ${{ inputs.further_reading }}
-          EOF
+      - name: Build site for validation
+        run: npm run build
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
@@ -99,8 +84,14 @@ jobs:
           commit-message: "feat(event): add ${{ inputs.slug }} draft"
           title: "feat(event): add ${{ inputs.title }}"
           body: |
-            Agent-generated event draft.
+            Agent-generated event draft, validated before PR creation.
 
+            Safeguards applied:
+            - input rendered through the repository draft generator rather than shell heredoc interpolation
+            - markdown/frontmatter validated before write
+            - full Astro build completed before PR creation
+
+            Draft details:
             - Title: ${{ inputs.title }}
             - Slug: ${{ inputs.slug }}
             - Draft: ${{ inputs.draft }}

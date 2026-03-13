@@ -45,34 +45,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create markdown post
-        shell: bash
-        run: |
-          DATE=$(date +%F)
-          YEAR=$(date +%Y)
-          MONTH=$(date +%m)
-          mkdir -p src/content/blog/$YEAR/$MONTH
-          FILE="src/content/blog/$YEAR/$MONTH/${{ inputs.slug }}.md"
-          TAGS=$(printf '%s' "${{ inputs.tags }}" | awk -F',' '{printf("[\n"); for(i=1;i<=NF;i++) printf("  \"%s\"%s\n", $i, i<NF ? "," : ""); printf("]\n")}')
-          cat > "$FILE" <<EOF
-          ---
-          title: "${{ inputs.title }}"
-          description: "${{ inputs.description }}"
-          pubDate: $DATE
-          draft: ${{ inputs.draft }}
-          tags: $TAGS
-          canonical: "https://zerodaydiary.com/blog/${{ inputs.slug }}/"
-          ---
+      - name: Create validated markdown post draft
+        env:
+          DRAFT_MODE: post
+          INPUT_TITLE: ${{ inputs.title }}
+          INPUT_SLUG: ${{ inputs.slug }}
+          INPUT_DESCRIPTION: ${{ inputs.description }}
+          INPUT_TAGS: ${{ inputs.tags }}
+          INPUT_DRAFT: ${{ inputs.draft }}
+        run: npm run draft:agent
 
-          ## What happened
-          Add the initial article draft here.
-
-          ## Why it matters
-          Explain the operational, regulatory, or public-interest significance.
-
-          ## What to watch next
-          Capture the next checkpoints, unresolved questions, or likely follow-on developments.
-          EOF
+      - name: Build site for validation
+        run: npm run build
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
@@ -80,8 +64,14 @@ jobs:
           commit-message: "feat(content): add ${{ inputs.slug }} draft"
           title: "feat(content): add ${{ inputs.title }}"
           body: |
-            Agent-generated content draft.
+            Agent-generated content draft, validated before PR creation.
 
+            Safeguards applied:
+            - input rendered through the repository draft generator rather than shell heredoc interpolation
+            - markdown/frontmatter validated before write
+            - full Astro build completed before PR creation
+
+            Draft details:
             - Title: ${{ inputs.title }}
             - Slug: ${{ inputs.slug }}
             - Draft: ${{ inputs.draft }}

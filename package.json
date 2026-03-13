@@ -10,13 +10,19 @@
     "monitor:review": "node scripts/monitoring/review-sources.mjs",
     "monitor:publish": "node scripts/monitoring/publish-candidates.mjs",
     "monitor:review-published": "node scripts/monitoring/review-published-posts.mjs",
-    "monitor:draft": "node scripts/monitoring/create-draft-from-candidate.mjs"
+    "monitor:draft": "node scripts/monitoring/create-draft-from-candidate.mjs",
+    "draft:agent": "node scripts/create-agent-draft.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
     "astro": "^5.17.1",
+    "cheerio": "^1.2.0",
+    "leaflet": "^1.9.4",
     "sharp": "^0.34.3"
+  },
+  "overrides": {
+    "devalue": "5.6.4"
   }
 }

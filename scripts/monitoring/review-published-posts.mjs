@@ -3,6 +3,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { validateGeneratedMarkdown, writeValidatedMarkdown } from './lib/markdown-validation.mjs';
 
 const execFileAsync = promisify(execFile);
 const root = process.cwd();
@@ -15,13 +16,17 @@ function extractTitle(markdown = '') {
   return markdown.match(/^title:\s*"([^"]+)"/m)?.[1] || markdown.match(/^title:\s*(.+)$/m)?.[1] || 'Untitled';
 }
 
+function expectedCanonicalForPath(filePath) {
+  const normalised = filePath.replace(/\\/g, '/');
+  const match = normalised.match(/^src\/content\/blog\/(\d{4})\/(\d{2})\/([^/]+)\.mdx?$/i);
+  if (!match) return null;
+  const [, year, month, slug] = match;
+  return `https://zerodaydiary.com/blog/${year}/${month}/${slug}/`;
+}
+
 async function getChangedPosts() {
   const { stdout } = await execFileAsync('git', ['diff', '--name-only', '--', 'src/content/blog'], { cwd: root });
-  return stdout
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .filter((line) => /src\/content\/blog\/.+\.mdx?$/i.test(line));
+  return stdout.split(/\r?\n/).map((line) => line.trim()).filter(Boolean).filter((line) => /src\/content\/blog\/.+\.mdx?$/i.test(line));
 }
 
 async function reviewPost(filePath, markdown) {
@@ -74,32 +79,24 @@ ${markdown}`;
     }),
   });
 
-  if (!res.ok) {
-    throw new Error(`Reviewer API HTTP ${res.status}: ${await res.text()}`);
-  }
-
+  if (!res.ok) throw new Error(`Reviewer API HTTP ${res.status}: ${await res.text()}`);
   const data = await res.json();
   const content = data?.choices?.[0]?.message?.content;
   if (!content) throw new Error('Reviewer API returned no content');
 
-  let parsed;
   try {
-    parsed = JSON.parse(content);
+    return JSON.parse(content);
   } catch (error) {
     throw new Error(`Reviewer JSON parse failed: ${String(error.message || error)} :: ${content.slice(0, 300)}`);
   }
-
-  return parsed;
 }
 
 async function main() {
   const changedPosts = await getChangedPosts();
-
   if (changedPosts.length === 0) {
     console.log('Reviewer: no changed blog posts to inspect.');
     return;
   }
-
   if (!apiKey || !model) {
     throw new Error(`Reviewer required but not configured. Missing ${!apiKey ? 'OPENROUTER_API_KEY' : 'FALLBACK_REVIEW_MODEL'} for posts: ${changedPosts.join(', ')}`);
   }
@@ -108,6 +105,12 @@ async function main() {
     const fullPath = path.join(root, relativePath);
     const original = await fs.readFile(fullPath, 'utf8');
     const title = extractTitle(original);
+    const canonical = expectedCanonicalForPath(relativePath);
+    validateGeneratedMarkdown(original, {
+      expectedSlug: canonical ? canonical.split('/').filter(Boolean).at(-1) : undefined,
+      expectedCanonical: canonical || undefined,
+      requireSections: ['What happened', 'Why it matters', 'Assessment', 'Further reading'],
+    });
     console.log(`Reviewer: inspecting ${relativePath} (${title})`);
 
     const result = await reviewPost(relativePath, original);
@@ -118,14 +121,16 @@ async function main() {
       for (const issue of result.issues) console.log(`- ${issue}`);
     }
 
-    if (result.should_skip) {
-      throw new Error(`Reviewer rejected ${relativePath}: ${summary}`);
-    }
+    if (result.should_skip) throw new Error(`Reviewer rejected ${relativePath}: ${summary}`);
 
     const revised = String(result.revised_markdown || '').trim();
     if (result.needs_changes && revised) {
-      await fs.writeFile(fullPath, `${revised}\n`, 'utf8');
-      console.log(`Reviewer: applied revisions to ${relativePath}`);
+      await writeValidatedMarkdown(fullPath, revised, {
+        expectedSlug: canonical ? canonical.split('/').filter(Boolean).at(-1) : undefined,
+        expectedCanonical: canonical || undefined,
+        requireSections: ['What happened', 'Why it matters', 'Assessment', 'Further reading'],
+      });
+      console.log(`Reviewer: applied validated revisions to ${relativePath}`);
     }
   }
 }
