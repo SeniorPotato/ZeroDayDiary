@@ -1044,3 +1044,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Academia and the “AI Brain Drain”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun
+- **Source URL:** https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026 Mar 13, 2026 Encryption / Data Protection Meta has announced plans to discontinue support for end-to-end encryption (E2EE) for chats on Instagram after May 8, 2026. "If you have chats that are impacted by this change, you will see instructions on how you can download any media or messages you may want to keep," the social media giant said in a help document. "If you're on an older version of Instagram, you may also need to update the app before you can download your affected chats." The American company first began testing E2EE for Instagram direct messages in 2021 as part of CEO Mark Zuckerberg's "privacy-focused vision for social networking." The feature is currently " only available in some areas " and is not enabled by default. Weeks into the Russo-Ukrainian war in February 2022, the company made encrypted direct messaging available to all adult users in both countries. The development comes days after TikTok said it does not plan to introduce E2EE to secure direc...
+- **Source URL:** https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime Mar 13, 2026 Ransomware / Cybercrime INTERPOL on Friday announced the takedown of 45,000 malicious IP addresses and servers used in connection with phishing,
+- **Source URL:** https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials Mar 13, 2026 VPN Security /
+- **Source URL:** https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-13
+- **Headline / event:** Investigating a New Click-Fix Variant Mar 13, 2026
+- **Source URL:** https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
