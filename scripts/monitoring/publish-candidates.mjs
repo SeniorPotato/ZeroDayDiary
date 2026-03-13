@@ -1,11 +1,12 @@
-import fs from 'node:fs/promises';
 import path from 'node:path';
+import fs from 'node:fs/promises';
+import { exists, escapeYaml, makeSlug } from './lib/shared.mjs';
+import { cleanText, extractDescription, extractParagraphs, extractTitle, normaliseSentence } from './lib/html-utils.mjs';
+import { writeValidatedMarkdown } from './lib/markdown-validation.mjs';
 
 const root = process.cwd();
 const latestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
 const blogRoot = path.join(root, 'src/content/blog');
-
-const exists = async (p) => !!(await fs.stat(p).catch(() => null));
 
 const AUTO_PUBLISH_SOURCES = new Set([
   'CISA Cybersecurity Advisories',
@@ -19,170 +20,42 @@ const AUTO_PUBLISH_SOURCES = new Set([
 ]);
 
 const SOURCE_PROFILES = {
-  'CISA Cybersecurity Advisories': {
-    voice: 'advisory',
-    sourceNoun: 'CISA and partner-agency guidance',
-  },
-  'CISA Known Exploited Vulnerabilities Catalog': {
-    voice: 'advisory',
-    sourceNoun: 'CISA KEV update',
-  },
-  'ICO News and Blogs': {
-    voice: 'enforcement',
-    sourceNoun: 'ICO announcement',
-  },
-  'EDPB News': {
-    voice: 'governance',
-    sourceNoun: 'EDPB publication',
-  },
-  'ENISA News': {
-    voice: 'governance',
-    sourceNoun: 'ENISA publication',
-  },
-  'NCSC UK News': {
-    voice: 'advisory',
-    sourceNoun: 'NCSC announcement',
-  },
-  'FTC Press Releases': {
-    voice: 'enforcement',
-    sourceNoun: 'FTC announcement',
-  },
-  'ISO Insights and Updates': {
-    voice: 'governance',
-    sourceNoun: 'ISO publication',
-  },
-  'Krebs on Security': {
-    voice: 'reporting',
-    sourceNoun: 'reported investigation',
-  },
-  'Schneier on Security': {
-    voice: 'analysis',
-    sourceNoun: 'analysis post',
-  },
-  'The Hacker News': {
-    voice: 'reporting',
-    sourceNoun: 'security reporting',
-  },
+  'CISA Cybersecurity Advisories': { voice: 'advisory', sourceNoun: 'CISA and partner-agency guidance' },
+  'CISA Known Exploited Vulnerabilities Catalog': { voice: 'advisory', sourceNoun: 'CISA KEV update' },
+  'ICO News and Blogs': { voice: 'enforcement', sourceNoun: 'ICO announcement' },
+  'EDPB News': { voice: 'governance', sourceNoun: 'EDPB publication' },
+  'ENISA News': { voice: 'governance', sourceNoun: 'ENISA publication' },
+  'NCSC UK News': { voice: 'advisory', sourceNoun: 'NCSC announcement' },
+  'FTC Press Releases': { voice: 'enforcement', sourceNoun: 'FTC announcement' },
+  'ISO Insights and Updates': { voice: 'governance', sourceNoun: 'ISO publication' },
+  'Krebs on Security': { voice: 'reporting', sourceNoun: 'reported investigation' },
+  'Schneier on Security': { voice: 'analysis', sourceNoun: 'analysis post' },
+  'The Hacker News': { voice: 'reporting', sourceNoun: 'security reporting' },
 };
-
-function stripTags(text = '') {
-  return text
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<svg[\s\S]*?<\/svg>/gi, '')
-    .replace(/<noscript[\s\S]*?<\/noscript>/gi, '')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&#39;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/&ldquo;|&rdquo;/g, '"')
-    .replace(/&lsquo;|&rsquo;/g, "'")
-    .replace(/&#x27;/g, "'")
-    .replace(/&#8220;|&#8221;|&#x201c;|&#x201d;/g, '"')
-    .replace(/&#8216;|&#8217;|&#x2018;|&#x2019;/g, "'")
-    .replace(/&#8230;|&#x2026;/g, '…')
-    .replace(/&#8211;|&#8212;|&#x2013;|&#x2014;/g, '—')
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function escapeYaml(value = '') {
-  return String(value).replace(/"/g, '\\"');
-}
-
-function normaliseSentence(text = '') {
-  const cleaned = stripTags(text).replace(/\s+/g, ' ').trim();
-  if (!cleaned) return '';
-  return /[.!?]$/.test(cleaned) ? cleaned : `${cleaned}.`;
-}
-
-function sentenceCase(text = '') {
-  const cleaned = stripTags(text).trim();
-  if (!cleaned) return '';
-  return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
-}
-
-function makeSlug(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 90);
-}
-
-function extractMeta(html, name, attr = 'name') {
-  const regex = new RegExp(`<meta[^>]+${attr}=["']${name}["'][^>]+content=["']([^"']+)["'][^>]*>`, 'i');
-  const reverseRegex = new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+${attr}=["']${name}["'][^>]*>`, 'i');
-  return stripTags(html.match(regex)?.[1] || html.match(reverseRegex)?.[1] || '');
-}
-
-function extractTitle(html) {
-  return stripTags(
-    extractMeta(html, 'og:title', 'property') ||
-    html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ||
-    html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ||
-    ''
-  );
-}
-
-function extractDescription(html) {
-  return stripTags(
-    extractMeta(html, 'og:description', 'property') ||
-    extractMeta(html, 'description') ||
-    ''
-  );
-}
 
 function isBoilerplateText(text = '') {
   return /the \.gov means it'?s official|the site is secure|an official website of the united states government|here'?s how you know|skip to main content|report fraud|get consumer alerts|search the legal library|federal government websites often end in \.gov|https:\/\//i.test(text);
 }
 
-function extractArticleBody(html) {
-  const articleMatch = html.match(/<article[\s\S]*?<\/article>/i)
-    || html.match(/<main[\s\S]*?<\/main>/i)
-    || html.match(/<div[^>]+class=["'][^"']*(?:node__content|field--name-body|page__content|l-content)[^"']*["'][\s\S]*?<\/div>/i);
-  return articleMatch?.[0] || html;
-}
-
-function extractParagraphs(html, limit = 8) {
-  const articleHtml = extractArticleBody(html);
-  const matches = [...articleHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
-    .map((match) => normaliseSentence(match[1]))
-    .filter((text) => text.length > 70)
-    .filter((text) => !/cookie|subscribe|newsletter|sign up|all rights reserved|javascript|advertisement|related articles/i.test(text))
-    .filter((text) => !isBoilerplateText(text));
-
-  const deduped = [];
-  const seen = new Set();
-  for (const text of matches) {
-    const key = text.toLowerCase();
-    if (seen.has(key)) continue;
-    seen.add(key);
-    deduped.push(text);
-  }
-
-  return deduped.slice(0, limit);
+function sentenceCase(text = '') {
+  const cleaned = cleanText(text).trim();
+  if (!cleaned) return '';
+  return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
 }
 
 function titleCaseTag(tag) {
-  return tag
-    .split('-')
-    .map((part) => (part ? part[0].toUpperCase() + part.slice(1) : part))
-    .join(' ');
+  return tag.split('-').map((part) => (part ? part[0].toUpperCase() + part.slice(1) : part)).join(' ');
 }
 
 function firstUsefulSentence(text = '') {
-  const cleaned = stripTags(text).replace(/\s+/g, ' ').trim();
+  const cleaned = cleanText(text).replace(/\s+/g, ' ').trim();
   if (!cleaned) return '';
   const sentence = cleaned.match(/(.+?[.!?])(?:\s|$)/)?.[1] || cleaned;
   return normaliseSentence(sentence);
 }
 
 function trimClause(text = '') {
-  return stripTags(text)
+  return cleanText(text)
     .replace(/^according to[^,]+,\s*/i, '')
     .replace(/^in [A-Z][a-z]+ \d{4},\s*/i, '')
     .replace(/^on \d{1,2} [A-Z][a-z]+ \d{4},\s*/i, '')
@@ -202,14 +75,10 @@ function buildStandfirst(candidate, description, paragraphs, profile) {
   const desc = cleanDescription(description);
   const first = trimClause(firstUsefulSentence(paragraphs[0] || ''));
   const second = trimClause(firstUsefulSentence(paragraphs[1] || ''));
-
   const pieces = [];
   if (desc) pieces.push(desc);
   if (first && !pieces.join(' ').toLowerCase().includes(first.toLowerCase())) pieces.push(first);
-  if (profile.voice === 'enforcement' && second && /fine|penalt|enforcement|investigation|order|breach/i.test(second)) {
-    pieces.push(second);
-  }
-
+  if (profile.voice === 'enforcement' && second && /fine|penalt|enforcement|investigation|order|breach/i.test(second)) pieces.push(second);
   const text = pieces.join(' ').replace(/\s+/g, ' ').trim();
   if (!text) return `A new ${candidate.category} development surfaced through the scheduled source-review pipeline.`;
   return text.length > 240 ? `${text.slice(0, 237).trimEnd()}…` : normaliseSentence(text);
@@ -249,51 +118,6 @@ function inferTags(candidate, combinedText, resolvedCategory) {
   return tags.slice(0, 4);
 }
 
-function summariseKeyDetails(candidate, paragraphs, tags, profile) {
-  const lines = [];
-  const sourceSentence = firstUsefulSentence(paragraphs[0] || '');
-  const detailSentence = firstUsefulSentence(paragraphs[1] || '');
-  const thirdSentence = firstUsefulSentence(paragraphs[2] || '');
-
-  if (sourceSentence) lines.push(trimClause(sourceSentence));
-  if (detailSentence && !lines.join(' ').toLowerCase().includes(detailSentence.toLowerCase())) lines.push(trimClause(detailSentence));
-  if (thirdSentence && lines.length < 2) lines.push(trimClause(thirdSentence));
-
-  if (tags.includes('vulnerabilities') && !lines.some((line) => /patch|exploit|cve|flaw/i.test(line))) {
-    lines.push('The item is relevant because it touches vulnerability management, exploitation risk, or defensive hardening.');
-  }
-  if ((profile.voice === 'governance' || tags.includes('compliance')) && !lines.some((line) => /guidance|regulation|compliance|obligation/i.test(line))) {
-    lines.push('The development has direct compliance or governance relevance rather than being only background policy commentary.');
-  }
-  if (profile.voice === 'enforcement' && !lines.some((line) => /fine|investigation|penalt|lawful basis|age assurance/i.test(line))) {
-    lines.push('The item is framed as regulator action with practical consequences for organisations handling similar risks.');
-  }
-
-  lines.push(`Primary source: ${candidate.link}`);
-  return [...new Set(lines)].slice(0, 4);
-}
-
-function buildWhatHappened(candidate, standfirst, paragraphs, profile) {
-  const first = trimClause(firstUsefulSentence(paragraphs[0] || ''));
-  const second = trimClause(firstUsefulSentence(paragraphs[1] || ''));
-
-  const intro = profile.voice === 'reporting'
-    ? `Recent reporting highlighted ${candidate.title.toLowerCase()}.`
-    : profile.voice === 'enforcement'
-      ? `The latest ${profile.sourceNoun.toLowerCase()} sets out the regulator's position on ${candidate.title.toLowerCase()}.`
-      : `The latest ${profile.sourceNoun.toLowerCase()} sets out a development that is directly relevant to ${candidate.category} operators.`;
-
-  const standfirstSentence = firstUsefulSentence(standfirst);
-  const sentences = [intro];
-  if (first && (!standfirstSentence || first.toLowerCase() !== standfirstSentence.toLowerCase()) && !sentences.join(' ').toLowerCase().includes(first.toLowerCase())) {
-    sentences.push(first);
-  }
-  if (second && !sentences.join(' ').toLowerCase().includes(second.toLowerCase()) && (!standfirstSentence || second.toLowerCase() !== standfirstSentence.toLowerCase())) {
-    sentences.push(second);
-  }
-  return sentences.map(normaliseSentence).join(' ');
-}
-
 function buildWhyItMatters(candidate, tags, profile) {
   const categoryMap = {
     security: 'This matters because it has practical implications for defensive prioritisation, exposure management, or incident response rather than sitting as abstract security commentary.',
@@ -313,18 +137,12 @@ function buildWhyItMatters(candidate, tags, profile) {
   return `${categoryMap[candidate.category] || categoryMap.governance}${extra}`.trim();
 }
 
-function buildAssessment(candidate, tags, profile) {
+function buildAssessment(tags, profile) {
   let opening = 'The strongest signal here is not just the headline event, but the wider pattern it points to.';
-
-  if (profile.voice === 'governance') {
-    opening = 'The strongest signal here is operational direction: this is about turning guidance or policy into concrete expectations.';
-  } else if (profile.voice === 'enforcement') {
-    opening = 'The strongest signal here is that regulator expectations are being expressed through enforceable outcomes rather than soft signalling alone.';
-  } else if (tags.includes('threat-intelligence')) {
-    opening = 'The strongest signal here is the tradecraft pattern and what it says about attacker adaptation, not just the single campaign or disclosure.';
-  } else if (tags.includes('vulnerabilities')) {
-    opening = 'The strongest signal here is that a vulnerability class or attack path is being treated as operationally relevant rather than background technical debt.';
-  }
+  if (profile.voice === 'governance') opening = 'The strongest signal here is operational direction: this is about turning guidance or policy into concrete expectations.';
+  else if (profile.voice === 'enforcement') opening = 'The strongest signal here is that regulator expectations are being expressed through enforceable outcomes rather than soft signalling alone.';
+  else if (tags.includes('threat-intelligence')) opening = 'The strongest signal here is the tradecraft pattern and what it says about attacker adaptation, not just the single campaign or disclosure.';
+  else if (tags.includes('vulnerabilities')) opening = 'The strongest signal here is that a vulnerability class or attack path is being treated as operationally relevant rather than background technical debt.';
 
   const followOn = tags.includes('cloud')
     ? ' In practice, that means cloud-adjacent control planes, shared services, and inherited trust assumptions deserve more scrutiny than many organisations currently give them.'
@@ -339,7 +157,6 @@ function buildAssessment(candidate, tags, profile) {
 
 function buildRecommendedActions(tags, category, profile) {
   const bullets = [];
-
   if (category === 'security' || tags.includes('vulnerabilities')) {
     bullets.push('review whether the issue, advisory, or attack pattern is relevant to your environment, suppliers, or exposed systems');
     bullets.push('patch, harden, or validate logging and monitoring coverage where applicable');
@@ -349,7 +166,6 @@ function buildRecommendedActions(tags, category, profile) {
   if (profile.voice === 'enforcement') bullets.push('test whether current controls, age checks, notices, or governance workflows would withstand regulator scrutiny in a similar case');
   if (tags.includes('children')) bullets.push('treat child-safety and youth-risk themes as product, data, and governance questions rather than communications-only concerns');
   if (tags.includes('threat-intelligence')) bullets.push('map the observed activity to existing detections and threat-hunting hypotheses instead of tracking it only as narrative reporting');
-
   bullets.push('monitor follow-on reporting or primary-source updates for scope expansion, implementation guidance, or stronger enforcement signals');
   return [...new Set(bullets)].slice(0, 4);
 }
@@ -412,25 +228,34 @@ async function main() {
 
     const sourceTitle = extractTitle(html) || candidate.title;
     const description = cleanDescription(extractDescription(html) || `New ${candidate.category} development detected from ${candidate.source}.`);
-    const paragraphs = extractParagraphs(html, 6);
+    const paragraphs = extractParagraphs(html, { limit: 6, isBoilerplateText });
     const combinedText = `${sourceTitle} ${description} ${paragraphs.join(' ')}`;
 
     if (paragraphs.length === 0) {
       console.log(`Skip ${candidate.link}: no usable article paragraphs after boilerplate filtering`);
       continue;
     }
-
     if (isBoilerplateText(description) || /the \.gov means it'?s official|the site is secure/i.test(combinedText)) {
       console.log(`Skip ${candidate.link}: extracted copy still looks like site boilerplate`);
       continue;
     }
+
     const resolvedCategory = inferCategory(candidate, combinedText);
     const resolvedCandidate = { ...candidate, category: resolvedCategory };
     const tags = inferTags(resolvedCandidate, combinedText, resolvedCategory);
     const standfirst = buildStandfirst(resolvedCandidate, description, paragraphs, profile);
-    const whatHappened = buildWhatHappened(resolvedCandidate, standfirst, paragraphs, profile);
+    const whatHappened = [
+      profile.voice === 'reporting'
+        ? `Recent reporting highlighted ${candidate.title.toLowerCase()}.`
+        : profile.voice === 'enforcement'
+          ? `The latest ${profile.sourceNoun.toLowerCase()} sets out the regulator's position on ${candidate.title.toLowerCase()}.`
+          : `The latest ${profile.sourceNoun.toLowerCase()} sets out a development that is directly relevant to ${candidate.category} operators.`,
+      trimClause(firstUsefulSentence(paragraphs[0] || '')),
+      trimClause(firstUsefulSentence(paragraphs[1] || '')),
+    ].filter(Boolean).map(normaliseSentence).filter((value, index, arr) => arr.findIndex((item) => item.toLowerCase() === value.toLowerCase()) === index).join(' ');
     const whyItMatters = buildWhyItMatters(resolvedCandidate, tags, profile);
-    const assessment = buildAssessment(resolvedCandidate, tags, profile);
+    const assessment = buildAssessment(tags, profile);
+    const recommendedActions = buildRecommendedActions(tags, resolvedCategory, profile);
 
     const pubDate = new Date(review.generatedAt || new Date().toISOString());
     const year = String(pubDate.getUTCFullYear());
@@ -438,16 +263,15 @@ async function main() {
     const day = String(pubDate.getUTCDate()).padStart(2, '0');
     const outDir = path.join(blogRoot, year, month);
     const outPath = path.join(outDir, `${slug}.md`);
-    await fs.mkdir(outDir, { recursive: true });
+    const canonical = `https://zerodaydiary.com/blog/${year}/${month}/${slug}/`;
 
     const body = `---
 title: "${escapeYaml(candidate.title)}"
 description: "${escapeYaml(standfirst)}"
 pubDate: ${year}-${month}-${day}
 draft: false
-tags:
-${tags.map((tag) => `  - ${tag}`).join('\n')}
-canonical: "https://zerodaydiary.com/blog/${year}/${month}/${slug}/"
+tags:\n${tags.map((tag) => `  - ${tag}`).join('\n')}
+canonical: "${canonical}"
 ---
 
 ## What happened
@@ -459,11 +283,19 @@ ${whyItMatters}
 ## Assessment
 ${assessment}
 
+## Recommended actions
+${recommendedActions.map((line) => `- ${sentenceCase(line)}`).join('\n')}
+
 ## Further reading
 - [Primary source](${candidate.link})
+- Source profile: ${titleCaseTag(profile.voice)}
 `;
 
-    await fs.writeFile(outPath, body, 'utf8');
+    await writeValidatedMarkdown(outPath, body, {
+      expectedSlug: slug,
+      expectedCanonical: canonical,
+      requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
+    });
     published.push(path.relative(root, outPath).replace(/\\/g, '/'));
     existingSlugs.add(slug);
   }
