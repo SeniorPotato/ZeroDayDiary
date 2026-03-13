@@ -62,7 +62,6 @@ const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
         padding: 0.5rem 0.8rem; border-radius: 999px; cursor: pointer; font-size: .82rem;
       }
       .clear-button[hidden] { display:none; }
-      .topic-chip { display:inline-block; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:.22rem .52rem; border-radius:999px; border:1px solid; margin-bottom:.45rem; }
       .result-card h2 { margin: 0.2rem 0 0.5rem; font-size: 1.16rem; line-height:1.12; max-width: 28ch; }
       .result-card a { text-decoration: none; color: #f8fafc; }
       .desc { color: rgba(226,232,240,0.8); line-height: 1.58; font-size: .95rem; }
@@ -119,7 +118,6 @@ const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
           <section class="results" id="results">
             {posts.map((post) => (
               <article class="result-card" data-title={post.title.toLowerCase()} data-description={post.description.toLowerCase()} data-tags={post.tags.join(' ').toLowerCase()}>
-                {(() => { const cat = getPrimaryCategory(post.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
                 <div class="meta-row">
                   <p class="meta"><FormattedDate date={post.pubDate} /></p>
                   <span class="meta-dot">•</span>
