@@ -1,23 +1,14 @@
 {
-  "generatedAt": "2026-03-13T05:29:21.792Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T052921Z.md",
+  "generatedAt": "2026-03-13T09:00:15.589Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
   "candidates": [
     {
       "discovered": "2026-03-13",
-      "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
-      "link": "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
+      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
+      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "authorities-disrupt-socksescort-proxy-botnet-exploiting-369-000-ips-across-163-countries",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-03-13",
-      "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
-      "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "veeam-patches-7-critical-backup-replication-flaws-allowing-remote-code-execution",
+      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
       "source": "The Hacker News"
     }
   ]
