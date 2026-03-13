@@ -61,7 +61,6 @@ const categoryCounts = Object.fromEntries(
 					</div>
 					<article class="lead-story">
 						<div class="lead-kicker">
-							{(() => { const cat = getPrimaryCategory(lead.data.tags); return <span class="topic-chip" style={`color:${cat.color};background:${cat.chipBackground};border-color:${cat.color}33`}>{cat.title}</span>; })()}
 							<div class="meta-row">
 								<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
 								<span class="meta-dot">•</span>
