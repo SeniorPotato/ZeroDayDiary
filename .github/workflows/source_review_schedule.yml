@@ -38,6 +38,7 @@ jobs:
         run: npm run monitor:publish
 
       - name: Review generated posts with fallback model
+        if: ${{ env.FALLBACK_REVIEW_MODEL != '' && env.OPENROUTER_API_KEY != '' }}
         run: npm run monitor:review-published
 
       - name: Build site
