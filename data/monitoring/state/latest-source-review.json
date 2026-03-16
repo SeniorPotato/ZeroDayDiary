@@ -1,14 +1,104 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-16T17:30:12.518Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-16T173012Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-16",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Possible New Result in Quantum Factorization",
+      "link": "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "possible-new-result-in-quantum-factorization",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-increased-squid-population-in-the-falklands",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Academia and the “AI Brain Drain”",
+      "link": "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "academia-and-the-ai-brain-drain",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Why Security Validation Is Becoming Agentic Mar 16, 2026",
+      "link": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "why-security-validation-is-becoming-agentic-mar-16-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent",
+      "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "android-17-blocks-non-accessibility-apps-from-accessibility-api-to-prevent",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration Mar 14, 2026",
+      "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "openclaw-ai-agent-flaws-could-enable-prompt-injection-and-data-exfiltration-mar-14-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers Mar 14, 2026",
+      "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "glassworm-supply-chain-attack-abuses-72-open-vsx-extensions-to-target-developers-mar-14-20",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-16",
+      "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun",
+      "link": "https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "chinese-hackers-target-southeast-asian-militaries-with-applechris-and-memfun",
       "source": "The Hacker News"
     }
   ]
