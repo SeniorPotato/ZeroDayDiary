@@ -1044,3 +1044,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Possible New Result in Quantum Factorization
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Friday Squid Blogging: Increased Squid Population in the Falklands
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Academia and the “AI Brain Drain”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Konni Deploys EndRAT Through Spear-Phishing, Uses KakaoTalk to Propagate
+- **Source URL:** https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths Mar 17, 2026 Vulnerability /
+- **Source URL:** https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push
+- **Source URL:** https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Why Security Validation Is Becoming Agentic Mar 16, 2026
+- **Source URL:** https://thehackernews.com/2026/03/why-security-validation-is-becoming.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent
+- **Source URL:** https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

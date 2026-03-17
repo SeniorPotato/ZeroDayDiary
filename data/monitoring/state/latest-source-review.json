@@ -1,14 +1,104 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-17T09:53:27.443Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-17T095327Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-17",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Possible New Result in Quantum Factorization",
+      "link": "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "possible-new-result-in-quantum-factorization",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-increased-squid-population-in-the-falklands",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Academia and the “AI Brain Drain”",
+      "link": "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "academia-and-the-ai-brain-drain",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Konni Deploys EndRAT Through Spear-Phishing, Uses KakaoTalk to Propagate",
+      "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "konni-deploys-endrat-through-spear-phishing-uses-kakaotalk-to-propagate",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths Mar 17, 2026 Vulnerability /",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-flags-actively-exploited-wing-ftp-vulnerability-leaking-server-paths-mar-17-2026-vuln",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push",
+      "link": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "glassworm-attack-uses-stolen-github-tokens-to-force-push",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Why Security Validation Is Becoming Agentic Mar 16, 2026",
+      "link": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "why-security-validation-is-becoming-agentic-mar-16-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent",
+      "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "android-17-blocks-non-accessibility-apps-from-accessibility-api-to-prevent",
       "source": "The Hacker News"
     }
   ]
