@@ -1044,3 +1044,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** South Korean Police Accidentally Post Cryptocurrency Wallet Password
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Possible New Result in Quantum Factorization
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Friday Squid Blogging: Increased Squid Population in the Falklands
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Academia and the “AI Brain Drain”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE Mar 17, 2026
+- **Source URL:** https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader Mar 17, 2026 Ransomware / Windows Security The ransomware operation known as LeakNet has adopted the ClickFix social engineering tactic delivered through compromised websites as an initial access method. The use of ClickFix, where users are tricked into manually running malicious commands to address non-existent errors, is a departure from relying on traditional methods for obtaining initial access, such as through stolen credentials acquired from initial access brokers (IABs), ReliaQuest said in a technical report published today. The second important aspect of these attacks is the use of a staged command-and-control (C2) loader built on the Deno JavaScript runtime to execute malicious payloads directly in memory. "The key takeaway here is that both entry paths lead to the same repeatable post-exploitation sequence every time," the cybersecurity company said. "That gives defenders something concrete to work with: known behaviors you can detect and disrupt at each stage, well before ransomware deployment, r...
+- **Source URL:** https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds Mar 17, 2026
+- **Source URL:** https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate
+- **Source URL:** https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-17
+- **Headline / event:** CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths Mar 17, 2026 Vulnerability /
+- **Source URL:** https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
