@@ -1,14 +1,131 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-17T17:30:51.123Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-17T173051Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-17",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-sends-more-than-10-9-million-to-consumers-harmed-by-credit-repair-pyramid-scheme",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-stops-proposed-merger-of-leading-cataract-surgery-device-makers",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "South Korean Police Accidentally Post Cryptocurrency Wallet Password",
+      "link": "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "south-korean-police-accidentally-post-cryptocurrency-wallet-password",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Possible New Result in Quantum Factorization",
+      "link": "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "possible-new-result-in-quantum-factorization",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-increased-squid-population-in-the-falklands",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Academia and the “AI Brain Drain”",
+      "link": "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "academia-and-the-ai-brain-drain",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE Mar 17, 2026",
+      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ai-flaws-in-amazon-bedrock-langsmith-and-sglang-enable-data-exfiltration-and-rce-mar-17-20",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader Mar 17, 2026 Ransomware / Windows Security The ransomware operation known as LeakNet has adopted the ClickFix social engineering tactic delivered through compromised websites as an initial access method. The use of ClickFix, where users are tricked into manually running malicious commands to address non-existent errors, is a departure from relying on traditional methods for obtaining initial access, such as through stolen credentials acquired from initial access brokers (IABs), ReliaQuest said in a technical report published today. The second important aspect of these attacks is the use of a staged command-and-control (C2) loader built on the Deno JavaScript runtime to execute malicious payloads directly in memory. \"The key takeaway here is that both entry paths lead to the same repeatable post-exploitation sequence every time,\" the cybersecurity company said. \"That gives defenders something concrete to work with: known behaviors you can detect and disrupt at each stage, well before ransomware deployment, r...",
+      "link": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "leaknet-ransomware-uses-clickfix-via-hacked-sites-deploys-deno-in-memory-loader-mar-17-202",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds Mar 17, 2026",
+      "link": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ai-is-everywhere-but-cisos-are-still-securing-it-with-yesterday-s-skills-and-tools-study-f",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate",
+      "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "konni-deploys-endrat-through-phishing-uses-kakaotalk-to-propagate",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-17",
+      "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths Mar 17, 2026 Vulnerability /",
+      "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-flags-actively-exploited-wing-ftp-vulnerability-leaking-server-paths-mar-17-2026-vuln",
       "source": "The Hacker News"
     }
   ]
