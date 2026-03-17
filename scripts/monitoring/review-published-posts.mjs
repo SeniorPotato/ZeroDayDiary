@@ -8,9 +8,9 @@ import { validateGeneratedMarkdown, writeValidatedMarkdown } from './lib/markdow
 const execFileAsync = promisify(execFile);
 const root = process.cwd();
 
-const apiKey = process.env.OPENROUTER_API_KEY || process.env.REVIEW_API_KEY || '';
-const model = process.env.FALLBACK_REVIEW_MODEL || process.env.REVIEW_MODEL || '';
-const baseUrl = process.env.REVIEW_BASE_URL || 'https://openrouter.ai/api/v1/chat/completions';
+const apiKey = process.env.ANTHROPIC_API_KEY || '';
+const model = process.env.ANTHROPIC_REVIEW_MODEL || process.env.REVIEW_MODEL || '';
+const baseUrl = 'https://api.anthropic.com/v1/messages';
 
 function extractTitle(markdown = '') {
   return markdown.match(/^title:\s*"([^"]+)"/m)?.[1] || markdown.match(/^title:\s*(.+)$/m)?.[1] || 'Untitled';
@@ -64,16 +64,15 @@ ${markdown}`;
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-      'HTTP-Referer': 'https://zerodaydiary.com',
-      'X-Title': 'ZeroDayDiary reviewer',
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
     },
     body: JSON.stringify({
       model,
-      temperature: 0.2,
-      response_format: { type: 'json_object' },
+      max_tokens: 1600,
+      temperature: 0,
+      system: 'Return strict JSON only.',
       messages: [
-        { role: 'system', content: 'Return strict JSON only.' },
         { role: 'user', content: prompt },
       ],
     }),
@@ -81,7 +80,7 @@ ${markdown}`;
 
   if (!res.ok) throw new Error(`Reviewer API HTTP ${res.status}: ${await res.text()}`);
   const data = await res.json();
-  const content = data?.choices?.[0]?.message?.content;
+  const content = data?.content?.find?.((item) => item?.type === 'text')?.text || '';
   if (!content) throw new Error('Reviewer API returned no content');
 
   try {
@@ -97,8 +96,17 @@ async function main() {
     console.log('Reviewer: no changed blog posts to inspect.');
     return;
   }
+
+  if (process.env.OPENROUTER_API_KEY || process.env.REVIEW_BASE_URL || process.env.FALLBACK_REVIEW_MODEL) {
+    throw new Error('Legacy reviewer config detected. Remove OPENROUTER_API_KEY, REVIEW_BASE_URL, and FALLBACK_REVIEW_MODEL from the scheduled environment.');
+  }
+
   if (!apiKey || !model) {
-    throw new Error(`Reviewer required but not configured. Missing ${!apiKey ? 'OPENROUTER_API_KEY' : 'FALLBACK_REVIEW_MODEL'} for posts: ${changedPosts.join(', ')}`);
+    throw new Error(`Anthropic reviewer required but not configured. Missing ${!apiKey ? 'ANTHROPIC_API_KEY' : 'ANTHROPIC_REVIEW_MODEL'} for posts: ${changedPosts.join(', ')}`);
+  }
+
+  if (!/^claude|^anthropic\//i.test(model)) {
+    throw new Error(`ANTHROPIC_REVIEW_MODEL must reference a Claude/Anthropic model. Received: ${model}`);
   }
 
   for (const relativePath of changedPosts) {

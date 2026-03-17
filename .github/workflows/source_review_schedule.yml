@@ -11,9 +11,8 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  FALLBACK_REVIEW_MODEL: ${{ vars.FALLBACK_REVIEW_MODEL }}
-  REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL }}
-  OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+  ANTHROPIC_REVIEW_MODEL: ${{ vars.ANTHROPIC_REVIEW_MODEL }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
 jobs:
   review-sources:
@@ -37,8 +36,22 @@ jobs:
       - name: Publish qualifying candidates
         run: npm run monitor:publish
 
-      - name: Review generated posts with fallback model
-        if: ${{ env.FALLBACK_REVIEW_MODEL != '' && env.OPENROUTER_API_KEY != '' }}
+      - name: Validate Anthropic review configuration
+        if: ${{ env.ANTHROPIC_REVIEW_MODEL != '' || env.ANTHROPIC_API_KEY != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${ANTHROPIC_REVIEW_MODEL}" || -z "${ANTHROPIC_API_KEY}" ]]; then
+            echo "Anthropic review config is incomplete: set both ANTHROPIC_REVIEW_MODEL and ANTHROPIC_API_KEY." >&2
+            exit 1
+          fi
+          if [[ "${ANTHROPIC_REVIEW_MODEL}" != claude* && "${ANTHROPIC_REVIEW_MODEL}" != anthropic/* ]]; then
+            echo "ANTHROPIC_REVIEW_MODEL must be an Anthropic Claude model name or anthropic/* alias." >&2
+            exit 1
+          fi
+
+      - name: Review generated posts with Anthropic editorial pass
+        if: ${{ env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
         run: npm run monitor:review-published
 
       - name: Build site
