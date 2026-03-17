@@ -25,6 +25,16 @@ export function normaliseSentence(text = '') {
   return /[.!?]$/.test(cleaned) ? cleaned : `${cleaned}.`;
 }
 
+function normaliseLinkTitle(rawTitle = '') {
+  return cleanText(rawTitle)
+    .replace(/[\uE000-\uF8FF]/g, ' ')
+    .replace(/\s*[•|/]+\s*$/g, '')
+    .replace(/\s+[A-Z][a-z]{2}\s+\d{1,2},\s+20\d{2}(?:\s+[A-Za-z][A-Za-z\s/&-]*)?\s*$/i, '')
+    .replace(/\s+(Artificial Intelligence|Threat Detection|Malware|Network Security|Cloud Security|API Security|Developer Security|VPN Security|Cybersecurity|Privacy)\s*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function extractHtmlLinks(html, baseUrl, includePatterns = [], excludePatterns = [], titleRejectPatterns = []) {
   const $ = load(html);
   const items = [];
@@ -46,10 +56,12 @@ export function extractHtmlLinks(html, baseUrl, includePatterns = [], excludePat
     if (includePatterns.length && !includePatterns.some((pattern) => href.includes(pattern))) return;
     if (excludePatterns.length && excludePatterns.some((pattern) => href.includes(pattern))) return;
 
-    let title = cleanText($(anchor).text())
-      .split(/\s+Mar\s+\d{1,2},\s+20\d{2}\b/i)[0]
-      .split(/\s+(Artificial Intelligence|Threat Detection|Malware|Network Security|Cloud Security|API Security|Developer Security)\b/i)[0]
-      .trim();
+    const title = normaliseLinkTitle(
+      $(anchor).find('.home-title, h1, h2, h3, [itemprop="headline"]').first().text()
+      || $(anchor).find('img[alt]').first().attr('alt')
+      || $(anchor).attr('title')
+      || $(anchor).text()
+    );
 
     if (!title || title.length < 8) return;
     if (/^(read more|learn more|more|next|previous|skip to main content|back to top|question)$/i.test(title)) return;

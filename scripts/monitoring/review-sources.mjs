@@ -71,7 +71,7 @@ for (const source of sources) {
     seenForSource.add(item.link);
   }
 
-  state.seen[source.id] = [...seenForSource, ...publishable.map((item) => item.link)];
+  state.seen[source.id] = [...new Set([...seenForSource, ...publishable.map((item) => item.link)])];
 }
 
 await fs.writeFile(packetPath, reviewLines.join('\n'), 'utf8');
