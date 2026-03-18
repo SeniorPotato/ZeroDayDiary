@@ -1,14 +1,167 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-18T20:58:26.241Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-18T205826Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-18",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-secures-settlement-against-xponential-fitness-for-franchise-rule-violations",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-sends-more-than-10-9-million-to-consumers-harmed-by-credit-repair-pyramid-scheme",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-stops-proposed-merger-of-leading-cataract-surgery-device-makers",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Meta’s AI Glasses and Privacy",
+      "link": "https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "meta-s-ai-glasses-and-privacy",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "South Korean Police Accidentally Post Cryptocurrency Wallet Password",
+      "link": "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "south-korean-police-accidentally-post-cryptocurrency-wallet-password",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Possible New Result in Quantum Factorization",
+      "link": "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "possible-new-result-in-quantum-factorization",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-increased-squid-population-in-the-falklands",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Academia and the “AI Brain Drain”",
+      "link": "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "academia-and-the-ai-brain-drain",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs Mar 18, 2026",
+      "link": "https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ofac-sanctions-dprk-it-worker-network-funding-wmd-programs-through-fake-remote-jobs-mar-18",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access Mar 18, 2026",
+      "link": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "interlock-ransomware-exploits-cisco-fmc-zero-day-cve-2026-20131-for-root-access-mar-18-202",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE Mar 18, 2026 Vulnerability / Data Protection Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set Local Characters (SLC) suboption handler that results in a buffer overflow, ultimately paving the way for code execution. Israeli cybersecurity company Dream, which discovered and reported the flaw on March 11, 2026, said it affects all versions of the Telnet service implementation through 2.7. A fix for the vulnerability is expected to be available no later than April 1, 2026. \"An unauthenticated remote attacker can exploit this by sending a specially crafted message during the initial connection handshake — before any login prompt appears,\" Dream said in an alert. \"Successful...",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "critical-unpatched-telnetd-flaw-cve-2026-32746-enables-unauthenticated-root-rce-mar-18-202",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors Mar 18, 2026",
+      "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "9-critical-ip-kvm-flaws-enable-unauthenticated-root-access-across-four-vendors-mar-18-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-18",
+      "title": "Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels Mar 18, 2026",
+      "link": "https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "product-walkthrough-how-mesh-csma-reveals-and-breaks-attack-paths-to-crown-jewels-mar-18-2",
       "source": "The Hacker News"
     }
   ]

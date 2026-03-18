@@ -1044,3 +1044,147 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Meta’s AI Glasses and Privacy
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** South Korean Police Accidentally Post Cryptocurrency Wallet Password
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Possible New Result in Quantum Factorization
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Friday Squid Blogging: Increased Squid Population in the Falklands
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Academia and the “AI Brain Drain”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs Mar 18, 2026
+- **Source URL:** https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access Mar 18, 2026
+- **Source URL:** https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE Mar 18, 2026 Vulnerability / Data Protection Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set Local Characters (SLC) suboption handler that results in a buffer overflow, ultimately paving the way for code execution. Israeli cybersecurity company Dream, which discovered and reported the flaw on March 11, 2026, said it affects all versions of the Telnet service implementation through 2.7. A fix for the vulnerability is expected to be available no later than April 1, 2026. "An unauthenticated remote attacker can exploit this by sending a specially crafted message during the initial connection handshake — before any login prompt appears," Dream said in an alert. "Successful...
+- **Source URL:** https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** 9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors Mar 18, 2026
+- **Source URL:** https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-18
+- **Headline / event:** Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels Mar 18, 2026
+- **Source URL:** https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
