@@ -41,7 +41,6 @@ The FTC’s move also signals that subscription and recurring-payment design rem
 ## Assessment
 The strongest signal here is that the Commission is still trying to create a more durable regulatory basis for acting against subscription traps. That matters because cancellation friction, hidden renewals, and weak consent flows are common patterns across digital products, services, and marketplaces well beyond the classic continuity-plan cases that originally defined the rule.
 
-For ZeroDayDiary, the story is less about a single FTC filing than about governance pressure on manipulative interface economics. If the rulemaking produces a firmer framework, product and legal teams will have less room to treat recurring-billing design as a growth problem first and a compliance problem later.
 
 ## Recommended actions
 - review whether enrollment, renewal, and cancellation flows rely on ambiguity, inertia, or one-sided friction that would look hard to defend under tighter rulemaking
