@@ -11,7 +11,11 @@
       "https://www.cisa.gov/news-events/alerts/2026/02/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/02/17/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/02/13/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -69,7 +73,13 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-checks-totaling-more-472-million-consumers-deceived-invitation-homes-undisclosed-fees",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-proposed-rulemaking-regarding-unfair-or-deceptive-rental-housing-fee"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-proposed-rulemaking-regarding-unfair-or-deceptive-rental-housing-fee",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -113,7 +123,15 @@
       "https://www.schneier.com/blog/archives/2026/03/on-moltbook.html",
       "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html",
       "https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html",
-      "https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html"
+      "https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html",
+      "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
+      "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -158,7 +176,21 @@
       "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
       "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
       "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
-      "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html"
+      "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+      "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+      "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+      "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+      "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
+      "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+      "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+      "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
+      "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
