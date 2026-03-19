@@ -181,15 +181,52 @@ async function listExistingSlugs(dir) {
   return slugs;
 }
 
-function shouldSkipCandidate(candidate) {
+async function getLatestPubDate(dir) {
+  const entries = await fs.readdir(dir, { recursive: true, withFileTypes: true }).catch(() => []);
+  let latest = null;
+
+  for (const entry of entries) {
+    if (!entry.isFile()) continue;
+    if (!/\.mdx?$/i.test(entry.name)) continue;
+    const fullPath = path.join(dir, entry.name);
+    let contents;
+    try {
+      contents = await fs.readFile(fullPath, 'utf8');
+    } catch {
+      continue;
+    }
+
+    const draftMatch = contents.match(/^draft:\s*(true|false)\s*$/im);
+    if (draftMatch && draftMatch[1].toLowerCase() === 'true') continue;
+
+    const dateMatch = contents.match(/^pubDate:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})\s*$/im);
+    if (!dateMatch) continue;
+    const dateStr = dateMatch[1];
+    if (!latest || dateStr > latest) latest = dateStr;
+  }
+
+  return latest;
+}
+
+function isHardSkipCandidate(candidate) {
+  if (/agenda available now|programme available now/i.test(candidate.title)) return true;
+  if (/webinar|podcast|newsletter|speaking/i.test(candidate.title)) return true;
+  if (/negative option marketing practices/i.test(candidate.title)) return true;
+  if (/invitation homes[’']? undisclosed fees/i.test(candidate.title)) return true;
+  return false;
+}
+
+function isSoftSkipCandidate(candidate) {
   if (candidate.tier !== 'Tier 1') return true;
   if (!AUTO_PUBLISH_SOURCES.has(candidate.source)) return true;
   if (/^cisa adds \w+ known exploited vulnerabilities to catalog$/i.test(candidate.title)) return true;
-  if (/agenda available now|programme available now/i.test(candidate.title)) return true;
-  if (/webinar|podcast|newsletter|speaking/i.test(candidate.title)) return true;
   if (/\?|\bmust\b|\bneeds\b|\bwhy\b|\bopinion\b/i.test(candidate.title)) return true;
-  if (/negative option marketing practices/i.test(candidate.title)) return true;
-  if (/invitation homes[’']? undisclosed fees/i.test(candidate.title)) return true;
+  return false;
+}
+
+function shouldSkipCandidate(candidate, allowSoftSkips = false) {
+  if (isHardSkipCandidate(candidate)) return true;
+  if (!allowSoftSkips && isSoftSkipCandidate(candidate)) return true;
   return false;
 }
 
@@ -199,6 +236,19 @@ async function main() {
     return;
   }
 
+  const latestPubDate = await getLatestPubDate(blogRoot);
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  const currentHour = now.getUTCHours();
+  // Trigger at 00:17 and 12:17 UTC (cron: '17 */12 * * *')
+  const isFreshnessWindow = (currentHour === 0 || currentHour === 12) && now.getUTCMinutes() >= 15;
+  // Enforce at least 1 post per 12-hour window if no post exists for the current day
+  const mustPublishAtLeastOne = isFreshnessWindow && (!latestPubDate || latestPubDate < today);
+
+  if (mustPublishAtLeastOne) {
+    console.log(`Freshness rule active (12h window): last pubDate=${latestPubDate || 'none'}, today=${today}. Must publish at least 1 post.`);
+  }
+
   const review = JSON.parse(await fs.readFile(latestReviewPath, 'utf8'));
   const candidates = review.candidates || [];
   const existingSlugs = await listExistingSlugs(blogRoot);
@@ -206,7 +256,8 @@ async function main() {
 
   for (const candidate of candidates) {
     if (published.length >= 3) break;
-    if (shouldSkipCandidate(candidate)) continue;
+    const allowSoftSkipsForThisCandidate = mustPublishAtLeastOne && published.length === 0;
+    if (shouldSkipCandidate(candidate, allowSoftSkipsForThisCandidate)) continue;
 
     const slug = makeSlug(candidate.slug || candidate.title);
     if (!slug || existingSlugs.has(slug)) continue;
