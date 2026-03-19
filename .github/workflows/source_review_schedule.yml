@@ -2,7 +2,7 @@ name: Source Review Cadence
 
 on:
   schedule:
-    - cron: '17 */4 * * *'
+    - cron: '17 */12 * * *'
   workflow_dispatch:
 
 permissions:
