@@ -1044,3 +1044,179 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** EDPB and EDPS support strengthening EU’s cybersecurity and easing compliance while protecting individuals’ personal data
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CEF 2026: EDPB launches coordinated enforcement action on transparency and information obligations under the GDPR
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Feds Disrupt IoT Botnets Behind Huge DDoS Attacks
+- **Source URL:** https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Hacking a Robot Vacuum
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Meta’s AI Glasses and Privacy
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** South Korean Police Accidentally Post Cryptocurrency Wallet Password
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Possible New Result in Quantum Factorization
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Friday Squid Blogging: Increased Squid Population in the Falklands
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** 54 EDR Killers Use BYOVD to Exploit 34 Signed Vulnerable Drivers and Disable Security Mar 19, 2026
+- **Source URL:** https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More Mar 19, 2026 Cybersecurity / Hacking News ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn’t work anymore but still do. Some of it looks simple, almost sloppy, until you see how well it lands. Other bits feel a little too practical, like they’re already closer to real-world use than anyone wants to admit. And the background noise is getting louder again, the kind people usually ignore. A few stories are clever in a bad way. Others are just frustratingly avoidable. Overall, it feels like quiet pressure is building in places that matter. Skim it or read it properly, but don’t skip this one. Emerging RaaS exploiting FortiGate flaws The Gentlemen RaaS Detailed Group-IB has shed light on the various tactics adopted by The Gentlemen, a nascent Ransomware-as-a-Service (RaaS) operation that consists of about 20 members. It originated f...
+- **Source URL:** https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** New Perseus Android Banking
+- **Source URL:** https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** How Ceros Gives Security Teams Visibility and Control in Claude Code Mar 19, 2026
+- **Source URL:** https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks Mar 19, 2026
+- **Source URL:** https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

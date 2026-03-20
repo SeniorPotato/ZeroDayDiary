@@ -1,14 +1,203 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-20T03:09:39.548Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-20T030939Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-20",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "EDPB and EDPS support strengthening EU’s cybersecurity and easing compliance while protecting individuals’ personal data",
+      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "edpb-and-edps-support-strengthening-eu-s-cybersecurity-and-easing-compliance-while-protect",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CEF 2026: EDPB launches coordinated enforcement action on transparency and information obligations under the GDPR",
+      "link": "https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "cef-2026-edpb-launches-coordinated-enforcement-action-on-transparency-and-information-obli",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-secures-settlement-against-xponential-fitness-for-franchise-rule-violations",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-sends-more-than-10-9-million-to-consumers-harmed-by-credit-repair-pyramid-scheme",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-stops-proposed-merger-of-leading-cataract-surgery-device-makers",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "feds-disrupt-iot-botnets-behind-huge-ddos-attacks",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "Hacking a Robot Vacuum",
+      "link": "https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hacking-a-robot-vacuum",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "Meta’s AI Glasses and Privacy",
+      "link": "https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "meta-s-ai-glasses-and-privacy",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "South Korean Police Accidentally Post Cryptocurrency Wallet Password",
+      "link": "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "south-korean-police-accidentally-post-cryptocurrency-wallet-password",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "Possible New Result in Quantum Factorization",
+      "link": "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "possible-new-result-in-quantum-factorization",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "Friday Squid Blogging: Increased Squid Population in the Falklands",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-increased-squid-population-in-the-falklands",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "54 EDR Killers Use BYOVD to Exploit 34 Signed Vulnerable Drivers and Disable Security Mar 19, 2026",
+      "link": "https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "54-edr-killers-use-byovd-to-exploit-34-signed-vulnerable-drivers-and-disable-security-mar-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More Mar 19, 2026 Cybersecurity / Hacking News ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn’t work anymore but still do. Some of it looks simple, almost sloppy, until you see how well it lands. Other bits feel a little too practical, like they’re already closer to real-world use than anyone wants to admit. And the background noise is getting louder again, the kind people usually ignore. A few stories are clever in a bad way. Others are just frustratingly avoidable. Overall, it feels like quiet pressure is building in places that matter. Skim it or read it properly, but don’t skip this one. Emerging RaaS exploiting FortiGate flaws The Gentlemen RaaS Detailed Group-IB has shed light on the various tactics adopted by The Gentlemen, a nascent Ransomware-as-a-Service (RaaS) operation that consists of about 20 members. It originated f...",
+      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "threatsday-bulletin-fortigate-raas-citrix-exploits-mcp-abuse-livechat-phish-more-mar-19-20",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "New Perseus Android Banking",
+      "link": "https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-perseus-android-banking",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "How Ceros Gives Security Teams Visibility and Control in Claude Code Mar 19, 2026",
+      "link": "https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "how-ceros-gives-security-teams-visibility-and-control-in-claude-code-mar-19-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-20",
+      "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks Mar 19, 2026",
+      "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-warns-of-zimbra-sharepoint-flaw-exploits-cisco-zero-day-hit-in-ransomware-attacks-mar",
       "source": "The Hacker News"
     }
   ]
