@@ -17,6 +17,8 @@ const AUTO_PUBLISH_SOURCES = new Set([
   'NCSC UK News',
   'FTC Press Releases',
   'ISO Insights and Updates',
+  'Krebs on Security',
+  'Schneier on Security',
 ]);
 
 const SOURCE_PROFILES = {
