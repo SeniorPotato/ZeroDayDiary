@@ -1,105 +1,42 @@
 {
-  "generatedAt": "2026-03-22T07:14:31.160Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-22T071431Z.md",
+  "generatedAt": "2026-03-22T13:13:55.142Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-22T131355Z.md",
   "candidates": [
     {
       "discovered": "2026-03-22",
-      "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+      "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages Mar 21, 2026",
+      "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-five-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "FTC Chairman Andrew N. Ferguson Launches Healthcare Task Force",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "New ISO standards bring clarity to chain of custody",
-      "link": "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "new-iso-standards-bring-clarity-to-chain-of-custody",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "Friday Squid Blogging: Jumbo Flying Squid in the South Pacific",
-      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
-      "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "google-fixes-two-chrome-zero-days-exploited-in-the-wild-affecting-skia-and-v8",
+      "slug": "trivy-supply-chain-attack-triggers-self-spreading-canisterworm-across-47-npm-packages-mar-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-03-22",
-      "title": "Still using SSN to verify identity?",
-      "link": "https://old.reddit.com/r/security/comments/1rzurg2/still_using_ssn_to_verify_identity/",
-      "tier": "Tier 2",
+      "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets Mar 20, 2026 DevSecOps /",
+      "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+      "tier": "Tier 1",
       "category": "security",
-      "slug": "still-using-ssn-to-verify-identity",
-      "source": "Reddit r/security"
+      "slug": "trivy-security-scanner-github-actions-breached-75-tags-hijacked-to-steal-ci-cd-secrets-mar",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-03-22",
-      "title": "The Systemd Age Verification isn't about \"compliance\". It's a Trojan Horse for Lennart Poettering's new startup.",
-      "link": "https://old.reddit.com/r/privacy/comments/1rzykul/the_systemd_age_verification_isnt_about/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "the-systemd-age-verification-isn-t-about-compliance-it-s-a-trojan-horse-for-lennart-poette",
-      "source": "Reddit r/privacy"
+      "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure Mar 20, 2026 Vulnerability /",
+      "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "critical-langflow-flaw-cve-2026-33017-triggers-attacks-within-20-hours-of-disclosure-mar-2",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-03-22",
-      "title": "How did banksy hide themselves for so long?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s02opu/how_did_banksy_hide_themselves_for_so_long/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "how-did-banksy-hide-themselves-for-so-long",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "I've used videos of the UK PM to verify my age on adult websites, Can I be in trouble?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s004va/ive_used_videos_of_the_uk_pm_to_verify_my_age_on/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "i-ve-used-videos-of-the-uk-pm-to-verify-my-age-on-adult-websites-can-i-be-in-trouble",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "What will be your action to age verification?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s073uj/what_will_be_your_action_to_age_verification/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "what-will-be-your-action-to-age-verification",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "What do you think about the new OS Level Age verification system coming into effect in 2027?",
-      "link": "https://old.reddit.com/r/privacy/comments/1rzx4rx/what_do_you_think_about_the_new_os_level_age/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "what-do-you-think-about-the-new-os-level-age-verification-system-coming-into-effect-in-202",
-      "source": "Reddit r/privacy"
+      "title": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks Mar 20, 2026 Mobile Security /",
+      "link": "https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "apple-warns-older-iphones-vulnerable-to-coruna-darksword-exploit-kit-attacks-mar-20-2026-m",
+      "source": "The Hacker News"
     }
   ]
 }
