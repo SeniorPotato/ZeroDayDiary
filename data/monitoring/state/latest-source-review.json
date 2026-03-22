@@ -1,14 +1,221 @@
 {
-  "generatedAt": "2026-03-13T09:00:15.589Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-13T090015Z.md",
+  "generatedAt": "2026-03-22T03:20:25.922Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-22T032025Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-13",
-      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "discovered": "2026-03-22",
+      "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nine-crackarmor-flaws-in-linux-apparmor-enable-root-escalation-bypass-container-isolation",
+      "slug": "cisa-adds-five-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "EDPB and EDPS support strengthening EU’s cybersecurity and easing compliance while protecting individuals’ personal data",
+      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "edpb-and-edps-support-strengthening-eu-s-cybersecurity-and-easing-compliance-while-protect",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "CEF 2026: EDPB launches coordinated enforcement action on transparency and information obligations under the GDPR",
+      "link": "https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "cef-2026-edpb-launches-coordinated-enforcement-action-on-transparency-and-information-obli",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "FTC Chairman Andrew N. Ferguson Launches Healthcare Task Force",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-secures-settlement-against-xponential-fitness-for-franchise-rule-violations",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-sends-more-than-10-9-million-to-consumers-harmed-by-credit-repair-pyramid-scheme",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-stops-proposed-merger-of-leading-cataract-surgery-device-makers",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "FTC Warns 97 Auto Dealership Groups About Deceptive Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "New ISO standards bring clarity to chain of custody",
+      "link": "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "new-iso-standards-bring-clarity-to-chain-of-custody",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "feds-disrupt-iot-botnets-behind-huge-ddos-attacks",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Friday Squid Blogging: Jumbo Flying Squid in the South Pacific",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Proton Mail Shared User Information with the Police",
+      "link": "https://www.schneier.com/blog/archives/2026/03/proton-mail-shared-user-information-with-the-police.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "proton-mail-shared-user-information-with-the-police",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Hacking a Robot Vacuum",
+      "link": "https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hacking-a-robot-vacuum",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Meta’s AI Glasses and Privacy",
+      "link": "https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "meta-s-ai-glasses-and-privacy",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "South Korean Police Accidentally Post Cryptocurrency Wallet Password",
+      "link": "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "south-korean-police-accidentally-post-cryptocurrency-wallet-password",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages Mar 21, 2026",
+      "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "trivy-supply-chain-attack-triggers-self-spreading-canisterworm-across-47-npm-packages-mar-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets Mar 20, 2026 DevSecOps /",
+      "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "trivy-security-scanner-github-actions-breached-75-tags-hijacked-to-steal-ci-cd-secrets-mar",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure Mar 20, 2026 Vulnerability /",
+      "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "critical-langflow-flaw-cve-2026-33017-triggers-attacks-within-20-hours-of-disclosure-mar-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce",
+      "link": "https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "google-adds-24-hour-wait-for-unverified-app-sideloading-to-reduce",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-22",
+      "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover Mar 20, 2026 Web Security / Vulnerability Sansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover. The vulnerability has been codenamed PolyShell by Sansec owing to the fact that the attack hinges on disguising malicious code as an image. There is no evidence that the shortcoming has been exploited in the wild. The unrestricted file upload flaw affects all Magento Open Source and Adobe Commerce versions up to 2.4.9-alpha2. The Dutch security firm said the problem stems from the fact that Magento's REST API accepts file uploads as part of the custom options for the cart item. \"When a product option has type 'file,' Magento processes an embedded file_info object containing base64-encoded file data, a MIME type, and a filename,\" it said . \"The file is written to pub/media/custom_options/quote/ on the server.\" Depending on the web server configuration, the ...",
+      "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "magento-polyshell-flaw-enables-unauthenticated-uploads-rce-and-account-takeover-mar-20-202",
       "source": "The Hacker News"
     }
   ]
