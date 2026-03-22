@@ -1044,3 +1044,347 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** EDPB and EDPS support strengthening EU’s cybersecurity and easing compliance while protecting individuals’ personal data
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** CEF 2026: EDPB launches coordinated enforcement action on transparency and information obligations under the GDPR
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Secures Settlement Against Xponential Fitness for Franchise Rule Violations
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-secures-settlement-against-xponential-fitness-franchise-rule-violations
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Sends More Than $10.9 Million to Consumers Harmed by Credit Repair Pyramid Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Stops Proposed Merger of Leading Cataract-Surgery Device Makers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** FTC Warns 97 Auto Dealership Groups About Deceptive Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Feds Disrupt IoT Botnets Behind Huge DDoS Attacks
+- **Source URL:** https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Proton Mail Shared User Information with the Police
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/proton-mail-shared-user-information-with-the-police.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Hacking a Robot Vacuum
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Meta’s AI Glasses and
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** South Korean Police Accidentally Post Cryptocurrency Wallet Password
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Possible New Result in Quantum Factorization
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams Mar 20, 2026 Data Privacy / Mobile Security Google on Thursday announced a new "advanced flow" for Android sideloading that requires a mandatory 24-hour wait period to install apps from unverified developers in an attempt to balance openness with safety. The new changes come against the backdrop of a developer verification mandate the tech giant announced last year that requires all Android apps to be registered by verified developers to be installed on certified Android devices. The move, it added, was done to flag bad actors faster and prevent them from distributing malware. This also includes potential scenarios where cybercriminals trick unsuspecting users who sideload such apps into granting them elevated privileges that make it possible to turn off Play Protect, the anti-malware feature built into all Google-certified Android devices. However, the mandatory registration requirements have been met with criticism from over 50 app developers and marketplaces, including F-Droid, Brave, The Electronic Fronti...
+- **Source URL:** https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover Mar 20, 2026 Web Security / Vulnerability Sansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover. The vulnerability has been codenamed PolyShell by Sansec owing to the fact that the attack hinges on disguising malicious code as an image. There is no evidence that the shortcoming has been exploited in the wild. The unrestricted file upload flaw affects all Magento Open Source and Adobe Commerce versions up to 2.4.9-alpha2. The Dutch security firm said the problem stems from the fact that Magento's REST API accepts file uploads as part of the custom options for the cart item. "When a product option has type 'file,' Magento processes an embedded file_info object containing base64-encoded file data, a MIME type, and a filename," it said . "The file is written to pub/media/custom_options/quote/ on the server." Depending on the web server configuration, the ...
+- **Source URL:** https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks Mar 20, 2026 Botnet / Network Security The U.S. Department of Justice (DoJ) on Thursday announced the disruption of command-and-control (C2) infrastructure used by several Internet of Things (IoT) botnets like AISURU, Kimwolf , JackSkid , and Mossad as part of a court-authorized law enforcement operation. The effort also saw authorities from Canada and Germany targeting the operators behind these botnets, with a number of private sector firms, including Akamai, Amazon Web Services, Cloudflare, DigitalOcean, Google, Lumen, Nokia, Okta, Oracle, PayPal, SpyCloud, Synthient, Team Cymru, Unit 221B, and QiAnXin XLab assisting in the investigation efforts. "The four botnets launched distributed denial-of-service (DDoS) attacks targeting victims around the world," the DoJ said . "Some of these attacks measured approximately 30 Terabits per second, which were record-breaking attacks." In a report last month, Cloudflare attributed AISURU/Kimwolf to a massive 31.4 Tbps DDoS attack that occurred in November 202...
+- **Source URL:** https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** 54 EDR Killers Use BYOVD to Exploit 35 Signed Vulnerable Drivers and Disable Security Mar 19, 2026 Threat Detection / Endpoint Security A new analysis of endpoint detection and response (EDR) killers has revealed that 54 of them leverage a technique known as bring your own vulnerable driver ( BYOVD ) by abusing a total of 35 vulnerable drivers. EDR killer programs have been a common presence in ransomware intrusions as they offer a way for affiliates to neutralize security software before deploying file-encrypting malware. This is done so in an attempt to evade detection. "Ransomware gangs, especially those with ransomware-as-a-service (RaaS) programs, frequently produce new builds of their encryptors, and ensuring that each new build is reliably undetected can be time-consuming," ESET researcher Jakub Souček said in a report shared with The Hacker News. "More importantly, encryptors are inherently very noisy (as they inherently need to modify a large number of files in a short period); making such malware undetected is rather challenging." EDR killers act as a specialized, external component...
+- **Source URL:** https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More Mar 19, 2026 Cybersecurity / Hacking News ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn’t work anymore but still do. Some of it looks simple, almost sloppy, until you see how well it lands. Other bits feel a little too practical, like they’re already closer to real-world use than anyone wants to admit. And the background noise is getting louder again, the kind people usually ignore. A few stories are clever in a bad way. Others are just frustratingly avoidable. Overall, it feels like quiet pressure is building in places that matter. Skim it or read it properly, but don’t skip this one. Emerging RaaS exploiting FortiGate flaws The Gentlemen RaaS Detailed Group-IB has shed light on the various tactics adopted by The Gentlemen, a nascent Ransomware-as-a-Service (RaaS) operation that consists of about 20 members. It originated f...
+- **Source URL:** https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** What is the bane of your existence in the security industry?
+- **Source URL:** https://old.reddit.com/r/security/comments/1ryb9ym/what_is_the_bane_of_your_existence_in_the/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Really need help with security cameras
+- **Source URL:** https://old.reddit.com/r/security/comments/1rxilcc/really_need_help_with_security_cameras/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Does anyone have experience with PSIM software?
+- **Source URL:** https://old.reddit.com/r/security/comments/1rwxuhb/does_anyone_have_experience_with_psim_software/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Security + Dion scores
+- **Source URL:** https://old.reddit.com/r/security/comments/1rwirk3/security_dion_scores/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Seguridad con bots de telegram
+- **Source URL:** https://old.reddit.com/r/security/comments/1rtcuse/seguridad_con_bots_de_telegram/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Tinder uses ai to scan you face now to verify it’s you.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1ryo0js/tinder_uses_ai_to_scan_you_face_now_to_verify_its/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Had to consent to my face and ID being collected to send to Incode Technology's AI database in order to send my blood test results to my doctor. Am I fucked?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1ry8ofm/had_to_consent_to_my_face_and_id_being_collected/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** I need to convert a PDF to word and also be able to edit PDFs, but I don't want to pay for Adobe (I only have very small changes to make). Is using the free converter and editing tool by Adobe safe from a data standpoint?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1ryp85j/i_need_to_convert_a_pdf_to_word_and_also_be_able/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** How do people even find your email to send phishing emails for you to click on?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rymg8w/how_do_people_even_find_your_email_to_send/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-20
+- **Headline / event:** Apple age verification in the UK
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1ry77un/apple_age_verification_in_the_uk/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** CISA Adds Five Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** FTC Chairman Andrew N. Ferguson Launches Healthcare Task Force
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** New ISO standards bring clarity to chain of custody
+- **Source URL:** https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** Friday Squid Blogging: Jumbo Flying Squid in the South Pacific
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8
+- **Source URL:** https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** Still using SSN to verify identity?
+- **Source URL:** https://old.reddit.com/r/security/comments/1rzurg2/still_using_ssn_to_verify_identity/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** The Systemd Age Verification isn't about "compliance". It's a Trojan Horse for Lennart Poettering's new startup.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rzykul/the_systemd_age_verification_isnt_about/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** How did banksy hide themselves for so long?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s02opu/how_did_banksy_hide_themselves_for_so_long/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** I've used videos of the UK PM to verify my age on adult websites, Can I be in trouble?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s004va/ive_used_videos_of_the_uk_pm_to_verify_my_age_on/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** What will be your action to age verification?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s073uj/what_will_be_your_action_to_age_verification/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-22
+- **Headline / event:** What do you think about the new OS Level Age verification system coming into effect in 2027?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1rzx4rx/what_do_you_think_about_the_new_os_level_age/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
