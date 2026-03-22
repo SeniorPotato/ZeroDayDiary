@@ -258,7 +258,8 @@ async function main() {
 
   for (const candidate of candidates) {
     if (published.length >= 3) break;
-    const allowSoftSkipsForThisCandidate = mustPublishAtLeastOne && published.length === 0;
+    // During freshness window, allow soft-skip relaxation for all candidates, not just the first
+    const allowSoftSkipsForThisCandidate = mustPublishAtLeastOne;
     if (shouldSkipCandidate(candidate, allowSoftSkipsForThisCandidate)) continue;
 
     const slug = makeSlug(candidate.slug || candidate.title);
