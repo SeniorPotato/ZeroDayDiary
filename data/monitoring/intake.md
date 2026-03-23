@@ -1388,3 +1388,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages Mar 21, 2026
+- **Source URL:** https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets Mar 20, 2026 DevSecOps /
+- **Source URL:** https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure Mar 20, 2026 Vulnerability /
+- **Source URL:** https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks Mar 20, 2026 Mobile Security /
+- **Source URL:** https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
