@@ -1388,3 +1388,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Microsoft Xbox One Hacked
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** ⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More Mar 23, 2026 Cybersecurity / Hacking Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition covers a mix of issues: supply chain attacks hitting CI/CD setups, long-abused IoT devices being shut down, and exploits moving quickly from disclosure to real attacks. There are also new
+- **Source URL:** https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them Mar 23, 2026
+- **Source URL:** https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM
+- **Source URL:** https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper Mar 23, 2026
+- **Source URL:** https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems Mar 23, 2026 Vulnerability / Endpoint Security Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975 on unpatched SMA systems exposed to the internet. It's currently not known what the end goals of the attack are. CVE-2025-32975 (CVSS score: 10.0) refers to an authentication bypass vulnerability that allows attackers to impersonate legitimate users without valid credentials. Successful exploitation of the flaw could facilitate the complete takeover of administrative accounts. The issue was patched by Quest in May 2025. In the malicious activity detected by Arctic Wolf, threat actors are believed to have weaponized the vulnerability to seize control of administrative accounts and execute remote commands to drop Base64-encoded payloads ...
+- **Source URL:** https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
