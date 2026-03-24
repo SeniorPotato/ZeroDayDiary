@@ -1388,3 +1388,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** ‘CanisterWorm’ Springs Wiper Attack Targeting Iran
+- **Source URL:** https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** Microsoft Xbox One Hacked
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle
+- **Source URL:** https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** ⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More Mar 23, 2026 Cybersecurity / Hacking Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition covers a mix of issues: supply chain attacks hitting CI/CD setups, long-abused IoT devices being shut down, and exploits moving quickly from disclosure to real attacks. There are also new
+- **Source URL:** https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them Mar 23, 2026
+- **Source URL:** https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM
+- **Source URL:** https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-24
+- **Headline / event:** Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper Mar 23, 2026
+- **Source URL:** https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
