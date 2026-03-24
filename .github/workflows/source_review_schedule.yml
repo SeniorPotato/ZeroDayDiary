@@ -78,3 +78,5 @@ jobs:
             - merge only after normal repository review
           branch: "automation/source-review-${{ github.run_id }}"
           delete-branch: true
+          auto-merge-method: squash
+          auto-merge-enabled: true

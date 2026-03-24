@@ -244,11 +244,13 @@ async function main() {
   const currentHour = now.getUTCHours();
   // Trigger at 00:17 and 12:17 UTC (cron: '17 */12 * * *')
   const isFreshnessWindow = (currentHour === 0 || currentHour === 12) && now.getUTCMinutes() >= 15;
-  // Enforce at least 1 post per 12-hour window if no post exists for the current day
-  const mustPublishAtLeastOne = isFreshnessWindow && (!latestPubDate || latestPubDate < today);
+  // Enforce at least 1 post per run: always allow soft-skip relaxation until minimum quota is met
+  const mustPublishAtLeastOne = true;
 
-  if (mustPublishAtLeastOne) {
-    console.log(`Freshness rule active (12h window): last pubDate=${latestPubDate || 'none'}, today=${today}. Must publish at least 1 post.`);
+  if (isFreshnessWindow) {
+    console.log(`Freshness window (12h cadence): last pubDate=${latestPubDate || 'none'}, today=${today}. Will publish at least 1 post.`);
+  } else {
+    console.log(`Regular run: must publish at least 1 post per run.`);
   }
 
   const review = JSON.parse(await fs.readFile(latestReviewPath, 'utf8'));
@@ -258,8 +260,8 @@ async function main() {
 
   for (const candidate of candidates) {
     if (published.length >= 3) break;
-    // During freshness window, allow soft-skip relaxation for all candidates, not just the first
-    const allowSoftSkipsForThisCandidate = mustPublishAtLeastOne;
+    // Allow soft-skip relaxation for all candidates until minimum quota (1 post) is met
+    const allowSoftSkipsForThisCandidate = published.length === 0 && mustPublishAtLeastOne;
     if (shouldSkipCandidate(candidate, allowSoftSkipsForThisCandidate)) continue;
 
     const slug = makeSlug(candidate.slug || candidate.title);

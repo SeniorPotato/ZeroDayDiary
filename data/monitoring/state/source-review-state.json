@@ -18,7 +18,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
       "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -84,7 +83,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force"
     ],
     "iso-insights": [
@@ -94,7 +92,6 @@
       "https://www.iso.org/contents/news/2026/01/from-mining-to-sustainable-futur.html",
       "https://www.iso.org/contents/news/2025/12/sc-29-celebrates-another-emmy.html",
       "https://www.iso.org/contents/news/thought-leadership/collaboration-for-climate-how-st.html",
-      "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
       "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html"
     ],
     "krebs-on-security": [
@@ -140,7 +137,6 @@
       "https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html",
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
       "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
-      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html"
     ],
     "the-hacker-news": [
@@ -195,7 +191,8 @@
       "https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html",
       "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
       "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
-      "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html"
+      "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+      "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -226,7 +223,8 @@
       "https://old.reddit.com/r/security/comments/1rqyw96/how_do_fintech_companies_actually_manage_third/",
       "https://old.reddit.com/r/security/comments/1rqpc4f/anybody_in_north_bay_sf_need_equipment_or_gear/",
       "https://old.reddit.com/r/security/comments/1rzurg2/still_using_ssn_to_verify_identity/",
-      "https://old.reddit.com/r/security/comments/1rzurg2/still_using_ssn_to_verify_identity/"
+      "https://old.reddit.com/r/security/comments/1s0vzsc/security_practitioners_where_does_multisystem/",
+      "https://old.reddit.com/r/security/comments/1s0vzsc/security_practitioners_where_does_multisystem/"
     ],
     "reddit-privacy": [
       "https://old.reddit.com/r/privacy/comments/19flufu/uptick_in_security_and_offtopic_posts_please_read/",
@@ -267,18 +265,27 @@
       "https://old.reddit.com/r/privacy/comments/1s004va/ive_used_videos_of_the_uk_pm_to_verify_my_age_on/",
       "https://old.reddit.com/r/privacy/comments/1s073uj/what_will_be_your_action_to_age_verification/",
       "https://old.reddit.com/r/privacy/comments/1rzx4rx/what_do_you_think_about_the_new_os_level_age/",
-      "https://old.reddit.com/r/privacy/comments/1rzykul/the_systemd_age_verification_isnt_about/",
-      "https://old.reddit.com/r/privacy/comments/1s02opu/how_did_banksy_hide_themselves_for_so_long/",
-      "https://old.reddit.com/r/privacy/comments/1s004va/ive_used_videos_of_the_uk_pm_to_verify_my_age_on/",
-      "https://old.reddit.com/r/privacy/comments/1s073uj/what_will_be_your_action_to_age_verification/",
-      "https://old.reddit.com/r/privacy/comments/1rzx4rx/what_do_you_think_about_the_new_os_level_age/",
       "https://old.reddit.com/r/privacy/comments/1rzgznm/why_dont_all_the_linux_distros_come_together_and/",
       "https://old.reddit.com/r/privacy/comments/1s0437z/my_algorithms_suck_can_this_be_related_to_having/",
       "https://old.reddit.com/r/privacy/comments/1s02pcd/nist_finalized_quantum_resistant_encryption/",
       "https://old.reddit.com/r/privacy/comments/1rzyme8/how_do_you_stay_informed_when_social_media_is_the/",
       "https://old.reddit.com/r/privacy/comments/1rz8i4r/dylan_useful_idiot_with_commit_access_pushed_age/",
       "https://old.reddit.com/r/privacy/comments/1s0dx8e/privacy_of_services_that_let_you_send_emails_into/",
-      "https://old.reddit.com/r/privacy/comments/1s0af80/how_to_send_photos_without_big_broai_bros_scanning/"
+      "https://old.reddit.com/r/privacy/comments/1s0af80/how_to_send_photos_without_big_broai_bros_scanning/",
+      "https://old.reddit.com/r/privacy/comments/1s0x91f/they_kept_feeding_us_convenience_until/",
+      "https://old.reddit.com/r/privacy/comments/1s1715b/if_you_live_in_illinois_please_continue_filing/",
+      "https://old.reddit.com/r/privacy/comments/1s10hvz/you_can_block_the_bots_that_autoban_you_from/",
+      "https://old.reddit.com/r/privacy/comments/1s12ot0/os_age_verification_how_is_it_being_implemented/",
+      "https://old.reddit.com/r/privacy/comments/1s19jaw/how_would_one_maintain_contact_with_online/",
+      "https://old.reddit.com/r/privacy/comments/1s0x91f/they_kept_feeding_us_convenience_until/",
+      "https://old.reddit.com/r/privacy/comments/1s1715b/if_you_live_in_illinois_please_continue_filing/",
+      "https://old.reddit.com/r/privacy/comments/1s10hvz/you_can_block_the_bots_that_autoban_you_from/",
+      "https://old.reddit.com/r/privacy/comments/1s12ot0/os_age_verification_how_is_it_being_implemented/",
+      "https://old.reddit.com/r/privacy/comments/1s19jaw/how_would_one_maintain_contact_with_online/",
+      "https://old.reddit.com/r/privacy/comments/1s1029h/discord_age_verification_bypasses_method/",
+      "https://old.reddit.com/r/privacy/comments/1s196v5/we_need_to_be_careful_about_lennart_poetterings/",
+      "https://old.reddit.com/r/privacy/comments/1s0uplh/understanding_the_thinking_behind_people_pushing/",
+      "https://old.reddit.com/r/privacy/comments/1s0kfed/happened_to_me_today/"
     ]
   }
 }

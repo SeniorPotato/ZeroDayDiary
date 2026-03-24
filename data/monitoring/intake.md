@@ -1388,3 +1388,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems Mar 23, 2026 Vulnerability / Endpoint Security Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975 on unpatched SMA systems exposed to the internet. It's currently not known what the end goals of the attack are. CVE-2025-32975 (CVSS score: 10.0) refers to an authentication bypass vulnerability that allows attackers to impersonate legitimate users without valid credentials. Successful exploitation of the flaw could facilitate the complete takeover of administrative accounts. The issue was patched by Quest in May 2025. In the malicious activity detected by Arctic Wolf, threat actors are believed to have weaponized the vulnerability to seize control of administrative accounts and execute remote commands to drop Base64-encoded payloads ...
+- **Source URL:** https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** Security practitioners: where does multi-system incident review fail first?
+- **Source URL:** https://old.reddit.com/r/security/comments/1s0vzsc/security_practitioners_where_does_multisystem/
+- **Source tier:** Tier 2
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from reddit r/security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** they kept feeding us convenience until surveillance felt normal
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s0x91f/they_kept_feeding_us_convenience_until/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** If you live in Illinois, please continue filing witness slips in opposition of HB5511 and HB5066!
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s1715b/if_you_live_in_illinois_please_continue_filing/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** You can block the bots that auto-ban you from subreddits if you don't like being banned from random subreddits but want to keep your profile and post history visible.
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s10hvz/you_can_block_the_bots_that_autoban_you_from/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** OS age verification. How is it being implemented exactly?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s12ot0/os_age_verification_how_is_it_being_implemented/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-23
+- **Headline / event:** How would one maintain contact with online friends if everything were forced to comply with chat control/age verification/digital ID or be shut down?
+- **Source URL:** https://old.reddit.com/r/privacy/comments/1s19jaw/how_would_one_maintain_contact_with_online/
+- **Source tier:** Tier 2
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
+- **Status:** DISCOVERED
