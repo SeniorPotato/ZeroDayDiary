@@ -18,7 +18,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
       "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -33,7 +32,9 @@
       "https://www.edpb.europa.eu/news/news/2026/data-protection-day-2026-keeping-childrens-personal-data-safe-online_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-harmonisation-clinical-trials-under-european-biotech-act-call_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en",
-      "https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en"
+      "https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en"
     ],
     "cisa-kev": [
       "https://www.cve.org/CVERecord?id=CVE-2026-1603",
@@ -85,7 +86,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-stops-proposed-merger-leading-cataract-surgery-device-makers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-warns-97-auto-dealership-groups-about-deceptive-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -94,7 +96,6 @@
       "https://www.iso.org/contents/news/2026/01/from-mining-to-sustainable-futur.html",
       "https://www.iso.org/contents/news/2025/12/sc-29-celebrates-another-emmy.html",
       "https://www.iso.org/contents/news/thought-leadership/collaboration-for-climate-how-st.html",
-      "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
       "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html"
     ],
     "krebs-on-security": [
@@ -115,7 +116,9 @@
       "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
       "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
       "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-      "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/"
+      "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -141,7 +144,10 @@
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-increased-squid-population-in-the-falklands.html",
       "https://www.schneier.com/blog/archives/2026/03/academia-and-the-ai-brain-drain.html",
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
-      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html"
+      "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
+      "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
+      "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
+      "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -195,7 +201,21 @@
       "https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html",
       "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
       "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
-      "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html"
+      "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+      "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+      "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+      "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+      "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+      "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+      "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+      "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+      "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+      "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+      "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+      "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+      "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",

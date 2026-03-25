@@ -1388,3 +1388,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** EDPB conference on cross-regulatory cooperation: what we learned
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Air AI and its Owners will be Banned from Marketing Business Opportunities to Settle FTC Charges the Company Misled Many Entrepreneurs and Small Businesses
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** ‘CanisterWorm’ Springs Wiper Attack Targeting Iran
+- **Source URL:** https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Team Mirai and Democracy
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Microsoft Xbox One Hacked
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 Likely via Trivy CI/CD Compromise Mar 24, 2026
+- **Source URL:** https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Tax Search Ads Deliver ScreenConnect
+- **Source URL:** https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner Mar 24, 2026
+- **Source URL:** https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills Mar 24, 2026 Security Operations /
+- **Source URL:** https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials Mar 24, 2026 Cryptocurrency / Supply Chain Attack Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as the Ghost campaign. The list of identified packages, all published by a user named mikilanjillo, is below - react-performance-suite react-state-optimizer-core react-fast-utilsa ai-fast-auto-trader pkgnewfefame1 carbon-mac-copy-cloner coinbase-desktop-sdk "The packages themselves are phishing for sudo password with which the last stage is executed, and are trying to hide their real functionality and avoid detection in a sophisticated way: displaying fake npm install logs," Lucija Valentić, software threat researcher at ReversingLabs, said in a report shared with The Hacker News. The identified Node.js libraries, besides falsely claiming to download additional packages, insert random delays to give the impression that the installation process is underway. At one point d...
+- **Source URL:** https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

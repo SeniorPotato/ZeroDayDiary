@@ -1,105 +1,96 @@
 {
-  "generatedAt": "2026-03-22T07:14:31.160Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-22T071431Z.md",
+  "generatedAt": "2026-03-25T03:17:45.053Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-25T031745Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-22",
-      "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+      "discovered": "2026-03-25",
+      "title": "EDPB conference on cross-regulatory cooperation: what we learned",
+      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-five-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "category": "governance",
+      "slug": "edpb-conference-on-cross-regulatory-cooperation-what-we-learned",
+      "source": "EDPB News"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "FTC Chairman Andrew N. Ferguson Launches Healthcare Task Force",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
+      "discovered": "2026-03-25",
+      "title": "Air AI and its Owners will be Banned from Marketing Business Opportunities to Settle FTC Charges the Company Misled Many Entrepreneurs and Small Businesses",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
+      "slug": "air-ai-and-its-owners-will-be-banned-from-marketing-business-opportunities-to-settle-ftc-c",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "New ISO standards bring clarity to chain of custody",
-      "link": "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "new-iso-standards-bring-clarity-to-chain-of-custody",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "Friday Squid Blogging: Jumbo Flying Squid in the South Pacific",
-      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
+      "discovered": "2026-03-25",
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific",
+      "slug": "canisterworm-springs-wiper-attack-targeting-iran",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "Team Mirai and Democracy",
+      "link": "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "team-mirai-and-democracy",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
-      "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
+      "discovered": "2026-03-25",
+      "title": "Microsoft Xbox One Hacked",
+      "link": "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-fixes-two-chrome-zero-days-exploited-in-the-wild-affecting-skia-and-v8",
+      "slug": "microsoft-xbox-one-hacked",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 Likely via Trivy CI/CD Compromise Mar 24, 2026",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "teampcp-backdoors-litellm-versions-1-82-7-1-82-8-likely-via-trivy-ci-cd-compromise-mar-24-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "Still using SSN to verify identity?",
-      "link": "https://old.reddit.com/r/security/comments/1rzurg2/still_using_ssn_to_verify_identity/",
-      "tier": "Tier 2",
+      "discovered": "2026-03-25",
+      "title": "Tax Search Ads Deliver ScreenConnect",
+      "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+      "tier": "Tier 1",
       "category": "security",
-      "slug": "still-using-ssn-to-verify-identity",
-      "source": "Reddit r/security"
+      "slug": "tax-search-ads-deliver-screenconnect",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "The Systemd Age Verification isn't about \"compliance\". It's a Trojan Horse for Lennart Poettering's new startup.",
-      "link": "https://old.reddit.com/r/privacy/comments/1rzykul/the_systemd_age_verification_isnt_about/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "the-systemd-age-verification-isn-t-about-compliance-it-s-a-trojan-horse-for-lennart-poette",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner Mar 24, 2026",
+      "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-use-fake-resumes-to-steal-enterprise-credentials-and-deploy-crypto-miner-mar-24-20",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "How did banksy hide themselves for so long?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s02opu/how_did_banksy_hide_themselves_for_so_long/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "how-did-banksy-hide-themselves-for-so-long",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills Mar 24, 2026 Security Operations /",
+      "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "the-hidden-cost-of-cybersecurity-specialization-losing-foundational-skills-mar-24-2026-sec",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-22",
-      "title": "I've used videos of the UK PM to verify my age on adult websites, Can I be in trouble?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s004va/ive_used_videos_of_the_uk_pm_to_verify_my_age_on/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "i-ve-used-videos-of-the-uk-pm-to-verify-my-age-on-adult-websites-can-i-be-in-trouble",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "What will be your action to age verification?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s073uj/what_will_be_your_action_to_age_verification/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "what-will-be-your-action-to-age-verification",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-22",
-      "title": "What do you think about the new OS Level Age verification system coming into effect in 2027?",
-      "link": "https://old.reddit.com/r/privacy/comments/1rzx4rx/what_do_you_think_about_the_new_os_level_age/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "what-do-you-think-about-the-new-os-level-age-verification-system-coming-into-effect-in-202",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials Mar 24, 2026 Cryptocurrency / Supply Chain Attack Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as the Ghost campaign. The list of identified packages, all published by a user named mikilanjillo, is below - react-performance-suite react-state-optimizer-core react-fast-utilsa ai-fast-auto-trader pkgnewfefame1 carbon-mac-copy-cloner coinbase-desktop-sdk \"The packages themselves are phishing for sudo password with which the last stage is executed, and are trying to hide their real functionality and avoid detection in a sophisticated way: displaying fake npm install logs,\" Lucija Valentić, software threat researcher at ReversingLabs, said in a report shared with The Hacker News. The identified Node.js libraries, besides falsely claiming to download additional packages, insert random delays to give the impression that the installation process is underway. At one point d...",
+      "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ghost-campaign-uses-7-npm-packages-to-steal-crypto-wallets-and-credentials-mar-24-2026-cry",
+      "source": "The Hacker News"
     }
   ]
 }
