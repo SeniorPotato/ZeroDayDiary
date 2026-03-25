@@ -1444,3 +1444,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** privacy
 - **Why it may matter:** newly detected through scheduled source review from reddit r/privacy
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** EDPB conference on cross-regulatory cooperation: what we learned
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Air AI and its Owners will be Banned from Marketing Business Opportunities to Settle FTC Charges the Company Misled Many Entrepreneurs and Small Businesses
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** ‘CanisterWorm’ Springs Wiper Attack Targeting Iran
+- **Source URL:** https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Team Mirai and Democracy
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Microsoft Xbox One Hacked
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise Mar 24, 2026 Cloud Security / Malware TeamPCP , the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm , pushing two malicious versions containing a credential harvester, a Kubernetes lateral movement toolkit, and a persistent backdoor. Multiple security vendors, including Endor Labs and JFrog , revealed that litellm versions 1.82.7 and 1.82.8 were published on March 24, 2026, likely stemming from the package's use of Trivy in their CI/CD workflow. Both the backdoored versions have since been removed from PyPI. "The payload is a three-stage attack: a credential harvester sweeping SSH keys, cloud credentials, Kubernetes secrets, cryptocurrency wallets, and .env files; a Kubernetes lateral movement toolkit deploying privileged pods to every node; and a persistent systemd backdoor (sysmon.service) polling 'checkmarx[.]zone/raw' for additional binaries," Endor Labs researcher Kiran Raj said. As observed in previous cases, the ha...
+- **Source URL:** https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR Mar 24, 2026 Endpoint Security / Social Engineering A large-scale malvertising campaign active since January 2026 has been observed targeting U.S.-based individuals searching for tax-related documents to serve rogue installers for ConnectWise ScreenConnect that drop a tool named HwAudKiller to blind security programs using the bring your own vulnerable driver ( BYOVD ) technique. "The campaign abuses Google Ads to serve rogue ScreenConnect (ConnectWise Control) installers, ultimately delivering a BYOVD EDR killer that drops a kernel driver to blind security tools before further compromise," Huntress researcher Anna Pham said in a report published last week. The cybersecurity vendor said it identified over 60 instances of malicious ScreenConnect sessions tied to the campaign. The attack chain stands out for a couple of reasons. Unlike recent campaigns highlighted by Microsoft that leverage tax-themed lures, the newly flagged activity employs commercial cloaking services to avoid detection by security scanners and abuses a ...
+- **Source URL:** https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner Mar 24, 2026 Malware / Endpoint Security An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers. "The campaign uses highly obfuscated VBScript files disguised as resume/CV documents, delivered through phishing emails," Securonix researchers Shikha Sangwan, Akshay Gaikwad, and Aaron Beardslee said in a report shared with The Hacker News. "Once executed, the malware deploys a multi-purpose toolkit that combines credential theft, data exfiltration, and Monero cryptocurrency mining for maximum monetization." The activity has been codenamed FAUX#ELEVATE by the cybersecurity company. The campaign is noteworthy for the abuse of legitimate services and infrastructure, such as Dropbox for staging payloads, Moroccan WordPress sites for hosting command-and-control (C2) configuration, and mail[.]ru SMTP infrastructure for exfiltrating stolen browser credentials and desktop files. This is an ...
+- **Source URL:** https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills Mar 24, 2026 Security Operations / Network Security Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same basic problems they faced years ago: unclear risk priorities, misaligned tooling decisions, and difficulty explaining security issues in terms the business understands. These challenges do not usually come from a lack of effort. They emerge from something more subtle, a gradual loss of foundational understanding as specialization accelerates. Specialization itself is not the problem. A lack of context is. When security teams do not have a shared understanding of how the business, systems, and risks fit together, even strong technical execution starts to break down. Over time, that gap shows up in the way programs are designed, tools are chosen, and incidents are handled. Unfortunately, I’ve seen this pattern repeatedly when assisting with ...
+- **Source URL:** https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials Mar 24, 2026 Cryptocurrency / Supply Chain Attack Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as the Ghost campaign. The list of identified packages, all published by a user named mikilanjillo, is below - react-performance-suite react-state-optimizer-core react-fast-utilsa ai-fast-auto-trader pkgnewfefame1 carbon-mac-copy-cloner coinbase-desktop-sdk "The packages themselves are phishing for sudo password with which the last stage is executed, and are trying to hide their real functionality and avoid detection in a sophisticated way: displaying fake npm install logs," Lucija Valentić, software threat researcher at ReversingLabs, said in a report shared with The Hacker News. The identified Node.js libraries, besides falsely claiming to download additional packages, insert random delays to give the impression that the installation process is underway. At one point du...
+- **Source URL:** https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

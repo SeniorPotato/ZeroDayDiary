@@ -1,69 +1,96 @@
 {
-  "generatedAt": "2026-03-23T07:19:04.704Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-23T071904Z.md",
+  "generatedAt": "2026-03-25T07:43:28.739Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-25T074328Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-23",
-      "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems Mar 23, 2026 Vulnerability / Endpoint Security Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975 on unpatched SMA systems exposed to the internet. It's currently not known what the end goals of the attack are. CVE-2025-32975 (CVSS score: 10.0) refers to an authentication bypass vulnerability that allows attackers to impersonate legitimate users without valid credentials. Successful exploitation of the flaw could facilitate the complete takeover of administrative accounts. The issue was patched by Quest in May 2025. In the malicious activity detected by Arctic Wolf, threat actors are believed to have weaponized the vulnerability to seize control of administrative accounts and execute remote commands to drop Base64-encoded payloads ...",
-      "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+      "discovered": "2026-03-25",
+      "title": "EDPB conference on cross-regulatory cooperation: what we learned",
+      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "edpb-conference-on-cross-regulatory-cooperation-what-we-learned",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "Air AI and its Owners will be Banned from Marketing Business Opportunities to Settle FTC Charges the Company Misled Many Entrepreneurs and Small Businesses",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "air-ai-and-its-owners-will-be-banned-from-marketing-business-opportunities-to-settle-ftc-c",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploit-cve-2025-32975-cvss-10-0-to-hijack-unpatched-quest-kace-sma-systems-mar-23",
+      "slug": "canisterworm-springs-wiper-attack-targeting-iran",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "Team Mirai and Democracy",
+      "link": "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "team-mirai-and-democracy",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "Microsoft Xbox One Hacked",
+      "link": "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-xbox-one-hacked",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-25",
+      "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise Mar 24, 2026 Cloud Security / Malware TeamPCP , the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm , pushing two malicious versions containing a credential harvester, a Kubernetes lateral movement toolkit, and a persistent backdoor. Multiple security vendors, including Endor Labs and JFrog , revealed that litellm versions 1.82.7 and 1.82.8 were published on March 24, 2026, likely stemming from the package's use of Trivy in their CI/CD workflow. Both the backdoored versions have since been removed from PyPI. \"The payload is a three-stage attack: a credential harvester sweeping SSH keys, cloud credentials, Kubernetes secrets, cryptocurrency wallets, and .env files; a Kubernetes lateral movement toolkit deploying privileged pods to every node; and a persistent systemd backdoor (sysmon.service) polling 'checkmarx[.]zone/raw' for additional binaries,\" Endor Labs researcher Kiran Raj said. As observed in previous cases, the ha...",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "teampcp-backdoors-litellm-versions-1-82-7-1-82-8-via-trivy-ci-cd-compromise-mar-24-2026-cl",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-23",
-      "title": "Security practitioners: where does multi-system incident review fail first?",
-      "link": "https://old.reddit.com/r/security/comments/1s0vzsc/security_practitioners_where_does_multisystem/",
-      "tier": "Tier 2",
+      "discovered": "2026-03-25",
+      "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR Mar 24, 2026 Endpoint Security / Social Engineering A large-scale malvertising campaign active since January 2026 has been observed targeting U.S.-based individuals searching for tax-related documents to serve rogue installers for ConnectWise ScreenConnect that drop a tool named HwAudKiller to blind security programs using the bring your own vulnerable driver ( BYOVD ) technique. \"The campaign abuses Google Ads to serve rogue ScreenConnect (ConnectWise Control) installers, ultimately delivering a BYOVD EDR killer that drops a kernel driver to blind security tools before further compromise,\" Huntress researcher Anna Pham said in a report published last week. The cybersecurity vendor said it identified over 60 instances of malicious ScreenConnect sessions tied to the campaign. The attack chain stands out for a couple of reasons. Unlike recent campaigns highlighted by Microsoft that leverage tax-themed lures, the newly flagged activity employs commercial cloaking services to avoid detection by security scanners and abuses a ...",
+      "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+      "tier": "Tier 1",
       "category": "security",
-      "slug": "security-practitioners-where-does-multi-system-incident-review-fail-first",
-      "source": "Reddit r/security"
+      "slug": "tax-search-ads-deliver-screenconnect-malware-using-huawei-driver-to-disable-edr-mar-24-202",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-23",
-      "title": "they kept feeding us convenience until surveillance felt normal",
-      "link": "https://old.reddit.com/r/privacy/comments/1s0x91f/they_kept_feeding_us_convenience_until/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "they-kept-feeding-us-convenience-until-surveillance-felt-normal",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner Mar 24, 2026 Malware / Endpoint Security An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers. \"The campaign uses highly obfuscated VBScript files disguised as resume/CV documents, delivered through phishing emails,\" Securonix researchers Shikha Sangwan, Akshay Gaikwad, and Aaron Beardslee said in a report shared with The Hacker News. \"Once executed, the malware deploys a multi-purpose toolkit that combines credential theft, data exfiltration, and Monero cryptocurrency mining for maximum monetization.\" The activity has been codenamed FAUX#ELEVATE by the cybersecurity company. The campaign is noteworthy for the abuse of legitimate services and infrastructure, such as Dropbox for staging payloads, Moroccan WordPress sites for hosting command-and-control (C2) configuration, and mail[.]ru SMTP infrastructure for exfiltrating stolen browser credentials and desktop files. This is an ...",
+      "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-use-fake-resumes-to-steal-enterprise-credentials-and-deploy-crypto-miner-mar-24-20",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-23",
-      "title": "If you live in Illinois, please continue filing witness slips in opposition of HB5511 and HB5066!",
-      "link": "https://old.reddit.com/r/privacy/comments/1s1715b/if_you_live_in_illinois_please_continue_filing/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "if-you-live-in-illinois-please-continue-filing-witness-slips-in-opposition-of-hb5511-and-h",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills Mar 24, 2026 Security Operations / Network Security Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same basic problems they faced years ago: unclear risk priorities, misaligned tooling decisions, and difficulty explaining security issues in terms the business understands. These challenges do not usually come from a lack of effort. They emerge from something more subtle, a gradual loss of foundational understanding as specialization accelerates. Specialization itself is not the problem. A lack of context is. When security teams do not have a shared understanding of how the business, systems, and risks fit together, even strong technical execution starts to break down. Over time, that gap shows up in the way programs are designed, tools are chosen, and incidents are handled. Unfortunately, I’ve seen this pattern repeatedly when assisting with ...",
+      "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "the-hidden-cost-of-cybersecurity-specialization-losing-foundational-skills-mar-24-2026-sec",
+      "source": "The Hacker News"
     },
     {
-      "discovered": "2026-03-23",
-      "title": "You can block the bots that auto-ban you from subreddits if you don't like being banned from random subreddits but want to keep your profile and post history visible.",
-      "link": "https://old.reddit.com/r/privacy/comments/1s10hvz/you_can_block_the_bots_that_autoban_you_from/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "you-can-block-the-bots-that-auto-ban-you-from-subreddits-if-you-don-t-like-being-banned-fr",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-23",
-      "title": "OS age verification. How is it being implemented exactly?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s12ot0/os_age_verification_how_is_it_being_implemented/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "os-age-verification-how-is-it-being-implemented-exactly",
-      "source": "Reddit r/privacy"
-    },
-    {
-      "discovered": "2026-03-23",
-      "title": "How would one maintain contact with online friends if everything were forced to comply with chat control/age verification/digital ID or be shut down?",
-      "link": "https://old.reddit.com/r/privacy/comments/1s19jaw/how_would_one_maintain_contact_with_online/",
-      "tier": "Tier 2",
-      "category": "privacy",
-      "slug": "how-would-one-maintain-contact-with-online-friends-if-everything-were-forced-to-comply-wit",
-      "source": "Reddit r/privacy"
+      "discovered": "2026-03-25",
+      "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials Mar 24, 2026 Cryptocurrency / Supply Chain Attack Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as the Ghost campaign. The list of identified packages, all published by a user named mikilanjillo, is below - react-performance-suite react-state-optimizer-core react-fast-utilsa ai-fast-auto-trader pkgnewfefame1 carbon-mac-copy-cloner coinbase-desktop-sdk \"The packages themselves are phishing for sudo password with which the last stage is executed, and are trying to hide their real functionality and avoid detection in a sophisticated way: displaying fake npm install logs,\" Lucija Valentić, software threat researcher at ReversingLabs, said in a report shared with The Hacker News. The identified Node.js libraries, besides falsely claiming to download additional packages, insert random delays to give the impression that the installation process is underway. At one point du...",
+      "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ghost-campaign-uses-7-npm-packages-to-steal-crypto-wallets-and-credentials-mar-24-2026-cry",
+      "source": "The Hacker News"
     }
   ]
 }
