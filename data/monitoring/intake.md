@@ -1524,3 +1524,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Sen. Wyden Warns of Another Section 702 Abuse
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** The Kill Chain Is Obsolete When Your AI Agent Is the Threat Mar 25, 2026 SaaS Security / Artificial Intelligence In September 2025, Anthropic disclosed that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed. This incident is worrying, but there's a scenario that should concern security teams even more: an attacker who doesn't need to run through the kill chain at all, because they've compromised an AI agent that already lives inside your environment. One that already has the access, the permissions, and a legitimate reason to move across your systems every day. A Framework Built for Human Threats The traditional cyber kill chain assumes attackers have to earn every inch of access. It's a model developed by Lockheed Martin in 2011 to describe how adversaries move from initial compromise to their ultimate objective, and it's shaped how secu...
+- **Source URL:** https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-25
+- **Headline / event:** Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks Mar 25, 2026 Cybercrime / Ransomware The U.S. Department of Justice (DoJ) said a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S. companies. Ilya Angelov, 40, of Tolyatti, Russia, was also fined $100,000. Angelov, who went by the online aliases "milan" and "okart," is said to have co-managed a Russia-based cybercriminal group known as TA551 (aka ATK236, G0127, Gold Cabin, Hive0106, Mario Kart, Monster Libra, and Shathak) between 2017 and 2021. "Angelov's group built a network of compromised computers (a 'botnet') through distribution of malware-infected files attached to spam emails," the DoJ said. "Angelov and his co-manager then monetized this botnet by selling access to individual compromised computers ('bots')." According to the sentencing memorandum , the threat group developed programs to distribute spam email and refined malware to bypass security tools. Angelov ...
+- **Source URL:** https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
