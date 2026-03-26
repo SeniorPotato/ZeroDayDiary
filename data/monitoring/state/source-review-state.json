@@ -19,7 +19,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -89,8 +88,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-launches-healthcare-task-force",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/federal-trade-commission-department-justice-seek-public-comment-premerger-notification-report-form",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/federal-trade-commission-department-justice-seek-public-comment-premerger-notification-report-form",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud"
     ],
     "iso-insights": [
@@ -101,8 +98,6 @@
       "https://www.iso.org/contents/news/2025/12/sc-29-celebrates-another-emmy.html",
       "https://www.iso.org/contents/news/thought-leadership/collaboration-for-climate-how-st.html",
       "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
-      "https://www.iso.org/contents/news/thought-leadership/building-a-net-zero-metals-futur.html",
-      "https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html",
       "https://www.iso.org/contents/news/thought-leadership/building-a-net-zero-metals-futur.html",
       "https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html"
     ],
@@ -153,7 +148,9 @@
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
       "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
       "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
-      "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html"
+      "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html",
+      "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html",
+      "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -218,7 +215,16 @@
       "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
       "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
       "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
-      "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html"
+      "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
+      "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+      "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
+      "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+      "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
+      "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
+      "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+      "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
+      "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+      "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
