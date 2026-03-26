@@ -1596,3 +1596,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** As the US Midterms Approach, AI Is Going to Emerge as a Key Issue Concerning Voters
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** [Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks Mar 26, 2026 Security Testing / Security Automation Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays unanswered: Would your defenses actually stop a real attack? That’s where things get shaky. A control exists, so it’s assumed to work. A detection rule is active, so it’s expected to catch something. But very few teams are consistently testing how all of this holds up when someone is actively trying to break through, step by step. This is exactly the gap this webinar focuses on. Exposure-Driven Resilience: Automate Testing to Validate & Improve Your Security Posture is a practical session built around one idea: stop guessing, start proving. Instead of relying on occasional testing or assumptions, it shows how to validate your security posture continuously using real attacker behavior. The session walks through how to pressure-test both your controls and your processes, how to use threa...
+- **Source URL:** https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website Mar 26, 2026 Browser Security / Vulnerability Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page. The flaw "allowed any website to silently inject prompts into that assistant as if the user wrote them," Koi Security researcher Oren Yomtov said in a report shared with The Hacker News. "No clicks, no permission prompts. Just visit a page, and an attacker completely controls your browser." The issue chains two underlying flaws - An overly permissive origin allowlist in the extension that allowed any subdomain matching the pattern (*.claude.ai) to send a prompt to Claude for execution. A document object model ( DOM )-based cross-site scripting ( XSS ) vulnerability in an Arkose Labs CAPTCHA component hosted on "a-cdn.claude[.]ai." Specifically, the XSS vulnerability enables the execution of arbitrary JavaScript code in the context of "a-cdn.claude...
+- **Source URL:** https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception Mar 26, 2026 Artificial Intelligence / Threat Detection Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During the 1960s, de Hory gained infamy as a premier forger, passing off counterfeit masterworks of Picasso, Matisse, and Renoir to unsuspecting collectors and renowned museums. Over the next several decades, more than a thousand of his works slipped past experts who relied on trusted signatures, familiar patterns, and reputable provenance. It’s not unlike the challenges SOCs are facing now. We’re firmly in the Age of Imitation. Cyberattackers, equipped with AI, are mastering the art of imitating the familiar, posing as trusted users and masking their activity within legitimate processes and ordinary network traffic. As history shows, it’s often easier to identify impostors when you know what to look for. Key takeaways for defenders: Mimicry is the new normal: 81% of attacks are malware-free Ag...
+- **Source URL:** https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories Mar 26, 2026 Cybersecurity / Hacking News Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they probably shouldn’t even be touching. There’s a little bit of everything in this one, too. Weird delivery tricks, old problems coming back in slightly worse forms, shady infrastructure doing shady infrastructure things, and the usual reminder that if criminals find a workflow annoying, they’ll just make a new one by Friday. Efficient little parasites. You almost have to respect the commitment. A few of these updates have that nasty “yeah, that tracks” energy. Stuff that sounds niche right up until you picture it landing in a real environment with real users clicking real nonsense because they’re busy and tired and just trying to get through the day. Then it stops being abstract pretty fast. So yeah, this week’s ThreatsDay Bulletin is a solid scroll-befor...
+- **Source URL:** https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites Mar 26, 2026 Malware / Web Security Cybersecurity researchers have discovered a new payment skimmer that uses WebRTC data channels as a means to receive payloads and exfiltrate data, effectively bypassing security controls. "Instead of the usual HTTP requests or image beacons, this malware uses WebRTC data channels to load its payload and exfiltrate stolen payment data," Sansec said in a report published this week. The attack, which targeted a car maker's e-commerce website, is said to have been facilitated by PolyShell , a new vulnerability impacting Magento Open Source and Adobe Commerce that allows unauthenticated attackers to upload arbitrary executables via the REST API and achieve code execution. Notably, the vulnerability has since come under mass exploitation since March 19, 2026, with more than 50 IP addresses participating in the scanning activity. The Dutch security company said it has found PolyShell attacks on 56.7% of all vulnerable stores. The skimmer is designed as a self-executing ...
+- **Source URL:** https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
