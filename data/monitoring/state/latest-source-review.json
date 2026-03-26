@@ -1,32 +1,59 @@
 {
-  "generatedAt": "2026-03-25T13:49:11.316Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-25T134911Z.md",
+  "generatedAt": "2026-03-26T03:25:57.877Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-26T032557Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-25",
-      "title": "Sen. Wyden Warns of Another Section 702 Abuse",
-      "link": "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html",
+      "discovered": "2026-03-26",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "sen-wyden-warns-of-another-section-702-abuse",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-03-25",
-      "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat Mar 25, 2026 SaaS Security / Artificial Intelligence In September 2025, Anthropic disclosed that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed. This incident is worrying, but there's a scenario that should concern security teams even more: an attacker who doesn't need to run through the kill chain at all, because they've compromised an AI agent that already lives inside your environment. One that already has the access, the permissions, and a legitimate reason to move across your systems every day. A Framework Built for Human Threats The traditional cyber kill chain assumes attackers have to earn every inch of access. It's a model developed by Lockheed Martin in 2011 to describe how adversaries move from initial compromise to their ultimate objective, and it's shaped how secu...",
-      "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
+      "discovered": "2026-03-26",
+      "title": "Federal Trade Commission and Department of Justice Seek Public Comment on the Premerger Notification and Report Form",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/federal-trade-commission-department-justice-seek-public-comment-premerger-notification-report-form",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-kill-chain-is-obsolete-when-your-ai-agent-is-the-threat-mar-25-2026-saas-security-arti",
-      "source": "The Hacker News"
+      "category": "privacy",
+      "slug": "federal-trade-commission-and-department-of-justice-seek-public-comment-on-the-premerger-no",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-03-25",
-      "title": "Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks Mar 25, 2026 Cybercrime / Ransomware The U.S. Department of Justice (DoJ) said a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S. companies. Ilya Angelov, 40, of Tolyatti, Russia, was also fined $100,000. Angelov, who went by the online aliases \"milan\" and \"okart,\" is said to have co-managed a Russia-based cybercriminal group known as TA551 (aka ATK236, G0127, Gold Cabin, Hive0106, Mario Kart, Monster Libra, and Shathak) between 2017 and 2021. \"Angelov's group built a network of compromised computers (a 'botnet') through distribution of malware-infected files attached to spam emails,\" the DoJ said. \"Angelov and his co-manager then monetized this botnet by selling access to individual compromised computers ('bots').\" According to the sentencing memorandum , the threat group developed programs to distribute spam email and refined malware to bypass security tools. Angelov ...",
-      "link": "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
+      "discovered": "2026-03-26",
+      "title": "FTC Testifies before the Joint Economic Committee on Agency’s Efforts to Combat Fraud",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-testifies-before-the-joint-economic-committee-on-agency-s-efforts-to-combat-fraud",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-03-26",
+      "title": "Building a net-zero metals future with harmonized standards",
+      "link": "https://www.iso.org/contents/news/thought-leadership/building-a-net-zero-metals-futur.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "building-a-net-zero-metals-future-with-harmonized-standards",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-03-26",
+      "title": "International Standards are a common language for a fragmented global economy",
+      "link": "https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "international-standards-are-a-common-language-for-a-fragmented-global-economy",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-03-26",
+      "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace Mar 25, 2026 Cybercrime / Dark Web The alleged administrator of the LeakBase cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday. According to TASS and MVD Media , a news website linked to the Russian Interior Ministry, the suspect is a resident of the city of Taganrog. The suspect is said to have been detained for creating and managing a criminal site that allowed stolen personal databases to be traded since 2021. In addition, technical equipment and other items of evidentiary value were confiscated during a search of the suspect's residence. \"The platform hosted hundreds of millions of user accounts, bank details, usernames, and passwords, as well as corporate documents obtained through hacking,\" said Irina Volk, an official spokesperson for the Russian Ministry of Internal Affairs. \"More than 147,000 users registered on the forum could buy and sell this data, as well as use it to commit fraudulent acts against citizens.\" LeakBase was...",
+      "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "russian-hacker-sentenced-to-2-years-for-ta551-botnet-driven-ransomware-attacks-mar-25-2026",
+      "slug": "leakbase-admin-arrested-in-russia-over-massive-stolen-credential-marketplace-mar-25-2026-c",
       "source": "The Hacker News"
     }
   ]

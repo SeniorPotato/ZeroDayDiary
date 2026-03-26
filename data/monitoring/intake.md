@@ -1548,3 +1548,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** Federal Trade Commission and Department of Justice Seek Public Comment on the Premerger Notification and Report Form
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/federal-trade-commission-department-justice-seek-public-comment-premerger-notification-report-form
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** FTC Testifies before the Joint Economic Committee on Agency’s Efforts to Combat Fraud
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** Building a net-zero metals future with harmonized standards
+- **Source URL:** https://www.iso.org/contents/news/thought-leadership/building-a-net-zero-metals-futur.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** International Standards are a common language for a fragmented global economy
+- **Source URL:** https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-26
+- **Headline / event:** LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace Mar 25, 2026 Cybercrime / Dark Web The alleged administrator of the LeakBase cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday. According to TASS and MVD Media , a news website linked to the Russian Interior Ministry, the suspect is a resident of the city of Taganrog. The suspect is said to have been detained for creating and managing a criminal site that allowed stolen personal databases to be traded since 2021. In addition, technical equipment and other items of evidentiary value were confiscated during a search of the suspect's residence. "The platform hosted hundreds of millions of user accounts, bank details, usernames, and passwords, as well as corporate documents obtained through hacking," said Irina Volk, an official spokesperson for the Russian Ministry of Internal Affairs. "More than 147,000 users registered on the forum could buy and sell this data, as well as use it to commit fraudulent acts against citizens." LeakBase was...
+- **Source URL:** https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
