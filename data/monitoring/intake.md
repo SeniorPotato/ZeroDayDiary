@@ -1668,3 +1668,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-27
+- **Headline / event:** AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion Mar 27, 2026 Ransomware / Malware Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware. "TikTok has been historically abused to distribute malicious links and social engineering instructions," Push Security said . "This includes multiple infostealers like Vidar, StealC, and Aura Stealer delivered via ClickFix-style instructions with AI-generated videos posed as activation guides for Windows, Spotify, and CapCut." The campaign begins with tricking victims into clicking on a malicious link that directs them to either a lookalike page impersonating TikTok for Business or a page that's designed to impersonate Google Careers, along with an option to schedule a call to discuss the opportunity. It's worth n...
+- **Source URL:** https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
