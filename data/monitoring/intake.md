@@ -1644,3 +1644,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-27
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-27
+- **Headline / event:** FTC Chairman Andrew N. Ferguson Issues Warning Letters to CEOs of PayPal, Stripe, Visa and Mastercard About Debanking American Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-27
+- **Headline / event:** China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks Mar 26, 2026 Cyber Espionage / Network Security A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks. The strategic positioning activity, which involves implanting and maintaining stealthy access mechanisms within critical environments, has been attributed to Red Menshen , a threat cluster that's also tracked as Earth Bluecrow, DecisiveArchitect, and Red Dev 18. The group has a track record of striking telecom providers across the Middle East and Asia since at least 2021. Rapid7 described the covert access mechanisms as "some of the stealthiest digital sleeper cells" ever encountered in telecommunications networks. The campaign is characterized by the use of kernel-level implants, passive backdoors, credential-harvesting utilities, and cross-platform command frameworks, giving the threat actor the ability to persistently inhabit networks of interest. One of the most recognized tools in its malware arsenal i...
+- **Source URL:** https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
