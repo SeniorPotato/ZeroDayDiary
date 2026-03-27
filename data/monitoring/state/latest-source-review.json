@@ -1,32 +1,14 @@
 {
-  "generatedAt": "2026-03-27T03:29:17.213Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-27T032917Z.md",
+  "generatedAt": "2026-03-27T13:42:27.763Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-27T134227Z.md",
   "candidates": [
     {
       "discovered": "2026-03-27",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion Mar 27, 2026 Ransomware / Malware Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware. \"TikTok has been historically abused to distribute malicious links and social engineering instructions,\" Push Security said . \"This includes multiple infostealers like Vidar, StealC, and Aura Stealer delivered via ClickFix-style instructions with AI-generated videos posed as activation guides for Windows, Spotify, and CapCut.\" The campaign begins with tricking victims into clicking on a malicious link that directs them to either a lookalike page impersonating TikTok for Business or a page that's designed to impersonate Google Careers, along with an option to schedule a call to discuss the opportunity. It's worth n...",
+      "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-03-27",
-      "title": "FTC Chairman Andrew N. Ferguson Issues Warning Letters to CEOs of PayPal, Stripe, Visa and Mastercard About Debanking American Consumers",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-chairman-andrew-n-ferguson-issues-warning-letters-to-ceos-of-paypal-stripe-visa-and-ma",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-03-27",
-      "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks Mar 26, 2026 Cyber Espionage / Network Security A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks. The strategic positioning activity, which involves implanting and maintaining stealthy access mechanisms within critical environments, has been attributed to Red Menshen , a threat cluster that's also tracked as Earth Bluecrow, DecisiveArchitect, and Red Dev 18. The group has a track record of striking telecom providers across the Middle East and Asia since at least 2021. Rapid7 described the covert access mechanisms as \"some of the stealthiest digital sleeper cells\" ever encountered in telecommunications networks. The campaign is characterized by the use of kernel-level implants, passive backdoors, credential-harvesting utilities, and cross-platform command frameworks, giving the threat actor the ability to persistently inhabit networks of interest. One of the most recognized tools in its malware arsenal i...",
-      "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "china-linked-red-menshen-uses-stealthy-bpfdoor-implants-to-spy-via-telecom-networks-mar-26",
+      "slug": "aitm-phishing-targets-tiktok-business-accounts-using-cloudflare-turnstile-evasion-mar-27-2",
       "source": "The Hacker News"
     }
   ]
