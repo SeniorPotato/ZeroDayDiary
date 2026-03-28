@@ -1676,3 +1676,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** Why resilient infrastructure can no longer be optional
+- **Source URL:** https://www.iso.org/contents/news/thought-leadership/why-resilient-infrastructure-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** Friday Squid Blogging: Bioluminescent Bacteria in Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits Mar 27, 2026 Spyware / Mobile Security Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update. The development was first reported by MacRumors. "Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone," the notification issued by Apple reads. The development comes a week after Apple released a support document, asking users running older versions of iOS and iPadOS to update their devices following the discovery of new iOS exploit kits like Coruna and DarkSword . Multiple threat actors of varied motivations have been found to leverage these kits over the past year to deliver malicious payloads when unsuspecting users visit a compromised website. While Coruna targets iOS versions between 13.0 and 17.2.1, DarkSword is designed to target iPhones running iOS versions between 18.4 and 18.7. A...
+- **Source URL:** https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files Mar 27, 2026 Cybersecurity / Malware TeamPCP, the threat actor behind the supply chain attack targeting Trivy , KICS , and litellm , has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data. The two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are recommended to downgrade to version 4.87.0 immediately. The PyPI project is currently quarantined. Various reports from Aikido , Endor Labs , Ossprey Security , SafeDep , Socket , and StepSecurity indicate the malicious code is injected into "telnyx/_client.py," causing it to be invoked when the package is imported into a Python application. The malware is designed to target Windows, Linux, and macOS systems. "Our analysis reveals a three-stage runtime attack chain on Linux/macOS consisting of delivery via audio steganography, in-memory execution of a data harvester, and encry...
+- **Source URL:** https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks Mar 27, 2026 Software Security / DevSecOps Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry. "The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'" Koi Security researcher Oran Simhony said in a report shared with The Hacker News. "The caller couldn't tell the difference. So when scanners failed under load, Open VSX treated it as 'nothing to scan for' and waved the extension right through." Early last month, the Eclipse Foundation, which maintains Open VSX, announced plans to enforce pre-publish security checks before VS Code extensions are published to the repository in an attempt to tackle the growing problem of malicious extensions. With Open VSX also serving as the extension market...
+- **Source URL:** https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

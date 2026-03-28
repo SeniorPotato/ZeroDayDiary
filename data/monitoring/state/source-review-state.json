@@ -20,7 +20,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -101,7 +103,9 @@
       "https://www.iso.org/contents/news/thought-leadership/collaboration-for-climate-how-st.html",
       "https://www.iso.org/contents/news/2026/03/new-iso-standards-bring-clarity.html",
       "https://www.iso.org/contents/news/thought-leadership/building-a-net-zero-metals-futur.html",
-      "https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html"
+      "https://www.iso.org/contents/news/thought-leadership/international-standards-are-a-co.html",
+      "https://www.iso.org/contents/news/thought-leadership/why-resilient-infrastructure-can.html",
+      "https://www.iso.org/contents/news/thought-leadership/why-resilient-infrastructure-can.html"
     ],
     "krebs-on-security": [
       "https://krebsonsecurity.com/about/",
@@ -151,7 +155,9 @@
       "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
       "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
       "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html",
-      "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html"
+      "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html",
+      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html",
+      "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -223,7 +229,12 @@
       "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
       "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
       "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
-      "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html"
+      "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+      "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
+      "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+      "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",

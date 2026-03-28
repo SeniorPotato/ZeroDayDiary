@@ -1,14 +1,59 @@
 {
-  "generatedAt": "2026-03-27T13:42:27.763Z",
-  "packetPath": "data/monitoring/review-packets/2026-03-27T134227Z.md",
+  "generatedAt": "2026-03-28T03:15:22.131Z",
+  "packetPath": "data/monitoring/review-packets/2026-03-28T031522Z.md",
   "candidates": [
     {
-      "discovered": "2026-03-27",
-      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion Mar 27, 2026 Ransomware / Malware Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware. \"TikTok has been historically abused to distribute malicious links and social engineering instructions,\" Push Security said . \"This includes multiple infostealers like Vidar, StealC, and Aura Stealer delivered via ClickFix-style instructions with AI-generated videos posed as activation guides for Windows, Spotify, and CapCut.\" The campaign begins with tricking victims into clicking on a malicious link that directs them to either a lookalike page impersonating TikTok for Business or a page that's designed to impersonate Google Careers, along with an option to schedule a call to discuss the opportunity. It's worth n...",
-      "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
+      "discovered": "2026-03-28",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "aitm-phishing-targets-tiktok-business-accounts-using-cloudflare-turnstile-evasion-mar-27-2",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-03-28",
+      "title": "Why resilient infrastructure can no longer be optional",
+      "link": "https://www.iso.org/contents/news/thought-leadership/why-resilient-infrastructure-can.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "why-resilient-infrastructure-can-no-longer-be-optional",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-03-28",
+      "title": "Friday Squid Blogging: Bioluminescent Bacteria in Squid",
+      "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-bioluminescent-bacteria-in-squid",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-03-28",
+      "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits Mar 27, 2026 Spyware / Mobile Security Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update. The development was first reported by MacRumors. \"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the notification issued by Apple reads. The development comes a week after Apple released a support document, asking users running older versions of iOS and iPadOS to update their devices following the discovery of new iOS exploit kits like Coruna and DarkSword . Multiple threat actors of varied motivations have been found to leverage these kits over the past year to deliver malicious payloads when unsuspecting users visit a compromised website. While Coruna targets iOS versions between 13.0 and 17.2.1, DarkSword is designed to target iPhones running iOS versions between 18.4 and 18.7. A...",
+      "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "apple-sends-lock-screen-alerts-to-outdated-iphones-over-active-web-based-exploits-mar-27-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-28",
+      "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files Mar 27, 2026 Cybersecurity / Malware TeamPCP, the threat actor behind the supply chain attack targeting Trivy , KICS , and litellm , has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data. The two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are recommended to downgrade to version 4.87.0 immediately. The PyPI project is currently quarantined. Various reports from Aikido , Endor Labs , Ossprey Security , SafeDep , Socket , and StepSecurity indicate the malicious code is injected into \"telnyx/_client.py,\" causing it to be invoked when the package is imported into a Python application. The malware is designed to target Windows, Linux, and macOS systems. \"Our analysis reveals a three-stage runtime attack chain on Linux/macOS consisting of delivery via audio steganography, in-memory execution of a data harvester, and encry...",
+      "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "teampcp-pushes-malicious-telnyx-versions-to-pypi-hides-stealer-in-wav-files-mar-27-2026-cy",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-03-28",
+      "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks Mar 27, 2026 Software Security / DevSecOps Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry. \"The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'\" Koi Security researcher Oran Simhony said in a report shared with The Hacker News. \"The caller couldn't tell the difference. So when scanners failed under load, Open VSX treated it as 'nothing to scan for' and waved the extension right through.\" Early last month, the Eclipse Foundation, which maintains Open VSX, announced plans to enforce pre-publish security checks before VS Code extensions are published to the repository in an attempt to tackle the growing problem of malicious extensions. With Open VSX also serving as the extension market...",
+      "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "open-vsx-bug-let-malicious-vs-code-extensions-bypass-pre-publish-security-checks-mar-27-20",
       "source": "The Hacker News"
     }
   ]
