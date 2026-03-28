@@ -1724,3 +1724,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug Mar 28, 2026 Vulnerability / Network Security A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr . The vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information. Per Citrix, successful exploitation of the flaw hinges on the appliance being configured as a SAML Identity Provider (SAML IDP). "We are now observing auth method fingerprinting activity against NetScaler ADC/Gateway in the wild," Defused Cyber said in a post on X. "Attackers are probing /cgi/GetAuthMethods to enumerate enabled authentication flows in our Citrix honeypots." This is likely an attempt on the part of threat actors to determine if NetScaler ADC and NetScaler Gateway are indeed configured as a SAML IDP. In a similar warning, watchTowr said it has detected active...
+- **Source URL:** https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-28
+- **Headline / event:** TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign Mar 28, 2026 Mobile Security / Email Security Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices. The activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446 , which is also tracked by the broader cybersecurity community under the monikers Callisto, COLDRIVER, and Star Blizzard (formerly SEABORGIUM). It's assessed to be affiliated with Russia's Federal Security Service (FSB). The hacking group is known for spear-phishing campaigns aimed at harvesting credentials from targets of interest. However, attacks mounted by the threat actor over the past year have targeted victims' WhatsApp accounts, as well as leveraged various custom malware families to steal sensitive data. The latest activity, highlighted by Proofpoint and Malfors , involves using fake "discussion invitation" emails spoofing the Atlantic Council to faci...
+- **Source URL:** https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
