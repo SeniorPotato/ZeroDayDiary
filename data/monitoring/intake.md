@@ -1740,3 +1740,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-29
+- **Headline / event:** Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack Mar 28, 2026 Hacktivism / Critical Infrastructure Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet. Handala Hack Team , which carried out the breach, said on its website that Patel "will now find his name among the list of successfully hacked victims." In a statement shared with Reuters, the FBI confirmed Patel's emails had been targeted, and noted necessary steps have been taken to "mitigate ​potential risks associated with this activity." The agency also said the published data was "historical in nature and involves no government information." The leak includes emails from ​2010 and 2019 allegedly sent by Patel. Handala Hack is assessed to be a pro-Iranian, pro-Palestinian hacktivist persona adopted by Iran's Ministry of Intelligence and Security ( MOIS ). It's tracked by the cybersecurity community under the m...
+- **Source URL:** https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
