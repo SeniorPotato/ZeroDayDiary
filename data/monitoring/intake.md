@@ -1748,3 +1748,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** Apple’s Camera Indicator Lights
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/apples-camera-indicator-lights.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** ⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More Mar 30, 2026 Cybersecurity / Hacking Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped being theoretical right around the time defenders stopped paying attention. There's a bit of everything this week. Persistence plays, legal wins, influence ops, and at least one thing that looks boring until you see what it connects to. All of it below. Let's go. ⚡ Threat of the Week Citrix Flaw Comes Under Active Exploitation — A critical security flaw in Citrix NetScaler ADC and NetScaler Gateway (CVE-2026-3055, CVSS score: 9.3) has come under active exploitation as of March 27, 2026. The vulnerability refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information. Per Citrix, successful exploitation of the flaw hinges on the appliance being configured as a SAML Identity Provider (SAML IDP)...
+- **Source URL:** https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** 3 SOC Process Fixes That Unlock Tier 1 Productivity Mar 30, 2026 Endpoint Security / Digital Forensics What is really slowing Tier 1 down: the threat itself or the process around it? In many SOCs, the biggest delays do not come from the threat alone. They come from fragmented workflows, manual triage steps, and limited visibility early in the investigation. Fixing those process gaps can help Tier 1 move faster, reduce unnecessary escalations, and improve how the entire SOC responds under pressure. Here are three process fixes that can help unlock stronger Tier 1 performance. Process #1: Replace Tool Switching with One Cross-Platform Investigation Workflow The problem: Tier 1 often loses time moving between different tools, interfaces, and processes to investigate suspicious activity across operating systems. What starts as one alert can quickly turn into a fragmented workflow. Why it hurts productivity: Constant tool switching slows down triage, breaks investigation focus, and makes it harder to build a clear picture of what is happening. It also increases the chance of missed...
+- **Source URL:** https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** The State of Secrets Sprawl 2026: 9 Takeaways for CISOs Mar 30, 2026 DevOps / Artificial Intelligence Secrets sprawl isn't slowing down: in 2025, it accelerated faster than most security teams anticipated. GitGuardian's State of Secrets Sprawl 2026 report analyzed billions of commits across public GitHub and uncovered 29 million new hardcoded secrets in 2025 alone, a 34% increase year over year and the largest single-year jump ever recorded. This year's findings reveal three core trends: AI has fundamentally reshaped how and where credentials leak, internal systems are far more exposed than most organizations realize, and remediation continues to be the industry's Achilles heel. Here are nine strategic takeaways that matter. 1. Secrets are growing faster than the developer population Since 2021, leaked secrets have grown 152%, while GitHub's public developer base expanded 98%. More developers and more AI-assisted code generation mean more credentials in circulation, and detection alone can't keep pace. 2. AI services drove 81% more leaks year over year ...
+- **Source URL:** https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels Mar 30, 2026 Malware / Network Security Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL toolkit, according to Censys, is custom-built using .NET and includes various executables" to facilitate credential phishing, keylogging, Remote Desktop Protocol (RDP) hijacking, and reverse tunneling via Fast Reverse Proxy (FRP). "The executables provide encrypted payload loading, credential harvesting via a polished Windows Hello phishing UI, keylogging, RDP session hijacking, and reverse proxy tunneling through FRP," Censys security researcher Andrew Northern said . The attack surface management platform said it recovered CTRL from an open directory at 146.19.213[.]155 in February 2026. Attack chains distributing the toolkit rely on a weaponized LNK file ("Private Key #kfxm7p9q_yek.lnk") with a folder icon to trick users into double-clicking it. This tri...
+- **Source URL:** https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-30
+- **Headline / event:** CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation
+- **Source URL:** https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
