@@ -80,12 +80,12 @@ jobs:
           branch: "automation/source-review-${{ github.run_id }}"
           delete-branch: true
 
-      - name: Auto-merge pull request
+      - name: Merge pull request
         if: steps.cpr.outputs.pull-request-number
         run: |
           gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" \
             --squash \
-            --auto \
+            --delete-branch \
             --body "Auto-merged by workflow after validation"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
