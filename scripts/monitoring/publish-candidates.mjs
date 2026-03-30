@@ -232,6 +232,64 @@ function shouldSkipCandidate(candidate, allowSoftSkips = false) {
   return false;
 }
 
+async function writeFallbackWatchlist(review, existingSlugs) {
+  const pubDate = new Date(review.generatedAt || new Date().toISOString());
+  const year = String(pubDate.getUTCFullYear());
+  const month = String(pubDate.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(pubDate.getUTCDate()).padStart(2, '0');
+  const dateStamp = `${year}-${month}-${day}`;
+
+  let slug = makeSlug(`watchlist-${dateStamp}`);
+  if (existingSlugs.has(slug)) {
+    slug = makeSlug(`watchlist-${dateStamp}-${pubDate.getUTCHours()}${String(pubDate.getUTCMinutes()).padStart(2, '0')}`);
+  }
+
+  const outDir = path.join(blogRoot, year, month);
+  const outPath = path.join(outDir, `${slug}.md`);
+  const canonical = `https://zerodaydiary.com/blog/${year}/${month}/${slug}/`;
+  const packetRef = review.packetPath || 'data/monitoring/review-packets/latest';
+
+  const body = `---
+title: "Scheduled watchlist: no qualifying source-review items on ${dateStamp}"
+description: "The scheduled 12-hour source review completed without a publishable standalone item, so this watchlist records the quiet interval and keeps the archive cadence intact."
+pubDate: ${dateStamp}
+draft: false
+tags:
+  - watchlist
+  - governance
+  - monitoring
+canonical: "${canonical}"
+---
+
+## What happened
+The scheduled source-review pipeline completed on ${dateStamp} but did not identify a new standalone item strong enough to promote into a normal event entry or analysis post.
+
+## Why it matters
+Quiet intervals are still operationally useful. Recording them preserves cadence discipline, shows the monitoring system is still running, and makes it easier to distinguish a genuine lull from a workflow failure.
+
+## Assessment
+This is a fallback watchlist entry rather than a signal-heavy post. The important point is that the review run completed, the monitored sources were checked, and nothing cleared the threshold for a stronger entry in this cycle.
+
+## Recommended actions
+- Treat this as confirmation that scheduled monitoring ran successfully
+- Review the attached source-review packet if you want to audit what was scanned in this cycle
+- If repeated quiet runs become common, tighten source selection or add a richer fallback roundup format
+- Keep the 12-hour cadence visible so workflow gaps are obvious when they happen
+
+## Further reading
+- Review packet: ${packetRef}
+- Source profile: Watchlist fallback
+`;
+
+  await writeValidatedMarkdown(outPath, body, {
+    expectedSlug: slug,
+    expectedCanonical: canonical,
+    requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
+  });
+
+  return path.relative(root, outPath).replace(/\\/g, '/');
+}
+
 async function main() {
   if (!(await exists(latestReviewPath))) {
     console.log('No latest-source-review.json found; nothing to publish.');
@@ -354,6 +412,13 @@ ${recommendedActions.map((line) => `- ${sentenceCase(line)}`).join('\n')}
     });
     published.push(path.relative(root, outPath).replace(/\\/g, '/'));
     existingSlugs.add(slug);
+  }
+
+  if (published.length === 0 && mustPublishAtLeastOne) {
+    const fallbackPath = await writeFallbackWatchlist(review, existingSlugs);
+    published.push(fallbackPath);
+    existingSlugs.add(path.basename(fallbackPath, path.extname(fallbackPath)));
+    console.log(`Fallback watchlist generated: ${fallbackPath}`);
   }
 
   console.log(`Published posts: ${published.length}`);
