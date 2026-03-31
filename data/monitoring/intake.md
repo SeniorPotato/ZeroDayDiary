@@ -1796,3 +1796,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-31
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-31
+- **Headline / event:** FTC Takes Action Against Match and OkCupid for Deceiving Users by Sharing Personal Data with Third Party
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-03-31
+- **Headline / event:** OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability Mar 30, 2026 Vulnerability / Enterprise Security A previously unknown vulnerability in OpenAI ChatGPT allowed sensitive conversation data to be exfiltrated without user knowledge or consent, according to new findings from Check Point. "A single malicious prompt could turn an otherwise ordinary conversation into a covert exfiltration channel, leaking user messages, uploaded files, and other sensitive content," the cybersecurity company said in a report published today. "A backdoored GPT could abuse the same weakness to obtain access to user data without the user's awareness or consent." Following responsible disclosure, OpenAI addressed the issue on February 20, 2026. There is no evidence that the issue was ever exploited in a malicious context. While ChatGPT is built with various guardrails to prevent unauthorized data sharing or generate direct outbound network requests , the newly discovered vulnerability bypasses these safeguards entirely by exploiting a side channel originating from the Linux runtime ...
+- **Source URL:** https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
