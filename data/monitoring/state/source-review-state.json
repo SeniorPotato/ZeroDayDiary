@@ -21,7 +21,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -91,7 +93,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/federal-trade-commission-department-justice-seek-public-comment-premerger-notification-report-form",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -155,7 +159,6 @@
       "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html",
       "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html",
       "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html",
-      "https://www.schneier.com/blog/archives/2026/03/apples-camera-indicator-lights.html",
       "https://www.schneier.com/blog/archives/2026/03/apples-camera-indicator-lights.html"
     ],
     "the-hacker-news": [
@@ -239,11 +242,8 @@
       "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
       "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
       "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
-      "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
-      "https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html",
-      "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
-      "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
-      "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html"
+      "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
+      "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
