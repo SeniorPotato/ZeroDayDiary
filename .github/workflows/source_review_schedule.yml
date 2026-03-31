@@ -57,28 +57,71 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Create monitoring review pull request
+      - name: Commit monitoring changes
+        id: commit_changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          BRANCH="automation/source-review"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore(monitoring): run scheduled source review"
+          git push --force-with-lease origin "$BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update monitoring review pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "chore(monitoring): run scheduled source review"
-          title: "chore(monitoring): scheduled source review"
-          body: |
-            Automated monitoring run completed and passed validation.
+        if: steps.commit_changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXISTING_PR="$(gh pr list --head "${{ steps.commit_changes.outputs.branch }}" --base main --json number --jq '.[0].number // empty')"
+          if [[ -n "$EXISTING_PR" ]]; then
+            gh pr edit "$EXISTING_PR" \
+              --title "chore(monitoring): scheduled source review" \
+              --body "Automated monitoring run completed and passed validation.
 
-            Safeguards applied:
-            - source discovery and extraction run inside repository scripts
-            - generated markdown must pass structural validation before any overwrite
-            - AI revisions fail closed on malformed frontmatter/body
-            - Astro build must pass before this PR is created
-            - changes are proposed as a PR for review instead of pushing directly to main
+Safeguards applied:
+- source discovery and extraction run inside repository scripts
+- generated markdown must pass structural validation before any overwrite
+- AI revisions fail closed on malformed frontmatter/body
+- Astro build must pass before this PR is created
+- changes are proposed as a PR for review instead of pushing directly to main
 
-            Review focus:
-            - confirm candidate quality and editorial fit
-            - verify generated posts read cleanly
-            - merge only after normal repository review
-          branch: "automation/source-review-${{ github.run_id }}"
-          delete-branch: true
+Review focus:
+- confirm candidate quality and editorial fit
+- verify generated posts read cleanly
+- merge only after normal repository review"
+            echo "pull-request-number=$EXISTING_PR" >> "$GITHUB_OUTPUT"
+          else
+            PR_URL="$(gh pr create \
+              --base main \
+              --head "${{ steps.commit_changes.outputs.branch }}" \
+              --title "chore(monitoring): scheduled source review" \
+              --body "Automated monitoring run completed and passed validation.
+
+Safeguards applied:
+- source discovery and extraction run inside repository scripts
+- generated markdown must pass structural validation before any overwrite
+- AI revisions fail closed on malformed frontmatter/body
+- Astro build must pass before this PR is created
+- changes are proposed as a PR for review instead of pushing directly to main
+
+Review focus:
+- confirm candidate quality and editorial fit
+- verify generated posts read cleanly
+- merge only after normal repository review")"
+            gh pr view "$PR_URL" --json number --jq '"pull-request-number=" + (.number|tostring)' >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge pull request
         if: steps.cpr.outputs.pull-request-number
