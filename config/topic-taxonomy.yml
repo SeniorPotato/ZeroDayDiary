@@ -1,0 +1,311 @@
+# ZeroDayDiary — Topic Taxonomy & Editorial Scoring
+# Amended for the live ZeroDayDiary workflow.
+# This file is advisory for ranking, prioritisation, and review prompts.
+# It does NOT by itself add monitored sources or guarantee ingestion.
+
+metadata:
+  version: 1.1.0
+  publish_cycle_hours: 12
+  min_score_to_queue: 55
+  min_score_to_auto_publish: 75
+  max_items_per_cycle: 6
+  scoring_mode: advisory
+  notes:
+    - Source hints are editorial guidance, not automatic source registration.
+    - Quiet cycles are allowed; the pipeline should not invent filler just to satisfy taxonomy targets.
+    - High-impact security stories should bias toward publish even if extraction or metadata is imperfect.
+
+rolling_balance:
+  target_categories_per_48h:
+    security: 3
+    governance: 1
+    privacy: 1
+    ai-risk: 1
+  warnings_only: true
+
+topics:
+  - id: supply-chain-compromise
+    label: Supply-chain compromise
+    category: security
+    tier: 1
+    score_boost: 25
+    staleness_hours: 24
+    publish_bias: auto
+    keywords:
+      - npm malware
+      - pypi malware
+      - malicious package
+      - dependency confusion
+      - source code theft
+      - source code leak
+      - compromised dependency
+      - poisoned release
+      - package hijack
+      - supply chain attack
+      - compromised maintainer
+    source_hints:
+      - socket.dev
+      - openssf.org
+      - github.com/advisories
+      - snyk.io/blog
+      - stepsecurity.io
+
+  - id: exploited-vulnerability
+    label: Actively exploited vulnerability
+    category: security
+    tier: 1
+    score_boost: 25
+    staleness_hours: 24
+    publish_bias: auto
+    keywords:
+      - cisa kev
+      - actively exploited
+      - exploited in the wild
+      - zero-day
+      - 0-day
+      - no patch available
+      - emergency patch
+      - patch bypass
+    source_hints:
+      - cisa.gov
+      - nvd.nist.gov
+      - msrc.microsoft.com
+      - support.apple.com/security
+      - googleprojectzero.blogspot.com
+
+  - id: major-breach
+    label: Major breach or high-consequence compromise
+    category: security
+    tier: 1
+    score_boost: 20
+    staleness_hours: 36
+    publish_bias: auto
+    keywords:
+      - data breach
+      - data exfiltration
+      - records exposed
+      - database leaked
+      - credential dump
+      - pii exposed
+      - source code stolen
+      - dev environment breach
+      - extortion post
+      - public sector breach
+    source_hints:
+      - krebsonsecurity.com
+      - bleepingcomputer.com
+      - therecord.media
+      - databreaches.net
+
+  - id: ransomware-wiper
+    label: Ransomware and destructive malware
+    category: security
+    tier: 1
+    score_boost: 20
+    staleness_hours: 36
+    publish_bias: auto
+    keywords:
+      - ransomware
+      - wiper
+      - destructive malware
+      - ransom note
+      - critical infrastructure attack
+      - encryption attack
+      - lockbit
+      - cl0p
+      - alphv
+      - ransomhub
+    source_hints:
+      - ransomwatch.telemetry.ltd
+      - therecord.media
+      - bleepingcomputer.com
+
+  - id: ai-deployment-failure
+    label: AI deployment or model security failure
+    category: ai-risk
+    tier: 1
+    score_boost: 20
+    staleness_hours: 36
+    publish_bias: auto
+    keywords:
+      - prompt injection
+      - model data leak
+      - training data exposure
+      - ai-enabled fraud
+      - deepfake fraud
+      - llm exploit
+      - ai system failure
+      - claude code source leak
+      - ai coding assistant leak
+    source_hints:
+      - incidentdatabase.ai
+      - ai-incidents.mitre.org
+      - therecord.media
+      - arstechnica.com
+
+  - id: large-scale-phishing
+    label: Large-scale phishing and credential theft
+    category: security
+    tier: 1
+    score_boost: 18
+    staleness_hours: 36
+    publish_bias: auto
+    keywords:
+      - phishing campaign
+      - credential theft
+      - adversary-in-the-middle
+      - aitm phishing
+      - evilginx
+      - business email compromise
+      - mfa bypass
+      - mfa fatigue
+      - vishing
+      - smishing
+    source_hints:
+      - microsoft.com/security/blog
+      - proofpoint.com
+      - cofense.com
+
+  - id: regulatory-enforcement
+    label: Regulatory enforcement action
+    category: governance
+    tier: 1
+    score_boost: 18
+    staleness_hours: 48
+    publish_bias: review
+    keywords:
+      - ico fine
+      - edpb decision
+      - ftc enforcement
+      - sec enforcement
+      - cnil sanction
+      - gdpr fine
+      - enforcement notice
+    source_hints:
+      - ico.org.uk
+      - edpb.europa.eu
+      - ftc.gov
+      - sec.gov
+
+  - id: privacy-regulatory-developments
+    label: Privacy regulatory developments
+    category: privacy
+    tier: 2
+    score_boost: 10
+    staleness_hours: 72
+    publish_bias: review
+    keywords:
+      - edpb opinion
+      - dpa guidance
+      - cross-border transfer
+      - right to erasure
+      - gdpr guidance
+      - data retention ruling
+
+  - id: cloud-misconfiguration
+    label: Cloud and infrastructure misconfiguration
+    category: security
+    tier: 2
+    score_boost: 10
+    staleness_hours: 48
+    publish_bias: review
+    keywords:
+      - s3 bucket exposed
+      - public database
+      - misconfigured firewall
+      - kubernetes exposure
+      - open elasticsearch
+      - exposed management interface
+
+  - id: developer-tooling-security
+    label: Developer tooling and IDE security
+    category: security
+    tier: 2
+    score_boost: 10
+    staleness_hours: 72
+    publish_bias: review
+    keywords:
+      - malicious vs code extension
+      - ide supply chain
+      - github actions compromise
+      - ci/cd pipeline attack
+      - developer tool malware
+      - source map leak
+
+  - id: standards-framework-updates
+    label: Standards and framework updates
+    category: governance
+    tier: 3
+    score_boost: 0
+    staleness_hours: 168
+    publish_bias: hold
+    keywords:
+      - iso 27001 update
+      - nist csf
+      - dora
+      - nis2
+      - framework revision
+
+publish_gate:
+  mode: warn-and-escalate
+  description: >
+    Guards are editorial prompts, not rigid blockers. High-confidence major stories should still publish
+    even when category balance is imperfect.
+  guards:
+    - id: guard-high-impact-visibility
+      description: Warn if no high-impact security story appeared in the last 24h.
+      type: warn
+      patterns:
+        - source code leak
+        - source code theft
+        - supply chain
+        - npm malware
+        - major breach
+        - phishing
+        - actively exploited
+        - ransomware
+        - wiper
+
+    - id: guard-ai-risk-every-48h
+      description: Warn if no AI-risk or AI-governance item was covered in the last 48h.
+      type: warn
+      patterns:
+        - prompt injection
+        - ai exploit
+        - ai governance
+        - ai act
+        - deepfake
+        - model data leak
+
+scoring:
+  description: Composite editorial score used for ranking, not absolute truth.
+  factors:
+    tier_weight:
+      tier_1: 40
+      tier_2: 25
+      tier_3: 10
+    source_credibility:
+      primary_vendor_advisory: 20
+      government_agency: 20
+      established_security_media: 15
+      reputable_research_org: 15
+      industry_blog: 10
+      aggregator_or_forum: 5
+    recency:
+      under_6h: 20
+      from_6h_to_12h: 15
+      from_12h_to_24h: 10
+      from_24h_to_48h: 5
+      over_48h: 0
+    novelty:
+      new_story: 15
+      significant_update: 10
+      minor_update: 5
+      already_covered: 0
+  disqualifiers:
+    - description: already published recently with no material update
+      action: discard
+    - description: forum-only claim with no corroborating source
+      action: hold_for_review
+    - description: weakly matched item with low extraction quality
+      action: hold_for_review
