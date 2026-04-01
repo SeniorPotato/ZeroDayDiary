@@ -218,7 +218,13 @@ function isHardSkipCandidate(candidate) {
   return false;
 }
 
+function isPriorityIndustryImpactCandidate(candidate) {
+  const text = `${candidate.title || ''} ${candidate.source || ''}`;
+  return /source code|source leak|code leak|npm|package compromise|supply chain|malware|trojan|rat\b|remote access trojan|phishing|aitm|adversary-in-the-middle|data breach|breach|exfiltrat|stolen credentials|credential theft|zero-day|actively exploited|ransomware|wiper|botnet|backdoor/i.test(text);
+}
+
 function isSoftSkipCandidate(candidate) {
+  if (isPriorityIndustryImpactCandidate(candidate)) return false;
   if (candidate.tier !== 'Tier 1') return true;
   if (!AUTO_PUBLISH_SOURCES.has(candidate.source)) return true;
   if (/^cisa adds \w+ known exploited vulnerabilities to catalog$/i.test(candidate.title)) return true;

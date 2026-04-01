@@ -31,6 +31,18 @@
 - If the event is clear and attributable -> publish as **event entry**
 - If multiple developments form a pattern -> publish as **analysis**
 
+## Always-cover criteria
+
+The site should default to publishing when a candidate matches any of the following, even if it comes from a newly added source or would otherwise be soft-skipped:
+
+- **source-code leaks or accidental source exposure** involving major vendors, AI systems, critical infrastructure, or widely used developer tools
+- **malware or supply-chain compromise** affecting widely used npm packages, developer libraries, package managers, CI/CD tooling, or enterprise software with broad downstream blast radius
+- **industry-impacting breaches** involving major vendors, public-sector bodies, critical service providers, or incidents likely to create second-order compromise across customers or partners
+- **large-scale phishing / AitM / credential theft campaigns** targeting widely used platforms, enterprise identities, or high-volume business users
+- **high-confidence exploitation events** such as zero-days, active exploitation, ransomware, wipers, botnets, or major backdoors with clear operational significance
+
+If a candidate falls into one of these buckets, the bias should be to **publish**, not to wait for a more perfect signal.
+
 ## Automated workflow rhythm
 
 The publishing system runs on a **12-hour schedule** via GitHub Actions cron (UTC 00:17 & 12:17):
