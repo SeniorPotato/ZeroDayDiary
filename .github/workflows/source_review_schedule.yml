@@ -82,42 +82,20 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          EXISTING_PR="$(gh pr list --head "${{ steps.commit_changes.outputs.branch }}" --base main --json number --jq '.[0].number // empty')"
+          BRANCH="${{ steps.commit_changes.outputs.branch }}"
+          BODY_FILE=".github/source-review-pr-body.md"
+          EXISTING_PR="$(gh pr list --head "$BRANCH" --base main --json number --jq '.[0].number // empty')"
           if [[ -n "$EXISTING_PR" ]]; then
             gh pr edit "$EXISTING_PR" \
               --title "chore(monitoring): scheduled source review" \
-              --body "Automated monitoring run completed and passed validation.
-
-Safeguards applied:
-- source discovery and extraction run inside repository scripts
-- generated markdown must pass structural validation before any overwrite
-- AI revisions fail closed on malformed frontmatter/body
-- Astro build must pass before this PR is created
-- changes are proposed as a PR for review instead of pushing directly to main
-
-Review focus:
-- confirm candidate quality and editorial fit
-- verify generated posts read cleanly
-- merge only after normal repository review"
+              --body-file "$BODY_FILE"
             echo "pull-request-number=$EXISTING_PR" >> "$GITHUB_OUTPUT"
           else
             PR_URL="$(gh pr create \
               --base main \
-              --head "${{ steps.commit_changes.outputs.branch }}" \
+              --head "$BRANCH" \
               --title "chore(monitoring): scheduled source review" \
-              --body "Automated monitoring run completed and passed validation.
-
-Safeguards applied:
-- source discovery and extraction run inside repository scripts
-- generated markdown must pass structural validation before any overwrite
-- AI revisions fail closed on malformed frontmatter/body
-- Astro build must pass before this PR is created
-- changes are proposed as a PR for review instead of pushing directly to main
-
-Review focus:
-- confirm candidate quality and editorial fit
-- verify generated posts read cleanly
-- merge only after normal repository review")"
+              --body-file "$BODY_FILE")"
             gh pr view "$PR_URL" --json number --jq '"pull-request-number=" + (.number|tostring)' >> "$GITHUB_OUTPUT"
           fi
         env:
