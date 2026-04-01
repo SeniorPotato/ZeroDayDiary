@@ -1820,3 +1820,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** FTC Endorses Florida Supreme Court Action Eliminating the ABA’s Bar Admission Monopoly
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-endorses-florida-supreme-court-action-eliminating-abas-bar-admission-monopoly
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** A Taxonomy of Cognitive Security
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Inventors of Quantum Cryptography Win Turing Award
+- **Source URL:** https://www.schneier.com/blog/archives/2026/03/inventors-of-quantum-cryptography-win-turing-award.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Block the Prompt, Not the Work: The End of "Doctor No" Apr 01, 2026 Endpoint Security / Data Protection There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say "No." No to ChatGPT. No to DeepSeek. No to the file-sharing tool the product team swears by. For years, this looked like security. But in 2026, "Doctor No" is no longer just a management headache – it is a systemic security liability. Because when you block the work, users don’t stop. They reroute. The Tax-Evaders of Productivity When security feels like a tax on efficiency, employees find a way to "evade" it. The industry has long relied on Endpoint Agents to enforce control. But as any CISO knows, these agents come with a heavy "tax." They hook into the OS kernel, they’re invasive, they notoriously break during macOS updates, and they make high-performance machines run hot. The result? Users find workarounds. Files move into personal Gmail. Prompts are...
+- **Source URL:** https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures Apr 01, 2026 Malware / Windows Security A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via another malware called Horabot . The activity has been attributed to a Brazilian cybercrime threat actor tracked as Augmented Marauder and Water Saci . The e-crime group was first documented by Trend Micro in October 2025. "This threat group employs a wider-ranging attack model focused on a bespoke delivery and propagation mechanism that includes WhatsApp, ClickFix techniques, and email-centric phishing," BlueVoyant security researchers Thomas Elkins and Joshua Green said in a technical breakdown published Tuesday. "It is now evident that while these Brazil-based operators heavily leverage script-based WhatsApp automation to compromise retail and consumer users in Latin America, they concurrently maintain and deploy an advanced, email-hijacking engine to penetrate enterprise ...
+- **Source URL:** https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass Apr 01, 2026 Social Engineering / Malware Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling remote access. It's currently not known what lures the threat actors use to trick users into executing the scripts. "The campaign relies on a combination of social engineering and living-off-the-land techniques," the Microsoft Defender Security Research Team said . "It uses renamed Windows utilities to blend into normal system activity, retrieves payloads from trusted cloud services such as AWS, Tencent Cloud, and Backblaze B2, and installs malicious Microsoft Installer (MSI) packages to maintain control of the system." The use of legitimate tools and trusted platforms is a deadly combination, as it allows threat actors to blend in normal network activity and incre...
+- **Source URL:** https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released Apr 01, 2026 Vulnerability / Browser Security Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a zero-day flaw that it said has been exploited in the wild. The high-severity vulnerability, CVE-2026-5281 (CVSS score: N/A), concerns a use-after-free bug in Dawn , an open-source and cross-platform implementation of the WebGPU standard. "Use-after-free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page," according to a description of the flaw in the NIST's National Vulnerability Database (NVD). As is customary for these alerts, Google did not provide any further details on how the shortcoming is being exploited and who may be behind the effort. This is typically done so as to ensure that a majority of users are updated with a fix and prevent other actors from joining the exploitation bandwagon. "Google is aware that an exploit for C...
+- **Source URL:** https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** 3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming) Apr 01, 2026 Threat Detection / Artificial Intelligence For years, cybersecurity has followed a familiar model: block malware, stop the attack. Now, attackers are moving on to what’s next. Threat actors now use malware less frequently in favor of what’s already inside your environment, including abusing trusted tools, native binaries, and legitimate admin utilities to move laterally, escalate privileges, and persist without raising alarms. Most organizations fail to see this risk until after the damage is done. To help visualize this challenge, consider a complimentary Internal Attack Surface Assessment — a guided, low-friction way to see where trusted tools may be working against you. Now, let’s look at how this risk operates within your environment, and 3 reasons why attackers prefer using your own tools against you. 1. Most Attacks No Longer Look Like Attacks Threat actors prefer attacks that don’t look like attacks. Recent analysis of over 700,000 high-severity incidents shows a clear shift : 84% of attacks now abuse legitimate ...
+- **Source URL:** https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** FBI confirms hack of Director Patel's personal email inbox
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** European Commission confirms data breach after Europa.eu hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Critical Fortinet Forticlient EMS flaw now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** FBI warns against using Chinese mobile apps due to privacy risks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-01
+- **Headline / event:** Google fixes fourth Chrome zero-day exploited in attacks in 2026
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
