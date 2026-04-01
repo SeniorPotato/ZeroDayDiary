@@ -30,7 +30,7 @@ function normaliseLinkTitle(rawTitle = '') {
     .replace(/[\uE000-\uF8FF]/g, ' ')
     .replace(/\s*[•|/]+\s*$/g, '')
     .replace(/\s+[A-Z][a-z]{2}\s+\d{1,2},\s+20\d{2}(?:\s+[A-Za-z][A-Za-z\s/&-]*)?\s*$/i, '')
-    .replace(/\s+(Artificial Intelligence|Threat Detection|Malware|Network Security|Cloud Security|API Security|Developer Security|VPN Security|Cybersecurity|Privacy)\s*$/i, '')
+    .replace(/\s+(Artificial Intelligence|Threat Detection|Malware|Network Security|Cloud Security|API Security|Developer Security|VPN Security|Cybersecurity|Privacy|Browser Security|Vulnerability|Enterprise Security|Cyber Espionage|Mobile Security|Email Security|Ransomware)\s*$/i, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -107,7 +107,8 @@ export function extractArticleHtml(html) {
   const $ = load(html);
   const candidate = $('article').first().html()
     || $('main').first().html()
-    || $('[class*="node__content"], [class*="field--name-body"], [class*="page__content"], [class*="l-content"]').first().html();
+    || $('[class*="article"], [class*="post"], [class*="entry-content"], [class*="story"], [class*="content"] p').closest('div').first().html()
+    || $('[class*="node__content"], [class*="field--name-body"], [class*="page__content"], [class*="l-content"], [class*="entry-content"], [class*="articlebody"], [id*="article"]').first().html();
   return candidate || html;
 }
 
