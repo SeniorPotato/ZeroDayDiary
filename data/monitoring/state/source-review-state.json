@@ -22,7 +22,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -94,7 +96,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-testifies-joint-economic-committee-agencys-efforts-combat-fraud",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-endorses-florida-supreme-court-action-eliminating-abas-bar-admission-monopoly",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-endorses-florida-supreme-court-action-eliminating-abas-bar-admission-monopoly"
     ],
     "iso-insights": [
@@ -162,8 +163,8 @@
       "https://www.schneier.com/blog/archives/2026/03/apples-camera-indicator-lights.html",
       "https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html",
       "https://www.schneier.com/blog/archives/2026/03/inventors-of-quantum-cryptography-win-turing-award.html",
-      "https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html",
-      "https://www.schneier.com/blog/archives/2026/03/inventors-of-quantum-cryptography-win-turing-award.html"
+      "https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html",
+      "https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -252,18 +253,15 @@
       "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
       "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
       "https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html",
-      "https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html",
-      "https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html",
-      "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
-      "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
-      "https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html",
       "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
       "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
       "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
       "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
       "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
       "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
-      "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html"
+      "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html",
+      "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
+      "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -364,18 +362,24 @@
       "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
       "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
-      "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
-      "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/",
-      "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
-      "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
       "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
       "https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/",
       "https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/",
       "https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/",
       "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
       "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/",
-      "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/"
+      "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/",
+      "https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/",
+      "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
+      "https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/",
+      "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
+      "https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/"
     ]
   }
 }

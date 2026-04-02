@@ -1,122 +1,77 @@
 {
-  "generatedAt": "2026-04-01T14:06:47.469Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-01T140647Z.md",
+  "generatedAt": "2026-04-02T03:27:35.051Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-02T032735Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-01",
-      "title": "FTC Endorses Florida Supreme Court Action Eliminating the ABA’s Bar Admission Monopoly",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-endorses-florida-supreme-court-action-eliminating-abas-bar-admission-monopoly",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-endorses-florida-supreme-court-action-eliminating-the-aba-s-bar-admission-monopoly",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "A Taxonomy of Cognitive Security",
-      "link": "https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html",
+      "discovered": "2026-04-02",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "a-taxonomy-of-cognitive-security",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-04-02",
+      "title": "Is “Hackback” Official US Cybersecurity Strategy?",
+      "link": "https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "is-hackback-official-us-cybersecurity-strategy",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "Inventors of Quantum Cryptography Win Turing Award",
-      "link": "https://www.schneier.com/blog/archives/2026/03/inventors-of-quantum-cryptography-win-turing-award.html",
+      "discovered": "2026-04-02",
+      "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails Apr 01, 2026 Email Security / Artificial Intelligence The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administration tool known as AGEWHEEZE. As part of the attacks, the threat actors, tracked as UAC-0255 , sent emails on March 26 and 27, 2026, posing as CERT-UA to distribute a password-protected ZIP archive hosted on Files.fm and urged recipients to install the \"specialized software.\" The targets of the campaign included state organizations, medical centers, security companies, educational institutions, financial institutions, and software development companies. Some of the emails were sent from the email address \"incidents@cert-ua[.]tech.\" The ZIP file (\"CERT_UA_protection_tool.zip\") is designed to download malware packaged as security software from the agency. The malware, per CERT-UA, is a remote access trojan codenamed AGEWHEEZE. A Go-based malware, AGEWHEEZE...",
+      "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "inventors-of-quantum-cryptography-win-turing-award",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "Block the Prompt, Not the Work: The End of \"Doctor No\" Apr 01, 2026 Endpoint Security / Data Protection There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say \"No.\" No to ChatGPT. No to DeepSeek. No to the file-sharing tool the product team swears by. For years, this looked like security. But in 2026, \"Doctor No\" is no longer just a management headache – it is a systemic security liability. Because when you block the work, users don’t stop. They reroute. The Tax-Evaders of Productivity When security feels like a tax on efficiency, employees find a way to \"evade\" it. The industry has long relied on Endpoint Agents to enforce control. But as any CISO knows, these agents come with a heavy \"tax.\" They hook into the OS kernel, they’re invasive, they notoriously break during macOS updates, and they make high-performance machines run hot. The result? Users find workarounds. Files move into personal Gmail. Prompts are...",
-      "link": "https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "block-the-prompt-not-the-work-the-end-of-doctor-no-apr-01-2026-endpoint-security-data-prot",
+      "slug": "cert-ua-impersonation-campaign-spread-agewheeze-malware-to-1-million-emails-apr-01-2026-em",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures Apr 01, 2026 Malware / Windows Security A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via another malware called Horabot . The activity has been attributed to a Brazilian cybercrime threat actor tracked as Augmented Marauder and Water Saci . The e-crime group was first documented by Trend Micro in October 2025. \"This threat group employs a wider-ranging attack model focused on a bespoke delivery and propagation mechanism that includes WhatsApp, ClickFix techniques, and email-centric phishing,\" BlueVoyant security researchers Thomas Elkins and Joshua Green said in a technical breakdown published Tuesday. \"It is now evident that while these Brazil-based operators heavily leverage script-based WhatsApp automation to compromise retail and consumer users in Latin America, they concurrently maintain and deploy an advanced, email-hijacking engine to penetrate enterprise ...",
-      "link": "https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html",
+      "discovered": "2026-04-02",
+      "title": "Apple expands iOS 18 updates to more iPhones to block DarkSword attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "casbaneiro-phishing-targets-latin-america-and-europe-using-dynamic-pdf-lures-apr-01-2026-m",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass Apr 01, 2026 Social Engineering / Malware Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling remote access. It's currently not known what lures the threat actors use to trick users into executing the scripts. \"The campaign relies on a combination of social engineering and living-off-the-land techniques,\" the Microsoft Defender Security Research Team said . \"It uses renamed Windows utilities to blend into normal system activity, retrieves payloads from trusted cloud services such as AWS, Tencent Cloud, and Backblaze B2, and installs malicious Microsoft Installer (MSI) packages to maintain control of the system.\" The use of legitimate tools and trusted platforms is a deadly combination, as it allows threat actors to blend in normal network activity and incre...",
-      "link": "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-warns-of-whatsapp-delivered-vbs-malware-hijacking-windows-via-uac-bypass-apr-01-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released Apr 01, 2026 Vulnerability / Browser Security Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a zero-day flaw that it said has been exploited in the wild. The high-severity vulnerability, CVE-2026-5281 (CVSS score: N/A), concerns a use-after-free bug in Dawn , an open-source and cross-platform implementation of the WebGPU standard. \"Use-after-free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page,\" according to a description of the flaw in the NIST's National Vulnerability Database (NVD). As is customary for these alerts, Google did not provide any further details on how the shortcoming is being exploited and who may be behind the effort. This is typically done so as to ensure that a majority of users are updated with a fix and prevent other actors from joining the exploitation bandwagon. \"Google is aware that an exploit for C...",
-      "link": "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-chrome-zero-day-cve-2026-5281-under-active-exploitation-patch-released-apr-01-2026-vul",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming) Apr 01, 2026 Threat Detection / Artificial Intelligence For years, cybersecurity has followed a familiar model: block malware, stop the attack. Now, attackers are moving on to what’s next. Threat actors now use malware less frequently in favor of what’s already inside your environment, including abusing trusted tools, native binaries, and legitimate admin utilities to move laterally, escalate privileges, and persist without raising alarms. Most organizations fail to see this risk until after the damage is done. To help visualize this challenge, consider a complimentary Internal Attack Surface Assessment — a guided, low-friction way to see where trusted tools may be working against you. Now, let’s look at how this risk operates within your environment, and 3 reasons why attackers prefer using your own tools against you. 1. Most Attacks No Longer Look Like Attacks Threat actors prefer attacks that don’t look like attacks. Recent analysis of over 700,000 high-severity incidents shows a clear shift : 84% of attacks now abuse legitimate ...",
-      "link": "https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "3-reasons-attackers-are-using-your-trusted-tools-against-you-and-why-you-don-t-see-it-comi",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-01",
-      "title": "FBI confirms hack of Director Patel's personal email inbox",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fbi-confirms-hack-of-director-patel-s-personal-email-inbox",
+      "slug": "apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "European Commission confirms data breach after Europa.eu hack",
-      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/",
+      "discovered": "2026-04-02",
+      "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "european-commission-confirms-data-breach-after-europa-eu-hack",
+      "slug": "new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "Critical Fortinet Forticlient EMS flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
+      "discovered": "2026-04-02",
+      "title": "New CrystalRAT malware adds RAT, stealer and prankware features",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks",
+      "slug": "new-crystalrat-malware-adds-rat-stealer-and-prankware-features",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "FBI warns against using Chinese mobile apps due to privacy risks",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
+      "discovered": "2026-04-02",
+      "title": "Hackers exploit TrueConf zero-day to push malicious software updates",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-warns-against-using-chinese-mobile-apps-due-to-privacy-risks",
+      "slug": "hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-01",
-      "title": "Google fixes fourth Chrome zero-day exploited in attacks in 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
+      "discovered": "2026-04-02",
+      "title": "'NoVoice' Android malware on Google Play infected 2.3 million devices",
+      "link": "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026",
+      "slug": "novoice-android-malware-on-google-play-infected-2-3-million-devices",
       "source": "BleepingComputer"
     }
   ]
