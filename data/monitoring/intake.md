@@ -1924,3 +1924,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** Is “Hackback” Official US Cybersecurity Strategy?
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails Apr 01, 2026 Email Security / Artificial Intelligence The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administration tool known as AGEWHEEZE. As part of the attacks, the threat actors, tracked as UAC-0255 , sent emails on March 26 and 27, 2026, posing as CERT-UA to distribute a password-protected ZIP archive hosted on Files.fm and urged recipients to install the "specialized software." The targets of the campaign included state organizations, medical centers, security companies, educational institutions, financial institutions, and software development companies. Some of the emails were sent from the email address "incidents@cert-ua[.]tech." The ZIP file ("CERT_UA_protection_tool.zip") is designed to download malware packaged as security software from the agency. The malware, per CERT-UA, is a remote access trojan codenamed AGEWHEEZE. A Go-based malware, AGEWHEEZE...
+- **Source URL:** https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** Apple expands iOS 18 updates to more iPhones to block DarkSword attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** New EvilTokens service fuels Microsoft device code phishing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** New CrystalRAT malware adds RAT, stealer and prankware features
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** Hackers exploit TrueConf zero-day to push malicious software updates
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-02
+- **Headline / event:** 'NoVoice' Android malware on Google Play infected 2.3 million devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
