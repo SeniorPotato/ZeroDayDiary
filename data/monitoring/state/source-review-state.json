@@ -24,7 +24,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -68,7 +67,9 @@
       "https://www.enisa.europa.eu/news/stepping-up-our-role-in-vulnerability-management-enisa-becomes-cve-root",
       "https://www.enisa.europa.eu/news/cyber-unbeatable-team-europe-aces-the-2025-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/public-administration-increasingly-targeted-by-ddos-attacks",
-      "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives"
+      "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives",
+      "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
+      "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -98,9 +99,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
       "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-endorses-florida-supreme-court-action-eliminating-abas-bar-admission-monopoly",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-petition-modify-northrop-grumman-final-order",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-petition-modify-northrop-grumman-final-order",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed"
@@ -173,7 +171,8 @@
       "https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html",
       "https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html",
       "https://www.schneier.com/blog/archives/2026/04/us-bans-all-foreign-made-consumer-routers.html",
-      "https://www.schneier.com/blog/archives/2026/04/us-bans-all-foreign-made-consumer-routers.html"
+      "https://www.schneier.com/blog/archives/2026/04/company-that-secretly-records-and-publishes-zoom-meetings.html",
+      "https://www.schneier.com/blog/archives/2026/04/company-that-secretly-records-and-publishes-zoom-meetings.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -277,8 +276,14 @@
       "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
       "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
       "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
-      "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html"
+      "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+      "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
+      "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
+      "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
+      "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+      "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
+      "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
+      "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -400,10 +405,12 @@
       "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
       "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
       "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/",
-      "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
-      "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
-      "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
-      "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/"
+      "https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/",
+      "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/",
+      "https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/",
+      "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/"
     ]
   }
 }

@@ -2156,3 +2156,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** ENISA advances the certification of EU Digital Wallets
+- **Source URL:** https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Company that Secretly Records and Publishes Zoom Meetings
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/company-that-secretly-records-and-publishes-zoom-meetings.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack Apr 03, 2026 Threat Intelligence / Malware The maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors tracked as UNC1069 . Maintainer Jason Saayman said the attackers tailored their social engineering efforts "specifically to me" by first approaching him under the guise of the founder of a legitimate, well-known company. "They had cloned the company's founders' likeness as well as the company itself," Saayman said in a post-mortem of the incident. "They then invited me to a real Slack workspace. This workspace was branded to the company's CI and named in a plausible manner. The Slack [workspace] was thought out very well; they had channels where they were sharing LinkedIn posts." Subsequently, the threat actors are said to have scheduled a meeting with him on Microsoft Teams. Upon joining the fake call, he was presented with a fake error mes...
+- **Source URL:** https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture Apr 03, 2026 Compliance / Cyber Insurance The next major breach hitting your clients probably won't come from inside their walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcontractor nobody in IT knows about. That's the new attack surface, and most organizations are underprepared for it. Cynomi's new guide, Securing the Modern Perimeter: The Rise of Third-Party Risk Management , makes the case that TPRM is no longer a compliance formality. It's a frontline security challenge and a defining growth opportunity for MSPs and MSSPs who get ahead of it. The Modern Perimeter Has Expanded For decades, cybersecurity strategy revolved around a defined perimeter. Firewalls, endpoint controls, and identity management systems were deployed to protect assets within a known boundary. That boundary has dissolved. Today, client data lives in third-party SaaS applications, flows through vendor APIs, and is processed by subcontractors ...
+- **Source URL:** https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images Apr 03, 2026 Mobile Security / Threat Intelligence Cybersecurity researchers have discovered a new version of the SparkCat malware on the Apple App Store and Google Play Store, more than a year after the trojan was discovered targeting both the mobile operating systems. The malware has been found to conceal itself within seemingly benign apps, such as enterprise messengers and food delivery services, while silently scanning victims' photo galleries for cryptocurrency wallet recovery phrases. Russian cybersecurity company Kaspersky said it found two infected apps on the App Store and one on the Google Play Store that primarily target cryptocurrency users in Asia. "The iOS variant, however, takes a different approach as it scans for cryptocurrency wallet mnemonic phrases, which are in English," the company said. "This makes the iOS variant potentially broader in reach, as it can affect users regardless of their region." The improved version of SparkCat for...
+- **Source URL:** https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK Apr 03, 2026 Durable Nonce Social Engineering Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1, 2026. "Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving durable nonces, resulting in a rapid takeover of Drift’s Security Council administrative powers," the company said in a series of posts on X. "This was a highly sophisticated operation that appears to have involved multi-week preparation and staged execution, including the use of durable nonce accounts to pre-sign transactions that delayed execution." Drift noted that the attack did not exploit a vulnerability in its programs or smart contracts, and that there is no evidence of compromised seed phrases. Rather, the breach is said to have "involved unauthorized or misrepresented transaction approvals obtained prior to execution, likely facilitated through durable n...
+- **Source URL:** https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Man admits to locking thousands of Windows devices in extortion plot
+- **Source URL:** https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** CERT-EU: European Commission hack exposes data of 30 EU entities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Drift loses $280 million North Korean hackers seize Security Council powers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
