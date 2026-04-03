@@ -1,95 +1,104 @@
 {
-  "generatedAt": "2026-04-02T13:58:19.968Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-02T135819Z.md",
+  "generatedAt": "2026-04-03T03:28:49.577Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-03T032849Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-02",
-      "title": "Possible US Government iPhone Hacking Tool Leaked",
-      "link": "https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html",
+      "discovered": "2026-04-03",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "possible-us-government-iphone-hacking-tool-leaked",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-04-03",
+      "title": "FTC Seeks Public Comment on Petition to Modify Northrop Grumman Final Order",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-petition-modify-northrop-grumman-final-order",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-seeks-public-comment-on-petition-to-modify-northrop-grumman-final-order",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-03",
+      "title": "FTC, Maryland Attorney General Secure Full Refunds and Additional Penalties Against Lindsay Auto Group for Deceptive Pricing Practices and Unwanted Add-ons",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-maryland-attorney-general-secure-full-refunds-and-additional-penalties-against-lindsay",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-03",
+      "title": "FTC Staff Warn Tennessee Legislature of Risks to Patients if Ballad Health COPA Expires and Support Proposed Repeal of Certificate of Need Requirements",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-staff-warn-tennessee-legislature-of-risks-to-patients-if-ballad-health-copa-expires-an",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-03",
+      "title": "US Bans All Foreign-Made Consumer Routers",
+      "link": "https://www.schneier.com/blog/archives/2026/04/us-bans-all-foreign-made-consumer-routers.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "us-bans-all-foreign-made-consumer-routers",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion & 10 More Stories Apr 02, 2026 Cybersecurity / Hacking News The latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No corporate fluff or boring lectures here, just a quick and honest look at the messy reality of keeping systems safe this week. Things are moving fast. The list includes researchers chaining small bugs together to create massive backdoors, old software flaws coming back to haunt us, and some very clever new tricks that let attackers bypass security logs entirely without leaving a trace. We are also seeing sketchier traffic on the underground and the usual supply chain mess, where one bad piece of code threatens thousands of apps. It is definitely worth a quick scan before you log off for the day, if only to make sure none of this is sitting in your own network. Let's get into it. Pre-auth RCE chain exposed Security Flaws in Progress ShareFile watchTower Labs has disclosed two securi...",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
+      "discovered": "2026-04-03",
+      "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials Apr 02, 2026 Vulnerability / Threat Intelligence A large-scale credential harvesting operation has been observed exploiting the React2Shell vulnerability as an initial infection vector to steal database credentials, SSH private keys, Amazon Web Services (AWS) secrets, shell command history, Stripe API keys, and GitHub tokens at scale. Cisco Talos has attributed the operation to a threat cluster it tracks as UAT-10608 . At least 766 hosts spanning multiple geographic regions and cloud providers have been compromised as part of the activity. \"Post-compromise, UAT-10608 leverages automated scripts for extracting and exfiltrating credentials from a variety of applications, that are then posted to its command-and-control (C2),\" security researchers Asheer Malhotra and Brandon White said in a report shared with The Hacker News ahead of publication. \"The C2 hosts a web-based graphical user interface (GUI) titled 'NEXUS Listener' that can be used to view s...",
+      "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-bulletin-pre-auth-chains-android-rootkits-cloudtrail-evasion-10-more-stories-ap",
+      "slug": "hackers-exploit-cve-2025-55182-to-breach-766-next-js-hosts-steal-credentials-apr-02-2026-v",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners Apr 02, 2026 Cryptomining / Malware A financially motivated operation codenamed REF1695 has been observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November 2023. \"Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action) fraud, directing victims to content locker pages under the guise of software registration,\" Elastic Security Labs researchers Jia Yu Chan, Cyril François, and Remco Sprooten said in an analysis published this week. Recent iterations of the campaign have also been found to deliver a previously undocumented .NET implant codenamed CNB Bot. These attacks leverage an ISO file as the infection vector to deliver a .NET Reactor-protected loader and a text file with explicit instructions to the user to bypass Microsoft Defender SmartScreen protections against running unrecognized applications by clicking on \"More info\" and \"Run anyway...",
-      "link": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
+      "discovered": "2026-04-03",
+      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise Apr 02, 2026 Network Security / Vulnerability Cisco has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The vulnerability, tracked as CVE-2026-20093, carries a CVSS score of 9.8 out of a maximum of 10.0. \"This vulnerability is due to incorrect handling of password change requests,\" Cisco said in an advisory released Wednesday. \"An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device.\" \"A successful exploit could allow the attacker to bypass authentication, alter the passwords of any user on the system, including an Admin user, and gain access to the system as that user.\" Security researcher \"jyh\" has been credited with discovering and reporting the vulnerability. The shortcoming affects the following products regardless of the dev...",
+      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "researchers-uncover-mining-operation-using-iso-lures-to-spread-rats-and-crypto-miners-apr-",
+      "slug": "cisco-patches-9-8-cvss-imc-and-ssm-flaws-allowing-remote-system-compromise-apr-02-2026-net",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "The State of Trusted Open Source Report Apr 02, 2026 DevSecOps / Artificial Intelligence In December 2025 , we shared the first-ever The State of Trusted Open Source report, featuring insights from our product data and customer base on open source consumption across our catalog of container image projects, versions, images, language libraries, and builds. These insights shed light on what teams pull, deploy, and maintain day to day, alongside the vulnerabilities and remediation realities these projects face. Fast forward a few months, and software development is accelerating at a pace that most didn’t see coming. AI is increasingly embedded across the development lifecycle, from code generation to infrastructure automation, as models become more advanced and better at meeting the demands of modern work. This shift is expanding what teams can build and how quickly they can ship. It is also reshaping the security landscape. Before diving into the numbers, it’s important to explain how we perform this analysis. We examined over 2,20...",
-      "link": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
+      "discovered": "2026-04-03",
+      "title": "Claude Code leak used to push infostealer malware on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-state-of-trusted-open-source-report-apr-02-2026-devsecops-artificial-intelligence-in-d",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-02",
-      "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action Apr 02, 2026 Surveillance / Mobile Security Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with spyware. According to reports from Italian newspaper La Repubblica and news agency ANSA , the vast majority of the targets are located in Italy. It's assessed that the threat actors behind the activity used social engineering tactics to get users to install malicious software that mimicked WhatsApp. All the affected users have been logged out and have been recommended to uninstall the malware-laced apps and download the official WhatsApp app. WhatsApp did not reveal who was targeted in these attacks. The tech giant said it's also taking action against Asigint, an Italian subsidiary of spyware company SIO, for allegedly creating a counterfeit version of WhatsApp. On its website, the company advertises solutions to law enforcement agencies, government organizations, and police and intelligenc...",
-      "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "whatsapp-alerts-200-users-after-fake-ios-app-installed-spyware-italian-firm-faces-action-a",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-02",
-      "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit Apr 02, 2026 Mobile Security / Vulnerability Apple on Wednesday expanded the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known as DarkSword . \"We enabled the availability of iOS 18.7.7 for more devices on April 1, 2026, so users with Automatic Updates turned on can automatically receive important security protections from web attacks called DarkSword,\" the company said. \"The fixes associated with the DarkSword exploit first shipped in 2025.\" The update is available for the following devices - iPhone XR, iPhone XS, iPhone XS Max, iPhone 11 (all models), iPhone SE (2nd generation), iPhone 12 (all models), iPhone 13 (all models), iPhone SE (3rd generation), iPhone 14 (all models), iPhone 15 (all models), iPhone 16 (all models), and iPhone 16e iPad mini (5th generation - A17 Pro), iPad (7th generation - A16), iPad Air (3rd - 5th generation), iPad Air 11-inch (M2 - M3), iPad Air 13-...",
-      "link": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "apple-expands-ios-18-7-7-update-to-more-devices-to-block-darksword-exploit-apr-02-2026-mob",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-02",
-      "title": "New Progress ShareFile flaws can be chained in pre-auth RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks",
+      "slug": "claude-code-leak-used-to-push-infostealer-malware-on-github",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "Medtech giant Stryker fully operational after data-wiping attack",
-      "link": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/",
+      "discovered": "2026-04-03",
+      "title": "Drift loses $280 million as hackers seize Security Council powers",
+      "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "medtech-giant-stryker-fully-operational-after-data-wiping-attack",
+      "slug": "drift-loses-280-million-as-hackers-seize-security-council-powers",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
+      "discovered": "2026-04-03",
+      "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-cisco-imc-auth-bypass-gives-attackers-admin-access",
+      "slug": "residential-proxies-evaded-ip-reputation-checks-in-78-of-4b-sessions",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-02",
-      "title": "Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/",
+      "discovered": "2026-04-03",
+      "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
+      "link": "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks",
+      "slug": "adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime",
       "source": "BleepingComputer"
     }
   ]
