@@ -2068,3 +2068,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** FTC Seeks Public Comment on Petition to Modify Northrop Grumman Final Order
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-petition-modify-northrop-grumman-final-order
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** FTC, Maryland Attorney General Secure Full Refunds and Additional Penalties Against Lindsay Auto Group for Deceptive Pricing Practices and Unwanted Add-ons
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** FTC Staff Warn Tennessee Legislature of Risks to Patients if Ballad Health COPA Expires and Support Proposed Repeal of Certificate of Need Requirements
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** US Bans All Foreign-Made Consumer Routers
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/us-bans-all-foreign-made-consumer-routers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials Apr 02, 2026 Vulnerability / Threat Intelligence A large-scale credential harvesting operation has been observed exploiting the React2Shell vulnerability as an initial infection vector to steal database credentials, SSH private keys, Amazon Web Services (AWS) secrets, shell command history, Stripe API keys, and GitHub tokens at scale. Cisco Talos has attributed the operation to a threat cluster it tracks as UAT-10608 . At least 766 hosts spanning multiple geographic regions and cloud providers have been compromised as part of the activity. "Post-compromise, UAT-10608 leverages automated scripts for extracting and exfiltrating credentials from a variety of applications, that are then posted to its command-and-control (C2)," security researchers Asheer Malhotra and Brandon White said in a report shared with The Hacker News ahead of publication. "The C2 hosts a web-based graphical user interface (GUI) titled 'NEXUS Listener' that can be used to view s...
+- **Source URL:** https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise Apr 02, 2026 Network Security / Vulnerability Cisco has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The vulnerability, tracked as CVE-2026-20093, carries a CVSS score of 9.8 out of a maximum of 10.0. "This vulnerability is due to incorrect handling of password change requests," Cisco said in an advisory released Wednesday. "An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device." "A successful exploit could allow the attacker to bypass authentication, alter the passwords of any user on the system, including an Admin user, and gain access to the system as that user." Security researcher "jyh" has been credited with discovering and reporting the vulnerability. The shortcoming affects the following products regardless of the dev...
+- **Source URL:** https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Claude Code leak used to push infostealer malware on GitHub
+- **Source URL:** https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Drift loses $280 million as hackers seize Security Council powers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Residential proxies evaded IP reputation checks in 78% of 4B sessions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-03
+- **Headline / event:** Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
