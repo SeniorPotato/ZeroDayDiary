@@ -2228,3 +2228,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** FTC Publishes New Strategic Plan
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-publishes-new-strategic-plan
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** FTC Submits Annual Budget Request to Congress
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-annual-budget-request-congress
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** Friday Squid Blogging: Jurassic Fish Chokes on Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-jurassic-fish-chokes-on-squid.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing Apr 03, 2026 Malware / Cyber Espionage A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region. The campaign has been attributed to TA416 , a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo Panda. "This TA416 activity included multiple waves of web bug and malware delivery campaigns against diplomatic missions to the European Union and NATO across a range of European countries," Proofpoint researchers Mark Kelly and Georgi Mladenov said . "Throughout this period, TA416 regularly altered its infection chain, including abusing Cloudflare Turnstile challenge pages, abusing OAuth redirects, and using C# project files, as well as frequently updating its custom PlugX payload." TA416 has also been observed orchestrating multiple campaigns aimed at diplomatic and government entities in the Middle East following the outbreak...
+- **Source URL:** https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers Apr 03, 2026 Linux / Server Hardening Threat actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research Team. "Instead of exposing command execution through URL parameters or request bodies, these web shells rely on threat actor-supplied cookie values to gate execution, pass instructions, and activate malicious functionality," the tech giant said . The approach offers added stealth as it allows malicious code to stay dormant during normal application execution and activate the web shell logic only when specific cookie values are present. This behavior, Microsoft noted, extends to web requests, scheduled tasks, and trusted background workers. The malicious activity takes advantage of the fact that cookie values are available at runtime through the $_COOKIE superglobal variable, allowing attacker-supplied inputs to be consumed with...
+- **Source URL:** https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** LinkedIn secretely scans for 6,000+ Chrome extensions, collects data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** Hims & Hers warns of data breach after Zendesk support ticket breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** Die Linke German political party confirms data stolen by Qilin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-04
+- **Headline / event:** Evolution of Ransomware: Multi-Extortion Ransomware Attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
