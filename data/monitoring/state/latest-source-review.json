@@ -1,5 +1,33 @@
 {
-  "generatedAt": "2026-04-04T13:29:55.904Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-04T132955Z.md",
-  "candidates": []
+  "generatedAt": "2026-04-05T03:39:38.573Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-05T033938Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-04-05",
+      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
+      "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-05",
+      "title": "Device code phishing attacks surge 37x as new kits spread online",
+      "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "device-code-phishing-attacks-surge-37x-as-new-kits-spread-online",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-05",
+      "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
+      "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "linkedin-secretly-scans-for-6-000-chrome-extensions-collects-data",
+      "source": "BleepingComputer"
+    }
+  ]
 }
