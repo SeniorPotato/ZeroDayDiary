@@ -2324,3 +2324,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-05
+- **Headline / event:** Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS Apr 05, 2026 Vulnerability / API Security Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation. "An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests," Fortinet said in a Saturday advisory. The issue affects FortiClient EMS versions 7.4.5 through 7.4.6. It's expected to be fully patched in the upcoming version 7.4.7, although the company has released a hotfix to address it. Simo Kohonen from Defused Cyber and Nguyen Duc Anh have been credited with discovering and reporting the flaw. In a post on X, Defused Cyber said it observed zero-day exploitation of CVE-2026-35616 earlier this week. Accor...
+- **Source URL:** https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

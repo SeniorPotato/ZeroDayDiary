@@ -282,7 +282,9 @@
       "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
       "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
       "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-      "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html"
+      "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+      "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -411,9 +413,6 @@
       "https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/",
       "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
       "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
-      "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
-      "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
       "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
       "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
       "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/"
