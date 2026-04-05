@@ -1,33 +1,15 @@
 {
-  "generatedAt": "2026-04-05T03:39:38.573Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-05T033938Z.md",
+  "generatedAt": "2026-04-05T13:31:08.974Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-05T133108Z.md",
   "candidates": [
     {
       "discovered": "2026-04-05",
-      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
-      "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS Apr 05, 2026 Vulnerability / API Security Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation. \"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests,\" Fortinet said in a Saturday advisory. The issue affects FortiClient EMS versions 7.4.5 through 7.4.6. It's expected to be fully patched in the upcoming version 7.4.7, although the company has released a hotfix to address it. Simo Kohonen from Defused Cyber and Nguyen Duc Anh have been credited with discovering and reporting the flaw. In a post on X, Defused Cyber said it observed zero-day exploitation of CVE-2026-35616 earlier this week. Accor...",
+      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-05",
-      "title": "Device code phishing attacks surge 37x as new kits spread online",
-      "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "device-code-phishing-attacks-surge-37x-as-new-kits-spread-online",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-05",
-      "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
-      "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "linkedin-secretly-scans-for-6-000-chrome-extensions-collects-data",
-      "source": "BleepingComputer"
+      "slug": "fortinet-patches-actively-exploited-cve-2026-35616-in-forticlient-ems-apr-05-2026-vulnerab",
+      "source": "The Hacker News"
     }
   ]
 }
