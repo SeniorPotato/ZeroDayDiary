@@ -2332,3 +2332,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab
+- **Source URL:** https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** $285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation Apr 05, 2026 Cryptocurrency / Threat Intelligence Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of 2025. The Solana-based decentralized exchange described it as "an attack six months in the making," attributing it with medium confidence to a North Korean state-sponsored hacking group dubbed UNC4736 , which is also tracked under the cyptonyms AppleJeus, Citrine Sleet, Golden Chollima, and Gleaming Pisces. The threat actor has a history of targeting the cryptocurrency sector for financial theft since at least 2018. It's best known for the X_TRADER/3CX supply chain breach in 2023 and the $53 million hack of decentralized finance (DeFi) platform Radiant Capital in October 2024. "The basis for this connection is both on-chain (f...
+- **Source URL:** https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Hackers exploit React2Shell in automated credential theft campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** New FortiClient EMS flaw exploited in attacks, emergency patch released
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Traffic violation scams switch to QR codes in new phishing texts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
