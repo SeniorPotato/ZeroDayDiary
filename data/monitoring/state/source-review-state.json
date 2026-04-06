@@ -136,7 +136,6 @@
       "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
       "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
       "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
-      "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
       "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/"
     ],
     "schneier-on-security": [
@@ -175,7 +174,9 @@
       "https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html",
       "https://www.schneier.com/blog/archives/2026/04/us-bans-all-foreign-made-consumer-routers.html",
       "https://www.schneier.com/blog/archives/2026/04/company-that-secretly-records-and-publishes-zoom-meetings.html",
-      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-jurassic-fish-chokes-on-squid.html"
+      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-jurassic-fish-chokes-on-squid.html",
+      "https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html",
+      "https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -287,7 +288,16 @@
       "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
       "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
       "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-      "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html"
+      "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+      "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+      "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+      "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+      "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -419,9 +429,6 @@
       "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
       "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
       "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
-      "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
       "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/"

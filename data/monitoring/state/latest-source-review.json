@@ -1,51 +1,60 @@
 {
-  "generatedAt": "2026-04-06T03:43:07.531Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-06T034307Z.md",
+  "generatedAt": "2026-04-06T13:48:03.542Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-06T134803Z.md",
   "candidates": [
     {
       "discovered": "2026-04-06",
-      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
-      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "title": "Google Wants to Transition to Post-Quantum Cryptography by 2029",
+      "link": "https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab",
-      "source": "Krebs on Security"
+      "slug": "google-wants-to-transition-to-post-quantum-cryptography-by-2029",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-04-06",
-      "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation Apr 05, 2026 Cryptocurrency / Threat Intelligence Drift has revealed that the April 1, 2026, attack that led to the theft of $285 million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of 2025. The Solana-based decentralized exchange described it as \"an attack six months in the making,\" attributing it with medium confidence to a North Korean state-sponsored hacking group dubbed UNC4736 , which is also tracked under the cyptonyms AppleJeus, Citrine Sleet, Golden Chollima, and Gleaming Pisces. The threat actor has a history of targeting the cryptocurrency sector for financial theft since at least 2018. It's best known for the X_TRADER/3CX supply chain breach in 2023 and the $53 million hack of decentralized finance (DeFi) platform Radiant Capital in October 2024. \"The basis for this connection is both on-chain (f...",
-      "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+      "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps Apr 06, 2026 Threat Detection / Endpoint Security Your attack surface no longer lives on one operating system, and neither do the campaigns targeting it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many SOC workflows are still fragmented by platform. For security leaders, this creates a costly operational gap : slower validation, limited early-stage visibility, more escalations, and more time for attackers to steal credentials, establish persistence, or move deeper before the response fully begins. The Multi-OS Attack Problem SOCs Aren’t Ready For A multi-OS attack can turn one threat into several different investigations at once. The campaign may follow a different path depending on the system it reaches, which breaks the speed and consistency SOC teams rely on during early triage. Instead of moving through one clear validation pro...",
+      "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "285-million-drift-hack-traced-to-six-month-dprk-social-engineering-operation-apr-05-2026-c",
+      "slug": "multi-os-cyberattacks-how-socs-close-a-critical-risk-in-3-steps-apr-06-2026-threat-detecti",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-06",
-      "title": "Hackers exploit React2Shell in automated credential theft campaign",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More Apr 06, 2026 Cybersecurity / Hacking This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there. One weak spot now spreads wider than before. What starts small can reach a lot of systems fast. New bugs, faster use, less time to react. That’s this week. Read through it. ⚡ Threat of the Week Axios npm Package Compromised by N. Korean Hackers —Threat actors with ties to North Korea seized control of the npm account belonging to the lead maintainer of Axios, a popular npm package with nearly 100 million weekly downloads, to push malicious versions containing a cross-platform malware dubbed WAVESHAPER.V2. The activity has been attributed to a financially motivated threat actor known as UNC1069. The incident demonstrates how quickly the compromise of a popular npm package can have ripple effects through the ecosystem. T...",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploit-react2shell-in-automated-credential-theft-campaign",
-      "source": "BleepingComputer"
+      "slug": "weekly-recap-axios-hack-chrome-0-day-fortinet-exploits-paragon-spyware-and-more-apr-06-202",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-06",
-      "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+      "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers Apr 06, 2026 DevSecOps / Cloud Security The most active piece of enterprise infrastructure in the company is the developer workstation. That laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI agents. In March 2026, the TeamPCP threat actor proved just how valuable developer machines are. Their supply chain attack on LiteLLM, a popular AI development library downloaded millions of times daily, turned developer endpoints into systematic credential harvesting operations. The malware only needed access to the plaintext secrets already sitting on disk. The LiteLLM Attack: A Case Study in Developer Endpoint Compromise The attack was straightforward in execution but devastating in scope. TeamPCP compromised LiteLLM packages versions 1.82.7 and 1.82.8 on PyPI, injecting infostealer malware that activated when developers installed or updated the package. The malware systematically harv...",
+      "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-forticlient-ems-flaw-exploited-in-attacks-emergency-patch-released",
-      "source": "BleepingComputer"
+      "slug": "how-litellm-turned-developer-machines-into-credential-vaults-for-attackers-apr-06-2026-dev",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-06",
-      "title": "Traffic violation scams switch to QR codes in new phishing texts",
-      "link": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools Apr 06, 2026 Ransomware / Endpoint Security Threat actors associated with Qilin and Warlock ransomware operations have been observed using the bring your own vulnerable driver ( BYOVD ) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend Micro. Qilin attacks analyzed by Talos have been found to deploy a malicious DLL named \"msimg32.dll,\" which initiates a multi-stage infection chain to disable endpoint detection and response (EDR) solutions. The DLL, launched via DLL side-loading, is capable of terminating more than 300 EDR drivers from almost every security vendor in the market. \"The first stage consists of a PE loader responsible for preparing the execution environment for the EDR killer component,\" Talos researchers Takahiro Takeda and Holger Unterbrink said . \"This secondary payload is embedded within the loader in an encrypted form.\" The DLL loader implements an array of techniques to evade de...",
+      "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts",
-      "source": "BleepingComputer"
+      "slug": "qilin-and-warlock-ransomware-use-vulnerable-drivers-to-disable-300-edr-tools-apr-06-2026-r",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-06",
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks Apr 06, 2026 Cybercrime / Financial Crime Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi ) ransomware-as-a-service (RaaS) operation. One of the threat actors, who went by the alias UNKN , functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He has now been identified as Daniil Maksimovich Shchukin , a 31-year-old Russian national. He also went by the online monikers Oneiilk2, Oneillk2, Oneillk22, and GandCrab. The development was reported by independent security journalist Brian Krebs. \"From early 2019 at the latest until at least July 2021, the wanted person, in cooperation with other individuals, acted as the leader of one of the largest global ransomware groups, known as GandCrab/REvil,\" BKA said. \"The perpetrators demanded large ransom payments in exchange for decrypting and not leaki...",
+      "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "bka-identifies-revil-leaders-behind-130-german-ransomware-attacks-apr-06-2026-cybercrime-f",
+      "source": "The Hacker News"
     }
   ]
 }

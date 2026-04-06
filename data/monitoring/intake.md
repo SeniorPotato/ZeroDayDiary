@@ -2372,3 +2372,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Google Wants to Transition to Post-Quantum Cryptography by 2029
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps Apr 06, 2026 Threat Detection / Endpoint Security Your attack surface no longer lives on one operating system, and neither do the campaigns targeting it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many SOC workflows are still fragmented by platform. For security leaders, this creates a costly operational gap : slower validation, limited early-stage visibility, more escalations, and more time for attackers to steal credentials, establish persistence, or move deeper before the response fully begins. The Multi-OS Attack Problem SOCs Aren’t Ready For A multi-OS attack can turn one threat into several different investigations at once. The campaign may follow a different path depending on the system it reaches, which breaks the speed and consistency SOC teams rely on during early triage. Instead of moving through one clear validation pro...
+- **Source URL:** https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** ⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More Apr 06, 2026 Cybersecurity / Hacking This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there. One weak spot now spreads wider than before. What starts small can reach a lot of systems fast. New bugs, faster use, less time to react. That’s this week. Read through it. ⚡ Threat of the Week Axios npm Package Compromised by N. Korean Hackers —Threat actors with ties to North Korea seized control of the npm account belonging to the lead maintainer of Axios, a popular npm package with nearly 100 million weekly downloads, to push malicious versions containing a cross-platform malware dubbed WAVESHAPER.V2. The activity has been attributed to a financially motivated threat actor known as UNC1069. The incident demonstrates how quickly the compromise of a popular npm package can have ripple effects through the ecosystem. T...
+- **Source URL:** https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers Apr 06, 2026 DevSecOps / Cloud Security The most active piece of enterprise infrastructure in the company is the developer workstation. That laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI agents. In March 2026, the TeamPCP threat actor proved just how valuable developer machines are. Their supply chain attack on LiteLLM, a popular AI development library downloaded millions of times daily, turned developer endpoints into systematic credential harvesting operations. The malware only needed access to the plaintext secrets already sitting on disk. The LiteLLM Attack: A Case Study in Developer Endpoint Compromise The attack was straightforward in execution but devastating in scope. TeamPCP compromised LiteLLM packages versions 1.82.7 and 1.82.8 on PyPI, injecting infostealer malware that activated when developers installed or updated the package. The malware systematically harv...
+- **Source URL:** https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools Apr 06, 2026 Ransomware / Endpoint Security Threat actors associated with Qilin and Warlock ransomware operations have been observed using the bring your own vulnerable driver ( BYOVD ) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend Micro. Qilin attacks analyzed by Talos have been found to deploy a malicious DLL named "msimg32.dll," which initiates a multi-stage infection chain to disable endpoint detection and response (EDR) solutions. The DLL, launched via DLL side-loading, is capable of terminating more than 300 EDR drivers from almost every security vendor in the market. "The first stage consists of a PE loader responsible for preparing the execution environment for the EDR killer component," Talos researchers Takahiro Takeda and Holger Unterbrink said . "This secondary payload is embedded within the loader in an encrypted form." The DLL loader implements an array of techniques to evade de...
+- **Source URL:** https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-06
+- **Headline / event:** BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks Apr 06, 2026 Cybercrime / Financial Crime Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi ) ransomware-as-a-service (RaaS) operation. One of the threat actors, who went by the alias UNKN , functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He has now been identified as Daniil Maksimovich Shchukin , a 31-year-old Russian national. He also went by the online monikers Oneiilk2, Oneillk2, Oneillk22, and GandCrab. The development was reported by independent security journalist Brian Krebs. "From early 2019 at the latest until at least July 2021, the wanted person, in cooperation with other individuals, acted as the leader of one of the largest global ransomware groups, known as GandCrab/REvil," BKA said. "The perpetrators demanded large ransom payments in exchange for decrypting and not leaki...
+- **Source URL:** https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
