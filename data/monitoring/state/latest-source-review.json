@@ -1,132 +1,60 @@
 {
-  "generatedAt": "2026-04-07T03:32:17.645Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-07T033217Z.md",
+  "generatedAt": "2026-04-07T14:02:41.511Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-07T140241Z.md",
   "candidates": [
     {
       "discovered": "2026-04-07",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Hong Kong Police Can Force You to Reveal Your Encryption Keys",
+      "link": "https://www.schneier.com/blog/archives/2026/04/hong-kong-police-can-force-you-to-reveal-your-encryption-keys.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Healthcare cybersecurity: Diagnosing risks, prescribing solutions",
-      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/healthcare/healthcare-cybersecurity.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "healthcare-cybersecurity-diagnosing-risks-prescribing-solutions",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Smart city mobility: Transforming the future of urban transportation",
-      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/smart-city-mobility.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "smart-city-mobility-transforming-the-future-of-urban-transportation",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Occupational health and safety: Where protection meets performance and wellbeing",
-      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/OHS/occupational-health-and-safety.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "occupational-health-and-safety-where-protection-meets-performance-and-wellbeing",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "The road ahead: How self-driving cars are changing the way we travel",
-      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/what-is-an-autonomous-vehicle.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "the-road-ahead-how-self-driving-cars-are-changing-the-way-we-travel",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Supply chain reliability: Building business resilience",
-      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/supply-chain-reliability.html",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "supply-chain-reliability-building-business-resilience",
-      "source": "ISO Insights and Updates"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "New Mexico’s Meta Ruling and Encryption",
-      "link": "https://www.schneier.com/blog/archives/2026/04/new-mexicos-meta-ruling-and-encryption.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-mexico-s-meta-ruling-and-encryption",
+      "slug": "hong-kong-police-can-force-you-to-reveal-your-encryption-keys",
       "source": "Schneier on Security"
     },
     {
       "discovered": "2026-04-07",
-      "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations Apr 06, 2026 Cloud Security / Ransomware An Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid ongoing conflict in the Middle East. The activity, assessed to be ongoing, was carried out in three distinct attack waves that took place on March 3, March 13, and March 23, 2026, per Check Point. \"The campaign is primarily focused on Israel and the U.A.E., impacting more than 300 organizations in Israel and over 25 in the U.A.E.,\" the Israeli cybersecurity company said . \"Activity associated with the same actor was also observed against a limited number of targets in Europe, the United States, the United Kingdom, and Saudi Arabia.\" The campaign is assessed to have targeted the cloud environments of government entities, municipalities, technology, transportation, energy sector organizations, and private-sector companies in the region. Password spraying is a form of brute-force attack where a...",
-      "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
+      "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign Apr 07, 2026 Cloud Security / Malware An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy botnet. \"A purpose-built Python scanner continuously sweeps major cloud IP ranges for vulnerable targets, automatically installing malicious nodes via ComfyUI-Manager if no exploitable node is already present,\" Censys security researcher Mark Ellzey said in a report published Monday. The attack activity, at its core, systemically scans for exposed ComfyUI instances and exploits a misconfiguration that allows remote code execution on unauthenticated deployments through custom nodes . Upon successful exploitation, the compromised hosts are added to a cryptomining operation that mines Monero via XMRig and Conflux via lolMiner, as well as to a Hysteria V2 botnet. Both of them are centrally managed through a Flask-based command-and-control (C2) dashboard. Data from the at...",
+      "link": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "iran-linked-password-spraying-campaign-targets-300-israeli-microsoft-365-organizations-apr",
+      "slug": "over-1-000-exposed-comfyui-instances-targeted-in-cryptomining-botnet-campaign-apr-07-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-07",
-      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea Apr 06, 2026 Malware / Threat Intelligence Threat actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting organizations in South Korea. The attack chain, per Fortinet FortiGuard Labs , involves obfuscated Windows shortcut (LNK) files acting as the starting point to drop a decoy PDF document and a PowerShell script that sets the stage for the next phase of the attack. It's assessed that these LNK files are distributed via phishing emails. As soon as the payloads are downloaded, the victim is displayed the PDF document, while the malicious PowerShell script runs silently in the background. The PowerShell script performs checks to resist analysis by scanning for running processes related to virtual machines, debuggers, and forensic tools. If any of those processes are detected, the script immediately terminates. Otherwise, it extracts a Visual Basic Scri...",
-      "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+      "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk Apr 07, 2026 SaaS Security / Enterprise Security In the rapid evolution of the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security leaders: Identity programs are maturing, yet the risk is actually increasing . According to new research from the Ponemon Institute , hundreds of applications within the typical enterprise remain disconnected from centralized identity systems. These \"dark matter\" applications operate outside the reach of standard governance, creating a massive, unmanaged attack surface that is now being aggressively exploited—not just by human threat actors, but by autonomous AI agents . The Invisible Threat: Disconnected Apps & AI Amplification Modern enterprises have invested heavily in IAM and Zero Trust, but the \"last mile\" of identity—legacy apps, localized accounts, and siloed SaaS—remains a stubborn blind spot. The entry of AI into the workforce has turned this gap from a compliance headache into a critical vul...",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "dprk-linked-hackers-use-github-as-c2-in-multi-stage-attacks-targeting-south-korea-apr-06-2",
+      "slug": "webinar-how-to-close-identity-gaps-in-2026-before-ai-exploits-enterprise-risk-apr-07-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-07",
-      "title": "German authorities identify REvil and GangCrab ransomware bosses",
-      "link": "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
+      "title": "The Hidden Cost of Recurring Credential Incidents Apr 07, 2026 Cybersecurity / Identity Security When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. Avoiding even one major incident is enough to justify most security investments, but that headline figure obscures the more persistent problems caused by recurring credential incidents. Account lockouts and compromised credentials don’t make the news. They show up as repeated helpdesk tickets, interrupted workflows, and time pulled away from higher-value work. Individually, each incident seems minor, but collectively they place a constant burden on IT teams and the wider business. The real cost doesn’t just sit in the breach you might prevent, but in the day-to-day disruption you’re already dealing with. Repeated incidents equal repeated costs If an organization finds itself suffering from credential-based attacks or repeated account c...",
+      "link": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "german-authorities-identify-revil-and-gangcrab-ransomware-bosses",
-      "source": "BleepingComputer"
+      "slug": "the-hidden-cost-of-recurring-credential-incidents-apr-07-2026-cybersecurity-identity-secur",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-07",
-      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
+      "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips Apr 07, 2026 Vulnerability / Hardware Security New academic research has identified multiple RowHammer attacks against high-performance graphics processing units (GPUs) that could be exploited to escalate privileges and, in some cases, even take full control of a host. The efforts have been codenamed GPUBreach , GDDRHammer , and GeForge . GPUBreach goes a step further than GPUHammer , demonstrating for the first time that RowHammer bit-flips in GPU memory can induce much more than data corruption and enable privilege escalation, and lead to a full system compromise. \"By corrupting GPU page tables via GDDR6 bit-flips, an unprivileged process can gain arbitrary GPU memory read/write, and then chain that into full CPU privilege escalation — spawning a root shell — by exploiting memory-safety bugs in the NVIDIA driver,\" Gururaj Saileshwar, one of the authors of the study and Assistant Professor at the University of Toronto, said in a post on LinkedIn. What makes GPUBreach notable is that it works eve...",
+      "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer",
-      "source": "BleepingComputer"
+      "slug": "new-gpubreach-attack-enables-full-cpu-privilege-escalation-via-gddr6-bit-flips-apr-07-2026",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-07",
-      "title": "Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
+      "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware Apr 07, 2026 Vulnerability / Threat Intelligence A China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" attacks and break into susceptible internet-facing systems. \"The threat actor's high operational tempo and proficiency in identifying exposed perimeter assets have proven successful, with recent intrusions heavily impacting healthcare organizations, as well as those in the education, professional services, and finance sectors in Australia, the United Kingdom, and the United States,\" the Microsoft Threat Intelligence team said . Attacks mounted by Storm-1175 have also leveraged zero-day exploits, in some cases, before they have been publicly disclosed, as well as recently disclosed vulnerabilities to obtain initial access. Select incidents have involved the threat actor chaining together multiple exploits (e.g., OWASSRF ) for post-compromise activity. Upon...",
+      "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-07",
-      "title": "Drift $280M crypto theft linked to 6-month in-person operation",
-      "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "drift-280m-crypto-theft-linked-to-6-month-in-person-operation",
-      "source": "BleepingComputer"
+      "slug": "china-linked-storm-1175-exploits-zero-days-to-rapidly-deploy-medusa-ransomware-apr-07-2026",
+      "source": "The Hacker News"
     }
   ]
 }

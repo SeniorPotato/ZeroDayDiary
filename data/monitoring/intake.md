@@ -2532,3 +2532,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Hong Kong Police Can Force You to Reveal Your Encryption Keys
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/hong-kong-police-can-force-you-to-reveal-your-encryption-keys.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign Apr 07, 2026 Cloud Security / Malware An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy botnet. "A purpose-built Python scanner continuously sweeps major cloud IP ranges for vulnerable targets, automatically installing malicious nodes via ComfyUI-Manager if no exploitable node is already present," Censys security researcher Mark Ellzey said in a report published Monday. The attack activity, at its core, systemically scans for exposed ComfyUI instances and exploits a misconfiguration that allows remote code execution on unauthenticated deployments through custom nodes . Upon successful exploitation, the compromised hosts are added to a cryptomining operation that mines Monero via XMRig and Conflux via lolMiner, as well as to a Hysteria V2 botnet. Both of them are centrally managed through a Flask-based command-and-control (C2) dashboard. Data from the at...
+- **Source URL:** https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** [Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk Apr 07, 2026 SaaS Security / Enterprise Security In the rapid evolution of the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security leaders: Identity programs are maturing, yet the risk is actually increasing . According to new research from the Ponemon Institute , hundreds of applications within the typical enterprise remain disconnected from centralized identity systems. These "dark matter" applications operate outside the reach of standard governance, creating a massive, unmanaged attack surface that is now being aggressively exploited—not just by human threat actors, but by autonomous AI agents . The Invisible Threat: Disconnected Apps & AI Amplification Modern enterprises have invested heavily in IAM and Zero Trust, but the "last mile" of identity—legacy apps, localized accounts, and siloed SaaS—remains a stubborn blind spot. The entry of AI into the workforce has turned this gap from a compliance headache into a critical vul...
+- **Source URL:** https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** The Hidden Cost of Recurring Credential Incidents Apr 07, 2026 Cybersecurity / Identity Security When talking about credential security, the focus usually lands on breach prevention. This makes sense when IBM’s 2025 Cost of a Data Breach Report puts the average cost of a breach at $4.4 million. Avoiding even one major incident is enough to justify most security investments, but that headline figure obscures the more persistent problems caused by recurring credential incidents. Account lockouts and compromised credentials don’t make the news. They show up as repeated helpdesk tickets, interrupted workflows, and time pulled away from higher-value work. Individually, each incident seems minor, but collectively they place a constant burden on IT teams and the wider business. The real cost doesn’t just sit in the breach you might prevent, but in the day-to-day disruption you’re already dealing with. Repeated incidents equal repeated costs If an organization finds itself suffering from credential-based attacks or repeated account c...
+- **Source URL:** https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips Apr 07, 2026 Vulnerability / Hardware Security New academic research has identified multiple RowHammer attacks against high-performance graphics processing units (GPUs) that could be exploited to escalate privileges and, in some cases, even take full control of a host. The efforts have been codenamed GPUBreach , GDDRHammer , and GeForge . GPUBreach goes a step further than GPUHammer , demonstrating for the first time that RowHammer bit-flips in GPU memory can induce much more than data corruption and enable privilege escalation, and lead to a full system compromise. "By corrupting GPU page tables via GDDR6 bit-flips, an unprivileged process can gain arbitrary GPU memory read/write, and then chain that into full CPU privilege escalation — spawning a root shell — by exploiting memory-safety bugs in the NVIDIA driver," Gururaj Saileshwar, one of the authors of the study and Assistant Professor at the University of Toronto, said in a post on LinkedIn. What makes GPUBreach notable is that it works eve...
+- **Source URL:** https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware Apr 07, 2026 Vulnerability / Threat Intelligence A China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate "high-velocity" attacks and break into susceptible internet-facing systems. "The threat actor's high operational tempo and proficiency in identifying exposed perimeter assets have proven successful, with recent intrusions heavily impacting healthcare organizations, as well as those in the education, professional services, and finance sectors in Australia, the United Kingdom, and the United States," the Microsoft Threat Intelligence team said . Attacks mounted by Storm-1175 have also leveraged zero-day exploits, in some cases, before they have been publicly disclosed, as well as recently disclosed vulnerabilities to obtain initial access. Select incidents have involved the threat actor chaining together multiple exploits (e.g., OWASSRF ) for post-compromise activity. Upon...
+- **Source URL:** https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
