@@ -1,60 +1,132 @@
 {
-  "generatedAt": "2026-04-06T13:48:03.542Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-06T134803Z.md",
+  "generatedAt": "2026-04-07T03:32:17.645Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-07T033217Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-06",
-      "title": "Google Wants to Transition to Post-Quantum Cryptography by 2029",
-      "link": "https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html",
+      "discovered": "2026-04-07",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-wants-to-transition-to-post-quantum-cryptography-by-2029",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Healthcare cybersecurity: Diagnosing risks, prescribing solutions",
+      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/healthcare/healthcare-cybersecurity.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "healthcare-cybersecurity-diagnosing-risks-prescribing-solutions",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Smart city mobility: Transforming the future of urban transportation",
+      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/smart-city-mobility.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "smart-city-mobility-transforming-the-future-of-urban-transportation",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Occupational health and safety: Where protection meets performance and wellbeing",
+      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/OHS/occupational-health-and-safety.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "occupational-health-and-safety-where-protection-meets-performance-and-wellbeing",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "The road ahead: How self-driving cars are changing the way we travel",
+      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/what-is-an-autonomous-vehicle.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "the-road-ahead-how-self-driving-cars-are-changing-the-way-we-travel",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Supply chain reliability: Building business resilience",
+      "link": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/supply-chain-reliability.html",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "supply-chain-reliability-building-business-resilience",
+      "source": "ISO Insights and Updates"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "New Mexico’s Meta Ruling and Encryption",
+      "link": "https://www.schneier.com/blog/archives/2026/04/new-mexicos-meta-ruling-and-encryption.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-mexico-s-meta-ruling-and-encryption",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-04-06",
-      "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps Apr 06, 2026 Threat Detection / Endpoint Security Your attack surface no longer lives on one operating system, and neither do the campaigns targeting it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many SOC workflows are still fragmented by platform. For security leaders, this creates a costly operational gap : slower validation, limited early-stage visibility, more escalations, and more time for attackers to steal credentials, establish persistence, or move deeper before the response fully begins. The Multi-OS Attack Problem SOCs Aren’t Ready For A multi-OS attack can turn one threat into several different investigations at once. The campaign may follow a different path depending on the system it reaches, which breaks the speed and consistency SOC teams rely on during early triage. Instead of moving through one clear validation pro...",
-      "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+      "discovered": "2026-04-07",
+      "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations Apr 06, 2026 Cloud Security / Ransomware An Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid ongoing conflict in the Middle East. The activity, assessed to be ongoing, was carried out in three distinct attack waves that took place on March 3, March 13, and March 23, 2026, per Check Point. \"The campaign is primarily focused on Israel and the U.A.E., impacting more than 300 organizations in Israel and over 25 in the U.A.E.,\" the Israeli cybersecurity company said . \"Activity associated with the same actor was also observed against a limited number of targets in Europe, the United States, the United Kingdom, and Saudi Arabia.\" The campaign is assessed to have targeted the cloud environments of government entities, municipalities, technology, transportation, energy sector organizations, and private-sector companies in the region. Password spraying is a form of brute-force attack where a...",
+      "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "multi-os-cyberattacks-how-socs-close-a-critical-risk-in-3-steps-apr-06-2026-threat-detecti",
+      "slug": "iran-linked-password-spraying-campaign-targets-300-israeli-microsoft-365-organizations-apr",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-06",
-      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More Apr 06, 2026 Cybersecurity / Hacking This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there. One weak spot now spreads wider than before. What starts small can reach a lot of systems fast. New bugs, faster use, less time to react. That’s this week. Read through it. ⚡ Threat of the Week Axios npm Package Compromised by N. Korean Hackers —Threat actors with ties to North Korea seized control of the npm account belonging to the lead maintainer of Axios, a popular npm package with nearly 100 million weekly downloads, to push malicious versions containing a cross-platform malware dubbed WAVESHAPER.V2. The activity has been attributed to a financially motivated threat actor known as UNC1069. The incident demonstrates how quickly the compromise of a popular npm package can have ripple effects through the ecosystem. T...",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+      "discovered": "2026-04-07",
+      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea Apr 06, 2026 Malware / Threat Intelligence Threat actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting organizations in South Korea. The attack chain, per Fortinet FortiGuard Labs , involves obfuscated Windows shortcut (LNK) files acting as the starting point to drop a decoy PDF document and a PowerShell script that sets the stage for the next phase of the attack. It's assessed that these LNK files are distributed via phishing emails. As soon as the payloads are downloaded, the victim is displayed the PDF document, while the malicious PowerShell script runs silently in the background. The PowerShell script performs checks to resist analysis by scanning for running processes related to virtual machines, debuggers, and forensic tools. If any of those processes are detected, the script immediately terminates. Otherwise, it extracts a Visual Basic Scri...",
+      "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-axios-hack-chrome-0-day-fortinet-exploits-paragon-spyware-and-more-apr-06-202",
+      "slug": "dprk-linked-hackers-use-github-as-c2-in-multi-stage-attacks-targeting-south-korea-apr-06-2",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-06",
-      "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers Apr 06, 2026 DevSecOps / Cloud Security The most active piece of enterprise infrastructure in the company is the developer workstation. That laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI agents. In March 2026, the TeamPCP threat actor proved just how valuable developer machines are. Their supply chain attack on LiteLLM, a popular AI development library downloaded millions of times daily, turned developer endpoints into systematic credential harvesting operations. The malware only needed access to the plaintext secrets already sitting on disk. The LiteLLM Attack: A Case Study in Developer Endpoint Compromise The attack was straightforward in execution but devastating in scope. TeamPCP compromised LiteLLM packages versions 1.82.7 and 1.82.8 on PyPI, injecting infostealer malware that activated when developers installed or updated the package. The malware systematically harv...",
-      "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "discovered": "2026-04-07",
+      "title": "German authorities identify REvil and GangCrab ransomware bosses",
+      "link": "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-litellm-turned-developer-machines-into-credential-vaults-for-attackers-apr-06-2026-dev",
-      "source": "The Hacker News"
+      "slug": "german-authorities-identify-revil-and-gangcrab-ransomware-bosses",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-06",
-      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools Apr 06, 2026 Ransomware / Endpoint Security Threat actors associated with Qilin and Warlock ransomware operations have been observed using the bring your own vulnerable driver ( BYOVD ) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend Micro. Qilin attacks analyzed by Talos have been found to deploy a malicious DLL named \"msimg32.dll,\" which initiates a multi-stage infection chain to disable endpoint detection and response (EDR) solutions. The DLL, launched via DLL side-loading, is capable of terminating more than 300 EDR drivers from almost every security vendor in the market. \"The first stage consists of a PE loader responsible for preparing the execution environment for the EDR killer component,\" Talos researchers Takahiro Takeda and Holger Unterbrink said . \"This secondary payload is embedded within the loader in an encrypted form.\" The DLL loader implements an array of techniques to evade de...",
-      "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "discovered": "2026-04-07",
+      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "qilin-and-warlock-ransomware-use-vulnerable-drivers-to-disable-300-edr-tools-apr-06-2026-r",
-      "source": "The Hacker News"
+      "slug": "new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-06",
-      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks Apr 06, 2026 Cybercrime / Financial Crime Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi ) ransomware-as-a-service (RaaS) operation. One of the threat actors, who went by the alias UNKN , functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He has now been identified as Daniil Maksimovich Shchukin , a 31-year-old Russian national. He also went by the online monikers Oneiilk2, Oneillk2, Oneillk22, and GandCrab. The development was reported by independent security journalist Brian Krebs. \"From early 2019 at the latest until at least July 2021, the wanted person, in cooperation with other individuals, acted as the leader of one of the largest global ransomware groups, known as GandCrab/REvil,\" BKA said. \"The perpetrators demanded large ransom payments in exchange for decrypting and not leaki...",
-      "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "discovered": "2026-04-07",
+      "title": "Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "bka-identifies-revil-leaders-behind-130-german-ransomware-attacks-apr-06-2026-cybercrime-f",
-      "source": "The Hacker News"
+      "slug": "disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-07",
+      "title": "Drift $280M crypto theft linked to 6-month in-person operation",
+      "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "drift-280m-crypto-theft-linked-to-6-month-in-person-operation",
+      "source": "BleepingComputer"
     }
   ]
 }

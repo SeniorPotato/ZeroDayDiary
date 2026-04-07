@@ -2420,3 +2420,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Healthcare cybersecurity: Diagnosing risks, prescribing solutions
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/healthcare/healthcare-cybersecurity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Smart city mobility: Transforming the future of urban transportation
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/smart-city-mobility.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Occupational health and safety: Where protection meets performance and wellbeing
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/OHS/occupational-health-and-safety.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** The road ahead: How self-driving cars are changing the way we travel
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/what-is-an-autonomous-vehicle.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Supply chain reliability: Building business resilience
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/Transport/supply-chain-reliability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** New Mexico’s Meta Ruling and Encryption
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/new-mexicos-meta-ruling-and-encryption.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations Apr 06, 2026 Cloud Security / Ransomware An Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid ongoing conflict in the Middle East. The activity, assessed to be ongoing, was carried out in three distinct attack waves that took place on March 3, March 13, and March 23, 2026, per Check Point. "The campaign is primarily focused on Israel and the U.A.E., impacting more than 300 organizations in Israel and over 25 in the U.A.E.," the Israeli cybersecurity company said . "Activity associated with the same actor was also observed against a limited number of targets in Europe, the United States, the United Kingdom, and Saudi Arabia." The campaign is assessed to have targeted the cloud environments of government entities, municipalities, technology, transportation, energy sector organizations, and private-sector companies in the region. Password spraying is a form of brute-force attack where a...
+- **Source URL:** https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea Apr 06, 2026 Malware / Threat Intelligence Threat actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting organizations in South Korea. The attack chain, per Fortinet FortiGuard Labs , involves obfuscated Windows shortcut (LNK) files acting as the starting point to drop a decoy PDF document and a PowerShell script that sets the stage for the next phase of the attack. It's assessed that these LNK files are distributed via phishing emails. As soon as the payloads are downloaded, the victim is displayed the PDF document, while the malicious PowerShell script runs silently in the background. The PowerShell script performs checks to resist analysis by scanning for running processes related to virtual machines, debuggers, and forensic tools. If any of those processes are detected, the script immediately terminates. Otherwise, it extracts a Visual Basic Scri...
+- **Source URL:** https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** German authorities identify REvil and GangCrab ransomware bosses
+- **Source URL:** https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** New GPUBreach attack enables system takeover via GPU rowhammer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit
+- **Source URL:** https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Microsoft links Medusa ransomware affiliate to zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-07
+- **Headline / event:** Drift $280M crypto theft linked to 6-month in-person operation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
