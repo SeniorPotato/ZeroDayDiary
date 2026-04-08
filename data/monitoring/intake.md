@@ -2652,3 +2652,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies Apr 08, 2026 Vulnerability / Cloud Security The Russian threat actor known as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented malware suite codenamed PRISMEX . "PRISMEX combines advanced steganography, component object model (COM) hijacking, and legitimate cloud service abuse for command-and-control," Trend Micro researchers Feike Hacquebord and Hiroyuki Kakara said in a technical report. The campaign is believed to be active since at least September 2025. The activity has targeted various sectors in Ukraine, including central executive bodies, hydrometeorology, defense, and emergency services, as well as rail logistics (Poland), maritime and transportation (Romania, Slovenia, Turkey), and logistical support partners involved in ammunition initiatives (Slovakia, Czech Republic), and military and NATO partners. The campaign is notable for the rapid weaponization of newly disclosed ...
+- **Source URL:** https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP) Apr 08, 2026 Zero Trust / Enterprise Security The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems. The result is Identity Dark Matter: identity activity that sits outside the visibility of centralized IAM and beyond the reach of security teams. According to Orchid Security ’s analysis , 46% of enterprise identity activity occurs outside centralized IAM visibility. In other words, nearly half of the enterprise identity surface may be operating unseen. This hidden layer includes unmanaged applications, local accounts, opaque authentication flows, and over-permissioned non-human identities. It is further amplified by disconnected tools, siloed ownership, and the rapid rise of Agentic AI. The consequence is a widening gap between what the security organizations think th...
+- **Source URL:** https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems Apr 08, 2026 Artificial Intelligence / Secure Coding Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing that will use a preview version of its new frontier model, Claude Mythos , to find and address security vulnerabilities. The model will be used by a small set of organizations, including Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks, along with Anthropic, to secure critical software. The company said it's forming this initiative in response to capabilities observed in its general-purpose frontier model that demonstrate a "level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities." Because of its cybersecurity capabilities and concerns that they could be abused, Anthropic has opted not to make the model generall...
+- **Source URL:** https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust Apr 08, 2026 Malware / Threat Intelligence The North Korea-linked persistent campaign known as Contagious Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. "The threat actor's packages were designed to impersonate legitimate developer tooling [...], while quietly functioning as malware loaders, extending Contagious Interview’s established playbook into a coordinated cross-ecosystem supply chain operation," Socket security researcher Kirill Boychenko said in a Tuesday report. The complete list of identified packages is as follows - npm: dev-log-core, logger-base, logkitx, pino-debugger, debug-fmt, debug-glitz PyPI: logutilkit, apachelicense, fluxhttp, license-utils-kit Go: github[.]com/golangorg/formstash, github[.]com/aokisasakidev/mit-license-pkg Rust: logtrace Packagist: golangorg/logkit These loaders are designed to fetch platform-specific second-stage payloads, which turn out to be a piece of malware with infostealer and remo...
+- **Source URL:** https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs Apr 08, 2026 Malware / Operational Technology Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecurity and intelligence agencies warned Tuesday. "These attacks have led to diminished PLC functionality, manipulation of display data and, in some cases, operational disruption and financial loss," the U.S. Federal Bureau of Investigation (FBI) said in a post on X. The agencies said the campaign is part of a recent escalation in cyber attacks orchestrated by Iranian hacking groups against U.S. organizations in response to the ongoing conflict between Iran, and the U.S. and Israel. Specifically, the activity has led to PLC disruptions across several U.S. critical infrastructure sectors via what the authoring agencies described as malicious interactions with the project file and manipulation of data on human-machine interface (HMI) and supervisory control an...
+- **Source URL:** https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Is a $30,000 GPU Good at Password Cracking?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
