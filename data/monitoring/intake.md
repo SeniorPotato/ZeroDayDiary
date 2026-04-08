@@ -2580,3 +2580,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Russia Hacked Routers to Steal Microsoft Office Tokens
+- **Source URL:** https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Cybersecurity in the Age of Instant Software
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/cybersecurity-in-the-age-of-instant-software.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access Apr 07, 2026 Vulnerability / DevSecOps A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins ( AuthZ ) under specific circumstances. The vulnerability, tracked as CVE-2026-34040 (CVSS score: 8.8), stems from an incomplete fix for CVE-2024-41110 , a maximum-severity vulnerability in the same component that came to light in July 2024. "Using a specially-crafted API request, an attacker could make the Docker daemon forward the request to an authorization plugin without the body," Docker Engine maintainers said in an advisory released late last month. "The authorization plugin may allow a request which it would have otherwise denied if the body had been forwarded to it." "Anyone who depends on authorization plugins that introspect the request body to make access control decisions is potentially impacted." Multiple security vulnerabilities, including Asim Viladi Oglu Manizada, Cody, Oleh Konko, and Vladimir...
+- **Source URL:** https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Hackers exploit critical flaw in Ninja Forms WordPress plugin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** FBI: Americans lost a record $21 billion to cybercrime last year
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Snowflake customers hit in data theft attacks after SaaS integrator breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** US warns of Iranian hackers targeting critical infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-08
+- **Headline / event:** Max severity Flowise RCE vulnerability now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
