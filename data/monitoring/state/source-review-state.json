@@ -26,7 +26,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a"
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
+      "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -324,11 +326,10 @@
       "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
       "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
       "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
-      "https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html",
-      "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
-      "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
-      "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
-      "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html"
+      "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
+      "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
+      "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
+      "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -478,7 +479,16 @@
       "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
       "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
       "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/",
-      "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/"
+      "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
+      "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
+      "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
+      "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
+      "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
+      "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/"
     ]
   }
 }
