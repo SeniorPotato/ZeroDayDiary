@@ -2764,3 +2764,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** EDPB annual report 2025: supporting stakeholders through guidance and dialogue
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories Apr 09, 2026 Hacking News / Cybersecurity News Thursday. Another week, another batch of things that probably should've been caught sooner but weren't. This one's got some range — old vulnerabilities getting new life, a few "why was that even possible" moments, attackers leaning on platforms and tools you'd normally trust without thinking twice. Quiet escalations more than loud zero-days, but the kind that matter more in practice anyway. Mix of malware, infrastructure exposure, AI-adjacent weirdness, and some supply chain stuff that's... not great. Let's get into it. Resilient hybrid botnet surge Phorpiex Botnet Detailed A new variant of the botnet known as Phorpiex (aka Trik) has been observed, using a hybrid communication model that combines traditional C2 HTTP polling with a peer-to-peer (P2P) protocol over both TCP and UDP to ensure operational continuity in the face of server takedowns. The malware acts as a conduit for encrypted payloads, ma...
+- **Source URL:** https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** The Hidden Security Risks of Shadow AI in Enterprises Apr 09, 2026 Data Security / Artificial Intelligence As AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While these tools may boost productivity, automate tasks, or fill gaps in existing workflows, they also operate outside the visibility of security teams, bypassing controls and creating new blind spots in what is known as shadow AI. While similar to the phenomenon of shadow IT, shadow AI goes beyond unapproved software by involving systems that process, generate, and potentially retain sensitive data. The result is a category of risk that most organizations are not yet equipped to govern: uncontrolled data exposure, expanded attack surfaces, and weakened identity security. Why shadow AI is spreading so quickly Shadow AI is expanding rapidly across organizations because it is easy to adopt and instantly useful, yet largely unregulated. Unlike traditional enterprise software, most AI tools require little to no setup, allowing employ...
+- **Source URL:** https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025 Apr 09, 2026 Vulnerability / Threat Intelligence Threat actors have been exploiting a previously unknown zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December 2025. The finding, detailed by EXPMON's Haifei Li, has been described as a highly-sophisticated PDF exploit. The artifact ("Invoice540.pdf") first appeared on the VirusTotal platform on November 28, 2025. A second sample was uploaded to VirusTotal on March 23, 2026. Given the name of the PDF document, it's likely that there is an element of social engineering involved, with the attackers luring unsuspecting users into opening the files on Adobe Reader. Once launched, it automatically triggers the execution of obfuscated JavaScript to harvest sensitive data and receive additional payloads. Security researcher Gi7w0rm, in an X post , said the PDF documents observed contain Russian language lures and refer to issues regarding current events related to the oil and gas industry i...
+- **Source URL:** https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region Apr 09, 2026 Cyber Espionage / Spyware An apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East and North Africa (MENA), according to findings from Access Now , Lookout , and SMEX . Two of the targets included prominent Egyptian journalists and government critics, Mostafa Al-A'sar and Ahmed Eltantawy, who were at the receiving end of a series of spear-phishing attacks that sought to compromise their Apple and Google accounts in October 2023 and January 2024 by directing them to fake pages that tricked them into entering their credentials and two-factor authentication (2FA) codes. "The attacks were carried out from 2023 to 2024, and both targets are prominent critics of the Egyptian government who have previously faced political imprisonment; one of them was previously targeted with spyware ," Access Now's Digital Security Helpline said. Also...
+- **Source URL:** https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** When attackers already have the keys, MFA is just another door to open
+- **Source URL:** https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Webinar: From noise to signal - What threat actors are targeting next
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Eurail says December data breach impacts 300,000 individuals
+- **Source URL:** https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Hackers exploiting Acrobat Reader zero-day flaw since December
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Hackers steal $3.6 million from crypto ATM giant Bitcoin Depot
+- **Source URL:** https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
