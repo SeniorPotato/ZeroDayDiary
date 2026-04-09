@@ -2700,3 +2700,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy Apr 08, 2026 Cryptomining / Network Security Cybersecurity researchers have flagged a new variant ofmalware called Chaos that'scapable of hitting misconfigured cloud deployments, marking an expansion of the botnet's targeting infrastructure. "Chaos malware is increasingly targeting misconfigured cloud deployments, expanding beyond its traditional focus on routers and edge devices," Darktrace said in a new report. Chaos was first documented by Lumen Black Lotus Labs in September 2022, describing it as a cross-platform malware capable of targeting Windows and Linux environments to run remote shell commands, drop additional modules, propagate to other hosts by brute-forcing SSH keys, mine cryptocurrency, and launch distributed denial-of-service (DDoS) attacks via HTTP, TLS, TCP, UDP, and WebSocket. The malware is assessed to be an evolution of another DDoS malware known as Kaiji that has singled out misconfigured Docker instances.It's currently not known wh...
+- **Source URL:** https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices Apr 08, 2026 IoT Security / Network Security Cybersecurity researchers have lifted the curtain on a stealthy botnet that's designed for distributed denial-of-service (DDoS) attacks. Called Masjesu , the botnet has been advertised via Telegram as a DDoS-for-hire service since it first surfaced in 2023. It's capable of targeting a wide range of IoT devices, such as routers and gateways, spanning multiple architectures. "Built for persistence and low visibility, Masjesu favors careful, low-key execution over widespread infection, deliberately avoiding blocklisted IP ranges such as those belonging to the Department of Defense (DoD) to ensure long-term survival," Trellix security researcher Mohideen Abdul Khader F said in a Tuesday report. It's worth noting that the commercial offering also goes by the moniker XorBot owing to its use of XOR-based encryption to conceal strings, configurations, and payload data. It was first documented by Chinese security vendor NSFOCUS in December 2023, linking it to an ope...
+- **Source URL:** https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** 13-year-old bug in ActiveMQ lets hackers remotely execute commands
+- **Source URL:** https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** New macOS stealer campaign uses Script Editor in ClickFix attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Hackers use pixel-large SVG trick to hide credit card stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** Google: New UNC6783 hackers steal corporate Zendesk support tickets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-09
+- **Headline / event:** CISA orders feds to patch exploited Ivanti EPMM flaw by Sunday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

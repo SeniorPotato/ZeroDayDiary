@@ -1,59 +1,77 @@
 {
-  "generatedAt": "2026-04-08T14:03:37.531Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-08T140337Z.md",
+  "generatedAt": "2026-04-09T03:29:50.482Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-09T032950Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-08",
-      "title": "APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies Apr 08, 2026 Vulnerability / Cloud Security The Russian threat actor known as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented malware suite codenamed PRISMEX . \"PRISMEX combines advanced steganography, component object model (COM) hijacking, and legitimate cloud service abuse for command-and-control,\" Trend Micro researchers Feike Hacquebord and Hiroyuki Kakara said in a technical report. The campaign is believed to be active since at least September 2025. The activity has targeted various sectors in Ukraine, including central executive bodies, hydrometeorology, defense, and emergency services, as well as rail logistics (Poland), maritime and transportation (Romania, Slovenia, Turkey), and logistical support partners involved in ammunition initiatives (Slovakia, Czech Republic), and military and NATO partners. The campaign is notable for the rapid weaponization of newly disclosed ...",
-      "link": "https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html",
+      "discovered": "2026-04-09",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "apt28-deploys-prismex-malware-in-campaign-targeting-ukraine-and-nato-allies-apr-08-2026-vu",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-04-09",
+      "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy Apr 08, 2026 Cryptomining / Network Security Cybersecurity researchers have flagged a new variant ofmalware called Chaos that'scapable of hitting misconfigured cloud deployments, marking an expansion of the botnet's targeting infrastructure. \"Chaos malware is increasingly targeting misconfigured cloud deployments, expanding beyond its traditional focus on routers and edge devices,\" Darktrace said in a new report. Chaos was first documented by Lumen Black Lotus Labs in September 2022, describing it as a cross-platform malware capable of targeting Windows and Linux environments to run remote shell commands, drop additional modules, propagate to other hosts by brute-forcing SSH keys, mine cryptocurrency, and launch distributed denial-of-service (DDoS) attacks via HTTP, TLS, TCP, UDP, and WebSocket. The malware is assessed to be an evolution of another DDoS malware known as Kaiji that has singled out misconfigured Docker instances.It's currently not known wh...",
+      "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-chaos-variant-targets-misconfigured-cloud-deployments-adds-socks-proxy-apr-08-2026-cry",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-08",
-      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP) Apr 08, 2026 Zero Trust / Enterprise Security The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems. The result is Identity Dark Matter: identity activity that sits outside the visibility of centralized IAM and beyond the reach of security teams. According to Orchid Security ’s analysis , 46% of enterprise identity activity occurs outside centralized IAM visibility. In other words, nearly half of the enterprise identity surface may be operating unseen. This hidden layer includes unmanaged applications, local accounts, opaque authentication flows, and over-permissioned non-human identities. It is further amplified by disconnected tools, siloed ownership, and the rapid rise of Agentic AI. The consequence is a widening gap between what the security organizations think th...",
-      "link": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
+      "discovered": "2026-04-09",
+      "title": "Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices Apr 08, 2026 IoT Security / Network Security Cybersecurity researchers have lifted the curtain on a stealthy botnet that's designed for distributed denial-of-service (DDoS) attacks. Called Masjesu , the botnet has been advertised via Telegram as a DDoS-for-hire service since it first surfaced in 2023. It's capable of targeting a wide range of IoT devices, such as routers and gateways, spanning multiple architectures. \"Built for persistence and low visibility, Masjesu favors careful, low-key execution over widespread infection, deliberately avoiding blocklisted IP ranges such as those belonging to the Department of Defense (DoD) to ensure long-term survival,\" Trellix security researcher Mohideen Abdul Khader F said in a Tuesday report. It's worth noting that the commercial offering also goes by the moniker XorBot owing to its use of XOR-based encryption to conceal strings, configurations, and payload data. It was first documented by Chinese security vendor NSFOCUS in December 2023, linking it to an ope...",
+      "link": "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "shrinking-the-iam-attack-surface-through-identity-visibility-and-intelligence-platforms-iv",
+      "slug": "masjesu-botnet-emerges-as-ddos-for-hire-service-targeting-global-iot-devices-apr-08-2026-i",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-08",
-      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems Apr 08, 2026 Artificial Intelligence / Secure Coding Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing that will use a preview version of its new frontier model, Claude Mythos , to find and address security vulnerabilities. The model will be used by a small set of organizations, including Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks, along with Anthropic, to secure critical software. The company said it's forming this initiative in response to capabilities observed in its general-purpose frontier model that demonstrate a \"level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities.\" Because of its cybersecurity capabilities and concerns that they could be abused, Anthropic has opted not to make the model generall...",
-      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+      "discovered": "2026-04-09",
+      "title": "13-year-old bug in ActiveMQ lets hackers remotely execute commands",
+      "link": "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "anthropic-s-claude-mythos-finds-thousands-of-zero-day-flaws-across-major-systems-apr-08-20",
-      "source": "The Hacker News"
+      "slug": "13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-08",
-      "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust Apr 08, 2026 Malware / Threat Intelligence The North Korea-linked persistent campaign known as Contagious Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. \"The threat actor's packages were designed to impersonate legitimate developer tooling [...], while quietly functioning as malware loaders, extending Contagious Interview’s established playbook into a coordinated cross-ecosystem supply chain operation,\" Socket security researcher Kirill Boychenko said in a Tuesday report. The complete list of identified packages is as follows - npm: dev-log-core, logger-base, logkitx, pino-debugger, debug-fmt, debug-glitz PyPI: logutilkit, apachelicense, fluxhttp, license-utils-kit Go: github[.]com/golangorg/formstash, github[.]com/aokisasakidev/mit-license-pkg Rust: logtrace Packagist: golangorg/logkit These loaders are designed to fetch platform-specific second-stage payloads, which turn out to be a piece of malware with infostealer and remo...",
-      "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
+      "discovered": "2026-04-09",
+      "title": "New macOS stealer campaign uses Script Editor in ClickFix attack",
+      "link": "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "n-korean-hackers-spread-1-700-malicious-packages-across-npm-pypi-go-rust-apr-08-2026-malwa",
-      "source": "The Hacker News"
+      "slug": "new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-08",
-      "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs Apr 08, 2026 Malware / Operational Technology Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecurity and intelligence agencies warned Tuesday. \"These attacks have led to diminished PLC functionality, manipulation of display data and, in some cases, operational disruption and financial loss,\" the U.S. Federal Bureau of Investigation (FBI) said in a post on X. The agencies said the campaign is part of a recent escalation in cyber attacks orchestrated by Iranian hacking groups against U.S. organizations in response to the ongoing conflict between Iran, and the U.S. and Israel. Specifically, the activity has led to PLC disruptions across several U.S. critical infrastructure sectors via what the authoring agencies described as malicious interactions with the project file and manipulation of data on human-machine interface (HMI) and supervisory control an...",
-      "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
+      "discovered": "2026-04-09",
+      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "iran-linked-hackers-disrupt-u-s-critical-infrastructure-by-targeting-internet-exposed-plcs",
-      "source": "The Hacker News"
+      "slug": "hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-08",
-      "title": "Is a $30,000 GPU Good at Password Cracking?",
-      "link": "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/",
+      "discovered": "2026-04-09",
+      "title": "Google: New UNC6783 hackers steal corporate Zendesk support tickets",
+      "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "is-a-30-000-gpu-good-at-password-cracking",
+      "slug": "google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-09",
+      "title": "CISA orders feds to patch exploited Ivanti EPMM flaw by Sunday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday",
       "source": "BleepingComputer"
     }
   ]
