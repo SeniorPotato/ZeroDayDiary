@@ -1,95 +1,77 @@
 {
-  "generatedAt": "2026-04-09T14:15:54.562Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-09T141554Z.md",
+  "generatedAt": "2026-04-10T03:42:36.644Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-10T034236Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-09",
-      "title": "EDPB annual report 2025: supporting stakeholders through guidance and dialogue",
-      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en",
+      "discovered": "2026-04-10",
+      "title": "StubHub Refunding $10 Million in Fees to Consumers After Deceptive Ticket Pricing",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
       "tier": "Tier 1",
-      "category": "governance",
-      "slug": "edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue",
-      "source": "EDPB News"
+      "category": "privacy",
+      "slug": "stubhub-refunding-10-million-in-fees-to-consumers-after-deceptive-ticket-pricing",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories Apr 09, 2026 Hacking News / Cybersecurity News Thursday. Another week, another batch of things that probably should've been caught sooner but weren't. This one's got some range — old vulnerabilities getting new life, a few \"why was that even possible\" moments, attackers leaning on platforms and tools you'd normally trust without thinking twice. Quiet escalations more than loud zero-days, but the kind that matter more in practice anyway. Mix of malware, infrastructure exposure, AI-adjacent weirdness, and some supply chain stuff that's... not great. Let's get into it. Resilient hybrid botnet surge Phorpiex Botnet Detailed A new variant of the botnet known as Phorpiex (aka Trik) has been observed, using a hybrid communication model that combines traditional C2 HTTP polling with a peer-to-peer (P2P) protocol over both TCP and UDP to ensure operational continuity in the face of server takedowns. The malware acts as a conduit for encrypted payloads, ma...",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
+      "discovered": "2026-04-10",
+      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets Apr 09, 2026 Vulnerability / Mobile Security Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of cryptocurrency wallet users at risk. \"This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private data,\" the Microsoft Defender Security Research Team said in a report published today. EngageLab SDK offers a push notification service , which, according to its website, is designed to deliver \"timely notifications\" based on user behavior already tracked by developers. Once integrated into an app, the SDK offers a way to send personalized notifications and drive real-time engagement. The tech giant said a significant number of apps using the SDK are part of the cryptocurrency and digital wallet ecosystem, and that the affected wallet apps accounted for more than 30 million ins...",
+      "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-bulletin-hybrid-p2p-botnet-13-year-old-apache-rce-and-18-more-stories-apr-09-20",
+      "slug": "engagelab-sdk-flaw-exposed-50m-android-users-including-30m-crypto-wallets-apr-09-2026-vuln",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "The Hidden Security Risks of Shadow AI in Enterprises Apr 09, 2026 Data Security / Artificial Intelligence As AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While these tools may boost productivity, automate tasks, or fill gaps in existing workflows, they also operate outside the visibility of security teams, bypassing controls and creating new blind spots in what is known as shadow AI. While similar to the phenomenon of shadow IT, shadow AI goes beyond unapproved software by involving systems that process, generate, and potentially retain sensitive data. The result is a category of risk that most organizations are not yet equipped to govern: uncontrolled data exposure, expanded attack surfaces, and weakened identity security. Why shadow AI is spreading so quickly Shadow AI is expanding rapidly across organizations because it is easy to adopt and instantly useful, yet largely unregulated. Unlike traditional enterprise software, most AI tools require little to no setup, allowing employ...",
-      "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+      "discovered": "2026-04-10",
+      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns Apr 09, 2026 Malware / Windows Security A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook. \"LucidRook is a sophisticated stager that embeds a Lua interpreter and Rust-compiled libraries within a dynamic-link library (DLL) to download and execute staged Lua bytecode payloads,\" Cisco Talos researcher Ashley Shen said . The cybersecurity company said it discovered the activity in October 2025, with the attack using RAR or 7-Zip archives lures to deliver a dropper called LucidPawn, which then opens a decoy file and launches LucidRook. A notable characteristic of the intrusion set is the use of DLL side-loading to execute both LucidPawn and LucidRook. There are two distinct infection chains that lead to LucidRook, one using a Windows Shortcut (LNK) file with a PDF icon and another involving an executable that masquer...",
+      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-hidden-security-risks-of-shadow-ai-in-enterprises-apr-09-2026-data-security-artificial",
+      "slug": "uat-10362-targets-taiwanese-ngos-with-lucidrook-malware-in-spear-phishing-campaigns-apr-09",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025 Apr 09, 2026 Vulnerability / Threat Intelligence Threat actors have been exploiting a previously unknown zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December 2025. The finding, detailed by EXPMON's Haifei Li, has been described as a highly-sophisticated PDF exploit. The artifact (\"Invoice540.pdf\") first appeared on the VirusTotal platform on November 28, 2025. A second sample was uploaded to VirusTotal on March 23, 2026. Given the name of the PDF document, it's likely that there is an element of social engineering involved, with the attackers luring unsuspecting users into opening the files on Adobe Reader. Once launched, it automatically triggers the execution of obfuscated JavaScript to harvest sensitive data and receive additional payloads. Security researcher Gi7w0rm, in an X post , said the PDF documents observed contain Russian language lures and refer to issues regarding current events related to the oil and gas industry i...",
-      "link": "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
+      "discovered": "2026-04-10",
+      "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
+      "link": "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "adobe-reader-zero-day-exploited-via-malicious-pdfs-since-december-2025-apr-09-2026-vulnera",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-09",
-      "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region Apr 09, 2026 Cyber Espionage / Spyware An apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East and North Africa (MENA), according to findings from Access Now , Lookout , and SMEX . Two of the targets included prominent Egyptian journalists and government critics, Mostafa Al-A'sar and Ahmed Eltantawy, who were at the receiving end of a series of spear-phishing attacks that sought to compromise their Apple and Google accounts in October 2023 and January 2024 by directing them to fake pages that tricked them into entering their credentials and two-factor authentication (2FA) codes. \"The attacks were carried out from 2023 to 2024, and both targets are prominent critics of the Egyptian government who have previously faced political imprisonment; one of them was previously targeted with spyware ,\" Access Now's Digital Security Helpline said. Also...",
-      "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "bitter-linked-hack-for-hire-campaign-targets-journalists-across-mena-region-apr-09-2026-cy",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-09",
-      "title": "When attackers already have the keys, MFA is just another door to open",
-      "link": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open",
+      "slug": "new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "Webinar: From noise to signal - What threat actors are targeting next",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
+      "discovered": "2026-04-10",
+      "title": "New VENOM phishing attacks steal senior executives' Microsoft logins",
+      "link": "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-from-noise-to-signal-what-threat-actors-are-targeting-next",
+      "slug": "new-venom-phishing-attacks-steal-senior-executives-microsoft-logins",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "Eurail says December data breach impacts 300,000 individuals",
-      "link": "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
+      "discovered": "2026-04-10",
+      "title": "Healthcare IT solutions provider ChipSoft hit by ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "eurail-says-december-data-breach-impacts-300-000-individuals",
+      "slug": "healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "Hackers exploiting Acrobat Reader zero-day flaw since December",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/",
+      "discovered": "2026-04-10",
+      "title": "Google Chrome adds infostealer protection against session cookie theft",
+      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploiting-acrobat-reader-zero-day-flaw-since-december",
+      "slug": "google-chrome-adds-infostealer-protection-against-session-cookie-theft",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-09",
-      "title": "Hackers steal $3.6 million from crypto ATM giant Bitcoin Depot",
-      "link": "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/",
+      "discovered": "2026-04-10",
+      "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
+      "link": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-steal-3-6-million-from-crypto-atm-giant-bitcoin-depot",
+      "slug": "smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions",
       "source": "BleepingComputer"
     }
   ]

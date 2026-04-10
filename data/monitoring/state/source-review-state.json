@@ -43,7 +43,6 @@
       "https://www.edpb.europa.eu/news/news/2026/edpb-and-edps-support-strengthening-eus-cybersecurity-and-easing-compliance-while_en",
       "https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
-      "https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en"
     ],
     "cisa-kev": [
@@ -107,7 +106,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-maryland-attorney-general-secure-full-refunds-additional-penalties-against-lindsay-auto-group",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-publishes-new-strategic-plan",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-annual-budget-request-congress"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-annual-budget-request-congress",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -333,10 +334,10 @@
       "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
       "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
       "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-      "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-      "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-      "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
-      "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html"
+      "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+      "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
+      "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+      "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -496,11 +497,16 @@
       "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/",
       "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/",
-      "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
-      "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
-      "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/",
-      "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/"
+      "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
+      "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
+      "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
+      "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+      "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
+      "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
+      "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
+      "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
+      "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+      "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/"
     ]
   }
 }

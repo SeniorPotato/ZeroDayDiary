@@ -2844,3 +2844,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** StubHub Refunding $10 Million in Fees to Consumers After Deceptive Ticket Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets Apr 09, 2026 Vulnerability / Mobile Security Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of cryptocurrency wallet users at risk. "This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private data," the Microsoft Defender Security Research Team said in a report published today. EngageLab SDK offers a push notification service , which, according to its website, is designed to deliver "timely notifications" based on user behavior already tracked by developers. Once integrated into an app, the SDK offers a way to send personalized notifications and drive real-time engagement. The tech giant said a significant number of apps using the SDK are part of the cryptocurrency and digital wallet ecosystem, and that the affected wallet apps accounted for more than 30 million ins...
+- **Source URL:** https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns Apr 09, 2026 Malware / Windows Security A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook. "LucidRook is a sophisticated stager that embeds a Lua interpreter and Rust-compiled libraries within a dynamic-link library (DLL) to download and execute staged Lua bytecode payloads," Cisco Talos researcher Ashley Shen said . The cybersecurity company said it discovered the activity in October 2025, with the attack using RAR or 7-Zip archives lures to deliver a dropper called LucidPawn, which then opens a decoy file and launches LucidRook. A notable characteristic of the intrusion set is the use of DLL side-loading to execute both LucidPawn and LucidRook. There are two distinct infection chains that lead to LucidRook, one using a Windows Shortcut (LNK) file with a PDF icon and another involving an executable that masquer...
+- **Source URL:** https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** New ‘LucidRook’ malware used in targeted attacks on NGOs, universities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** New VENOM phishing attacks steal senior executives' Microsoft logins
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** Healthcare IT solutions provider ChipSoft hit by ransomware attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** Google Chrome adds infostealer protection against session cookie theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-10
+- **Headline / event:** Smart Slider updates hijacked to push malicious WordPress, Joomla versions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
