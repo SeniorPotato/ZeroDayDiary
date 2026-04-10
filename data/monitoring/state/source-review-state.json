@@ -107,7 +107,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-staff-warn-tennessee-legislature-risks-patients-if-ballad-health-copa-expires-support-proposed",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-publishes-new-strategic-plan",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-annual-budget-request-congress",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing"
     ],
     "iso-insights": [
@@ -197,7 +196,9 @@
       "https://www.schneier.com/blog/archives/2026/04/google-wants-to-transition-to-post-quantum-cryptography-by-2029.html",
       "https://www.schneier.com/blog/archives/2026/04/new-mexicos-meta-ruling-and-encryption.html",
       "https://www.schneier.com/blog/archives/2026/04/hong-kong-police-can-force-you-to-reveal-your-encryption-keys.html",
-      "https://www.schneier.com/blog/archives/2026/04/cybersecurity-in-the-age-of-instant-software.html"
+      "https://www.schneier.com/blog/archives/2026/04/cybersecurity-in-the-age-of-instant-software.html",
+      "https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html",
+      "https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -336,8 +337,16 @@
       "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
       "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
       "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
-      "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html"
+      "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+      "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
+      "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+      "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
+      "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+      "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+      "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
+      "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+      "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
+      "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -502,11 +511,8 @@
       "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
       "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
       "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
-      "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
-      "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
-      "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
-      "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
-      "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/"
+      "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
+      "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/"
     ]
   }
 }
