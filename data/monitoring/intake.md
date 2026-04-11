@@ -2964,3 +2964,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-11
+- **Headline / event:** FTC Submits Draft ANPRM Related to Online Food Delivery Service Fees to OMB for Review
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-draft-anprm-related-online-food-delivery-service-fees-omb-review
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-11
+- **Headline / event:** Friday Squid Blogging: Squid Overfishing in the South Pacific
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-11
+- **Headline / event:** Nearly 4,000 US industrial devices exposed to Iranian cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-11
+- **Headline / event:** Analysis of one billion CISA KEV remediation records exposes limits of human-scale security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
