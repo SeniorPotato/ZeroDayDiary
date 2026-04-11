@@ -2996,3 +2996,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-11
+- **Headline / event:** Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data Apr 11, 2026 Surveillance / Digital Advertising Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc . The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023 , according to a report published by the Citizen Lab. Penlink, founded in 1986, is a provider of "mission-critical communications and digital evidence collection and analysis software" to law enforcement agencies in the U.S. and across the world. U.S. customers of the Webloc include Immigration and Customs Enforcement (ICE), the U.S. military, Texas Department of Public Safety, DHS West Virginia, NYC district attorneys, and various police departments in Los Angeles, Dallas, Baltimore, Tucson, Durham, and in smaller cities and counties like the City of Elk Grov...
+- **Source URL:** https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

@@ -1,42 +1,15 @@
 {
-  "generatedAt": "2026-04-11T03:21:21.528Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-11T032121Z.md",
+  "generatedAt": "2026-04-11T13:31:58.100Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-11T133158Z.md",
   "candidates": [
     {
       "discovered": "2026-04-11",
-      "title": "FTC Submits Draft ANPRM Related to Online Food Delivery Service Fees to OMB for Review",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-draft-anprm-related-online-food-delivery-service-fees-omb-review",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-submits-draft-anprm-related-to-online-food-delivery-service-fees-to-omb-for-review",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-11",
-      "title": "Friday Squid Blogging: Squid Overfishing in the South Pacific",
-      "link": "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html",
+      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data Apr 11, 2026 Surveillance / Digital Advertising Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc . The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023 , according to a report published by the Citizen Lab. Penlink, founded in 1986, is a provider of \"mission-critical communications and digital evidence collection and analysis software\" to law enforcement agencies in the U.S. and across the world. U.S. customers of the Webloc include Immigration and Customs Enforcement (ICE), the U.S. military, Texas Department of Public Safety, DHS West Virginia, NYC district attorneys, and various police departments in Los Angeles, Dallas, Baltimore, Tucson, Durham, and in smaller cities and counties like the City of Elk Grov...",
+      "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-squid-overfishing-in-the-south-pacific",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-04-11",
-      "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-11",
-      "title": "Analysis of one billion CISA KEV remediation records exposes limits of human-scale security",
-      "link": "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-securit",
-      "source": "BleepingComputer"
+      "slug": "citizen-lab-law-enforcement-used-webloc-to-track-500-million-devices-via-ad-data-apr-11-20",
+      "source": "The Hacker News"
     }
   ]
 }
