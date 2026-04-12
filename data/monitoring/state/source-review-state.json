@@ -343,7 +343,11 @@
       "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
       "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
       "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
-      "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html"
+      "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
+      "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+      "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -511,7 +515,6 @@
       "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
       "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
       "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
-      "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
       "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/"
     ]
   }
