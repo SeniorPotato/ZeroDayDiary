@@ -1,24 +1,15 @@
 {
-  "generatedAt": "2026-04-12T13:35:45.871Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-12T133545Z.md",
+  "generatedAt": "2026-04-13T03:54:02.230Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-13T035402Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-12",
-      "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads Apr 12, 2026 Malware / Threat Intelligence Unknown threat actors compromised CPUID (\"cpuid[.]com\"), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX RAT. The incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00 UTC, with the download URLs for CPU-Z and HWMonitor installers replaced with links to malicious websites. In a post shared on X, CPUID confirmed the breach, attributing it to a compromise of a \"secondary feature (basically a side API)\" that caused the main site to randomly display malicious links. It's worth noting that the attack did not impact its signed original files. According to Kaspersky , the names of the rogue websites are as follows - cahayailmukreatif.web[.]id pub-45c2577dbd174292a02137c18e7b1b5a.r2[.]dev transitopalermo[.]com vatrobran[.]hr \"The t...",
-      "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "discovered": "2026-04-13",
+      "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cpuid-breach-distributes-stx-rat-via-trojanized-cpu-z-and-hwmonitor-downloads-apr-12-2026-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-12",
-      "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621 Apr 12, 2026 Vulnerability / Endpoint Security Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild. The vulnerability, assigned the CVE identifier CVE-2026-34621 , carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations. It has been described as a case of prototype pollution that could result in arbitrary code execution. Prototype pollution refers to a JavaScript security vulnerability that permits an attacker to manipulate an application'sobjects and properties. The issue impacts the following products and versions for both Windows and macOS - Acrobat DC versions 26.001.21367 and earlier (Fixed in 26.001.21411) Acrobat Reader DC versions 26.001.21367 and earlier (Fixed in 26.001.21411) Acrobat 2024 versions 24.001.30356 and earlier (Fixed in 24.001.30362 for Windows...",
-      "link": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "adobe-patches-actively-exploited-acrobat-reader-flaw-cve-2026-34621-apr-12-2026-vulnerabil",
-      "source": "The Hacker News"
+      "slug": "critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation",
+      "source": "BleepingComputer"
     }
   ]
 }
