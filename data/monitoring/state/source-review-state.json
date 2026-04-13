@@ -108,7 +108,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-publishes-new-strategic-plan",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-annual-budget-request-congress",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-draft-anprm-related-online-food-delivery-service-fees-omb-review"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-draft-anprm-related-online-food-delivery-service-fees-omb-review",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -199,7 +201,9 @@
       "https://www.schneier.com/blog/archives/2026/04/hong-kong-police-can-force-you-to-reveal-your-encryption-keys.html",
       "https://www.schneier.com/blog/archives/2026/04/cybersecurity-in-the-age-of-instant-software.html",
       "https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html",
-      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html"
+      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html",
+      "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html",
+      "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -345,7 +349,15 @@
       "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
       "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
       "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
-      "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html"
+      "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+      "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+      "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+      "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+      "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+      "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -515,7 +527,8 @@
       "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
       "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
       "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
-      "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/"
+      "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
+      "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/"
     ]
   }
 }
