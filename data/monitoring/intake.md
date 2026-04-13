@@ -3036,3 +3036,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** FTC Takes Action Against TruHeight for Deceptive and Unsubstantiated Advertising of Supposed Height-Enhancing Supplements for Kids and Teens
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** AI Chatbots and Trust
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** ⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More Apr 13, 2026 Cybersecurity / Hacking Monday is back, and the weekend’s backlog of chaos is officially hitting the fan. We are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some aggressive state-sponsored meddling in infrastructure that is finally coming to light. It is one of those mornings where the gap between a quiet shift and a full-blown incident response is basically non-existent. The variety this week is particularly nasty. We have AI models being turned into autonomous exploit engines, North Korean groups playing the long game with social engineering, and fileless malware hitting enterprise workflows. There is also a major botnet takedown and new research proving that even fiber optic cables can be used to eavesdrop on your private conversations. Skim this before your next meeting. Let’s get into it. ⚡ Threat of the Week Adobe Acrobat Reader 0-Day Under Attack — Adobe released emergency updates to fix a critical...
+- **Source URL:** https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** Your MTTD Looks Great. Your Post-Alert Gap Doesn't Apr 13, 2026 Threat Detection / Artificial Intelligence Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo Alto Networks' Wendi Whitmorewarned that similar capabilities are weeks or months from proliferation. CrowdStrike's 2026 Global Threat Report puts average eCrime breakout time at 29 minutes. Mandiant's M-Trends 2026 shows adversary hand-off times have collapsed to 22 seconds. Offense is getting faster. The question is where exactly defenders are slow — because it's not where most SOC dashboards suggest. Detection tooling has gotten materially better. EDR, cloud security, email security, identity, and SIEM platforms ship with built-in detection logic that pushes MTTD close to zero for known techniques. That's real progress, and it's the result of years of investment in detection engineering across the industry. But when adversaries are operating on timelines measured in se...
+- **Source URL:** https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware Apr 13, 2026 Social Engineering / Threat Intelligence The North Korean hacking group tracked as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan called RokRAT . "The threat actor used two Facebook accounts with their location set to Pyongyang and Pyongsong, North Korea, to identify and screen targets," the Genians Security Center (GSC) said in a technical breakdown of the campaign. "After building trust through friend requests, the actor moved the conversation to Messenger and used specific topics to lure targets as part of the initial social engineering stage of the attack." Central to the attack is the use of what the GSC describes as pretexting, a tactic where the threat actors aim to trick unsuspecting users into installing a dedicated PDF viewer, claiming the software...
+- **Source URL:** https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident Apr 13, 2026 DevSecOps / Software Security OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised. "Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps," OpenAI said in a post last week. "We found no evidence that OpenAI user data was accessed, that our systems or intellectual property were compromised, or that our software was altered." The disclosure comes a little over a week after Google Threat Intelligence Group (GTIG) attributed the supply chain compromise of the popular npm package to a North Korean hacking group it tracks as UNC1069 . The attack enabled the threat actors to hijack the package maintainer's npm account to push two poisoned versions 1.14.1 and 0.30.4 that came embedded with a malicious dependency named "plain-crypto-js," which depl...
+- **Source URL:** https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-13
+- **Headline / event:** The silent “Storm”: New infostealer hijacks sessions, decrypts server-side
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
