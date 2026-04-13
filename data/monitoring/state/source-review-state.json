@@ -345,8 +345,6 @@
       "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
       "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
       "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
-      "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
-      "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
       "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html"
     ],
     "reddit-security": [
@@ -515,7 +513,9 @@
       "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
       "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
       "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
-      "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/"
+      "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/"
     ]
   }
 }
