@@ -1,113 +1,77 @@
 {
-  "generatedAt": "2026-04-14T03:43:56.834Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-14T034356Z.md",
+  "generatedAt": "2026-04-14T14:15:03.640Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-14T141503Z.md",
   "candidates": [
     {
       "discovered": "2026-04-14",
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "title": "Enhancing compliance and consistency: EDPB adopts DPIA template",
+      "link": "https://www.edpb.europa.eu/news/news/2026/enhancing-compliance-and-consistency-edpb-adopts-dpia-template_en",
+      "tier": "Tier 1",
+      "category": "governance",
+      "slug": "enhancing-compliance-and-consistency-edpb-adopts-dpia-template",
+      "source": "EDPB News"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "How Hackers Are Thinking About AI",
+      "link": "https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-seven-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-14",
-      "title": "FTC Takes Action Against High-Level MLM Participant who Deceived Workers About the Amount of Money They Can Earn",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-amount-money-they-can",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-the-amount-",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-14",
-      "title": "FTC Issues Order Approving 2026 Horseracing Integrity and Safety Authority Budget",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-issues-order-approving-2026-horseracing-integrity-safety-authority-budget",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-issues-order-approving-2026-horseracing-integrity-and-safety-authority-budget",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-14",
-      "title": "Publishing.com to Pay $1.5 Million for Misleading Consumers about How Much Income They Could Earn Using the Company’s Products and Services",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "publishing-com-to-pay-1-5-million-for-misleading-consumers-about-how-much-income-they-coul",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-14",
-      "title": "On Anthropic’s Mythos Preview and Project Glasswing",
-      "link": "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "on-anthropic-s-mythos-preview-and-project-glasswing",
+      "slug": "how-hackers-are-thinking-about-ai",
       "source": "Schneier on Security"
     },
     {
       "discovered": "2026-04-14",
-      "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025 Apr 13, 2026 Threat Intelligence / Malware Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT . A modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata. \"One of the key differences between these trojans is that JanelaRAT uses a custom title bar detection mechanism to identify desired websites in victims' browsers and perform malicious actions,\" Kaspersky said in a report published today. \"The threat actors behind JanelaRAT campaigns continuously update the infection chain and malware versions by adding new features.\" Telemetry data gathered by the Russian cybersecurity vendor shows that as many as 14,739 attacks were recorded in Brazil in 2025 and 11,695 in Mexico. It's currently not known how many of these resulted in a s...",
-      "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+      "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security Apr 14, 2026 Mobile Security / Network Security Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level. \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying the foundation for broader adoption of memory-safe code in other areas,\" Jiacheng Lu, a software engineer part of the Google Pixel Team, said . The security boost via Rust integration is available for Pixel 10 devices, making it the first Pixel device to integrate a memory-safe language into its modem. The move builds upon a series of initiatives the tech giant has taken to harden the cellular baseband modem against exploitation. In late 2023, it highlighted the role played by Clang sanitizers like Overflow Sanitizer (IntSan) and BoundsSanitizer (BoundSan) to cat...",
+      "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "janelarat-malware-targets-latin-american-banks-with-14-739-attacks-in-brazil-in-2025-apr-1",
+      "slug": "google-adds-rust-based-dns-parser-into-pixel-10-modem-to-enhance-security-apr-14-2026-mobi",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-14",
-      "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts Apr 13, 2026 Cybercrime / Threat Intelligence The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit called W3LL to steal thousands of victims' account credentials and attempt more than $20 million in fraud. In tandem, authorities detained the alleged developer, who has been identified as G.L, and seized key domains linked to the phishing scheme. \"The takedown cuts off a major resource used by cybercriminals to gain unauthorized access to victims' accounts,\" the FBI said in a statement. The W3LL phishing kit allowed criminals to mimic legitimate login pages to deceive victims into handing over their credentials, thus allowing the attackers to seize control of their accounts. The phishing kit was advertised for a fee of about $500. The phishing kit enabled its customers to deploy bogus websi...",
-      "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+      "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads Apr 14, 2026 Mobile Security / Surveillance A nascent Android remote access trojan called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on Meta. \"Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real time,\" Italian online fraud prevention firm Cleafy said . \"Beyond traditional RAT behavior, Mirax enhances its operational value by turning infected devices into residential proxy nodes . Leveraging SOCKS5 protocol support and Yamux multiplexing, it establishes persistent proxy channels that allow attackers to route their traffic through the victim's real IP address.\" Details of Mirax first emerged last month when Outpost24's KrakenLabs revealed that a threat actor going by the name \"Mirax Bot\" has been advertising a private malware-as-a-service (MaaS) offerin...",
+      "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-and-indonesian-police-dismantle-w3ll-phishing-network-behind-20m-fraud-attempts-apr-13",
+      "slug": "mirax-android-rat-turns-devices-into-socks5-proxies-reaching-220-000-via-meta-ads-apr-14-2",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-14",
-      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
-      "link": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report) Apr 14, 2026 Application Security / DevSecOps OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly 400%. The surge in AI-assisted development is creating a \"velocity gap\" where the density of high-impact vulnerabilities is scaling faster than remediation workflows. The ratio of critical findings to raw alerts nearly tripled, moving from 0.035% to 0.092%. Key Findings from the 2026 Analysis: CVSS vs. Business Context: Technical severity scores are no longer the primary driver of risk. The most common elevation factors were High Business Priority (27.76%) and PII Processing (22.08%) . In modern environments, where a vulnerability lives is now more important than what the vulnerability is. The AI Fingerprint: We observed a direct correlation between the adoption of AI coding tools and the quadrupling of critical f...",
+      "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "european-gym-giant-basic-fit-data-breach-affects-1-million-members",
-      "source": "BleepingComputer"
+      "slug": "analysis-of-216m-security-findings-shows-a-4x-increase-in-critical-risk-2026-report-apr-14",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-14",
-      "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users Apr 14, 2026 Data Theft / Browser Security Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited. According to Socket, the extensions (complete list here ) are published under five distinct publisher identities – Yana Project, GameGen, SideGames, Rodeo Games, and InterAlt – and have collectively amassed about 20,000 installs in the Chrome Web Store. \"All 108 route stolen credentials, user identities, and browsing data to servers controlled by the same operator,\" security researcher Kush Pandya said in an analysis. Of these, 54 add-ons steal Google account identity via OAuth2, 45 extensions contain a universal backdoor that opens arbitrary URLs as soon as the browser is started, and the remaining ones engage in a variet...",
+      "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "stolen-rockstar-games-analytics-data-leaked-by-extortion-gang",
-      "source": "BleepingComputer"
+      "slug": "108-malicious-chrome-extensions-steal-google-and-telegram-data-affecting-20-000-users-apr-",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-14",
-      "title": "Critical flaw in wolfSSL library enables forged certificate use",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers Apr 14, 2026 Vulnerability / Network Security A critical security vulnerability impacting ShowDoc , a document management and collaboration service popular in China, has come under active exploitation in the wild. The vulnerability in question is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4 out of 10.0. It relates to a case of unrestricted file upload that stems from improper validation of file extension, allowing an attacker to upload arbitrary PHP files and achieve remote code execution. \"[In] ShowDoc version before 2.8.7, an unrestricted and unauthenticated file upload issue is found and [an] attacker is able to upload a web shell and execute arbitrary code on server,\" according to an advisory released by Vulhub. The vulnerability was addressed in ShowDoc version 2.8.7 , which was shipped in October 2020. The current version of the software is 3.8.1 . According to new details shared by Caitlin Cond...",
+      "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-flaw-in-wolfssl-library-enables-forged-certificate-use",
-      "source": "BleepingComputer"
+      "slug": "showdoc-rce-flaw-cve-2025-0520-actively-exploited-on-unpatched-servers-apr-14-2026-vulnera",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-14",
-      "title": "FBI takedown of W3LL phishing service leads to developer arrest",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "title": "5 Ways Zero Trust Maximizes Identity Security",
+      "link": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-14",
-      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow",
+      "slug": "5-ways-zero-trust-maximizes-identity-security",
       "source": "BleepingComputer"
     }
   ]
