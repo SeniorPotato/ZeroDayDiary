@@ -3188,3 +3188,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Enhancing compliance and consistency: EDPB adopts DPIA template
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/enhancing-compliance-and-consistency-edpb-adopts-dpia-template_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** How Hackers Are Thinking About AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security Apr 14, 2026 Mobile Security / Network Security Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level. "The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying the foundation for broader adoption of memory-safe code in other areas," Jiacheng Lu, a software engineer part of the Google Pixel Team, said . The security boost via Rust integration is available for Pixel 10 devices, making it the first Pixel device to integrate a memory-safe language into its modem. The move builds upon a series of initiatives the tech giant has taken to harden the cellular baseband modem against exploitation. In late 2023, it highlighted the role played by Clang sanitizers like Overflow Sanitizer (IntSan) and BoundsSanitizer (BoundSan) to cat...
+- **Source URL:** https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads Apr 14, 2026 Mobile Security / Surveillance A nascent Android remote access trojan called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on Meta. "Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real time," Italian online fraud prevention firm Cleafy said . "Beyond traditional RAT behavior, Mirax enhances its operational value by turning infected devices into residential proxy nodes . Leveraging SOCKS5 protocol support and Yamux multiplexing, it establishes persistent proxy channels that allow attackers to route their traffic through the victim's real IP address." Details of Mirax first emerged last month when Outpost24's KrakenLabs revealed that a threat actor going by the name "Mirax Bot" has been advertising a private malware-as-a-service (MaaS) offerin...
+- **Source URL:** https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report) Apr 14, 2026 Application Security / DevSecOps OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly 400%. The surge in AI-assisted development is creating a "velocity gap" where the density of high-impact vulnerabilities is scaling faster than remediation workflows. The ratio of critical findings to raw alerts nearly tripled, moving from 0.035% to 0.092%. Key Findings from the 2026 Analysis: CVSS vs. Business Context: Technical severity scores are no longer the primary driver of risk. The most common elevation factors were High Business Priority (27.76%) and PII Processing (22.08%) . In modern environments, where a vulnerability lives is now more important than what the vulnerability is. The AI Fingerprint: We observed a direct correlation between the adoption of AI coding tools and the quadrupling of critical f...
+- **Source URL:** https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** 108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users Apr 14, 2026 Data Theft / Browser Security Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited. According to Socket, the extensions (complete list here ) are published under five distinct publisher identities – Yana Project, GameGen, SideGames, Rodeo Games, and InterAlt – and have collectively amassed about 20,000 installs in the Chrome Web Store. "All 108 route stolen credentials, user identities, and browsing data to servers controlled by the same operator," security researcher Kush Pandya said in an analysis. Of these, 54 add-ons steal Google account identity via OAuth2, 45 extensions contain a universal backdoor that opens arbitrary URLs as soon as the browser is started, and the remaining ones engage in a variet...
+- **Source URL:** https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers Apr 14, 2026 Vulnerability / Network Security A critical security vulnerability impacting ShowDoc , a document management and collaboration service popular in China, has come under active exploitation in the wild. The vulnerability in question is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4 out of 10.0. It relates to a case of unrestricted file upload that stems from improper validation of file extension, allowing an attacker to upload arbitrary PHP files and achieve remote code execution. "[In] ShowDoc version before 2.8.7, an unrestricted and unauthenticated file upload issue is found and [an] attacker is able to upload a web shell and execute arbitrary code on server," according to an advisory released by Vulhub. The vulnerability was addressed in ShowDoc version 2.8.7 , which was shipped in October 2020. The current version of the software is 3.8.1 . According to new details shared by Caitlin Cond...
+- **Source URL:** https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** 5 Ways Zero Trust Maximizes Identity Security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
