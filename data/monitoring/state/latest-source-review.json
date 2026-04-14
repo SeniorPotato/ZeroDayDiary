@@ -1,68 +1,113 @@
 {
-  "generatedAt": "2026-04-13T14:10:01.073Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-13T141001Z.md",
+  "generatedAt": "2026-04-14T03:43:56.834Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-14T034356Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-13",
-      "title": "FTC Takes Action Against TruHeight for Deceptive and Unsubstantiated Advertising of Supposed Height-Enhancing Supplements for Kids and Teens",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing",
+      "discovered": "2026-04-14",
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-seven-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "FTC Takes Action Against High-Level MLM Participant who Deceived Workers About the Amount of Money They Can Earn",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-amount-money-they-can",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-takes-action-against-truheight-for-deceptive-and-unsubstantiated-advertising-of-suppos",
+      "slug": "ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-the-amount-",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "AI Chatbots and Trust",
-      "link": "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html",
+      "discovered": "2026-04-14",
+      "title": "FTC Issues Order Approving 2026 Horseracing Integrity and Safety Authority Budget",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-issues-order-approving-2026-horseracing-integrity-safety-authority-budget",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-issues-order-approving-2026-horseracing-integrity-and-safety-authority-budget",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "Publishing.com to Pay $1.5 Million for Misleading Consumers about How Much Income They Could Earn Using the Company’s Products and Services",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "publishing-com-to-pay-1-5-million-for-misleading-consumers-about-how-much-income-they-coul",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "On Anthropic’s Mythos Preview and Project Glasswing",
+      "link": "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ai-chatbots-and-trust",
+      "slug": "on-anthropic-s-mythos-preview-and-project-glasswing",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More Apr 13, 2026 Cybersecurity / Hacking Monday is back, and the weekend’s backlog of chaos is officially hitting the fan. We are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some aggressive state-sponsored meddling in infrastructure that is finally coming to light. It is one of those mornings where the gap between a quiet shift and a full-blown incident response is basically non-existent. The variety this week is particularly nasty. We have AI models being turned into autonomous exploit engines, North Korean groups playing the long game with social engineering, and fileless malware hitting enterprise workflows. There is also a major botnet takedown and new research proving that even fiber optic cables can be used to eavesdrop on your private conversations. Skim this before your next meeting. Let’s get into it. ⚡ Threat of the Week Adobe Acrobat Reader 0-Day Under Attack — Adobe released emergency updates to fix a critical...",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+      "discovered": "2026-04-14",
+      "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025 Apr 13, 2026 Threat Intelligence / Malware Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT . A modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata. \"One of the key differences between these trojans is that JanelaRAT uses a custom title bar detection mechanism to identify desired websites in victims' browsers and perform malicious actions,\" Kaspersky said in a report published today. \"The threat actors behind JanelaRAT campaigns continuously update the infection chain and malware versions by adding new features.\" Telemetry data gathered by the Russian cybersecurity vendor shows that as many as 14,739 attacks were recorded in Brazil in 2025 and 11,695 in Mexico. It's currently not known how many of these resulted in a s...",
+      "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-fiber-optic-spying-windows-rootkit-ai-vulnerability-hunting-and-more-apr-13-2",
+      "slug": "janelarat-malware-targets-latin-american-banks-with-14-739-attacks-in-brazil-in-2025-apr-1",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't Apr 13, 2026 Threat Detection / Artificial Intelligence Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo Alto Networks' Wendi Whitmorewarned that similar capabilities are weeks or months from proliferation. CrowdStrike's 2026 Global Threat Report puts average eCrime breakout time at 29 minutes. Mandiant's M-Trends 2026 shows adversary hand-off times have collapsed to 22 seconds. Offense is getting faster. The question is where exactly defenders are slow — because it's not where most SOC dashboards suggest. Detection tooling has gotten materially better. EDR, cloud security, email security, identity, and SIEM platforms ship with built-in detection logic that pushes MTTD close to zero for known techniques. That's real progress, and it's the result of years of investment in detection engineering across the industry. But when adversaries are operating on timelines measured in se...",
-      "link": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+      "discovered": "2026-04-14",
+      "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts Apr 13, 2026 Cybercrime / Threat Intelligence The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit called W3LL to steal thousands of victims' account credentials and attempt more than $20 million in fraud. In tandem, authorities detained the alleged developer, who has been identified as G.L, and seized key domains linked to the phishing scheme. \"The takedown cuts off a major resource used by cybercriminals to gain unauthorized access to victims' accounts,\" the FBI said in a statement. The W3LL phishing kit allowed criminals to mimic legitimate login pages to deceive victims into handing over their credentials, thus allowing the attackers to seize control of their accounts. The phishing kit was advertised for a fee of about $500. The phishing kit enabled its customers to deploy bogus websi...",
+      "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "your-mttd-looks-great-your-post-alert-gap-doesn-t-apr-13-2026-threat-detection-artificial-",
+      "slug": "fbi-and-indonesian-police-dismantle-w3ll-phishing-network-behind-20m-fraud-attempts-apr-13",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware Apr 13, 2026 Social Engineering / Threat Intelligence The North Korean hacking group tracked as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan called RokRAT . \"The threat actor used two Facebook accounts with their location set to Pyongyang and Pyongsong, North Korea, to identify and screen targets,\" the Genians Security Center (GSC) said in a technical breakdown of the campaign. \"After building trust through friend requests, the actor moved the conversation to Messenger and used specific topics to lure targets as part of the initial social engineering stage of the attack.\" Central to the attack is the use of what the GSC describes as pretexting, a tactic where the threat actors aim to trick unsuspecting users into installing a dedicated PDF viewer, claiming the software...",
-      "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "discovered": "2026-04-14",
+      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
+      "link": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "north-korea-s-apt37-uses-facebook-social-engineering-to-deliver-rokrat-malware-apr-13-2026",
-      "source": "The Hacker News"
+      "slug": "european-gym-giant-basic-fit-data-breach-affects-1-million-members",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident Apr 13, 2026 DevSecOps / Software Security OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised. \"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\" OpenAI said in a post last week. \"We found no evidence that OpenAI user data was accessed, that our systems or intellectual property were compromised, or that our software was altered.\" The disclosure comes a little over a week after Google Threat Intelligence Group (GTIG) attributed the supply chain compromise of the popular npm package to a North Korean hacking group it tracks as UNC1069 . The attack enabled the threat actors to hijack the package maintainer's npm account to push two poisoned versions 1.14.1 and 0.30.4 that came embedded with a malicious dependency named \"plain-crypto-js,\" which depl...",
-      "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "discovered": "2026-04-14",
+      "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "openai-revokes-macos-app-certificate-after-malicious-axios-supply-chain-incident-apr-13-20",
-      "source": "The Hacker News"
+      "slug": "stolen-rockstar-games-analytics-data-leaked-by-extortion-gang",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-13",
-      "title": "The silent “Storm”: New infostealer hijacks sessions, decrypts server-side",
-      "link": "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
+      "discovered": "2026-04-14",
+      "title": "Critical flaw in wolfSSL library enables forged certificate use",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side",
+      "slug": "critical-flaw-in-wolfssl-library-enables-forged-certificate-use",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "FBI takedown of W3LL phishing service leads to developer arrest",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-14",
+      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow",
       "source": "BleepingComputer"
     }
   ]

@@ -27,7 +27,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
-      "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -110,7 +112,12 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-submits-draft-anprm-related-online-food-delivery-service-fees-omb-review",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-amount-money-they-can",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-issues-order-approving-2026-horseracing-integrity-safety-authority-budget",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-amount-money-they-can",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-issues-order-approving-2026-horseracing-integrity-safety-authority-budget",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -203,7 +210,8 @@
       "https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html",
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html",
       "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html",
-      "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html"
+      "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html",
+      "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -354,10 +362,10 @@
       "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
       "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
       "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
-      "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
-      "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
-      "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
-      "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html"
+      "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+      "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+      "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+      "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -528,7 +536,18 @@
       "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
       "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
       "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
-      "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/"
+      "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
+      "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+      "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/"
     ]
   }
 }

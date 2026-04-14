@@ -3092,3 +3092,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** FTC Takes Action Against High-Level MLM Participant who Deceived Workers About the Amount of Money They Can Earn
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participant-who-deceived-workers-about-amount-money-they-can
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** FTC Issues Order Approving 2026 Horseracing Integrity and Safety Authority Budget
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-issues-order-approving-2026-horseracing-integrity-safety-authority-budget
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Publishing.com to Pay $1.5 Million for Misleading Consumers about How Much Income They Could Earn Using the Company’s Products and Services
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/publishingcom-pay-15-million-misleading-consumers-about-how-much-income-they-could-earn-using
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** On Anthropic’s Mythos Preview and Project Glasswing
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025 Apr 13, 2026 Threat Intelligence / Malware Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT . A modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata. "One of the key differences between these trojans is that JanelaRAT uses a custom title bar detection mechanism to identify desired websites in victims' browsers and perform malicious actions," Kaspersky said in a report published today. "The threat actors behind JanelaRAT campaigns continuously update the infection chain and malware versions by adding new features." Telemetry data gathered by the Russian cybersecurity vendor shows that as many as 14,739 attacks were recorded in Brazil in 2025 and 11,695 in Mexico. It's currently not known how many of these resulted in a s...
+- **Source URL:** https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts Apr 13, 2026 Cybercrime / Threat Intelligence The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit called W3LL to steal thousands of victims' account credentials and attempt more than $20 million in fraud. In tandem, authorities detained the alleged developer, who has been identified as G.L, and seized key domains linked to the phishing scheme. "The takedown cuts off a major resource used by cybercriminals to gain unauthorized access to victims' accounts," the FBI said in a statement. The W3LL phishing kit allowed criminals to mimic legitimate login pages to deceive victims into handing over their credentials, thus allowing the attackers to seize control of their accounts. The phishing kit was advertised for a fee of about $500. The phishing kit enabled its customers to deploy bogus websi...
+- **Source URL:** https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** European Gym giant Basic-Fit data breach affects 1 million members
+- **Source URL:** https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Stolen Rockstar Games analytics data leaked by extortion gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** Critical flaw in wolfSSL library enables forged certificate use
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** FBI takedown of W3LL phishing service leads to developer arrest
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-14
+- **Headline / event:** OpenAI rotates macOS certs after Axios attack hit code-signing workflow
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
