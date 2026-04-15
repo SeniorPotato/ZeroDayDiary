@@ -3252,3 +3252,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** FTC Seeks Public Comment on Unfair and Deceptive Fee Practices in Online Food and Grocery Delivery Services
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-unfair-deceptive-fee-practices-online-food-grocery-delivery-services
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** FTC Announces “Made in the USA” Sweep, Including Three Law Enforcement Actions to Protect American Consumers and Businesses
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-announces-made-usa-sweep-including-three-law-enforcement-actions-protect-american-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** FTC Order to Prohibit Forever Living and its Operators from Deceiving Consumers about Potential Earnings
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-order-prohibit-forever-living-its-operators-deceiving-consumers-about-potential-earnings
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Patch Tuesday, April 2026 Edition
+- **Source URL:** https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released Apr 14, 2026 Vulnerability / DevSecOps Two high-severity security vulnerabilities have been disclosed in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below - CVE-2026-40176 (CVSS score: 7.8) - An improper input validation vulnerability that could allow an attacker controlling a repository configuration in a malicious composer.json declaring a Perforce VCS repository to inject arbitrary commands, resulting in command execution in the context of the user running Composer. CVE-2026-40261 (CVSS score: 8.8) - An improper input validation vulnerability stemming from inadequate escaping that could allow an attacker to inject arbitrary commands through a crafted source reference containing shell metacharacters. In both cases, Composer would execute these injected ...
+- **Source URL:** https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud Apr 14, 2026 Ad Fraud / Artificial Intelligence Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into Google's Discover feed and trick users into enabling persistent browser notifications that lead to scareware and financial scams. The campaign, which has been found to target the personalized content feeds of Android and Chrome users, has been codenamed Pushpaganda by HUMAN's Satori Threat Intelligence and Research Team. "This operation, named for push notifications central to the scheme, generates invalid organic traffic from real mobile devices by tricking users into subscribing to enabling notifications that presented alarming messages," researchers Louisa Abel, Vikas Parthasarathy, João Santos, and Adam Sell said in a report shared with The Hacker News. At its peak, about 240 million bid requests have been associated wit...
+- **Source URL:** https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Crypto-exchange Kraken extorted by hackers after insider breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Over 100 Chrome Web Store extensions steal user accounts, data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** McGraw-Hill confirms data breach following extortion threat
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
