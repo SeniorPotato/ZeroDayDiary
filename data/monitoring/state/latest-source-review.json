@@ -1,104 +1,86 @@
 {
-  "generatedAt": "2026-04-15T03:42:57.838Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-15T034257Z.md",
+  "generatedAt": "2026-04-15T14:06:33.613Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-15T140633Z.md",
   "candidates": [
     {
       "discovered": "2026-04-15",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-15",
-      "title": "FTC Seeks Public Comment on Unfair and Deceptive Fee Practices in Online Food and Grocery Delivery Services",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-unfair-deceptive-fee-practices-online-food-grocery-delivery-services",
+      "title": "FTC Takes Action to Restore Competition in the Digital Advertising Ecosystem",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-restore-competition-digital-advertising-ecosystem",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-seeks-public-comment-on-unfair-and-deceptive-fee-practices-in-online-food-and-grocery-",
+      "slug": "ftc-takes-action-to-restore-competition-in-the-digital-advertising-ecosystem",
       "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-04-15",
-      "title": "FTC Announces “Made in the USA” Sweep, Including Three Law Enforcement Actions to Protect American Consumers and Businesses",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-announces-made-usa-sweep-including-three-law-enforcement-actions-protect-american-consumers",
+      "title": "FTC Takes Action Against Noncompete Agreements, Securing Protections for Workers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-noncompete-agreements-securing-protections-workers",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-announces-made-in-the-usa-sweep-including-three-law-enforcement-actions-to-protect-ame",
+      "slug": "ftc-takes-action-against-noncompete-agreements-securing-protections-for-workers",
       "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-04-15",
-      "title": "FTC Order to Prohibit Forever Living and its Operators from Deceiving Consumers about Potential Earnings",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-order-prohibit-forever-living-its-operators-deceiving-consumers-about-potential-earnings",
+      "title": "Defense in Depth, Medieval Style",
+      "link": "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html",
       "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-order-to-prohibit-forever-living-and-its-operators-from-deceiving-consumers-about-pote",
-      "source": "FTC Press Releases"
+      "category": "security",
+      "slug": "defense-in-depth-medieval-style",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-04-15",
-      "title": "Patch Tuesday, April 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover Apr 15, 2026 Web Security / Vulnerability A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the wild. The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It has been codenamed MCPwn by Pluto Security. \"The nginx-ui MCP (Model Context Protocol) integration exposes two HTTP endpoints: /mcp and /mcp_message,\" according to an advisory released by nginx-ui maintainers last month. \"While /mcp requires both IP whitelisting and authentication (AuthRequired() middleware), the /mcp_message endpoint only applies IP whitelisting -- and the default IP whitelist is empty, which the middleware treats as 'allow all.'\" \"This means any network attacker can invoke all MCP tools without authentication, including restarting nginx, creating/modifying/deleting nginx configuration files, and t...",
+      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "patch-tuesday-april-2026-edition",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-04-15",
-      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released Apr 14, 2026 Vulnerability / DevSecOps Two high-severity security vulnerabilities have been disclosed in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below - CVE-2026-40176 (CVSS score: 7.8) - An improper input validation vulnerability that could allow an attacker controlling a repository configuration in a malicious composer.json declaring a Perforce VCS repository to inject arbitrary commands, resulting in command execution in the context of the user running Composer. CVE-2026-40261 (CVSS score: 8.8) - An improper input validation vulnerability stemming from inadequate escaping that could allow an attacker to inject arbitrary commands through a crafted source reference containing shell metacharacters. In both cases, Composer would execute these injected ...",
-      "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-php-composer-flaws-enable-arbitrary-command-execution-patches-released-apr-14-2026-vul",
+      "slug": "actively-exploited-nginx-ui-flaw-cve-2026-33032-enables-full-nginx-server-takeover-apr-15-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-15",
-      "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud Apr 14, 2026 Ad Fraud / Artificial Intelligence Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into Google's Discover feed and trick users into enabling persistent browser notifications that lead to scareware and financial scams. The campaign, which has been found to target the personalized content feeds of Android and Chrome users, has been codenamed Pushpaganda by HUMAN's Satori Threat Intelligence and Research Team. \"This operation, named for push notifications central to the scheme, generates invalid organic traffic from real mobile devices by tricking users into subscribing to enabling notifications that presented alarming messages,\" researchers Louisa Abel, Vikas Parthasarathy, João Santos, and Adam Sell said in a report shared with The Hacker News. At its peak, about 240 million bid requests have been associated wit...",
-      "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More Apr 15, 2026 Vulnerability / Data Breach A number of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday releases. Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse ( CVE-2026-27681 , CVSS score: 9.9) that could result in the execution of arbitrary database commands. \"The vulnerable ABAP program allows a low-privileged user to upload a file with arbitrary SQL statements that will then be executed,\" Onapsis said in an advisory. In a potential attack scenario, a bad actor could abuse the affected upload-related functionality to run malicious SQL against BW/BPC data stores, extract sensitive data, and delete or corrupt database content. \"Manipulated planning figures, broken reports, or deleted consolidation data can undermine close processes, executive reporting, and operational planning,\" Pathlock said . \"In the wrong hands, t...",
+      "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ai-driven-pushpaganda-scam-exploits-google-discover-to-spread-scareware-and-ad-fraud-apr-1",
+      "slug": "april-patch-tuesday-fixes-critical-flaws-across-sap-adobe-microsoft-fortinet-and-more-apr-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-15",
-      "title": "Crypto-exchange Kraken extorted by hackers after insider breach",
-      "link": "https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/",
+      "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires Apr 15, 2026 Artificial Intelligence / Enterprise Security Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions. Pentera’s AI Security and Exposure Report 2026 reflects that momentum: every CISO surveyed reported that AI is already in use across their organizations. Security testing is inevitably part of that shift. Modern environments are too dynamic, and attack techniques too variable, for purely static testing logic to remain sufficient on its own. Adaptive payload generation, contextual interpretation of controls, and real-time execution adjustments are necessary to get closer to how attackers, and increasingly their own AI agents, operate. For experienced security teams, the need to incorporate AI into testing is no longer in question. You have to fight fire with fire. Wh...",
+      "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "crypto-exchange-kraken-extorted-by-hackers-after-insider-breach",
-      "source": "BleepingComputer"
+      "slug": "deterministic-agentic-ai-the-architecture-exposure-validation-requires-apr-15-2026-artific",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-15",
-      "title": "Over 100 Chrome Web Store extensions steal user accounts, data",
-      "link": "https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/",
+      "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities Apr 15, 2026 Vulnerability / Patch Tuesday Microsoft on Tuesday released updates to address a record 169 security flaws across its product portfolio, including one vulnerability that has been actively exploited in the wild. Of these 169 vulnerabilities, 157 are rated Important, eight are rated Critical, three are rated Moderate, and one is rated Low in severity. Ninety-three of the flaws are classified as privilege escalation, followed by 21 information disclosure, 21 remote code execution, 14 security feature bypass, 10 spoofing, and nine denial-of-service vulnerabilities. Also included among the 169 flaws are four non-Microsoft issued CVEs impacting AMD (CVE-2023-20585), Node.js (CVE-2026-21637), Windows Secure Boot (CVE-2026-25250), and Git for Windows (CVE-2026-32631). The updates are in addition to 78 vulnerabilities that have been addressed in its Chromium-based Edge browser since the update that was released last month . T...",
+      "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "over-100-chrome-web-store-extensions-steal-user-accounts-data",
-      "source": "BleepingComputer"
+      "slug": "microsoft-issues-patches-for-sharepoint-zero-day-and-168-other-new-vulnerabilities-apr-15-",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-15",
-      "title": "McGraw-Hill confirms data breach following extortion threat",
-      "link": "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
+      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams Apr 15, 2026 Vulnerability / Secure Coding OpenAI on Tuesday unveiled GPT-5.4-Cyber , a variant of its latest flagship model, GPT‑5.4 , that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier model, Mythos . \"The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems faster in the digital infrastructure everyone relies on,\" OpenAI said . In conjunction with the announcement, the artificial intelligence (AI) company said it's ramping up its Trusted Access for Cyber ( TAC ) program to thousands of authenticated individual defenders and hundreds of teams responsible for securing critical software. AI systems are inherently dual-use, as bad actors can repurpose technologies developed for legitimate applications to their own advantage and achieve malicious goals. One core area of concern is that adversaries could invert the models fine...",
+      "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "mcgraw-hill-confirms-data-breach-following-extortion-threat",
-      "source": "BleepingComputer"
+      "slug": "openai-launches-gpt-5-4-cyber-with-expanded-access-for-security-teams-apr-15-2026-vulnerab",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-15",
-      "title": "Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/",
+      "title": "Rolling Networks: Securing the Transportation Sector",
+      "link": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-ledger-live-app-on-apple-s-app-store-stole-9-5m-in-crypto",
+      "slug": "rolling-networks-securing-the-transportation-sector",
       "source": "BleepingComputer"
     }
   ]

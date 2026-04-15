@@ -3340,3 +3340,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** FTC Takes Action to Restore Competition in the Digital Advertising Ecosystem
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-restore-competition-digital-advertising-ecosystem
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** FTC Takes Action Against Noncompete Agreements, Securing Protections for Workers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-noncompete-agreements-securing-protections-workers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Defense in Depth, Medieval Style
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover Apr 15, 2026 Web Security / Vulnerability A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the wild. The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It has been codenamed MCPwn by Pluto Security. "The nginx-ui MCP (Model Context Protocol) integration exposes two HTTP endpoints: /mcp and /mcp_message," according to an advisory released by nginx-ui maintainers last month. "While /mcp requires both IP whitelisting and authentication (AuthRequired() middleware), the /mcp_message endpoint only applies IP whitelisting -- and the default IP whitelist is empty, which the middleware treats as 'allow all.'" "This means any network attacker can invoke all MCP tools without authentication, including restarting nginx, creating/modifying/deleting nginx configuration files, and t...
+- **Source URL:** https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More Apr 15, 2026 Vulnerability / Data Breach A number of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday releases. Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse ( CVE-2026-27681 , CVSS score: 9.9) that could result in the execution of arbitrary database commands. "The vulnerable ABAP program allows a low-privileged user to upload a file with arbitrary SQL statements that will then be executed," Onapsis said in an advisory. In a potential attack scenario, a bad actor could abuse the affected upload-related functionality to run malicious SQL against BW/BPC data stores, extract sensitive data, and delete or corrupt database content. "Manipulated planning figures, broken reports, or deleted consolidation data can undermine close processes, executive reporting, and operational planning," Pathlock said . "In the wrong hands, t...
+- **Source URL:** https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Deterministic + Agentic AI: The Architecture Exposure Validation Requires Apr 15, 2026 Artificial Intelligence / Enterprise Security Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions. Pentera’s AI Security and Exposure Report 2026 reflects that momentum: every CISO surveyed reported that AI is already in use across their organizations. Security testing is inevitably part of that shift. Modern environments are too dynamic, and attack techniques too variable, for purely static testing logic to remain sufficient on its own. Adaptive payload generation, contextual interpretation of controls, and real-time execution adjustments are necessary to get closer to how attackers, and increasingly their own AI agents, operate. For experienced security teams, the need to incorporate AI into testing is no longer in question. You have to fight fire with fire. Wh...
+- **Source URL:** https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities Apr 15, 2026 Vulnerability / Patch Tuesday Microsoft on Tuesday released updates to address a record 169 security flaws across its product portfolio, including one vulnerability that has been actively exploited in the wild. Of these 169 vulnerabilities, 157 are rated Important, eight are rated Critical, three are rated Moderate, and one is rated Low in severity. Ninety-three of the flaws are classified as privilege escalation, followed by 21 information disclosure, 21 remote code execution, 14 security feature bypass, 10 spoofing, and nine denial-of-service vulnerabilities. Also included among the 169 flaws are four non-Microsoft issued CVEs impacting AMD (CVE-2023-20585), Node.js (CVE-2026-21637), Windows Secure Boot (CVE-2026-25250), and Git for Windows (CVE-2026-32631). The updates are in addition to 78 vulnerabilities that have been addressed in its Chromium-based Edge browser since the update that was released last month . T...
+- **Source URL:** https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams Apr 15, 2026 Vulnerability / Secure Coding OpenAI on Tuesday unveiled GPT-5.4-Cyber , a variant of its latest flagship model, GPT‑5.4 , that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier model, Mythos . "The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems faster in the digital infrastructure everyone relies on," OpenAI said . In conjunction with the announcement, the artificial intelligence (AI) company said it's ramping up its Trusted Access for Cyber ( TAC ) program to thousands of authenticated individual defenders and hundreds of teams responsible for securing critical software. AI systems are inherently dual-use, as bad actors can repurpose technologies developed for legitimate applications to their own advantage and achieve malicious goals. One core area of concern is that adversaries could invert the models fine...
+- **Source URL:** https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-15
+- **Headline / event:** Rolling Networks: Securing the Transportation Sector
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
