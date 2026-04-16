@@ -3468,3 +3468,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** EDPB brings clarity to data processing for scientific research, speeds up the finalisation of the anonymisation guidelines and approves first European data protection seal as a tool for transfers
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Human Trust of AI Agents
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories Apr 16, 2026 Hacking News / Cybersecurity News You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you ignore the whole "crime" part, ancient vulnerabilities somehow still ruining people's days, and enough supply chain drama to fill a season of television nobody asked for. Not all bad though. Some threat actors got exposed with receipts, a few platforms finally tightened things up, and there's research in here that's genuinely worth your time. Grab your coffee and keep scrolling. Targeted wallet breach Zerion Hack Likely Linked to North Korea Cryptocurrency wallet service Zerion has disclosed that one of its team member's devices was compromised, resulting in the theft of approximately $100K in stolen funds from internal company hot wallets. The company noted that user funds, Zerion apps, or infrastructure were...
+- **Source URL:** https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** [Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment Apr 16, 2026 Artificial Intelligence / Enterprise Security In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, andOAuth grants. When projects end or employees leave, most of these stay active. Fully privileged. Completely unmonitored. Attackers don't need to break in. They just pick up the keys you left out. Join our upcoming webinar where we’ll show you how to find and eliminate these "Ghost Identities" before they become a back door for hackers. AI agents and automated workflows are multiplying these credentials at a pace security teams can't manually track. Many carry admin-level access they never needed. One compromised token can give an attacker lateral movement across your entire environment, and the average dwell time for...
+- **Source URL:** https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution Apr 16, 2026 Vulnerability / Network Security Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the service. The details of the vulnerabilities are below - CVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO) with Control Hub in Webex Services that could allow an unauthenticated, remote attacker to impersonate any user within the service and gain unauthorized access to legitimate Cisco Webex services. CVE-2026-20147 (CVSS score: 9.9) - An insufficient validation of user-supplied input vulnerability in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) that could allow an authenticated, remote attacker in possession of valid administrative credentials to achieve remote code execution by sending crafted HTTP requests. CVE-2026-20180 and CVE-2026-20186 (CVSS scores: 9.9) ...
+- **Source URL:** https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu Apr 16, 2026 Data Privacy / Compliance A bank approved a Taboola pixel. That pixel quietly redirected logged-in users to a Temu tracking endpoint. This occurred without the bank’s knowledge, without user consent, and without a single security control registering a violation. Read the full technical breakdown in the Security Intelligence Brief. Download now → The "First-Hop Bias" Blind Spot Most security stacks, including WAFs, static analyzers, and standard CSPs, share a common failure mode: they evaluate the declared origin of a script, not the runtime destination of its request chain. If sync.taboola.com is in your Content Security Policy (CSP) allow-list, the browser considers the request legitimate. However, it does not re-validate against the terminal destination of a 302 redirect . By the time the browser reaches temu.com, it has inherited the trust granted to Taboola. The Forensic Trace During a February 202...
+- **Source URL:** https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks Apr 16, 2026 Application Security / Threat Intelligence A "novel" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote access trojan called PHANTOMPULSE in attacks targeting individuals in the financial and cryptocurrency sectors. Dubbed REF6598 by Elastic Security Labs, the activity has been found to leverage elaborate social engineering tactics through LinkedIn and Telegram to breach both Windows and macOS systems, approaching prospective individuals under the guise of a venture capital firm and then moving the conversation to a Telegram group where several purported partners are present. The Telegram group chat is engineered to lend the operation a smidgen of credibility, with the members discussing topics related to financial services and cryptocurrency liquidity solutions. The target is then instructed to use Obsidian to access what appears to be a shared dashboard by connecting to...
+- **Source URL:** https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** New ATHR vishing platform uses AI voice agents for automated attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Most "AI SOCs" Are Just Faster Triage. That's Not Enough.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/most-ai-socs-are-just-faster-triage-thats-not-enough/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Cisco says critical Webex Services flaw requires customer action
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Data breach at edtech giant McGraw Hill affects 13.5 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** US nationals behind DPRK IT worker 'laptop farm' sent to prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
