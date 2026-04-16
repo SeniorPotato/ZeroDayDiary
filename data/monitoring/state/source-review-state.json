@@ -121,8 +121,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-order-prohibit-forever-living-its-operators-deceiving-consumers-about-potential-earnings",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-restore-competition-digital-advertising-ecosystem",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-noncompete-agreements-securing-protections-workers",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-restore-competition-digital-advertising-ecosystem",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-noncompete-agreements-securing-protections-workers"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-testifies-senate-commerce-science-transportation-committee",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-testifies-senate-commerce-science-transportation-committee"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -218,7 +218,6 @@
       "https://www.schneier.com/blog/archives/2026/04/ai-chatbots-and-trust.html",
       "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html",
       "https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html",
-      "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html",
       "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html"
     ],
     "the-hacker-news": [
@@ -385,11 +384,8 @@
       "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
       "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
       "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
-      "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-      "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
-      "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
-      "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
-      "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html"
+      "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
+      "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -573,7 +569,16 @@
       "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
       "https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/",
       "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
-      "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/"
+      "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
+      "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
+      "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
+      "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
+      "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
+      "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
+      "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
+      "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
+      "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/"
     ]
   }
 }
