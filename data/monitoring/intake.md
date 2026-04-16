@@ -3412,3 +3412,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** FTC Testifies Before Senate Commerce, Science and Transportation Committee
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-testifies-senate-commerce-science-transportation-committee
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails Apr 15, 2026 Threat Intelligence / Cloud Security Threat actors have been observed weaponizing n8n , a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated emails. "By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery vehicles for persistent remote access," Cisco Talos researchers Sean Gallagher and Omid Mirzaei said in an analysis published today. N8n is a workflow automation platform that allows users to connect various web applications, APIs, and AI model services to sync data, build agentic systems, and run repetitive rule-based tasks. Users can register for a developer account at no extra cost to avail a managed cloud-hosted service and run automation workflows without having to set up their own infrastructure.Doing so, however, creates a unique custom domain t...
+- **Source URL:** https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Critical Nginx UI auth bypass flaw now actively exploited in the wild
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** New AgingFly malware used in attacks on Ukraine govt, hospitals
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** WordPress plugin suite hacked to push malware to thousands of sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** Signed software abused to deploy antivirus-killing scripts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-16
+- **Headline / event:** CISA flags Windows Task Host vulnerability as exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
