@@ -1,68 +1,77 @@
 {
-  "generatedAt": "2026-04-17T03:46:33.561Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-17T034633Z.md",
+  "generatedAt": "2026-04-17T13:59:39.711Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-17T135939Z.md",
   "candidates": [
     {
       "discovered": "2026-04-17",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched Apr 17, 2026 Vulnerability / Endpoint Security Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the exploitation of three vulnerabilities that are codenamed BlueHammer (requires GitHub sign-in), RedSun , and UnDefend , all of which were released as zero-days by a researcher known as Chaotic Eclipse (aka Nightmare-Eclipse) in response to Microsoft's handling of the vulnerability disclosure process. While both BlueHammer and RedSun are local privilege escalation (LPE) flaws impacting Microsoft Defender, UnDefend can be used to trigger a denial-of-service (DoS) condition and effectively block definition updates. Microsoft moved to address BlueHammer as part of its Patch Tuesday updates released earlier this week. The vulnerability is being tracked under the CVE identifier CVE-2026-33825 . However, the other flaws do not have a fix as of writing. In a series of posts shared on X, Hunt...",
+      "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-17",
-      "title": "FTC Stops Operation that Allegedly Targeted People Seeking Student Loan Debt Relief",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-stops-operation-that-allegedly-targeted-people-seeking-student-loan-debt-relief",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-17",
-      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation Apr 17, 2026 Vulnerability / Enterprise Security A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the vulnerability, tracked as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by April 30, 2026. CVE-2026-34197 has been described as a case of improper input validation that could lead to code injection, effectively allowing an attacker to execute arbitrary code on susceptible installations. According to Horizon3.ai's Naveen Sunkavally, CVE-2026-34197 has been \"hiding in plain sight\" for 13 years. \"An attacker can invoke a management operation through ActiveMQ's Jolokia API to trick the broker into fetching a remote configuration file and running arbitrary OS c...",
-      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "apache-activemq-cve-2026-34197-added-to-cisa-kev-amid-active-exploitation-apr-17-2026-vuln",
+      "slug": "three-microsoft-defender-zero-days-actively-exploited-two-still-unpatched-apr-17-2026-vuln",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-17",
-      "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic Apr 16, 2026 Botnet / Cryptomining Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix since at least December 2025. \"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos researcher Chetan Raghuprasad said in a report published today. \"PowMix embeds the encrypted heartbeat data along with unique identifiers of the victim machine into the C2 URL paths, mimicking legitimate REST API URLs. PowMix has the capability to remotely update the new C2 domain to the botnet configuration file dynamically.\" The attack chain begins with a malicious ZIP file, likely delivered via a phishing email, to activate a multi-stage infection chain that drops PowMix. Specifically, it involves a Windows Shortcut (LNK) that's used to launch a PowerShell loader, which ...",
-      "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+      "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul Apr 17, 2026 Artificial Intelligence / Mobile Security Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24.9 million accounts in 2025. The new policy updates relate to contact and location permissions in Android, allowing third-party apps to access the contact lists and a user's location in a more privacy-friendly manner. This includes a new Contact Picker, which offers a standardized, secure, and searchable interface for contact selection. \"This feature allows users to grant apps access only to the specific contacts they choose, aligning with Android's commitment to data transparency and minimized permission footprints,\" Google said . Previously, apps requiring access to a specific user's contacts relied on READ_CONTACTS, an overly broad permission that granted apps the ability to access all contacts and their associated information. With the latest cha...",
+      "link": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "newly-discovered-powmix-botnet-hits-czech-workers-using-randomized-c2-traffic-apr-16-2026-",
+      "slug": "google-blocks-8-3b-policy-violating-ads-in-2025-launches-android-17-privacy-overhaul-apr-1",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-17",
-      "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
-      "link": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
+      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions Apr 17, 2026 Vulnerability Management The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich those that fulfil certain conditions owing to an explosion in CVE submissions. \"CVEs that do not meet those criteria will still be listed in the NVD but will not automatically be enriched by NIST ,\" it said . \"This change is driven by a surge in CVE submissions, which increased 263% between 2020 and 2025. We don’t expect this trend to let up anytime soon.\" The prioritization criteria outlined by NIST, which went into effect on April 15, 2026, are as follows - CVEs appearing in the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities (KEV) catalog. CVEs for software used within the federal government. CVEs for critical software as defined by Executive Order 14028: this includes soft...",
+      "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains",
+      "slug": "nist-limits-cve-enrichment-after-263-surge-in-vulnerability-submissions-apr-17-2026-vulner",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-17",
+      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts Apr 17, 2026 DDoS / Cybercrime An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals. The ongoing effort, dubbed Operation PowerOFF , disrupted access to the DDoS-for-hire services, took down the technical infrastructure supporting them, and obtained access to databases containing over 3 million criminal user accounts. Authorities are also sending warning emails and letters to the identified criminal users, and 25 search warrants have been issued. As many as 21 countries participated in the action: Australia, Austria, Belgium, Brazil, Bulgaria, Denmark, Estonia, Finland, Germany, Japan, Latvia, Lithuania, Luxembourg, the Netherlands, Poland, Portugal, Sweden, Thailand, the U.K., and the U.S. \"Booter services allow users to launch DDoS attacks against targeted websites, servers, or networks,\" Europol said in a statement. \"Their inf...",
+      "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "operation-poweroff-seizes-53-ddos-domains-exposes-3-million-criminal-accounts-apr-17-2026-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-17",
+      "title": "Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-17",
-      "title": "ZionSiphon malware designed to sabotage water treatment systems",
-      "link": "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
+      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "zionsiphon-malware-designed-to-sabotage-water-treatment-systems",
+      "slug": "cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-17",
-      "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
+      "title": "Man gets 30 months for selling thousands of hacked DraftKings accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face",
+      "slug": "man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-17",
+      "title": "Recently leaked Windows zero-days now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "recently-leaked-windows-zero-days-now-exploited-in-attacks",
       "source": "BleepingComputer"
     }
   ]

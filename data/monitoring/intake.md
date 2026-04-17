@@ -3620,3 +3620,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched Apr 17, 2026 Vulnerability / Endpoint Security Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the exploitation of three vulnerabilities that are codenamed BlueHammer (requires GitHub sign-in), RedSun , and UnDefend , all of which were released as zero-days by a researcher known as Chaotic Eclipse (aka Nightmare-Eclipse) in response to Microsoft's handling of the vulnerability disclosure process. While both BlueHammer and RedSun are local privilege escalation (LPE) flaws impacting Microsoft Defender, UnDefend can be used to trigger a denial-of-service (DoS) condition and effectively block definition updates. Microsoft moved to address BlueHammer as part of its Patch Tuesday updates released earlier this week. The vulnerability is being tracked under the CVE identifier CVE-2026-33825 . However, the other flaws do not have a fix as of writing. In a series of posts shared on X, Hunt...
+- **Source URL:** https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul Apr 17, 2026 Artificial Intelligence / Mobile Security Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24.9 million accounts in 2025. The new policy updates relate to contact and location permissions in Android, allowing third-party apps to access the contact lists and a user's location in a more privacy-friendly manner. This includes a new Contact Picker, which offers a standardized, secure, and searchable interface for contact selection. "This feature allows users to grant apps access only to the specific contacts they choose, aligning with Android's commitment to data transparency and minimized permission footprints," Google said . Previously, apps requiring access to a specific user's contacts relied on READ_CONTACTS, an overly broad permission that granted apps the ability to access all contacts and their associated information. With the latest cha...
+- **Source URL:** https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions Apr 17, 2026 Vulnerability Management The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich those that fulfil certain conditions owing to an explosion in CVE submissions. "CVEs that do not meet those criteria will still be listed in the NVD but will not automatically be enriched by NIST ," it said . "This change is driven by a surge in CVE submissions, which increased 263% between 2020 and 2025. We don’t expect this trend to let up anytime soon." The prioritization criteria outlined by NIST, which went into effect on April 15, 2026, are as follows - CVEs appearing in the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities (KEV) catalog. CVEs for software used within the federal government. CVEs for critical software as defined by Executive Order 14028: this includes soft...
+- **Source URL:** https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts Apr 17, 2026 DDoS / Cybercrime An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals. The ongoing effort, dubbed Operation PowerOFF , disrupted access to the DDoS-for-hire services, took down the technical infrastructure supporting them, and obtained access to databases containing over 3 million criminal user accounts. Authorities are also sending warning emails and letters to the identified criminal users, and 25 search warrants have been issued. As many as 21 countries participated in the action: Australia, Austria, Belgium, Brazil, Bulgaria, Denmark, Estonia, Finland, Germany, Japan, Latvia, Lithuania, Luxembourg, the Netherlands, Poland, Portugal, Sweden, Thailand, the U.K., and the U.S. "Booter services allow users to launch DDoS attacks against targeted websites, servers, or networks," Europol said in a statement. "Their inf...
+- **Source URL:** https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** CISA flags Apache ActiveMQ flaw as actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Man gets 30 months for selling thousands of hacked DraftKings accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Recently leaked Windows zero-days now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
