@@ -29,7 +29,9 @@
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
       "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -47,7 +49,6 @@
       "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en",
       "https://www.edpb.europa.eu/news/news/2026/enhancing-compliance-and-consistency-edpb-adopts-dpia-template_en",
-      "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en"
     ],
     "cisa-kev": [
@@ -123,7 +124,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-order-prohibit-forever-living-its-operators-deceiving-consumers-about-potential-earnings",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-restore-competition-digital-advertising-ecosystem",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-noncompete-agreements-securing-protections-workers",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-testifies-senate-commerce-science-transportation-committee"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-testifies-senate-commerce-science-transportation-committee",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -220,7 +223,6 @@
       "https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html",
       "https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html",
       "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html",
-      "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html",
       "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html"
     ],
     "the-hacker-news": [
@@ -393,12 +395,11 @@
       "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
       "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
       "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-      "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
-      "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-      "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-      "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html"
+      "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+      "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+      "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -592,11 +593,12 @@
       "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
       "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
       "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
-      "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
-      "https://www.bleepingcomputer.com/news/security/most-ai-socs-are-just-faster-triage-thats-not-enough/",
-      "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
-      "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
-      "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/"
+      "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
+      "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
+      "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
+      "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/"
     ]
   }
 }

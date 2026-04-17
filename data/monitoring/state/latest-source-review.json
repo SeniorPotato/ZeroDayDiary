@@ -1,113 +1,68 @@
 {
-  "generatedAt": "2026-04-16T14:16:41.387Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-16T141641Z.md",
+  "generatedAt": "2026-04-17T03:46:33.561Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-17T034633Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-16",
-      "title": "EDPB brings clarity to data processing for scientific research, speeds up the finalisation of the anonymisation guidelines and approves first European data protection seal as a tool for transfers",
-      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "edpb-brings-clarity-to-data-processing-for-scientific-research-speeds-up-the-finalisation-",
-      "source": "EDPB News"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "Human Trust of AI Agents",
-      "link": "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html",
+      "discovered": "2026-04-17",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "human-trust-of-ai-agents",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-04-16",
-      "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories Apr 16, 2026 Hacking News / Cybersecurity News You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you ignore the whole \"crime\" part, ancient vulnerabilities somehow still ruining people's days, and enough supply chain drama to fill a season of television nobody asked for. Not all bad though. Some threat actors got exposed with receipts, a few platforms finally tightened things up, and there's research in here that's genuinely worth your time. Grab your coffee and keep scrolling. Targeted wallet breach Zerion Hack Likely Linked to North Korea Cryptocurrency wallet service Zerion has disclosed that one of its team member's devices was compromised, resulting in the theft of approximately $100K in stolen funds from internal company hot wallets. The company noted that user funds, Zerion apps, or infrastructure were...",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+      "discovered": "2026-04-17",
+      "title": "FTC Stops Operation that Allegedly Targeted People Seeking Student Loan Debt Relief",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-stops-operation-that-allegedly-targeted-people-seeking-student-loan-debt-relief",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-04-17",
+      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation Apr 17, 2026 Vulnerability / Enterprise Security A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the vulnerability, tracked as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by April 30, 2026. CVE-2026-34197 has been described as a case of improper input validation that could lead to code injection, effectively allowing an attacker to execute arbitrary code on susceptible installations. According to Horizon3.ai's Naveen Sunkavally, CVE-2026-34197 has been \"hiding in plain sight\" for 13 years. \"An attacker can invoke a management operation through ActiveMQ's Jolokia API to trick the broker into fetching a remote configuration file and running arbitrary OS c...",
+      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-bulletin-defender-0-day-sonicwall-brute-force-17-year-old-excel-rce-and-15-more",
+      "slug": "apache-activemq-cve-2026-34197-added-to-cisa-kev-amid-active-exploitation-apr-17-2026-vuln",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-16",
-      "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment Apr 16, 2026 Artificial Intelligence / Enterprise Security In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, andOAuth grants. When projects end or employees leave, most of these stay active. Fully privileged. Completely unmonitored. Attackers don't need to break in. They just pick up the keys you left out. Join our upcoming webinar where we’ll show you how to find and eliminate these \"Ghost Identities\" before they become a back door for hackers. AI agents and automated workflows are multiplying these credentials at a pace security teams can't manually track. Many carry admin-level access they never needed. One compromised token can give an attacker lateral movement across your entire environment, and the average dwell time for...",
-      "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "discovered": "2026-04-17",
+      "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic Apr 16, 2026 Botnet / Cryptomining Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix since at least December 2025. \"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos researcher Chetan Raghuprasad said in a report published today. \"PowMix embeds the encrypted heartbeat data along with unique identifiers of the victim machine into the C2 URL paths, mimicking legitimate REST API URLs. PowMix has the capability to remotely update the new C2 domain to the botnet configuration file dynamically.\" The attack chain begins with a malicious ZIP file, likely delivered via a phishing email, to activate a multi-stage infection chain that drops PowMix. Specifically, it involves a Windows Shortcut (LNK) that's used to launch a PowerShell loader, which ...",
+      "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-find-and-eliminate-orphaned-non-human-identities-in-your-environment-apr-16-2026-a",
+      "slug": "newly-discovered-powmix-botnet-hits-czech-workers-using-randomized-c2-traffic-apr-16-2026-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-16",
-      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution Apr 16, 2026 Vulnerability / Network Security Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the service. The details of the vulnerabilities are below - CVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO) with Control Hub in Webex Services that could allow an unauthenticated, remote attacker to impersonate any user within the service and gain unauthorized access to legitimate Cisco Webex services. CVE-2026-20147 (CVSS score: 9.9) - An insufficient validation of user-supplied input vulnerability in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) that could allow an authenticated, remote attacker in possession of valid administrative credentials to achieve remote code execution by sending crafted HTTP requests. CVE-2026-20180 and CVE-2026-20186 (CVSS scores: 9.9) ...",
-      "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+      "discovered": "2026-04-17",
+      "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
+      "link": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisco-patches-four-critical-identity-services-webex-flaws-enabling-code-execution-apr-16-2",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu Apr 16, 2026 Data Privacy / Compliance A bank approved a Taboola pixel. That pixel quietly redirected logged-in users to a Temu tracking endpoint. This occurred without the bank’s knowledge, without user consent, and without a single security control registering a violation. Read the full technical breakdown in the Security Intelligence Brief. Download now → The \"First-Hop Bias\" Blind Spot Most security stacks, including WAFs, static analyzers, and standard CSPs, share a common failure mode: they evaluate the declared origin of a script, not the runtime destination of its request chain. If sync.taboola.com is in your Content Security Policy (CSP) allow-list, the browser considers the request legitimate. However, it does not re-validate against the terminal destination of a 302 redirect . By the time the browser reaches temu.com, it has inherited the trust granted to Taboola. The Forensic Trace During a February 202...",
-      "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hidden-passenger-how-taboola-routes-logged-in-banking-sessions-to-temu-apr-16-2026-data-pr",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks Apr 16, 2026 Application Security / Threat Intelligence A \"novel\" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote access trojan called PHANTOMPULSE in attacks targeting individuals in the financial and cryptocurrency sectors. Dubbed REF6598 by Elastic Security Labs, the activity has been found to leverage elaborate social engineering tactics through LinkedIn and Telegram to breach both Windows and macOS systems, approaching prospective individuals under the guise of a venture capital firm and then moving the conversation to a Telegram group where several purported partners are present. The Telegram group chat is engineered to lend the operation a smidgen of credibility, with the members discussing topics related to financial services and cryptocurrency liquidity solutions. The target is then instructed to use Obsidian to access what appears to be a shared dashboard by connecting to...",
-      "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "obsidian-plugin-abuse-delivers-phantompulse-rat-in-targeted-finance-crypto-attacks-apr-16-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "New ATHR vishing platform uses AI voice agents for automated attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks",
+      "slug": "operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-16",
-      "title": "Most \"AI SOCs\" Are Just Faster Triage. That's Not Enough.",
-      "link": "https://www.bleepingcomputer.com/news/security/most-ai-socs-are-just-faster-triage-thats-not-enough/",
+      "discovered": "2026-04-17",
+      "title": "ZionSiphon malware designed to sabotage water treatment systems",
+      "link": "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "most-ai-socs-are-just-faster-triage-that-s-not-enough",
+      "slug": "zionsiphon-malware-designed-to-sabotage-water-treatment-systems",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-16",
-      "title": "Cisco says critical Webex Services flaw requires customer action",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
+      "discovered": "2026-04-17",
+      "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisco-says-critical-webex-services-flaw-requires-customer-action",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "Data breach at edtech giant McGraw Hill affects 13.5 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "data-breach-at-edtech-giant-mcgraw-hill-affects-13-5-million-accounts",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-16",
-      "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
-      "link": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "us-nationals-behind-dprk-it-worker-laptop-farm-sent-to-prison",
+      "slug": "hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face",
       "source": "BleepingComputer"
     }
   ]

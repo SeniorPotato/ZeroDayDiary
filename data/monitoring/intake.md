@@ -3564,3 +3564,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** FTC Stops Operation that Allegedly Targeted People Seeking Student Loan Debt Relief
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation Apr 17, 2026 Vulnerability / Enterprise Security A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the vulnerability, tracked as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by April 30, 2026. CVE-2026-34197 has been described as a case of improper input validation that could lead to code injection, effectively allowing an attacker to execute arbitrary code on susceptible installations. According to Horizon3.ai's Naveen Sunkavally, CVE-2026-34197 has been "hiding in plain sight" for 13 years. "An attacker can invoke a management operation through ActiveMQ's Jolokia API to trick the broker into fetching a remote configuration file and running arbitrary OS c...
+- **Source URL:** https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic Apr 16, 2026 Botnet / Cryptomining Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix since at least December 2025. "PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections," Cisco Talos researcher Chetan Raghuprasad said in a report published today. "PowMix embeds the encrypted heartbeat data along with unique identifiers of the victim machine into the C2 URL paths, mimicking legitimate REST API URLs. PowMix has the capability to remotely update the new C2 domain to the botnet configuration file dynamically." The attack chain begins with a malicious ZIP file, likely delivered via a phishing email, to activate a multi-stage infection chain that drops PowMix. Specifically, it involves a Windows Shortcut (LNK) that's used to launch a PowerShell loader, which ...
+- **Source URL:** https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Operation PowerOFF identifies 75k DDoS users, takes down 53 domains
+- **Source URL:** https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** ZionSiphon malware designed to sabotage water treatment systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-17
+- **Headline / event:** Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
