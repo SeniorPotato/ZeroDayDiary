@@ -3724,3 +3724,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-18
+- **Headline / event:** $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims Apr 18, 2026 Money Laundering / Regulatory Compliance Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1 billion rubles in user funds. "Digital forensic evidence and the nature of the attack point to an unprecedented level of resources and technological sophistication – capabilities typically available exclusively to the agencies of hostile states," the company said in a statement posted on its website. "Preliminary findings suggest the attack was coordinated with the specific objective of inflicting direct damage upon Russia's financial sovereignty." A spokesperson for the company went on to state that the exchange's infrastructure had been under attack since ...
+- **Source URL:** https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-18
+- **Headline / event:** Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet Apr 18, 2026 IoT Security / Vulnerability Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai -botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42. The attack targeting TBK DVR devices has been found to exploit CVE-2024-3721 (CVSS score: 6.3), a medium-severity command injection vulnerability affecting TBK DVR-4104 and DVR-4216 digital video recording devices, to deliver a Mirai variant called Nexcorium . "IoT devices are increasingly prime targets for large-scale attacks due to their widespread use, lack of patching, and often weak security settings," security researcher Vincent Li said . "Threat actors continue exploiting known vulnerabilities to gain initial access and deploy malware that can persist, spread, and cause distributed denial-of-service (DDoS) attacks." This is not the first time the vulnerability has been exploited in the wild. Over the past year, the ...
+- **Source URL:** https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
