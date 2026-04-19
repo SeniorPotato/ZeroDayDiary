@@ -1,24 +1,5 @@
 {
-  "generatedAt": "2026-04-19T03:51:17.617Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-19T035117Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-04-19",
-      "title": "Critical flaw in Protobuf library enables JavaScript code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "critical-flaw-in-protobuf-library-enables-javascript-code-execution",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-04-19",
-      "title": "NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support",
-      "link": "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nakivo-v11-2-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-9-0-support",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-04-19T13:35:47.393Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-19T133547Z.md",
+  "candidates": []
 }
