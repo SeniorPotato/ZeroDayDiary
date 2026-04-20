@@ -3788,3 +3788,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** Is “Satoshi Nakamoto” Really Adam Back?
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** ⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More Apr 20, 2026 Cybersecurity / Hacking Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push payloads. It’s not breaking systems—it’s bending trust. There’s also a shift in how attacks run. Slower check-ins, multi-stage payloads, andmore code kept in memory. Attackers lean on real tools and normal workflows instead of custom builds. Some cases hint at supply-chain spread, where one weak link reaches further than expected. Go through the whole recap. The pattern across access, execution, and control only shows up when you see it all together. ⚡ Threat of the Week Vercel Discloses Data Breach —Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to "certain" internal Vercel systems. The incident originated f...
+- **Source URL:** https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** Why Most AI Deployments Stall After the Demo Apr 20, 2026 Artificial Intelligence / Privacy The fastest way to fall in love with an AI tool is to watch the demo. Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of a new era for your team. But most AI initiatives don't fail because of bad technology. They stall because what worked in the demo doesn't survive contact with real operations. The gap between a controlled demonstration and day-to-day reality is where teams run into trouble. Most AI product demos are built to highlight potential, not friction. They use clean data, predictable inputs, carefully crafted prompts, and well-understood use cases. Production environments don't look like that. In real operations, data is messy, inputs are inconsistent, systems are fragmented, and context is incomplete. Latency matters. Edge cases quickly outnumber ideal ones. This is why teams often see an initial burst of enthusiasm followed by a slowdown once they try to deploy AI more broadly. W...
+- **Source URL:** https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain Apr 20, 2026 Artificial Intelligence / Vulnerability Cybersecurity researchers have discovered a critical "by design" weakness in the Model Context Protocol's ( MCP ) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain. "This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to sensitive user data, internal databases, API keys, and chat histories," OX Security researchers Moshe Siman Tov Bustan, Mustafa Naamnih, Nir Zadok, and Roni Bar said in an analysis published last week. The cybersecurity company said the systemic vulnerability is baked into Anthropic's official MCP software development kit (SDK) across any supported language, including Python, TypeScript, Java, and Rust. In all, it affects more than 7,000 publicly accessible servers and software packages totaling more than 150 million downloads. At issue are unsafe defaults in...
+- **Source URL:** https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems Apr 20, 2026 Malware / Threat Intelligence Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems. The malware has been codenamed ZionSiphon by Darktrace, highlighting its ability to set up persistence, tamper with local configuration files, and scan for operational technology (OT)-relevant services on the local subnet. According to details on VirusTotal, the sample was first detected in the wild on June 29, 2025, right after the Twelve-Day War between Iran and Israel that took place between June 13 and 24. "The malware combines privilege escalation, persistence, USB propagation, and ICS scanning with sabotage capabilities aimed at chlorine and pressure controls, highlighting growing experimentation with politically motivated critical infrastructure attacks against industrial operational technologies globally," the company said . ZionSiphon, currently in an unfinished state, is characterized by it...
+- **Source URL:** https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** The backup myth that is putting businesses at risk
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-20
+- **Headline / event:** British Scattered Spider hacker pleads guilty to crypto theft charges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
