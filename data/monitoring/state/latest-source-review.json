@@ -1,5 +1,42 @@
 {
-  "generatedAt": "2026-04-19T13:35:47.393Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-19T133547Z.md",
-  "candidates": []
+  "generatedAt": "2026-04-20T03:53:07.538Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-20T035307Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-04-20",
+      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials Apr 20, 2026 Cloud Security / Data Breach Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the company. \"The attacker used that access to take over the employee's Vercel Google Workspace account, which enabled them to gain access to some Vercel environments and environment variables that were not marked as 'sensitive,'\" the company said in a bulletin. Vercel said environment variables marked as \"sensitive\" are stored in an encrypted manner that prevents them from being read, and that there is currently no evidence suggesting that those values were accessed by the attacker. It described the threat actor behind the incident as \"sophisticated\" based on their \"operational velocity and detailed understanding of Vercel's syste...",
+      "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "vercel-breach-tied-to-context-ai-hack-exposes-limited-customer-credentials-apr-20-2026-clo",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-20",
+      "title": "Apple account change alerts abused to send phishing emails",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "apple-account-change-alerts-abused-to-send-phishing-emails",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-20",
+      "title": "NIST to stop rating non-priority flaws due to volume increase",
+      "link": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "nist-to-stop-rating-non-priority-flaws-due-to-volume-increase",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-20",
+      "title": "Vercel confirms breach as hackers claim to be selling stolen data",
+      "link": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data",
+      "source": "BleepingComputer"
+    }
+  ]
 }
