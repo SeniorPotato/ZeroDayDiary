@@ -223,7 +223,9 @@
       "https://www.schneier.com/blog/archives/2026/04/how-hackers-are-thinking-about-ai.html",
       "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html",
       "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html",
-      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-new-giant-squid-video-2.html"
+      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-new-giant-squid-video-2.html",
+      "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html",
+      "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -405,7 +407,14 @@
       "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
       "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
       "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
-      "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html"
+      "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+      "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
+      "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
+      "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+      "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
+      "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -614,9 +623,10 @@
       "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
       "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
       "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
-      "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
-      "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
-      "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/"
+      "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
+      "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/",
+      "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
+      "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/"
     ]
   }
 }
