@@ -3844,3 +3844,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** CISA Adds Eight Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** ​​Supply Chain Compromise Impacts Axios Node Package Manager​
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Court Orders Operator of Timeshare Exit Scheme to Pay $140 Million Related to FTC Allegations the Scheme Took Millions from Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/court-orders-operator-timeshare-exit-scheme-pay-140-million-related-ftc-allegations-scheme-took
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files Apr 20, 2026 Open Source / Server Security A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-5760 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code. SGLang is a high-performance, open-source serving framework for large language models and multimodal models. The official GitHub project has been forked over 5,500 times and starred 26,100 times. According to the CERT Coordination Center (CERT/CC), the vulnerability impacts the reranking endpoint "/v1/rerank," allowing an attacker to achieve arbitrary code execution in the context of the SGLang service by means of a specially crafted GPT-Generated Unified Format ( GGUF ) model file. "An attacker exploits this vulnerability by creating a malicious GPT Generated Unified Format (GGUF) model file with a crafted tokenizer.chat_temp...
+- **Source URL:** https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** The Gentlemen ransomware now uses SystemBC for bot-powered attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Microsoft: Teams increasingly abused in helpdesk impersonation attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** KelpDAO suffers $290 million heist tied to Lazarus hackers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** China's Apple App Store infiltrated by crypto-stealing wallet apps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Seiko USA website defaced as hacker claims customer data theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
