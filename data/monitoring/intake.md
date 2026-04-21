@@ -3916,3 +3916,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** 5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time Apr 21, 2026 Data Protection / Security Automation Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage. The root cause of slow MTTR is almost never "not enough analysts." It is almost always the same structural problem: threat intelligence that exists outside the workflow. Feeds that require manual lookup. Reports that live in a shared drive. Enrichment that happens in a separate tab. Every handoff costs minutes; over the course of a workday, those minutes become hours. Mature SOCs have collapsed those handoffs. Their intelligence is embedded in the workflow itself at the exact moment a decision needs to be made. Below are the five places where separation matters most. 1. Detection: Catching Threats Before They Become Incidents In many SOCs, detection begins only when an alert fires. By that point, the attacker may already have a foothol...
+- **Source URL:** https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs Apr 21, 2026 Mobile Security / Artificial Intelligence Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. "The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated," ESET security researcher Lukáš Štefanko said in a report shared with The Hacker News. "As with previous iterations of NGate, the malicious code allows the attackers to transfer NFC data from the victim's payment card to their own device and use it for contactless ATM cash-outs and unauthorized payments." In addition, the malicious payload is capable of capturing the victim's payment card PIN and exfiltrating it to the threat actor's command-and-control (C2) server. NGate, also known as NFSkate, was first publicly documented by the Slovakian cybersecurity vendor in August 2024, detailing its ability to carry out relay ...
+- **Source URL:** https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks Apr 21, 2026 Incident Response / Artificial Intelligence The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed: stolen credentials. Identity-based attacks remain a dominant initial access vector in breaches today. Attackers obtain valid credentials through credential stuffing from prior breach databases, password spraying against exposed services, or phishing campaigns — and use them to walk through the front door. No exploits needed. Just a valid username and password. What makes this difficult to defend against is how unremarkable the initial access looks. A successful login from a legitimate credential doesn't trigger the same alarms as a port scan or a malware callback. The attacker looks like an employee. Once inside, they dump and crack additional passwords, reuse those credentials to move laterally, and expand their foothold across the environment....
+- **Source URL:** https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution Apr 21, 2026 Vulnerability / Artificial Intelligence Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since patched, combines Antigravity's permitted file-creation capabilities with an insufficient input sanitization in Antigravity's native file-searching tool, find_by_name, to bypass the program's Strict Mode , a restrictive security configuration that limits network access, prevents out-of-workspace writes, and ensures all commands are being run within a sandbox context . "By injecting the -X (exec-batch) flag through the Pattern parameter [in the find_by_name tool], an attacker can force fd to execute arbitrary binaries against workspace files," Pillar Security researcher Dan Lisichkin said in an analysis. "Combined with Antigravity's ability to create files as a permitted action, this enables a full attack chain: stage a malicious script, then trigger ...
+- **Source URL:** https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines Apr 21, 2026 Network Security / Threat Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation. The list of vulnerabilities is as follows - CVE-2023-27351 (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut NG/MF that could allow an attacker to bypass authentication on affected installations via the SecurityRequestFilter class. CVE-2024-27199 (CVSS score: 7.3) - A relative path traversal vulnerability in JetBrains TeamCity that could allow an attacker to perform limited admin actions. CVE-2025-2749 (CVSS score: 7.2) - A path traversal vulnerability in Kentico Xperience that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations. CVE-2025-32975 (CVSS score: 10.0) - An improper authentication vulnerability in Quest KACE Systems Ma...
+- **Source URL:** https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction
+- **Source URL:** https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** UK probes Telegram, teen chat sites over CSAM sharing concerns
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** CISA flags new SD-WAN flaw as actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Actively exploited Apache ActiveMQ flaw impacts 6,400 servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-21
+- **Headline / event:** Former ransomware negotiator pleads guilty to BlackCat attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

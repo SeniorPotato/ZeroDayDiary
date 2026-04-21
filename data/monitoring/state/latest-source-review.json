@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-04-21T03:46:59.867Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-21T034659Z.md",
+  "generatedAt": "2026-04-21T14:10:19.174Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-21T141019Z.md",
   "candidates": [
     {
       "discovered": "2026-04-21",
-      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
+      "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time Apr 21, 2026 Data Protection / Security Automation Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage. The root cause of slow MTTR is almost never \"not enough analysts.\" It is almost always the same structural problem: threat intelligence that exists outside the workflow. Feeds that require manual lookup. Reports that live in a shared drive. Enrichment that happens in a separate tab. Every handoff costs minutes; over the course of a workday, those minutes become hours. Mature SOCs have collapsed those handoffs. Their intelligence is embedded in the workflow itself at the exact moment a decision needs to be made. Below are the five places where separation matters most. 1. Detection: Catching Threats Before They Become Incidents In many SOCs, detection begins only when an alert fires. By that point, the attacker may already have a foothol...",
+      "link": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-eight-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-21",
-      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "supply-chain-compromise-impacts-axios-node-package-manager",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-04-21",
-      "title": "Court Orders Operator of Timeshare Exit Scheme to Pay $140 Million Related to FTC Allegations the Scheme Took Millions from Consumers",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/court-orders-operator-timeshare-exit-scheme-pay-140-million-related-ftc-allegations-scheme-took",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "court-orders-operator-of-timeshare-exit-scheme-to-pay-140-million-related-to-ftc-allegatio",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-04-21",
-      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files Apr 20, 2026 Open Source / Server Security A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-5760 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code. SGLang is a high-performance, open-source serving framework for large language models and multimodal models. The official GitHub project has been forked over 5,500 times and starred 26,100 times. According to the CERT Coordination Center (CERT/CC), the vulnerability impacts the reranking endpoint \"/v1/rerank,\" allowing an attacker to achieve arbitrary code execution in the context of the SGLang service by means of a specially crafted GPT-Generated Unified Format ( GGUF ) model file. \"An attacker exploits this vulnerability by creating a malicious GPT Generated Unified Format (GGUF) model file with a crafted tokenizer.chat_temp...",
-      "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "sglang-cve-2026-5760-cvss-9-8-enables-rce-via-malicious-gguf-model-files-apr-20-2026-open-",
+      "slug": "5-places-where-mature-socs-keep-mttr-fast-and-others-waste-time-apr-21-2026-data-protectio",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-21",
-      "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
+      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs Apr 21, 2026 Mobile Security / Artificial Intelligence Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. \"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report shared with The Hacker News. \"As with previous iterations of NGate, the malicious code allows the attackers to transfer NFC data from the victim's payment card to their own device and use it for contactless ATM cash-outs and unauthorized payments.\" In addition, the malicious payload is capable of capturing the victim's payment card PIN and exfiltrating it to the threat actor's command-and-control (C2) server. NGate, also known as NFSkate, was first publicly documented by the Slovakian cybersecurity vendor in August 2024, detailing its ability to carry out relay ...",
+      "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks",
+      "slug": "ngate-campaign-targets-brazil-trojanizes-handypay-to-steal-nfc-data-and-pins-apr-21-2026-m",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-21",
+      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks Apr 21, 2026 Incident Response / Artificial Intelligence The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed: stolen credentials. Identity-based attacks remain a dominant initial access vector in breaches today. Attackers obtain valid credentials through credential stuffing from prior breach databases, password spraying against exposed services, or phishing campaigns — and use them to walk through the front door. No exploits needed. Just a valid username and password. What makes this difficult to defend against is how unremarkable the initial access looks. A successful login from a legitimate credential doesn't trigger the same alarms as a port scan or a malware callback. The attacker looks like an employee. Once inside, they dump and crack additional passwords, reuse those credentials to move laterally, and expand their foothold across the environment....",
+      "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "no-exploit-needed-how-attackers-walk-through-the-front-door-via-identity-based-attacks-apr",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-21",
+      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution Apr 21, 2026 Vulnerability / Artificial Intelligence Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since patched, combines Antigravity's permitted file-creation capabilities with an insufficient input sanitization in Antigravity's native file-searching tool, find_by_name, to bypass the program's Strict Mode , a restrictive security configuration that limits network access, prevents out-of-workspace writes, and ensures all commands are being run within a sandbox context . \"By injecting the -X (exec-batch) flag through the Pattern parameter [in the find_by_name tool], an attacker can force fd to execute arbitrary binaries against workspace files,\" Pillar Security researcher Dan Lisichkin said in an analysis. \"Combined with Antigravity's ability to create files as a permitted action, this enables a full attack chain: stage a malicious script, then trigger ...",
+      "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "google-patches-antigravity-ide-flaw-enabling-prompt-injection-code-execution-apr-21-2026-v",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-21",
+      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines Apr 21, 2026 Network Security / Threat Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation. The list of vulnerabilities is as follows - CVE-2023-27351 (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut NG/MF that could allow an attacker to bypass authentication on affected installations via the SecurityRequestFilter class. CVE-2024-27199 (CVSS score: 7.3) - A relative path traversal vulnerability in JetBrains TeamCity that could allow an attacker to perform limited admin actions. CVE-2025-2749 (CVSS score: 7.2) - A path traversal vulnerability in Kentico Xperience that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations. CVE-2025-32975 (CVSS score: 10.0) - An improper authentication vulnerability in Quest KACE Systems Ma...",
+      "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-8-exploited-flaws-to-kev-sets-april-may-2026-federal-deadlines-apr-21-2026-netwo",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-21",
+      "title": "Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction",
+      "link": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-21",
-      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
+      "title": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks",
+      "slug": "uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-21",
-      "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
+      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers",
+      "slug": "cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-21",
-      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
-      "link": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
+      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
+      "link": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "china-s-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps",
+      "slug": "actively-exploited-apache-activemq-flaw-impacts-6-400-servers",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-21",
-      "title": "Seiko USA website defaced as hacker claims customer data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "seiko-usa-website-defaced-as-hacker-claims-customer-data-theft",
+      "slug": "former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks",
       "source": "BleepingComputer"
     }
   ]
