@@ -3996,3 +3996,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** ‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty
+- **Source URL:** https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation Apr 21, 2026 Botnet / Endpoint Security Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC . According to new research published by Check Point, the command-and-control (C2 or C&C) server linked to SystemBC has led to the discovery of a botnet of more than 1,570 victims. "SystemBC establishes SOCKS5 network tunnels within the victim’s environment and connects to its C&C server using a custom RC4‑encrypted protocol," Check Point said. It can also download and execute additional malware, with payloads either written to disk or injected directly into memory. Since its emergence in July 2025, The Gentlemen has quickly established itself as one of the most prolific ransomware groups, claiming more than 320 victims on its data leak site. Operating under a classic double-extortion model, the group is versatile as it's sophisticated, exhibiting capabilities to target Windows, Linux, NAS, and BSD ...
+- **Source URL:** https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** 22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters Apr 21, 2026 Network Security / Vulnerability Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them. The vulnerabilities have been collectively codenamed BRIDGE:BREAK by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed online globally. "Some of these vulnerabilities allow attackers to take full control of mission-critical devices connected via serial links," the cybersecurity company said in a report shared with The Hacker News. Serial-to-IP converters are hardware devices that enable users to remotely access, control, and manage any serial device over an IP network or the internet by "bridging" legacy applications and industrial control systems (ICS) that operate over TCP/IP. At a high level, as many as eight security flaws have been discovered in Lantronix products (EDS3000PS Seri...
+- **Source URL:** https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023 Apr 21, 2026 Insider Threat / Cybercrime A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023. Angelo Martino , 41, of Land O'Lakes, Florida, teamed up with the operators of the BlackCat ransomware starting in April 2023 to assist the e-crime gang in extracting higher amounts as ransoms. "Working as a negotiator on behalf of five different ransomware victims, Martino provided BlackCat attackers with confidential information about the negotiating position and strategy of his company's clients without the clients' or his employer’s knowledge or permission," the U.S. Department of Justice (DoJ) said in a Monday announcement. The information, which included the victims' insurance policy limits and internal negotiation positions, maximized the ransoms they were required to pay. Martino was financially compensated in exchange for providing the details. Martino, who was charged last month, also admitted to co...
+- **Source URL:** https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** New Lotus data wiper used against Venezuelan energy, utility firms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** French govt agency confirms breach as hacker offers to sell data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
