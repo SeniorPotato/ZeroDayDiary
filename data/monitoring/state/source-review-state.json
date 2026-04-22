@@ -79,7 +79,9 @@
       "https://www.enisa.europa.eu/news/cyber-unbeatable-team-europe-aces-the-2025-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/public-administration-increasingly-targeted-by-ddos-attacks",
       "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives",
-      "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets"
+      "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
+      "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
+      "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -177,7 +179,6 @@
       "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
       "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/"
     ],
     "schneier-on-security": [
@@ -229,7 +230,9 @@
       "https://www.schneier.com/blog/archives/2026/04/defense-in-depth-medieval-style.html",
       "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html",
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-new-giant-squid-video-2.html",
-      "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html"
+      "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html",
+      "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html",
+      "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -424,9 +427,16 @@
       "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
       "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
       "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
-      "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
-      "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
-      "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html"
+      "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
+      "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+      "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
+      "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+      "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
+      "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+      "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
+      "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -650,8 +660,14 @@
       "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
       "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
       "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
-      "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
-      "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/"
+      "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
+      "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
+      "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
+      "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
+      "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/"
     ]
   }
 }
