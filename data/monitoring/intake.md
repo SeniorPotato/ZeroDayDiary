@@ -4044,3 +4044,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Assess your National Cybersecurity Capabilities and Maturity with the updated ENISA Framework
+- **Source URL:** https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** ICE Uses Graphite Spyware
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack Apr 22, 2026 Malware / Critical Infrastructure Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper , the novel file wiper has been used in a destructive campaign targeting the energy and utilities sector in Venezuela, per findings from Kaspersky. "Two batch scripts are responsible for initiating the destructive phase of the attack and preparing the environment for executing the final wiper payload," the Russian cybersecurity vendor said . "These scripts coordinate the start of the operation across the network, weaken system defenses, and disrupt normal operations before retrieving, deobfuscating, and executing a previously unknown wiper." Once deployed, the wiper erases recovery mechanisms, overwrites the content of physical drives, and systematically deletes files across affected volumes, effectively leaving the system in an inoperable state. No extortion or paymen...
+- **Source URL:** https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Toxic Combinations: When Cross-App Permissions Stack into Risk Apr 22, 2026 SaaS Security / AI Agents On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more worrying part sat inside the private messages. Some of those conversations held plaintext third-party credentials, including OpenAI API keys shared between agents, stored in the same unencrypted table as the tokens needed to hijack the agent itself. This is the shape of a toxic combination: a permission breakdown between two or more applications, bridged by an AI agent, integration, or OAuth grant, that no single application owner ever authorized as its own risk surface. Moltbook's agents sat at that bridge, carrying credentials for their host platform and for the outside services their users had wired them into, in a place that neither platform owner had line of sight into. Most SaaS access reviews still examine one application at a time, which is...
+- **Source URL:** https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug Apr 22, 2026 Vulnerability / Cryptography Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372 , carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has been credited with discovering and reporting the flaw. "Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network," Microsoft said in a Tuesday advisory. "An attacker who successfully exploited this vulnerability could gain SYSTEM privileges." The tech giant said an attacker could abuse the vulnerability to disclose files and modify data, but emphasized that successful exploitation hinges on three prerequisites - The application uses Microsoft.AspNetCore.DataProtection 10.0.6 from NuGet (either directly or through a package that depends on it, such as Microsoft.AspNetCore.DataProtection.S...
+- **Source URL:** https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles Apr 22, 2026 Cyber Espionage / Malware Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector. "The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations, and session management, indicating a continued espionage-focused capability set rather than financially motivated objectives," Acronis researchers Subhajeet Singha and Santiago Pontiroli said in an analysis. The use of LOTUSLITE was previously observed in spear-phishing attacks targeting U.S. government and policy entities using decoys associated with the geopolitical developments between the U.S. and Venezuela. The activity was attributed with medium confidence to a Chinese nation-state group tracked as Mustang Panda. The latest activity flagged by Acronis involves deploying an evolved version of LOTUSLITE that demonstrates "incremental improvements" over ...
+- **Source URL:** https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape Apr 22, 2026 Vulnerability / Container Security A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752 , is rated 9.3 on the CVSS scoring system. "Sandbox escape vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal," according to a description of the flaw in CVE.org. Developed by Cohere AI as an open-source project, Terrarium is a Python sandbox that's used as a Docker-deployed container for running untrusted code written by users or generated with assistance from a large language model (LLM). Notably, Terrarium runs on Pyodide, a Python distribution for the browser and Node.js, enabling it to support standard Python packages. The project has been forked 56 times and starred 312 times. According to the CERT Coordination Center (CERT/CC), the root cause relates to a JavaScript prototype chain t...
+- **Source URL:** https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** New npm supply-chain attack self-spreads to steal auth tokens
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** New GoGra malware for Linux uses Microsoft Graph API for comms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-22
+- **Headline / event:** Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

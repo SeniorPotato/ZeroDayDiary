@@ -1,59 +1,104 @@
 {
-  "generatedAt": "2026-04-22T03:43:40.152Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-22T034340Z.md",
+  "generatedAt": "2026-04-22T14:11:00.597Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-22T141100Z.md",
   "candidates": [
     {
       "discovered": "2026-04-22",
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+      "title": "Assess your National Cybersecurity Capabilities and Maturity with the updated ENISA Framework",
+      "link": "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "scattered-spider-member-tylerb-pleads-guilty",
-      "source": "Krebs on Security"
+      "slug": "assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framew",
+      "source": "ENISA News"
     },
     {
       "discovered": "2026-04-22",
-      "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation Apr 21, 2026 Botnet / Endpoint Security Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC . According to new research published by Check Point, the command-and-control (C2 or C&C) server linked to SystemBC has led to the discovery of a botnet of more than 1,570 victims. \"SystemBC establishes SOCKS5 network tunnels within the victim’s environment and connects to its C&C server using a custom RC4‑encrypted protocol,\" Check Point said. It can also download and execute additional malware, with payloads either written to disk or injected directly into memory. Since its emergence in July 2025, The Gentlemen has quickly established itself as one of the most prolific ransomware groups, claiming more than 320 victims on its data leak site. Operating under a classic double-extortion model, the group is versatile as it's sophisticated, exhibiting capabilities to target Windows, Linux, NAS, and BSD ...",
-      "link": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
+      "title": "ICE Uses Graphite Spyware",
+      "link": "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "systembc-c2-server-reveals-1-570-victims-in-the-gentlemen-ransomware-operation-apr-21-2026",
+      "slug": "ice-uses-graphite-spyware",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-04-22",
+      "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack Apr 22, 2026 Malware / Critical Infrastructure Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper , the novel file wiper has been used in a destructive campaign targeting the energy and utilities sector in Venezuela, per findings from Kaspersky. \"Two batch scripts are responsible for initiating the destructive phase of the attack and preparing the environment for executing the final wiper payload,\" the Russian cybersecurity vendor said . \"These scripts coordinate the start of the operation across the network, weaken system defenses, and disrupt normal operations before retrieving, deobfuscating, and executing a previously unknown wiper.\" Once deployed, the wiper erases recovery mechanisms, overwrites the content of physical drives, and systematically deletes files across affected volumes, effectively leaving the system in an inoperable state. No extortion or paymen...",
+      "link": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "lotus-wiper-malware-targets-venezuelan-energy-systems-in-destructive-attack-apr-22-2026-ma",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-22",
-      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters Apr 21, 2026 Network Security / Vulnerability Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them. The vulnerabilities have been collectively codenamed BRIDGE:BREAK by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed online globally. \"Some of these vulnerabilities allow attackers to take full control of mission-critical devices connected via serial links,\" the cybersecurity company said in a report shared with The Hacker News. Serial-to-IP converters are hardware devices that enable users to remotely access, control, and manage any serial device over an IP network or the internet by \"bridging\" legacy applications and industrial control systems (ICS) that operate over TCP/IP. At a high level, as many as eight security flaws have been discovered in Lantronix products (EDS3000PS Seri...",
-      "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
+      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk Apr 22, 2026 SaaS Security / AI Agents On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more worrying part sat inside the private messages. Some of those conversations held plaintext third-party credentials, including OpenAI API keys shared between agents, stored in the same unencrypted table as the tokens needed to hijack the agent itself. This is the shape of a toxic combination: a permission breakdown between two or more applications, bridged by an AI agent, integration, or OAuth grant, that no single application owner ever authorized as its own risk surface. Moltbook's agents sat at that bridge, carrying credentials for their host platform and for the outside services their users had wired them into, in a place that neither platform owner had line of sight into. Most SaaS access reviews still examine one application at a time, which is...",
+      "link": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "22-bridge-break-flaws-expose-thousands-of-lantronix-and-silex-serial-to-ip-converters-apr-",
+      "slug": "toxic-combinations-when-cross-app-permissions-stack-into-risk-apr-22-2026-saas-security-ai",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-22",
-      "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023 Apr 21, 2026 Insider Threat / Cybercrime A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023. Angelo Martino , 41, of Land O'Lakes, Florida, teamed up with the operators of the BlackCat ransomware starting in April 2023 to assist the e-crime gang in extracting higher amounts as ransoms. \"Working as a negotiator on behalf of five different ransomware victims, Martino provided BlackCat attackers with confidential information about the negotiating position and strategy of his company's clients without the clients' or his employer’s knowledge or permission,\" the U.S. Department of Justice (DoJ) said in a Monday announcement. The information, which included the victims' insurance policy limits and internal negotiation positions, maximized the ransoms they were required to pay. Martino was financially compensated in exchange for providing the details. Martino, who was charged last month, also admitted to co...",
-      "link": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
+      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug Apr 22, 2026 Vulnerability / Cryptography Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372 , carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has been credited with discovering and reporting the flaw. \"Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network,\" Microsoft said in a Tuesday advisory. \"An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.\" The tech giant said an attacker could abuse the vulnerability to disclose files and modify data, but emphasized that successful exploitation hinges on three prerequisites - The application uses Microsoft.AspNetCore.DataProtection 10.0.6 from NuGet (either directly or through a package that depends on it, such as Microsoft.AspNetCore.DataProtection.S...",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ransomware-negotiator-pleads-guilty-to-aiding-blackcat-attacks-in-2023-apr-21-2026-insider",
+      "slug": "microsoft-patches-critical-asp-net-core-cve-2026-40372-privilege-escalation-bug-apr-22-202",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-04-22",
-      "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
+      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles Apr 22, 2026 Cyber Espionage / Malware Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector. \"The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations, and session management, indicating a continued espionage-focused capability set rather than financially motivated objectives,\" Acronis researchers Subhajeet Singha and Santiago Pontiroli said in an analysis. The use of LOTUSLITE was previously observed in spear-phishing attacks targeting U.S. government and policy entities using decoys associated with the geopolitical developments between the U.S. and Venezuela. The activity was attributed with medium confidence to a Chinese nation-state group tracked as Mustang Panda. The latest activity flagged by Acronis involves deploying an evolved version of LOTUSLITE that demonstrates \"incremental improvements\" over ...",
+      "link": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms",
+      "slug": "mustang-panda-s-new-lotuslite-variant-targets-india-banks-south-korea-policy-circles-apr-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-22",
+      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape Apr 22, 2026 Vulnerability / Container Security A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752 , is rated 9.3 on the CVSS scoring system. \"Sandbox escape vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal,\" according to a description of the flaw in CVE.org. Developed by Cohere AI as an open-source project, Terrarium is a Python sandbox that's used as a Docker-deployed container for running untrusted code written by users or generated with assistance from a large language model (LLM). Notably, Terrarium runs on Pyodide, a Python distribution for the browser and Node.js, enabling it to support standard Python packages. The project has been forked 56 times and starred 312 times. According to the CERT Coordination Center (CERT/CC), the root cause relates to a JavaScript prototype chain t...",
+      "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cohere-ai-terrarium-sandbox-flaw-enables-root-code-execution-container-escape-apr-22-2026-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-04-22",
+      "title": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-04-22",
-      "title": "French govt agency confirms breach as hacker offers to sell data",
-      "link": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data",
+      "slug": "new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-22",
+      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-22",
+      "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "over-1-300-microsoft-sharepoint-servers-vulnerable-to-spoofing-attacks",
       "source": "BleepingComputer"
     }
   ]
