@@ -34,7 +34,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
       "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -52,7 +53,9 @@
       "https://www.edpb.europa.eu/news/news/2026/edpb-conference-cross-regulatory-cooperation-what-we-learned_en",
       "https://www.edpb.europa.eu/news/news/2026/edpb-annual-report-2025-supporting-stakeholders-through-guidance-and-dialogue_en",
       "https://www.edpb.europa.eu/news/news/2026/enhancing-compliance-and-consistency-edpb-adopts-dpia-template_en",
-      "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en"
+      "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en",
+      "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en",
+      "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en"
     ],
     "cisa-kev": [
       "https://www.cve.org/CVERecord?id=CVE-2026-1603",
@@ -132,7 +135,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-stops-operation-allegedly-targeted-people-seeking-student-loan-debt-relief",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-doj-extend-deadline-public-comment-guidance-business-collaborations",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/court-orders-operator-timeshare-exit-scheme-pay-140-million-related-ftc-allegations-scheme-took",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-sues-stop-deceptive-health-care-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-sues-stop-deceptive-health-care-scheme"
     ],
     "iso-insights": [
@@ -234,7 +236,9 @@
       "https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html",
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-new-giant-squid-video-2.html",
       "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html",
-      "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html"
+      "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html",
+      "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html",
+      "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -437,9 +441,18 @@
       "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
       "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
       "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html",
-      "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-      "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-      "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html"
+      "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+      "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+      "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
+      "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+      "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+      "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
+      "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -671,10 +684,12 @@
       "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
       "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
       "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/",
-      "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
-      "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
-      "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-      "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/"
+      "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
+      "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
+      "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/"
     ]
   }
 }
