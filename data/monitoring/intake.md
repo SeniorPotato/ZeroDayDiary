@@ -4204,3 +4204,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Defending Against China-Nexus Covert Networks of Compromised Devices
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Stakeholder event on competition and data protection: save the date
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** FBI Extracts Deleted Signal Messages from iPhone Notification Database
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign Apr 23, 2026 Supply Chain Attack / Open Source Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign , according to new findings from Socket. "The affected package version appears to be @bitwarden/cli@2026.4.0 , and the malicious code was published in 'bw1.js,' a file included in the package contents," the application security company said . "The attack appears to have leveraged a compromised GitHub Action in Bitwarden's CI/CD pipeline, consistent with the pattern seen across other affected repositories in this campaign." In a post on X, JFrog said the rogue version of the package "steals GitHub/npm tokens, .ssh, .env, shell history, GitHub Actions and cloud secrets, then exfiltrates the data to private domains and as GitHub commits." While the malicious version is no longer available for download from npm, Socket said the compromise follows the same GitHub Actions supply chain vector identified in the Checkmarx campaign. As ...
+- **Source URL:** https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories Apr 23, 2026 Hacking News / Cybersecurity News You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work, giving attackers easy access. AI tools are also part of the problem now. They trust bad input and take real actions, which makes the damage bigger. Then there are quieter issues. Apps take data they should not. Devices behave in strange ways. Attackers keep testing what they can get away with. No noise. Just ongoing damage. Here is the list for this week’s ThreatsDay Bulletin. State-backed crypto heist North Korea Likely Behind KelpDAP $290M Crypto Heist Inter-blockchain communication protocol LayerZero has revealed that North Korean thr...
+- **Source URL:** https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed Apr 23, 2026 Artificial Intelligence / Enterprise Security Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly. Well, that world is already here. Thanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window , and it means your standard patching routine is officially too slow. If you are fighting AI-speed attacks with manual-speed defenses, your systems are at a breaking point. It’s time to rethink everything. Join our highly anticipated webinar featuring expert guest Ofer Gayer, Vice President of Product at Miggo Security, and learn how to beat the bots at their own game: Mythos and the Collapsing Exploit Window: Rethink Vulnerability Prioritization at AI Speed . Here is exactly what you will walk away with: The Truth About Mythos: We are cutting through the hype. Learn what Mythos actually represents and w...
+- **Source URL:** https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? Apr 23, 2026 Artificial Intelligence / Exposure Management Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can . Mythos Preview, the model that led to Project Glasswing, found vulnerabilities across every major operating system and browser. Some of these bugs had survived decades of human audits, aggressive fuzzing, and open-source scrutiny. One had been sitting for 27 years in OpenBSD, generally considered to be one of the world’s most secure operating systems. It's tempting to file this under " AI lab says their AI is too dangerous, " the same playbook OpenAI ran with GPT-2. Not so fast; there's a material difference this time. Mythos didn't just find individual CVEs. It chained four independent bugs into an exploit sequen...
+- **Source URL:** https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors Apr 23, 2026 Threat Intelligence / Malware Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper . "The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal," Slovakian cybersecurity company ESET said in a report shared with The Hacker News. "GopherWhisper abuses legitimate services, notably Discord, Slack, Microsoft 365 Outlook, and file.io for command-and-control (C&C) communication and exfiltration." The group was first discovered in January 2025 following the discovery of a never-before-seen backdoor codenamed LaxGopher on a system belonging to a Mongolian governmental entity. Also discovered as part of the threat actor's arsenal are a number of other malware families, mostly developed using Golang to receive instructions from the C&C server, execute them, and send the results back. Also...
+- **Source URL:** https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** UK warns of Chinese hackers using proxy networks to evade detection
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** New GopherWhisper APT group abuses Outlook, Slack, Discord for comms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** CISA orders feds to patch BlueHammer flaw exploited as zero-day
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
