@@ -4132,3 +4132,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** FTC Sues to Stop Deceptive Health Care Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-sues-stop-deceptive-health-care-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain Apr 22, 2026 Cloud Security / Software Security Cybersecurity researchers have warned of malicious images pushed to the official " checkmarx/kics " Docker Hub repository. In an alert published today, software supply chain security company Socket revealed that unknown threat actors managed to have overwritten existing tags, including v2.1.20 and alpine, while also introducing a new v2.1.21 tag that does not correspond to an official release. The Docker repository has been archived as of writing. "Analysis of the poisoned image indicates that the bundled KICS binary was modified to include data collection and exfiltration capabilities not present in the legitimate version," Socket said. "The malware could generate an uncensored scan report, encrypt it, and send it to an external endpoint, creating a serious risk for teams using KICS to scan infrastructure-as-code files that may contain credentials or other sensitive configuration data." Further analysis of the incident has uncovered that related Ch...
+- **Source URL:** https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens Apr 22, 2026 Malware / DevOps Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens. The supply chain worm has been detected by both Socket and StepSecurity , with the companies tracking the activity under the name CanisterSprawl owing to the use of an ICP canister to exfiltrate the stolen data, in a tactic reminiscent of TeamPCP's CanisterWorm to make the infrastructure resilient to takedowns. The list of affected packages is below - @automagik/genie (4.260421.33 - 4.260421.40) @fairwords/loopback-connector-es (1.4.3 - 1.4.4) @fairwords/websocket (1.0.38 - 1.0.39) @openwebconcept/design-tokens (1.0.1 - 1.0.3) @openwebconcept/theme-owc (1.0.1 - 1.0.3) pgserve (1.1.11 - 1.1.14) The malware is triggered during install time via a postinstall hook to steal credentials and secrets from developer environments, and then leverage the stolen npm tokens to push poisoned ver...
+- **Source URL:** https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API Apr 22, 2026 Cyber Espionage / Malware The threat actor known as Harvester has been attributed to a new Linux version of its GoGra backdoor deployed as part of attacks likely targeting entities in South Asia. "The malware uses the legitimate Microsoft Graph API and Outlook mailboxes as a covert command-and-control (C2) channel, allowing it to bypass traditional perimeter network defenses," the Symantec and Carbon Black Threat Hunter Team said in a report shared with The Hacker News. The cybersecurity company said it identified artifacts uploaded to the VirusTotal platform from India and Afghanistan, suggesting that the two countries may be the target of the espionage activity. Harvester was first publicly documented by Symantec in late 2021, linking it to an information-stealing campaign aimed at telecommunications, government, and information technology sectors in South Asia since June 2021, using a bespoke implant called Graphon that used the Microsoft Graph API for C2. Subsequent activity flagged in Au...
+- **Source URL:** https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Apple fixes iOS bug that retained deleted notification data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** New Mirai campaign exploits RCE flaw in EoL D-Link routers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Kyber ransomware gang toys with post-quantum encryption on Windows
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-23
+- **Headline / event:** Spain dismantles major $4.7M manga piracy platform, arrests four
+- **Source URL:** https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
