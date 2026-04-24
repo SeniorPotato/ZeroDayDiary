@@ -1,104 +1,77 @@
 {
-  "generatedAt": "2026-04-23T14:13:37.593Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-23T141337Z.md",
+  "generatedAt": "2026-04-24T03:52:45.746Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-24T035245Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-23",
-      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+      "discovered": "2026-04-24",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "defending-against-china-nexus-covert-networks-of-compromised-devices",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
       "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-04-23",
-      "title": "Stakeholder event on competition and data protection: save the date",
-      "link": "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en",
+      "discovered": "2026-04-24",
+      "title": "FTC Charts Path to Restore Competition in Texas Anesthesia Markets in USAP Litigation",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-charts-path-restore-competition-texas-anesthesia-markets-usap-litigation",
       "tier": "Tier 1",
-      "category": "governance",
-      "slug": "stakeholder-event-on-competition-and-data-protection-save-the-date",
-      "source": "EDPB News"
+      "category": "privacy",
+      "slug": "ftc-charts-path-to-restore-competition-in-texas-anesthesia-markets-in-usap-litigation",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-04-23",
-      "title": "FBI Extracts Deleted Signal Messages from iPhone Notification Database",
-      "link": "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html",
+      "discovered": "2026-04-24",
+      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware Apr 23, 2026 Malware / Cloud Security A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts. \"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT helpdesk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account outside their organization,\" Google-owned Mandiant said in a report published today. UNC6692 has been attributed to a large email campaign that's designed to overwhelm a target's inbox with a flood of spam emails, creating a false sense of urgency. The threat actor then approaches the target over Microsoft Teams by sending a message claiming to be from the IT support team to offer assistance with the email bombing problem. It's worth noting that this combination of bombarding a victim's email inbox followed by Microsoft Teams-based help desk impersonation has been a ...",
+      "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-extracts-deleted-signal-messages-from-iphone-notification-database",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-04-23",
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign Apr 23, 2026 Supply Chain Attack / Open Source Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign , according to new findings from Socket. \"The affected package version appears to be @bitwarden/cli@2026.4.0 , and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said . \"The attack appears to have leveraged a compromised GitHub Action in Bitwarden's CI/CD pipeline, consistent with the pattern seen across other affected repositories in this campaign.\" In a post on X, JFrog said the rogue version of the package \"steals GitHub/npm tokens, .ssh, .env, shell history, GitHub Actions and cloud secrets, then exfiltrates the data to private domains and as GitHub commits.\" While the malicious version is no longer available for download from npm, Socket said the compromise follows the same GitHub Actions supply chain vector identified in the Checkmarx campaign. As ...",
-      "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "bitwarden-cli-compromised-in-ongoing-checkmarx-supply-chain-campaign-apr-23-2026-supply-ch",
+      "slug": "unc6692-impersonates-it-helpdesk-via-microsoft-teams-to-deploy-snow-malware-apr-23-2026-ma",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-04-23",
-      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories Apr 23, 2026 Hacking News / Cybersecurity News You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work, giving attackers easy access. AI tools are also part of the problem now. They trust bad input and take real actions, which makes the damage bigger. Then there are quieter issues. Apps take data they should not. Devices behave in strange ways. Attackers keep testing what they can get away with. No noise. Just ongoing damage. Here is the list for this week’s ThreatsDay Bulletin. State-backed crypto heist North Korea Likely Behind KelpDAP $290M Crypto Heist Inter-blockchain communication protocol LayerZero has revealed that North Korean thr...",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "discovered": "2026-04-24",
+      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-bulletin-290m-defi-hack-macos-lotl-abuse-proxysmart-sim-farms-25-new-stories-ap",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-23",
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed Apr 23, 2026 Artificial Intelligence / Enterprise Security Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly. Well, that world is already here. Thanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window , and it means your standard patching routine is officially too slow. If you are fighting AI-speed attacks with manual-speed defenses, your systems are at a breaking point. It’s time to rethink everything. Join our highly anticipated webinar featuring expert guest Ofer Gayer, Vice President of Product at Miggo Security, and learn how to beat the bots at their own game: Mythos and the Collapsing Exploit Window: Rethink Vulnerability Prioritization at AI Speed . Here is exactly what you will walk away with: The Truth About Mythos: We are cutting through the hype. Learn what Mythos actually represents and w...",
-      "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "webinar-mythos-reality-check-beating-automated-exploitation-at-ai-speed-apr-23-2026-artifi",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-23",
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? Apr 23, 2026 Artificial Intelligence / Exposure Management Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can . Mythos Preview, the model that led to Project Glasswing, found vulnerabilities across every major operating system and browser. Some of these bugs had survived decades of human audits, aggressive fuzzing, and open-source scrutiny. One had been sitting for 27 years in OpenBSD, generally considered to be one of the world’s most secure operating systems. It's tempting to file this under \" AI lab says their AI is too dangerous, \" the same playbook OpenAI ran with GPT-2. Not so fast; there's a material difference this time. Mythos didn't just find individual CVEs. It chained four independent bugs into an exploit sequen...",
-      "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "project-glasswing-proved-ai-can-find-the-bugs-who-s-going-to-fix-them-apr-23-2026-artifici",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-23",
-      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors Apr 23, 2026 Threat Intelligence / Malware Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper . \"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker News. \"GopherWhisper abuses legitimate services, notably Discord, Slack, Microsoft 365 Outlook, and file.io for command-and-control (C&C) communication and exfiltration.\" The group was first discovered in January 2025 following the discovery of a never-before-seen backdoor codenamed LaxGopher on a system belonging to a Mongolian governmental entity. Also discovered as part of the threat actor's arsenal are a number of other malware families, mostly developed using Golang to receive instructions from the C&C server, execute them, and send the results back. Also...",
-      "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "china-linked-gopherwhisper-infects-12-mongolian-government-systems-with-go-backdoors-apr-2",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-23",
-      "title": "UK warns of Chinese hackers using proxy networks to evade detection",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "uk-warns-of-chinese-hackers-using-proxy-networks-to-evade-detection",
+      "slug": "hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-23",
-      "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
+      "discovered": "2026-04-24",
+      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms",
+      "slug": "bitwarden-cli-npm-package-compromised-to-steal-developer-credentials",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-23",
-      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+      "discovered": "2026-04-24",
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-orders-feds-to-patch-bluehammer-flaw-exploited-as-zero-day",
+      "slug": "trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-24",
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-checkmarx-supply-chain-breach-affects-kics-analysis-tool",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-24",
+      "title": "Cosmetics giant Rituals discloses data breach affecting customers",
+      "link": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cosmetics-giant-rituals-discloses-data-breach-affecting-customers",
       "source": "BleepingComputer"
     }
   ]
