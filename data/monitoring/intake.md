@@ -4356,3 +4356,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** Hiding Bluetooth Trackers in Mail
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine Apr 24, 2026 Enterprise Security / Artificial Intelligence The AI Agent Authority Gap - From Ungoverned to Delegation As discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly. The issue is not simply that agents are new actors. It is that agents are delegated actors. They do not emerge with independent authority. They are triggered, invoked, provisioned, or empowered by existing enterprise identities: human users, machine identities, bots, service accounts, and other non-human actors. That makes Agent-AI fundamentally different from both people and software, while still being inseparable from both. This is why the AI Agent Authority Gap is really a delegation gap. Enterprises are trying to govern an emerging actor without first governing the identities that delegate authority to it. Traditional IAM was built to answer a narrower question: who has access. But once AI agents are introduced, the real question becomes: what authority is being delegated...
+- **Source URL:** https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases Apr 24, 2026 Malware / Cryptocurrency Cybersecurity researchers have discovered a set of malicious apps on the Apple App Store that impersonate popular cryptocurrency wallets in an attempt to steal recovery phrases and private keys since at least fall 2025. "Once launched, these apps redirect users to browser pages designed to look similar to the App Store and distribute trojanized versions of legitimate wallets," Kaspersky researcher Sergey Puzan said . "The infected apps are specifically engineered to hijack recovery phrases and private keys." The 26 apps, collectively dubbed FakeWallet , mimic various popular wallets like Bitpie, Coinbase, imToken, Ledger, MetaMask, TokenPocket, and Trust Wallet. Many of these apps have since been taken down by Apple following disclosure. There is no evidence that these apps were distributed via the Google Play Store. While malicious cryptocurrency wallets distributed in the past via bogus websites have abused iOS provisioning profiles to get users to install th...
+- **Source URL:** https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 Apr 24, 2026 Malware / Threat Intelligence Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual Studio Code (VS Code) tunnels for remote access. Zscaler ThreatLabz, which discovered the campaign last month, has attributed it with high confidence to Tropic Trooper (aka APT23, Earth Centaur, KeyBoy, and Pirate Panda), a hacking group known for its targeting of various entities in Taiwan, Hong Kong, and the Philippines. It's assessed to be active since at least 2011. "The threat actors created a custom AdaptixC2 Beacon listener, leveraging GitHub as their command-and-control (C2) platform," security researcher Yin Hong Chang said in an analysis. It's believed that Chinese-speaking individuals in Taiwan, and individuals in South Korea and Japan, are the targets of the campaign. The starting point of the attack is a ZIP archive containing...
+- **Source URL:** https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure Apr 24, 2026 Vulnerability / Network Security A high-severity security flaw in LMDeploy , an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure. The vulnerability, tracked as CVE-2026-33626 (CVSS score: 7.5), relates to a Server-Side Request Forgery (SSRF) vulnerability that could be exploited to access sensitive data. "A server-side request forgery (SSRF) vulnerability exists in LMDeploy's vision-language module," according to an advisory published by the project maintainers last week. "The load_image() function in lmdeploy/vl/utils.py fetches arbitrary URLs without validating internal/private IP addresses, allowing attackers to access cloud metadata services, internal networks, and sensitive resources." The shortcoming affects all versions of the toolkit (0.12.0 and prior) with vision language support. Orca Security researcher Igor Stepansky has been credited with discovering and reporting th...
+- **Source URL:** https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-24
+- **Headline / event:** Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

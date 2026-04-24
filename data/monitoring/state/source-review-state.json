@@ -35,7 +35,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
       "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-      "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -136,7 +135,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-doj-extend-deadline-public-comment-guidance-business-collaborations",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/court-orders-operator-timeshare-exit-scheme-pay-140-million-related-ftc-allegations-scheme-took",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-sues-stop-deceptive-health-care-scheme",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-charts-path-restore-competition-texas-anesthesia-markets-usap-litigation",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-charts-path-restore-competition-texas-anesthesia-markets-usap-litigation"
     ],
     "iso-insights": [
@@ -239,7 +237,9 @@
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-new-giant-squid-video-2.html",
       "https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html",
       "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html",
-      "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html"
+      "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html",
+      "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html",
+      "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -450,7 +450,14 @@
       "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
       "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
       "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
-      "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html"
+      "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
+      "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
+      "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
+      "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -690,12 +697,9 @@
       "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
       "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
       "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
-      "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
-      "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
-      "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
-      "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
-      "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/"
+      "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
+      "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
+      "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/"
     ]
   }
 }
