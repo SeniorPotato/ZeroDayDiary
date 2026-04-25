@@ -35,7 +35,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
       "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-      "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -159,7 +161,9 @@
       "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/information%20security/data-masking.html",
       "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/information%20security/configuration-management.html",
       "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/insights/information%20security/intellectual-property-rights.html",
-      "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/thought-leadership/why-resilient-infrastructure-can.html"
+      "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/thought-leadership/why-resilient-infrastructure-can.html",
+      "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/2026/04/iso-14001-2026-published.html",
+      "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/2026/04/iso-14001-2026-published.html"
     ],
     "krebs-on-security": [
       "https://krebsonsecurity.com/about/",
@@ -239,7 +243,8 @@
       "https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html",
       "https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html",
       "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html",
-      "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html"
+      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html",
+      "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -454,10 +459,10 @@
       "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
       "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
       "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
-      "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
-      "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
-      "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html"
+      "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+      "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
+      "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+      "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -699,7 +704,16 @@
       "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
       "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
       "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
-      "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/"
+      "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
+      "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
+      "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
+      "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
+      "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
+      "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
+      "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
+      "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
+      "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
+      "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/"
     ]
   }
 }
