@@ -4404,3 +4404,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** ISO 14001:2026 published – raising the bar for environmental performance
+- **Source URL:** https://www.iso.org/cms/live/live/en/sites/isoorg/contents/news/2026/04/iso-14001-2026-published.html
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from iso insights and updates
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** Friday Squid Blogging: How Squid Survived Extinction Events
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches Apr 24, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with malware called FIRESTARTER . FIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed to be a backdoor designed for remote access and control. It's believed to be deployed as part of a "widespread" campaign orchestrated by an advanced persistent threat (APT) actor to obtain access to Cisco Adaptive Security Appliance (ASA) firmware by exploiting now-patched security flaws such as - CVE-2025-20333 (CVSS score: 9.9) - An improper validation of user-supplied input vulnerability that could allow an authenticated, remote attacker with valid VPN user credentials to execute arbitrary code as root on an affected device by sending crafted HTTP requests. CVE-2025-20362 (CVSS score: 6.5) - An improper val...
+- **Source URL:** https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software Apr 24, 2026 Espionage / National Security, The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws. "For years, NASA employees and research collaborators thought they were simply sharing software with colleagues," the OIG said in a Thursday release. "Instead, they were emailing sensitive defense technology to a Chinese national who was impersonating U.S. engineers." The individual linked to the campaign was outed as Chinese national Song Wu in September 2024, when the U.S. Department of Justice (DoJ) announced charges against him for orchestrating a multi-year campaign that stretched from January 2017 to December 2021 and involved targeting dozens of U.S. professors, researchers, and engineers. ...
+- **Source URL:** https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** ADT confirms data breach after ShinyHunters leak threat
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** Firestarter malware survives Cisco firewall updates, security patches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** New BlackFile extortion group linked to surge of vishing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** New ‘Pack2TheRoot’ flaw gives hackers root Linux access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** DORA and operational resilience: Credential management as a financial risk control
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
