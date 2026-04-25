@@ -4484,3 +4484,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software Apr 25, 2026 Cyberwarfare / National Security Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges. According to a new report published by SentinelOne, the previously undocumented cyber sabotage framework dates back to 2005, primarily targeting high-precision calculation software to tamper with results. It has been codenamed fast16 . "By combining this payload with self-propagation mechanisms, the attackers aim to produce equivalent inaccurate calculations across an entire facility," researchers Vitaly Kamluk and Juan Andrés Guerrero-Saade said in an exhaustive report published this week. Fast16 is assessed to predate Stuxnet , the first known digital weapon engineered for disruptive actions , and which served as the basis for the Duqu information stealer rootkit, by at least five years. Stuxnet is widely believed to have been developed by the U.S. and Israel....
+- **Source URL:** https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-25
+- **Headline / event:** CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline Apr 25, 2026 Network Security / Infrastructure Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The list of vulnerabilities is below - CVE-2024-57726 (CVSS score: 9.9) - A missing authorization vulnerability in SimpleHelp that could allow low-privileged technicians to create API keys with excessive permissions, which can then be used to escalate privileges to the server admin role. CVE-2024-57728 (CVSS score: 7.2) - A path traversal vulnerability in SimpleHelp that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e., zip slip), which can be exploited to execute arbitrary code on the host in the context of the SimpleHelp server user. CVE-2024-7399 (CVSS score: 8.8) - A path traversal vulnerability in Samsung MagicINFO 9 Server that cou...
+- **Source URL:** https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
