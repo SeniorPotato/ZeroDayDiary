@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-04-26T03:57:21.858Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-26T035721Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-04-26",
-      "title": "Threat actor uses Microsoft Teams to deploy new “Snow”",
-      "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "threat-actor-uses-microsoft-teams-to-deploy-new-snow",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-04-26T13:42:07.750Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-26T134207Z.md",
+  "candidates": []
 }
