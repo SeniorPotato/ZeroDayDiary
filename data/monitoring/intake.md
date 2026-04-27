@@ -4508,3 +4508,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-27
+- **Headline / event:** American utility firm Itron discloses breach of internal IT network
+- **Source URL:** https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
