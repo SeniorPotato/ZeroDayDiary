@@ -1,113 +1,59 @@
 {
-  "generatedAt": "2026-04-27T14:28:09.004Z",
-  "packetPath": "data/monitoring/review-packets/2026-04-27T142809Z.md",
+  "generatedAt": "2026-04-28T04:07:59.265Z",
+  "packetPath": "data/monitoring/review-packets/2026-04-28T040759Z.md",
   "candidates": [
     {
-      "discovered": "2026-04-27",
-      "title": "Marking 10 years of the GDPR: the evolution of the European data protection landscape",
-      "link": "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en",
-      "tier": "Tier 1",
-      "category": "governance",
-      "slug": "marking-10-years-of-the-gdpr-the-evolution-of-the-european-data-protection-landscape",
-      "source": "EDPB News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "New FTC Data Show People Have Lost Billions to Social Media Scams",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams",
+      "discovered": "2026-04-28",
+      "title": "FTC Takes Action Against High-Level MLM Participants who Deceived Workers About the Amount of Money They Can Earn",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participants-who-deceived-workers-about-amount-money-they",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "new-ftc-data-show-people-have-lost-billions-to-social-media-scams",
+      "slug": "ftc-takes-action-against-high-level-mlm-participants-who-deceived-workers-about-the-amount",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-04-27",
-      "title": "Medieval Encrypted Letter Decoded",
-      "link": "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
+      "discovered": "2026-04-28",
+      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "medieval-encrypted-letter-decoded",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack Apr 27, 2026 Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,\" the Israeli security company said . It also emphasized that the GitHub repository is maintained separately from its customer production environment, adding that no customer data is stored in the repository. Checkmarx said its forensic probe into the incident is ongoing and that it's actively working to verify the nature and scope of the posted data. Furthermore, the company said it has locked down access to the affected GitHub repository as part of its incident response efforts. \"If we determine that customer information was involved in this incident, we will notify...",
-      "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "checkmarx-confirms-github-repository-data-posted-on-dark-web-after-march-23-attack-apr-27-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More Apr 27, 2026 Cybersecurity / Hacking Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same mess, cleaner packaging. Coffee is cold. The vuln list is ugly. Let’s get into it. ⚡ Threat of the Week New fast16 Malware Was Developed Years Before Stuxnet —A new Lua-based malware called fast16, created years before the notorious Stuxnet worm, is designed to primarily target high-precision calculation software to tamper with results. The framework dates back to 2005. Analysis suggests that fast16 was active at least five years before the emergence of Stuxnet. Widely regarded as a joint U.S.-Israeli project, Stuxnet marked a turning point in cyber warfare as the first disruptive digital weap...",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "weekly-recap-fast16-malware-xchat-launch-federal-backdoor-ai-employee-tracking-more-apr-27",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side Apr 27, 2026 Artificial Intelligence / Enterprise Security Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate, prioritize, and remediate what it finds. The debate that followed has mostly focused on the right questions: Is this a step-change or an incremental advance? Does restricting access to Microsoft, Apple, AWS, and JPMorgan actually reduce risk, or does it just concentrate defensive advantage among the already-well-defended? What happens when adversaries—state actors, criminal enterprises—build equivalent capability? These are important. But there's a quieter operational problem that's getting less airtime, and it's the one that will actually determine whether most organizations survive this shift. The Discovery-to-Remediation Gap The Mythos announcement, and the broader AI security...",
-      "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "mythos-changed-the-math-on-vulnerability-discovery-most-teams-aren-t-ready-for-the-remedia",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks Apr 27, 2026 Vulnerability / Hacktivism A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging an exploit chain comprising three vulnerabilities to execute commands remotely on susceptible servers. \"Despite the fact that there are no exploits for this chain of vulnerability in public access, attackers from PhantomCore managed to conduct their research and reproduce vulnerabilities, which led to a large number of cases of its operation in Russian organizations,\" researchers Daniil Grigoryan and Georgy Khandozhko said . PhantomCore , also called Fairy Trickster, Head Mare, Rainbow Hyena, and UNG0901, is the name assigned to a politically- and financially-motivated hacking crew that has been active since 2022 following the Russo-Ukrainian war. Attacks mo...",
-      "link": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "phantomcore-exploits-trueconf-vulnerabilities-to-breach-russian-networks-apr-27-2026-vulne",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware Apr 27, 2026 Malware / Software Supply Chain Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm . The cluster of 73 extensions has been identified as cloned versions of their legitimate counterparts. Of these, six have been confirmed to be malicious, with the remaining acting as seemingly harmless sleeper packages to get users to download them and build trust, before their true intent is manifested through a subsequent update. All the extensions were published at the start of the month, per application security company Socket, which is tracking the latest iteration under the moniker GlassWorm v2 . In total, more than 320 artifacts have been identified since December 21, 2025. The list of extensions identified as malicious is listed below - outsidestormcommand.monochromator-theme keyacrosslaud.auto-loop-for-antigravity krundoven.ironplc-fast-hub boulderzitunnel.vscode-bu...",
-      "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "researchers-uncover-73-fake-vs-code-extensions-delivering-glassworm-v2-malware-apr-27-2026",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-04-27",
-      "title": "Medtronic confirms breach after hackers claim 9 million records theft",
-      "link": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "medtronic-confirms-breach-after-hackers-claim-9-million-records-theft",
+      "slug": "pypi-package-with-1-1m-monthly-downloads-hacked-to-push-infostealer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-27",
-      "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
+      "discovered": "2026-04-28",
+      "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison",
+      "slug": "ftc-americans-lost-over-2-1-billion-to-social-media-scams-in-2025",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-27",
-      "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-      "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
+      "discovered": "2026-04-28",
+      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+      "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know",
+      "slug": "canada-arrests-three-for-operating-sms-blaster-device-in-toronto",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-04-27",
-      "title": "Webinar: Spotting cyberattacks before they begin",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/",
+      "discovered": "2026-04-28",
+      "title": "Home security giant ADT data breach affects 5.5 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-spotting-cyberattacks-before-they-begin",
+      "slug": "home-security-giant-adt-data-breach-affects-5-5-million-people",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-04-28",
+      "title": "Robinhood account creation flaw abused to send phishing emails",
+      "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "robinhood-account-creation-flaw-abused-to-send-phishing-emails",
       "source": "BleepingComputer"
     }
   ]
