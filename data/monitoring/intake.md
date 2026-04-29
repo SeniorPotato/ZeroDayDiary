@@ -4756,3 +4756,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Claude Mythos Has Found 271 Zero-Days in Firefox
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks Apr 29, 2026 Artificial Intelligence / Exposure Validation In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes. The problem? Most defensive workflows still look like this: your CTI team finds a threat, they pass it to the Red Team to test, and eventually, the results reach the Blue Team for patching. This process is full of friction, silos, and delays. The reality is simple: You cannot fight an AI adversary moving at machine speed when your defense moves at the speed of a calendar invite. To bridge this gap, we’re hosting a technical deep dive with the team at Picus Security to unveil a new defensive paradigm: Autonomous Exposure Validation . Register for the Webinar Here ➜ Leading this session are Kevin Cole (VP of Produc...
+- **Source URL:** https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong) Apr 29, 2026 Exposure Management / Security Operations Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: "So, are we actually safer now?" Crickets. The room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure management was created to provide this context - to bridge the gap between remediation efforts and actual risk reduction. The market has responded with a flood of platforms claiming to deliver it. Yet the question security leaders are asking is: which exposure management platform actually does provide it? In this article, I’ll break down the four dominant approaches to exposure management, explain what each one can and can't deliver, and lay out five evaluation criteria that help you separate platforms built to reduce risk to your unique business and environment from platforms ...
+- **Source URL:** https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately Apr 29, 2026 Vulnerability / Web Hosting cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions - 11.110.0.97 11.118.0.63 11.126.0.54 11.132.0.29 11.136.0.5 11.134.0.20 "If your server is not running a supported version of cPanel that is eligible for this update, it is highly recommended that you work toward updating your server as soon as possible, as it may also be affected," cPanel noted. While cPanel did not share any details about the vulnerability, web hosting and domain registration company Namecheap disclosed that it "relates to an authentication login exploit that could allow unauthorized access to the control panel." As a precautionary measure, the company has applied a firewall rule to block access...
+- **Source URL:** https://thehackernews.com/2026/04/critical-cpanel-authentication.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV Apr 29, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2024-1708 (CVSS score: 8.4) - A path traversal vulnerability in ConnectWise ScreenConnect that could allow an attacker to execute remote code or directly impact confidential data and critical systems. (Fixed in February 2024) CVE-2026-32202 (CVSS score: 4.3) - A protection mechanism failure vulnerability in Microsoft Windows Shell that could allow an unauthorized attacker to perform spoofing over a network. (Fixed in April 2026) The addition of CVE-2026-32202 to the KEV catalog comes a day after Microsoft updated its advisory for the flaw to acknowledge it had come under active exploitation. Although Microsoft has not disclosed the nature of the attacks weaponizi...
+- **Source URL:** https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure Apr 29, 2026 Vulnerability / Cloud Security In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge. The vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying LiteLLM proxy database. "A database query used during proxy API key checks mixed the caller-supplied key value into the query text instead of passing it as a separate parameter," LiteLLM maintainers said in an alert last week. "An unauthenticated attacker could send a specially crafted Authorization header to any LLM API route (for example, POST /chat/completions) and reach this query through the proxy's error-handling path. An attacker could read data from the proxy's database and may be able to modify it, leading to unauthorized access to the proxy and the c...
+- **Source URL:** https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** European police dismantles €50 million crypto investment fraud ring
+- **Source URL:** https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Learning from the Vercel breach: Shadow AI & OAuth sprawl
+- **Source URL:** https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** GitHub fixes RCE flaw that gave access to millions of private repos
+- **Source URL:** https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** CISA orders feds to patch Windows flaw exploited as zero-day
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Microsoft says backend change broke Teams Free chat and calls
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
