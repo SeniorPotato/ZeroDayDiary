@@ -37,7 +37,6 @@
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
       "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -249,7 +248,8 @@
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html",
       "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
-      "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"
+      "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
+      "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -479,15 +479,20 @@
       "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
       "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
       "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
-      "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
-      "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
       "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
       "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
       "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
-      "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html"
+      "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+      "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+      "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+      "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -752,12 +757,17 @@
       "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
       "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
       "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-      "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
-      "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
-      "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-      "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/"
+      "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+      "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+      "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
+      "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+      "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/"
     ]
   }
 }
