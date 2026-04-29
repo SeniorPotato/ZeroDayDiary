@@ -4660,3 +4660,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** What Anthropic’s Mythos Means for the Future of
+- **Source URL:** https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push Apr 28, 2026 Vulnerability / Software Security Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single "git push" command. The flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve remote code execution on the instance. "During a git push operation, user-supplied push option values were not properly sanitized before being included in internal service headers," per a GitHub advisory for the vulnerability. "Because the internal header format used a delimiter character that could also appear in user input, an attacker could inject additional metadata fields through crafted push option values." Google-owned cloud security firm Wiz has been credited with discovering and reporting the issue on March 4, 2026, with GitHub validating and deployi...
+- **Source URL:** https://thehackernews.com/2026/04/researchers-discover-critical-github.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign Apr 28, 2026 Malware / Supply Chain Attack A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). "The malware disguises itself as a Minecraft hack called 'Slinky,'" Brazil-based cybersecurity company ZenoX said in a technical report. "It uses the official game icon to induce voluntary execution, exploiting the trust of young users in the gaming scene." The activity has been attributed with high confidence to a threat actor known as LofyGang , which was observed leveraging typosquatted packages on the npm registry to push stealer malware in 2022, specifically with an intent to siphon credit card data and user accounts associated with Discord Nitro, gaming, and streaming services. The group, believed to be active since late 2021, advertises their tools and services on platforms like GitHub and YouTube, while also contributing to an underground hacking communit...
+- **Source URL:** https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi Apr 28, 2026 Malware / Supply Chain Attack Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors. The fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to pay the ransom cannot get their data back, as the decryption keys are discarded by the malware during the time encryption occurs. "VECT is being marketed as ransomware, but for any file over 131KB – which is most of what enterprises actually care about – it functions as a data destruction tool," Eli Smadja, group manager at Check Point Research, said in a statement shared with The Hacker News. "CISOs need to understand that in a VECT incident, paying is not a recovery strategy. There is no decrypter that can be handed over, not because the attackers are unwilling, but beca...
+- **Source URL:** https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About Apr 28, 2026 Operational Technology / Data Integrity Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong. It is also a major reason Zero Trust programs stall. New research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security leaders in government, defense, and critical services across the U.S. and UK, found that 84% of government IT security leaders agree that sharing sensitive data across networks heightens their cyber risk. More than half - 53% - still rely on manual processes to move that data between systems. In 2026. With AI accelerating the pace of operations on both sides. That is the Zero Trust gap nobody talks about. Not identity. Not endpoints. The movement of data itself. The Threat Volume Is Rising Faster Than the Controls Cyber360 recorded an average of 137 attempted or successful cyberattacks pe...
+- **Source URL:** https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE Apr 28, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot , Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars , that could be exploited to achieve remote code execution. The vulnerability in question is CVE-2026-25874 (CVSS score: 9.3), which has been described as a case of untrusted data deserialization stemming from the use of the unsafe pickle format . "LeRobot contains an unsafe deserialization vulnerability in the async inference pipeline, where pickle.loads() is used to deserialize data received over unauthenticated gRPC channels without TLS in the policy server and robot client components," according to a GitHub advisory for the flaw. "An unauthenticated network-reachable attacker can achieve arbitrary code execution on the server or client by sending a crafted pickle payload through the SendPolicyInstructions, SendObservations, or GetActions gRPC calls." According to Resecurity, the ...
+- **Source URL:** https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Broken VECT 2.0 ransomware acts as a data wiper for large files
+- **Source URL:** https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Video service Vimeo confirms Anodot breach exposed user data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** US reportedly charges Scattered Spider hacker arrested in Finland
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-29
+- **Headline / event:** Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
