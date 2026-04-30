@@ -4844,3 +4844,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack Apr 29, 2026 Supply Chain Attack / Malware Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security , SafeDep , Socket , StepSecurity , and Google-owned Wiz , the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application development ecosystem - mbt@1.2.48 @cap-js/db-service@2.10.1 @cap-js/postgres@2.2.2 @cap-js/sqlite@2.2.2 "The affected versions introduced new installation-time behavior that was not previously part of these packages' expected functionality," Socket said. "The compromised releases added a preinstall script that acts as a runtime bootstrapper, downloading a platform-specific Bun ZIP from GitHub Releases, extracting it, and immediately executing the extracted Bun binary." "The implementation also follows HTTP redirects without validating the desti...
+- **Source URL:** https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs Apr 29, 2026 Malware / Social Engineering Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is " @validate-sdk/v2 ," which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real functionality is to plunder sensitive secrets from the compromised environment. The package, which shows signs of being vibe-coded using generative artificial intelligence (AI), was first uploaded to the repository in October 2025. The malware campaign has been codenamed PromptMink by ReversingLabs, which linked the activity as part of a broader campaign mounted by the North Korean threat actor known as Famous Chollima (aka Shifty Corsair), which is behind the long-running Contagious Interview campaign and the fraudulent IT Worker scam . "The new malware campaign [...] inv...
+- **Source URL:** https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Official SAP npm packages compromised to steal credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Popular WordPress redirect plugin hid dormant backdoor for years
+- **Source URL:** https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Hackers arrested for hijacking and selling 610,000 Roblox accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** cPanel, WHM emergency update fixes critical auth bypass bug
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

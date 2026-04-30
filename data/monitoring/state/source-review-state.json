@@ -248,7 +248,6 @@
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html",
       "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
-      "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"
     ],
     "the-hacker-news": [
@@ -488,11 +487,10 @@
       "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
       "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
       "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-      "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-      "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-      "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html"
+      "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -763,11 +761,16 @@
       "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
       "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
       "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-      "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
-      "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/"
+      "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+      "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/"
     ]
   }
 }
