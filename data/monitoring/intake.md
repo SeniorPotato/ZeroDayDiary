@@ -4900,3 +4900,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Stakeholder event on competition and data protection
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Anti-DDoS Firm Heaped Attacks on Brazilian ISPs
+- **Source URL:** https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories Apr 30, 2026 Hacking News / Cybersecurity News The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online. Security is always a moving target. Millions of servers are currently sitting online without any passwords, and old software bugs are showing up in the most unexpected places. Even with the right fixes available, staying one step ahead is a full-time job for all of us. Data is shifting in strange ways, too. Some browser tools are now legally selling user history for profit, and new kits are making it simpler for almost anyone to launch a campaign. You have to see these latest updates to believe them. Let’s look at the full list... SMS blaster phishing crackdown Canadian Authorities Arrest 3 Men for Alleged Use of SMS Blaster Canadian authorities have ar...
+- **Source URL:** https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials Apr 30, 2026 Cloud Security / Threat Intelligence Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts. "The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an embedded Python payload ('svc.py'), and establishes persistence through multiple mechanisms including Startup folder scripts, registry Run keys, scheduled tasks, and optional WMI subscriptions," Securonix researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said in a report shared with The Hacker News. It's assessed that the batch script is distributed via traditional approaches like phishing. It's currently not known how widespread attacks distributing the malware are, and if any of those infections have been successful. What makes the attack chain ...
+- **Source URL:** https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades Apr 30, 2026 Threat Intelligence / Enterprise Security Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating Search Engine Order (SEO) poisoning , a dual-stage GitHub distribution architecture , and decentralized blockchain-based command-and-control (C2) resolving, Threat Actors have established a highly resilient delivery and persistence mechanism. Creative Distribution via GitHub Facades The campaign utilizes a multi-layered delivery chain designed to evade platform-level takedowns and maintain a high search engine ranking. The attack begins with SEO poisoning on various search engines, including Bing, Yahoo, DuckDuckGo, and Yandex. That ensures that malicious results for niche IT terms rank at the top of...
+- **Source URL:** https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions Apr 30, 2026 Linux / Vulnerability Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. "An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux system, and use that to gain root," the vulnerability research team at Xint.io and Theori said . At its core, the vulnerability stems from a logic flaw in the Linux kernel's cryptographic subsystem, specifically within the algif_aead module. The issue was introduced in a source code commit made in August 2017. Successful exploitation of the shortcoming could allow a simple 732-byte Python script to edit a setuid binary and obtain root on essentially all Linux distributions shipped since 2017, including Amazon Linux, RHEL, SUSE, and Ubuntu. The Python exploit involves four ...
+- **Source URL:** https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution Apr 30, 2026 AI Security / Vulnerability Google has addressed a maximum severity security flaw in Gemini CLI -- the "@google/gemini-cli" npm package and the "google-github-actions/run-gemini-cli" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems. "The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration," Novee Security said in a Wednesday report. "This triggered command execution directly on the host system, bypassing security before the agent’s sandbox even initialized." The shortcoming, which does not have a CVE identifier, carries a CVSS score of 10.0. It affects the following versions - @google/gemini-cli < 0.39.1 @google/gemini-cli < 0.40.0-preview.3 google-github-actions/run-gemini-cli < 0.1.22 In its advisory published last week, Google said the impact is limited to workflows using Gemini CLI in headless mode, adding that any use of...
+- **Source URL:** https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** What Happens in the First 24 Hours After a New Asset Goes Live
+- **Source URL:** https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** New Linux ‘Copy Fail’ flaw gives hackers root on major distros
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Critical cPanel and WHM bug exploited as a zero-day, PoC now available
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-04-30
+- **Headline / event:** Police dismantles 9 crypto scam centers, arrests 276 suspects
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
