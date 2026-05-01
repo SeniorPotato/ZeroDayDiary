@@ -5028,3 +5028,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** A Ransomware Negotiator Was Working for a Ransomware Gang
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** Top Five Sales Challenges Costing MSPs Cybersecurity Revenue May 01, 2026 Compliance / Data Protection The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030 [1] , with cybersecurity being the fastest-growing sector [2] . Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on frameworks and vulnerabilities, but their clients make decisions based on business outcomes: risk reduction, successful compliance audits, and business continuity. When sales messaging fails to bridge this divide, prospects tend to view cybersecurity as a cost center instead of a strategic investment. To win, MSPs must align security value with business priorities and translate complex offerings into compelling reasons for clients and prospects to act. Cynomi developed the GTM Academy Sales Kit to address this challenge and provide a structured, outcome-driven approach to help MSP sale...
+- **Source URL:** https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks May 01, 2026 Data Breach / Law Enforcement The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg , 40, of Georgia, and Kevin Martin , 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023. The two defendants, who pleaded guilty to their crimes in December 2025, conspired with Angelo Martino, 41, of Florida, to conduct the attacks. "The three men agreed to pay the ALPHV BlackCat administrators a 20% share of any ransoms received in exchange for access to the ransomware and ALPHV/BlackCat's extortion platform," the DoJ said . "All three men worked in the cybersecurity industry – meaning that they had special skills and experience in securing computer systems against harm, including the type of harm they themselves were committing against the victims in this ca...
+- **Source URL:** https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft May 01, 2026 Supply Chain Attack / Malware A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account " BufferZoneCorp ," which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of writing, the packages have been yanked from RubyGems, and the Go modules have been blocked. The names of the libraries are listed below - Ruby: knot-activesupport-logger knot-devise-jwt-helper knot-rack-session-store knot-rails-assets-pipeline knot-rspec-formatter-json knot-date-utils-rb (Sleeper gem) knot-simple-formatter (Sleeper gem) Go: github[.]com/BufferZoneCorp/go-metrics-sdk github[.]com/BufferZoneCorp/go-weather-sdk github[.]com/BufferZoneCorp/go-retryablehttp github[.]com/BufferZoneCorp/go-stdlib-ext github[.]com/BufferZoneCorp/grpc-client github[.]com...
+- **Source URL:** https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** US ransomware negotiators get 4 years in prison over BlackCat attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

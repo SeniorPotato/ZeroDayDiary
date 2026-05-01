@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-05-01T04:19:57.292Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-01T041957Z.md",
+  "generatedAt": "2026-05-01T13:55:34.983Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-01T135534Z.md",
   "candidates": [
     {
       "discovered": "2026-05-01",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "A Ransomware Negotiator Was Working for a Ransomware Gang",
+      "link": "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "a-ransomware-negotiator-was-working-for-a-ransomware-gang",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-05-01",
-      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials Apr 30, 2026 Supply Chain Attack / Malware In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security , OX Security , Socket , and StepSecurity , the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an extension of the Mini Shai-Hulud supply chain incident that targeted SAP-related npm packages on Wednesday. As of writing, the project has been quarantined by the administrators of the Python Package Index (PyPI) repository. PyTorch Lightning is an open-source Python framework that provides a high-level interface for PyTorch. The open-source project has more than 31,100 stars on GitHub. \"The malicious package includes a hidden _runtime directory containing a downloader and an obfuscated JavaScript payload,\" Socket said. \"The execution chain runs automatically when the lightn...",
-      "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue May 01, 2026 Compliance / Data Protection The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030 [1] , with cybersecurity being the fastest-growing sector [2] . Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on frameworks and vulnerabilities, but their clients make decisions based on business outcomes: risk reduction, successful compliance audits, and business continuity. When sales messaging fails to bridge this divide, prospects tend to view cybersecurity as a cost center instead of a strategic investment. To win, MSPs must align security value with business priorities and translate complex offerings into compelling reasons for clients and prospects to act. Cynomi developed the GTM Academy Sales Kit to address this challenge and provide a structured, outcome-driven approach to help MSP sale...",
+      "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "pytorch-lightning-and-intercom-client-hit-in-supply-chain-attacks-to-steal-credentials-apr",
+      "slug": "top-five-sales-challenges-costing-msps-cybersecurity-revenue-may-01-2026-compliance-data-p",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-01",
-      "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-      "link": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks May 01, 2026 Data Breach / Law Enforcement The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg , 40, of Georgia, and Kevin Martin , 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023. The two defendants, who pleaded guilty to their crimes in December 2025, conspired with Angelo Martino, 41, of Florida, to conduct the attacks. \"The three men agreed to pay the ALPHV BlackCat administrators a 20% share of any ransoms received in exchange for access to the ransomware and ALPHV/BlackCat's extortion platform,\" the DoJ said . \"All three men worked in the cybersecurity industry – meaning that they had special skills and experience in securing computer systems against harm, including the type of harm they themselves were committing against the victims in this ca...",
+      "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-bluekit-phishing-service-includes-an-ai-assistant-40-templates",
-      "source": "BleepingComputer"
+      "slug": "two-cybersecurity-professionals-get-4-year-sentences-in-blackcat-ransomware-attacks-may-01",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-01",
-      "title": "Romanian leader of online swatting ring gets 4 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft May 01, 2026 Supply Chain Attack / Malware A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account \" BufferZoneCorp ,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of writing, the packages have been yanked from RubyGems, and the Go modules have been blocked. The names of the libraries are listed below - Ruby: knot-activesupport-logger knot-devise-jwt-helper knot-rack-session-store knot-rails-assets-pipeline knot-rspec-formatter-json knot-date-utils-rb (Sleeper gem) knot-simple-formatter (Sleeper gem) Go: github[.]com/BufferZoneCorp/go-metrics-sdk github[.]com/BufferZoneCorp/go-weather-sdk github[.]com/BufferZoneCorp/go-retryablehttp github[.]com/BufferZoneCorp/go-stdlib-ext github[.]com/BufferZoneCorp/grpc-client github[.]com...",
+      "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "romanian-leader-of-online-swatting-ring-gets-4-years-in-prison",
-      "source": "BleepingComputer"
+      "slug": "poisoned-ruby-gems-and-go-modules-exploit-ci-pipelines-for-credential-theft-may-01-2026-su",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-01",
-      "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks",
+      "slug": "us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks",
       "source": "BleepingComputer"
     }
   ]
