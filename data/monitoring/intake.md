@@ -4988,3 +4988,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials Apr 30, 2026 Supply Chain Attack / Malware In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security , OX Security , Socket , and StepSecurity , the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an extension of the Mini Shai-Hulud supply chain incident that targeted SAP-related npm packages on Wednesday. As of writing, the project has been quarantined by the administrators of the Python Package Index (PyPI) repository. PyTorch Lightning is an open-source Python framework that provides a high-level interface for PyTorch. The open-source project has more than 31,100 stars on GitHub. "The malicious package includes a hidden _runtime directory containing a downloader and an obfuscated JavaScript payload," Socket said. "The execution chain runs automatically when the lightn...
+- **Source URL:** https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** New Bluekit phishing service includes an AI assistant, 40 templates
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** Romanian leader of online swatting ring gets 4 years in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-01
+- **Headline / event:** FBI links cybercriminals to sharp surge in cargo theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
