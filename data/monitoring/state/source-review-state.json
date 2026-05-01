@@ -38,7 +38,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -252,7 +251,9 @@
       "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html",
       "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
-      "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"
+      "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
+      "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
+      "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -499,7 +500,12 @@
       "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
       "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
       "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-      "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html"
+      "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+      "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+      "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+      "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+      "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+      "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -782,9 +788,8 @@
       "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
       "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
       "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
-      "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
-      "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/"
+      "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+      "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/"
     ]
   }
 }
