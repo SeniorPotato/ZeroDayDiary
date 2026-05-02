@@ -5068,3 +5068,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** FTC Urges Tennessee Supreme Court to Oppose the ABA’s Law School Accreditation Monopoly
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-urges-tennessee-supreme-court-oppose-abas-law-school-accreditation-monopoly
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** FTC Takes Action to Protect Consumers from Anticompetitive Effects of Micromarket Kiosks Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-takes-action-protect-consumers-anticompetitive-effects-micromarket-kiosks-deal
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** FTC to Host Workshop on “Litigate the Fix” Merger Remedy Proposals
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** 30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign May 01, 2026 Malware / Threat Intelligence A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a "phishing relay" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are estimated to have been hacked as part of the campaign. "What we found wasn't a single phishing kit," security researcher Shaked Chen wrote in a report shared with The Hacker News. "It was a living operation with real-time operator panels, advanced evasion, continuous evolution and a criminal-commercial loop that quietly feeds on the same accounts it helps steal back." The findings are just the latest example of how Vietnamese threat actors continue to embrace various tactics to gain unauthorized access to victims' Facebook accounts, which are then sold...
+- **Source URL:** https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks May 01, 2026 Malware / Social Engineering Cybersecurity researchers are warning of two cybercrime groups that are carrying out "rapid, high-impact attacks" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and extortion campaigns that share a remarkable degree of operational similarities. Both hacking groups are assessed to be active since at least October 2025, with the latter a native English-speaking crew sharing ties to the e-crime ecosystem known as The Com . "In most cases, these adversaries use voice phishing (vishing) to direct targeted users to malicious, SSO-themed adversary-in-the-middle (AiTM) pages, where they capture authentication data and pivot directly into SSO-integrated SaaS applications," CrowdStrike's Counter Adversary Operations said in a report. ...
+- **Source URL:** https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists May 01, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053 . The adversarial collective is assessed to be active since at least December 2024, while sharing some level of network overlap with CL-STA-0049, Earth Alux, and REF7707 . "The group exploits N-day vulnerabilities in internet-facing Microsoft Exchange and Internet Information Services (IIS) servers (e.g., ProxyLogon chain), then deploys web shells ( Godzilla ) for persistent access and stages ShadowPad implants via DLL sideloading of legitimate signed executables," security researchers Daniel Lunghi and Lucas Silva said in an analysis. Targets of the campaigns include Pakistan, Thailand, Malaysia, India, Myanmar, Sri Lank...
+- **Source URL:** https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** Edu tech firm Instructure discloses cyber incident, probes impact
+- **Source URL:** https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** 15-year-old detained over French govt agency data breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

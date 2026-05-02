@@ -38,7 +38,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -142,7 +144,13 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-sues-stop-deceptive-health-care-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-charts-path-restore-competition-texas-anesthesia-markets-usap-litigation",
       "https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participants-who-deceived-workers-about-amount-money-they"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-high-level-mlm-participants-who-deceived-workers-about-amount-money-they",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-urges-tennessee-supreme-court-oppose-abas-law-school-accreditation-monopoly",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-takes-action-protect-consumers-anticompetitive-effects-micromarket-kiosks-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-urges-tennessee-supreme-court-oppose-abas-law-school-accreditation-monopoly",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-takes-action-protect-consumers-anticompetitive-effects-micromarket-kiosks-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -252,7 +260,6 @@
       "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
-      "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
       "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html"
     ],
     "the-hacker-news": [
@@ -503,9 +510,12 @@
       "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
       "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
       "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
-      "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html"
+      "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+      "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+      "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+      "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -789,7 +799,12 @@
       "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
       "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
-      "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/"
+      "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+      "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+      "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+      "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/"
     ]
   }
 }
