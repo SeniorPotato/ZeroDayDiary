@@ -1,50 +1,95 @@
 {
-  "generatedAt": "2026-05-01T13:55:34.983Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-01T135534Z.md",
+  "generatedAt": "2026-05-02T03:53:03.920Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-02T035303Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-01",
-      "title": "A Ransomware Negotiator Was Working for a Ransomware Gang",
-      "link": "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
+      "discovered": "2026-05-02",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "a-ransomware-negotiator-was-working-for-a-ransomware-gang",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-05-01",
-      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue May 01, 2026 Compliance / Data Protection The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030 [1] , with cybersecurity being the fastest-growing sector [2] . Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on frameworks and vulnerabilities, but their clients make decisions based on business outcomes: risk reduction, successful compliance audits, and business continuity. When sales messaging fails to bridge this divide, prospects tend to view cybersecurity as a cost center instead of a strategic investment. To win, MSPs must align security value with business priorities and translate complex offerings into compelling reasons for clients and prospects to act. Cynomi developed the GTM Academy Sales Kit to address this challenge and provide a structured, outcome-driven approach to help MSP sale...",
-      "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+      "discovered": "2026-05-02",
+      "title": "FTC Urges Tennessee Supreme Court to Oppose the ABA’s Law School Accreditation Monopoly",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-urges-tennessee-supreme-court-oppose-abas-law-school-accreditation-monopoly",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-urges-tennessee-supreme-court-to-oppose-the-aba-s-law-school-accreditation-monopoly",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-02",
+      "title": "FTC Takes Action to Protect Consumers from Anticompetitive Effects of Micromarket Kiosks Deal",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-takes-action-protect-consumers-anticompetitive-effects-micromarket-kiosks-deal",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-takes-action-to-protect-consumers-from-anticompetitive-effects-of-micromarket-kiosks-d",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-02",
+      "title": "FTC to Host Workshop on “Litigate the Fix” Merger Remedy Proposals",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-to-host-workshop-on-litigate-the-fix-merger-remedy-proposals",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-02",
+      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign May 01, 2026 Malware / Threat Intelligence A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are estimated to have been hacked as part of the campaign. \"What we found wasn't a single phishing kit,\" security researcher Shaked Chen wrote in a report shared with The Hacker News. \"It was a living operation with real-time operator panels, advanced evasion, continuous evolution and a criminal-commercial loop that quietly feeds on the same accounts it helps steal back.\" The findings are just the latest example of how Vietnamese threat actors continue to embrace various tactics to gain unauthorized access to victims' Facebook accounts, which are then sold...",
+      "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "top-five-sales-challenges-costing-msps-cybersecurity-revenue-may-01-2026-compliance-data-p",
+      "slug": "30-000-facebook-accounts-hacked-via-google-appsheet-phishing-campaign-may-01-2026-malware-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-01",
-      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks May 01, 2026 Data Breach / Law Enforcement The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg , 40, of Georgia, and Kevin Martin , 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023. The two defendants, who pleaded guilty to their crimes in December 2025, conspired with Angelo Martino, 41, of Florida, to conduct the attacks. \"The three men agreed to pay the ALPHV BlackCat administrators a 20% share of any ransoms received in exchange for access to the ransomware and ALPHV/BlackCat's extortion platform,\" the DoJ said . \"All three men worked in the cybersecurity industry – meaning that they had special skills and experience in securing computer systems against harm, including the type of harm they themselves were committing against the victims in this ca...",
-      "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+      "discovered": "2026-05-02",
+      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks May 01, 2026 Malware / Social Engineering Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and extortion campaigns that share a remarkable degree of operational similarities. Both hacking groups are assessed to be active since at least October 2025, with the latter a native English-speaking crew sharing ties to the e-crime ecosystem known as The Com . \"In most cases, these adversaries use voice phishing (vishing) to direct targeted users to malicious, SSO-themed adversary-in-the-middle (AiTM) pages, where they capture authentication data and pivot directly into SSO-integrated SaaS applications,\" CrowdStrike's Counter Adversary Operations said in a report. ...",
+      "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "two-cybersecurity-professionals-get-4-year-sentences-in-blackcat-ransomware-attacks-may-01",
+      "slug": "cybercrime-groups-using-vishing-and-sso-abuse-in-rapid-saas-extortion-attacks-may-01-2026-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-01",
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft May 01, 2026 Supply Chain Attack / Malware A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account \" BufferZoneCorp ,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of writing, the packages have been yanked from RubyGems, and the Go modules have been blocked. The names of the libraries are listed below - Ruby: knot-activesupport-logger knot-devise-jwt-helper knot-rack-session-store knot-rails-assets-pipeline knot-rspec-formatter-json knot-date-utils-rb (Sleeper gem) knot-simple-formatter (Sleeper gem) Go: github[.]com/BufferZoneCorp/go-metrics-sdk github[.]com/BufferZoneCorp/go-weather-sdk github[.]com/BufferZoneCorp/go-retryablehttp github[.]com/BufferZoneCorp/go-stdlib-ext github[.]com/BufferZoneCorp/grpc-client github[.]com...",
-      "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+      "discovered": "2026-05-02",
+      "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists May 01, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053 . The adversarial collective is assessed to be active since at least December 2024, while sharing some level of network overlap with CL-STA-0049, Earth Alux, and REF7707 . \"The group exploits N-day vulnerabilities in internet-facing Microsoft Exchange and Internet Information Services (IIS) servers (e.g., ProxyLogon chain), then deploys web shells ( Godzilla ) for persistent access and stages ShadowPad implants via DLL sideloading of legitimate signed executables,\" security researchers Daniel Lunghi and Lucas Silva said in an analysis. Targets of the campaigns include Pakistan, Thailand, Malaysia, India, Myanmar, Sri Lank...",
+      "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "poisoned-ruby-gems-and-go-modules-exploit-ci-pipelines-for-credential-theft-may-01-2026-su",
+      "slug": "china-linked-hackers-target-asian-governments-nato-state-journalists-and-activists-may-01-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-01",
-      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+      "discovered": "2026-05-02",
+      "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
+      "link": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks",
+      "slug": "edu-tech-firm-instructure-discloses-cyber-incident-probes-impact",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-02",
+      "title": "15-year-old detained over French govt agency data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "15-year-old-detained-over-french-govt-agency-data-breach",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-02",
+      "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+      "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations",
       "source": "BleepingComputer"
     }
   ]
