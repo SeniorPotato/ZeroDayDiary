@@ -5148,3 +5148,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-02
+- **Headline / event:** Trellix Confirms Source Code Breach With Unauthorized Repository Access May 02, 2026 Data Breach / Enterprise Security Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a "portion" of its source code. It said it "recently identified" the compromise of its source code repository and that it began working with "leading forensic experts" to resolve the matter immediately. It also said it has notified law enforcement of the matter. Trellix did not disclose the exact nature of the data that may have been accessed by the attackers. However, it pointed out that there are no indications that its source code has been affected or exploited. "Based on our investigation to date, we have found no evidence that our source code release or distribution process was affected, or that our source code has been exploited," the company added. The company did not share any details about who may be behind the incident, and for how long the attackers had access to its systems. Trellix noted that additional information will b...
+- **Source URL:** https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
