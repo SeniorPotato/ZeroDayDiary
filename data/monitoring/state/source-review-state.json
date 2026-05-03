@@ -509,7 +509,9 @@
       "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
       "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html"
+      "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -796,8 +798,6 @@
       "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
       "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
       "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
-      "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
       "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
       "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/"
     ]

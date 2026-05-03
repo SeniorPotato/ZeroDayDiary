@@ -5172,3 +5172,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-03
+- **Headline / event:** CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV May 03, 2026 Vulnerability / Container Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild. The vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The nine-year-old flaw is also tracked as Copy Fail by Theori and Xint. Fixes have been made available in Linux kernel versions 6.18.22, 6.19.12, and 7.0. "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation," CISA said in an advisory. In a write-up published earlier this week, the researchers said Copy Fail is the result of a logic bug in the Linux kernel's authentication cryptographic template that allows an attacker to reliably trigger privilege escalation tri...
+- **Source URL:** https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
