@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-05-02T13:50:13.640Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-02T135013Z.md",
+  "generatedAt": "2026-05-03T04:12:50.662Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-03T041250Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-02",
-      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access May 02, 2026 Data Breach / Enterprise Security Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter. Trellix did not disclose the exact nature of the data that may have been accessed by the attackers. However, it pointed out that there are no indications that its source code has been affected or exploited. \"Based on our investigation to date, we have found no evidence that our source code release or distribution process was affected, or that our source code has been exploited,\" the company added. The company did not share any details about who may be behind the incident, and for how long the attackers had access to its systems. Trellix noted that additional information will b...",
-      "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "discovered": "2026-05-03",
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "trellix-confirms-source-code-breach-with-unauthorized-repository-access-may-02-2026-data-b",
-      "source": "The Hacker News"
+      "slug": "critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-03",
+      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "consentfix-v3-attacks-target-azure-with-automated-oauth-abuse",
+      "source": "BleepingComputer"
     }
   ]
 }
