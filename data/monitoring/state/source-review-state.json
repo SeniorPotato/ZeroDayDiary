@@ -510,7 +510,6 @@
       "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
       "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
       "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html"
     ],
     "reddit-security": [
@@ -799,7 +798,13 @@
       "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
       "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
       "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/"
+      "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/"
     ]
   }
 }
