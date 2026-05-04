@@ -510,7 +510,17 @@
       "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
       "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html"
+      "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+      "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+      "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+      "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+      "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+      "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -802,9 +812,14 @@
       "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
       "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
       "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-      "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-      "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/"
+      "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+      "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+      "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+      "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+      "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+      "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/"
     ]
   }
 }

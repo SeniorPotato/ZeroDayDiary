@@ -5204,3 +5204,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** ⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More May 04, 2026 Cybersecurity / Hacking This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling operations like legitimate businesses — except their product is chaos. And the underground is getting uncomfortably professional. Here’s the full weekly cybersecurity recap: ⚡ Threat of the Week cPanel Flaw Comes Under Attack —A critical flaw in cPanel and WebHost Manager (WHM) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-41940, could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. In some cases , the attacks have led to a complete wipe of entire websites and backups. Other attacks have deployed ...
+- **Source URL:** https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** 2026: The Year of AI-Assisted Attacks May 04, 2026 Artificial Intelligence / Supply Chain Security On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club , Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards. In a sense, this is a fairly conventional story. Since the 1990s, we’ve read about computing wunderkinds such as Kevin Mitnick, whose technical ability exceeded their judgment and who were drawn into high-profile cybercrimes in pursuit of status, profit, or excitement. But something is different in this story: the young man in question wasn’t technical. The rise of AI-assisted attacks In 2025, LLM-backed chat and agent systems crossed a threshold, going from useful but error-prone coding assistants to end-to-end coding powerhouses. Throughout the year, several measures of cybercrime frequency and severity approximately doubled. Instanc...
+- **Source URL:** https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia May 04, 2026 Malware / Network Security The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor . The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities. "Both waves followed a nearly identical structure: phishing emails were styled as official notices regarding tax audits or prompted users to download an archive containing a 'list of tax violations,'" Kaspersky said . "Inside the archive was a modified Rust-based loader pulled from a public repository. This loader would download and execute the well-known ValleyRAT backdoor." The campaign is estimated to have impacted organizations across the industrial, consulting, retail, and transportation sectors. More than 1,600 phishing emails were flagged between early January and early February. What's notab...
+- **Source URL:** https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks May 04, 2026 Vulnerability / Network Security A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel. The activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the abuse of CVE-2026-41940 , a critical vulnerability in cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. The attack efforts have originated from the IP address "95.111.250[.]175," primarily singling out government and military domains associated with the Philippines (*.mil.ph and (*.ph)) and Laos (*.gov.la), as well as MSPs and hosting providers, using publicly-available proof-of-concepts (PoCs). In addition, Ctrl-Alt-Intel revealed that the threat actor used a separate custom exp...
+- **Source URL:** https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M May 04, 2026 Mobile Security / Financial Crime A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses. The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal Bureau of Investigation (FBI) and the Chinese Ministry of Public Security. Among those arrested are individuals from Burma and Indonesia, who were apprehended by authorities from Dubai and Thailand. Thet Min Nyi, 27, Wiliang Awang, 23, Andreas Chandra, 29, Lisa Mariam, 29, and two fugitive co-conspirators have been charged with federal fraud and money laundering charges in the U.S. "Fraudsters who target Americans from overseas cannot operate with impunity, no matter where in the world they reside," Assistant Attorney General A. Tysen Duva of the Justice Department's (DoJ) Crimi...
+- **Source URL:** https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** They don’t hack, they borrow: How fraudsters target credit unions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** Progress warns of critical MOVEit Automation auth bypass flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** Webinar: Why MSPs must rethink security and backup strategies
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-04
+- **Headline / event:** CISA says ‘Copy Fail’ flaw now exploited to root Linux systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
