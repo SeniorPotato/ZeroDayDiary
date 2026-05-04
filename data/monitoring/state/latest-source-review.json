@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-05-03T13:50:34.959Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-03T135034Z.md",
+  "generatedAt": "2026-05-04T04:11:16.114Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-04T041116Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-03",
-      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV May 03, 2026 Vulnerability / Container Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild. The vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The nine-year-old flaw is also tracked as Copy Fail by Theori and Xint. Fixes have been made available in Linux kernel versions 6.18.22, 6.19.12, and 7.0. \"Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation,\" CISA said in an advisory. In a write-up published earlier this week, the researchers said Copy Fail is the result of a logic bug in the Linux kernel's authentication cryptographic template that allows an attacker to reliably trigger privilege escalation tri...",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "discovered": "2026-05-04",
+      "title": "Instructure confirms data breach, ShinyHunters claims attack",
+      "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-actively-exploited-linux-root-access-bug-cve-2026-31431-to-kev-may-03-2026-vulne",
-      "source": "The Hacker News"
+      "slug": "instructure-confirms-data-breach-shinyhunters-claims-attack",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-04",
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigent-a-dha",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-04",
+      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery",
+      "source": "BleepingComputer"
     }
   ]
 }
