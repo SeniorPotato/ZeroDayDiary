@@ -1,86 +1,68 @@
 {
-  "generatedAt": "2026-05-04T14:32:39.319Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-04T143239Z.md",
+  "generatedAt": "2026-05-05T03:51:42.519Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-05T035142Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-04",
-      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More May 04, 2026 Cybersecurity / Hacking This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling operations like legitimate businesses — except their product is chaos. And the underground is getting uncomfortably professional. Here’s the full weekly cybersecurity recap: ⚡ Threat of the Week cPanel Flaw Comes Under Attack —A critical flaw in cPanel and WebHost Manager (WHM) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-41940, could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. In some cases , the attacks have led to a complete wipe of entire websites and backups. Other attacks have deployed ...",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "discovered": "2026-05-05",
+      "title": "FTC to Ban Kochava and Subsidiary from Selling Sensitive Location Data to Settle Charges They Sold Location Data Linked to Millions of Mobile Devices",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-to-ban-kochava-and-subsidiary-from-selling-sensitive-location-data-to-settle-charges-t",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-05",
+      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools May 04, 2026 Network Security / Endpoint Security An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER , has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters previously tracked by Red Canary and Sophos, the latter of which has given it the moniker STAC6405 . While it's not clear who is behind the campaign, the cybersecurity company said it aligns with a financially motivated Initial Access Broker (IAB) or a ransomware precursor operation. \"In this case, a customized SimpleHelp and ScreenConnect RMMs are used to bypass defenses as they are legitimately installed by the unsuspecting victim,\" researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said in a report shared with The Hacker News. Setting aside the fact that the...",
+      "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-ai-powered-phishing-android-spying-tool-linux-exploit-github-rce-more-may-04-",
+      "slug": "phishing-campaign-hits-80-orgs-using-simplehelp-and-screenconnect-rmm-tools-may-04-2026-ne",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-04",
-      "title": "2026: The Year of AI-Assisted Attacks May 04, 2026 Artificial Intelligence / Supply Chain Security On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club , Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards. In a sense, this is a fairly conventional story. Since the 1990s, we’ve read about computing wunderkinds such as Kevin Mitnick, whose technical ability exceeded their judgment and who were drawn into high-profile cybercrimes in pursuit of status, profit, or excitement. But something is different in this story: the young man in question wasn’t technical. The rise of AI-assisted attacks In 2025, LLM-backed chat and agent systems crossed a threshold, going from useful but error-prone coding assistants to end-to-end coding powerhouses. Throughout the year, several measures of cybercrime frequency and severity approximately doubled. Instanc...",
-      "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "discovered": "2026-05-05",
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass May 04, 2026 Vulnerability / Enterprise Software Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. The vulnerabilities in question are CVE-2026-4670 (CVSS score: 9.8), an authentication bypass vulnerability, and CVE-2026-5174 (CVSS score: 7.7), an improper input validation vulnerability that could allow privilege escalation. \"Critical and high vulnerabilities in MOVEit Automation may allow authentication bypass and privilege escalation through the service backend command port interfaces,\" Progress Software said in an advisory. \"Exploitation may lead to unauthorized access, administrative control, and data exposure.\" The shortcomings affect the following versions - MOVEit Autom...",
+      "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "2026-the-year-of-ai-assisted-attacks-may-04-2026-artificial-intelligence-supply-chain-secu",
+      "slug": "progress-patches-critical-moveit-automation-bug-enabling-authentication-bypass-may-04-2026",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-04",
-      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia May 04, 2026 Malware / Network Security The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor . The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities. \"Both waves followed a nearly identical structure: phishing emails were styled as official notices regarding tax audits or prompted users to download an archive containing a 'list of tax violations,'\" Kaspersky said . \"Inside the archive was a modified Rust-based loader pulled from a public repository. This loader would download and execute the well-known ValleyRAT backdoor.\" The campaign is estimated to have impacted organizations across the industrial, consulting, retail, and transportation sectors. More than 1,600 phishing emails were flagged between early January and early February. What's notab...",
-      "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+      "discovered": "2026-05-05",
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "silver-fox-deploys-abcdoor-malware-via-tax-themed-phishing-in-india-and-russia-may-04-2026",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-04",
-      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks May 04, 2026 Vulnerability / Network Security A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel. The activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the abuse of CVE-2026-41940 , a critical vulnerability in cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. The attack efforts have originated from the IP address \"95.111.250[.]175,\" primarily singling out government and military domains associated with the Philippines (*.mil.ph and (*.ph)) and Laos (*.gov.la), as well as MSPs and hosting providers, using publicly-available proof-of-concepts (PoCs). In addition, Ctrl-Alt-Intel revealed that the threat actor used a separate custom exp...",
-      "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "critical-cpanel-vulnerability-weaponized-to-target-government-and-msp-networks-may-04-2026",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-04",
-      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M May 04, 2026 Mobile Security / Financial Crime A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses. The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal Bureau of Investigation (FBI) and the Chinese Ministry of Public Security. Among those arrested are individuals from Burma and Indonesia, who were apprehended by authorities from Dubai and Thailand. Thet Min Nyi, 27, Wiliang Awang, 23, Andreas Chandra, 29, Lisa Mariam, 29, and two fugitive co-conspirators have been charged with federal fraud and money laundering charges in the U.S. \"Fraudsters who target Americans from overseas cannot operate with impunity, no matter where in the world they reside,\" Assistant Attorney General A. Tysen Duva of the Justice Department's (DoJ) Crimi...",
-      "link": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "global-crackdown-arrests-276-shuts-9-crypto-scam-centers-seizes-701m-may-04-2026-mobile-se",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-04",
-      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-      "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "they-don-t-hack-they-borrow-how-fraudsters-target-credit-unions",
+      "slug": "weaver-e-cology-critical-bug-exploited-in-attacks-since-march",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-04",
-      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "discovered": "2026-05-05",
+      "title": "Amazon SES increasingly abused in phishing to evade detection",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "progress-warns-of-critical-moveit-automation-auth-bypass-flaw",
+      "slug": "amazon-ses-increasingly-abused-in-phishing-to-evade-detection",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-04",
-      "title": "Webinar: Why MSPs must rethink security and backup strategies",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+      "discovered": "2026-05-05",
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-why-msps-must-rethink-security-and-backup-strategies",
+      "slug": "backdoored-pytorch-lightning-package-drops-credential-stealer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-04",
-      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+      "discovered": "2026-05-05",
+      "title": "Trellix discloses data breach after source code repository hack",
+      "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems",
+      "slug": "trellix-discloses-data-breach-after-source-code-repository-hack",
       "source": "BleepingComputer"
     }
   ]

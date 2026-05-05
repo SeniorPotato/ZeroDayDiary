@@ -5276,3 +5276,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** FTC to Ban Kochava and Subsidiary from Selling Sensitive Location Data to Settle Charges They Sold Location Data Linked to Millions of Mobile Devices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools May 04, 2026 Network Security / Endpoint Security An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER , has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters previously tracked by Red Canary and Sophos, the latter of which has given it the moniker STAC6405 . While it's not clear who is behind the campaign, the cybersecurity company said it aligns with a financially motivated Initial Access Broker (IAB) or a ransomware precursor operation. "In this case, a customized SimpleHelp and ScreenConnect RMMs are used to bypass defenses as they are legitimately installed by the unsuspecting victim," researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said in a report shared with The Hacker News. Setting aside the fact that the...
+- **Source URL:** https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass May 04, 2026 Vulnerability / Enterprise Software Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. The vulnerabilities in question are CVE-2026-4670 (CVSS score: 9.8), an authentication bypass vulnerability, and CVE-2026-5174 (CVSS score: 7.7), an improper input validation vulnerability that could allow privilege escalation. "Critical and high vulnerabilities in MOVEit Automation may allow authentication bypass and privilege escalation through the service backend command port interfaces," Progress Software said in an advisory. "Exploitation may lead to unauthorized access, administrative control, and data exposure." The shortcomings affect the following versions - MOVEit Autom...
+- **Source URL:** https://thehackernews.com/2026/05/progress-patches-critical-moveit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Weaver E-cology critical bug exploited in attacks since March
+- **Source URL:** https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Amazon SES increasingly abused in phishing to evade detection
+- **Source URL:** https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Backdoored PyTorch Lightning package drops credential stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-05
+- **Headline / event:** Trellix discloses data breach after source code repository hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
