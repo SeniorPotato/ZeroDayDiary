@@ -5332,3 +5332,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Europe Day 2026: let’s celebrate together
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE May 05, 2026 Vulnerability / Server Security The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE). The vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of "double free and possible RCE" in the HTTP/2 protocol handling. This issue affects Apache HTTP Server 2.4.66 and has been addressed in version 2.4.67. Striga.ai co-founder Bartlomiej Dmitruk and ISEC.pl researcher Stanislaw Strzalkowski have been credited with discovering and reporting the vulnerability. When reached for comment, Dmitruk told The Hacker News via email that the severity of CVE-2026-23918 is critical, as it can be exploited to achieve denial-of-service (DoS) and RCE. Additional details of the vulnerability are below - CVE-2026-23918 is a double-free in Apache httpd 2.4.66 mod_http2 , specifically in the stream cleanup path of h2_mplx.c. T...
+- **Source URL:** https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware May 05, 2026 Endpoint Security / Software Security A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. "These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers," Kaspersky researchers Igor Kuznetsov, Georgy Kucherin, Leonid Bezvershenko, and Anton Kargin said . The installers have been trojanized since April 8, 2026, with versions ranging from 12.5.0.2421 to 12.5.0.2434 identified as compromised as part of the incident. While DAEMON Tools is also available for Mac, Kaspersky told The Hacker News that only the Windows version was compromised. The supply chain attack is active as of writing. AVB Disc Soft, the developer of the software, has been notified of the breach. Specifically, three different components of DAEMON Tools have been tampered with - DTHelper.exe DiscSoftBusServiceLite.exe DTShellHlp.exe ...
+- **Source URL:** https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions May 05, 2026 Network Security / Endpoint Security A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025. The activity is being tracked by Cisco Talos under the moniker UAT-8302 , with post-exploitation involving the deployment of custom-made malware families that have been put to use by other China-aligned hacking groups. Notable among the malware families is a .NET-based backdoor dubbed NetDraft (aka NosyDoor), a C# variant of FINALDRAFT (aka Squidoor) that has been previously linked to threat clusters known as Ink Dragon , CL-STA-0049, Earth Alux , Jewelbug , and REF7707 . ESET is tracking the use of NosyDoor to a group it calls LongNosedGoblin . Interestingly, the same malware has also been deployed against Russian IT organizations by a threat actor referred to as Erudite Mogwai (aka Space Pirates and Webworm), per Russian cybersecurity company Solar, which...
+- **Source URL:** https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed May 05, 2026 SaaS Security / Enterprise Security Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password. OAuth grants don't expire when employees leave. They don't reset when passwords change. And in most organizations, nobody is watching them. The model made sense when a handful of IT-approved apps needed calendar access. It doesn't hold up when every employee is independently wiring AI tools, workflow automations, and productivity apps directly into their Google or Microsoft environment — each one receiving a persistent, scoped token with no automatic expiration and no centralized visibility. That's not a misconfiguration. It's how OAuth is designed to work. The gap is t...
+- **Source URL:** https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks May 05, 2026 Vulnerability / Network Security Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution. "MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code injection vulnerability that allows remote attackers to execute arbitrary code by sending crafted requests with malicious PHP code," the NIST National Vulnerability Database (NVD) states . "Attackers can exploit insufficient input neutralization in the execution path to achieve remote code execution and gain full control over the affected server." Per security researcher Egidio Romano, who discovered the vulnerability, the problem is rooted in the "/app/system/weixin/include/class/weixinreply.class.php" script, and stems from a lack of adequate sanitization of user...
+- **Source URL:** https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** New stealthy Quasar Linux malware targets software developers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Instructure hacker claims data theft from 8,800 schools, universities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** DAEMON Tools trojanized in supply-chain attack to deploy backdoor
+- **Source URL:** https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Student hacked Taiwan high-speed rail to trigger emergency brakes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** FTC to ban data broker Kochava from selling Americans’ location data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

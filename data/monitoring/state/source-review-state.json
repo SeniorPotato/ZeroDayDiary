@@ -60,7 +60,9 @@
       "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en",
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en",
       "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en",
-      "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en"
+      "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en",
+      "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en",
+      "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en"
     ],
     "cisa-kev": [
       "https://www.cve.org/CVERecord?id=CVE-2026-1603",
@@ -147,7 +149,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-urges-tennessee-supreme-court-oppose-abas-law-school-accreditation-monopoly",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-takes-action-protect-consumers-anticompetitive-effects-micromarket-kiosks-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data"
     ],
     "iso-insights": [
@@ -520,8 +521,20 @@
       "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
       "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
       "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
-      "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html"
+      "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+      "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+      "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
+      "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+      "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+      "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+      "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+      "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
+      "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+      "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+      "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
+      "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
+      "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -821,10 +834,20 @@
       "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
       "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
       "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-      "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-      "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-      "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/"
+      "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+      "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+      "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+      "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+      "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+      "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+      "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+      "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+      "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+      "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+      "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
+      "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+      "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+      "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/"
     ]
   }
 }
