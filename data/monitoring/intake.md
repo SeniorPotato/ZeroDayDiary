@@ -5420,3 +5420,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** New CVE Numbering Authorities Under ENISA Root
+- **Source URL:** https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Rowhammer Attack Against NVIDIA Chips
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack May 06, 2026 Ransomware / Cybercrime The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a "false flag" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident initially appeared to be consistent with a ransomware-as-a-service (RaaS) group operating under the Chaos brand, evidence points to it being a targeted state-backed attack that masquerades as opportunistic extortion. "The campaign was characterized by a high-touch social engineering phase conducted via Microsoft Teams , where the attackers utilized interactive screen-sharing to harvest credentials and manipulate multi-factor authentication (MFA)," Rapid7 said in a report shared with The Hacker News. "Once inside, the group bypassed traditional ransomware workflows, for...
+- **Source URL:** https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open May 06, 2026 Security Leadership / Industry Recognition For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is invisible. When everything goes perfectly, nothing happens. The world just stays safe, and no one notices. Today, we want the world to notice. Introducing the CyberStars Awards 2026 We are launching the Cybersecurity Stars Awards 2026 , a global program that recognizes excellence across the cybersecurity industry and highlights outstanding work that often goes unnoticed. Submissions are now open, and companies, products, and professionals can apply via the official awards portal: https://awards.thehackernews.com/ We don’t just want to report the news anymore. We want to recognize t...
+- **Source URL:** https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing? May 06, 2026 Compliance / Data Security Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for Guardian Agents , available complimentary from Orchid Security. The challenge is not simply one of tooling. It is a structural gap in how identity has been managed over the past decades. Traditional identity and access management were designed for human users to log in and out of systems. AI agents operate differently — they run continuously, span multiple applications, acquire permissions opportunistically, and generate activity at machine speed. The result is yet another form of what Orchid Security calls "identity dark matter": an invisible and unmanaged layer of identity activity op...
+- **Source URL:** https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Google's Android Apps Get Public Verification to Stop Supply Chain Attacks May 06, 2026 Android / Data Security Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. "This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute," Google's product and security teams said . The initiative builds upon the foundation of Pixel Binary Transparency , which Google introduced in October 2021 to bolster software integrity by ensuring that Pixel devices are only running verified operating system (OS) software by keeping a public, cryptographic log that records metadata about official factory images. The verifiable security infrastructure mirrors Certificate Transparency , an open framework that requires all issued SSL/TLS certificates to be recorded in public, append-only, and cryptographically verifiable logs to help detect mis-issued or malicious certificates. The move is aimed at countering the risks posed by binary supply chain attacks, which often deliver ...
+- **Source URL:** https://thehackernews.com/2026/05/android-apps-get-public-verification.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs May 06, 2026 Endpoint Security / Threat Intelligence Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft. "According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs)," Cisco Talos researchers Alex Karkins and Chetan Raghuprasad said in a Tuesday analysis. What makes the attack novel is that CloudZ uses the custom Pheno plugin to hijack the established PC-to-phone bridge by abusing the Microsoft Phone Link application, permitting the plugin to monitor for active Phone Link processes and potentially intercept sensitive mobile data like SMS and one-time passwords (OTPs) without the need for deploying malware on the phone. The findings demonstrate how legitimate cross-device syncing features can expose unintended attack pathways to credential theft...
+- **Source URL:** https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Why ransomware attacks succeed even when backups exist
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** MuddyWater hackers use Chaos ransomware as a decoy in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Webinar: Why network incidents escalate and how to fix response gaps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-06
+- **Headline / event:** Palo Alto Networks warns of firewall RCE zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

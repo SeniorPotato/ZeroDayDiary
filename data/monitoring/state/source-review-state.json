@@ -61,7 +61,6 @@
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en",
       "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en",
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en",
-      "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en",
       "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en"
     ],
     "cisa-kev": [
@@ -92,7 +91,9 @@
       "https://www.enisa.europa.eu/news/public-administration-increasingly-targeted-by-ddos-attacks",
       "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives",
       "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
-      "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework"
+      "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
+      "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
+      "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -259,7 +260,9 @@
       "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
-      "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html"
+      "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
+      "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
+      "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -526,15 +529,21 @@
       "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
       "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
       "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
-      "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
-      "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-      "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
-      "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
       "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
       "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
       "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html"
+      "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+      "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+      "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+      "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+      "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+      "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+      "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+      "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+      "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+      "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+      "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -839,15 +848,18 @@
       "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
       "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
       "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
-      "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
-      "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
-      "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
       "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
       "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
       "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
-      "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/"
+      "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
+      "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+      "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+      "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
+      "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+      "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/"
     ]
   }
 }
