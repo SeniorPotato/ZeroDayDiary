@@ -40,7 +40,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -262,7 +261,9 @@
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
       "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
-      "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html"
+      "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
+      "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
+      "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -540,7 +541,17 @@
       "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
       "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
       "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
-      "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html"
+      "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+      "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+      "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+      "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+      "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+      "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+      "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+      "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+      "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -857,10 +868,17 @@
       "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
       "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
-      "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-      "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
-      "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
-      "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/"
+      "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+      "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+      "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+      "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+      "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+      "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+      "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/"
     ]
   }
 }
