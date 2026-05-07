@@ -1,59 +1,104 @@
 {
-  "generatedAt": "2026-05-07T04:07:09.912Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-07T040709Z.md",
+  "generatedAt": "2026-05-07T15:05:42.664Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-07T150542Z.md",
   "candidates": [
     {
       "discovered": "2026-05-07",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Smart Glasses for the Authorities",
+      "link": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "smart-glasses-for-the-authorities",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-05-07",
-      "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks May 06, 2026 IoT Security / Malware Cybersecurity researchers have exposed a new Mirai -derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge ( ADB ) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted server at the IP address \"176.65.139[.]44\" without requiring any authentication. The malware supports \"21 flood variants across TCP, UDP, and raw protocols, including RakNet and OpenVPN-shaped UDP, capable of bypassing consumer-grade DDoS protection,\" Hunt.io said, adding it's offered as a DDoS-for-hire service designed for targeting game servers and Minecraft hosts. What makes xlabs_v1 notable is that it seeks out Android devices running an exposed ADB service on TCP port 5555, meaning any gear that comes with the tool enabled by default, such as Android TV boxes,...",
-      "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches May 07, 2026 Artificial Intelligence / Threat Detection The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down the whole company? Register for the Webinar: The Patient Zero Playbook What is \"Patient Zero\"? In medicine, Patient Zero is the first person to carry a disease into a population. In cybersecurity, it’s the first device an attacker hits. Once they are \"in,\" they don't stay there—they move fast to find your data, your passwords, and your backups. What You Will Learn Thisisn't a boring lecture. It is a technical deep dive into how modern breaches start and how to kill them instantly. We are covering: The AI Phish: How attackers use gene...",
+      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "mirai-based-xlabs-v1-botnet-exploits-adb-to-hijack-iot-devices-for-ddos-attacks-may-06-202",
+      "slug": "one-click-total-shutdown-the-patient-zero-webinar-on-killing-stealth-breaches-may-07-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-07",
-      "title": "DAEMON Tools devs confirm breach, release malware-free version",
-      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage May 07, 2026 Vulnerability / Cyber Espionage Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026. The vulnerability in question is CVE-2026-0300 (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets. While fixes are expected to be released starting May 13, 2026, customers are advised to secure access to the PAN-OS User-ID Authentication Portal by restricting access to trusted zones, or by disabling it entirely if it's not used. In an advisory issued Wednesday, the network security company said it's aware of limited exploitation of the flaw. It's tracking the activity under the CL-STA-1132 , a suspected state-sponsored threat cluster of unknown provenance. \"The attacker behind this act...",
+      "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "daemon-tools-devs-confirm-breach-release-malware-free-version",
+      "slug": "pan-os-rce-exploit-under-active-use-enabling-root-access-and-espionage-may-07-2026-vulnera",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-07",
+      "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories May 07, 2026 Hacking News / Cybersecurity News Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff still works. Meanwhile, AI tools are speeding up exploit hunting, browsers are keeping passwords sitting in memory for “performance reasons,” and even ransomware crews are pushing broken builds into the wild. Everybody’s scrambling to patch faster because attackers are automating faster. Anyway. ThreatsDay’s rough this week. Let’s get into it. Credential theft campaign New MicroStealer Spotted A new stealer called MicroStealer has been observed targeting education and telecom sectors to steal sensitive data. It was first observed in the wild in...",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "threatsday-bulletin-edge-plaintext-passwords-ics-0-days-patch-or-die-alerts-and-25-new-sto",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-07",
+      "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response May 07, 2026 Incident Response / Identity Management Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do. That distinction matters far more than many organizations realize. In the first hours of a security incident, attackers are not waiting for your identity team to provision emergency accounts, for legal to decide whether an outside firm can access sensitive systems, or for someone to figure out who owns the EDR console. Every delay gives the attacker more uninterrupted time in your environment. Every hour lost to logistics increases the likelihood of deeper compromise, broader impact, and more expensive recovery. The same is true internally. An organization may have an incident response plan, a capable security team, and a list of escalation contacts, yet still be unprepared to respond under p...",
+      "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "day-zero-readiness-the-operational-gaps-that-break-incident-response-may-07-2026-incident-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-07",
+      "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux May 07, 2026 Malware / Threat Intelligence Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot on Windows and Linux systems. \"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky said . \"Unlike traditional malware, ZiChatBot does not communicate with a dedicated command-and-control (C2) server, but instead uses a series of REST APIs from the public team chat app Zulip as its C2 infrastructure.\" The activity has been described as a \"carefully planned and executed PyPI supply chain attack\" by the Russian cybersecurity company. The names of the packages, which have since been taken down, are listed below - uuid32-utils (1,479 downloads) colorinal (614 downloads) termncolor (387 downloads) All three packages were uploaded to PyPI during a short wi...",
+      "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "pypi-packages-deliver-zichatbot-malware-via-zulip-apis-on-windows-and-linux-may-07-2026-ma",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-07",
+      "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+      "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-07",
-      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "title": "Americans sentenced for running 'laptop farms' for North Korea",
+      "link": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices",
+      "slug": "americans-sentenced-for-running-laptop-farms-for-north-korea",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-07",
-      "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+      "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
+      "link": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-abuse-google-ads-for-godaddy-managewp-login-phishing",
+      "slug": "crypto-gang-member-gets-6-5-years-for-role-in-230-million-heist",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-07",
-      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "title": "Webinar: Why modern attacks require both security and recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts",
+      "slug": "webinar-why-modern-attacks-require-both-security-and-recovery",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-07",
+      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+      "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "palo-alto-networks-firewall-zero-day-exploited-for-nearly-a-month",
       "source": "BleepingComputer"
     }
   ]
