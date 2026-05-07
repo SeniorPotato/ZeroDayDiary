@@ -5508,3 +5508,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks May 06, 2026 IoT Security / Malware Cybersecurity researchers have exposed a new Mirai -derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge ( ADB ) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted server at the IP address "176.65.139[.]44" without requiring any authentication. The malware supports "21 flood variants across TCP, UDP, and raw protocols, including RakNet and OpenVPN-shaped UDP, capable of bypassing consumer-grade DDoS protection," Hunt.io said, adding it's offered as a DDoS-for-hire service designed for targeting game servers and Minecraft hosts. What makes xlabs_v1 notable is that it seeks out Android devices running an exposed ADB service on TCP port 5555, meaning any gear that comes with the tool enabled by default, such as Android TV boxes,...
+- **Source URL:** https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** DAEMON Tools devs confirm breach, release malware-free version
+- **Source URL:** https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** New Cisco DoS flaw requires manual reboot to revive devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** Hackers abuse Google ads for GoDaddy ManageWP login phishing
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-07
+- **Headline / event:** Critical vm2 sandbox bug lets attackers execute code on hosts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

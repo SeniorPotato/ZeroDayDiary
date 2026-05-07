@@ -39,7 +39,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -92,7 +94,6 @@
       "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives",
       "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
       "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
-      "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
       "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root"
     ],
     "ncsc-news": [],
@@ -261,7 +262,6 @@
       "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
       "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
-      "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
       "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html"
     ],
     "the-hacker-news": [
@@ -538,12 +538,9 @@
       "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
       "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
       "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-      "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
-      "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
-      "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-      "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-      "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-      "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html"
+      "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+      "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+      "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -856,10 +853,14 @@
       "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
       "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
-      "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
-      "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/"
+      "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+      "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+      "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/"
     ]
   }
 }
