@@ -41,7 +41,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -154,8 +153,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15"
     ],
     "iso-insights": [
@@ -208,7 +205,6 @@
       "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
       "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
     ],
     "schneier-on-security": [
@@ -556,8 +552,14 @@
       "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
       "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
       "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-      "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
-      "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html"
+      "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+      "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+      "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+      "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+      "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+      "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+      "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+      "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -885,11 +887,17 @@
       "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
       "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
       "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
-      "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
-      "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-      "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-      "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/"
+      "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+      "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+      "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+      "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+      "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+      "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+      "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/"
     ]
   }
 }

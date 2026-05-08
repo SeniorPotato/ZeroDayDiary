@@ -5732,3 +5732,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise May 08, 2026 Linux / DevOps A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and network tunneling. "QLNX targets developers and DevOps credentials across the software supply chain," Trend Micro researchers Aliakbar Zahravi and Ahmed Mohamed Ibrahim said in a technical analysis of the malware. "Its credential harvester extracts secrets from high-value files such as .npmrc (npm tokens), .pypirc (PyPI credentials), .git-credentials, .aws/credentials, .kube/config, .docker/config.json, .vault-token, Terraform credentials, GitHub CLI tokens, and .env files. The compromise of these assets could allow the operator to push malicious packages to NPM or PyPI registries, access cloud infrastructure, or pivot through CI/CD pipelines." The malware's ab...
+- **Source URL:** https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk May 08, 2026 Threat Detection / AI Security The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live enterprise environments. The dataset behind these findings includes 10 million monitored endpoints and identities, 82,000 forensic endpoint investigations including live memory scans, 180 million files analyzed, and telemetry from 7 million IP addresses, 3 million domains and URLs, and over 550,000 phishing emails. The patterns that emerge from this data tell a consistent story. Threat actors are exploiting the predictable gaps created by constrained, severity-based security operations, and they are doing it systematically. Understanding where those gaps actually live requires looking at the full alert picture, starting with the category most teams have been conditioned to ignore. Th...
+- **Source URL:** https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials May 08, 2026 Malware / Threat Intelligence Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called "darkworm." The backdoor is designed as a Pluggable Authentication Module ( PAM )-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination. It's also capable of harvesting credentials from all legitimate users who authenticate through the compromised system. "The tool, called PamDOORa, is a new PAM-based backdoor, designed to serve as a post-exploitation backdoor, enabling authentication to servers via OpenSSH," Flare.io researcher Assaf Morag said in a technical report. "Allegedly this would remain persistent on Linux systems (x86_64)." PamDOORa is the second Linux backdoor targeting the PAM stack after Plague . PAM is a security framework in Unix/Linux operating systems that grants syst...
+- **Source URL:** https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions May 08, 2026 Linux / Vulnerability Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag , it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers on April 30, 2026. "Dirty Frag is a vulnerability (class) that achieves root privileges on most Linux distributions by chaining the xfrm-ESP Page-Cache Write vulnerability and the RxRPC Page-Cache Write vulnerability," security researcher Hyunwoo Kim (@v4bel) said in a write-up. "Dirty Frag is a case that extends the bug class to which Dirty Pipe and Copy Fail belong. Because it is a deterministic logic bug that does not depend on a timing window, no race condition is required, the kernel does not panic when the exploit fails, and the success rate is very high." T...
+- **Source URL:** https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Why More Analysts Won’t Solve Your SOC’s Alert Problem
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Trellix source code breach claimed by RansomHouse hackers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** CISA gives feds four days to patch Ivanti flaw exploited as zero-day
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Zara data breach exposed personal information of 197,000 people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Former govt contractor convicted for wiping dozens of federal databases
+- **Source URL:** https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
