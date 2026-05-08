@@ -1,104 +1,104 @@
 {
-  "generatedAt": "2026-05-07T15:05:42.664Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-07T150542Z.md",
+  "generatedAt": "2026-05-08T03:55:22.780Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-08T035522Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-07",
-      "title": "Smart Glasses for the Authorities",
-      "link": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
+      "discovered": "2026-05-08",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "smart-glasses-for-the-authorities",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches May 07, 2026 Artificial Intelligence / Threat Detection The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down the whole company? Register for the Webinar: The Patient Zero Playbook What is \"Patient Zero\"? In medicine, Patient Zero is the first person to carry a disease into a population. In cybersecurity, it’s the first device an attacker hits. Once they are \"in,\" they don't stay there—they move fast to find your data, your passwords, and your backups. What You Will Learn Thisisn't a boring lecture. It is a technical deep dive into how modern breaches start and how to kill them instantly. We are covering: The AI Phish: How attackers use gene...",
-      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "discovered": "2026-05-08",
+      "title": "FTC Finalizes Consent Order in Valvoline-Greenbriar Deal",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-finalizes-consent-order-in-valvoline-greenbriar-deal",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-08",
+      "title": "FTC to Co-Host Workshop on Financial Services with Institute for Consumer Financial Choice on May 14-15",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-to-co-host-workshop-on-financial-services-with-institute-for-consumer-financial-choice",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-08",
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "one-click-total-shutdown-the-patient-zero-webinar-on-killing-stealth-breaches-may-07-2026-",
+      "slug": "canvas-breach-disrupts-schools-colleges-nationwide",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-05-08",
+      "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access May 07, 2026 Vulnerability / Network Security Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows \"a remotely authenticated user with administrative access to achieve remote code execution,\" Ivanti said in an advisory released today. \"We are aware of a very limited number of customers exploited with CVE-2026-6973. Successful exploitation requires Admin authentication. If customers followed Ivanti's recommendation in January to rotate credentials if you were exploited with CVE-2026-1281 and CVE-2026-1340 , then your risk of exploitation from CVE-2026-6973 is significantly reduced.\" It's currently not known who is behind the exploitation efforts, if any of those attacks were successful, and what the end goals of the attacks were. The devel...",
+      "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ivanti-epmm-cve-2026-6973-rce-under-active-exploitation-grants-admin-level-access-may-07-2",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage May 07, 2026 Vulnerability / Cyber Espionage Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026. The vulnerability in question is CVE-2026-0300 (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets. While fixes are expected to be released starting May 13, 2026, customers are advised to secure access to the PAN-OS User-ID Authentication Portal by restricting access to trusted zones, or by disabling it entirely if it's not used. In an advisory issued Wednesday, the network security company said it's aware of limited exploitation of the flaw. It's tracking the activity under the CL-STA-1132 , a suspected state-sponsored threat cluster of unknown provenance. \"The attacker behind this act...",
-      "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+      "discovered": "2026-05-08",
+      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems May 07, 2026 Threat Intelligence / Cloud Security Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. \"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting to spread to additional hosts,\" SentinelOne security researcher Alex Delamotte said in a report published today. PCPJack is specifically designed to target cloud services like Docker, Kubernetes, Redis, MongoDB, RayML, and vulnerable web applications, allowing the operators to spread in a worm-like fashion, aswell as move laterally within the compromised networks. It's assessed that the end goal of the cloud attack campaign is to generate illicit revenue for the threat actors through credential theft, fraud, spam, extortion, or resale of stolen access. The What makes thi...",
+      "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "pan-os-rce-exploit-under-active-use-enabling-root-access-and-espionage-may-07-2026-vulnera",
+      "slug": "pcpjack-credential-stealer-exploits-5-cves-to-spread-worm-like-across-cloud-systems-may-07",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories May 07, 2026 Hacking News / Cybersecurity News Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff still works. Meanwhile, AI tools are speeding up exploit hunting, browsers are keeping passwords sitting in memory for “performance reasons,” and even ransomware crews are pushing broken builds into the wild. Everybody’s scrambling to patch faster because attackers are automating faster. Anyway. ThreatsDay’s rough this week. Let’s get into it. Credential theft campaign New MicroStealer Spotted A new stealer called MicroStealer has been observed targeting education and telecom sectors to steal sensitive data. It was first observed in the wild in...",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+      "discovered": "2026-05-08",
+      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-bulletin-edge-plaintext-passwords-ics-0-days-patch-or-die-alerts-and-25-new-sto",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-07",
-      "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response May 07, 2026 Incident Response / Identity Management Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do. That distinction matters far more than many organizations realize. In the first hours of a security incident, attackers are not waiting for your identity team to provision emergency accounts, for legal to decide whether an outside firm can access sensitive systems, or for someone to figure out who owns the EDR console. Every delay gives the attacker more uninterrupted time in your environment. Every hour lost to logistics increases the likelihood of deeper compromise, broader impact, and more expensive recovery. The same is true internally. An organization may have an incident response plan, a capable security team, and a list of escalation contacts, yet still be unprepared to respond under p...",
-      "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "day-zero-readiness-the-operational-gaps-that-break-incident-response-may-07-2026-incident-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-07",
-      "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux May 07, 2026 Malware / Threat Intelligence Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot on Windows and Linux systems. \"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky said . \"Unlike traditional malware, ZiChatBot does not communicate with a dedicated command-and-control (C2) server, but instead uses a series of REST APIs from the public team chat app Zulip as its C2 infrastructure.\" The activity has been described as a \"carefully planned and executed PyPI supply chain attack\" by the Russian cybersecurity company. The names of the packages, which have since been taken down, are listed below - uuid32-utils (1,479 downloads) colorinal (614 downloads) termncolor (387 downloads) All three packages were uploaded to PyPI during a short wi...",
-      "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "pypi-packages-deliver-zichatbot-malware-via-zulip-apis-on-windows-and-linux-may-07-2026-ma",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-07",
-      "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
-      "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls",
+      "slug": "canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "Americans sentenced for running 'laptop farms' for North Korea",
-      "link": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+      "discovered": "2026-05-08",
+      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+      "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "americans-sentenced-for-running-laptop-farms-for-north-korea",
+      "slug": "new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
-      "link": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+      "discovered": "2026-05-08",
+      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+      "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "crypto-gang-member-gets-6-5-years-for-role-in-230-million-heist",
+      "slug": "new-pcpjack-worm-steals-credentials-cleans-teampcp-infections",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "Webinar: Why modern attacks require both security and recovery",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+      "discovered": "2026-05-08",
+      "title": "Australia warns of ClickFix attacks pushing Vidar Stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-why-modern-attacks-require-both-security-and-recovery",
+      "slug": "australia-warns-of-clickfix-attacks-pushing-vidar-stealer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-07",
-      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "discovered": "2026-05-08",
+      "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "palo-alto-networks-firewall-zero-day-exploited-for-nearly-a-month",
+      "slug": "ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks",
       "source": "BleepingComputer"
     }
   ]

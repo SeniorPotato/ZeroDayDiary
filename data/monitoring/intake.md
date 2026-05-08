@@ -5644,3 +5644,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** FTC Finalizes Consent Order in Valvoline-Greenbriar Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** FTC to Co-Host Workshop on Financial Services with Institute for Consumer Financial Choice on May 14-15
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Canvas Breach Disrupts Schools & Colleges Nationwide
+- **Source URL:** https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access May 07, 2026 Vulnerability / Network Security Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows "a remotely authenticated user with administrative access to achieve remote code execution," Ivanti said in an advisory released today. "We are aware of a very limited number of customers exploited with CVE-2026-6973. Successful exploitation requires Admin authentication. If customers followed Ivanti's recommendation in January to rotate credentials if you were exploited with CVE-2026-1281 and CVE-2026-1340 , then your risk of exploitation from CVE-2026-6973 is significantly reduced." It's currently not known who is behind the exploitation efforts, if any of those attacks were successful, and what the end goals of the attacks were. The devel...
+- **Source URL:** https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems May 07, 2026 Threat Intelligence / Cloud Security Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. "The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting to spread to additional hosts," SentinelOne security researcher Alex Delamotte said in a report published today. PCPJack is specifically designed to target cloud services like Docker, Kubernetes, Redis, MongoDB, RayML, and vulnerable web applications, allowing the operators to spread in a worm-like fashion, aswell as move laterally within the compromised networks. It's assessed that the end goal of the cloud attack campaign is to generate illicit revenue for the threat actors through credential theft, fraud, spam, extortion, or resale of stolen access. The What makes thi...
+- **Source URL:** https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Canvas login portals hacked in mass ShinyHunters extortion campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** New TCLBanker malware self-spreads over WhatsApp and Outlook
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** New PCPJack worm steals credentials, cleans TeamPCP infections
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Australia warns of ClickFix attacks pushing Vidar Stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-08
+- **Headline / event:** Ivanti warns of new EPMM flaw exploited in zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
