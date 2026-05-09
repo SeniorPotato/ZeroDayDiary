@@ -1,69 +1,15 @@
 {
-  "generatedAt": "2026-05-09T03:57:53.466Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-09T035753Z.md",
+  "generatedAt": "2026-05-09T13:54:29.098Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-09T135429Z.md",
   "candidates": [
     {
       "discovered": "2026-05-09",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now May 09, 2026 Vulnerability / Web Hosting cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result in an arbitrary file read. CVE-2026-29202 (CVSS score: 8.8) - An insufficient input validation of the \"plugin\" parameter in the \"create_user API\" call that could result in arbitrary Perl code execution on behalf of the already authenticated account's system user. CVE-2026-29203 (CVSS score: 8.8) - An unsafe symlink handling vulnerability that allows a user to modify access permissions of an arbitrary file using chmod, resulting in denial-of-service or possible privilege escalation. The shortcomings have been patched in the following versions - cPane...",
+      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "FTC Chairman Ferguson Issues Noncompete Warning Letter to Mortgage Connect",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-chairman-ferguson-issues-noncompete-warning-letter-to-mortgage-connect",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia",
-      "link": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "Insider Betting on Polymarket",
-      "link": "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "insider-betting-on-polymarket",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms May 08, 2026 Malware / Threat Intelligence Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076 . The malware family is assessed to be a major update of the Maverick , which is known to leverage a worm called SORVEPOTEL to spread via WhatsApp Web to a victim's contacts. The Maverick campaign is attributed to a threat cluster that Trend Micro calls Water Saci. At the core of the attack chain is a loader with robust anti-analysis capabilities that deploys two embedded modules: a full-featured banking trojan and a worm component that uses WhatsApp and Microsoft Outlook for propagation. \"The observed infection chain bundles a malicious MSI installer inside a ZIP file,\" security researchers Jia Yu Chan, Daniel Stepanic, Seth Goodwin, and Terrance DeJesus said . \"These MSI installer packages are abusing a s...",
-      "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "tclbanker-banking-trojan-targets-financial-platforms-via-whatsapp-and-outlook-worms-may-08",
+      "slug": "cpanel-whm-release-fixes-for-three-new-vulnerabilities-patch-now-may-09-2026-vulnerability",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads May 08, 2026 Android / Mobile Security Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss. The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over 3 million downloads, before they were taken down from the official app storefront.The activity, codenamed CallPhantom by Slovakian cybersecurity company ESET, primarily targeted Android users in India and the broader Asia-Pacific region. \"The offending apps, which we named CallPhantom based on their false claims, purport to provide access to call histories, SMS records, and even WhatsApp call logs for any phone number,\" ESET security researcher Lukáš Štefanko said in a report shared with The Hacker News. \"To unlock this supposed feature, users are asked to pay -- but all they...",
-      "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fake-call-history-apps-stole-payments-from-users-after-7-3-million-play-store-downloads-ma",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-09",
-      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
-      "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nvidia-confirms-geforce-now-data-breach-affecting-armenian-users",
-      "source": "BleepingComputer"
     }
   ]
 }
