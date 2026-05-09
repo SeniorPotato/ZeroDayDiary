@@ -1,86 +1,68 @@
 {
-  "generatedAt": "2026-05-08T14:18:02.952Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-08T141802Z.md",
+  "generatedAt": "2026-05-09T03:57:53.466Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-09T035753Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-08",
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise May 08, 2026 Linux / DevOps A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and network tunneling. \"QLNX targets developers and DevOps credentials across the software supply chain,\" Trend Micro researchers Aliakbar Zahravi and Ahmed Mohamed Ibrahim said in a technical analysis of the malware. \"Its credential harvester extracts secrets from high-value files such as .npmrc (npm tokens), .pypirc (PyPI credentials), .git-credentials, .aws/credentials, .kube/config, .docker/config.json, .vault-token, Terraform credentials, GitHub CLI tokens, and .env files. The compromise of these assets could allow the operator to push malicious packages to NPM or PyPI registries, access cloud infrastructure, or pivot through CI/CD pipelines.\" The malware's ab...",
-      "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+      "discovered": "2026-05-09",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "quasar-linux-rat-steals-developer-credentials-for-software-supply-chain-compromise-may-08-",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-05-09",
+      "title": "FTC Chairman Ferguson Issues Noncompete Warning Letter to Mortgage Connect",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-chairman-ferguson-issues-noncompete-warning-letter-to-mortgage-connect",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-09",
+      "title": "Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia",
+      "link": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-05-09",
+      "title": "Insider Betting on Polymarket",
+      "link": "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "insider-betting-on-polymarket",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-05-09",
+      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms May 08, 2026 Malware / Threat Intelligence Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076 . The malware family is assessed to be a major update of the Maverick , which is known to leverage a worm called SORVEPOTEL to spread via WhatsApp Web to a victim's contacts. The Maverick campaign is attributed to a threat cluster that Trend Micro calls Water Saci. At the core of the attack chain is a loader with robust anti-analysis capabilities that deploys two embedded modules: a full-featured banking trojan and a worm component that uses WhatsApp and Microsoft Outlook for propagation. \"The observed infection chain bundles a malicious MSI installer inside a ZIP file,\" security researchers Jia Yu Chan, Daniel Stepanic, Seth Goodwin, and Terrance DeJesus said . \"These MSI installer packages are abusing a s...",
+      "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "tclbanker-banking-trojan-targets-financial-platforms-via-whatsapp-and-outlook-worms-may-08",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-08",
-      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk May 08, 2026 Threat Detection / AI Security The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live enterprise environments. The dataset behind these findings includes 10 million monitored endpoints and identities, 82,000 forensic endpoint investigations including live memory scans, 180 million files analyzed, and telemetry from 7 million IP addresses, 3 million domains and URLs, and over 550,000 phishing emails. The patterns that emerge from this data tell a consistent story. Threat actors are exploiting the predictable gaps created by constrained, severity-based security operations, and they are doing it systematically. Understanding where those gaps actually live requires looking at the full alert picture, starting with the category most teams have been conditioned to ignore. Th...",
-      "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+      "discovered": "2026-05-09",
+      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads May 08, 2026 Android / Mobile Security Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss. The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over 3 million downloads, before they were taken down from the official app storefront.The activity, codenamed CallPhantom by Slovakian cybersecurity company ESET, primarily targeted Android users in India and the broader Asia-Pacific region. \"The offending apps, which we named CallPhantom based on their false claims, purport to provide access to call histories, SMS records, and even WhatsApp call logs for any phone number,\" ESET security researcher Lukáš Štefanko said in a report shared with The Hacker News. \"To unlock this supposed feature, users are asked to pay -- but all they...",
+      "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "one-missed-threat-per-week-what-25m-alerts-reveal-about-low-severity-risk-may-08-2026-thre",
+      "slug": "fake-call-history-apps-stole-payments-from-users-after-7-3-million-play-store-downloads-ma",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-08",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials May 08, 2026 Malware / Threat Intelligence Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is designed as a Pluggable Authentication Module ( PAM )-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination. It's also capable of harvesting credentials from all legitimate users who authenticate through the compromised system. \"The tool, called PamDOORa, is a new PAM-based backdoor, designed to serve as a post-exploitation backdoor, enabling authentication to servers via OpenSSH,\" Flare.io researcher Assaf Morag said in a technical report. \"Allegedly this would remain persistent on Linux systems (x86_64).\" PamDOORa is the second Linux backdoor targeting the PAM stack after Plague . PAM is a security framework in Unix/Linux operating systems that grants syst...",
-      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+      "discovered": "2026-05-09",
+      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
+      "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-linux-pamdoora-backdoor-uses-pam-modules-to-steal-ssh-credentials-may-08-2026-malware-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions May 08, 2026 Linux / Vulnerability Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag , it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers on April 30, 2026. \"Dirty Frag is a vulnerability (class) that achieves root privileges on most Linux distributions by chaining the xfrm-ESP Page-Cache Write vulnerability and the RxRPC Page-Cache Write vulnerability,\" security researcher Hyunwoo Kim (@v4bel) said in a write-up. \"Dirty Frag is a case that extends the bug class to which Dirty Pipe and Copy Fail belong. Because it is a deterministic logic bug that does not depend on a timing window, no race condition is required, the kernel does not panic when the exploit fails, and the success rate is very high.\" T...",
-      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "linux-kernel-dirty-frag-lpe-exploit-enables-root-access-across-major-distributions-may-08-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
-      "link": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "why-more-analysts-won-t-solve-your-soc-s-alert-problem",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "Trellix source code breach claimed by RansomHouse hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "trellix-source-code-breach-claimed-by-ransomhouse-hackers",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "Zara data breach exposed personal information of 197,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "zara-data-breach-exposed-personal-information-of-197-000-people",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-08",
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases",
+      "slug": "nvidia-confirms-geforce-now-data-breach-affecting-armenian-users",
       "source": "BleepingComputer"
     }
   ]

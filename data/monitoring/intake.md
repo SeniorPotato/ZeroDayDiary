@@ -5804,3 +5804,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** FTC Chairman Ferguson Issues Noncompete Warning Letter to Mortgage Connect
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** Insider Betting on Polymarket
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms May 08, 2026 Malware / Threat Intelligence Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076 . The malware family is assessed to be a major update of the Maverick , which is known to leverage a worm called SORVEPOTEL to spread via WhatsApp Web to a victim's contacts. The Maverick campaign is attributed to a threat cluster that Trend Micro calls Water Saci. At the core of the attack chain is a loader with robust anti-analysis capabilities that deploys two embedded modules: a full-featured banking trojan and a worm component that uses WhatsApp and Microsoft Outlook for propagation. "The observed infection chain bundles a malicious MSI installer inside a ZIP file," security researchers Jia Yu Chan, Daniel Stepanic, Seth Goodwin, and Terrance DeJesus said . "These MSI installer packages are abusing a s...
+- **Source URL:** https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads May 08, 2026 Android / Mobile Security Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss. The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over 3 million downloads, before they were taken down from the official app storefront.The activity, codenamed CallPhantom by Slovakian cybersecurity company ESET, primarily targeted Android users in India and the broader Asia-Pacific region. "The offending apps, which we named CallPhantom based on their false claims, purport to provide access to call histories, SMS records, and even WhatsApp call logs for any phone number," ESET security researcher Lukáš Štefanko said in a report shared with The Hacker News. "To unlock this supposed feature, users are asked to pay -- but all they...
+- **Source URL:** https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** NVIDIA confirms GeForce NOW data breach affecting Armenian users
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

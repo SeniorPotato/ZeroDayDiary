@@ -41,7 +41,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -153,7 +155,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-host-workshop-litigate-fix-merger-remedy-proposals",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -266,7 +270,11 @@
       "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
       "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
       "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
-      "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html"
+      "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
+      "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
+      "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -556,10 +564,10 @@
       "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
       "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
       "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
-      "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html"
+      "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
+      "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -892,12 +900,9 @@
       "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
       "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
       "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-      "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-      "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/"
+      "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+      "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/"
     ]
   }
 }
