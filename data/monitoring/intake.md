@@ -5860,3 +5860,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-09
+- **Headline / event:** cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now May 09, 2026 Vulnerability / Web Hosting cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the "feature::LOADFEATUREFILE" adminbin call that could result in an arbitrary file read. CVE-2026-29202 (CVSS score: 8.8) - An insufficient input validation of the "plugin" parameter in the "create_user API" call that could result in arbitrary Perl code execution on behalf of the already authenticated account's system user. CVE-2026-29203 (CVSS score: 8.8) - An unsafe symlink handling vulnerability that allows a user to modify access permissions of an arbitrary file using chmod, resulting in denial-of-service or possible privilege escalation. The shortcomings have been patched in the following versions - cPane...
+- **Source URL:** https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
