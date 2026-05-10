@@ -562,7 +562,9 @@
       "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
       "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
       "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-      "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html"
+      "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+      "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -897,8 +899,6 @@
       "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
       "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
       "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-      "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-      "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
       "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
       "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/"
     ]
