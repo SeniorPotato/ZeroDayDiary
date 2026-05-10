@@ -1,24 +1,15 @@
 {
-  "generatedAt": "2026-05-10T04:17:30.791Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-10T041730Z.md",
+  "generatedAt": "2026-05-10T13:56:58.473Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-10T135658Z.md",
   "candidates": [
     {
       "discovered": "2026-05-10",
-      "title": "JDownloader site hacked to replace installers with Python RAT",
-      "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak May 10, 2026 Vulnerability / Data Breach Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera. Ollama is a popular open-source framework that allows large language models (LLMs) to be run locally instead of on the cloud. On GitHub, the project has more than 171,000 stars and has been forked over 16,100 times. \"Ollama before 0.17.1 contains a heap out-of-bounds read vulnerability in the GGUF model loader,\" according to a description of the flaw in CVE.org. \"The /api/create endpoint accepts an attacker-supplied GGUF file in which the declared tensor offset and size exceed the file's actual length; during quantization in fs/ggml/gguf.go and server/quantization.go (WriteTo()), the ser...",
+      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "jdownloader-site-hacked-to-replace-installers-with-python-rat",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-10",
-      "title": "Fake OpenAI repository on Hugging Face pushes infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fake-openai-repository-on-hugging-face-pushes-infostealer",
-      "source": "BleepingComputer"
+      "slug": "ollama-out-of-bounds-read-vulnerability-allows-remote-process-memory-leak-may-10-2026-vuln",
+      "source": "The Hacker News"
     }
   ]
 }
