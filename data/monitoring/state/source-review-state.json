@@ -270,7 +270,9 @@
       "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
       "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
-      "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html"
+      "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
+      "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
+      "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -563,7 +565,13 @@
       "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
       "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
       "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html"
+      "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+      "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+      "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+      "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -902,8 +910,16 @@
       "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
       "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
-      "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
-      "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/"
+      "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+      "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+      "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+      "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
+      "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
+      "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+      "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+      "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+      "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
+      "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/"
     ]
   }
 }

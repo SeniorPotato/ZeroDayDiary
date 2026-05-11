@@ -5908,3 +5908,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** LLMs and Text-in-Text Steganography
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More May 11, 2026 Cybersecurity / Hacking Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago — the same old holes, same lazy access paths, same “how the hell is this still open” feeling. One report this week basically reads like a guy tripped over root access by accident and decided to stay there. The weird part is how normal this all sounds now. Fake updates. Quiet backdoors. Remote tools are used like skeleton keys. Forum rats swapping stolen access while defenders burn another weekend chasing logs and praying the weird traffic is just monitoring noise. The Internet’s held together with duct tape and bad sleep. Anyway, Monday recap time. Same fire. New smoke. ⚡ Threat of the Week Ivanti EPMM and Palo Alto Networks PAN-OS Flaws Under Attack —Ivanti warned customers that attackers have successfully weaponized CVE-2026-6973, an improper input validation defect in Endpoint Man...
+- **Source URL:** https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room May 11, 2026 Artificial Intelligence / Penetration Testing Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval window that's longer than the exploitation window itself. Nobody in that chain is incompetent . Every human is doing their job correctly. The problem is the system, its workflows, and its messy handoffs. In contrast, the attacker's clock has nearly disappeared. In 2024, the mean time from a CVE being published to a working exploit was 56 days. By 2025, it had shrunk to 23 days. So far in 2026, it’s sitting at roughly 10 hours across 3,532 CVE-exploit pairs from CISA KEV, VulnCheck KEV, and ExploitDB. Figure 1. Today’s Vulnerability to Exploitation Windows is now 10 Hours The minor piece of good news is that the defender's clock has accelerated to run in hours . The really bad news is that the attacker's clock has leapfrogged past it and now run...
+- **Source URL:** https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads May 11, 2026 Supply Chain Attack / Threat Intelligence A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The project, named Open-OSS/privacy-filter , masqueraded as its legitimate counterpart released by OpenAI late last month ( openai/privacy-filter ), including copying the entire description verbatim to trick unsuspecting users into downloading it. Access to the malicious model has since been disabled by Hugging Face. Privacy Filter was unveiled in April 2026 by the artificial intelligence (AI) company as a way to detect and redact personally identifiable information (PII) in unstructured text with an aim to incorporate strong privacy and security protections into applications. "The repository had typosquatted OpenAI's legitimate Privacy Filter release, copied its model card nearly verbatim, and shipped a loader.py file that fetches and executes infostealer...
+- **Source URL:** https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Instructure confirms hackers used Canvas flaw to deface portals
+- **Source URL:** https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Why Changing Passwords Doesn’t End an Active Directory Breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Google: Hackers used AI to develop zero-day exploit for web admin tool
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** Webinar this week: Prevention alone is not enough against modern attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-11
+- **Headline / event:** TrickMo Android banker adopts TON blockchain for covert comms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

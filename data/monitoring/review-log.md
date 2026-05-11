@@ -700,3 +700,9 @@ Use this file to record scheduled source-review passes.
 - **Sources checked:** CISA Cybersecurity Advisories, CISA Known Exploited Vulnerabilities Catalog, ICO News and Blogs, EDPB News, ENISA News, NCSC UK News, FTC Press Releases, ISO Insights and Updates, Krebs on Security, Schneier on Security, The Hacker News, BleepingComputer, Reddit r/security, Reddit r/privacy
 - **Result:** 2 new candidate(s)
 - **Notes:** Review packet generated at `data/monitoring/review-packets/2026-05-11T043754Z.md`.
+
+- **Timestamp:** 2026-05-11 15:37:16.195 UTC
+- **Reviewer:** scheduled workflow
+- **Sources checked:** CISA Cybersecurity Advisories, CISA Known Exploited Vulnerabilities Catalog, ICO News and Blogs, EDPB News, ENISA News, NCSC UK News, FTC Press Releases, ISO Insights and Updates, Krebs on Security, Schneier on Security, The Hacker News, BleepingComputer, Reddit r/security, Reddit r/privacy
+- **Result:** 9 new candidate(s)
+- **Notes:** Review packet generated at `data/monitoring/review-packets/2026-05-11T153716Z.md`.
