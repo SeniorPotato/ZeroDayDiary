@@ -1,86 +1,68 @@
 {
-  "generatedAt": "2026-05-11T15:37:16.195Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-11T153716Z.md",
+  "generatedAt": "2026-05-12T04:07:29.757Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-12T040729Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-11",
-      "title": "LLMs and Text-in-Text Steganography",
-      "link": "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
+      "discovered": "2026-05-12",
+      "title": "FTC Chairman Ferguson Advises Companies to Comply with the Take It Down Act",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "llms-and-text-in-text-steganography",
-      "source": "Schneier on Security"
+      "category": "privacy",
+      "slug": "ftc-chairman-ferguson-advises-companies-to-comply-with-the-take-it-down-act",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-05-11",
-      "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More May 11, 2026 Cybersecurity / Hacking Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago — the same old holes, same lazy access paths, same “how the hell is this still open” feeling. One report this week basically reads like a guy tripped over root access by accident and decided to stay there. The weird part is how normal this all sounds now. Fake updates. Quiet backdoors. Remote tools are used like skeleton keys. Forum rats swapping stolen access while defenders burn another weekend chasing logs and praying the weird traffic is just monitoring noise. The Internet’s held together with duct tape and bad sleep. Anyway, Monday recap time. Same fire. New smoke. ⚡ Threat of the Week Ivanti EPMM and Palo Alto Networks PAN-OS Flaws Under Attack —Ivanti warned customers that attackers have successfully weaponized CVE-2026-6973, an improper input validation defect in Endpoint Man...",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+      "discovered": "2026-05-12",
+      "title": "FTC and Illinois Take Action to Stop Deceptive Conduct by Company that Created Thousands of Business Listings of Fake Local Home Repair Businesses",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-and-illinois-take-action-to-stop-deceptive-conduct-by-company-that-created-thousands-o",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-05-12",
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack May 11, 2026 Supply Chain Attack / DevSecOps Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. \"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend. As of writing, Checkmarx has released 2.0.13-848.v76e89de8a_053 on both GitHub and the Jenkins Marketplace, although its incident update still notes that it's \"in the process of publishing a new version of this plugin.\" It did not disclose how the malicious plugin version was published. The development is the latest attack orchestrated by TeamPCP targeting Checkmarx. It arrives a couple of weeks after the notorious cybercrime group was attributed to the compromise of its KICS Docker image, two VS Code extensions, and a GitHub Actions workflow to push credential-stealing malware. The breach, in turn, r...",
+      "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-linux-rootkit-macos-crypto-stealer-websocket-skimmers-and-more-may-11-2026-cy",
+      "slug": "teampcp-compromises-checkmarx-jenkins-ast-plugin-weeks-after-kics-supply-chain-attack-may-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-11",
-      "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room May 11, 2026 Artificial Intelligence / Penetration Testing Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval window that's longer than the exploitation window itself. Nobody in that chain is incompetent . Every human is doing their job correctly. The problem is the system, its workflows, and its messy handoffs. In contrast, the attacker's clock has nearly disappeared. In 2024, the mean time from a CVE being published to a working exploit was 56 days. By 2025, it had shrunk to 23 days. So far in 2026, it’s sitting at roughly 10 hours across 3,532 CVE-exploit pairs from CISA KEV, VulnCheck KEV, and ExploitDB. Figure 1. Today’s Vulnerability to Exploitation Windows is now 10 Hours The minor piece of good news is that the defender's clock has accelerated to run in hours . The really bad news is that the attacker's clock has leapfrogged past it and now run...",
-      "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "discovered": "2026-05-12",
+      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor May 11, 2026 Vulnerability / Ransomware A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940 , a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. According to a new report from QiAnXin XLab, the security defect has been exploited by a number of threat actors shortly after its public disclosure late last month, resulting in malicious behaviors like cryptocurrency mining, ransomware, botnet propagation, and backdoor implantation. \"Monitoring data shows that more than 2,000 attacker source IPs worldwide are currently involved in automated attacks and cybercrime activities targeting this vulnerability,\" XLab researchers said. \"These IPs are distributed across multiple regions globally, primarily originating from Germ...",
+      "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "your-purple-team-isn-t-purple-it-s-just-red-and-blue-in-the-same-room-may-11-2026-artifici",
+      "slug": "cpanel-cve-2026-41940-under-active-exploitation-to-deploy-filemanager-backdoor-may-11-2026",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-11",
-      "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads May 11, 2026 Supply Chain Attack / Threat Intelligence A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The project, named Open-OSS/privacy-filter , masqueraded as its legitimate counterpart released by OpenAI late last month ( openai/privacy-filter ), including copying the entire description verbatim to trick unsuspecting users into downloading it. Access to the malicious model has since been disabled by Hugging Face. Privacy Filter was unveiled in April 2026 by the artificial intelligence (AI) company as a way to detect and redact personally identifiable information (PII) in unstructured text with an aim to incorporate strong privacy and security protections into applications. \"The repository had typosquatted OpenAI's legitimate Privacy Filter release, copied its model card nearly verbatim, and shipped a loader.py file that fetches and executes infostealer...",
-      "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+      "discovered": "2026-05-12",
+      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation May 11, 2026 Artificial Intelligence / Vulnerability Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation. The activity is said to be the work of cybercrime threat actors who appear to have collaborated together to plan what the tech giant described as a \"mass vulnerability exploitation operation.\" \"Our analysis of exploits associated with this campaign identified a zero-day vulnerability implemented in a Python script that enables the user to bypass two-factor authentication (2FA) on a popular open-source, web-based system administration tool,\" Google Threat Intelligence Group (GTIG) said in a report shared with The Hacker News. The tech giant said it worked with the impacted vendor to responsibly disclose the flaw and get it fixed in order to proactiv...",
+      "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-openai-privacy-filter-repo-hits-1-on-hugging-face-draws-244k-downloads-may-11-2026-su",
+      "slug": "hackers-used-ai-to-develop-first-known-zero-day-2fa-bypass-for-mass-exploitation-may-11-20",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-11",
-      "title": "Instructure confirms hackers used Canvas flaw to deface portals",
-      "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+      "discovered": "2026-05-12",
+      "title": "Official CheckMarx Jenkins package compromised with infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "instructure-confirms-hackers-used-canvas-flaw-to-deface-portals",
+      "slug": "official-checkmarx-jenkins-package-compromised-with-infostealer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-11",
-      "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
-      "link": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+      "discovered": "2026-05-12",
+      "title": "New GhostLock tool abuses Windows API to block file access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "why-changing-passwords-doesn-t-end-an-active-directory-breach",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-11",
-      "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
-      "link": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-11",
-      "title": "Webinar this week: Prevention alone is not enough against modern attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-11",
-      "title": "TrickMo Android banker adopts TON blockchain for covert comms",
-      "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "trickmo-android-banker-adopts-ton-blockchain-for-covert-comms",
+      "slug": "new-ghostlock-tool-abuses-windows-api-to-block-file-access",
       "source": "BleepingComputer"
     }
   ]

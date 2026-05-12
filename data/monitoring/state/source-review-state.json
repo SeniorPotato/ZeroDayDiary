@@ -155,7 +155,11 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-finalizes-consent-order-valvoline-greenbriar-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -271,7 +275,6 @@
       "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
       "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
-      "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
       "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html"
     ],
     "the-hacker-news": [
@@ -569,9 +572,12 @@
       "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
       "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
       "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-      "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
-      "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
-      "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html"
+      "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -915,11 +921,10 @@
       "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
       "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
       "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-      "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
-      "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
-      "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
-      "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
-      "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/"
+      "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+      "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
+      "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+      "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/"
     ]
   }
 }
