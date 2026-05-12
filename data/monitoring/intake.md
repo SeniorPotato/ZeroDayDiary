@@ -6036,3 +6036,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded May 12, 2026 Supply Chain Attack / Software Security RubyGems , the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a "major malicious attack." "We're dealing with a major malicious attack on Ruby Gems right now," Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. "Signups are paused for the time being. Hundreds of packages involved – mostly targeting us, but some carrying exploits." Visitors to RubyGems' sign up page are now greeted with the message: "New account registration has been temporarily disabled." Mend.io, which secures RubyGems, said it intends to release more details once the incident is contained. It's currently not known who is behind the attack. The development comes as software supply chain attacks targeting the open-source ecosystems have been on the rise, with threat actors like TeamPCP compromising widely used pack...
+- **Source URL:** https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots May 12, 2026 Malware / Mobile Security Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and February 2026, has been observed actively targeting banking and cryptocurrency wallet users in France, Italy, and Austria. "TrickMo relies on a runtime-loaded APK (dex.module), used also by the previous variant, but updated with new features adding new network-oriented functionality, including reconnaissance, SSH tunnelling, and SOCKS5 proxying capabilities that allow infected devices to function as programmable network pivots and traffic-exit nodes," the Dutch mobile security company said in a report shared with The Hacker News. TrickMo is the name assigned to a device takeover (DTO) malware that's been active in the wild since late 2019. It was first flagged by CERT-Bund and IBM X-Force , describing its ability to abuse Android's accessibility ser...
+- **Source URL:** https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help May 12, 2026 Threat Detection / AI Security Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one is investigating. A recent report from The Hacker News examined why certain high-risk alert categories - WAF, DLP, OT/IoT, dark web intelligence, and supply chain signals- consistently go uninvestigated across enterprise SOCs. The findings point to a structural gap in how security coverage is delivered today: not a lack of tooling, but a ceiling built into every existing model. Your SOC Model Has a Coverage Ceiling In-house SOC teams are the first to feel the gap. Overloaded with high-volume, routine alerts, analysts rarely have the capacity, or the specialized expertise, to investigate WAF events, DLP anomalies, or signals from operational technology environments. These alert types require deep, domain-specific knowledge that most SOC teams simply don't have...
+- **Source URL:** https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages May 12, 2026 Supply Chain Attack / Malware TeamPCP , the threat actor behind the recent supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign. The affected npm packages have been modified to include an obfuscated JavaScript file ("router_init.js") that's designed to profile the execution environment and launch a comprehensive credential stealer capable of targeting cloud providers, cryptocurrency wallets, AI tools, messaging apps, and CI systems, including Github Actions, multiple reports from Aikido Security , Endor Labs , SafeDep , Socket , StepSecurity , and Snyk show. The data is exfiltrated to the "filev2.getsession[.]org" domain. Using Session Protocol infrastructure is a deliberate attempt on the part of the attackers to evade detection, as the domain is unlikely to be blocked within enterprise environments, given that it belongs to a decentralized,...
+- **Source URL:** https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Why Agentic AI Is Security's Next Blind Spot May 12, 2026 Artificial Intelligence / Threat Detection Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from the security team. The industry conversation has largely framed this as a question of policy: allow it, restrict it, or monitor it? However, that framing misses the point. The more urgent question is whether security professionals actually understand what they are dealing with. In most organizations, they don't right now. And that gap is compounding by the week. You cannot secure what you do not understand The foundational principle of information security has not changed: genuine fluency in a technology must come before you can meaningfully defend it. Think about firewalls. You cannot configure one well without understanding networking. When cloud computing arrived, organizations that skipped the foundational work ended up with environments they could not reason about — tools purc...
+- **Source URL:** https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Shai Hulud attack ships signed malicious TanStack, Mistral npm packages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Instructure reaches 'agreement' with ShinyHunters to stop data leak
+- **Source URL:** https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
