@@ -5980,3 +5980,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** FTC Chairman Ferguson Advises Companies to Comply with the Take It Down Act
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** FTC and Illinois Take Action to Stop Deceptive Conduct by Company that Created Thousands of Business Listings of Fake Local Home Repair Businesses
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack May 11, 2026 Supply Chain Attack / DevSecOps Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. "If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously," the cybersecurity company said in a statement over the weekend. As of writing, Checkmarx has released 2.0.13-848.v76e89de8a_053 on both GitHub and the Jenkins Marketplace, although its incident update still notes that it's "in the process of publishing a new version of this plugin." It did not disclose how the malicious plugin version was published. The development is the latest attack orchestrated by TeamPCP targeting Checkmarx. It arrives a couple of weeks after the notorious cybercrime group was attributed to the compromise of its KICS Docker image, two VS Code extensions, and a GitHub Actions workflow to push credential-stealing malware. The breach, in turn, r...
+- **Source URL:** https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor May 11, 2026 Vulnerability / Ransomware A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940 , a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control panel. According to a new report from QiAnXin XLab, the security defect has been exploited by a number of threat actors shortly after its public disclosure late last month, resulting in malicious behaviors like cryptocurrency mining, ransomware, botnet propagation, and backdoor implantation. "Monitoring data shows that more than 2,000 attacker source IPs worldwide are currently involved in automated attacks and cybercrime activities targeting this vulnerability," XLab researchers said. "These IPs are distributed across multiple regions globally, primarily originating from Germ...
+- **Source URL:** https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation May 11, 2026 Artificial Intelligence / Vulnerability Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation. The activity is said to be the work of cybercrime threat actors who appear to have collaborated together to plan what the tech giant described as a "mass vulnerability exploitation operation." "Our analysis of exploits associated with this campaign identified a zero-day vulnerability implemented in a Python script that enables the user to bypass two-factor authentication (2FA) on a popular open-source, web-based system administration tool," Google Threat Intelligence Group (GTIG) said in a report shared with The Hacker News. The tech giant said it worked with the impacted vendor to responsibly disclose the flaw and get it fixed in order to proactiv...
+- **Source URL:** https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** Official CheckMarx Jenkins package compromised with infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-12
+- **Headline / event:** New GhostLock tool abuses Windows API to block file access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
