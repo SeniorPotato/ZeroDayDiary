@@ -157,7 +157,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-co-host-workshop-financial-services-institute-consumer-financial-choice-may-14-15",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-issues-noncompete-warning-letter-mortgage-connect",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -210,7 +212,6 @@
       "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
       "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
       "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/"
     ],
     "schneier-on-security": [
@@ -275,7 +276,9 @@
       "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
       "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
-      "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html"
+      "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
+      "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
+      "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -584,7 +587,18 @@
       "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
       "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
       "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-      "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html"
+      "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+      "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+      "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
+      "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
+      "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+      "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+      "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+      "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
+      "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
+      "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+      "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
+      "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -938,13 +952,12 @@
       "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
       "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
       "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-      "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
-      "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-      "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-      "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-      "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
       "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-      "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/"
+      "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+      "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+      "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/"
     ]
   }
 }

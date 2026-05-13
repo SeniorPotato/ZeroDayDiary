@@ -6156,3 +6156,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Shutterstock to Pay $35 Million to Settle FTC Allegations Over Illegal Subscription and Cancellation Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday May 13, 2026 Vulnerability / Artificial Intelligence Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for m ulti-mo d el a gentic s canning h arness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability classes to autonomously discover, validate, and prove exploitable defects in complex codebases like Windows. "Unlike single-model approaches, the harness orchestrates more than 100 specialized AI agents across an ensemble of frontier and distilled models to discover, debate, and prove exploitable bugs end-to-end," Taesoo Kim, vice president of agentic security at Microsoft, said . MDASH is envisioned as a "structured pipeline" that ingests a codebase and produces validated, proven findings through a series of actions. It starts with analyzing the source code t...
+- **Source URL:** https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation May 13, 2026 Cyber Espionage / Malware A threat actor with affiliations to China has been linked to a "multi-wave intrusion" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting. The activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of tactical overlap with clusters tracked under the monikers Earth Estries and Salt Typhoon. The attack paves the way for the deployment of two distinct backdoors across three separate waves: Deed RAT (aka Snappybee), a successor of ShadowPad that's used by multiple China-nexus espionage groups, and TernDoor , which was recently discovered in attacks targeting telecommunications infrastructure in South America since 2024. What's notable about the campaign is that it repeatedly leveraged the same vulnerable Microsoft Exchange Server entry point despite several remediation att...
+- **Source URL:** https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud May 13, 2026 AppSec / Webinar TL;DR: Stop chasing thousands of "toast" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a "Lethal Chain" to your data—and how to break it. Register for the Strategic Briefing Here . Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While your team is busy fixing 100 "toast" alerts, a sophisticated attacker is quietly building a Lethal Chain through your system. Hackers rarely look for one big "open door" anymore. Instead, they find a series of tiny, low-risk "cracks" that don't look scary on their own. By connecting these cracks—moving from a small coding bug to a cloud misconfiguration—they create a direct path to your most sensitive data. If your tools only look at code or cloud in isolation, you aren’t seeing the big picture. You’re flying blind. The Briefing: Sto...
+- **Source URL:** https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Most Remediation Programs Never Confirm the Fix Actually Worked May 13, 2026 Cloud Security / Automation Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative seven days. The Verizon 2025 DBIR puts median time to remediate edge device vulnerabilities at 32 days. These numbers have understandably driven the industry toward a clear response: prioritize better, patch faster. That advice is necessary. It is also incomplete. Because the question that still doesn't get enough attention is this: when you do patch, how do you know it worked? Mythos Didn't Change the Problem. It Changed the Speed and Ease of Exploitation. The discussions around the impact of AI have focused on speed: exploit development is getting cheaper, faster, and less dependent on elite human skill. For remediation, this changes the stakes. Plenty of fixes get marked 'remediated' when what really happened was a vendor patch that turned...
+- **Source URL:** https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws May 13, 2026 Patch Tuesday / Vulnerability Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Critical, 104 are rated Important, three are rated Moderate, and one is rated Low in severity. As many as 61 vulnerabilities are classified as privilege escalation bugs, followed by 32 remote code execution, 15 information disclosure, 14 spoofing, eight denial-of-service, six security feature bypass, and two tampering flaws. The update list also includes a vulnerability that was patched by AMD ( CVE-2025-54518 , CVSS score: 7.3) this month. It relates to a case of improper isolation of shared resources within the CPU operation cache on Zen 2-based products that could allow an attacker to corrupt instructions executed at a different privilege level, potentially resulting in privilege escalation. The patches are also in addition to 127 security flaws that Google has add...
+- **Source URL:** https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Foxconn confirms cyberattack claimed by Nitrogen ransomware gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** 73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
