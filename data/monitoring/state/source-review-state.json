@@ -209,7 +209,9 @@
       "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
       "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
+      "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -578,14 +580,11 @@
       "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
       "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
       "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
-      "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-      "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
-      "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
-      "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
       "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
       "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
-      "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html"
+      "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
+      "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+      "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -934,9 +933,18 @@
       "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
       "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
       "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
-      "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
-      "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
-      "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/"
+      "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+      "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+      "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+      "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/"
     ]
   }
 }

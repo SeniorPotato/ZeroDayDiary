@@ -6100,3 +6100,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Patch Tuesday, May 2026 Edition
+- **Source URL:** https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution May 12, 2026 Vulnerability / Email Security Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free vulnerability in Exim's binary data transmission (BDAT) message body parsing when a TLS connection is handled by GnuTLS. "The vulnerability is triggered during BDAT message body handling when a client sends a TLS close_notify alert before the body transfer is complete, and then follows up with a final byte in cleartext on the same TCP connection," Exim said in an advisory released today. "This sequence of events can cause Exim to write into a memory buffer that has already been freed during the TLS session teardown, leading to heap corruption. An attacker only needs to be able ...
+- **Source URL:** https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** US govt seeks Instructure testimony on massive Canvas cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** UK fines water supplier $1.3M for exposing data of 664k customers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Webinar: Fixing the gaps in network incident response
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Signal adds security warnings for social engineering, phishing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-13
+- **Headline / event:** Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
