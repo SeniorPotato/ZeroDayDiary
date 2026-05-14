@@ -1,86 +1,59 @@
 {
-  "generatedAt": "2026-05-13T15:15:21.445Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-13T151521Z.md",
+  "generatedAt": "2026-05-14T04:13:53.023Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-14T041353Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-13",
-      "title": "Shutterstock to Pay $35 Million to Settle FTC Allegations Over Illegal Subscription and Cancellation Practices",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
+      "discovered": "2026-05-14",
+      "title": "Lead Defendants in the IM Mastery Academy MLM Scheme to Turn Over Tens of Millions of Dollars in Assets to Settle FTC Charges",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "shutterstock-to-pay-35-million-to-settle-ftc-allegations-over-illegal-subscription-and-can",
+      "slug": "lead-defendants-in-the-im-mastery-academy-mlm-scheme-to-turn-over-tens-of-millions-of-doll",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-05-13",
-      "title": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
-      "link": "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
+      "discovered": "2026-05-14",
+      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "openai-s-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday May 13, 2026 Vulnerability / Artificial Intelligence Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for m ulti-mo d el a gentic s canning h arness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability classes to autonomously discover, validate, and prove exploitable defects in complex codebases like Windows. \"Unlike single-model approaches, the harness orchestrates more than 100 specialized AI agents across an ensemble of frontier and distilled models to discover, debate, and prove exploitable bugs end-to-end,\" Taesoo Kim, vice president of agentic security at Microsoft, said . MDASH is envisioned as a \"structured pipeline\" that ingests a codebase and produces validated, proven findings through a series of actions. It starts with analyzing the source code t...",
-      "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-s-mdash-ai-system-finds-16-windows-flaws-fixed-in-patch-tuesday-may-13-2026-vuln",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation May 13, 2026 Cyber Espionage / Malware A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting. The activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of tactical overlap with clusters tracked under the monikers Earth Estries and Salt Typhoon. The attack paves the way for the deployment of two distinct backdoors across three separate waves: Deed RAT (aka Snappybee), a successor of ShadowPad that's used by multiple China-nexus espionage groups, and TernDoor , which was recently discovered in attacks targeting telecommunications infrastructure in South America since 2024. What's notable about the campaign is that it repeatedly leveraged the same vulnerable Microsoft Exchange Server entry point despite several remediation att...",
-      "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "azerbaijani-energy-firm-hit-by-repeated-microsoft-exchange-exploitation-may-13-2026-cyber-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud May 13, 2026 AppSec / Webinar TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here . Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While your team is busy fixing 100 \"toast\" alerts, a sophisticated attacker is quietly building a Lethal Chain through your system. Hackers rarely look for one big \"open door\" anymore. Instead, they find a series of tiny, low-risk \"cracks\" that don't look scary on their own. By connecting these cracks—moving from a small coding bug to a cloud misconfiguration—they create a direct path to your most sensitive data. If your tools only look at code or cloud in isolation, you aren’t seeing the big picture. You’re flying blind. The Briefing: Sto...",
-      "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "webinar-how-modern-attack-paths-cross-code-pipelines-and-cloud-may-13-2026-appsec-webinar-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "Most Remediation Programs Never Confirm the Fix Actually Worked May 13, 2026 Cloud Security / Automation Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative seven days. The Verizon 2025 DBIR puts median time to remediate edge device vulnerabilities at 32 days. These numbers have understandably driven the industry toward a clear response: prioritize better, patch faster. That advice is necessary. It is also incomplete. Because the question that still doesn't get enough attention is this: when you do patch, how do you know it worked? Mythos Didn't Change the Problem. It Changed the Speed and Ease of Exploitation. The discussions around the impact of AI have focused on speed: exploit development is getting cheaper, faster, and less dependent on elite human skill. For remediation, this changes the stakes. Plenty of fixes get marked 'remediated' when what really happened was a vendor patch that turned...",
-      "link": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "most-remediation-programs-never-confirm-the-fix-actually-worked-may-13-2026-cloud-security",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws May 13, 2026 Patch Tuesday / Vulnerability Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Critical, 104 are rated Important, three are rated Moderate, and one is rated Low in severity. As many as 61 vulnerabilities are classified as privilege escalation bugs, followed by 32 remote code execution, 15 information disclosure, 14 spoofing, eight denial-of-service, six security feature bypass, and two tampering flaws. The update list also includes a vulnerability that was patched by AMD ( CVE-2025-54518 , CVSS score: 7.3) this month. It relates to a case of improper isolation of shared resources within the CPU operation cache on Zen 2-based products that could allow an attacker to corrupt instructions executed at a different privilege level, potentially resulting in privilege escalation. The patches are also in addition to 127 security flaws that Google has add...",
-      "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-patches-138-vulnerabilities-including-dns-and-netlogon-rce-flaws-may-13-2026-pat",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-13",
-      "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
-      "link": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "foxconn-confirms-cyberattack-claimed-by-nitrogen-ransomware-gang",
+      "slug": "west-pharmaceutical-says-hackers-stole-data-encrypted-systems",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-13",
-      "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
-      "link": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+      "discovered": "2026-05-14",
+      "title": "Iranian hackers targeted major South Korean electronics maker",
+      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation",
+      "slug": "iranian-hackers-targeted-major-south-korean-electronics-maker",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-14",
+      "title": "New critical Exim mailer flaw allows remote code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-critical-exim-mailer-flaw-allows-remote-code-execution",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-14",
+      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-14",
+      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "webinar-tomorrow-why-security-alone-won-t-stop-modern-attacks",
       "source": "BleepingComputer"
     }
   ]
