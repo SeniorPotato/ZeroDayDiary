@@ -159,7 +159,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc"
     ],
     "iso-insights": [
@@ -278,7 +277,9 @@
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
       "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
       "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
-      "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html"
+      "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
+      "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
+      "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -593,7 +594,18 @@
       "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
       "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
       "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
-      "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html"
+      "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+      "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+      "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+      "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+      "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+      "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -956,11 +968,12 @@
       "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
       "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
       "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
-      "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
-      "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/"
+      "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+      "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+      "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+      "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/"
     ]
   }
 }
