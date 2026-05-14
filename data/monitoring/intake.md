@@ -6276,3 +6276,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** How Dangerous Is Anthropic’s Mythos AI?
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike May 14, 2026 Hacktivism / Data Theft The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057, Umbral Bison (formerly RepeatingUmbra), UNC1151, and White Lynx. "FrostyNeighbor has been running continual cyber operations, changing and updating its toolset regularly, updating its compromise chain and methods to evade detection – targeting victims located in Eastern Europe," ESET said in a report shared with The Hacker News. Previous attacks mounted by the hacking crew have leveraged a malware family known as PicassoLoader , which then acts as a conduit for Cobalt Strike Beacon and njRAT. In late 2023, the threat actor was also observed weaponizing a vulnerability in W...
+- **Source URL:** https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure May 14, 2026 Vulnerability / API Security Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI , an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the API server's protected functionality without a token. " PraisonAI ships a legacy Flask API server with authentication disabled by default," according to an advisory released by the maintainers earlier this month. "When that server is used, any caller that can reach it can access /agents and trigger the configured agents.yaml workflow through /chat without providing a token." Specifically, the legacy Flask-based API server, src/praisonai/api_server.py, hard-codes AUTH_ENABLED = False and AUTH_TOKEN = None. According to PraisonAI, successful exploitation of the fla...
+- **Source URL:** https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** How AI Hallucinations Are Creating Real Security Risks May 14, 2026 Artificial Intelligence / Identity Security AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs may appear authoritative, making them especially dangerous when driving real-world security decisions. Based on Artificial Analysis’s AA-Omniscience benchmark , a 2025 evaluation of 40 AI models found that all but four models tested were more likely to provide a confident, incorrect answer than a correct one on difficult questions. As AI takes on a larger role in cybersecurity operations, organizations must treat every AI-generated response as a potential vulnerability until a human has verified it. What are AI hallucinations? AI hallucinations are confidently presented, plausible-sounding out...
+- **Source URL:** https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation May 14, 2026 Zero-Day / Vulnerability An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma , respectively, by the researcher, who goes by the online aliases Chaotic Eclipse and Nightmare-Eclipse. The researcher described YellowKey as "one of the most insane discoveries I ever found," likening the BitLocker bypass to functioning as a backdoor, as the bug is present only in the Windows Recovery Environment ( WinRE ), a built-in framework designed to troubleshoot and repair common unbootable operating system issues. YellowKey affects Windows 11 and Windows Server 2022/2025. At a high level, it involves copying specially crafted "FsTx" files on a USB drive or the EFI partition, plugging the USB drive into the target Windows computer with Bit...
+- **Source URL:** https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption May 14, 2026 Vulnerability / Linux Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia , the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM ESP-in-TCP subsystem. It was discovered by researcher William Bowling of the V12 security team. "The vulnerability allows unprivileged local attackers to modify read-only file contents in the kernel page cache and achieve root privileges through a deterministic page-cache corruption primitive," Google-owned Wiz said . Advisories have been released by multiple Linux distributions - AlmaLinux Amazon Linux CloudLinux Debian Gentoo Red Hat Enterprise Linux SUSE Ubuntu "This is a separate bug in the ESP/XFRM from Dirty Frag which has received its own patch," V12 sa...
+- **Source URL:** https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** KongTuke hackers now use Microsoft Teams for corporate breaches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** US charges suspected Dream Market admin arrested in Germany
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-14
+- **Headline / event:** New Fragnesia Linux flaw lets attackers gain root privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
