@@ -6420,3 +6420,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Bypassing On-Camera Age-Verification Checks
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence May 15, 2026 Vulnerability / AI Security Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below - CVE-2026-44112 (CVSS score: 9.6/6.3) - A time-of-check/time-of-use (TOCTOU) race condition vulnerability in the OpenShell managed sandbox backend that allows attackers to bypass sandbox restrictions and redirect writes outside the intended mount root. CVE-2026-44113 (CVSS score: 7.7/6.3) - A TOCTOU race condition vulnerability in OpenShell that allows attackers to bypass sandbox restrictions and read files outside the intended mount root. CVE-2026-44115 (CVSS score: 8.8) - An incomplete list of disallowed inputs vuln...
+- **Source URL:** https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface May 15, 2026 Endpoint Security / Threat Detection In Your Biggest Security Risk Isn't Malware — It's What You Already Trust , we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis of 700,000 high-severity incidents found legitimate-tool abuse in 84% of them . The reaction we heard most was a fair one: We know. So what do we actually do about it? That's what Bitdefender's complimentary Internal Attack Surface Assessment is built to answer. It's a 45-day, low-effort engagement available to organizations with 250 or more employees that turns the abstract problem of "living off the land" into a specific, prioritized list of users, endpoints, and tools you can safely take away from attackers without breaking the business. Why This, Why ...
+- **Source URL:** https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates May 15, 2026 Supply Chain Attack / Malware OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. "Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to protect our systems," OpenAI said . "We observed activity consistent with the malware's publicly described behavior, including unauthorized access and credential-focused exfiltration activity, in a limited subset of internal source code repositories to which the two impacted employees had access." The artificial intelligence (AI) upstart said only limited credential material was successfully transferred from these code repositories, adding no other information or code was impacted. Upon being alerted of the activity, OpenAI said it isolated impacted systems and identities...
+- **Source URL:** https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email May 15, 2026 Microsoft / Vulnerability Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-42897 (CVSS score: 8.1), has been described as a spoofing bug stemming from a cross-site scripting flaw. An anonymous researcher has been credited with discovering and reporting the issue. "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network," the tech giant said in a Thursday advisory. Microsoft, which tagged the vulnerability with an "Exploitation Detected" assessment, said an attacker could weaponize it by sending a crafted email to a user, which, when opened in Outlook Web Access and subject to other "certain interaction conditions," can allow arbitrary JavaScript code to be executed in the context of the web brow...
+- **Source URL:** https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits May 15, 2026 Vulnerability / Credential Theft The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to remediate the issue by May 17, 2026. The vulnerability is a critical authentication bypass tracked as CVE-2026-20182 . It's rated 10.0 on the CVSS scoring system, indicating maximum severity. "Cisco Catalyst SD-WAN Controller and Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system," CISA said . In a separate advisory, Cisco attributed the active exploitation of CVE-2026-20182 with high confidence to UAT-8616 , the same cluster behind the weaponization of CVE-2026-20127 to gain unauthorized access to SD-WAN systems. "UAT-8616 performed similar post-compromise ...
+- **Source URL:** https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
