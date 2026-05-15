@@ -6348,3 +6348,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access May 14, 2026 Vulnerability / Network Security Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182 , carries a CVSS score of 10.0. "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system," Cisco said . The networking equipment major said the flaw stems from a malfunction of the peering authentication mechanism, which an attacker could exploit by sending crafted requests to the affected system. A successful exploit could permit the attacker to log in to the Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account, and then weaponize it to access NETCONF and manipulate network configuration f...
+- **Source URL:** https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets May 14, 2026 Developer Security / Supply Chain Attack Cybersecurity researchers are sounding the alarm about what has been described as "malicious activity" in newly published versions of node-ipc. According to Socket and StepSecurity , three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 "Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1 contain obfuscated stealer/backdoor behavior," Socket said. "The malware appears to fingerprint the host environment, enumerate and read local files, compress and chunk collected data, wrap the payload in a cryptographic envelope, and attempt exfiltration through a network endpoint selected via DNS/address logic." StepSecurity said the heavily obfuscated payload is triggered when the package is required at runtime, and attempts to exfiltrate a broad set of developer and cloud secrets to an external command-and-control (C2) server. This includes 90 categories ...
+- **Source URL:** https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories May 14, 2026 Hacking News / Cybersecurity News Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work get used for bad stuff, and nobody seems shocked anymore. Great. Love that for us. Anyway. Let’s get into it. Exploited PAN-OS RCE Palo Alto Networks Releases Fixes for Exploited Flaw Palo Alto Networks has released the first round of fixes to address CVE-2026-0300 , a critical buffer overflow vulnerability in the User-ID Authentication Portal service of PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets. The company said it has observed the flaw being...
+- **Source URL:** https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** TeamPCP hackers advertise Mistral AI code repos for sale
+- **Source URL:** https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** OpenAI confirms security breach in TanStack supply chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-15
+- **Headline / event:** Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026
+- **Source URL:** https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

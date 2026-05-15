@@ -1,86 +1,86 @@
 {
-  "generatedAt": "2026-05-14T14:43:33.109Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-14T144333Z.md",
+  "generatedAt": "2026-05-15T04:19:37.975Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-15T041937Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-14",
-      "title": "How Dangerous Is Anthropic’s Mythos AI?",
-      "link": "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
+      "discovered": "2026-05-15",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-dangerous-is-anthropic-s-mythos-ai",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike May 14, 2026 Hacktivism / Data Theft The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057, Umbral Bison (formerly RepeatingUmbra), UNC1151, and White Lynx. \"FrostyNeighbor has been running continual cyber operations, changing and updating its toolset regularly, updating its compromise chain and methods to evade detection – targeting victims located in Eastern Europe,\" ESET said in a report shared with The Hacker News. Previous attacks mounted by the hacking crew have leveraged a malware family known as PicassoLoader , which then acts as a conduit for Cobalt Strike Beacon and njRAT. In late 2023, the threat actor was also observed weaponizing a vulnerability in W...",
-      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "discovered": "2026-05-15",
+      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access May 14, 2026 Vulnerability / Network Security Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182 , carries a CVSS score of 10.0. \"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system,\" Cisco said . The networking equipment major said the flaw stems from a malfunction of the peering authentication mechanism, which an attacker could exploit by sending crafted requests to the affected system. A successful exploit could permit the attacker to log in to the Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account, and then weaponize it to access NETCONF and manipulate network configuration f...",
+      "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ghostwriter-targets-ukrainian-government-with-geofenced-pdf-phishing-cobalt-strike-may-14-",
+      "slug": "cisco-catalyst-sd-wan-controller-auth-bypass-actively-exploited-to-gain-admin-access-may-1",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure May 14, 2026 Vulnerability / API Security Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI , an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the API server's protected functionality without a token. \" PraisonAI ships a legacy Flask API server with authentication disabled by default,\" according to an advisory released by the maintainers earlier this month. \"When that server is used, any caller that can reach it can access /agents and trigger the configured agents.yaml workflow through /chat without providing a token.\" Specifically, the legacy Flask-based API server, src/praisonai/api_server.py, hard-codes AUTH_ENABLED = False and AUTH_TOKEN = None. According to PraisonAI, successful exploitation of the fla...",
-      "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "discovered": "2026-05-15",
+      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets May 14, 2026 Developer Security / Supply Chain Attack Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity , three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 \"Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1 contain obfuscated stealer/backdoor behavior,\" Socket said. \"The malware appears to fingerprint the host environment, enumerate and read local files, compress and chunk collected data, wrap the payload in a cryptographic envelope, and attempt exfiltration through a network endpoint selected via DNS/address logic.\" StepSecurity said the heavily obfuscated payload is triggered when the package is required at runtime, and attempts to exfiltrate a broad set of developer and cloud secrets to an external command-and-control (C2) server. This includes 90 categories ...",
+      "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "praisonai-cve-2026-44338-auth-bypass-targeted-within-hours-of-disclosure-may-14-2026-vulne",
+      "slug": "stealer-backdoor-found-in-3-node-ipc-versions-targeting-developer-secrets-may-14-2026-deve",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "How AI Hallucinations Are Creating Real Security Risks May 14, 2026 Artificial Intelligence / Identity Security AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs may appear authoritative, making them especially dangerous when driving real-world security decisions. Based on Artificial Analysis’s AA-Omniscience benchmark , a 2025 evaluation of 40 AI models found that all but four models tested were more likely to provide a confident, incorrect answer than a correct one on difficult questions. As AI takes on a larger role in cybersecurity operations, organizations must treat every AI-generated response as a potential vulnerability until a human has verified it. What are AI hallucinations? AI hallucinations are confidently presented, plausible-sounding out...",
-      "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+      "discovered": "2026-05-15",
+      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories May 14, 2026 Hacking News / Cybersecurity News Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work get used for bad stuff, and nobody seems shocked anymore. Great. Love that for us. Anyway. Let’s get into it. Exploited PAN-OS RCE Palo Alto Networks Releases Fixes for Exploited Flaw Palo Alto Networks has released the first round of fixes to address CVE-2026-0300 , a critical buffer overflow vulnerability in the User-ID Authentication Portal service of PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets. The company said it has observed the flaw being...",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-ai-hallucinations-are-creating-real-security-risks-may-14-2026-artificial-intelligence",
+      "slug": "threatsday-bulletin-pan-os-rce-mythos-curl-bug-ai-tokenizer-attacks-and-10-stories-may-14-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation May 14, 2026 Zero-Day / Vulnerability An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma , respectively, by the researcher, who goes by the online aliases Chaotic Eclipse and Nightmare-Eclipse. The researcher described YellowKey as \"one of the most insane discoveries I ever found,\" likening the BitLocker bypass to functioning as a backdoor, as the bug is present only in the Windows Recovery Environment ( WinRE ), a built-in framework designed to troubleshoot and repair common unbootable operating system issues. YellowKey affects Windows 11 and Windows Server 2022/2025. At a high level, it involves copying specially crafted \"FsTx\" files on a USB drive or the EFI partition, plugging the USB drive into the target Windows computer with Bit...",
-      "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "discovered": "2026-05-15",
+      "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+      "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "windows-zero-days-expose-bitlocker-bypasses-and-ctfmon-privilege-escalation-may-14-2026-ze",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-14",
-      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption May 14, 2026 Vulnerability / Linux Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia , the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM ESP-in-TCP subsystem. It was discovered by researcher William Bowling of the V12 security team. \"The vulnerability allows unprivileged local attackers to modify read-only file contents in the kernel page cache and achieve root privileges through a deterministic page-cache corruption primitive,\" Google-owned Wiz said . Advisories have been released by multiple Linux distributions - AlmaLinux Amazon Linux CloudLinux Debian Gentoo Red Hat Enterprise Linux SUSE Ubuntu \"This is a separate bug in the ESP/XFRM from Dirty Frag which has received its own patch,\" V12 sa...",
-      "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-fragnesia-linux-kernel-lpe-grants-root-access-via-page-cache-corruption-may-14-2026-vu",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-14",
-      "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches",
+      "slug": "teampcp-hackers-advertise-mistral-ai-code-repos-for-sale",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "US charges suspected Dream Market admin arrested in Germany",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "discovered": "2026-05-15",
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "us-charges-suspected-dream-market-admin-arrested-in-germany",
+      "slug": "hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-14",
-      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+      "discovered": "2026-05-15",
+      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges",
+      "slug": "cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-15",
+      "title": "OpenAI confirms security breach in TanStack supply chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "openai-confirms-security-breach-in-tanstack-supply-chain-attack",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-15",
+      "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "windows-11-and-microsoft-edge-hacked-at-pwn2own-berlin-2026",
       "source": "BleepingComputer"
     }
   ]
