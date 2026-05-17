@@ -6532,3 +6532,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-17
+- **Headline / event:** Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming May 16, 2026 Vulnerability / Website Security A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It affects all versions of the plugin before 3.15.0.3. It's used in more than 40,000 WooCommerce stores. The flaw lets unauthenticated attackers inject arbitrary JavaScript into every checkout page on the store, the Dutch e-commerce security company said. FunnelKit, which maintains Funnel Builder, has released a patch for the vulnerability in version 3.15.0.3. "Attackers are planting fake Google Tag Manager scripts into the plugin's 'External Scripts' setting," it noted. "The injected code looks like ordinary analytics next to the store's real tags, but...
+- **Source URL:** https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-17
+- **Headline / event:** Microsoft rejects critical Azure vulnerability report, no CVE issued
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-17
+- **Headline / event:** Russian hackers turn Kazuar backdoor into modular P2P botnet
+- **Source URL:** https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
