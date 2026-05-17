@@ -6556,3 +6556,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-17
+- **Headline / event:** NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE May 17, 2026 Server Security / Vulnerability A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck . The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the vulnerability was introduced in 2008. Successful exploitation of the flaw can permit an unauthenticated attacker to crash worker processes or execute remote code with crafted HTTP requests. However, it bears noting that code execution is possible only on devices where Address Space Layout Randomization (ASLR), a safeguard against memory-based attacks, is turned off.
+- **Source URL:** https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-17
+- **Headline / event:** Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt May 17, 2026 Data Breach / Cybercrime Grafana has disclosed that an "unauthorized party" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. "Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations," Grafana said in a series of posts on X. The company also said it immediately launched a forensic analysis upon discovering the activity and that it identified the source of the leak, adding the compromised credentials have since been invalidated, and extra security measures have been implemented to secure against unauthorized access. Furthermore, Grafana revealed the attacker tried to blackmail and extort the company, demanding they make a payment to prevent the stolen database from being published. Grafana said it has opted not to pay the ransom, citing the U.S. Federal Bureau of Invest...
+- **Source URL:** https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
