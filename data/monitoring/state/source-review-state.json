@@ -282,7 +282,9 @@
       "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
       "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
       "https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html",
-      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html"
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
+      "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
+      "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -615,7 +617,19 @@
       "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
       "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
       "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html"
+      "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+      "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+      "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -996,7 +1010,12 @@
       "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
       "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
       "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-      "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/"
+      "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+      "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+      "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+      "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+      "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/"
     ]
   }
 }

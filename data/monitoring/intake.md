@@ -6580,3 +6580,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Zero-Day Exploit Against Windows BitLocker
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More May 18, 2026 Cybersecurity / Hacking Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: the data was returned and deleted. The pattern is clear. One weak dependency can leak keys. One leaked key can open cloud access. One cloud foothold can become a production incident. AI is speeding up vulnerability discovery, attackers are moving quickly, and old exposure still keeps paying off. Patch the quiet risks first. Let’s get into it. ⚡ Threat of the Week On-Prem Microsoft Exchange Server Exploited in the Wild —Microsoft disclosed a security vulnerability impacting on-premise versions of Exchange Server, which has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-42897 (CVSS score: 8.1), has been described as a spoofing bug stemming from a cross-site scripting flaw. An anonymous researcher has been credited with discovering ...
+- **Source URL:** https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** How to Reduce Phishing Exposure Before It Turns into Business Disruption May 18, 2026 Threat Intelligence / Malware Analysis What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster, reduce response delays, and stop one missed link from turning into account exposure, remote access, or operational disruption. Why Phishing Creates Bigger Risk for Security Leaders Now Phishing has become harder to manage because it no longer creates one clear, easy-to-contain event. A single click can turn into identity exposure, remote access, data access, or a wider investigation before the team has a clear picture. What makes it a bigger concern now: Puts identity at the center of the attack: Stolen credentials can expose email, SaaS apps, cloud platforms, and internal systems. Weak...
+- **Source URL:** https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Developer Workstations Are Now Part of the Software Supply Chain May 18, 2026 Artificial Intelligence / Developer Security Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is an ongoing concern and is self-propagating, as seen in attacks like the "mini Shai Hulud" campaigns. That pattern should change how security teams think about the software supply chain. Traditionally, security focused on shared systems like source code repositories, CI/CD platforms, artifact registries, package managers, and cloud environments. The goal was to protect production workloads and data. We absolutely still need to focus on these areas, but it is an incomplete picture. Modern software delivery begins before code reaches Git. It begins on the developer workstation, wher...
+- **Source URL:** https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws May 18, 2026 Vulnerability / Software Security Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. "External control of a file name in Ivanti Xtraction before version 2026.2 allows a remote authenticated attacker to read sensitive files and write arbitrary HTML files to a web directory, leading to information disclosure and possible client-side attacks," Ivanti said in an advisory. Fortinet published advisories for two critical shortcomings affecting FortiAuthenticator and FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS that could result in code execution - CVE-2026-44277 (CVSS score: 9.1) - An improper access control vulnerability in FortiAuthenticator that may allow an unauthenticated attacker to...
+- **Source URL:** https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems May 18, 2026 Zero Day / Vulnerability Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma , has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma , the vulnerability impacts "cldflt.sys," which refers to the Windows Cloud Files Mini Filter Driver, and resides in a routine named "HsmOsBlockPlaceholderAccess." It was originally reported to Microsoft by Google Project Zero researcher James Forshaw in September 2020. Although it was assumed that the shortcoming was fixed by Microsoft in December 2020 as part of CVE-2020-17103 , Chaotic Eclipse said further investigation has uncovered that the "exact same issue [...] is actually still present, unpatched." "I'm unsure if Microsoft just never patched the issue or the patch was silently rolled back at some point for unknown reasons. The original PoC by...
+- **Source URL:** https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Grafana says stolen GitHub token let hackers steal codebase
+- **Source URL:** https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Exploit available for new DirtyDecrypt Linux root escalation flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-18
+- **Headline / event:** Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
