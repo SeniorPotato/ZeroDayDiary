@@ -615,8 +615,6 @@
       "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
       "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
       "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-      "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
       "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html"
     ],
     "reddit-security": [
@@ -996,7 +994,9 @@
       "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
       "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
       "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
-      "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/"
+      "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+      "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/"
     ]
   }
 }
