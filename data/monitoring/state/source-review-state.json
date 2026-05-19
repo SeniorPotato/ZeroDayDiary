@@ -214,7 +214,9 @@
       "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
       "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/"
+      "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -283,7 +285,6 @@
       "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
       "https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
-      "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
       "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html"
     ],
     "the-hacker-news": [
@@ -623,13 +624,10 @@
       "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
       "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
       "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
       "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
-      "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html"
+      "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+      "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1013,9 +1011,14 @@
       "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
       "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
       "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
-      "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-      "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/"
+      "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+      "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+      "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+      "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+      "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/"
     ]
   }
 }
