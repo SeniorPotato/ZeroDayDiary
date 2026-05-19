@@ -1,59 +1,104 @@
 {
-  "generatedAt": "2026-05-19T04:34:46.796Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-19T043446Z.md",
+  "generatedAt": "2026-05-19T15:51:00.943Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-19T155100Z.md",
   "candidates": [
     {
       "discovered": "2026-05-19",
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "title": "FTC Begins Enforcing the TAKE IT DOWN Act",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-admin-leaked-aws-govcloud-keys-on-github",
-      "source": "Krebs on Security"
+      "category": "privacy",
+      "slug": "ftc-begins-enforcing-the-take-it-down-act",
+      "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-05-19",
-      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests May 18, 2026 Cybercrime / Malware INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the efforts of 13 countries from the region between October 2025 and February 2026, aiming to investigate and neutralize malicious infrastructure, arrest perpetrators behind these activities, and prevent future losses. \"The operation focused on neutralizing phishing and malware threats, as well as tackling cyber scams that inflict severe cost to the region,\" INTERPOL said in a statement. \"In addition to the arrests made, 3,867 victims were identified, and 53 servers were seized.\" The operation, codenamed Ramz , led to the disruption of a phishing-as-a-service (PhaaS) by Algerian authorities after its server was confiscated, along with a computer, a mobile phone, and hard drives containing phishing software and scripts. One suspect was arrested in con...",
-      "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "title": "Laurie Anderson Is Quoting Me",
+      "link": "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "interpol-operation-ramz-disrupts-mena-cybercrime-networks-with-201-arrests-may-18-2026-cyb",
+      "slug": "laurie-anderson-is-quoting-me",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-05-19",
+      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability May 19, 2026 Linux / Vulnerability Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had already been patched in the mainline. \"It's a rxgk pagecache write due to missing COW [copy-on-write] guard in rxgk_decrypt_skb,\" Zellic co-founder Luna Tong (aka cts and gf_256) said in a description shared on GitHub. Although the CVE identifier was not disclosed, the vulnerability in question is CVE-2026-31635 (CVSS score: 7.5) based on the fact that the NIST National Vulnerability Database (NVD) includes a link to the DirtyDecrypt PoC in its CVE record. \"The specific fault sits in rxgk_decrypt_skb(), the function that decrypts an incoming sk_buff (socket buffer) on th...",
+      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "dirtydecrypt-poc-released-for-linux-kernel-cve-2026-31635-lpe-vulnerability-may-19-2026-li",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-19",
-      "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-      "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA May 19, 2026 Identity Security / AI Security In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a routine sign-in. They had actually handed the operator a valid refresh token scoped to their mailbox, drive, calendar, and contacts, with the lifespan of a tenant policy rather than a session. The operator never needed a password, never tripped an MFA prompt, and never produced a sign-in event that looked like an intrusion. The attack succeeded because the OAuth consent screen has become an instinctive click, and the controls built to stop credential phishing do not look at the consent layer. Security researchers call the resulting condition consent phishing or OAuth grant abuse. The phishin...",
+      "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "interpol-operation-ramz-seizes-53-malware-phishing-servers",
+      "slug": "the-new-phishing-click-how-oauth-consent-bypasses-mfa-may-19-2026-identity-security-ai-sec",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-19",
+      "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare May 19, 2026 Vulnerability / Website Security Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said . \"Not all configurations are affected. Reserve time on May 20 during the release window to determine whether your sites are affected and in need of an immediate update. Mitigation information will be included in the advisory.\" It's being advised to update to the latest supported patch for the site's version of Drupal before the deadline so that any outstanding upgrade issues can be addressed. Patches are expected to be available for the following supported branches of Drupal core - 11.3.x 11.2.x 10.6.x 10.5.x \"Sites on one of these supported versions should updat...",
+      "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "drupal-to-release-urgent-core-security-updates-on-may-20-sites-told-to-prepare-may-19-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-19",
+      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access May 19, 2026 Vulnerability / Email Security Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway , an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\" InfoGuard Labs researchers Dario Weiss, Manuel Feifel, and Olivier Becker said in a Monday report. The list of identified flaws is as follows - CVE-2026-2743 (CVSS score: 10.0) - A path traversal vulnerability in the SeppMail User Web Interface's large file transfer (LFT) feature that could enable arbitrary file write, resulting in remote code execution. CVE-2026-7864 (CVSS score: 6.9) - An exposure of sensitive system information vulnerability that leaks server environment variables through an unauthenticated endpoint in the new GINA UI. CVE-2026-44125 (CVSS score: 9.3) - A mi...",
+      "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "seppmail-secure-e-mail-gateway-vulnerabilities-enable-rce-and-mail-traffic-access-may-19-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-19",
+      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer May 19, 2026 Supply Chain Attack / Developer Security Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open VSX version has not been affected by the incident. \"Within seconds of a developer opening any workspace, the compromised extension silently fetched and executed a 498 KB obfuscated payload from a dangling orphan commit hidden inside the official nrwl/nx GitHub repository,\" StepSecurity researcher Ashish Kurmi said . The payload is a \"multi-stage credential stealer and supply chain poisoning tool\" that harvests developer secrets and exfiltrates them via HTTPS, the GitHub API, and DNS tunneling. It also installs a Python backdoor on macOS systems that abuses the GitHub S...",
+      "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "compromised-nx-console-18-95-0-targeted-vs-code-developers-with-credential-stealer-may-19-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-19",
+      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-shai-hulud-malware-wave-compromises-600-npm-packages",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-19",
-      "title": "SHub macOS infostealer variant spoofs Apple security updates",
-      "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "shub-macos-infostealer-variant-spoofs-apple-security-updates",
+      "slug": "7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-19",
-      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-      "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees",
+      "slug": "critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-19",
-      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
-      "link": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "title": "Webinar: The hidden bottlenecks in network incident response",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign",
+      "slug": "webinar-the-hidden-bottlenecks-in-network-incident-response",
       "source": "BleepingComputer"
     }
   ]

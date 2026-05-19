@@ -161,7 +161,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-illinois-take-action-stop-deceptive-conduct-company-created-thousands-business-listings-fake",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -215,7 +217,6 @@
       "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
       "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
     ],
     "schneier-on-security": [
@@ -285,7 +286,9 @@
       "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
       "https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
-      "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html"
+      "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
+      "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
+      "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -627,7 +630,18 @@
       "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
       "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
       "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html"
+      "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+      "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+      "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+      "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+      "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1015,10 +1029,14 @@
       "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
       "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
       "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
-      "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-      "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-      "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
-      "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/"
+      "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+      "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+      "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/"
     ]
   }
 }
