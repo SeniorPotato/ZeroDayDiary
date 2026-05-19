@@ -6700,3 +6700,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** FTC Begins Enforcing the TAKE IT DOWN Act
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Laurie Anderson Is Quoting Me
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability May 19, 2026 Linux / Vulnerability Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had already been patched in the mainline. "It's a rxgk pagecache write due to missing COW [copy-on-write] guard in rxgk_decrypt_skb," Zellic co-founder Luna Tong (aka cts and gf_256) said in a description shared on GitHub. Although the CVE identifier was not disclosed, the vulnerability in question is CVE-2026-31635 (CVSS score: 7.5) based on the fact that the NIST National Vulnerability Database (NVD) includes a link to the DirtyDecrypt PoC in its CVE record. "The specific fault sits in rxgk_decrypt_skb(), the function that decrypts an incoming sk_buff (socket buffer) on th...
+- **Source URL:** https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** The New Phishing Click: How OAuth Consent Bypasses MFA May 19, 2026 Identity Security / AI Security In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a routine sign-in. They had actually handed the operator a valid refresh token scoped to their mailbox, drive, calendar, and contacts, with the lifespan of a tenant policy rather than a session. The operator never needed a password, never tripped an MFA prompt, and never produced a sign-in event that looked like an intrusion. The attack succeeded because the OAuth consent screen has become an instinctive click, and the controls built to stop credential phishing do not look at the consent layer. Security researchers call the resulting condition consent phishing or OAuth grant abuse. The phishin...
+- **Source URL:** https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare May 19, 2026 Vulnerability / Website Security Drupal has issued an alert stating that it intends to release a "core security release" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. "The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days," the maintainers of the PHP-based content management system (CMS) said . "Not all configurations are affected. Reserve time on May 20 during the release window to determine whether your sites are affected and in need of an immediate update. Mitigation information will be included in the advisory." It's being advised to update to the latest supported patch for the site's version of Drupal before the deadline so that any outstanding upgrade issues can be addressed. Patches are expected to be available for the following supported branches of Drupal core - 11.3.x 11.2.x 10.6.x 10.5.x "Sites on one of these supported versions should updat...
+- **Source URL:** https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access May 19, 2026 Vulnerability / Email Security Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway , an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. "These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network," InfoGuard Labs researchers Dario Weiss, Manuel Feifel, and Olivier Becker said in a Monday report. The list of identified flaws is as follows - CVE-2026-2743 (CVSS score: 10.0) - A path traversal vulnerability in the SeppMail User Web Interface's large file transfer (LFT) feature that could enable arbitrary file write, resulting in remote code execution. CVE-2026-7864 (CVSS score: 6.9) - An exposure of sensitive system information vulnerability that leaks server environment variables through an unauthenticated endpoint in the new GINA UI. CVE-2026-44125 (CVSS score: 9.3) - A mi...
+- **Source URL:** https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer May 19, 2026 Supply Chain Attack / Developer Security Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open VSX version has not been affected by the incident. "Within seconds of a developer opening any workspace, the compromised extension silently fetched and executed a 498 KB obfuscated payload from a dangling orphan commit hidden inside the official nrwl/nx GitHub repository," StepSecurity researcher Ashish Kurmi said . The payload is a "multi-stage credential stealer and supply chain poisoning tool" that harvests developer secrets and exfiltrates them via HTTPS, the GitHub API, and DNS tunneling. It also installs a Python backdoor on macOS systems that abuses the GitHub S...
+- **Source URL:** https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** New Shai-Hulud malware wave compromises 600 npm packages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** 7-Eleven confirms data breach claimed by the ShinyHunters gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Webinar: The hidden bottlenecks in network incident response
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
