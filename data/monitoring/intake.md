@@ -6652,3 +6652,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** CISA Admin Leaked AWS GovCloud Keys on Github
+- **Source URL:** https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests May 18, 2026 Cybercrime / Malware INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the efforts of 13 countries from the region between October 2025 and February 2026, aiming to investigate and neutralize malicious infrastructure, arrest perpetrators behind these activities, and prevent future losses. "The operation focused on neutralizing phishing and malware threats, as well as tackling cyber scams that inflict severe cost to the region," INTERPOL said in a statement. "In addition to the arrests made, 3,867 victims were identified, and 53 servers were seized." The operation, codenamed Ramz , led to the disruption of a phishing-as-a-service (PhaaS) by Algerian authorities after its server was confiscated, along with a computer, a mobile phone, and hard drives containing phishing software and scripts. One suspect was arrested in con...
+- **Source URL:** https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** SHub macOS infostealer variant spoofs Apple security updates
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
+- **Source URL:** https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-19
+- **Headline / event:** Leaked Shai-Hulud malware fuels new npm infostealer campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
