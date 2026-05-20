@@ -6788,3 +6788,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Federal Court Holds Payment Processor Cliq in Contempt for Violating FTC Order
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/federal-court-holds-payment-processor-cliq-contempt-violating-ftc-order
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories May 20, 2026 Malware / Cloud Security GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. "While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises, organizations, and repositories), we are closely monitoring our infrastructure for follow-on activity," the Microsoft-owned subsidiary said . The company also noted that it will notify customers via established incident response and notification channels if any impact is discovered. The development comes after TeamPCP, a threat actor behind a string of software supply chain attacks targeting open-source packages, listed GitHub's source code for sale for an asking price of no less than $50,000. The alleged data dump is said to include about 4,000 repositories. ...
+- **Source URL:** https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps May 19, 2026 Malvertising / Mobile Security Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. "Users unwittingly download a threat actor-owned app, often a utility-style app like a PDF viewer or device cleanup tool," researchers Louisa Abel, Ryan Joye, João Marques, João Santos, and Adam Sell detailed in a report shared with The Hacker News. "These apps trigger malvertising campaigns that coerce users into downloading additional threat actor-owned apps. The secondary apps launch hidden WebViews, load threat actor-owned HTML5 domains, and request ads." The campaign, the cybersecurity company added, is self-sustaining in that an organic app install turns into an illicit re...
+- **Source URL:** https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Max-severity flaw in ChromaDB for AI apps allows server hijacking
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Cybercrime service disrupted for abusing Microsoft platform to sign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Discord rolls out end-to-end encryption on voice, video calls
+- **Source URL:** https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** FBI: Americans lost over $388 million to scams using crypto ATMs in 2025
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-20
+- **Headline / event:** Microsoft Self-Service Password Reset abused in Azure data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
