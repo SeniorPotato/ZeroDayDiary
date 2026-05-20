@@ -1,77 +1,113 @@
 {
-  "generatedAt": "2026-05-20T04:38:11.190Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-20T043811Z.md",
+  "generatedAt": "2026-05-20T15:58:15.952Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-20T155815Z.md",
   "candidates": [
     {
       "discovered": "2026-05-20",
-      "title": "Federal Court Holds Payment Processor Cliq in Contempt for Violating FTC Order",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/federal-court-holds-payment-processor-cliq-contempt-violating-ftc-order",
+      "title": "5th consecutive victory for Team Europe, the still undefeated EU Champions of the International Cybersecurity Challenge",
+      "link": "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-internati",
+      "source": "ENISA News"
+    },
+    {
+      "discovered": "2026-05-20",
+      "title": "FTC Sends Warning Letters to Companies About Compliance with the TAKE IT DOWN Act",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "federal-court-holds-payment-processor-cliq-in-contempt-for-violating-ftc-order",
+      "slug": "ftc-sends-warning-letters-to-companies-about-compliance-with-the-take-it-down-act",
       "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-05-20",
-      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories May 20, 2026 Malware / Cloud Security GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises, organizations, and repositories), we are closely monitoring our infrastructure for follow-on activity,\" the Microsoft-owned subsidiary said . The company also noted that it will notify customers via established incident response and notification channels if any impact is discovered. The development comes after TeamPCP, a threat actor behind a string of software supply chain attacks targeting open-source packages, listed GitHub's source code for sale for an asking price of no less than $50,000. The alleged data dump is said to include about 4,000 repositories. ...",
-      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks May 20, 2026 Malware / Cybercrime Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant attributed the activity to a threat actor it calls Fox Tempest , which it said offered the MSaaS scheme to allow cybercriminals to disguise malware as legitimate software. The threat actor has been active since May 2025. The seizure effort has been codenamed OpFauxSign . \"To disrupt the service, we seized Fox Tempest's website signspace[.]cloud, took offline hundreds of the virtual machines running the operation, and blocked access to a site hosting the underlying code,\" Steven Masada, assistant general counsel at Microsoft's Digital Crimes Unit, said . Microsoft noted that the operation enabled the deployment of Rhysida ransomware by threat actors such as Vanilla Tempe...",
+      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "github-investigating-teampcp-claimed-breach-of-4-000-internal-repositories-may-20-2026-mal",
+      "slug": "microsoft-takes-down-malware-signing-service-behind-ransomware-attacks-may-20-2026-malware",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-20",
-      "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps May 19, 2026 Malvertising / Mobile Security Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. \"Users unwittingly download a threat actor-owned app, often a utility-style app like a PDF viewer or device cleanup tool,\" researchers Louisa Abel, Ryan Joye, João Marques, João Santos, and Adam Sell detailed in a report shared with The Hacker News. \"These apps trigger malvertising campaigns that coerce users into downloading additional threat actor-owned apps. The secondary apps launch hidden WebViews, load threat actor-owned HTML5 domains, and request ads.\" The campaign, the cybersecurity company added, is self-sustaining in that an organic app install turns into an illicit re...",
-      "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+      "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API May 20, 2026 Malware / Cybercrime Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-and-control (C2 or C&C) communications. Webworm, first publicly documented by Broadcom-owned Symantec in September 2022, is assessed to be active since at least 2022, targeting government agencies and enterprises spanning IT services, aerospace, and electric power sectors in Russia, Georgia, Mongolia, and several other Asian nations. Attacks mounted by the group have leveraged remote access trojans (RATs) like Trochilus RAT, Gh0st RAT, and 9002 RAT (aka Hydraq and McRat). The threat actor is said to overlap with China-nexus clusters tracked as FishMonger (aka Aquatic Panda), SixLittleMonkeys , and Space Pirates . SixLittleMonkeys is best known for deploying Gh0st RAT and a RAT called Mikroceen targeting entities in Central Asia, Russia, Belarus, and Mongolia. \"In recent ye...",
+      "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "trapdoor-android-ad-fraud-scheme-hit-659-million-daily-bid-requests-using-455-apps-may-19-",
+      "slug": "webworm-deploys-echocreep-and-graphworm-backdoors-using-discord-and-ms-graph-api-may-20-20",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-20",
-      "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
+      "title": "Agent AI is Coming. Are You Ready? May 20, 2026 Identity Security / Enterprise Security New Industry Data Just Released Suggests Not. On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, \"identity dark matter\" (the unseen, unmanaged elements of identity) now overshadows the visible elements 57% vs. 43%. And it couldn't have occurred at a worse time, with enterprises embracing Agent AI with both arms (and unfortunately, as Orchid co-founder Robert Wiseman explains, more than one eye closed).",
+      "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking",
+      "slug": "agent-ai-is-coming-are-you-ready-may-20-2026-identity-security-enterprise-security-new-ind",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-20",
+      "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem May 20, 2026 Supply Chain Attack / Browser Security AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actually requires. Download the CISO Expert Guide to Typosquatting in the AI Era → TL;DR Typosquatting is no longer a user problem. Attackers now embed lookalike domains inside legitimate third-party scripts. No mistyped URL required, no server breach needed. AI broke the economics of defense. LLMs generate thousands of convincing domain variants in minutes; full campaign deployment takes under ten. Malicious package uploads jumped 156% last year. Manual vetting is dead. Your security stack can't see this. Firewalls, WAFs, EDR, and CSP have no visibility into what approved scripts do once they execute in the browser. The Trust Wallet attack proved it. $8.5M stolen in 48 hours through a trojanized Chrome extension. No alert fired, not because something failed, but because nothing...",
+      "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "typosquatting-is-no-longer-a-user-problem-it-s-a-supply-chain-problem-may-20-2026-supply-c",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-20",
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit May 20, 2026 Vulnerability / Encryption Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585 , carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the tech giant said in an advisory. \"The proof of concept for this vulnerability has been made public, violating coordinated vulnerability best practices.\" The issue impacts Windows 11 version 26H1 for x64-based Systems, Windows 11 Version 24H2 for x64-based Systems, Windows 11 Version 25H2 for x64-based Systems, Windows Server 2025, and Windows Server 2025 (Server Core installation). YellowKey was disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse). It essentially involves placing specially crafted 'FsTx' files on a USB driv...",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-releases-mitigation-for-yellowkey-bitlocker-bypass-cve-2026-45585-exploit-may-20",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-20",
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-20",
-      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign",
-      "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign",
+      "slug": "grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-20",
-      "title": "Discord rolls out end-to-end encryption on voice, video calls",
-      "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+      "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "discord-rolls-out-end-to-end-encryption-on-voice-video-calls",
+      "slug": "identity-alone-isn-t-enough-why-device-security-has-to-share-the-load",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-20",
-      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+      "title": "Drupal critical update to fix bug with high exploitation risk",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025",
+      "slug": "drupal-critical-update-to-fix-bug-with-high-exploitation-risk",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-20",
-      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks",
+      "slug": "github-investigates-internal-repositories-breach-claimed-by-teampcp",
       "source": "BleepingComputer"
     }
   ]

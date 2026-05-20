@@ -97,7 +97,9 @@
       "https://www.enisa.europa.eu/news/blueolex-2025-testing-the-capabilities-of-eu-crisis-management-executives",
       "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
       "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
-      "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root"
+      "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
+      "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
+      "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -164,7 +166,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/federal-court-holds-payment-processor-cliq-contempt-violating-ftc-order",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/federal-court-holds-payment-processor-cliq-contempt-violating-ftc-order"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -639,8 +642,17 @@
       "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
       "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
       "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
-      "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-      "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html"
+      "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+      "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+      "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+      "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+      "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1037,11 +1049,16 @@
       "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
       "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
       "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
-      "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
-      "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-      "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/"
+      "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
+      "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+      "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
+      "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/"
     ]
   }
 }
