@@ -44,7 +44,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -98,7 +100,6 @@
       "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
       "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
       "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
-      "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge"
     ],
     "ncsc-news": [],
@@ -166,7 +167,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/lead-defendants-im-mastery-academy-mlm-scheme-turn-over-tens-millions-dollars-assets-settle-ftc",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/federal-court-holds-payment-processor-cliq-contempt-violating-ftc-order",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act"
     ],
     "iso-insights": [
@@ -647,12 +647,13 @@
       "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
       "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
       "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-      "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
-      "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
-      "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
-      "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
-      "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-      "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html"
+      "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+      "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+      "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1054,11 +1055,10 @@
       "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
       "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
       "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
-      "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
-      "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
-      "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-      "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
-      "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/"
+      "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+      "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/"
     ]
   }
 }

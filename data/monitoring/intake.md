@@ -6948,3 +6948,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension May 21, 2026 Supply Chain Attack / Developer Tools GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension. The development comes as the Nx team revealed that the extension, nrwl.angular-console , was breached after one of its developers' systems was hacked in the wake of the recent TanStack supply chain attack , which has also impacted OpenAI , Mistral AI , and Grafana Labs . "We have no evidence of impact to customer information stored outside of GitHub's internal repositories, such as our customer's own enterprises, organizations, and repositories," Alexis Wales, Chief Information Security Officer of GitHub, said in a statement. "Some of GitHub's internal repositories contain information from customers, for example, excerpts of support interactions. If any impact is discovered, we will notify customers via establishe...
+- **Source URL:** https://thehackernews.com/2026/05/github-internal-repositories-breached.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks May 21, 2026 Web Security / Vulnerability Drupal has released security updates for a "highly critical" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082 , carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is used in Drupal Core to validate queries and ensure they are sanitized against SQL injection attacks. "A vulnerability in this API allows an attacker to send specially crafted requests, resulting in arbitrary SQL injection for sites using PostgreSQL databases," it said . "This can lead to information disclosure, and in some cases privilege escalation, remote code execution, or other attacks." Drupal noted the security flaw can be exploited by anonymous users, and impacts only sites that use PostgreSQL. The following versions address the issue - Drupal 11.3.10 ...
+- **Source URL:** https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development May 20, 2026 Artificial Intelligence / Security Testing Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART , short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering both adversarial and benign issues, as well as various harm categories. Users can write test cases to attack or probe an AI agent to explore possible safety violations like cross-prompt injections, where untrusted data reaches an AI system indirectly via a data source (e.g., email, file, or a web page) processed by it, or unintended behavioral regressions and data exfiltration. RAMPART then evaluates the outcome of those tests and reports the results. All it needs is an adapter that connects an agent to the test suite. The tool builds on PyRIT (short for Python Risk Identification Tool), ...
+- **Source URL:** https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Ukraine identifies infostealer operator tied to 28,000 stolen accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Hackers bypass SonicWall VPN MFA due to incomplete patching
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
