@@ -6996,3 +6996,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor May 21, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. "Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy," Lumen Technologies Black Lotus Labs said in a report shared with The Hacker News. It's assessed that the malware has been employed by at least one, and possibly more, threat activity clusters affiliated with China, with correlations identified between command-and-control (C2) nodes and IP addresses geolocated to Chengdu, the capital city of the Chinese province of Sichuan. This puts Showboat along with other shared frameworks like PlugX, ShadowPad, and NosyDoor that have been used by multiple China-nexus groups. This "resource pooling" reinforces the presence of a digital quart...
+- **Source URL:** https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories May 21, 2026 Hacking News / Cybersecurity News This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust. That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI does not make the attacks magic. It just helps people try more things, faster. Here's what showed up this week. 47 zero-days exposed 47 0-Days Discovered in Pwn2Own Berlin 2026 The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws in various products from Windows, Linux, VMware, and NVIDIA. DEVCORE won the event with 50.5 Master of Pwn points and $505,000 in rewards throughout the three-day contest after hacking Microsoft SharePoint, Microsoft E...
+- **Source URL:** https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Microsoft Warns of Two Actively Exploited Defender Vulnerabilities May 21, 2026 Endpoint Security / Vulnerability Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091 , is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges. "Improper link resolution before file access ('link following') in Microsoft Defender allows an authorized attacker to elevate privileges locally," Microsoft said in an advisory. The second vulnerability under exploitation is CVE-2026-45498 (CVSS score: 4.0), a denial-of-service bug impacting Defender. The two vulnerabilities have been addressed in Microsoft Defender Antimalware Platform versions 1.1.26040.8 and 4.18.26040.7, respectively. The tech giant noted that systems that have disabled Microsoft Defender are not susceptible to the vulnerability, adding that no action is required to install the update since it automatically updates malware definition...
+- **Source URL:** https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** When Identity is the Attack Path May 21, 2026 Identity Security / AI Security Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud environment - nearly every critical workload the business depended on. This real-world exposure was caught before an attacker could use it. But the takeaway is clear: identity itself, and every permission it carries, has become the attack path. Your environment runs on identity. Active Directory, cloud identity providers, service accounts, machine identities, and AI agents - all of these carry permissions that span systems and trust boundaries. A single stolen credential hands the attacker a legitimate identity - along with every permission attached to it. Despite this, most security pro...
+- **Source URL:** https://thehackernews.com/2026/05/when-identity-is-attack-path.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros May 21, 2026 Linux / Vulnerability Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major distributions like Debian, Fedora, and Ubuntu. It's also codenamed ssh-keysign-pwn. According to Qualys, which discovered the flaw, the problem is rooted in the kernel's __ptrace_may_access() function and was introduced in November 2016. "The primitive is reliable and turns any local shell into a path to root or to sensitive credential material," Saeed Abbasi, senior manager of Threat Research Unit at Qualys, said . Successful exploitation of the flaw could permit a local attacker to disclose /etc/shadow and host private keys under /etc/ssh/*_key, as well as execute arbitrary...
+- **Source URL:** https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Chinese hackers target telcos with new Linux, Windows
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Max severity Cisco Secure Workload flaw gives Site Admin privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Police seize “First VPN” service used in ransomware, data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-21
+- **Headline / event:** Microsoft warns of new Defender zero-days exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

@@ -1,59 +1,95 @@
 {
-  "generatedAt": "2026-05-21T04:45:59.002Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-21T044559Z.md",
+  "generatedAt": "2026-05-21T15:52:33.562Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-21T155233Z.md",
   "candidates": [
     {
       "discovered": "2026-05-21",
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor May 21, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen Technologies Black Lotus Labs said in a report shared with The Hacker News. It's assessed that the malware has been employed by at least one, and possibly more, threat activity clusters affiliated with China, with correlations identified between command-and-control (C2) nodes and IP addresses geolocated to Chengdu, the capital city of the Chinese province of Sichuan. This puts Showboat along with other shared frameworks like PlugX, ShadowPad, and NosyDoor that have been used by multiple China-nexus groups. This \"resource pooling\" reinforces the presence of a digital quart...",
+      "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-seven-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-05-21",
-      "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension May 21, 2026 Supply Chain Attack / Developer Tools GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension. The development comes as the Nx team revealed that the extension, nrwl.angular-console , was breached after one of its developers' systems was hacked in the wake of the recent TanStack supply chain attack , which has also impacted OpenAI , Mistral AI , and Grafana Labs . \"We have no evidence of impact to customer information stored outside of GitHub's internal repositories, such as our customer's own enterprises, organizations, and repositories,\" Alexis Wales, Chief Information Security Officer of GitHub, said in a statement. \"Some of GitHub's internal repositories contain information from customers, for example, excerpts of support interactions. If any impact is discovered, we will notify customers via establishe...",
-      "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "github-internal-repositories-breached-via-malicious-nx-console-vs-code-extension-may-21-20",
+      "slug": "showboat-linux-malware-hits-middle-east-telecom-with-socks5-proxy-backdoor-may-21-2026-cyb",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-21",
-      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks May 21, 2026 Web Security / Vulnerability Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082 , carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is used in Drupal Core to validate queries and ensure they are sanitized against SQL injection attacks. \"A vulnerability in this API allows an attacker to send specially crafted requests, resulting in arbitrary SQL injection for sites using PostgreSQL databases,\" it said . \"This can lead to information disclosure, and in some cases privilege escalation, remote code execution, or other attacks.\" Drupal noted the security flaw can be exploited by anonymous users, and impacts only sites that use PostgreSQL. The following versions address the issue - Drupal 11.3.10 ...",
-      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories May 21, 2026 Hacking News / Cybersecurity News This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust. That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI does not make the attacks magic. It just helps people try more things, faster. Here's what showed up this week. 47 zero-days exposed 47 0-Days Discovered in Pwn2Own Berlin 2026 The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws in various products from Windows, Linux, VMware, and NVIDIA. DEVCORE won the event with 50.5 Master of Pwn points and $505,000 in rewards throughout the three-day contest after hacking Microsoft SharePoint, Microsoft E...",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "highly-critical-drupal-core-flaw-exposes-postgresql-sites-to-rce-attacks-may-21-2026-web-s",
+      "slug": "threatsday-bulletin-linux-rootkits-router-0-day-ai-intrusions-scam-kits-and-25-new-stories",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-21",
-      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development May 20, 2026 Artificial Intelligence / Security Testing Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART , short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering both adversarial and benign issues, as well as various harm categories. Users can write test cases to attack or probe an AI agent to explore possible safety violations like cross-prompt injections, where untrusted data reaches an AI system indirectly via a data source (e.g., email, file, or a web page) processed by it, or unintended behavioral regressions and data exfiltration. RAMPART then evaluates the outcome of those tests and reports the results. All it needs is an adapter that connects an agent to the test suite. The tool builds on PyRIT (short for Python Risk Identification Tool), ...",
-      "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities May 21, 2026 Endpoint Security / Vulnerability Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091 , is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges. \"Improper link resolution before file access ('link following') in Microsoft Defender allows an authorized attacker to elevate privileges locally,\" Microsoft said in an advisory. The second vulnerability under exploitation is CVE-2026-45498 (CVSS score: 4.0), a denial-of-service bug impacting Defender. The two vulnerabilities have been addressed in Microsoft Defender Antimalware Platform versions 1.1.26040.8 and 4.18.26040.7, respectively. The tech giant noted that systems that have disabled Microsoft Defender are not susceptible to the vulnerability, adding that no action is required to install the update since it automatically updates malware definition...",
+      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-open-sources-rampart-and-clarity-to-secure-ai-agents-during-development-may-20-2",
+      "slug": "microsoft-warns-of-two-actively-exploited-defender-vulnerabilities-may-21-2026-endpoint-se",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-21",
-      "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "title": "When Identity is the Attack Path May 21, 2026 Identity Security / AI Security Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud environment - nearly every critical workload the business depended on. This real-world exposure was caught before an attacker could use it. But the takeaway is clear: identity itself, and every permission it carries, has become the attack path. Your environment runs on identity. Active Directory, cloud identity providers, service accounts, machine identities, and AI agents - all of these carry permissions that span systems and trust boundaries. A single stolen credential hands the attacker a legitimate identity - along with every permission attached to it. Despite this, most security pro...",
+      "link": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts",
+      "slug": "when-identity-is-the-attack-path-may-21-2026-identity-security-ai-security-consider-a-cach",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-21",
+      "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros May 21, 2026 Linux / Vulnerability Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major distributions like Debian, Fedora, and Ubuntu. It's also codenamed ssh-keysign-pwn. According to Qualys, which discovered the flaw, the problem is rooted in the kernel's __ptrace_may_access() function and was introduced in November 2016. \"The primitive is reliable and turns any local shell into a path to root or to sensitive credential material,\" Saeed Abbasi, senior manager of Threat Research Unit at Qualys, said . Successful exploitation of the flaw could permit a local attacker to disclose /etc/shadow and host private keys under /etc/ssh/*_key, as well as execute arbitrary...",
+      "link": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "9-year-old-linux-kernel-flaw-enables-root-command-execution-on-major-distros-may-21-2026-l",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-21",
+      "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-21",
-      "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+      "title": "Chinese hackers target telcos with new Linux, Windows",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching",
+      "slug": "chinese-hackers-target-telcos-with-new-linux-windows",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-21",
+      "title": "Max severity Cisco Secure Workload flaw gives Site Admin privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "max-severity-cisco-secure-workload-flaw-gives-site-admin-privileges",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-21",
+      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-21",
+      "title": "Microsoft warns of new Defender zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-warns-of-new-defender-zero-days-exploited-in-attacks",
       "source": "BleepingComputer"
     }
   ]
