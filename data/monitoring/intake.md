@@ -7076,3 +7076,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada
+- **Source URL:** https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** macOS Kernel Memory Corruption Exploit
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Google accidentally exposed details of unfixed Chromium flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
