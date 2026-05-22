@@ -7116,3 +7116,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows May 22, 2026 Supply Chain Attack / Cloud Security Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. "Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI secrets, cloud credentials, SSH keys, OIDC tokens, and source code secrets to a C2 server at 216.126.225[.]129:8443," SafeDep said in a report. The complete list of data harvested by the malware is below - CI environment variables, /proc/*/environ, and PID 1 environment Amazon Web Services (AWS) credentials Google Cloud access tokens Instance role credentials obtained by querying AWS IMDSv2, Google Cloud metadata, and Microsoft Azure Instance Metadata Service (IMDS) endpoints SSH private keys Docker and Kubernetes configurations Vault tokens Terraform crede...
+- **Source URL:** https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective May 22, 2026 Vulnerability / Driver Security 1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The methodology presented here should help anyone determine whether a particular Windows kernel mode driver vulnerability remains reachable - and thus potentially exploitable - even in the absence of the hardware the driver was developed for. The reader is expected to have basic Windows driver knowledge, especially regarding device objects. The rest of this article is written with the assumption that the reader is already familiar with the concepts described in the introduction article: Anatomy of Access: Windows Device Objects from a Security Perspective . Just like the introduction article, this resou...
+- **Source URL:** https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks May 22, 2026 Cybercrime / Law Enforcement The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf . In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU. "Kimwolf targeted infected devices which were traditionally 'firewalled' from the rest of the internet, such as digital photo frames and web cameras," the DoJ said . "The infected devices were enslaved by the botnet operators." "The operators then used a 'cybercrime-as-a-service' model to sell access to the infected devices to other cybercriminals. The operators and their customers forced the victim devices to participate in DDoS attacks, targeting computers and servers located throughout the world, including Department of Defense Information Network (DoDIN) IP ad...
+- **Source URL:** https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV May 22, 2026 Vulnerability / Cyber Attack The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could allow an attacker to execute arbitrary code and achieve full system compromise. CVE-2026-34926 (CVSS score: 6.7) - A directory traversal vulnerability in on-premise versions of Trend Micro Apex One that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations. In a report published in December 2025, Obsidian Security said CVE-2025-34291 exploits three combined weaknesses: overly Permissive CORS, lack of cross-site request forgery (CSRF) protection, and an endpoint that allows code execution...
+- **Source URL:** https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access May 22, 2026 Vulnerability / Network Security Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. "An attacker could exploit this vulnerability if they are able to send a crafted API request to an affected endpoint," Cisco said . "A successful exploit could allow the attacker to read sensitive information and make configuration changes across tenant boundaries with the privileges of the Site Admin user." The shortcoming impacts Cisco Secure Workload Cluster Software on SaaS and on-prem deployments, regardless of device configuration. Cisco said there are no workarounds that address the vulnerability. The issue has been addressed in the following versions - Cisco Secure Workload Release 3.9 and earlier (Migrate to a fixed releas...
+- **Source URL:** https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Trend Micro warns of Apex One zero-day exploited in the wild
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Drupal: Critical SQL injection flaw now targeted in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Why Chargebacks are Just One Piece of the Fraud Puzzle
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** Ubiquiti patches three max severity UniFi OS vulnerabilities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-22
+- **Headline / event:** US and Canada arrest and charge suspected Kimwolf botnet admin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
