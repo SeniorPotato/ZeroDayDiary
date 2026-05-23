@@ -7196,3 +7196,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Lawmakers Demand Answers as CISA Tries to Contain Data Leak
+- **Source URL:** https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Friday Squid Blogging: Regulating Squid Fishing in the South Pacific
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups May 22, 2026 Cybercrime / Infrastructure Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. The disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December 2021, including Luxembourg, Romania, Switzerland, Ukraine, the U.K., Canada, Germany, the U.S., Spain, Sweden, Denmark, Estonia, Latvia, Lithuania, Poland, and Portugal. First VPN, per Europol , offered services designed specifically for criminal use, allowing anonymous payments and a hidden infrastructure that enabled paying customers to hide their identities when carrying out ransomware attacks, large-scale fraud, and data theft. It was promoted on Russian-speaking cybercrime forums such as Exploit[.]in and XSS[.]is as a tool to evade law enforcement. The international operation took place ...
+- **Source URL:** https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware May 22, 2026 Malware / Artificial Intelligence The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government entities using compromised accounts. It's been active since the spring of 2026. "Typically, the email contains a PDF attachment with a link that, when clicked, leads to the download of a ZIP archive containing a JavaScript file," the agency said in a Thursday report. The JavaScript file, dubbed OYSTERFRESH, is designed to display a decoy document as a distraction mechanism, while stealthily writing an obfuscated and encrypted payload called OYSTERBLUES to the Windows Registry, as well as downloading and launching OYSTERSHUCK, which is responsible for decoding OYSTERBLUES. ...
+- **Source URL:** https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Netherlands seizes 800 servers of hosting firm enabling cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Former US execs plead guilty to aiding tech support scammers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
