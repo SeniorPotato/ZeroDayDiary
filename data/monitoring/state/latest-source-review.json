@@ -1,95 +1,68 @@
 {
-  "generatedAt": "2026-05-22T15:24:22.047Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-22T152422Z.md",
+  "generatedAt": "2026-05-23T04:09:18.047Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-23T040918Z.md",
   "candidates": [
     {
-      "discovered": "2026-05-22",
-      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows May 22, 2026 Supply Chain Attack / Cloud Security Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI secrets, cloud credentials, SSH keys, OIDC tokens, and source code secrets to a C2 server at 216.126.225[.]129:8443,\" SafeDep said in a report. The complete list of data harvested by the malware is below - CI environment variables, /proc/*/environ, and PID 1 environment Amazon Web Services (AWS) credentials Google Cloud access tokens Instance role credentials obtained by querying AWS IMDSv2, Google Cloud metadata, and Microsoft Azure Instance Metadata Service (IMDS) endpoints SSH private keys Docker and Kubernetes configurations Vault tokens Terraform crede...",
-      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "discovered": "2026-05-23",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "megalodon-github-attack-targets-5-561-repos-with-malicious-ci-cd-workflows-may-22-2026-sup",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-05-23",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-05-23",
+      "title": "Friday Squid Blogging: Regulating Squid Fishing in the South Pacific",
+      "link": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-05-23",
+      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups May 22, 2026 Cybercrime / Infrastructure Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. The disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December 2021, including Luxembourg, Romania, Switzerland, Ukraine, the U.K., Canada, Germany, the U.S., Spain, Sweden, Denmark, Estonia, Latvia, Lithuania, Poland, and Portugal. First VPN, per Europol , offered services designed specifically for criminal use, allowing anonymous payments and a hidden infrastructure that enabled paying customers to hide their identities when carrying out ransomware attacks, large-scale fraud, and data theft. It was promoted on Russian-speaking cybercrime forums such as Exploit[.]in and XSS[.]is as a tool to evade law enforcement. The international operation took place ...",
+      "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "first-vpn-dismantled-in-global-takedown-over-use-by-25-ransomware-groups-may-22-2026-cyber",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-22",
-      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective May 22, 2026 Vulnerability / Driver Security 1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The methodology presented here should help anyone determine whether a particular Windows kernel mode driver vulnerability remains reachable - and thus potentially exploitable - even in the absence of the hardware the driver was developed for. The reader is expected to have basic Windows driver knowledge, especially regarding device objects. The rest of this article is written with the assumption that the reader is already familiar with the concepts described in the introduction article: Anatomy of Access: Windows Device Objects from a Security Perspective . Just like the introduction article, this resou...",
-      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "discovered": "2026-05-23",
+      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware May 22, 2026 Malware / Artificial Intelligence The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government entities using compromised accounts. It's been active since the spring of 2026. \"Typically, the email contains a PDF attachment with a link that, when clicked, leads to the download of a ZIP archive containing a JavaScript file,\" the agency said in a Thursday report. The JavaScript file, dubbed OYSTERFRESH, is designed to display a decoy document as a distraction mechanism, while stealthily writing an obfuscated and encrypted payload called OYSTERBLUES to the Windows Registry, as well as downloading and launching OYSTERSHUCK, which is responsible for decoding OYSTERBLUES. ...",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "making-vulnerable-drivers-exploitable-without-hardware-the-byovd-perspective-may-22-2026-v",
+      "slug": "ghostwriter-targets-ukraine-government-entities-with-prometheus-phishing-malware-may-22-20",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-05-22",
-      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks May 22, 2026 Cybercrime / Law Enforcement The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf . In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU. \"Kimwolf targeted infected devices which were traditionally 'firewalled' from the rest of the internet, such as digital photo frames and web cameras,\" the DoJ said . \"The infected devices were enslaved by the botnet operators.\" \"The operators then used a 'cybercrime-as-a-service' model to sell access to the infected devices to other cybercriminals. The operators and their customers forced the victim devices to participate in DDoS attacks, targeting computers and servers located throughout the world, including Department of Defense Information Network (DoDIN) IP ad...",
-      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
+      "discovered": "2026-05-23",
+      "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "kimwolf-ddos-botnet-operator-arrested-in-canada-over-ddos-for-hire-attacks-may-22-2026-cyb",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV May 22, 2026 Vulnerability / Cyber Attack The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could allow an attacker to execute arbitrary code and achieve full system compromise. CVE-2026-34926 (CVSS score: 6.7) - A directory traversal vulnerability in on-premise versions of Trend Micro Apex One that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations. In a report published in December 2025, Obsidian Security said CVE-2025-34291 exploits three combined weaknesses: overly Permissive CORS, lack of cross-site request forgery (CSRF) protection, and an endpoint that allows code execution...",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-exploited-langflow-and-trend-micro-apex-one-vulnerabilities-to-kev-may-22-2026-v",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access May 22, 2026 Vulnerability / Network Security Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. \"An attacker could exploit this vulnerability if they are able to send a crafted API request to an affected endpoint,\" Cisco said . \"A successful exploit could allow the attacker to read sensitive information and make configuration changes across tenant boundaries with the privileges of the Site Admin user.\" The shortcoming impacts Cisco Secure Workload Cluster Software on SaaS and on-prem deployments, regardless of device configuration. Cisco said there are no workarounds that address the vulnerability. The issue has been addressed in the following versions - Cisco Secure Workload Release 3.9 and earlier (Migrate to a fixed releas...",
-      "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisco-patches-cvss-10-0-secure-workload-rest-api-flaw-enabling-data-access-may-22-2026-vul",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "trend-micro-warns-of-apex-one-zero-day-exploited-in-the-wild",
+      "slug": "netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-05-22",
-      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
+      "discovered": "2026-05-23",
+      "title": "Former US execs plead guilty to aiding tech support scammers",
+      "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "drupal-critical-sql-injection-flaw-now-targeted-in-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-      "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "why-chargebacks-are-just-one-piece-of-the-fraud-puzzle",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-22",
-      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
-      "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin",
+      "slug": "former-us-execs-plead-guilty-to-aiding-tech-support-scammers",
       "source": "BleepingComputer"
     }
   ]

@@ -46,7 +46,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -223,7 +225,9 @@
       "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
       "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/"
+      "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -294,7 +298,9 @@
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
       "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
       "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
-      "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html"
+      "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -664,11 +670,10 @@
       "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
       "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
       "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-      "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-      "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-      "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html"
+      "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+      "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+      "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+      "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1084,11 +1089,10 @@
       "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
       "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
       "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-      "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-      "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-      "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/"
+      "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+      "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+      "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+      "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/"
     ]
   }
 }
