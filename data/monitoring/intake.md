@@ -7252,3 +7252,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software May 23, 2026 Artificial Intelligence / Vulnerability Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most "systemically" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is an effort led by the artificial intelligence (AI) company, as part of which a small set of about 50 partners have obtained access to Claude Mythos Preview, a frontier model with capabilities to find vulnerabilities in widely-used software. Of these vulnerabilities, 6,202 have been classified as high- or critical-severity flaws impacting more than 1,000 open-source projects. Subsequent analysis of these vulnerability candidates has identified that 1,726 are valid true positives. As many as 1,094 flaws are assessed to be either high- or critical-severity. One of the identified weaknesses is a critical flaw in WolfSSL ( CVE-2026-5194 , CVSS score: 9.1) that could allow an attacker to forge ...
+- **Source URL:** https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer May 23, 2026 Supply Chain Attack / Malware Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions "The timing and pattern of the newly published tags point to a broader compromise of the Laravel Lang organization's release process, rather than a single malicious package version," Socket said . "The tags were published in rapid succession on May 22 and May 23, 2026, with many versions appearing only seconds apart." More than 700 versions associated with these packages have been identified, indicating automated mass tagging or republishing. It's suspected that the attacker may have managed to obtain access to organization-level credentials, repository automation, or release infrastructure. The core malicious...
+- **Source URL:** https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root May 23, 2026 Vulnerability / Web Security A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. "Any cPanel user (including an attacker or a compromised account) may exploit the lsws.redisAble function to execute arbitrary scripts as root," LiteSpeed said . The vulnerability impacts all versions of the plugin between 2.3 and 2.4.4. LiteSpeed's WHM plugin is not impacted. The issue has been addressed in version 2.4.5. Security researcher David Strydom has been credited with discovering and reporting the flaw. LiteSpeed noted that the "vulnerability is being actively exploited," but refrained from sharing additional details. It has provided the following indicator of compromise - grep -rE "cpanel_jsonapi_func=redisAble...
+- **Source URL:** https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-23
+- **Headline / event:** Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV May 23, 2026 Vulnerability / Website Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation. The vulnerability in question is CVE-2026-9082 (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core. "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API," CISA said. News of exploitation arrives less than two days after Drupal released fixes for the flaw. Patches are available for the following versions - Drupal 11.3.10 Drupal 11.2.12 Drupal 11.1.10 Drupal 10.6.9 Drupal 10.5.10 Drupal 10.4.10 Drupal 9.5 (Manual patching required) Drupal 8.9 (Manual patching required) In an update to its advisory on May 22, 2026, Drupal acknowl...
+- **Source URL:** https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
