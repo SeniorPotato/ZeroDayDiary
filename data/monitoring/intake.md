@@ -7284,3 +7284,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-24
+- **Headline / event:** npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks May 23, 2026 Software Supply Chain / DevSecOps GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve a package before it is pushed to the npmjs[.]com. "Instead of a direct publish that immediately makes a package version available to consumers, the prebuilt tarball is uploaded to a stage queue where a maintainer must explicitly approve it before it becomes installable," GitHub said . The Microsoft-owned subsidiary said the change ensures "proof of presence" for every publish, including those that come from non-interactive CI/CD workflows and trusted publishing with OpenID Connect (OIDC) authentication. Before using staged publishing , package maintainers have to meet...
+- **Source URL:** https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-24
+- **Headline / event:** Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware May 23, 2026 Malware / DevSecOps A new "coordinated" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. "Although the affected packages were all Composer packages, the malicious code was not added to composer.json," Socket said . "Instead, it was inserted into package.json, targeting projects that ship JavaScript build tooling alongside PHP code." This "cross-ecosystem placement" makes the activity stand out because developers and security teams scanning PHP dependencies may only focus on Composer-related metadata, while skipping package.json lifecycle hooks that are bundled within the package. The malicious versions have since been removed from Packagist. An analysis of the packages has uncovered that their upstream repositories have been modified to include a postinstall script that attempts to download a Linux binary from a GitHub Releases URL ("github[...
+- **Source URL:** https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-24
+- **Headline / event:** Laravel Lang packages hijacked to deploy credential-stealing
+- **Source URL:** https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

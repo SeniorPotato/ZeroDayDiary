@@ -673,10 +673,10 @@
       "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
       "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
       "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-      "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html"
+      "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1093,7 +1093,9 @@
       "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
       "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
       "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/"
+      "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+      "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/"
     ]
   }
 }
