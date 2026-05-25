@@ -1,5 +1,15 @@
 {
-  "generatedAt": "2026-05-24T14:02:40.368Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-24T140240Z.md",
-  "candidates": []
+  "generatedAt": "2026-05-25T04:53:55.113Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-25T045355Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-05-25",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign",
+      "source": "BleepingComputer"
+    }
+  ]
 }
