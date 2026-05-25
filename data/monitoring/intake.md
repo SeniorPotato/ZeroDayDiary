@@ -7316,3 +7316,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
+- **Source URL:** https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** this May 2024 deep-dive
+- **Source URL:** https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** observed in September 2025
+- **Source URL:** https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** ⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos May 25, 2026 Cybersecurity / Hacking Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent the week checking old boxes and forgotten servers they should've patched years ago. Good times. Phishing crews are getting smarter too - less obvious scam junk, more targeted stuff that actually looks real. Meanwhile, botnets are grabbing anything exposed to the internet like it's free candy. The Internet's still a dumpster fire. Let’s get into it. ⚡ Threat of the Week GitHub Breached via Nx Console VS Code Extension —GitHub officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension. The attack is said to have allowed the threat actor, a cybercriminal group known as TeamPCP, to exfiltrate about 3,800 repositories. G...
+- **Source URL:** https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks May 25, 2026 Vulnerability / Web Security Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin XLab, the activity involves the exploitation of CVE-2026-26980 (CVSS score: 9.4), an SQL injection vulnerability in Ghost's Content API that could allow an unauthenticated attacker to read arbitrary data from the database. The security flaw was addressed in February 2026 in version 6.19.1. The vulnerability was discovered by Anthropic using Claude. What makes the vulnerability severe is that it allows an attacker to gain access to a site's admin API key without permission, granting them the ability to poison the site by injecting malicious code. The admin API key can be used to invoke the admin API and can directly modify articles published on the content management system. The threat actor leveraged the security flaw to "obtain the target site's Admin API Key without authorizati...
+- **Source URL:** https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** The Alert Firehose Finally Meets Its Match May 25, 2026 Agentic AI / Threat Detection Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear "Noisy," "Too much data." But ask the teams running NDR that includes agentic AI capabilities and you'll hear they're actually using it to catch threats earlier, triage faster, and chase fewer false positives. The old complaint lingers in part because reputations are sticky, and because NDR has evolved faster than the narrative. The origins of noise NDR deployments have always given analysts deep visibility into network traffic, encrypted session behavior, and protocol anomalies. But visibility often came as raw material, not finished intelligence. Some systems required extensive manual tuning during deployment to prevent SIEM overload. Organizations that couldn't invest that time (or didn't know how important it was) helped cement NDR's "alert firehose" or "noisy" reputation. NDR with agentic AI turns noise into narrative A...
+- **Source URL:** https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms May 25, 2026 Endpoint Security / Threat Intelligence Cybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financial and cryptocurrency organizations. RemotePE, per NCC Group subsidiary Fox-IT, is part of a multi-stage attack chain that involves two loaders tracked as DPAPILoader and RemotePELoader. "DPAPILoader decrypts and loads RemotePELoader from disk using the Windows Data Protection API ( DPAPI )," security researchers Yun Zheng Hu and Mick Koomen said . "RemotePELoader beacons to a C2 server and waits until it receives the next stage: RemotePE, a RAT executed entirely in memory and never written to disk, leaving no filesystem artifacts." RemotePE was first highlighted by the security vendor in September 2025 in connection with an attack targeting an unnamed organization in the decentralized finance (DeFi) sector, leading to the deployment of three malware families, including PondRAT, Th...
+- **Source URL:** https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO May 25, 2026 Supply Chain Attack / Malware A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed TrapDoor , spans more than 34 malicious packages across over 384 versions. The earliest activity was recorded on May 22, 2026, at 8:20 p.m. UTC, with new packages published to the ecosystems in waves from a cluster of accounts in quick succession. "TrapDoor targets developers in crypto, DeFi, Solana, and AI communities," Socket said. "The malicious packages are designed to steal developer secrets, crypto wallets, SSH keys, cloud credentials, browser data, and environment variables." "Several npm packages also deploy a shared payload, trap-core.js, that scans for credentials, validates AWS and GitHub tokens, attempts SSH-based lateral movement, and plants persistence through .cursorrules, CLAUDE.md, Git hooks, shell hooks, systemd, cron, and SSH." It's worth noting tha...
+- **Source URL:** https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-25
+- **Headline / event:** FBI warns of Kali365 phishing service targeting Microsoft 365 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
