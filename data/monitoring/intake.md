@@ -7388,3 +7388,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** Identifying People Using Wi-Fi Routers
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries May 26, 2026 Cyber Espionage / Threat Intelligence The Iranian hacking group known as MuddyWater has been linked to a new campaign affecting at least nine organizations across nine countries on four continents in the first quarter of 2026. The activity targeted industrial and electronics manufacturing, education and public-sector bodies, financial services, and professional services, per the Threat Hunter Team from Symantec and Carbon Black. Among the victims is a major South Korean electronics manufacturer, with the attackers spending a week inside its network in February 2026. Also singled as part of the sprawling espionage effort were an international airport in the Middle East, Southeast Asian industrial manufacturers, and a Latin American financial-services provider. "The attackers relied heavily on DLL side-loading using legitimately signed Fortemedia (fmapp.exe) and SentinelOne (sentinelmemoryscanner.exe) binaries to execute malicious DLLs while masquerading as benign software," Broadcom's cybersecurity t...
+- **Source URL:** https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** [THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back May 26, 2026 Web Security / Artificial Intelligence Every single day, hackers are finding new ways to crash websites and steal data. But right now, something has changed. Hackers are no longer working alone. They are now using powerful Artificial Intelligence (AI) tools to make their attacks faster, stronger, and much harder to stop. According to recent updates from The Hacker News , bad actors are using AI to find weak spots in systems and launch massive "DDoS attacks" that can take your business offline in seconds. If your website goes down, you lose money, you lose customer trust, and you spend days trying to fix the mess. 👉 Save Your Free Webinar Seat The Old Way of Protection Doesn't Work Anymore In the past, you could set up a simple firewall, update your software, and feel safe. Not anymore. AI-assisted attacks can think and adapt. They don't just hit your front door; they look for hidden entry points, smart APIs, and tiny mistakes in your cloud setup. They do in minutes what used to take human h...
+- **Source URL:** https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions May 26, 2026 Vulnerability / Enterprise Security Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659 , carries a CVSS score of 8.8. It has been assigned an important severity. "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network," Microsoft said in an advisory released last week. Microsoft noted that the vulnerability could be triggered by any authenticated attacker, and that it does not require administrator or other elevated privileges. "In a network-based attack, an authenticated attacker, who has a minimum of Site Member permissions (PR:L), could execute code remotely on the SharePoint Server," the Windows maker added. Microsoft credited a researcher named MEOW for discovering and reporting the flaw. Updates have been released for th...
+- **Source URL:** https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** MFA Prompt Bombing: Why Your Second Factor Isn't Saving You May 26, 2026 Password Security / Social Engineering Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with push-based MFA, this attack is a live threat to your organization today. Tools like Specops Secure Access are built specifically to close that gap, but before getting into the fix, it's worth understanding how this technique works. How MFA prompt bombing works The attack requires three key elements to work: Valid account credentials, usually sourced from breached password dumps on the dark web A login portal that uses push-based MFA (such as a VPN, Microsoft 365, Okta, or Duo) A victim who is alerted every time the attacker tries the login Attackers repeatedly tri...
+- **Source URL:** https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks May 26, 2026 Artificial Intelligence / Cloud Security, The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in internet-exposed systems within 12 hours of being flagged where "feasible" to safeguard against potential threats stemming from threat actors' abuse of artificial intelligence (AI) tools and large language models (LLMs) to automate vulnerability discovery and exploitation, and enhance the scale and velocity of cyber attacks. "AI-assisted cyber exploitation reduces the time required for adversaries to identify, weaponize, and exploit vulnerabilities, exposed services, weak identities, insecure APIs, and misconfigured systems," CERT-In said in a 38-page blueprint published Monday. "As organizations become increasingly dependent on interconnected digital infrastructure, cloud ecosystems, software supply chains, operational technologies, and AI-enabled platforms, the potential impact of AI-enabled cyber thr...
+- **Source URL:** https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** How Varonis Atlas integrates Claude Compliance API for AI governance
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** Webinar: Too many tools are slowing network incident response
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** CISA orders feds to patch actively exploited Drupal
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-26
+- **Headline / event:** 7-Eleven data breach exposes personal information of 185,000 people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

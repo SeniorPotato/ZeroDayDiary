@@ -300,7 +300,9 @@
       "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
       "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
       "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
-      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html"
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
+      "https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html",
+      "https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -682,7 +684,19 @@
       "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
       "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
       "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
-      "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html"
+      "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
+      "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
+      "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+      "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1102,7 +1116,15 @@
       "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
       "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
       "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/"
+      "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
+      "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+      "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
+      "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
+      "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+      "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
+      "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/"
     ]
   }
 }
