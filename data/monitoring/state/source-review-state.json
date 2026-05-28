@@ -49,7 +49,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -104,7 +103,9 @@
       "https://www.enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets",
       "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
       "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
-      "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge"
+      "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
+      "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
+      "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -701,7 +702,17 @@
       "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
       "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
       "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html"
+      "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+      "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+      "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1134,7 +1145,17 @@
       "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
       "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
       "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
-      "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/"
+      "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
+      "https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/",
+      "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
+      "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
+      "https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/",
+      "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
+      "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/"
     ]
   }
 }
