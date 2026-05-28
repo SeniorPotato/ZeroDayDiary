@@ -48,7 +48,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -303,7 +305,6 @@
       "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
       "https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html",
-      "https://www.schneier.com/blog/archives/2026/05/fbis-2025-internet-crime-report.html",
       "https://www.schneier.com/blog/archives/2026/05/fbis-2025-internet-crime-report.html"
     ],
     "the-hacker-news": [
@@ -694,11 +695,6 @@
       "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
       "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
       "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-      "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
-      "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-      "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
       "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
       "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
       "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
@@ -1137,11 +1133,8 @@
       "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
       "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
-      "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
-      "https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/",
-      "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
-      "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/"
+      "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
+      "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/"
     ]
   }
 }
