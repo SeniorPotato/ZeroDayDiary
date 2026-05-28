@@ -7596,3 +7596,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** NIS360: The bigger picture on maturity and criticality of NIS critical sectors
+- **Source URL:** https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer May 28, 2026 Vulnerability / Endpoint Security Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. "The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints," Arctic Wolf said . "Threat actors disguised the credential stealer payload as a Fortinet endpoint update, silently executing the malicious executable through PowerShell." The activity, observed by the cybersecurity company in May 2026, involves the exploitation of CVE-2026-35616 (CVSS score: 9.1), a critical pre-authentication API access bypass leading to privilege escalation. The issue was addressed by Fortinet in FortiClient EMS 7.4.7 and later. A successful compromise is followed by the threat actor taking steps to modify configurations to defer firmware upgrade reminders, as well as modifying a Remote Access Profile configuration and endpoint policy to insert a mal...
+- **Source URL:** https://thehackernews.com/2026/05/threat-actors-exploit-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal May 28, 2026 Zero Day / Vulnerability Disclosure Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day vulnerabilities affecting multiple Windows components, including Defender and BitLocker, over the past month, citing a breakdown in Microsoft's handling of the vulnerability disclosure process. "In recent weeks, several zero-day vulnerabilities have been publicly disclosed," the tech giant said . "The details of these vulnerabilities were not shared with Microsoft prior to release, and the disclosures put our customers at unnecessary risk." "In response to the unnecessary risk created by these disclosures, our security teams have been working around the clock to...
+- **Source URL:** https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More May 28, 2026 Hacking News / Cybersecurity News Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, and enough exposed infrastructure to make you wonder if prod is just a public beta now - meanwhile some researcher casually drops a technique that turns a "minor" foothold into total account compromise because apparently six digits and blind trust were all that stood between your vault and getting absolutely pwned. Cool. Great. Love that for us. Then there's the supply chain mess... signed binaries, poisoned updates, legit tooling getting hijacked like it's still 2017, plus a few reports this week that feel less like advanced tradecraft and more like watching skiddies discover low-hanging fruit with enterprise branding slapped on top. The weird part isn't that it works. The weird part is how damn easy it still is. Anyway. Grab caffeine. Let's get into it. ...
+- **Source URL:** https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI "Power users" May 28, 2026 Artificial Intelligence / Enterprise Security State of AI Usage Report 2026 ( full report here ) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where their AI exposure is actually coming from. The research shows that enterprise AI risk is not distributed evenly across users or platforms. Instead, it is heavily concentrated among a small group of AI power users and a handful of dominant AI platforms that drive the majority of enterprise AI activity and sensitive data exposure. At the same time, AI usage is rapidly fragmenting across personal accounts, AI browser extensions, embedded copilots, AI connectors, and secondary AI tools operating outside traditional visibility and governance controls. The result is a fragmented AI ecosystem that most organizations still cannot fully see or govern. While AI Is Everywhere in the Enterprise, Most Employees Are Casual The common perception is that "everyone uses AI now". The report paints a much ...
+- **Source URL:** https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware May 28, 2026 Supply Chain Attack / Malware A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. "These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure," Wiz researchers Shira Ayal, Eden Abergil, Andre Maccarone, Yuval Dan, and Benjamin Read said . "The used methods enabled the threat actor to move laterally from compromised employee laptops to code distribution systems and development infrastructure." The Google-owned cloud security company is tracking the activity under the moniker JINX-0164 . The threat actor is assessed to be active since at least mid-2025 and motivated by financial gain, targeting developers through recruitment-themed and other social engineering techniques to siphon cryptocurrencies. In at least one case, the adversary is said t...
+- **Source URL:** https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** New Gogs zero-day flaw lets hackers get remote code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** How SIEM helps MSPs reduce noise and stop threats faster
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** Romanian gets 5 years in prison for hacking Oregon govt network
+- **Source URL:** https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** Webinar: Why network incidents take too long to resolve
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-28
+- **Headline / event:** Carnival Cruise confirms data breach affecting nearly 6 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
