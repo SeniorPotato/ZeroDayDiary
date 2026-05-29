@@ -7732,3 +7732,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit May 29, 2026 Vulnerability / Artificial Intelligence An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. "The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised host, replayed them through a fanned-out egress pool to retrieve an SSH private key from AWS Secrets Manager, and used that key to drive eight short SSH sessions against a downstream SSH bastion server," Sysdig said . "The bastion phase exfiltrated the schema and full contents of an internal PostgreSQL database in under two minutes." CVE-2026-39987 refers to a critical pre-authenticated remote code execution vulnerability impacting all versions of Marimo prior to and including 0.20.4. It allows an unauthenticated attacker to execute arbitrary system commands. The issue...
+- **Source URL:** https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks May 29, 2026 Cyber Espionage / Artificial Intelligence A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to intelligence gathering efforts aimed at Ukraine in the context of the ongoing Russo-Ukrainian war. "The group has leveraged multiple attack vectors, including spear-phishing e-mails, fake captcha pages, and fraudulent Ukrainian adult club websites, to deliver malware to a diverse set of victims," WithSecure researcher Mohammad Kazem Hassan Nejad said in an analysis. "Across these campaigns, the group has relied on custom-developed obfuscators, loaders, and malware." The victimology footprint spans military, government, civilian, and business-related organizations. GREYVIBE, its ...
+- **Source URL:** https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks May 29, 2026 Vibe Coding / Shadow AI Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop. The artifact moved from a prompt to a product. The risk surface moved with it. In The Shadow Builders report ( get it here ), a new category-level investigation covered in May by Axios, WIRED, and VentureBeat, Red Access identified more than 380,000 publicly accessible web assets across the leading vibe-coding platforms. Roughly 5,000 looked corporate. More than 2,000 of those held sensitive corporate, operational, or personal data - sitting on the open web, deployed without basic access controls, often granting admin access by default to anyone who reached the URL. Six continents. Every industry is examined. No exploitation required. Inside organizations, passing their audits while these exposures were live...
+- **Source URL:** https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets May 29, 2026 Software Supply Chain / Threat Intelligence Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates. According to Socket , versions 2.0.0 through 2.0.4 of " Sicoob.Sdk " contain functionality to exfiltrate sensitive information, including PFX certificates that are used to authenticate businesses with the Sicoob banking network in order to automate banking operations, such as processing instant payments and generating dynamic Pix QR codes. The package is estimated to have been downloaded nearly 500 times. "When a developer instantiates SicoobClient with a client ID, a PFX file path, and a PFX password, the package reads the PFX file from disk, Base64-encodes its contents, and sends the supplied client ID, PFX password, and encoded PFX data to a hardcoded third-party Sentry endpoint," security researcher Kirill Boychenko said. In ad...
+- **Source URL:** https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. "Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule," ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that...
+- **Source URL:** https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market
+- **Source URL:** https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Dutch govt disrupts malware botnet with 17 million infected devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Google Chrome adds session cookie theft protection for all users
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Man sent to prison for selling data of 7 millions elderly Americans
+- **Source URL:** https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** US charges Google security engineer with Polymarket insider trading
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
