@@ -7684,3 +7684,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Supply Chain Compromises Impact Nx Console and GitHub Repositories
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code May 28, 2026 Vulnerability / Open Source A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier. "The vulnerability allows any authenticated user to achieve remote code execution (RCE) on the server by creating a pull request with a malicious branch name that injects the --exec flag into git rebase during the 'Rebase before merging' merge operation," security researcher Jonah Burgess said . Rebasing is a Git action that's used to take a sequence of commits from one feature branch and replay them on top of another base branch to create a linear project history. While "git rebase" solves the same problem as "git merge" -- i.e., integrating changes from one branch into another -- the former rewrites the project history by creating new c...
+- **Source URL:** https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** GreyVibe hackers use ChatGPT, Gemini to power cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** BTMOB Android malware service generates custom phishing payloads
+- **Source URL:** https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** FBI warns of fake FIFA websites running World Cup fraud schemes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-29
+- **Headline / event:** Hackers exploit FortiClient EMS flaw to push infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
