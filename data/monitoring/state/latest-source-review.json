@@ -1,59 +1,95 @@
 {
-  "generatedAt": "2026-05-29T04:44:22.186Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-29T044422Z.md",
+  "generatedAt": "2026-05-29T16:09:29.274Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-29T160929Z.md",
   "candidates": [
     {
       "discovered": "2026-05-29",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
+      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit May 29, 2026 Vulnerability / Artificial Intelligence An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised host, replayed them through a fanned-out egress pool to retrieve an SSH private key from AWS Secrets Manager, and used that key to drive eight short SSH sessions against a downstream SSH bastion server,\" Sysdig said . \"The bastion phase exfiltrated the schema and full contents of an internal PostgreSQL database in under two minutes.\" CVE-2026-39987 refers to a critical pre-authenticated remote code execution vulnerability impacting all versions of Marimo prior to and including 0.20.4. It allows an unauthenticated attacker to execute arbitrary system commands. The issue...",
+      "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-05-29",
-      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code May 28, 2026 Vulnerability / Open Source A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier. \"The vulnerability allows any authenticated user to achieve remote code execution (RCE) on the server by creating a pull request with a malicious branch name that injects the --exec flag into git rebase during the 'Rebase before merging' merge operation,\" security researcher Jonah Burgess said . Rebasing is a Git action that's used to take a sequence of commits from one feature branch and replay them on top of another base branch to create a linear project history. While \"git rebase\" solves the same problem as \"git merge\" -- i.e., integrating changes from one branch into another -- the former rewrites the project history by creating new c...",
-      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "critical-gogs-rce-vulnerability-lets-any-authenticated-user-execute-arbitrary-code-may-28-",
+      "slug": "attackers-use-llm-agent-for-post-exploitation-after-marimo-cve-2026-39987-exploit-may-29-2",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-05-29",
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks May 29, 2026 Cyber Espionage / Artificial Intelligence A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to intelligence gathering efforts aimed at Ukraine in the context of the ongoing Russo-Ukrainian war. \"The group has leveraged multiple attack vectors, including spear-phishing e-mails, fake captcha pages, and fraudulent Ukrainian adult club websites, to deliver malware to a diverse set of victims,\" WithSecure researcher Mohammad Kazem Hassan Nejad said in an analysis. \"Across these campaigns, the group has relied on custom-developed obfuscators, loaders, and malware.\" The victimology footprint spans military, government, civilian, and business-related organizations. GREYVIBE, its ...",
+      "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks",
+      "slug": "new-russian-linked-greyvibe-targets-ukraine-with-ai-powered-cyberattacks-may-29-2026-cyber",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-29",
+      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks May 29, 2026 Vibe Coding / Shadow AI Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop. The artifact moved from a prompt to a product. The risk surface moved with it. In The Shadow Builders report ( get it here ), a new category-level investigation covered in May by Axios, WIRED, and VentureBeat, Red Access identified more than 380,000 publicly accessible web assets across the leading vibe-coding platforms. Roughly 5,000 looked corporate. More than 2,000 of those held sensitive corporate, operational, or personal data - sitting on the open web, deployed without basic access controls, often granting admin access by default to anyone who reached the URL. Six continents. Every industry is examined. No exploitation required. Inside organizations, passing their audits while these exposures were live...",
+      "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "what-2-000-exposed-vibe-coded-apps-reveal-about-the-limits-of-most-security-stacks-may-29-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-29",
+      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets May 29, 2026 Software Supply Chain / Threat Intelligence Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates. According to Socket , versions 2.0.0 through 2.0.4 of \" Sicoob.Sdk \" contain functionality to exfiltrate sensitive information, including PFX certificates that are used to authenticate businesses with the Sicoob banking network in order to automate banking operations, such as processing instant payments and generating dynamic Pix QR codes. The package is estimated to have been downloaded nearly 500 times. \"When a developer instantiates SicoobClient with a client ID, a PFX file path, and a PFX password, the package reads the PFX file from disk, Base64-encodes its contents, and sends the supplied client ID, PFX password, and encoded PFX data to a hardcoded third-party Sentry endpoint,\" security researcher Kirill Boychenko said. In ad...",
+      "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "malicious-sicoob-nuget-steals-banking-credentials-as-npm-packages-target-cloud-secrets-may",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-29",
+      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that...",
+      "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "kimsuky-deploys-httpspy-expands-arsenal-with-hellodoor-and-vs-code-tunnels-may-29-2026-thr",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-05-29",
+      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
+      "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-29",
-      "title": "BTMOB Android malware service generates custom phishing payloads",
-      "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "btmob-android-malware-service-generates-custom-phishing-payloads",
+      "slug": "dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-29",
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+      "title": "Google Chrome adds session cookie theft protection for all users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes",
+      "slug": "google-chrome-adds-session-cookie-theft-protection-for-all-users",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-05-29",
-      "title": "Hackers exploit FortiClient EMS flaw to push infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+      "title": "Man sent to prison for selling data of 7 millions elderly Americans",
+      "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploit-forticlient-ems-flaw-to-push-infostealer",
+      "slug": "man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-05-29",
+      "title": "US charges Google security engineer with Polymarket insider trading",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "us-charges-google-security-engineer-with-polymarket-insider-trading",
       "source": "BleepingComputer"
     }
   ]
