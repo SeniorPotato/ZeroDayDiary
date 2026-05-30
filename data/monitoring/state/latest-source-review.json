@@ -1,51 +1,15 @@
 {
-  "generatedAt": "2026-05-30T04:18:57.578Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-30T041857Z.md",
+  "generatedAt": "2026-05-30T14:06:30.433Z",
+  "packetPath": "data/monitoring/review-packets/2026-05-30T140630Z.md",
   "candidates": [
     {
       "discovered": "2026-05-30",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation May 30, 2026 Vulnerability / Network Security Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. \"Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allow the attacker to bypass security restrictions and establish an unauthorized VPN connection,\" Palo Alto Networks said in an advisory released on May 13, 2026. The issue specifically affects firewalls with GlobalProtect portal or gateway configured when authentication override cookies are enabled and a specific certificate configuration exists, the network security company said. In an update to its advisory on May 29, 2026, Palo Alto Networks said it has \"become aware of limited exploit attempts on unpatched P...",
+      "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-05-30",
-      "title": "Friday Squid Blogging: Another Squid",
-      "link": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-another-squid.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "friday-squid-blogging-another-squid",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-05-30",
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface May 29, 2026 Artificial Intelligence / Vulnerability Research Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown image URLs that originated from a third-party page the assistant has just summarized. It auto-fetches those images and surfaces those links as live, clickable elements inside the trusted assistant UI,\" security researcher Andi Ahmeti said in a report shared with The Hacker News. In a hypothetical attack scenario, a bad actor can append a small payload to any web page that the victim later prompts ChatGPT to summarize, causing it to leak their IP, User-Agent, and Referer details when attacker-hosted images embedded in the page are automatically fetched when the answer is rendered...",
-      "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "chatgphish-vulnerability-turns-chatgpt-web-summaries-into-a-phishing-surface-may-29-2026-a",
+      "slug": "pan-os-globalprotect-authentication-bypass-cve-2026-0257-under-active-exploitation-may-30-",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-30",
-      "title": "California AG sues 23andMe over 2023 breach exposing health data",
-      "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "california-ag-sues-23andme-over-2023-breach-exposing-health-data",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-05-30",
-      "title": "ChatGPT share links abused to host fake outage pages to deliver",
-      "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver",
-      "source": "BleepingComputer"
     }
   ]
 }

@@ -7852,3 +7852,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation May 30, 2026 Vulnerability / Network Security Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. "Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allow the attacker to bypass security restrictions and establish an unauthorized VPN connection," Palo Alto Networks said in an advisory released on May 13, 2026. The issue specifically affects firewalls with GlobalProtect portal or gateway configured when authentication override cookies are enabled and a specific certificate configuration exists, the network security company said. In an update to its advisory on May 29, 2026, Palo Alto Networks said it has "become aware of limited exploit attempts on unpatched P...
+- **Source URL:** https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
