@@ -7812,3 +7812,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** Friday Squid Blogging: Another Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-another-squid.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface May 29, 2026 Artificial Intelligence / Vulnerability Research Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. "The chatgpt.com response renderer trusts Markdown links and Markdown image URLs that originated from a third-party page the assistant has just summarized. It auto-fetches those images and surfaces those links as live, clickable elements inside the trusted assistant UI," security researcher Andi Ahmeti said in a report shared with The Hacker News. In a hypothetical attack scenario, a bad actor can append a small payload to any web page that the victim later prompts ChatGPT to summarize, causing it to leak their IP, User-Agent, and Referer details when attacker-hosted images embedded in the page are automatically fetched when the answer is rendered...
+- **Source URL:** https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** California AG sues 23andMe over 2023 breach exposing health data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-30
+- **Headline / event:** ChatGPT share links abused to host fake outage pages to deliver
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
