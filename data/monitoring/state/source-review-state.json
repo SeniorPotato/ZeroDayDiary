@@ -717,7 +717,9 @@
       "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
       "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
       "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-      "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html"
+      "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
+      "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1170,8 +1172,8 @@
       "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
       "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-      "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/"
+      "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+      "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/"
     ]
   }
 }
