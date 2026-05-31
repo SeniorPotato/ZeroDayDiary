@@ -7876,3 +7876,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-31
+- **Headline / event:** Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices May 31, 2026 IoT Security / Network Security Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bot network, per the Dutch Politie and the National Cyber Security Center (NCSC), consisted of at least 17 million infected devices. More than 200 servers located in the Netherlands acted as the platform's backend infrastructure. According to a statement issued by the NCSC, police officials seized a subset of these servers from a hosting provider that provided the infrastructure. The provider is said to have subsequently taken the botnet offline following its use for criminal purposes. Although the name of the botnet was not explicitly mentioned, local news outlet NL Times reported that the service in question was Asocks, a company that offers residential proxies . In April 2024, HUMAN's Satori Threat Intelligence team identified a campaign dubbed PROXYLIB that involved inf...
+- **Source URL:** https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-05-31
+- **Headline / event:** WP Maps Pro bug exploited to create admin accounts on WordPress sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
