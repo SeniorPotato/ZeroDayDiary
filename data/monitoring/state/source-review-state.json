@@ -51,7 +51,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -233,7 +235,9 @@
       "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
       "https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/",
-      "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/"
+      "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/",
+      "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -308,7 +312,9 @@
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
       "https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html",
       "https://www.schneier.com/blog/archives/2026/05/fbis-2025-internet-crime-report.html",
-      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-another-squid.html"
+      "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-another-squid.html",
+      "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html",
+      "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -718,7 +724,18 @@
       "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
       "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
       "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html"
+      "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
+      "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+      "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+      "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+      "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+      "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1171,7 +1188,15 @@
       "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
       "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-      "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/"
+      "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+      "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
+      "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/"
     ]
   }
 }
