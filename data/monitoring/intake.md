@@ -7892,3 +7892,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts
+- **Source URL:** https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Vulnerability Disclosure in the Age of AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm Jun 01, 2026 Supply Chain Attack / Software Security A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma , has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. "This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and potential downstream propagation," Socket said . Exactly who is behind the attack activity is presently unknown given that TeamPCP, an infamous cybercrime group, has open-sourced the attack tools linked to the Shai-Hulud worm, opening the door for other threat actors to pull off similar attacks and making definitive attribution harder. The names of some of the affected packages are listed below - @redhat-cloud-services/vulnerabilities-client @redhat-cloud-services/tsc-transform-imports @redhat-cloud-services/topological-inventory-client @redhat-cloud-services/sources-client...
+- **Source URL:** https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More Jun 01, 2026 Cybersecurity / Hacking Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits pretending to be productivity, and AI lowering the bar for people who already thought 'curl | sh' had a personality. The vibe is simple: old bugs, new wrappers, faster abuse. Patch the obvious crap first. Then read the rest. ⚡ Threat of the Week PAN-OS GlobalProtect Authentication Bypass Under Exploitation - Palo Alto Networks warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. The issue specifically affects firewalls with GlobalProtect portal or gate...
+- **Source URL:** https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan Jun 01, 2026 Endpoint Security / Threat Intelligence A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. According to Seqrite Labs, targets of the campaign include government, research, academic, technology, and financial services sectors. The activity entails distributing spear-phishing emails containing ZIP attachments to trigger an infection chain that uses a Rust loader to drop the final payload for data exfiltration and remote control. "When extracted, the archive contains multiple files that appear legitimate but are actually part of a structured infection chain designed to execute malicious payloads in the background," security researcher Priya Patel said . The attack chain uses two different pathways to launch the final-stage malware. One infection sequence begins when the recipient of the ZIP archive opens a malicious Windows Shortcut (LNK) file that masquerades as a PDF document. This...
+- **Source URL:** https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools Jun 01, 2026 Security Automation / SMB Security Three years ago, the practical question for an MSP building a cybersecurity practice was which "vCISO platform" to buy. The term was good shorthand for the work at the time: assessments, advisory, reporting, maybe a compliance module bolted on the side. The work has since outgrown the descriptor. A Security Growth Platform is the more precise name for what MSPs and MSSPs need from the software running their security practice in 2026. It combines security program management, CISO-grade decision intelligence, multi-tenant portfolio architecture, and revenue intelligence in one system. Traditional GRC platforms track compliance, vCISO tools support single advisory engagements, and enterprise compliance platforms target end customers directly. None were built around the unit of work that defines a modern MSP security practice: the portfolio. Why The Work Outgrew The Term The demand kept outgrowing the category that named it. SMB cybersecurity spending is projected to reac...
+- **Source URL:** https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack Jun 01, 2026 API Security / Cloud Security Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named codexui-android , is advertised on GitHub and npm as a remote web UI for OpenAI Codex, attracting over 29,000 weekly downloads. The package is still available for download from the repository. What makes this activity noteworthy is that it's not a traditional attack that uses a typosquat or throwaway package to trick developers. Rather, the malicious code is embedded into a functional npm package that has undergone active development. The associated GitHub repository remains clean. "And for the past month, every single invocation has been quietly exfiltrating your Codex authentication tokens to an attacker-controlled server," Aikido Security researcher Charlie Eriksen said . The nefarious changes are said to have been introduced about a month after the package was ...
+- **Source URL:** https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** WordPress malware campaign hides payloads in Steam profiles
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Race Against Time: Why Faster Vulnerability Alerts Matter
+- **Source URL:** https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Dashlane password manager users locked out by brute force attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-01
+- **Headline / event:** Webinar tomorrow: From alert to resolution in network incident response
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
