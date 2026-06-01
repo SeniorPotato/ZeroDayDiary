@@ -1,24 +1,5 @@
 {
-  "generatedAt": "2026-05-31T14:12:29.408Z",
-  "packetPath": "data/monitoring/review-packets/2026-05-31T141229Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-05-31",
-      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices May 31, 2026 IoT Security / Network Security Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bot network, per the Dutch Politie and the National Cyber Security Center (NCSC), consisted of at least 17 million infected devices. More than 200 servers located in the Netherlands acted as the platform's backend infrastructure. According to a statement issued by the NCSC, police officials seized a subset of these servers from a hosting provider that provided the infrastructure. The provider is said to have subsequently taken the botnet offline following its use for criminal purposes. Although the name of the botnet was not explicitly mentioned, local news outlet NL Times reported that the service in question was Asocks, a company that offers residential proxies . In April 2024, HUMAN's Satori Threat Intelligence team identified a campaign dubbed PROXYLIB that involved inf...",
-      "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "dutch-authorities-dismantle-botnet-linked-to-17-million-infected-devices-may-31-2026-iot-s",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-05-31",
-      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-06-01T05:17:27.115Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-01T051727Z.md",
+  "candidates": []
 }
