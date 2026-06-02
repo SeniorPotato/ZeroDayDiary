@@ -1,113 +1,41 @@
 {
-  "generatedAt": "2026-06-01T18:17:09.347Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-01T181709Z.md",
+  "generatedAt": "2026-06-02T05:01:30.116Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-02T050130Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-01",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "discovered": "2026-06-02",
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Jun 02, 2026 Identity Security / Data Protection Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an \"external\" threat actor launched a brute-force attack against certain Dashlane user accounts with the aim of breaking two-factor authentication (2FA) protections and allowing them to register new devices on existing user accounts. Exactly how many users were targeted remains unknown, but Dashlane said the high volume of attempts on those accounts triggered temporary account suspensions and authentication issues due to its built-in security controls. Although access to the accounts has since been restored, the company has now revealed that the attackers were successful in a handful of cases, enabling them to download a copy of the encrypted vaults belonging to less than 20 personal plan users. \"We have directly notif...",
+      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-used-meta-s-ai-support-bot-to-seize-instagram-accounts",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "Vulnerability Disclosure in the Age of AI",
-      "link": "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "vulnerability-disclosure-in-the-age-of-ai",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm Jun 01, 2026 Supply Chain Attack / Software Security A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma , has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. \"This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and potential downstream propagation,\" Socket said . Exactly who is behind the attack activity is presently unknown given that TeamPCP, an infamous cybercrime group, has open-sourced the attack tools linked to the Shai-Hulud worm, opening the door for other threat actors to pull off similar attacks and making definitive attribution harder. The names of some of the affected packages are listed below - @redhat-cloud-services/vulnerabilities-client @redhat-cloud-services/tsc-transform-imports @redhat-cloud-services/topological-inventory-client @redhat-cloud-services/sources-client...",
-      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "miasma-supply-chain-attack-compromises-red-hat-npm-packages-with-credential-stealing-worm-",
+      "slug": "dashlane-discloses-brute-force-attack-encrypted-vaults-of-fewer-than-20-users-downloaded-j",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-01",
-      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More Jun 01, 2026 Cybersecurity / Hacking Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits pretending to be productivity, and AI lowering the bar for people who already thought 'curl | sh' had a personality. The vibe is simple: old bugs, new wrappers, faster abuse. Patch the obvious crap first. Then read the rest. ⚡ Threat of the Week PAN-OS GlobalProtect Authentication Bypass Under Exploitation - Palo Alto Networks warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. The issue specifically affects firewalls with GlobalProtect portal or gate...",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "discovered": "2026-06-02",
+      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-new-linux-flaw-pan-os-exploit-ai-powered-attacks-oauth-phishing-and-more-jun-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan Jun 01, 2026 Endpoint Security / Threat Intelligence A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. According to Seqrite Labs, targets of the campaign include government, research, academic, technology, and financial services sectors. The activity entails distributing spear-phishing emails containing ZIP attachments to trigger an infection chain that uses a Rust loader to drop the final payload for data exfiltration and remote control. \"When extracted, the archive contains multiple files that appear legitimate but are actually part of a structured infection chain designed to execute malicious payloads in the background,\" security researcher Priya Patel said . The attack chain uses two different pathways to launch the final-stage malware. One infection sequence begins when the recipient of the ZIP archive opens a malicious Windows Shortcut (LNK) file that masquerades as a PDF document. This...",
-      "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "china-aligned-groups-ramp-up-attacks-dragon-weave-hits-czech-republic-taiwan-jun-01-2026-e",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools Jun 01, 2026 Security Automation / SMB Security Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, reporting, maybe a compliance module bolted on the side. The work has since outgrown the descriptor. A Security Growth Platform is the more precise name for what MSPs and MSSPs need from the software running their security practice in 2026. It combines security program management, CISO-grade decision intelligence, multi-tenant portfolio architecture, and revenue intelligence in one system. Traditional GRC platforms track compliance, vCISO tools support single advisory engagements, and enterprise compliance platforms target end customers directly. None were built around the unit of work that defines a modern MSP security practice: the portfolio. Why The Work Outgrew The Term The demand kept outgrowing the category that named it. SMB cybersecurity spending is projected to reac...",
-      "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-security-growth-platform-why-msps-are-moving-beyond-vciso-tools-jun-01-2026-security-a",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack Jun 01, 2026 API Security / Cloud Security Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named codexui-android , is advertised on GitHub and npm as a remote web UI for OpenAI Codex, attracting over 29,000 weekly downloads. The package is still available for download from the repository. What makes this activity noteworthy is that it's not a traditional attack that uses a typosquat or throwaway package to trick developers. Rather, the malicious code is embedded into a functional npm package that has undergone active development. The associated GitHub repository remains clean. \"And for the past month, every single invocation has been quietly exfiltrating your Codex authentication tokens to an attacker-controlled server,\" Aikido Security researcher Charlie Eriksen said . The nefarious changes are said to have been introduced about a month after the package was ...",
-      "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "openai-codex-authentication-tokens-stolen-in-codexui-android-npm-supply-chain-attack-jun-0",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "WordPress malware campaign hides payloads in Steam profiles",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "wordpress-malware-campaign-hides-payloads-in-steam-profiles",
+      "slug": "hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-01",
-      "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
-      "link": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "discovered": "2026-06-02",
+      "title": "Red Hat npm packages compromised to steal developer credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "race-against-time-why-faster-vulnerability-alerts-matter",
+      "slug": "red-hat-npm-packages-compromised-to-steal-developer-credentials",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-01",
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "discovered": "2026-06-02",
+      "title": "Spain arrests doxer leaking sensitive data of govt employees",
+      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "dashlane-password-manager-users-locked-out-by-brute-force-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-01",
-      "title": "Webinar tomorrow: From alert to resolution in network incident response",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "webinar-tomorrow-from-alert-to-resolution-in-network-incident-response",
+      "slug": "spain-arrests-doxer-leaking-sensitive-data-of-govt-employees",
       "source": "BleepingComputer"
     }
   ]
