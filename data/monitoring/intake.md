@@ -8020,3 +8020,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** FTC Requires Divestiture of Ambulatory Surgery Centers to Protect Patients from Anticompetitive Effects of Ascension Health-AmSurg Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-divestiture-ambulatory-surgery-centers-protect-patients-anticompetitive-effects
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** FTC, Nevada Will Require Tax-Relief Scammers to Pay Cash and Turn Over Assets Worth Nearly $10 Million to Settle Charges They Misled Consumers about Tax-Relief Services
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-nevada-will-require-tax-relief-scammers-pay-cash-turn-over-assets-worth-nearly-10-million-settle
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** The Intersection of Encryption and AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Microsoft Threatening Security Researcher
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It. Jun 02, 2026 Vulnerability Management / Enterprise Security AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's main answer has largely been: patch faster. Regulators say it, boards expect it, and executives demand it. But for most enterprises, it is not a button defenders can press. Patching is a controlled process shaped by uptime requirements, stability testing, change windows, business approvals, compliance obligations, and the reality that production systems cannot be broken in the name of urgency. While patching is still essential, patching alone or even faster patching is no longer a complete answer to this "new normal" and influx of disclosed vulnerabilities. Anthropic's Proj...
+- **Source URL:** https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** How Leading Organizations Are Turning EDR Into Operational Resilience Jun 02, 2026 Security Operations / Cyber Resilience Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern attacks move faster, evade traditional prevention controls, and require continuous visibility into suspicious activity across the environment. But owning EDR capabilities does not automatically create operational cyber resilience. Many mid-sized organizations have invested in advanced endpoint security platforms and now have access to valuable detection and response functionality. Yet despite this investment, they often struggle to fully operationalize these capabilities. Lean security teams remain overwhelmed by alert volumes, investigations take too long, and response capacity is stretched thin. As threats become faster, more AI-enabled, and increasingly abuse legitimate tools to evade detection, organizations are realizing an important truth: vis...
+- **Source URL:** https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT Jun 02, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-source remote access trojan called Xeno RAT . "The campaign opens with a spear phishing delivery - a ZIP archive containing a malicious LNK file bearing a carefully crafted Pashto-language filename," Seqrite Labs researcher Dixit Panchal said in a technical breakdown of the activity. Also targeted as part of the campaign are provincial revenue and finance directorates, Pashto-speaking government officials, and provincial-level government employees. The campaign has been codenamed Operation XENOFISCAL. The choice of Pashto for the lure file is a deliberate choice on the part of the attacker, as it's the main language spoken in the Afghan government circles. This aspect reflects the attacker's familiarity with the target environment. SideCopy is the name given to a P...
+- **Source URL:** https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Instagram users locked out after Meta AI abused to steal accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Why the browser is now the front line for AI security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** CISA flags two-year-old Oracle flaw as actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Google fixes one actively exploited Android zero-day, 124 flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

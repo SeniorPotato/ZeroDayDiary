@@ -1,41 +1,104 @@
 {
-  "generatedAt": "2026-06-02T05:01:30.116Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-02T050130Z.md",
+  "generatedAt": "2026-06-02T16:56:09.618Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-02T165609Z.md",
   "candidates": [
     {
       "discovered": "2026-06-02",
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Jun 02, 2026 Identity Security / Data Protection Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an \"external\" threat actor launched a brute-force attack against certain Dashlane user accounts with the aim of breaking two-factor authentication (2FA) protections and allowing them to register new devices on existing user accounts. Exactly how many users were targeted remains unknown, but Dashlane said the high volume of attempts on those accounts triggered temporary account suspensions and authentication issues due to its built-in security controls. Although access to the accounts has since been restored, the company has now revealed that the attackers were successful in a handful of cases, enabling them to download a copy of the encrypted vaults belonging to less than 20 personal plan users. \"We have directly notif...",
-      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "title": "FTC Requires Divestiture of Ambulatory Surgery Centers to Protect Patients from Anticompetitive Effects of Ascension Health-AmSurg Deal",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-divestiture-ambulatory-surgery-centers-protect-patients-anticompetitive-effects",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-requires-divestiture-of-ambulatory-surgery-centers-to-protect-patients-from-anticompet",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "FTC, Nevada Will Require Tax-Relief Scammers to Pay Cash and Turn Over Assets Worth Nearly $10 Million to Settle Charges They Misled Consumers about Tax-Relief Services",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-nevada-will-require-tax-relief-scammers-pay-cash-turn-over-assets-worth-nearly-10-million-settle",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-nevada-will-require-tax-relief-scammers-to-pay-cash-and-turn-over-assets-worth-nearly-",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "The Intersection of Encryption and AI",
+      "link": "https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "dashlane-discloses-brute-force-attack-encrypted-vaults-of-fewer-than-20-users-downloaded-j",
+      "slug": "the-intersection-of-encryption-and-ai",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "Microsoft Threatening Security Researcher",
+      "link": "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-threatening-security-researcher",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It. Jun 02, 2026 Vulnerability Management / Enterprise Security AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's main answer has largely been: patch faster. Regulators say it, boards expect it, and executives demand it. But for most enterprises, it is not a button defenders can press. Patching is a controlled process shaped by uptime requirements, stability testing, change windows, business approvals, compliance obligations, and the reality that production systems cannot be broken in the name of urgency. While patching is still essential, patching alone or even faster patching is no longer a complete answer to this \"new normal\" and influx of disclosed vulnerabilities. Anthropic's Proj...",
+      "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ai-driven-exploitation-is-destroying-vulnerability-management-here-s-how-to-handle-it-jun-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-02",
-      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+      "title": "How Leading Organizations Are Turning EDR Into Operational Resilience Jun 02, 2026 Security Operations / Cyber Resilience Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern attacks move faster, evade traditional prevention controls, and require continuous visibility into suspicious activity across the environment. But owning EDR capabilities does not automatically create operational cyber resilience. Many mid-sized organizations have invested in advanced endpoint security platforms and now have access to valuable detection and response functionality. Yet despite this investment, they often struggle to fully operationalize these capabilities. Lean security teams remain overwhelmed by alert volumes, investigations take too long, and response capacity is stretched thin. As threats become faster, more AI-enabled, and increasingly abuse legitimate tools to evade detection, organizations are realizing an important truth: vis...",
+      "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks",
+      "slug": "how-leading-organizations-are-turning-edr-into-operational-resilience-jun-02-2026-security",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT Jun 02, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-source remote access trojan called Xeno RAT . \"The campaign opens with a spear phishing delivery - a ZIP archive containing a malicious LNK file bearing a carefully crafted Pashto-language filename,\" Seqrite Labs researcher Dixit Panchal said in a technical breakdown of the activity. Also targeted as part of the campaign are provincial revenue and finance directorates, Pashto-speaking government officials, and provincial-level government employees. The campaign has been codenamed Operation XENOFISCAL. The choice of Pashto for the lure file is a deliberate choice on the part of the attacker, as it's the main language spoken in the Afghan government circles. This aspect reflects the attacker's familiarity with the target environment. SideCopy is the name given to a P...",
+      "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "pakistan-linked-sidecopy-targets-afghanistan-finance-ministry-with-xeno-rat-jun-02-2026-cy",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "Instagram users locked out after Meta AI abused to steal accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-02",
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+      "title": "Why the browser is now the front line for AI security",
+      "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "red-hat-npm-packages-compromised-to-steal-developer-credentials",
+      "slug": "why-the-browser-is-now-the-front-line-for-ai-security",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-02",
-      "title": "Spain arrests doxer leaking sensitive data of govt employees",
-      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "spain-arrests-doxer-leaking-sensitive-data-of-govt-employees",
+      "slug": "cisa-flags-two-year-old-oracle-flaw-as-actively-exploited-in-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-02",
+      "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "google-fixes-one-actively-exploited-android-zero-day-124-flaws",
       "source": "BleepingComputer"
     }
   ]
