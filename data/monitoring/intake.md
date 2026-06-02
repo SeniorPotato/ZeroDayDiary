@@ -7988,3 +7988,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Jun 02, 2026 Identity Security / Data Protection Password manager Dashlane has disclosed that "fewer than" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an "external" threat actor launched a brute-force attack against certain Dashlane user accounts with the aim of breaking two-factor authentication (2FA) protections and allowing them to register new devices on existing user accounts. Exactly how many users were targeted remains unknown, but Dashlane said the high volume of attempts on those accounts triggered temporary account suspensions and authentication issues due to its built-in security controls. Although access to the accounts has since been restored, the company has now revealed that the attackers were successful in a handful of cases, enabling them to download a copy of the encrypted vaults belonging to less than 20 personal plan users. "We have directly notif...
+- **Source URL:** https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Red Hat npm packages compromised to steal developer credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-02
+- **Headline / event:** Spain arrests doxer leaking sensitive data of govt employees
+- **Source URL:** https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
