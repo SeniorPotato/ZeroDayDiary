@@ -53,7 +53,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
       "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -181,7 +180,10 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-divestiture-ambulatory-surgery-centers-protect-patients-anticompetitive-effects",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-nevada-will-require-tax-relief-scammers-pay-cash-turn-over-assets-worth-nearly-10-million-settle",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-seeks-comment-x-corp-petition-set-aside-or-modify-ftc-order-concerning-twitter",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-deceptive-mortgage-assistance-relief-operation-targets-homeowners",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-seeks-comment-x-corp-petition-set-aside-or-modify-ftc-order-concerning-twitter",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-deceptive-mortgage-assistance-relief-operation-targets-homeowners"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -319,7 +321,9 @@
       "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-another-squid.html",
       "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html",
-      "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html"
+      "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
+      "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html",
+      "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -743,9 +747,20 @@
       "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
       "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
       "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
-      "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
-      "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
-      "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html"
+      "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+      "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+      "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+      "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+      "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+      "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+      "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+      "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+      "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+      "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1213,9 +1228,17 @@
       "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
       "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
       "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
-      "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
-      "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
-      "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/"
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+      "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+      "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+      "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+      "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/"
     ]
   }
 }
