@@ -8108,3 +8108,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** FTC Sues to Stop Amare Global Holdings from Misrepresenting the Health Benefits of Its Dietary Supplements for Children and Adults
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Jun 02, 2026 Vulnerability / Mobile Security Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The vulnerability impacts devices running Android versions 14, 15, 16, and 16 QPR2 (Quarterly Platform Release 2). "In multiple locations, there is a possible way to achieve code execution due to an integer overflow," according to a description of the vulnerability on CVE.org. "This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation." Google has acknowledged there are indications that CVE-2025-48595 may be under "limited, targeted exploitation." As is typically the case, the t...
+- **Source URL:** https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine Jun 02, 2026 Threat Intelligence / Malware The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation. Per Sekoia, the activity involves the weaponization of CVE-2025-8088 , a path traversal flaw in WinRAR, to launch an HTML Application payload dubbed GammaPhish, which is then used to retrieve an intermediate Visual Basic Script (VBScript) downloaders codenamed GammaLoad. The infection chain was observed by the French cybersecurity company in January 2026. "Their primary objectives are to fingerprint the host system, update the network configuration in the registry using dead drop resolvers (DDRs), fetch and execute arbitrary VBScript payloads from the C2 servers," Sekoia said . One of the payloads is a VBScript worm known as GammaWorm that establishes persistence via scheduled tasks and is designed to hide legitimate directories in network shares and USB drives and replace wit...
+- **Source URL:** https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Jun 02, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities ( KEV ) Catalog, based on evidence of active exploitation. The vulnerability, CVE-2024-21182 (CVSS score: 7.5), allows an unauthenticated attacker with network access to take control of susceptible servers. It was patched by Oracle in July 2024. "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server," CISA said. "Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data." There are currently no public reports about how the vulnerability is being exploited in the wild. That said, prior flaws in the software have been repeatedly weaponized by various threat actors to...
+- **Source URL:** https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** Critical Kirki flaw exploited to hijack WordPress admin accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** Over 116,000 Minecraft systems infected in WeedHack malware campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-03
+- **Headline / event:** AI-built ransomware toolkit automates EDR evasion, AD discovery
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
