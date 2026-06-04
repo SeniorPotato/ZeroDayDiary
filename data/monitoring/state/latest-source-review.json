@@ -1,59 +1,95 @@
 {
-  "generatedAt": "2026-06-04T05:09:24.945Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-04T050924Z.md",
+  "generatedAt": "2026-06-04T15:45:44.452Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-04T154544Z.md",
   "candidates": [
     {
       "discovered": "2026-06-04",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Hacking Meta’s AI Chatbot",
+      "link": "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "hacking-meta-s-ai-chatbot",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-06-04",
-      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android Jun 03, 2026 Vulnerability / Artificial Intelligence A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected windows, fake a message from their boss, push the phone into a Zoom call, or quietly poison its long-term memory. No malicious app on the phone is required. The assistant just had to treat a hostile notification as useful context. The research, published by SafeBreach's Or Yair, follows the team's earlier \" Invitation Is All You Need \" work, which pulled off similar tricks through malicious Google Calendar invites. After that, Google hardened Gemini against indirect prompt injection. Yair found a way around the new defenses. Google has since patched it, SafeBreach lists no CVE for the issue, and there is no evidence that the technique was ever used in the wild. On Android, Gemini's Utilities feature can read and reply to your notifications, including ones ...",
-      "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Jun 04, 2026 Vulnerability / AI Security A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it. RyotaK of GMO Flatt Security reported the core bypass to Anthropic in January, and Anthropic fixed it within four days , with further hardening through the spring; the fixes are in claude-code-action v1.0.94. Anthropic rated the issues 7.8 under CVSS v4.0 and paid a bug bounty. Claude Code GitHub Actions drops Claude into CI/CD pipelines to triage issues, slap on labels, review pull requests, or run slash commands. By default, the workflow gets read and write access to a repo's code, issues, pull requests, discussions, and workflow files. Because those permissions are broad, the action is su...",
+      "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "whatsapp-slack-notifications-could-hijack-google-gemini-on-android-jun-03-2026-vulnerabili",
+      "slug": "claude-code-github-action-flaw-let-one-malicious-issue-hijack-repositories-jun-04-2026-vul",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-04",
-      "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
-      "link": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories Jun 04, 2026 Hacking News / Cybersecurity News It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the whole thing before it ruins your week anyway.",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute",
+      "slug": "threatsday-bulletin-ai-agents-gone-wrong-sketchy-c2-tools-clickfix-tricks-js-backdoors-20-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-04",
+      "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa Jun 04, 2026 Malware / Cybercrime A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously undocumented tools called RomulusLoader and SilentRunLoader , according to Proofpoint. The enterprise security company is keeping tabs on the activity under the moniker TA4922, describing it as a Chinese-speaking threat actor largely targeting East Asia. TA4922 is assessed to share some level of overlap with Silver Fox , with the threat actor's tradecraft more focused on cybercriminal objectives than espionage. \"The actor is likely financially motivated and focused on obtaining remote access to victim environments for financial gain, such as data theft, fraud, access resale...",
+      "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "china-linked-ta4922-expands-phishing-attacks-to-uk-germany-italy-and-south-africa-jun-04-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-04",
+      "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads Jun 04, 2026 Malvertising / Browser Security Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell . According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka FileRipple ) in late August 2025. The cybercrime group behind the two attack chains is being tracked under the moniker CL-CRI-1089. The attackers are assessed to be active since at least 2023. \"Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications,\" Unit 42 said . \"In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation.\" Operations attributed to CL-CRI-1089 also include Recipe Lister and Calendaromatic , both of which fall under a broader designation known as TamperedChef (aka EvilAI ), an ongoing series ...",
+      "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fluttershell-backdoor-spreads-to-macos-via-malicious-google-and-youtube-ads-jun-04-2026-ma",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-04",
+      "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS Jun 04, 2026 Malware / Open Source Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. \"The sites are well-designed and often look like legitimate project portals at a glance, sometimes referencing real upstream resources,\" Check Point security researcher Alexey Bukhteyev said in a breakdown of the campaign. \"The deception is not in the page content alone, it's in what happens when a user interacts.\" \"These pages load a CloudFront-hosted JavaScript staging layer that converts a click on a 'download' button/link into a handoff to a Traffic Distribution System (TDS). The TDS enforces strict gating: first-visit state, mandatory click confirmation, anti-bot/anti-analysis logic, VPN/datacenter filtering, and frequency capping.\" It's suspected t...",
+      "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fake-sites-mimicking-open-source-tools-rank-high-on-google-to-deliver-malware-via-tds-jun-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-04",
+      "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-04",
-      "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+      "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks",
+      "slug": "hackers-are-after-the-gaps-in-your-vulnerability-program-here-s-their-playbook",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-04",
-      "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
-      "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+      "title": "Police dismantles fake ID marketplace used by migrant smugglers",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "u-s-sanctions-nobitex-crypto-exchange-used-by-iranian-ransomware-actors",
+      "slug": "police-dismantles-fake-id-marketplace-used-by-migrant-smugglers",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-04",
-      "title": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems",
+      "slug": "cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code",
       "source": "BleepingComputer"
     }
   ]

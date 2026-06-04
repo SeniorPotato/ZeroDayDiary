@@ -8324,3 +8324,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Hacking Meta’s AI Chatbot
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Jun 04, 2026 Vulnerability / AI Security A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it. RyotaK of GMO Flatt Security reported the core bypass to Anthropic in January, and Anthropic fixed it within four days , with further hardening through the spring; the fixes are in claude-code-action v1.0.94. Anthropic rated the issues 7.8 under CVSS v4.0 and paid a bug bounty. Claude Code GitHub Actions drops Claude into CI/CD pipelines to triage issues, slap on labels, review pull requests, or run slash commands. By default, the workflow gets read and write access to a repo's code, issues, pull requests, discussions, and workflow files. Because those permissions are broad, the action is su...
+- **Source URL:** https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories Jun 04, 2026 Hacking News / Cybersecurity News It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the whole thing before it ruins your week anyway.
+- **Source URL:** https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa Jun 04, 2026 Malware / Cybercrime A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a "rapid operational tempo" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously undocumented tools called RomulusLoader and SilentRunLoader , according to Proofpoint. The enterprise security company is keeping tabs on the activity under the moniker TA4922, describing it as a Chinese-speaking threat actor largely targeting East Asia. TA4922 is assessed to share some level of overlap with Silver Fox , with the threat actor's tradecraft more focused on cybercriminal objectives than espionage. "The actor is likely financially motivated and focused on obtaining remote access to victim environments for financial gain, such as data theft, fraud, access resale...
+- **Source URL:** https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads Jun 04, 2026 Malvertising / Browser Security Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell . According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka FileRipple ) in late August 2025. The cybercrime group behind the two attack chains is being tracked under the moniker CL-CRI-1089. The attackers are assessed to be active since at least 2023. "Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications," Unit 42 said . "In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation." Operations attributed to CL-CRI-1089 also include Recipe Lister and Calendaromatic , both of which fall under a broader designation known as TamperedChef (aka EvilAI ), an ongoing series ...
+- **Source URL:** https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS Jun 04, 2026 Malware / Open Source Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. "The sites are well-designed and often look like legitimate project portals at a glance, sometimes referencing real upstream resources," Check Point security researcher Alexey Bukhteyev said in a breakdown of the campaign. "The deception is not in the page content alone, it's in what happens when a user interacts." "These pages load a CloudFront-hosted JavaScript staging layer that converts a click on a 'download' button/link into a handoff to a Traffic Distribution System (TDS). The TDS enforces strict gating: first-visit state, mandatory click confirmation, anti-bot/anti-analysis logic, VPN/datacenter filtering, and frequency capping." It's suspected t...
+- **Source URL:** https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** New IronWorm malware hits 36 packages in npm supply-chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Police dismantles fake ID marketplace used by migrant smugglers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-04
+- **Headline / event:** Cisco warns of critical Unified CM flaw with PoC exploit code
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
