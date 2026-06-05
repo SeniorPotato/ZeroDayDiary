@@ -8404,3 +8404,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** FTC Issues Report to Congress on Adoption Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public Jun 04, 2026 Vulnerability / Network Security Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230 , and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery. Unified CM and its Session Management Edition fail to validate certain HTTP requests properly, so a crafted request can push the server into writing arbitrary files onto the underlying OS. Those files are the foothold. Cisco says they can be used later to escalate to root, the top privilege on the system. That two-step is why the score and the rating disagree. The CVSS base is 8.6: it scores the file write (an integrity-only impact, no confidentiality or availability loss) but not the root escalation that follows. Cisco rated the advisory Critical anyway, since the end state is full root. ...
+- **Source URL:** https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It Jun 04, 2026 Artificial Intelligence / Defense Technology Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model was made available to a limited set of organizations as a technical preview, it was reported that an unauthorized group claimed that it had gained access within hours. The incident, if true, was more than a possible breach. It was a warning. The potential impact of advanced AI on U.S. defense and intelligence networks is significant. As the U.S. government moves to deploy AI capabilities on classified networks, the opportunity is clear: advanced AI can help accelerate decision superiority for American forces . But the risks are expanding just as quickly, particularly as agentic AI begins to operate across sensitive networks, data environments, and mission workflows. AI adoption is not simply about deploying powerful models. It requires the right security, governance, and resilient...
+- **Source URL:** https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** Hola Browser for Windows compromised to deliver cryptominer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** Credit card theft campaign abuses Stripe to host stolen payment info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** DentaQuest data breach exposed info of 2.6 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-05
+- **Headline / event:** UN food agency discloses breach affecting 600,000 Gaza households
+- **Source URL:** https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

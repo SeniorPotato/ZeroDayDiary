@@ -182,7 +182,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-nevada-will-require-tax-relief-scammers-pay-cash-turn-over-assets-worth-nearly-10-million-settle",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-seeks-comment-x-corp-petition-set-aside-or-modify-ftc-order-concerning-twitter",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-deceptive-mortgage-assistance-relief-operation-targets-homeowners"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-deceptive-mortgage-assistance-relief-operation-targets-homeowners",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -322,7 +324,6 @@
       "https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
       "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html",
-      "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
       "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html"
     ],
     "the-hacker-news": [
@@ -762,14 +763,13 @@
       "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
       "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
       "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-      "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
-      "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
-      "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
-      "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
-      "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
       "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
       "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-      "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html"
+      "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+      "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+      "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1251,10 +1251,14 @@
       "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
       "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
       "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
-      "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
-      "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
-      "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
-      "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/"
+      "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+      "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/"
     ]
   }
 }
