@@ -183,7 +183,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-seeks-comment-x-corp-petition-set-aside-or-modify-ftc-order-concerning-twitter",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-deceptive-mortgage-assistance-relief-operation-targets-homeowners",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices"
     ],
     "iso-insights": [
@@ -768,8 +767,17 @@
       "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
       "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
       "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
-      "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html"
+      "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+      "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
+      "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
+      "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+      "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+      "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+      "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
+      "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
+      "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+      "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+      "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1255,10 +1263,12 @@
       "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
       "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
       "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
-      "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
-      "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/"
+      "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
+      "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+      "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+      "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
+      "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+      "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/"
     ]
   }
 }
