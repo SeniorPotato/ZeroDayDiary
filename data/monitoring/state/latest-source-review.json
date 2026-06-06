@@ -1,87 +1,42 @@
 {
-  "generatedAt": "2026-06-06T04:29:52.043Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-06T042952Z.md",
+  "generatedAt": "2026-06-06T14:09:34.934Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-06T140934Z.md",
   "candidates": [
     {
       "discovered": "2026-06-06",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Jun 06, 2026 Cybersecurity / Artificial Intelligence OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks . The feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and self-serve ChatGPT Business plans. \"Lockdown Mode is an optional advanced security setting that limits many tools and capabilities in OpenAI products that can connect to the web or external services,\" OpenAI said . \"It is designed to reduce the risk of data exfiltration from prompt injection attacks by limiting outbound network requests, at the expense of disabling or limiting some useful features.\" The safeguards are aimed at hardening the attack surface against prompt injections, which continues to be a \"frontier\" problem impacting all large language models (LLMs...",
+      "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "‘Architect’ of Law Firm DEI Programs Dissolves",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "architect-of-law-firm-dei-programs-dissolves",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "FTC Gives Final Approval to Order Against Illuminate Settling Allegations It Failed to Secure Students’ Personal Data",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-gives-final-approval-to-order-against-illuminate-settling-allegations-it-failed-to-sec",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available Jun 06, 2026 Vulnerability / Network Security Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245 , carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types - On-Prem Deployment Cisco SD-WAN Cloud-Pro Cisco SD-WAN Cloud (Cisco Managed) Cisco SD-WAN for Government (FedRAMP) \"A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system,\" Cisco said in an advisory. The network security company said the vulnerability is the result of insufficient validation of user-supplied input, which an attacker could exploit by uploading a crafted file to the affected system. This, in turn, could permit the attacker to perform command injection attacks and elevate their privileges as the root user. \"To...",
-      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisco-catalyst-sd-wan-manager-cve-2026-20245-flaw-actively-exploited-no-patch-available-ju",
+      "slug": "new-chatgpt-lockdown-mode-limits-tools-that-could-enable-data-exfiltration-jun-06-2026-cyb",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-06",
-      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks Jun 05, 2026 Software Supply Chain / Malware Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog , the information stealer \"scrapes every secret it can find on a developer's machine, hides behind an eBPF kernel rootkit, and answers to its operator over Tor.\" The stealer also uses the stolen credentials as a propagation mechanism, drawing similarities to the infamous Shai-Hulud worm. The new malware has been codenamed IronWorm by the software supply chain security company. By publishing itself to the npm registry in the form of trojanized packages, the approach results in a self-replicating attack. The malicious activity has been traced back to a compromised npm account named \" asteroiddao ,\" which has been found to publish package versions containing the Rust ELF binary that's exec...",
-      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. \"SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate,\" SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing \"content-encoding\" since the vulnerable service does not r...",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ironworm-and-new-miasma-worm-variant-hit-npm-in-supply-chain-attacks-jun-05-2026-software-",
+      "slug": "cisa-adds-actively-exploited-solarwinds-serv-u-dos-flaw-to-kev-catalog-jun-06-2026-vulnera",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-06",
-      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Jun 06, 2026 Vulnerability / Endpoint Security Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent. The same week, Google shipped Chrome 149 with patches for 429 security bugs, the most ever in a single release. Only the FFmpeg bugs were found by AI. Chrome's record landed after Google overhauled its bounty program to cope with a flood of AI-generated reports. The mechanisms differ, but the pressure is the same: AI is putting more vulnerabilities in front of the people who have to deal with them, and faster than before. The FFmpeg findings come from depthfirst , whose autonomous security agent scanned the project's roughly 1.5 million lines of C and produced 21 confirmed zero-days, each with a reproducible proof-of-concept input. The company puts the cost of the run at around $1,000. Several of the bugs had been latent for 15 to 2...",
+      "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers",
-      "source": "BleepingComputer"
+      "slug": "ai-agent-uncovers-21-zero-days-in-ffmpeg-chrome-patches-record-429-bugs-jun-06-2026-vulner",
+      "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-06",
-      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
-      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Jun 06, 2026 Supply Chain Attack / Malware Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware . The development has GitHub to disable access to those repositories. \"Access to this repository has been disabled by GitHub Staff due to a violation of GitHub's terms of service,\" reads the message when attempting to access the \" Azure/azure-functions-host \" repository. \"If you are the owner of the repository, you may reach out to GitHub Support for more information.\" According to OpenSourceMalware, some of the repositories impacted by the incident are listed below - azure-search-openai-demo-purviewdatasecurity Connectors-NET-LSP Connectors-NET-SDK durabletask durabletask-dotnet durabletask-go durabletask-js ...",
+      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "Chinese APT deploys new malware to keep access to hacked networks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs",
-      "source": "BleepingComputer"
+      "slug": "miasma-worm-hits-73-microsoft-github-repositories-in-major-supply-chain-attack-jun-06-2026",
+      "source": "The Hacker News"
     }
   ]
 }
