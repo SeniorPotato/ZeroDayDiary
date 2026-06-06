@@ -1,77 +1,86 @@
 {
-  "generatedAt": "2026-06-05T15:28:49.119Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-05T152849Z.md",
+  "generatedAt": "2026-06-06T04:29:52.043Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-06T042952Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-05",
-      "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps Jun 05, 2026 Spyware / Mobile Security Arabic-speaking users have emerged as the target of a new Android spyware codenamed Asin , according to findings from ESET. The Slovakian cybersecurity company said it first detected the malware spread via multiple campaigns in early 2025, with each attack wave making use of distinct websites mimicking utilities, war-related updates, and a government news source: govlens[.]net, which impersonates a government news source (registered on May 27, 2025) pdf-reader[.]help, which impersonates a secure PDF editor (registered on May 29, 2025) live-war-map[.]com, which claims to offer updates on military incidents (registered on January 20, 2025) Two of these websites - govlens[.]net and live-war-map[.]com - were also marketed via dedicated accounts on social media platforms like Facebook and Telegram - www.facebook[.]com/GovLens t[.]me/liveuamap_ar \"Each of these websites distributes a malicious app that combines legitimate functionality with stealthy spyware ca...",
-      "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+      "discovered": "2026-06-06",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "android-spyware-asin-targets-arabic-users-via-fake-news-pdf-and-war-map-apps-jun-05-2026-s",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-06-06",
+      "title": "‘Architect’ of Law Firm DEI Programs Dissolves",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "architect-of-law-firm-dei-programs-dissolves",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-06",
+      "title": "FTC Gives Final Approval to Order Against Illuminate Settling Allegations It Failed to Secure Students’ Personal Data",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-gives-final-approval-to-order-against-illuminate-settling-allegations-it-failed-to-sec",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-06",
+      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available Jun 06, 2026 Vulnerability / Network Security Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245 , carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types - On-Prem Deployment Cisco SD-WAN Cloud-Pro Cisco SD-WAN Cloud (Cisco Managed) Cisco SD-WAN for Government (FedRAMP) \"A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system,\" Cisco said in an advisory. The network security company said the vulnerability is the result of insufficient validation of user-supplied input, which an attacker could exploit by uploading a crafted file to the affected system. This, in turn, could permit the attacker to perform command injection attacks and elevate their privileges as the root user. \"To...",
+      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisco-catalyst-sd-wan-manager-cve-2026-20245-flaw-actively-exploited-no-patch-available-ju",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-05",
-      "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework Jun 05, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 (where \"OP\" stands for \"opponent\") that has been observed targeting Microsoft Internet Information Services (IIS) servers to deploy a bespoke web shell framework. ReliaQuest has assessed with moderate to high confidence that the espionage-focused activity is linked to China. \"OP-512 was highly likely conducting espionage through a compromised Internet Information Services (IIS) web server on an organization whose sector and geography align with China-linked intelligence priorities,\" the company said in a report shared with The Hacker News. Although no overlaps have been found between OP-512 and other known China-aligned adversaries, it's the fourth such threat group after CL-STA-0048 , DragonRank , and GhostRedirector to single out IIS web servers over the past 12 months. As recently as last month, Cisco Talos revealed that multiple Chinese-speaking...",
-      "link": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
+      "discovered": "2026-06-06",
+      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks Jun 05, 2026 Software Supply Chain / Malware Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog , the information stealer \"scrapes every secret it can find on a developer's machine, hides behind an eBPF kernel rootkit, and answers to its operator over Tor.\" The stealer also uses the stolen credentials as a propagation mechanism, drawing similarities to the infamous Shai-Hulud worm. The new malware has been codenamed IronWorm by the software supply chain security company. By publishing itself to the npm registry in the form of trojanized packages, the approach results in a self-replicating attack. The malicious activity has been traced back to a compromised npm account named \" asteroiddao ,\" which has been found to publish package versions containing the Rust ELF binary that's exec...",
+      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-threat-cluster-op-512-targets-microsoft-iis-servers-with-custom-web-shell-framework-ju",
+      "slug": "ironworm-and-new-miasma-worm-variant-hit-npm-in-supply-chain-attacks-jun-05-2026-software-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-05",
-      "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver Jun 05, 2026 Security Operations / Artificial Intelligence Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing into AI-powered security operations platforms, agentic SOC tools, and AI co-pilots built into every layer of the security stack. The data shows SOCs are buying, deploying, and standing up AI capabilities at the fastest pace the industry has ever seen. And yet, the same SOCs reporting record AI adoption are reporting underwhelming outcomes. The first objective benchmark on the value of AI in the SOC was published in the SOC-CMM 2026 Maturity Report in May, drawing on survey data collected from roughly 200 SOCs across regions, sectors, and delivery models between late January and mid-March 2026. Only about 10% of respondents said AI has delivered excellent value to their SOC. About 19% reported good value. The remaining 71% landed at some value or none at all. Eighteen months into AI deployment, that...",
-      "link": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
+      "discovered": "2026-06-06",
+      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "only-10-of-socs-say-they-re-getting-excellent-value-from-ai-here-s-what-the-second-wave-ha",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-05",
-      "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites Jun 05, 2026 Web Security / Vulnerability Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was released on March 18, 2026, with version 1.9.13. \"This is due to the Calculation Addon's process_filter() function concatenating user-submitted form field values into a PHP code string without proper escaping before passing it to eval(),\" Wordfence said . \"The sanitize_text_field() function applied to input does not escape single quotes or other PHP code context characters. This makes it possible for unauthenticated attackers to inject and execute arbitrary PHP code on the server by submitting a crafted value in any string-type form field (text, email, URL, select, radio) ...",
-      "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-exploit-critical-everest-forms-pro-wordpress-plugin-flaw-to-take-over-sites-jun-05",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-05",
-      "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins Jun 05, 2026 Online Security / Malware Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that copies FIFA's login page well enough to take over real accounts. It is an obvious target. More than six million fans are expected across 16 cities in the United States, Canada, and Mexico, and FIFA said it received more than 150 million ticket requests in the first 15 days, leaving the tournament around 30 times oversubscribed. Tickets are scarce, fans are anxious, and money is moving fast, which is exactly what fraud needs. One Operator, 300 Cloned FIFA Sites The most detailed findings come from Group-IB , which tracked more than 4,300 fraudulent FIFA domains registered since August 2025. At the center is a group it calls GHOST STADIUM , a Chinese-speaking, money-driven operation...",
-      "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fifa-world-cup-2026-scams-are-already-live-fake-sites-banking-malware-and-stolen-logins-ju",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-05",
-      "title": "Over 900 US gas station tank gauge systems exposed to attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks",
+      "slug": "cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-05",
-      "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
-      "link": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
+      "discovered": "2026-06-06",
+      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
+      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "what-2026-dbir-confirms-attacks-are-living-in-the-browser",
+      "slug": "suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-05",
-      "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+      "discovered": "2026-06-06",
+      "title": "Chinese APT deploys new malware to keep access to hacked networks",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisco-warns-of-unpatched-sd-wan-zero-day-exploited-in-attacks",
+      "slug": "chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-06",
+      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
+      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs",
       "source": "BleepingComputer"
     }
   ]
