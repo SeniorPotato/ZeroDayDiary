@@ -781,10 +781,6 @@
       "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
       "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
-      "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
       "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html"
     ],
     "reddit-security": [
@@ -1278,10 +1274,8 @@
       "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
       "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
       "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
-      "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/"
+      "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
     ]
   }
 }

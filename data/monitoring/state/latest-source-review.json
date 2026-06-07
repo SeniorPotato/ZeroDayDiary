@@ -1,42 +1,15 @@
 {
-  "generatedAt": "2026-06-06T14:09:34.934Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-06T140934Z.md",
+  "generatedAt": "2026-06-07T04:57:15.859Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-07T045715Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-06",
-      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Jun 06, 2026 Cybersecurity / Artificial Intelligence OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks . The feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and self-serve ChatGPT Business plans. \"Lockdown Mode is an optional advanced security setting that limits many tools and capabilities in OpenAI products that can connect to the web or external services,\" OpenAI said . \"It is designed to reduce the risk of data exfiltration from prompt injection attacks by limiting outbound network requests, at the expense of disabling or limiting some useful features.\" The safeguards are aimed at hardening the attack surface against prompt injections, which continues to be a \"frontier\" problem impacting all large language models (LLMs...",
-      "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "discovered": "2026-06-07",
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-chatgpt-lockdown-mode-limits-tools-that-could-enable-data-exfiltration-jun-06-2026-cyb",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. \"SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate,\" SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing \"content-encoding\" since the vulnerable service does not r...",
-      "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-actively-exploited-solarwinds-serv-u-dos-flaw-to-kev-catalog-jun-06-2026-vulnera",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Jun 06, 2026 Vulnerability / Endpoint Security Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent. The same week, Google shipped Chrome 149 with patches for 429 security bugs, the most ever in a single release. Only the FFmpeg bugs were found by AI. Chrome's record landed after Google overhauled its bounty program to cope with a flood of AI-generated reports. The mechanisms differ, but the pressure is the same: AI is putting more vulnerabilities in front of the people who have to deal with them, and faster than before. The FFmpeg findings come from depthfirst , whose autonomous security agent scanned the project's roughly 1.5 million lines of C and produced 21 confirmed zero-days, each with a reproducible proof-of-concept input. The company puts the cost of the run at around $1,000. Several of the bugs had been latent for 15 to 2...",
-      "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ai-agent-uncovers-21-zero-days-in-ffmpeg-chrome-patches-record-429-bugs-jun-06-2026-vulner",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-06",
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Jun 06, 2026 Supply Chain Attack / Malware Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware . The development has GitHub to disable access to those repositories. \"Access to this repository has been disabled by GitHub Staff due to a violation of GitHub's terms of service,\" reads the message when attempting to access the \" Azure/azure-functions-host \" repository. \"If you are the owner of the repository, you may reach out to GitHub Support for more information.\" According to OpenSourceMalware, some of the repositories impacted by the incident are listed below - azure-search-openai-demo-purviewdatasecurity Connectors-NET-LSP Connectors-NET-SDK durabletask durabletask-dotnet durabletask-go durabletask-js ...",
-      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "miasma-worm-hits-73-microsoft-github-repositories-in-major-supply-chain-attack-jun-06-2026",
-      "source": "The Hacker News"
+      "slug": "critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites",
+      "source": "BleepingComputer"
     }
   ]
 }
