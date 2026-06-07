@@ -1,14 +1,23 @@
 {
-  "generatedAt": "2026-06-07T04:57:15.859Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-07T045715Z.md",
+  "generatedAt": "2026-06-07T14:21:01.529Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-07T142101Z.md",
   "candidates": [
     {
       "discovered": "2026-06-07",
-      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival",
+      "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites",
+      "slug": "c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-07",
+      "title": "Silent Ransom Group targets law firms with fake IT support calls",
+      "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "silent-ransom-group-targets-law-firms-with-fake-it-support-calls",
       "source": "BleepingComputer"
     }
   ]
