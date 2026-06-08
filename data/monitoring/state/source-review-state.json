@@ -326,7 +326,9 @@
       "https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
       "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html",
-      "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html"
+      "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -781,7 +783,19 @@
       "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
       "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html"
+      "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+      "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1276,7 +1290,18 @@
       "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
       "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
       "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/"
+      "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+      "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/"
     ]
   }
 }
