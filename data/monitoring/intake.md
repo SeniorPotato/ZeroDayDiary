@@ -8740,3 +8740,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** Critical Zcash Vulnerability Found and Fixed
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public Jun 08, 2026 Linux / Vulnerability Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even the first public exploit: FuzzingLabs published an independent reproduction back in April. The flaw came down to a single stray character, an inverted check in nf_tables, and the upstream fix removed it in one line. Ubuntu rates the flaw CVSS 7.8 (high). If your distribution's kernel package does not yet include the fix, update and reboot. The reachable setup is common: nf_tables plus unprivileged user namespaces, a Linux feature that lets an ordinary account act as root inside a private sandbox and reach kernel code it otherwise could not. Both ship by default on most desktop...
+- **Source URL:** https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order Jun 08, 2026 Spyware / Mobile Security Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group . In addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users. "They tried to trick people into clicking on malicious links to drive them to external websites outside of WhatsApp, similar to previously reported 1-click phishing campaigns linked to NSO," Meta said . The social media company also said it caught NSO Group creating test accounts and groups on WhatsApp. They have since been taken down by Meta. The list of malicious domains linked to the activity is listed below - fr24cast[.]com ghazacast[.]com ikhwancast[.]com The development comes a year after NSO Group was fined approximately $168 million in monetary damages, after a U.S. court found the company to have violated U.S. laws by exploiting WhatsApp servers ...
+- **Source URL:** https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** NFCShare Android malware spreads via fake banking app updates on GitHub
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** SoFi confirms third-party data breach at Hong Kong subsidiary
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** New Shai-Hulud attack trojanizes 19 science-focused PyPI packages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** WhatsApp says it disrupted new NSO spyware phishing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
