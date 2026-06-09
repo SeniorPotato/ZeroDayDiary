@@ -8804,3 +8804,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** GPS As a Key Distribution Platform
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine Jun 09, 2026 Vulnerability / Cyber Espionage Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226). It involves the exploitation of CVE-2025-8088 , a path traversal flaw that allows an attacker to write files outside the extraction directory via NTFS Alternate Data Streams (ADS). It was patched by WinRAR in July 2025. The findings show "how unmanaged software keeps an exploited entry point open long after the fix ships," Trend Micro researchers Hiroyuki Kakara and Feike Hacquebord said in an analysis published Monday. The WinRAR exploit chain exploited by SHADOW-EARTH-066 is a departure from Excel macro droppers previously used by the threat actor to deliver an information stealer called GIFTEDCROOK. The latest iteration makes use of crafted RAR archives featur...
+- **Source URL:** https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models Jun 09, 2026 Artificial Intelligence / Network Security University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate tailored attack strategies for each target it encounters, and replicate itself, all without human intervention and without touching a commercial AI service. The preprint, posted to arXiv on June 2 and currently under peer review, shows why single-CVE patching breaks down when malware can inspect exposed services, read fresh advisories, and generate a new attack path at runtime. In 15 isolated runs on a deliberately vulnerable 33-host network, the worm identified an average of 31.3 vulnerabilities and gained elevated access on 23.1 hosts, roughly three-quarters of the hosts it actively targeted. It then replicated autonomously to 20.4 of those hosts, or 62% of the full network, over seven days, with no prior knowledge of the network topology and no human input. Traditional worm...
+- **Source URL:** https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now Jun 09, 2026 Vulnerability / Browser Security Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described as an out-of-bounds memory access in V8, Chrome's JavaScript and WebAssembly engine. "Out-of-bounds read and write in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page," reads a description of the flaw in the NIST's National Vulnerability Database (NVD). A security researcher named "303f06e3" has been credited with discovering and reporting the flaw on April 27, 2026. The researcher has been awarded a bug bounty of $55,000 for responsible disclosure. As is customary in these cases, Google acknowledged that an "exploit for CVE-2026-11645 exists in the wild," but stopped short of sharing additional specifics to ensure that a m...
+- **Source URL:** https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** The Hidden Security Risk in Modern Networks: The Work Between Tools Jun 09, 2026 Artificial Intelligence / Security Automation Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort. But the same challenges persist. Outages still last hours, causing significant financial losses, operational disruption, and reputational impact. Threat response and mean time to remediate (MTTR) remain slow. Misconfigurations and human error still create major incidents. And, despite the promises of AI, teams remain overwhelmed and burnt out. Detection isn't the issue. Neither is tooling. Today, the real problem is execution - that is, the work that happens between tools. The hidden operational layer most organizations overlook Every time an alert fires, network security teams must: Gather context across systems Validate ownership and severity Route tickets to the appropriate people Request approvals Implement changes manually Log evidence...
+- **Source URL:** https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing Jun 09, 2026 Browser Security / Privacy A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST , needs no native code, no extension, and no permission prompt. You open the page, leave the tab sitting there, and it watches the drive for contention in the background. Researchers at Graz University of Technology built it and described it in a new paper set to appear at DIMVA 2026. It abuses a storage feature present in every major desktop browser, and the underlying timing channel works on both macOS and Linux. SSD timing attacks are not new. Last year the same group published Secret Spilling Drive , which read user behavior off a drive by watching how reads slow down when something else is using it. The catch was that it needed native code on the machine, through a low-level interface like Linux's io_uring. FROST drops that requirement. It runs inside the browser sandbox, which turns a local attack into a remo...
+- **Source URL:** https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** New Veeam vulnerability exposes backup servers to RCE attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** French govt messaging service breached in account hijacking attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-09
+- **Headline / event:** Google patches new Chrome zero-day flaw exploited in the wild
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
