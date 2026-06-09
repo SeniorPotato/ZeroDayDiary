@@ -56,7 +56,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -331,7 +330,8 @@
       "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
       "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
-      "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html"
+      "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
+      "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -796,8 +796,18 @@
       "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
       "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
       "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
+      "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+      "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+      "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+      "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+      "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+      "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+      "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+      "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+      "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+      "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1303,10 +1313,14 @@
       "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
       "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
       "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/"
+      "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/"
     ]
   }
 }
