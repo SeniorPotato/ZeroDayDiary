@@ -8884,3 +8884,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** FTC Returns Nearly $3 Million to Consumers Deceived by Mortgage Relief Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** A Record-Breaking Patch Tuesday for June 2026
+- **Source URL:** https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Meta to Use Off-Site Business Data for Feed and AI Personalization Jun 09, 2026 Privacy / Artificial Intelligence Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond targeted ads. "Businesses often share information about people's activity on their sites with us to make ads more relevant," Meta said in a statement. "We already use this data - like games you play or purchases you make on other websites - to make the ads you see more relevant. In the future, we'll use this information to personalize other parts of your experience, including the content you see in your Feed and AI responses." The social media giant emphasized that it's not collecting any new data as part of the update, adding users are in the driver's seat and that they get to decide how this information is used for personalization. To that end, Meta is streaming its controls by expanding the "Activity from other businesses" setting...
+- **Source URL:** https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code Jun 09, 2026 Vulnerability / Backup Software Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963 , the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0. "A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user," Veeam said in a Tuesday advisory. It credited watchTowr researcher Sina Kheirkhah for responsibly discovering and reporting the issue. It impacts Veeam Backup & Replication 12.3.2.4465 and all earlier versions of 12 builds. Veeam has noted that the vulnerability does not affect any version 13.x build of the backup software due to architectural changes introduced in version 13. The shortcoming has been addressed in Veeam Backup & Replication version 12.3.2.4854. In March 2026, Veeam resolved multiple critical vulnerabilities in Backup & Replication software that, if successfully exploited, could resu...
+- **Source URL:** https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues Jun 09, 2026 AI Security / Software Supply Chain Microsoft on Monday confirmed that it temporarily removed some GitHub repositories in response to a recent security incident that led to 73 of its open-source projects being compromised to inject an information stealer into the code. "Our priority is to protect customers and the broader ecosystem," a Microsoft spokesperson told The Hacker News via email. "We temporarily removed some repositories as we investigated potential malicious content. Some of these repos have been restored after review, while others may remain offline while work continues." "As part of our investigation, we notified a small number of customers who may have pulled down content from the affected repositories. We will continue to investigate, and if anything further is identified that requires customer action, we will reach out directly through our established support channels." The development comes days after the Windows maker cut off access to dozens of its open-source proj...
+- **Source URL:** https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** GitHub disables Microsoft repos pushing password-stealing
+- **Source URL:** https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** ServiceNow discloses security incident exposing customer data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** OpenClaw AI agent found falling for phishing attacks, spills user data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** SAP fixes critical flaws in NetWeaver and Commerce Cloud
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** XBOW tests Anthropic's Mythos Preview for offensive security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
