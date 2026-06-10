@@ -8972,3 +8972,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** EDPB meets with EU Commissioner McGrath and adopts common data breach notification template
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Who Runs the Ransomware Group ‘The Gentlemen?’
+- **Source URL:** https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** NSO Group Hacking WhatsApp Despite Court Order
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities Jun 10, 2026 Vulnerability / Patch Management Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. It's tracked as CVE-2026-25089 (CVSS score: 9.1). "An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests," Fortinet said . The issue impacts the following products and versions - FortiSandbox 5.0.0 through 5.0.5 (Upgrade to 5.0.6 or above) FortiSandbox 4.4.0 through 4.4.8 (Upgrade to 4.4.9 or above) FortiSandbox Cloud 5.0.4 through 5.0.5 (Upgrade to 5.0.6 or above) FortiSandbox PaaS 5.0.4 through 5.0.5 (Upgrade t...
+- **Source URL:** https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE Jun 10, 2026 Vulnerability / Open Source A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. "The 'POST /api/v2/files' endpoint does not sanitize the 'filename' parameter from the multipart form data, allowing an attacker to write files to arbitrary locations on the filesystem using path traversal sequences ('../')," Tenable, which discovered the flaw, said in an alert released in late March 2026. The cybersecurity company said it attempted to contact the project maintainers three times in January and February 2026, before disclosing details of the issue on March 27. Caitlin Condon, vice president of security research at VulnCheck, said in a LinkedIn post ...
+- **Source URL:** https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation Jun 10, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping of output vulnerability in Cisco Catalyst SD-WAN Manager that could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system. CVE-2026-11645 (CVSS score: 8.8) - An out-of-bounds read and write vulnerability in Google Chrome V8 that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. CVE-2026-7473 (CVSS score: 6.9) - An incomplete comparison with missing factors vulnerability in Arista Extensible Operating System (EOS) that could be exploited to process non-configured tunnel traffic. No Patch Planned for Exploited Arista EOS Flaw "On...
+- **Source URL:** https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar Jun 10, 2026 Pentesting / Security Validation Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads "stable" as "secure." It usually isn't. The work slows down. The risk does not. That gap is what a The Hacker News webinar with Picus Security sets out to close. Autumn Stambaugh and Can Yüceel, with host James Azar, show what your tool validates, where it stops, and how to close what it leaves open. Register for the webinar. Start with the core problem. A flat report can mean the obvious holes were fixed. It can also mean the tool has reached the edge of what it can see. Automated pentesting is often treated as full security validation. It is not. Picus frames validation as six surfaces and puts automated pentesting on one of them, the attack path: whether an attacker can move through an environment. That leaves the other five ...
+- **Source URL:** https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs Jun 10, 2026 Vulnerability / Zero-Day Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security feature bypass, seven denial-of-service, and three tampering vulnerabilities. The patches also include two non-Microsoft CVEs, a privilege escalation vulnerability impacting Windows Kernel ( CVE-2025-10263 ) and a UEFI Secure Boot security feature bypass ( CVE-2026-8863 ). They are in addition to more than 350 security flaws that Google has addressed in Chromium, which is used in Microsoft's Edge browser. Topping the list of fixes is CVE-2026-45657 (CVSS score: 9.8), a use-after-free flaw affecting Windows Kernel that could result in remote code execution. "An attacker could exploi...
+- **Source URL:** https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** China-linked JDY botnet expands targeting of U.S. military networks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** The 5 Best Practices for Secure Identity Verification
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-10
+- **Headline / event:** Ivanti: Max severity Sentry flaw allows code execution as root
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

@@ -57,7 +57,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -80,7 +79,9 @@
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection-save-date_en",
       "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en",
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en",
-      "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en"
+      "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en",
+      "https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en"
     ],
     "cisa-kev": [
       "https://www.cve.org/CVERecord?id=CVE-2026-1603",
@@ -190,7 +191,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-issues-report-congress-adoption-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme"
     ],
     "iso-insights": [
@@ -253,7 +253,8 @@
       "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/",
       "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/"
+      "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -336,7 +337,9 @@
       "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
       "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
-      "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html"
+      "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
+      "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
+      "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -811,9 +814,20 @@
       "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
       "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
       "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
-      "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
-      "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
-      "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html"
+      "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+      "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+      "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+      "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+      "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+      "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+      "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
+      "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1328,11 +1342,12 @@
       "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
       "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
       "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
-      "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
-      "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-      "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/"
+      "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/"
     ]
   }
 }
