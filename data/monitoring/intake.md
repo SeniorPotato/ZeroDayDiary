@@ -9060,3 +9060,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** FTC Finalizes Consent Order in Sevita, BrightSpring Acquisition
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Path traversal flaw in AI dev platform Langflow exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** The ‘Miasma’ worm source code briefly leaked on GitHub
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** GitHub announces npm security changes to tackle supply-chain attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
