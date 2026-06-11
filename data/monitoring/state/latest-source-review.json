@@ -1,104 +1,50 @@
 {
-  "generatedAt": "2026-06-10T16:09:40.241Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-10T160940Z.md",
+  "generatedAt": "2026-06-11T04:59:52.175Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-11T045952Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-10",
-      "title": "EDPB meets with EU Commissioner McGrath and adopts common data breach notification template",
-      "link": "https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en",
+      "discovered": "2026-06-11",
+      "title": "FTC Finalizes Consent Order in Sevita, BrightSpring Acquisition",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
       "tier": "Tier 1",
-      "category": "governance",
-      "slug": "edpb-meets-with-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification-templat",
-      "source": "EDPB News"
+      "category": "privacy",
+      "slug": "ftc-finalizes-consent-order-in-sevita-brightspring-acquisition",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-06-10",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "discovered": "2026-06-11",
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "who-runs-the-ransomware-group-the-gentlemen",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "NSO Group Hacking WhatsApp Despite Court Order",
-      "link": "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nso-group-hacking-whatsapp-despite-court-order",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities Jun 10, 2026 Vulnerability / Patch Management Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. It's tracked as CVE-2026-25089 (CVSS score: 9.1). \"An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests,\" Fortinet said . The issue impacts the following products and versions - FortiSandbox 5.0.0 through 5.0.5 (Upgrade to 5.0.6 or above) FortiSandbox 4.4.0 through 4.4.8 (Upgrade to 4.4.9 or above) FortiSandbox Cloud 5.0.4 through 5.0.5 (Upgrade to 5.0.6 or above) FortiSandbox PaaS 5.0.4 through 5.0.5 (Upgrade t...",
-      "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ivanti-fortinet-and-sap-release-patches-for-multiple-critical-vulnerabilities-jun-10-2026-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE Jun 10, 2026 Vulnerability / Open Source A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. \"The 'POST /api/v2/files' endpoint does not sanitize the 'filename' parameter from the multipart form data, allowing an attacker to write files to arbitrary locations on the filesystem using path traversal sequences ('../'),\" Tenable, which discovered the flaw, said in an alert released in late March 2026. The cybersecurity company said it attempted to contact the project maintainers three times in January and February 2026, before disclosing details of the issue on March 27. Caitlin Condon, vice president of security research at VulnCheck, said in a LinkedIn post ...",
-      "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "unpatched-langflow-flaw-cve-2026-5027-exploited-for-unauthenticated-rce-jun-10-2026-vulner",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation Jun 10, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping of output vulnerability in Cisco Catalyst SD-WAN Manager that could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system. CVE-2026-11645 (CVSS score: 8.8) - An out-of-bounds read and write vulnerability in Google Chrome V8 that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. CVE-2026-7473 (CVSS score: 6.9) - An incomplete comparison with missing factors vulnerability in Arista Extensible Operating System (EOS) that could be exploited to process non-configured tunnel traffic. No Patch Planned for Exploited Arista EOS Flaw \"On...",
-      "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-cisco-chrome-and-arista-flaws-to-kev-catalog-amid-active-exploitation-jun-10-202",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar Jun 10, 2026 Pentesting / Security Validation Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads \"stable\" as \"secure.\" It usually isn't. The work slows down. The risk does not. That gap is what a The Hacker News webinar with Picus Security sets out to close. Autumn Stambaugh and Can Yüceel, with host James Azar, show what your tool validates, where it stops, and how to close what it leaves open. Register for the webinar. Start with the core problem. A flat report can mean the obvious holes were fixed. It can also mean the tool has reached the edge of what it can see. Automated pentesting is often treated as full security validation. It is not. Picus frames validation as six surfaces and puts automated pentesting on one of them, the attack path: whether an attacker can move through an environment. That leaves the other five ...",
-      "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "your-automated-pentest-looks-clean-see-what-it-missed-in-this-expert-webinar-jun-10-2026-p",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs Jun 10, 2026 Vulnerability / Zero-Day Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security feature bypass, seven denial-of-service, and three tampering vulnerabilities. The patches also include two non-Microsoft CVEs, a privilege escalation vulnerability impacting Windows Kernel ( CVE-2025-10263 ) and a UEFI Secure Boot security feature bypass ( CVE-2026-8863 ). They are in addition to more than 350 security flaws that Google has addressed in Chromium, which is used in Microsoft's Edge browser. Topping the list of fixes is CVE-2026-45657 (CVSS score: 9.8), a use-after-free flaw affecting Windows Kernel that could result in remote code execution. \"An attacker could exploi...",
-      "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-patches-record-206-flaws-including-three-zero-days-and-critical-rce-bugs-jun-10-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-10",
-      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
-      "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "china-linked-jdy-botnet-expands-targeting-of-u-s-military-networks",
+      "slug": "oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-10",
-      "title": "The 5 Best Practices for Secure Identity Verification",
-      "link": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "discovered": "2026-06-11",
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-5-best-practices-for-secure-identity-verification",
+      "slug": "path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-10",
-      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
-      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "discovered": "2026-06-11",
+      "title": "The ‘Miasma’ worm source code briefly leaked on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ivanti-max-severity-sentry-flaw-allows-code-execution-as-root",
+      "slug": "the-miasma-worm-source-code-briefly-leaked-on-github",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-11",
+      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "github-announces-npm-security-changes-to-tackle-supply-chain-attacks",
       "source": "BleepingComputer"
     }
   ]
