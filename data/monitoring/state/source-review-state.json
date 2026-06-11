@@ -113,7 +113,9 @@
       "https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework",
       "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
       "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
-      "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors"
+      "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
+      "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience",
+      "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -191,7 +193,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition"
     ],
     "iso-insights": [
@@ -338,7 +339,9 @@
       "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
       "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
       "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
-      "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html"
+      "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
+      "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
+      "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -821,7 +824,17 @@
       "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
       "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
       "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
-      "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
+      "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+      "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+      "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+      "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
+      "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+      "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+      "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+      "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+      "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
+      "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+      "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1343,10 +1356,16 @@
       "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
       "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
-      "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
-      "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/"
+      "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+      "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
+      "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+      "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
+      "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/"
     ]
   }
 }

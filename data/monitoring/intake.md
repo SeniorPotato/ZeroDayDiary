@@ -9100,3 +9100,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Cyber Europe 2026: All eyes on the EU’s collective response and resilience
+- **Source URL:** https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Enhanced License Plate Tracking
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories Jun 11, 2026 Cybersecurity Innovations and Excellence Most good security work is invisible by design. Today is the exception. The 2026 Cybersecurity Stars Awards winners are announced across 95 subcategories in four main award categories. The reason is simple. Cybersecurity is full of work that deserves recognition and rarely gets it. Products that quietly close real gaps. Teams that stop incidents nobody reads about. Companies that raise the baseline for everyone else. The Cybersecurity Stars Awards put names on that work, once a year, through independent judging. Every nomination was reviewed by an independent panel of judges and scored against three criteria: innovation, impact, and technical excellence. Entries were not ranked by popularity, brand size, or campaign reach. They were judged on the work itself. Some subcategories have more than one winner. The awards recognize every entry that meets the standard, not just one per category. By design, the winners span four main categories and 97 subcategories, including agentic...
+- **Source URL:** https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories Jun 11, 2026 Hacking News / Cybersecurity News It's been one of those weeks. You expect the usual noise: recycled malware, sloppy attacks, another easy target getting hit. Instead, there's a supply chain attack kit in a public repo, a $5,000-a-month RAT that clones browsers, and research showing AI agents can be tricked into leaking real credentials. The bigger problem is how polished this all looks now. Mule networks run like SaaS. Deepfake KYC bypass is sold as a feature. Endpoint tools can be quietly weakened using built-in OS settings, with no exploit needed. Here's the full list of threats, tools, flaws, and updates worth knowing.
+- **Source URL:** https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS. Jun 11, 2026 Artificial Intelligence / Threat Intelligence For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn't make your team slower. It changed the other side of the equation, compressing discovery-to-exploit from months to hours . And the sad truth for defenders is that a process built for breathing room can't survive without it. AI Turned Vulnerability Discovery Into a Volume Game In its May 2026 update, Anthropic reported that it and approximately 50 partners used Claude Mythos Preview to find more than 10,000 high- or critical-severity vulnerabilities in systemically important software in a single month. Earlier figures were just as stark. Pointed at Firefox, the gated Mythos model wrote 181 working exploits , against just 2 from t...
+- **Source URL:** https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack Jun 11, 2026 Supply Chain Attack / Cyber Espionage The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The campaigns involve a prolonged cyber espionage operation aimed at a Vietnamese infrastructure and transport construction corporation between mid-2024 and February 2026, as well as a supply chain attack leveraging FireAnt Metakit, a popular software platform used by stock investors in Vietnam. The second activity cluster took place from October 2025 to March 2026. The two sets of attacks represent a shift in operational focus, per ESET, with the threat actor placing an increasing emphasis on domestic espionage rather than external targets. The group, active since 2012, also has a history of targeting China . "Whether the shift represents a temporary adjustment or a long-term strategic change remains unclear; however, this 15-year-old APT group continues to demonstrate aggressive tact...
+- **Source URL:** https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks Jun 11, 2026 Developer Security / Software Supply Chain GitHub has announced what it said are "breaking changes" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to combat attack techniques that abuse the "npm install" command to trigger the execution of malicious code using npm lifecycle hooks. "Npm install" is used to download and install all the necessary dependencies for a Node.js project. Version 12 is scheduled for release next month. Describing install-time lifecycle scripts as the "single largest code-execution surface in the npm ecosystem," GitHub said the "npm install" command runs scripts from every transitive dependency, as a result of which a single compromised package anywhere in the dependency tree can run arbitrary code on a developer machine or CI runner. By blocking such behaviours, the idea is to require explicit user approval before code execution is initiated automatically durin...
+- **Source URL:** https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Why AI-driven threats are exposing the limits of MSP security stacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Coupang hit with record $409 million data breach fine in Korea
+- **Source URL:** https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** CISA tells govt agencies to patch critical exploited flaws in 3 days
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Nottingham University data breach affects over 450,000 students
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-11
+- **Headline / event:** Max severity Ivanti Sentry vulnerability now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
