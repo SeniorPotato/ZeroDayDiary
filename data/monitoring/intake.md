@@ -9260,3 +9260,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Coordinated Supervision Committee extends scope to include Eurodac
+- **Source URL:** https://www.edpb.europa.eu/news/news/2026/coordinated-supervision-committee-extends-scope-include-eurodac_en
+- **Source tier:** Tier 1
+- **Initial category guess:** governance
+- **Why it may matter:** newly detected through scheduled source review from edpb news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** FTC Files Contempt Motion Against Amare Global and Three Individuals Over Unsubstantiated Health Claims
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Bernie Sanders’ AI Sovereign Wealth Fund Plan
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code Jun 12, 2026 Artificial Intelligence / Vulnerability Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted using Sentry, an open-source error-tracking and performance-monitoring platform. "The attack exploits a critical architectural flaw at the intersection of Sentry's event ingestion (which accepts arbitrary payloads from anyone with the DSN) and the Sentry MCP server (which returns this data to AI agents as trusted system output)," security researchers Ron Bobrov, Barak Sternberg, and Nevo Poran said . The idea is to inject crafted input into Sentry error events, which are then interpreted by coding agents like Claude Code and Cursor as legitimate diagnostic resolution steps and run attacker-controlled code. A successful attack of this kind can expose sensitive data, includ...
+- **Source URL:** https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Rethinking MDR as Attackers and Defenders Embrace AI Jun 12, 2026 Endpoint Security / SOC Automation For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It worked well enough. Until now. The threat landscape has changed faster than the MDR model can adapt. Attackers are using AI to move faster, generate more convincing phishing at scale, automate reconnaissance, and create malware variants that evade signature-based detection. The attack surface has expanded from endpoint to cloud, identity, and network simultaneously. And yet MDR is still doing what it always did. Routing alerts to human analysts who triage what they can, in the order they can get to it. That is no longer enough. The data we share below proves it and security leaders might consider exploring whether they have outgrown their MDR . MDR's 24/7 promise doesn't cover 60% of your alerts MDR promised 24/7 human cov...
+- **Source URL:** https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution Jun 12, 2026 Vulnerability / AI Security Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph , including a critical vulnerability chain that could result in remote code execution. LangGraph is an open-source framework created by LangChain to build complex, stateful, and multi-agent artificial intelligence (AI) agentic applications. "An SQL injection in LangGraph's function could allow attackers to gain full control via remote code execution of a server by exploiting weaknesses in how the system processes and handles data," Check Point said . The list of identified vulnerabilities is as follows - CVE-2025-67644 (CVSS score: 7.3) - A SQL injection vulnerability exists in LangGraph's SQLite checkpoint implementation that allows attackers to manipulate SQL queries through metadata filter keys. (Affects langgraph-checkpoint-sqlite versions before 3.0.1) CVE-2026-28277 (CVSS score: 6.8) - An unsafe msgpack deserialization vulnerability in LangG...
+- **Source URL:** https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator Jun 12, 2026 Cybercrime / Phishing An INTERPOL-led operation last month resulted in the disruption of Sniper Dz , a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Operation Ramz , took place between October 2025 and February 2026, and saw authorities from 13 countries in the Middle East and North Africa (MENA) region making 201 arrests. Included among them was Guedz, the primary developer and administrator of Sniper Dz, a PhaaS service that's said to have collected more than 45,000 victim records. The arrest was made by the Algerian National Police. Over the years, the platform rebranded itself as Joker Dz, Storm Dz, and Spam Dz. As part of Operation Ramz, the website used to offer PhaaS capabilities to other cybercriminals was taken down. Authorities also seized hardware containing phishing software and scripts. "Active since at least 2015, Sniper Dz evolved into a sophisticated criminal platform offering ready-made phishing kits, hosting infrastructu...
+- **Source URL:** https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs Jun 12, 2026 Cybercrime / Dark Web Authorities in Europe have disrupted AudiA6 , a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a "key financial pipeline used to wash hundreds of millions in illicit profits." The service is estimated to have been used to launder more than €336 million (~$389 million) since the service was launched in 2021. "The platform became a central hub for ransomware actors and cybercriminals seeking to cash out stolen digital assets while hiding the money trail from authorities," the agency added . The operators of AudiA6 are suspected to have also administered a dark web cybercrime forum known as Dark2Web, where cybercriminals advertised illicit services and connected with other threat actors across the world. As part of the operation that took place on June 10, 2026, a number of coordinated actions were carried out, including - The arrest of ...
+- **Source URL:** https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Early Warning Signs of Supply-Chain Attacks Live in the Dark Web
+- **Source URL:** https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Pharma giant Novo Nordisk discloses breach of clinical trials data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** CISA orders feds to patch actively exploited Ivanti flaw by Sunday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Over 73,000 French govt employees affected in Tchap messenger breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

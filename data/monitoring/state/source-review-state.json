@@ -58,7 +58,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -82,7 +81,9 @@
       "https://www.edpb.europa.eu/news/news/2026/marking-10-years-gdpr-evolution-european-data-protection-landscape_en",
       "https://www.edpb.europa.eu/news/news/2026/stakeholder-event-competition-and-data-protection_en",
       "https://www.edpb.europa.eu/news/news/2026/europe-day-2026-lets-celebrate-together_en",
-      "https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en"
+      "https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en",
+      "https://www.edpb.europa.eu/news/news/2026/coordinated-supervision-committee-extends-scope-include-eurodac_en",
+      "https://www.edpb.europa.eu/news/news/2026/coordinated-supervision-committee-extends-scope-include-eurodac_en"
     ],
     "cisa-kev": [
       "https://www.cve.org/CVERecord?id=CVE-2026-1603",
@@ -194,7 +195,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/architect-law-firm-dei-programs-dissolves",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -341,7 +344,9 @@
       "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
       "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
       "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
-      "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html"
+      "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
+      "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
+      "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -834,10 +839,16 @@
       "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
       "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
       "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
-      "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-      "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-      "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-      "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html"
+      "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+      "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
+      "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+      "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+      "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+      "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+      "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
+      "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+      "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+      "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1367,9 +1378,14 @@
       "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
       "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
       "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-      "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/"
+      "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+      "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+      "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/"
     ]
   }
 }
