@@ -9196,3 +9196,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities Jun 11, 2026 Vulnerability / Data Breach The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hardest. Google's Mandiant attributes it to the group it tracks as UNC6240, and dates the activity between May 27 and June 9. Oracle did not publish its advisory until June 10, so the bug was a zero-day the entire time. The flaw, CVE-2026-35273 , is a remote code execution bug in PeopleSoft Enterprise PeopleTools rated 9.8 out of 10. It needs no login and no user interaction, just network access over HTTP, to take over the server. If you run PeopleSoft with the Environment Management Hub reachable from outside, that is your exposure, and the immediate move is to lock those endpoints down. The vulnerability sits in the Updates Environment Management component, the piece behind the Environment Management Hub (PSEMHUB). Oracle lists PeopleTools 8.61 and 8.62 as affected and says earl...
+- **Source URL:** https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets Jun 11, 2026 AI Security / Data Security Two security teams have shown, in separate research published this week, that OpenClaw , the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on the platform, gave it a mailbox full of synthetic business data, and watched a single plain email talk it into forwarding mock AWS keys and a fake customer export to an outside address. The flaw Imperva found is patched in OpenClaw 2026.4.23, so update if you run it. The phishing weakness Varonis found is not something a patch fixes; it comes down to limiting what the agent can do on its own. Different doors into the same room: the agent trusts what reaches it, and its access becomes the attacker's. Hidden commands in a shared contact Imperva researcher Yohann Sillam looked at ...
+- **Source URL:** https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files Jun 11, 2026 Endpoint Security / Vulnerability Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML , a day after they published an exploit for Microsoft Defender. "This was an accidental discovery, it took a total of 4 hours to find this," the researcher said in a post on Blogger. "If you ever attempted to use Windows Defender Offline Scan, you're automatically vulnerable to a BitLocker bypass. I'm unsure if you can still trigger the bug without ever using the offline scan feature, because you can definitely." The exploit works as follows - Copy an XML file ("unattend.xml") and a recovery folder containing another XML file ("Recovery/WindowsRE/ReAgent.xml") to the root of the recovery partition. Reboot to Windows Recovery Environment ( WinRE ) by holding Shift while clicking Restart in the Windows power menu. If every step is followed correctly, the result is a shell spawned with unres...
+- **Source URL:** https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm Jun 11, 2026 Cybercrime / Ransomware A new analysis of The Gentlemen operation has revealed that the financially motivated threat group initially operated as an affiliate responsible for conducting double extortion attacks, while leveraging resources from various ransomware-as-a-service (RaaS) schemes like LockBit (aka Tenacious Mantis), Qilin (aka Pestilent Mantis), and Medusa (aka Venomous Mantis). According to a detailed report published by PRODAFT, the group, which it tracks as Phantom Mantis, is led by a Russian-speaking cybercriminal it calls LARVA-368, who goes by the online aliases hastalamuerte, ArmCorp, zeta88, nobody0, and santamuerte. The Gentlemen is known to be active since March 2025, claiming a total of 478 victims to date, per data from Ransomware.Live. "In July 2025, Phantom Mantis transitioned into The Gentlemen, an independent partnership program no longer dependent on other RaaS groups," the Swiss cybersecurity company said. "Additionally, LARVA-368 relies heavily on artificia...
+- **Source URL:** https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Japanese energy firm loses drive with data of 10.9 million clients
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Maine breach portal abused to publish fake data breach disclosures
+- **Source URL:** https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-12
+- **Headline / event:** Oracle mitigates PeopleSoft zero-day exploited in data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

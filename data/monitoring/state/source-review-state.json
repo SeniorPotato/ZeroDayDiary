@@ -57,7 +57,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -114,7 +116,6 @@
       "https://www.enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root",
       "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
-      "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience",
       "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience"
     ],
     "ncsc-news": [],
@@ -340,7 +341,6 @@
       "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
       "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
       "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
-      "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
       "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html"
     ],
     "the-hacker-news": [
@@ -830,11 +830,14 @@
       "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
       "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
       "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-      "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
-      "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
-      "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
-      "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-      "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
+      "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+      "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1361,11 +1364,12 @@
       "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
       "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
       "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
-      "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
-      "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
-      "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
-      "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
+      "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+      "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
+      "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
+      "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/"
     ]
   }
 }
