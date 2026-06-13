@@ -1,86 +1,41 @@
 {
-  "generatedAt": "2026-06-13T04:52:55.565Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-13T045255Z.md",
+  "generatedAt": "2026-06-13T14:28:41.324Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-13T142841Z.md",
   "candidates": [
     {
       "discovered": "2026-06-13",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication Jun 13, 2026 Vulnerability / Enterprise Software Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253 , is rated 9.8 on the CVSS scoring system. \"In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary files through a PostgreSQL sidecar service endpoint,\" Splunk said in an alert this week. \"The vulnerability exists because the PostgreSQL sidecar service endpoint lacks authentication controls, allowing any network-reachable user to invoke file operations without credentials.\" The issue has been addressed in the following versions - Splunk Enterprise 10.0.0 to 10.0.6 - Fixed in 10.0.7 Splunk Enterprise 10.2.0 to 10.2.3 - Fixed in 10.2.4 Splunk Enterprise 10.4 - Not affected Splunk, which is part of Cisco, said Splunk Cloud is not impacted by the vulnera...",
+      "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-06-13",
-      "title": "Friday Squid Blogging: Squid-Inspired Fluid Pump",
-      "link": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "friday-squid-blogging-squid-inspired-fluid-pump",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-06-13",
-      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit Jun 12, 2026 Linux / Supply Chain Attack Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF rootkit to hide itself. The AUR is Arch Linux's community package collection, and it is separate from the official Arch repositories, which were not affected. If you installed or updated an AUR package on or after June 11, check it against the current affected-package lists before trusting the host. The list of names is large, still growing, and not yet complete. This attack goes after the trust model, not a software flaw. The compromised packages kept their names, their histories, and the trust that came with them. Only the build instructions changed. The trap sat in the recipe, leaving the package itself looking exactly like the software users meant to install. No exploit, no ze...",
-      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "over-400-arch-linux-aur-packages-hijacked-to-deploy-infostealer-and-ebpf-rootkit-jun-12-20",
+      "slug": "critical-splunk-enterprise-flaw-lets-attackers-run-code-without-authentication-jun-13-2026",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-13",
-      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing Jun 12, 2026 Cybercrime / Artificial Intelligence Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans. The network is said to be behind the development and management of a phishing-as-a-service (PhaaS) software kit called Outsider, per the tech giant. \"The operation weaponized Gemini to help generate fraudulent phishing pages and deploy massive SMS phishing ('smishing') attacks, often through text messages impersonating legitimate brands, alerting recipients of 'brokerage account issues' or insisting they are eligible for 'rewards through their mobile phone carrier,'\" Google said . \"The texts prompt users to click a link leading to a fraudulent website that mimics trusted institutions to steal personal and financial information.\" Google said it's filing the lawsuit to dismantle the network's infrastructure, and that it...",
-      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals Jun 13, 2026 Artificial Intelligence / National Security Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5 , for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national security concerns. The AI company said it received an order at 5:21 p.m. ET, instructing it to suspend all access to the models by foreign nationals. It said that it believed there was a \"misunderstanding\" and that it is working to restore access to the models as soon as possible. Access to other models will not be affected by the export control directive. \"Our understanding is that the government believes it has become aware of a method of bypassing, or 'jailbreaking' Fable 5,\" the company said. \"We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulner...",
+      "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-sues-chinese-smishing-network-accused-of-using-gemini-ai-in-phishing-jun-12-2026-cy",
+      "slug": "u-s-orders-anthropic-to-suspend-fable-5-and-mythos-5-access-for-foreign-nationals-jun-13-2",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-13",
-      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade Jun 12, 2026 Linux / Network Security Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Velvet Ant , says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in, planting its access where ordinary cleanup could not reach it. The network it targeted had no direct internet access, so the group first staged through internet-facing systems to get there. The earliest traces go back to 2016. Instead of dropping new malware that a scanner might catch, the attacker changed the trusted login programs themselves. Nothing obvious appeared, and no exploit was needed, so the activity looked like normal administration. On many machines, the attacker replaced the main PAM login module with backdoored copies. Some let them in with a secret password; others quietly recorded real usernames and passwords as people logged in. Researchers found nine separate ver...",
-      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
+      "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "china-linked-hackers-backdoored-linux-login-software-to-hide-for-nearly-a-decade-jun-12-20",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-13",
-      "title": "Maine disables data breach notification portal after fake disclosures",
-      "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "maine-disables-data-breach-notification-portal-after-fake-disclosures",
+      "slug": "chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-13",
-      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
-      "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+      "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+      "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-13",
-      "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
-      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-13",
-      "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer",
+      "slug": "us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos",
       "source": "BleepingComputer"
     }
   ]

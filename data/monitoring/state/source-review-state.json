@@ -59,7 +59,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -346,7 +345,6 @@
       "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
       "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
       "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
-      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html"
     ],
     "the-hacker-news": [
@@ -848,9 +846,10 @@
       "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
       "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
       "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html"
+      "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+      "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1388,10 +1387,10 @@
       "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
       "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
       "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-      "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-      "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
-      "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-      "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/"
+      "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+      "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+      "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+      "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/"
     ]
   }
 }

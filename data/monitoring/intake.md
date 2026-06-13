@@ -9428,3 +9428,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication Jun 13, 2026 Vulnerability / Enterprise Software Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253 , is rated 9.8 on the CVSS scoring system. "In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary files through a PostgreSQL sidecar service endpoint," Splunk said in an alert this week. "The vulnerability exists because the PostgreSQL sidecar service endpoint lacks authentication controls, allowing any network-reachable user to invoke file operations without credentials." The issue has been addressed in the following versions - Splunk Enterprise 10.0.0 to 10.0.6 - Fixed in 10.0.7 Splunk Enterprise 10.2.0 to 10.2.3 - Fixed in 10.2.4 Splunk Enterprise 10.4 - Not affected Splunk, which is part of Cisco, said Splunk Cloud is not impacted by the vulnera...
+- **Source URL:** https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals Jun 13, 2026 Artificial Intelligence / National Security Anthropic said on Friday it will "abruptly disable" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5 , for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national security concerns. The AI company said it received an order at 5:21 p.m. ET, instructing it to suspend all access to the models by foreign nationals. It said that it believed there was a "misunderstanding" and that it is working to restore access to the models as soon as possible. Access to other models will not be affected by the export control directive. "Our understanding is that the government believes it has become aware of a method of bypassing, or 'jailbreaking' Fable 5," the company said. "We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulner...
+- **Source URL:** https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Chinese hackers hijack auth flow, spy on isolated network for a decade
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
