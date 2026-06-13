@@ -9356,3 +9356,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Friday Squid Blogging: Squid-Inspired Fluid Pump
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit Jun 12, 2026 Linux / Supply Chain Attack Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF rootkit to hide itself. The AUR is Arch Linux's community package collection, and it is separate from the official Arch repositories, which were not affected. If you installed or updated an AUR package on or after June 11, check it against the current affected-package lists before trusting the host. The list of names is large, still growing, and not yet complete. This attack goes after the trust model, not a software flaw. The compromised packages kept their names, their histories, and the trust that came with them. Only the build instructions changed. The trap sat in the recipe, leaving the package itself looking exactly like the software users meant to install. No exploit, no ze...
+- **Source URL:** https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing Jun 12, 2026 Cybercrime / Artificial Intelligence Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans. The network is said to be behind the development and management of a phishing-as-a-service (PhaaS) software kit called Outsider, per the tech giant. "The operation weaponized Gemini to help generate fraudulent phishing pages and deploy massive SMS phishing ('smishing') attacks, often through text messages impersonating legitimate brands, alerting recipients of 'brokerage account issues' or insisting they are eligible for 'rewards through their mobile phone carrier,'" Google said . "The texts prompt users to click a link leading to a fraudulent website that mimics trusted institutions to steal personal and financial information." Google said it's filing the lawsuit to dismantle the network's infrastructure, and that it...
+- **Source URL:** https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade Jun 12, 2026 Linux / Network Security Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Velvet Ant , says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in, planting its access where ordinary cleanup could not reach it. The network it targeted had no direct internet access, so the group first staged through internet-facing systems to get there. The earliest traces go back to 2016. Instead of dropping new malware that a scanner might catch, the attacker changed the trusted login programs themselves. Nothing obvious appeared, and no exploit was needed, so the activity looked like normal administration. On many machines, the attacker replaced the main PAM login module with backdoored copies. Some let them in with a secret password; others quietly recorded real usernames and passwords as people logged in. Researchers found nine separate ver...
+- **Source URL:** https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Maine disables data breach notification portal after fake disclosures
+- **Source URL:** https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** phpBB forum fixes auth bypass bug lurking for a decade
+- **Source URL:** https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Ukrainian national pleads guilty to role in Conti ransomware operation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-13
+- **Headline / event:** Over 400 Arch Linux packages compromised to push rootkit, infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
