@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:10:23.456Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-14T051023Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-06-14",
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ex-school-district-employee-jailed-for-hacks-on-former-employer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-06-14T14:30:18.832Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-14T143018Z.md",
+  "candidates": []
 }
