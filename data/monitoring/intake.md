@@ -9476,3 +9476,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** The FCC Wants to Eliminate Burner Phones
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers Jun 15, 2026 Artificial Intelligence / Vulnerability A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that decrypt its stored credentials, and every prompt and response passing through it. Obsidian rates the full chain CVSS 9.9, in the Critical range. BerriAI , the maintainer, included the complete fix set in LiteLLM v1.83.14-stable, which GitHub lists as released May 2. Upgrade to that release or later to close the three-CVE chain. The three bugs The first link is CVE-2026-47101 , an authorization bypass. When a regular user (an internal_user) generates a virtual API key, LiteLLM stores the caller-supplied allowed_routes field without checking it against the user's role. The field is...
+- **Source URL:** https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes Jun 15, 2026 Vulnerability / Enterprise Security A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers at Varonis Threat Labs chained three bugs into a one-click exfiltration path they call SearchLeak . Because the link pointed to a real microsoft.com domain, traditional anti-phishing and URL filtering tools were unlikely to flag it. No prompt, no password, no second click. Microsoft assigned CVE-2026-42824 and marked it critical; the CVSS scores ran lower and disagreed, 6.5 from Microsoft and 7.5 from the National Vulnerability Database . The company mitigated the flaw on its backend, so customers have nothing to worry about, and Varonis presented a proof-of-concept, not observed exploitation. Three bugs, one click Microsoft's advisory describes the flaw as a command injection that can expose information over a network. In practice, SearchLeak stacks one AI-specific weakness on two old web bugs, ...
+- **Source URL:** https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** The Onboarding Password Mistake That Creates Unnecessary Risk Jun 15, 2026 Password Security / Critical Infrastructure Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means sharing a temporary "first-day" password so employees can access systems for the first time. The issue is that these passwords don't always stay temporary. They may be sent over email or SMS, reused across accounts, or never changed at all, creating unnecessary risk during the onboarding process. For attackers, weak or poorly managed onboarding credentials can provide an easy route into corporate systems. To make the onboarding process more secure without slowing new employees down, it's important to understand why typical password-sharing methods introduce risk. When convenience overrides security The most common approach to sharing initial credentials with new employees is to send them in plain text over email or SMS. It's quick and convenient, especially during busy onboardin...
+- **Source URL:** https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** 152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic Jun 15, 2026 Browser Security / Privacy Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) family. The cluster spans 38 separate Chrome Web Store publisher accounts and three brand backends: tabplugins[.]com, yowgames[.]com, and chromewallpaper[.]com. They have been collectively installed 105,000 times. The names of some of the extensions are listed below - Neymar - Football Live Wallpaper (laafpeklcnlfmjaofbndehkjpnccbhek) Satoru Gojo Manga Live Wallpaper (mnpacdigbockiilmilhbedciadenfdnb) Porsche 911 - Sports Car Live Wallpaper (dead service worker) (iedplnnolciaofkakkjmcojnmklpfikg) Satoru Gojo Live Wallpaper (ipiabbhciknabpoihaakdahgghllelpj) Hello Kitty Wallpapers HD New Tab (hijpkhinofkdobfagfbobnnoihmopgkk) Pusheen Cat Wallpapers HD New Tab (famchdjojcnakamhkddkpaglnkonkfnl) Peach & Goma Wallpapers HD New Tab (nomekamioepglinefhenifnbegjhfiai) Spider-Man Miles ...
+- **Source URL:** https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites Jun 15, 2026 Web Security / Supply Chain Attack An attacker tampered with trusted JavaScript files used by WordPress sites running PushEngage , OptinMonster , and TrustPulse , turning those files into a way to break into the sites. When a site administrator was logged in as the file loaded, the code created an admin account under the attacker's control and installed a hidden plugin that opened a way back in. Ordinary visitors did not trigger it. Any site that was hit should be treated as compromised. All three plugins are run by one company, Awesome Motive, which had not commented on the two larger plugins as of June 15. Security firm Sansec disclosed the wider campaign on June 13, finding the same malicious code in JavaScript served for all three plugins. PushEngage followed a day later with its own incident notice , confirming an attacker had served tampered copies of its script and that sites loading them could be taken over. PushEngage, acquired by Awesome Motive years ago, is so far the only one of the three to ...
+- **Source URL:** https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** Council of Europe investigates ShinyHunters data breach claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** FBI: Fraudsters use couriers to steal money in crypto scams
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** Vibe coders are gonna vibe code: How CISOs are tackling code sprawl
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-15
+- **Headline / event:** Chinese hackers breach REDCap servers, steal medical research
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

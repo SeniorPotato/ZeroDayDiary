@@ -345,7 +345,9 @@
       "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
       "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
       "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
-      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html"
+      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
+      "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html",
+      "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -847,7 +849,19 @@
       "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
       "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
       "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-      "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html"
+      "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+      "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+      "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+      "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+      "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1389,7 +1403,19 @@
       "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
       "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
       "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/"
+      "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+      "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
+      "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
+      "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
+      "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+      "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
+      "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
+      "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
+      "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+      "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+      "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/"
     ]
   }
 }
