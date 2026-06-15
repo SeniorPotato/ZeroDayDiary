@@ -1,5 +1,15 @@
 {
-  "generatedAt": "2026-06-14T14:30:18.832Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-14T143018Z.md",
-  "candidates": []
+  "generatedAt": "2026-06-15T05:29:29.280Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-15T052929Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-06-15",
+      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls",
+      "source": "BleepingComputer"
+    }
+  ]
 }
