@@ -9620,3 +9620,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Flock Cameras Are Being Used for Stalking
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds Jun 16, 2026 Mobile Security / Malware Security researchers at Zimperium's zLabs have documented a new Android banking trojan, Rokarolla , that targets 217 banking and cryptocurrency apps and packs 137 remote commands. Together, they give an operator near-total control of an infected phone: it lifts lock-screen PINs, reads and sends SMS, rewrites the clipboard to redirect crypto payments, and switches off Google Play Protect. Rokarolla , named after its command-and-control servers, spreads through malicious websites posing as well-known apps such as TikTok and Chrome. The first thing a victim installs is a dropper that pretends to be Google Play Protect. It uses that disguise to get the payload installed and grab Accessibility access. Once the malware is running, one of its commands turns Play Protect off. The theft runs through overlays. Rokarolla pulls a target list from its server, and for each app flagged active, it downloads a fake HTML login page and stores it in a local database. When the victim ope...
+- **Source URL:** https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive Jun 16, 2026 Threat Intelligence / Zero Trust Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors and platforms. Yet despite this abundance of information, many organizations continue to face a fundamental challenge: sifting through the noise to understand who is behind an IP and what action should follow . Case in point: a recent industry study of more than 200 security practitioners conducted by Spur Intelligence found that anonymizing infrastructure - including VPNs and residential proxy networks - now appears in nearly every security incident. At the same time, the study showed that many organizations admit they lack the visibility, context, and operational workflows needed to make effective decisions based on that IP data. The findings support a broader industry trend: a reactive approach to managing IP-based risks. The Rise of Anonymized Infrastructure...
+- **Source URL:** https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week Jun 16, 2026 Vulnerability / Threat Intelligence Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber. In a post shared on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808 , and CVE-2026-25089 over the past 24 hours. CVE-2026-39813 (CVSS score: 9.1) refers to a path traversal vulnerability in FortiSandbox JRPC API that could allow an unauthenticated attacker to bypass authentication via specially crafted HTTP requests. The second flaw, CVE-2026-39808 (CVSS score: 9.1), is a case of operating system command injection that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests. Both vulnerabilities were patched by Fortinet in April 2026. CVE-2026-25089 (CVSS score: 9.1), on the other hand, was fixed last week, with Fortinet describing it as an operating system command injection impacting FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI that co...
+- **Source URL:** https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth Jun 16, 2026 Malware / Cyber Espionage Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS . "The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS," ESET said in a report shared with The Hacker News. "Both come with a hard-coded C&C [command-and-control] configuration and support communication over TCP, UDP, and WebSocket protocols." Like its Linux counterpart, the Windows versions support more than 30 commands to facilitate system information collection, process enumeration, service management, and file system operations. WIN_DRV has also been found to utilize kernel drivers to conceal the malware's network connections, processes, files, and registry keys. In addition, the variant enables TCP traffic diversion that allows the malware operators to send commands to the backdoor through a random TCP port on the victim's device without exposing the backdoor's act...
+- **Source URL:** https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware Jun 16, 2026 Malware / Cyber Attack The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT . "The attack email contained a message impersonating an MS account security alert," the Genians Security Center (GSC) said . "It was designed to create concern over possible account compromise and OTP abuse, thereby inducing the recipient to execute the attachment." "The email body instructed the recipient to refer to the attached advisory. However, the actual attachment was not an HWP [Hangul Word Processor] document, but a ZIP archive that contained a malicious LNK file." The email message claims "abnormal activity" related to repeated generation of one-time passwords, passing it off as a phishing attempt aimed at the target's Microsoft Account by a third-party, and urging them to change their password. The end goal o...
+- **Source URL:** https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** UK to require ID or face scan before you can make social media accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** GhostTree Attack Abused Recursive Windows Junctions to Hide
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** FTC warns of record $3.5 billion losses to imposter scams in 2025
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** CISA warns of another cPanel plugin flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Ransomware gang abuses Microsoft Teams relays to hide malicious traffic
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
