@@ -9564,3 +9564,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** FTC Data Show People Reported Losing $3.5 Billion to Imposter Scams in 2025
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails Jun 15, 2026 Cyber Espionage / Email Security A China-linked espionage group hid inside North American medical, academic, and military research networks for more than a year, quietly stealing sensitive research and defense email. The way in was a backdoor on their REDCap research servers that stole login credentials. The exfiltration was the unusual part: the attackers rewired the victims' own Google Workspace rules to copy any message matching their keywords to an inbox they controlled. Google's Threat Intelligence Group (GTIG) laid out the campaign in a report published this week and attributes it with high confidence to a cluster it tracks as UNC6508. The actor and its REDCap backdoor are not new names; Google first surfaced both in February , in a wider report on state-backed attacks against the defense sector. It did not name the victims, describing them only as multiple organizations across the US and Canada: clinical providers, academic centers, military health institutions, advocacy groups, and health regul...
+- **Source URL:** https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels Jun 15, 2026 Malware / Supply Chain Attack Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void Dokkaebi). According to a report published by Proofpoint, the threat actor has been found orchestrating phishing campaigns using developer role recruitment or code review themes to target nearly 100 organizations in finance, cryptocurrency, education, technology, and several other sectors. The activity has been codenamed UNK_DeadDrop . "The infection chain begins with emails containing links to actor-controlled GitHub repositories hosting malicious scripts that result in the execution of cross-platform malware for macOS, Linux, and Windows, including an open-source Go framework named Overlord ," Proofpoint researchers Saher Naumaan and Carlos Rubio said . A crucial aspect connecting the campaign to Pyongyang is the use of Microsoft Visual Studio Code (...
+- **Source URL:** https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act
+- **Source URL:** https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** SimpleHelp bug lets hackers create rogue remote support accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-16
+- **Headline / event:** OptinMonster WordPress plugin hacked in CDN supply-chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
