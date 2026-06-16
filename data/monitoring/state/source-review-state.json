@@ -59,7 +59,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -196,7 +198,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -346,7 +350,6 @@
       "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
       "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
-      "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html",
       "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html"
     ],
     "the-hacker-news": [
@@ -855,13 +858,12 @@
       "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
       "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
       "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
-      "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-      "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-      "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
       "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
-      "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html"
+      "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+      "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1408,14 +1410,15 @@
       "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
       "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
       "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
-      "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-      "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-      "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-      "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
-      "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
       "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
       "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
-      "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/"
+      "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
+      "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+      "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+      "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/"
     ]
   }
 }
