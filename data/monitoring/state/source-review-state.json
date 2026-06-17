@@ -61,7 +61,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -351,7 +350,9 @@
       "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
       "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html",
-      "https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html"
+      "https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html",
+      "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
+      "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -872,8 +873,17 @@
       "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
       "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
       "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
-      "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
-      "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html"
+      "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+      "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+      "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+      "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+      "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1437,9 +1447,16 @@
       "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
       "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
       "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-      "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-      "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-      "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/"
+      "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+      "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+      "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/"
     ]
   }
 }
