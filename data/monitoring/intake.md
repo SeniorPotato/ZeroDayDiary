@@ -9708,3 +9708,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting Jun 16, 2026 Machine Learning / Cloud Security A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique " Pickle in the Middle " and said it saw no exploitation in the wild. Google has patched it; if you use the SDK, update to version 1.148.0 or later. The attacker needed only a Google Cloud project of their own and the victim's project ID, which is often public. No credentials, no phishing, no foothold in the target. The flaw was in how the SDK chose a temporary Cloud Storage bucket for model uploads. If a user did not set a bucket, the SDK generated a predictable name from the project ID and region, such as project-vertex-staging-region . It checked whether that bucket existed, but not whether the victim owned it. Because buc...
+- **Source URL:** https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures Jun 16, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader , Lorem Ipsum Loader , and Potemkin , per independent reports from Morphisec , BlueVoyant , and Huntress , respectively. Attacks involving BabaDeda Loader, observed in April 2026, have targeted education and financial organizations. "Earlier BabaDeda activity was known for concealing malicious payloads inside legitimate looking installer packages," Morphisec researcher Shmuel Uzan said. "This new framework keeps that same code genome but expands it into a far more capable loader built for stealth, evasion, and payload flexibility." The starting point of the attacks is a ClickFix social engineering attack that deceives users into running attacker-supplied PowerShell commands to deliver the loader, which is then used to drop information stealers and remote access trojans (RATs) by combining well-known techniques like hidden PowerShell, i...
+- **Source URL:** https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** Malicious JetBrains Marketplace plugins steal AI API keys from developers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** New Rokarolla Android malware targets 217 banking, crypto apps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-17
+- **Headline / event:** Steam Workshop abused to spread malware via Wallpaper Engine app
+- **Source URL:** https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
