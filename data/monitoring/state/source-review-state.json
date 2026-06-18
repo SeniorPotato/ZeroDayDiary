@@ -199,7 +199,13 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-returns-nearly-3-million-consumers-deceived-mortgage-relief-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-finalizes-consent-order-sevita-brightspring-acquisition",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-contempt-motion-against-amare-global-three-individuals-over-unsubstantiated-health-claims",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -351,7 +357,6 @@
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
       "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html",
       "https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html",
-      "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
       "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html"
     ],
     "the-hacker-news": [
@@ -878,12 +883,11 @@
       "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
       "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
       "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-      "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-      "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-      "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html"
+      "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+      "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+      "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
+      "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+      "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1452,11 +1456,8 @@
       "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
       "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
       "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/"
+      "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+      "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/"
     ]
   }
 }

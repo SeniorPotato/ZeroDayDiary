@@ -9844,3 +9844,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** FTC Sues to Stop Sprawling Enterprise Operating Unlawful Subscription Schemes
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** FTC Approves Final Consent Order in Micromarket Kiosks Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** FTC, States Sue World Professional Association for Transgender Health Over Deceptive Claims Regarding the Treatment of Children
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments Jun 17, 2026 Malware / Social Engineering An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a cluster of accounts that engage in coordinated activity on VirusTotal with the intent to misclassify malicious files as safe. "To push a malicious 'tool,' a single threat actor borrowed the same playbook legitimate brands use to build buzz: inflated download counts, coordinated five-star reviews, influencer-style tutorial videos, and promotion on platforms people instinctively trust," Check Point said in a report shared with The Hacker News. "The result is a fake reputation economy spanning every platform a curious victim might check before they click 'download.'...
+- **Source URL:** https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development Jun 17, 2026 Endpoint Security / Vulnerability Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet . The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender, publicly referred to as 'RoguePlanet,'" the company said. "We are working to provide a high-quality security update that addresses this vulnerability." The development comes nearly a week after a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse) released RoguePlanet, calling the exploit a case of a race condition that grants attackers a shell with SYSTEM-level privileges. "The exploit is a race condition, so it's a hit or miss," the researcher noted. "I have managed to get a 100% success rate on some machines while it...
+- **Source URL:** https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Google to use UK and EU user IP addresses for ad personalization
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
