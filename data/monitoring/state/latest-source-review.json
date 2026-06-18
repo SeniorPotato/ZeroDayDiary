@@ -1,104 +1,59 @@
 {
-  "generatedAt": "2026-06-17T16:06:12.970Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-17T160612Z.md",
+  "generatedAt": "2026-06-18T05:03:47.587Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-18T050347Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-17",
-      "title": "AI Use by the US Government",
-      "link": "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
+      "discovered": "2026-06-18",
+      "title": "FTC Sues to Stop Sprawling Enterprise Operating Unlawful Subscription Schemes",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "ai-use-by-the-us-government",
-      "source": "Schneier on Security"
+      "category": "privacy",
+      "slug": "ftc-sues-to-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-06-17",
-      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline Jun 17, 2026 Malware / Cyber Attack A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a way back in that did not run through the C2 at all. When the Havoc server went offline the next day, his access did not. Eighteen days later, the C2 came back, his agents reconnected on their own, and he carried on. Cato Networks captured the whole operation command by command, 339 of them over 33 days, after the operator left his SSH keys and a step-by-step playbook in an open storage bucket. The write-up, published Tuesday by Cato CTRL researcher Vitaly Simonovich, is a rare view of an intrusion from the operator's keyboard rather than the forensic leftovers. Researchers' lesson is blunt: pulling a C2 server offline is not remediation if the attacker has already built a...",
-      "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "discovered": "2026-06-18",
+      "title": "FTC Approves Final Consent Order in Micromarket Kiosks Deal",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-approves-final-consent-order-in-micromarket-kiosks-deal",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "FTC, States Sue World Professional Association for Transgender Health Over Deceptive Claims Regarding the Treatment of Children",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-states-sue-world-professional-association-for-transgender-health-over-deceptive-claims",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments Jun 17, 2026 Malware / Social Engineering An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a cluster of accounts that engage in coordinated activity on VirusTotal with the intent to misclassify malicious files as safe. \"To push a malicious 'tool,' a single threat actor borrowed the same playbook legitimate brands use to build buzz: inflated download counts, coordinated five-star reviews, influencer-style tutorial videos, and promotion on platforms people instinctively trust,\" Check Point said in a report shared with The Hacker News. \"The result is a fake reputation economy spanning every platform a curious victim might check before they click 'download.'...",
+      "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "junior-hacker-used-tailscale-and-openssh-to-keep-access-after-his-c2-went-offline-jun-17-2",
+      "slug": "crypto-clipper-campaign-abuses-fake-reviews-ai-narrators-and-virustotal-comments-jun-17-20",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-17",
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats Jun 17, 2026 Supply Chain Security / AI Security Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys. \"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\" Aikido Security researcher Ilyas Makari said . \"They function exactly as advertised. However, the AI provider API key you enter gets exfiltrated to a server controlled by the attacker.\" The activity is said to have been ongoing since the end of October 2025, with new plugins released as recently as June 10, 2026. Two of the plugins, CodeGPT AI Assistant and DeepSeek AI Assist, have more than 25,000 downloads each, although it's not clear if the counts are authentic or if they have been inflated to fake their popularity. The complete list of plugins is below -...",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "discovered": "2026-06-18",
+      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development Jun 17, 2026 Endpoint Security / Vulnerability Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet . The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. \"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender, publicly referred to as 'RoguePlanet,'\" the company said. \"We are working to provide a high-quality security update that addresses this vulnerability.\" The development comes nearly a week after a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse) released RoguePlanet, calling the exploit a case of a race condition that grants attackers a shell with SYSTEM-level privileges. \"The exploit is a race condition, so it's a hit or miss,\" the researcher noted. \"I have managed to get a 100% success rate on some machines while it...",
+      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "malicious-jetbrains-plugins-steal-ai-api-keys-as-chrome-extensions-capture-chatbot-chats-j",
+      "slug": "microsoft-confirms-rogueplanet-defender-zero-day-says-patch-is-in-development-jun-17-2026-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-17",
-      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization Jun 17, 2026 Adversarial Exposure Validation For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Security teams must decide which findings warrant action while operating under constant pressure and incomplete information. Increasingly, the challenge is not discovering potential risks. It is determining which risks deserve attention first. Visibility Got Us Here. Validation Moves Us Forward. The security industry has spent the better part of a decade improving visibility. Vulnerability scanners, cloud security posture tools, endpoint detection, attack surface platforms, code analysis, and threat intelligence feeds all contribute to a more complete understanding of the attack surface. The investment has been enormous, and it has largely worked. Modern enterprises can see their environments in ways that would have seemed remarkable ten years ago. Yet improved visibility has not automatically transla...",
-      "link": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+      "discovered": "2026-06-18",
+      "title": "Google to use UK and EU user IP addresses for ad personalization",
+      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "adversarial-exposure-validation-turns-security-visibility-into-confident-prioritization-ju",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "The Top 10 Attack Surface Exposures in 2026 Jun 17, 2026 Attack Surface Management Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a single day, the question isn't just how fast you can patch. It's why the service was exposed in the first place. The team at Intruder analyzed 3,000 attack surfaces to find out how much of a typical organization's attack surface consists of services that have no reason to be there. We grouped what we found into four categories — HTTP panels, risky ports and services, databases, and publicly accessible files and information. The full findings, including breakdowns by company size and industry, are in our 2026 Attack Surface Management Index . How widespread is the problem? ...",
-      "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-top-10-attack-surface-exposures-in-2026-jun-17-2026-attack-surface-management-breaches",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account Jun 17, 2026 Malware / Cryptocurrency As many as 144 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, have been compromised as part of a software supply chain attack codenamed easy-day-js , per findings from Endor Labs , JFrog , SafeDep , Socket , and StepSecurity . \"A single npm account (ehindero) mass-published more than 140 malicious packages across the Mastra scope within a short window on 2026-06-17,\" Socket said. The infected packages themselves do not include malicious code. Instead, it's introduced by means of a third-party library named \"easy-day-js\" that has been added to each package's dependency list in what has been described as an automated publishing campaign spanning 88 minutes. In its analysis, SafeDep described \"easy-day-js\" as a clone of the \"dayjs\" date library that downloads and runs a cryptocurrency-stealing...",
-      "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "144-mastra-npm-packages-compromised-via-hijacked-contributor-account-jun-17-2026-malware-c",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "why-account-takeovers-are-rising-and-how-to-stop-them",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-      "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "india-s-telegram-ban-hit-the-uae-too-here-s-how-to-get-around-it",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-17",
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang",
+      "slug": "google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization",
       "source": "BleepingComputer"
     }
   ]
