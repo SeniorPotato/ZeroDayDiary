@@ -9892,3 +9892,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Embedding Forbidden Text in Spyware to Discourage AI Analysis
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network Jun 18, 2026 AI Security / Data Security If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises, the answer is a simple no . The rush to adopt internal AI tools has left a massive trail of administrative debt: orphaned agents (AI tools left running after their creator leaves the company) and standing privileges (AI that retains permanent, unrestricted access it no longer needs). When an employee moves on, the automated tools they built stay active—often keeping unmonitored access to sensitive databases and source code long after the human’s credentials are revoked. To help security teams bridge this line of accountability, The Hacker News is hosting a technical briefing. Secure your spot today for the live webinar: Orphaned Agents & Standing Privileges: The Hidden Access Risks of Internal AI . Why Existing Security Tools Miss the Signal Traditional access tools treat AI like stand...
+- **Source URL:** https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories Jun 18, 2026 Hacking News / Cybersecurity News The internet did not break this week. It got used exactly as designed, which is worse. Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS attacks ran in memory and left almost nothing behind. Cloud agents looked like helpers until attackers treated them like open shells. Add exposed edge gear, poisoned packages, cash courier scams, stealers, loaders, and phishing that barely bothers pretending anymore. Here’s the full mess.
+- **Source URL:** https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2 Jun 18, 2026 Malware / Cryptocurrency Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026. "The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 [command-and-control] server," the Microsoft Defender Security Research Team said in an analysis published Tuesday. "It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution." "The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor." Clipper malware refers to a type of malicious software that silently monitors a user's clipboard and intercepts sensiti...
+- **Source URL:** https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023 Jun 18, 2026 Vulnerability / Enterprise Security Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830 victims since August 2023. "The disruption of LockBit and the shutdown of BlackCat created opportunities for INC to expand as affiliates migrated to alternative ransomware operations," Acronis researcher Darrel Virtusio said . "United States organizations account for more than 65% of listed victims, with legal services, manufacturing, construction, technology and health care among the most targeted sectors." INC's Windows and Linux/ESXi encryptors have also been rewritten in Rust to facilitate easier cross-platform development and better resist reverse engineering efforts. Attacks deploying the ransomware are characterized by the use of an updated credential dumper capable of targeting newer Veeam backup deployments that use the salted DPAPI credential encryp...
+- **Source URL:** https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** The Scripts on Your Checkout Page Are Now a PCI DSS Problem Jun 18, 2026 Payment Security / Compliance An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned into a skimmer. This is how Magecart works. Sansec has counted more than 100,000 sites hit by web skimming and supply-chain attacks. The 2018 British Airways breach alone exposed 380,000 transactions and a fine that started at £183 million. The dangerous part: the malicious code usually arrives through a script you already approved. Attackers compromise a third-party vendor, and the payload rides in on a script you have run for months. Nothing looks new. What changed is the script's behavior, not its presence on the page. PCI DSS v4.0.1 closes that gap with two requirements, now...
+- **Source URL:** https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** 5 reasons Microsoft 365 backup isn’t enough for business data protection
+- **Source URL:** https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp
+- **Source URL:** https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** ShapedPlugin update flow hacked to infect WordPress sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-18
+- **Headline / event:** Apple fixes Beats Studio Buds flaw that let hackers spy on conversations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
