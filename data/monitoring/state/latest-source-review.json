@@ -1,59 +1,104 @@
 {
-  "generatedAt": "2026-06-18T05:03:47.587Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-18T050347Z.md",
+  "generatedAt": "2026-06-18T15:54:11.654Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-18T155411Z.md",
   "candidates": [
     {
       "discovered": "2026-06-18",
-      "title": "FTC Sues to Stop Sprawling Enterprise Operating Unlawful Subscription Schemes",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-sues-to-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-18",
-      "title": "FTC Approves Final Consent Order in Micromarket Kiosks Deal",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-approves-final-consent-order-in-micromarket-kiosks-deal",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-18",
-      "title": "FTC, States Sue World Professional Association for Transgender Health Over Deceptive Claims Regarding the Treatment of Children",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-states-sue-world-professional-association-for-transgender-health-over-deceptive-claims",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-18",
-      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments Jun 17, 2026 Malware / Social Engineering An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a cluster of accounts that engage in coordinated activity on VirusTotal with the intent to misclassify malicious files as safe. \"To push a malicious 'tool,' a single threat actor borrowed the same playbook legitimate brands use to build buzz: inflated download counts, coordinated five-star reviews, influencer-style tutorial videos, and promotion on platforms people instinctively trust,\" Check Point said in a report shared with The Hacker News. \"The result is a fake reputation economy spanning every platform a curious victim might check before they click 'download.'...",
-      "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+      "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
+      "link": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "crypto-clipper-campaign-abuses-fake-reviews-ai-narrators-and-virustotal-comments-jun-17-20",
+      "slug": "embedding-forbidden-text-in-spyware-to-discourage-ai-analysis",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network Jun 18, 2026 AI Security / Data Security If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises, the answer is a simple no . The rush to adopt internal AI tools has left a massive trail of administrative debt: orphaned agents (AI tools left running after their creator leaves the company) and standing privileges (AI that retains permanent, unrestricted access it no longer needs). When an employee moves on, the automated tools they built stay active—often keeping unmonitored access to sensitive databases and source code long after the human’s credentials are revoked. To help security teams bridge this line of accountability, The Hacker News is hosting a technical briefing. Secure your spot today for the live webinar: Orphaned Agents & Standing Privileges: The Hidden Access Risks of Internal AI . Why Existing Security Tools Miss the Signal Traditional access tools treat AI like stand...",
+      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "orphaned-ai-agents-how-to-find-hidden-access-risks-inside-your-network-jun-18-2026-ai-secu",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-18",
-      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development Jun 17, 2026 Endpoint Security / Vulnerability Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet . The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. \"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender, publicly referred to as 'RoguePlanet,'\" the company said. \"We are working to provide a high-quality security update that addresses this vulnerability.\" The development comes nearly a week after a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse) released RoguePlanet, calling the exploit a case of a race condition that grants attackers a shell with SYSTEM-level privileges. \"The exploit is a race condition, so it's a hit or miss,\" the researcher noted. \"I have managed to get a 100% success rate on some machines while it...",
-      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories Jun 18, 2026 Hacking News / Cybersecurity News The internet did not break this week. It got used exactly as designed, which is worse. Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS attacks ran in memory and left almost nothing behind. Cloud agents looked like helpers until attackers treated them like open shells. Add exposed edge gear, poisoned packages, cash courier scams, stealers, loaders, and phishing that barely bothers pretending anymore. Here’s the full mess.",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-confirms-rogueplanet-defender-zero-day-says-patch-is-in-development-jun-17-2026-",
+      "slug": "threatsday-bulletin-claude-chat-abuse-nastyc2-npm-packages-device-code-phishing-25-more-st",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-18",
-      "title": "Google to use UK and EU user IP addresses for ad personalization",
-      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2 Jun 18, 2026 Malware / Cryptocurrency Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026. \"The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 [command-and-control] server,\" the Microsoft Defender Security Research Team said in an analysis published Tuesday. \"It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution.\" \"The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor.\" Clipper malware refers to a type of malicious software that silently monitors a user's clipboard and intercepts sensiti...",
+      "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization",
+      "slug": "microsoft-details-windows-clipper-malware-campaign-using-usb-lnk-worm-and-tor-based-c2-jun",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023 Jun 18, 2026 Vulnerability / Enterprise Security Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830 victims since August 2023. \"The disruption of LockBit and the shutdown of BlackCat created opportunities for INC to expand as affiliates migrated to alternative ransomware operations,\" Acronis researcher Darrel Virtusio said . \"United States organizations account for more than 65% of listed victims, with legal services, manufacturing, construction, technology and health care among the most targeted sectors.\" INC's Windows and Linux/ESXi encryptors have also been rewritten in Rust to facilitate easier cross-platform development and better resist reverse engineering efforts. Attacks deploying the ransomware are characterized by the use of an updated credential dumper capable of targeting newer Veeam backup deployments that use the salted DPAPI credential encryp...",
+      "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "inc-ransomware-emerges-as-major-raas-threat-in-2026-with-830-victims-since-2023-jun-18-202",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem Jun 18, 2026 Payment Security / Compliance An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned into a skimmer. This is how Magecart works. Sansec has counted more than 100,000 sites hit by web skimming and supply-chain attacks. The 2018 British Airways breach alone exposed 380,000 transactions and a fine that started at £183 million. The dangerous part: the malicious code usually arrives through a script you already approved. Attackers compromise a third-party vendor, and the payload rides in on a script you have run for months. Nothing looks new. What changed is the script's behavior, not its presence on the page. PCI DSS v4.0.1 closes that gap with two requirements, now...",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "the-scripts-on-your-checkout-page-are-now-a-pci-dss-problem-jun-18-2026-payment-security-c",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+      "link": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "5-reasons-microsoft-365-backup-isn-t-enough-for-business-data-protection",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "police-cleans-nearly-15-000-socgholish-infected-sites-tied-to-evil-corp",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "shapedplugin-update-flow-hacked-to-infect-wordpress-sites",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-18",
+      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations",
       "source": "BleepingComputer"
     }
   ]
