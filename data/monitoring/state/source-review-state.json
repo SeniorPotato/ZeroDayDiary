@@ -61,7 +61,11 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
+      "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
+      "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -202,7 +206,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -264,7 +270,11 @@
       "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/",
       "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/"
+      "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+      "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -355,7 +365,6 @@
       "https://www.schneier.com/blog/archives/2026/06/the-fcc-wants-to-eliminate-burner-phones.html",
       "https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html",
       "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
-      "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html"
     ],
     "the-hacker-news": [
@@ -890,12 +899,9 @@
       "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
       "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
       "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
-      "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
-      "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-      "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-      "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html"
+      "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+      "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+      "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1470,13 +1476,14 @@
       "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
       "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
       "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
-      "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
-      "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
-      "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
-      "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
       "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
-      "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/"
+      "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/"
     ]
   }
 }
