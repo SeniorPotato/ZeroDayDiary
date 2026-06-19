@@ -10052,3 +10052,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** Anthropic’s Fable and the State of AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution Jun 19, 2026 Vulnerability / Software Supply Chain Microsoft researchers have detailed an exploit chain, named AutoJack , that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web page, and that page's JavaScript can reach a privileged local service on the same machine and spawn a process on the host. No credentials, no sign-in screen, and no further user interaction once the agent loads the page. The attacker only has to get the agent to open it, and a planted link, a URL field, or a prompt injection will do. The flaw sits in AutoGen Studio , the open-source prototyping interface for Microsoft Research's AutoGen multi-agent framework. This is not a bug that hits everyone who installs the package, and the packaging detail is worth getting right. A plain pip install autogenstudio pulls the current stable release, 0.4.2.2, the build Microsoft inspected, and it has no Model Context Protocol (MCP) route at all. That is the basis for Microsoft...
+- **Source URL:** https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites Jun 19, 2026 Malware / Threat Intelligence Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. "With these actions we deprive cybercriminals of access to infected computer systems," Maikel Rollman of the Netherlands National High Tech Crime Unit said . "This prevents further damage to the digital systems of citizens, businesses and organizations worldwide and limits the spread of malware. It also reduces the risk that these systems are used for cyber attacks on critical infrastructure and other essential societal processes. This marks the beginning of further action against SocGholish." The takedown is part of Operation Endgame , an ongoing international law enforcement initiative to combat botnets and associated criminal infrastructures. It was launched in 2024. As part of the effort, 106 servers linked to SocGholish have been t...
+- **Source URL:** https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices Jun 19, 2026 Threat Intelligence / Firewall Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices. The sweeping campaign, believed to be the work of Russian-speaking threat actors, has been codenamed FortiBleed . The number of compromised devices stands at 86,644 as of June 19, 2026. According to data from SOCRadar, generic admin accounts (35%) and built-in Fortinet system accounts (28.3%) together make up the majority of compromised credentials. Organization-specific accounts account for 36.7% of the remaining breached credentials. "This points directly to a widespread failure to rename default accounts or rotate factory credentials, giving the attacker a highly reliable target list before any brute force was even needed," SOCRadar said. "Org-specific accounts topping the list is significant. It means the attacker is not ju...
+- **Source URL:** https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** From Assistive to Agentic: The AI Shift That's Redefining Threat Management Jun 19, 2026 Enterprise Security / Agentic AI Introduction The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are working in siloes, generating (overlapping) alerts and data. And yet, breach dwell times remain stubbornly long (~43 days), response windows keep closing before teams can act, and analysts burn out triaging noise instead of stopping threats. The problem isn't effort. It's architecture. Security programs were built for a world where threats moved slowly enough for humans to coordinate responses manually. That world no longer exists. With the way AI capabilities are getting developed and used, especially with frontier AI tools, a much more proactive stance to security is needed as well as machine speed response to combat fast moving adversaries. Gartner's Continuous Threat Exposure Management (CTEM) framework helps this shift from reactive, point-in-time assessments to a continuous, iterative cycl...
+- **Source URL:** https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** Forget Data Leakage: Shadow AI's Real Threat Is Access Control Jun 19, 2026 Agentic AI / SaaS Security The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, domain blocks, and data loss prevention rules. That response made sense at the time. It doesn't fit the problem anymore. Shadow AI has shifted from a data leakage concern to an access control problem. The threat isn't about what employees type into AI tools. It's about which AI agents are running inside the organization, what enterprise systems they're connected to, and what actions they're authorized,or not, to take. From passive tools to active actors Employees and business units are building AI agents at a pace most security teams can't keep track of. Custom assistants, coding agents, workflow automations, and agentic applications are being created across departments with some in sanctioned platforms, but many through browser extensions, SaaS-native features, developer tools, M...
+- **Source URL:** https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way
+- **Source URL:** https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** Webinar: How attackers bypass MFA and how defenders can respond
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** CISA: Splunk Enterprise flaw actively exploited, patch by Sunday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** NY man charged after harassing college student with AI-generated nudes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-19
+- **Headline / event:** CISA warns Fortinet users to secure devices after FortiBleed leak
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
