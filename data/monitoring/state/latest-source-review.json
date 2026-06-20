@@ -1,59 +1,23 @@
 {
-  "generatedAt": "2026-06-20T04:41:56.084Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-20T044156Z.md",
+  "generatedAt": "2026-06-20T14:32:55.295Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-20T143255Z.md",
   "candidates": [
     {
       "discovered": "2026-06-20",
-      "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
-      "link": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys Jun 20, 2026 Vulnerability / Web Security Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens configured for the plugin's email integrations. \"This is due to a REST API endpoint registered at /wp-json/gravitysmtp/v1/tests/mock-data with a permission_callback that unconditionally returns true, allowing any unauthenticated visitor to access it,\" Wordfence said . \"When the ?page=gravitysmtp-settings query parameter is appended, the plugin's register_connector_data() method populates internal connector data, causing the endpoint to return approximately 365 KB of JSON containing the full System Report.\" As a result, an unauthenticated attacker can weaponize ...",
+      "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-victims-of-unregulated-squid-fishing",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-06-20",
-      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain Jun 19, 2026 Hardware Security / Vulnerability Security researchers at Paradigm Shift have published a working exploit, dubbed usbliter8 , that achieves arbitrary code execution inside the SecureROM of Apple's A12 and A13 chips. That code is burned into the silicon at manufacture. No software update can reach it. Affected devices will carry this flaw for as long as they stay in use. This is not a remote attack. It requires physical possession of the device, which must be in DFU mode and connected via USB to a dedicated RP2350-based microcontroller board. With that setup, the exploit finishes in under two seconds, before Apple's signed boot chain loads. The full technical write-up and a working proof of concept went public on June 18, 2026, following coordinated disclosure with Apple Product Security. Affected Devices The public PoC supports A12, A13, S4, and S5 SoCs. A12X and A12Z support is described as theoretically possible but not yet implemented. Device families in that range...",
-      "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "unpatchable-usbliter8-exploit-breaks-apple-a12-and-a13-securerom-boot-chain-jun-19-2026-ha",
+      "slug": "hackers-exploit-gravity-smtp-wordpress-plugin-bug-to-expose-api-keys-jun-20-2026-vulnerabi",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-20",
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes Jun 19, 2026 Ransomware / Endpoint Security The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliates for impairing system defenses before deploying the encryptor. This mature portfolio of EDR-terminating tools is centered around a framework that's known as GentleKiller . \"They also incorporate third-party or leaked tools such as HexKiller, ThrottleBlood, and HavocKiller,\" ESET security researcher Jakub Souček said in a report shared with The Hacker News. \"These tools are standardized through a shared defense-evasion layer, impersonating predominantly security vendors using fake version information, and copied legitimate certificates and icons.\" The Slovakian cybersecurity company also called out the ransomware crew for its ability to \"unusually quickly operationalize\" newly disclosed proof-of-concept (PoC) exploits related to an attack technique called the bring ...",
-      "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-gentlemen-raas-uses-gentlekiller-edr-framework-targeting-400-security-processes-jun-19",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-20",
-      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-20",
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-20",
-      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "texas-govt-data-breach-exposes-over-3-million-driver-s-licenses",
+      "slug": "microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers",
       "source": "BleepingComputer"
     }
   ]

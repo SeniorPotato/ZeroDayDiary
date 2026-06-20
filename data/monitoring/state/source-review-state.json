@@ -362,7 +362,6 @@
       "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
-      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html"
     ],
     "the-hacker-news": [
@@ -908,8 +907,8 @@
       "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
       "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
       "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html"
+      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1497,9 +1496,8 @@
       "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
       "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/"
+      "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
     ]
   }
 }
