@@ -362,7 +362,8 @@
       "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
-      "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html"
+      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
+      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -903,13 +904,12 @@
       "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
       "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
       "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
-      "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
       "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html"
+      "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+      "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+      "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+      "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+      "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1494,11 +1494,12 @@
       "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
       "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-      "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-      "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-      "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/"
+      "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/"
     ]
   }
 }
