@@ -10140,3 +10140,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** Friday Squid Blogging: Victims of Unregulated Squid Fishing
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain Jun 19, 2026 Hardware Security / Vulnerability Security researchers at Paradigm Shift have published a working exploit, dubbed usbliter8 , that achieves arbitrary code execution inside the SecureROM of Apple's A12 and A13 chips. That code is burned into the silicon at manufacture. No software update can reach it. Affected devices will carry this flaw for as long as they stay in use. This is not a remote attack. It requires physical possession of the device, which must be in DFU mode and connected via USB to a dedicated RP2350-based microcontroller board. With that setup, the exploit finishes in under two seconds, before Apple's signed boot chain loads. The full technical write-up and a working proof of concept went public on June 18, 2026, following coordinated disclosure with Apple Product Security. Affected Devices The public PoC supports A12, A13, S4, and S5 SoCs. A12X and A12Z support is described as theoretically possible but not yet implemented. Device families in that range...
+- **Source URL:** https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes Jun 19, 2026 Ransomware / Endpoint Security The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliates for impairing system defenses before deploying the encryptor. This mature portfolio of EDR-terminating tools is centered around a framework that's known as GentleKiller . "They also incorporate third-party or leaked tools such as HexKiller, ThrottleBlood, and HavocKiller," ESET security researcher Jakub Souček said in a report shared with The Hacker News. "These tools are standardized through a shared defense-evasion layer, impersonating predominantly security vendors using fake version information, and copied legitimate certificates and icons." The Slovakian cybersecurity company also called out the ransomware crew for its ability to "unusually quickly operationalize" newly disclosed proof-of-concept (PoC) exploits related to an attack technique called the bring ...
+- **Source URL:** https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** Klue OAuth breach victim list grows as Icarus hackers claim attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-20
+- **Headline / event:** Texas govt data breach exposes over 3 million driver’s licenses
+- **Source URL:** https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
