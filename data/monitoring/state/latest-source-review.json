@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-21T05:19:35.460Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-21T051935Z.md",
+  "generatedAt": "2026-06-21T14:33:40.903Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-21T143340Z.md",
   "candidates": [
     {
       "discovered": "2026-06-21",
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption",
+      "slug": "arystinger-botnet-infected-thousands-of-d-link-routers-worldwide",
       "source": "BleepingComputer"
     }
   ]
