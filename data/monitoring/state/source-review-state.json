@@ -907,7 +907,6 @@
       "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
       "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
       "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
       "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
     ],
     "reddit-security": [
@@ -1497,7 +1496,8 @@
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
       "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
       "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+      "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
     ]
   }
 }
