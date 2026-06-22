@@ -362,7 +362,9 @@
       "https://www.schneier.com/blog/archives/2026/06/ai-use-by-the-us-government.html",
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
-      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html"
+      "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
+      "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
+      "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -907,7 +909,18 @@
       "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
       "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
       "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
+      "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1497,7 +1510,9 @@
       "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
       "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
       "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
+      "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/"
     ]
   }
 }
