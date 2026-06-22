@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-06-21T14:33:40.903Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-21T143340Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-06-21",
-      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "arystinger-botnet-infected-thousands-of-d-link-routers-worldwide",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-06-22T05:32:28.951Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-22T053228Z.md",
+  "candidates": []
 }
