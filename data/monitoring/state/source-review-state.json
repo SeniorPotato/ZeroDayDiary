@@ -205,7 +205,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -363,7 +365,6 @@
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
-      "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
       "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html"
     ],
     "the-hacker-news": [
@@ -915,12 +916,11 @@
       "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
       "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
       "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-      "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
-      "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-      "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html"
+      "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+      "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1512,7 +1512,16 @@
       "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
       "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
       "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/"
+      "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
     ]
   }
 }

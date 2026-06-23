@@ -1,68 +1,77 @@
 {
-  "generatedAt": "2026-06-22T17:13:41.481Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-22T171341Z.md",
+  "generatedAt": "2026-06-23T04:31:06.298Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-23T043106Z.md",
   "candidates": [
     {
-      "discovered": "2026-06-22",
-      "title": "Professional Athletes and Wearables",
-      "link": "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
+      "discovered": "2026-06-23",
+      "title": "FTC Approves Final Consent Order in Pest-Control Noncompete Matter",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "professional-athletes-and-wearables",
-      "source": "Schneier on Security"
+      "category": "privacy",
+      "slug": "ftc-approves-final-consent-order-in-pest-control-noncompete-matter",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants Jun 22, 2026 AI Security / Vulnerability Cybersecurity researchers have disclosed details of four vulnerabilities in Dify , an open-source agentic workflow platform with more than 146,000 GitHub stars , that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security. \"Two were critical severity, two required no authentication, and three carried cross-tenant impact on Dify's multi-tenant cloud service, allowing one customer's data to be exposed to another,\" researchers Ido Shani and Gal Zaban said . The security defects could have allowed attackers to read private AI chats from other customers' applications, creating a covert exfiltration channel for every message and model response. They also made it possible to traverse Dify's internal Plugin Daemon API from unauthenticated requests and trigger cross-tenant internal ...",
-      "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "discovered": "2026-06-23",
+      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws Jun 23, 2026 Artificial Intelligence / Codex Security OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative , the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to identify security issues, validate them in a controlled environment, and develop and test patches. In tandem, the tech upstart is releasing an update to the Codex Security plugin⁠ to speed up the process of discovering and patching vulnerabilities in existing systems, alongside preventing new vulnerabilities from entering production codebases. \"Developers can run deep scans or review recent changes, generate reports with severity, affected code locations, validation evidence, and remediation guidance, trace attack paths, build threat models, validate findings, and gener...",
+      "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "researchers-detail-difytap-flaws-in-dify-that-could-expose-ai-chats-across-tenants-jun-22-",
+      "slug": "openai-expands-daybreak-with-gpt-5-5-cyber-to-help-defenders-patch-security-flaws-jun-23-2",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer Jun 22, 2026 Malvertising / Endpoint Security Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER . According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that the threat actor is likely Russian-speaking and financially motivated, owing to the presence of explicit exclusions to prevent infecting machines located in the Commonwealth of Independent States (CIS) region. The campaign has been codenamed REF8372. \"The loader uses several obfuscation layers (control-flow flattening, opaque predicates, mixed Boolean-Arithmetic), self-modifying decryption stubs, and abuses the Windows .reloc section to stage shellcode,\" researchers Daniel Stepanic and Jia Yu Chan said in a technical breakdown. The attack begins when unsuspecting users enter queries such as \"lts version of node.js\" on search engines like Google, red...",
-      "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "discovered": "2026-06-23",
+      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack Jun 22, 2026 Supply Chain Attack / Malware Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels,\" Wordfence said in an analysis published last week. The incident affects the following plugins - Product Slider Pro for WooCommerce (versions before 3.5.4) Real Testimonials Pro (version 3.2.5) Smart Post Show Pro (versions before 4.0.2) As mentioned above, it's worth emphasizing that the compromise only affects Pro plugin builds distributed through the vendor's Easy Digital Downloads (EDD) infrastructure via account.shapedplugin[.]com. The free versions of the plugins on WordPress.org are not impacted. The supply chain compromise associated with Product Slider Pro for WooCommerce has...",
+      "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-oxloader-loader-uses-malicious-google-ads-to-deliver-castlestealer-jun-22-2026-malvert",
+      "slug": "shapedplugin-wordpress-pro-plugins-backdoored-in-supply-chain-attack-jun-22-2026-supply-ch",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries Jun 22, 2026 Mobile Security / Open Source Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the start. On that date, certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block normal installs of apps whose developers have not registered an identity with Google, whether the app comes from Google Play or the stores run by Samsung, Xiaomi, OPPO, vivo, Honor, and Transsion. Certified devices are the ones that ship with Google's services and Play Protect, which, by F-Droid's count, is more than 95 percent of Android devices outside China. Most users will not notice, which is the point. Apps from verified developers keep installing as before. The friction lands on apps from developers Google has not verified, and is hardest on the independent and open-source channels, built on not needing Google's permission to ship. Developers distributing through those stores ne...",
-      "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "discovered": "2026-06-23",
+      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-sets-sept-30-deadline-for-android-developer-verification-in-four-countries-jun-22-2",
-      "source": "The Hacker News"
+      "slug": "whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents Jun 22, 2026 Exposure Management / AI Security Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security programs by using legacy infrastructure to hijack AI agents. AI adoption is moving faster than security programs can account for. Roughly 71% of organizations are piloting AI agents across their enterprise applications, and 31% have already moved them into production workflows. For this reason, organizations are legitimately pouring resources into securing AI workloads against model poisoning, prompt injection, data leakage, and other emerging threats. Yet this focus misses everything underneath the AI layer. Because an unpatched server, a misconfigured Active Directory permission, or a cached credential on a developer's machine are exposures that give attackers a direct route to everything your AI agents depend on - knowledge bases, cloud storage, Lambda functions, SaaS integrati...",
-      "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "discovered": "2026-06-23",
+      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "stop-your-legacy-infrastructure-from-hijacking-your-ai-agents-jun-22-2026-exposure-managem",
-      "source": "The Hacker News"
+      "slug": "jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More Jun 22, 2026 Cybersecurity / Hacking It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking for way too much control. The annoying part is how little of this feels new. Weak credentials, sketchy downloads, browser extensions with too much access, and WordPress sites are used to push more attacks. Nothing clever. Just sloppy, cheap, and effective. Here’s the Monday recap. Let’s get into the week’s mess. ⚡ Threat of the Week FortiBleed Campaign Identifies Over 80K Targets — A large-scale campaign codenamed FortiBleed has systematically targeted and compromised Fortinet FortiGate firewall and SSL VPN gateway devices worldwide. According to SOCRadar, it has been running since at least February 2026, with over 80,000 devices identified with working usernames and passwords that have been tested by suspected Russian-speaking threat actors using automated tools running around...",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "discovered": "2026-06-23",
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-browser-bugs-edr-killers-tv-botnet-openbsd-flaw-android-trojan-and-more-jun-2",
-      "source": "The Hacker News"
+      "slug": "ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder",
+      "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-06-22",
-      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "discovered": "2026-06-23",
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "a-glimpse-into-the-search-your-target-market-for-stolen-credentials",
+      "slug": "fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-23",
+      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution",
       "source": "BleepingComputer"
     }
   ]
