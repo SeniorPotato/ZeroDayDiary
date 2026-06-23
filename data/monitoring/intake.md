@@ -10340,3 +10340,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Anthropic’s Fable 5 Model Jailbroken Within Days
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents Jun 23, 2026 Supply Chain Security / Enterprise Security Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corporate accounts. Every skill security scanner the firm tested it against marked it safe. The payload was harmless by design: it collected the user's email address and did nothing else. The point was to show that none of the signals people lean on to trust a skill caught it: not the scanners, not the GitHub stars, not the open-source reputation. A skill is a bundle of instructions an agent loads into its own context and follows with roughly the authority of a user prompt. That trust is the whole problem, and it is the reason skill-scanning tools exist in the first place. The skill, named brand-landingpage , claimed to build a landing page using Google's Stitch design tool, aimed squarely at non-technical users. To make it look credible, AIR went after two trust signals: GitHub stars an...
+- **Source URL:** https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration Jun 23, 2026 Cryptography / Quantum Computing President Trump signed an executive order on June 22 setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography. Key establishment must move by December 31, 2030; digital signatures by December 31, 2031. EO 14409 leaves national security systems on a separate track. The deadlines matter because of a threat that does not need a working quantum computer today. Adversaries can collect encrypted U.S. data now and decrypt it later, once a large-scale quantum machine exists, the risk is known as "harvest now, decrypt later" . The order describes that risk directly and pulls the government's PQC timeline forward by four to five years. The prior government-wide target, set by the 2022 National Security Memorandum 10, ran to 2035. The two deadlines line up with the standards NIST finalized in August 2024 . Key establishment uses FIPS 203, the ML-KEM algorithm formerly called CRYSTALS-Kyber. D...
+- **Source URL:** https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns Jun 23, 2026 Workflow Security / Software Supply Chain GitHub is moving to strengthen software supply chain security by updating " actions/checkout " to block pwn request attacks that exploit the risky use of the "pull_request_target workflow" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of "actions/checkout," the official GitHub action for checking out a repository into the workflow's runner, refuses common pwn request patterns by default. The change is expected to be backported to all currently supported major versions on July 16, 2026. "Actions/checkout v7 refuses to fetch fork pull request code in pull_request_target and workflow_run workflows (the latter only when workflow_run.event is a pull_request* event)," it added . The refusal occurs when the pull request is from a fork, and any of the following criteria is met, unless workflow authors explicitly opt out of it by setting the " allow-unsafe-pr-checkout...
+- **Source URL:** https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Agentic AI: The Weapon That No Longer Needs a Warrior Jun 23, 2026 Offensive AI / Cybersecurity Training Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance between the warrior and the wound grew wider, and yet one thing never moved: a human chose the target, and a human struck the blow. For the entire history of conflict, the cyber realm included, the hand has remained on the weapon. Offensive AI is the moment the weapon learns to aim itself. For three years, artificial intelligence (AI) has been an extension of the pen. It drafted the phishing email, proposed the exploit, sketched the malicious function, and then, like every tool that came before it, handed the work back to a human to carry out. In 2023, I published a whitepaper at the SANS Technology Institute showing how a person of almost no skill could coax a chatbot into producing m...
+- **Source URL:** https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT Jun 23, 2026 Supply Chain Attack / Developer Security Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT). The list of identified packages, is below - aes-decode-runner-pro (145 downloads) postcss-minify-selector (256 downloads) postcss-minify-selector-parser (615 downloads) All the packages were published over the past month by an npm user named " abdrizak " and continue to be available for download from npm as of writing. "Aes-decode-runner-pro and postcss-minify-selector-parser both present themselves as layered AES/custom-codec packages and depend on the legitimate postcss-selector-parser," JFrog said in an analysis. "Postcss-minify-selector presents itself as a PostCSS selector minifier and depends on postcss-minify-selector-parser." As for "postcss-minify-selector-parser," the name is a reference to " postcss-selector-parser ," a widely used npm library with more than 1...
+- **Source URL:** https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** The Exploit Doesn't Exist. You Can Still Prove It Works Against You
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** LastPass confirms data breach in Klue supply chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Webinar: Why email security teams are drowning in alerts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

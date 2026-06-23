@@ -206,7 +206,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-micromarket-kiosks-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter"
     ],
     "iso-insights": [
@@ -365,7 +364,9 @@
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
-      "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html"
+      "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html",
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -919,8 +920,17 @@
       "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
       "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
       "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html"
+      "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+      "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+      "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+      "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+      "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1517,11 +1527,12 @@
       "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
       "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
       "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
-      "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-      "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
-      "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
+      "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
+      "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/"
     ]
   }
 }
