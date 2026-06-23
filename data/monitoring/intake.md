@@ -10276,3 +10276,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** FTC Approves Final Consent Order in Pest-Control Noncompete Matter
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws Jun 23, 2026 Artificial Intelligence / Codex Security OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative , the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to identify security issues, validate them in a controlled environment, and develop and test patches. In tandem, the tech upstart is releasing an update to the Codex Security plugin⁠ to speed up the process of discovering and patching vulnerabilities in existing systems, alongside preventing new vulnerabilities from entering production codebases. "Developers can run deep scans or review recent changes, generate reports with severity, affected code locations, validation evidence, and remediation guidance, trace attack paths, build threat models, validate findings, and gener...
+- **Source URL:** https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack Jun 22, 2026 Supply Chain Attack / Malware Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. "Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels," Wordfence said in an analysis published last week. The incident affects the following plugins - Product Slider Pro for WooCommerce (versions before 3.5.4) Real Testimonials Pro (version 3.2.5) Smart Post Show Pro (versions before 4.0.2) As mentioned above, it's worth emphasizing that the compromise only affects Pro plugin builds distributed through the vendor's Easy Digital Downloads (EDD) infrastructure via account.shapedplugin[.]com. The free versions of the plugins on WordPress.org are not impacted. The supply chain compromise associated with Product Slider Pro for WooCommerce has...
+- **Source URL:** https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** WhatsApp phishing attack uses fake business docs to hack PCs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** JaredFromSubway MEV bot hacked in $15 million crypto theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** FFmpeg fixes PixelSmash flaw in widely used video decoder
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** FortiBleed campaign used custom FortiGate sniffer to steal credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-23
+- **Headline / event:** Microsoft fixes AutoGen Studio flaw that enabled code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
