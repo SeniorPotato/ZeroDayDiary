@@ -10412,3 +10412,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** FTC Files Amicus Brief to Protect Consumers from Pharmaceutical Monopolies
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Scattered Spider Hackers Plead Guilty on Day 1 of Trial
+- **Source URL:** https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** mass SMS phishing campaign during the summer of 2022
+- **Source URL:** https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation Jun 23, 2026 Initial Access Broker / Firewall Security A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign , active since February 2026, involves collecting credential lists, searching for exposed services, brute-forcing accessible systems, and deploying bespoke sniffers on compromised firewalls. "Once deployed, these sniffers capture cleartext and hashed credentials from traffic passing through compromised devices," SOCRadar said [PDF] in a fresh report. "The actors then crack, validate, and reuse the credentials against Active Directory domains and other exposed services." Central to the operation is a Golang-based tool called FortigateSniffer that takes advantage of the FortiOS built-in diagnostic command -diagnose sniffer packet to passively capture authentication traffic from the infected appliances. The tool is designed to ...
+- **Source URL:** https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Tata Electronics confirms cyberattack as hackers leak data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Healthtech firm Xolis suffers data breach impacting 1.4 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** New macOS ClickFix attack silently mounts DMGs to push infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Scattered Spider members plead guilty to hacking Transport for London
+- **Source URL:** https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
