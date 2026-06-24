@@ -64,7 +64,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
@@ -209,7 +208,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-states-sue-world-professional-association-transgender-health-over-deceptive-claims-regarding-treatment-children",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-takes-action-protect-americans-higher-drug-costs-aurobindo-lannett-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies"
     ],
     "iso-insights": [
@@ -275,8 +273,6 @@
       "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
       "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
-      "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/",
       "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/"
     ],
@@ -373,7 +369,9 @@
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
       "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
       "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
-      "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html"
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html",
+      "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html",
+      "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -934,7 +932,14 @@
       "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
       "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
       "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html"
+      "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1539,11 +1544,14 @@
       "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
       "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
       "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-      "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/"
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+      "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+      "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/"
     ]
   }
 }
