@@ -10492,3 +10492,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Embedding Forbidden Text in Spyware to Discourage AI Analysis
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks Jun 24, 2026 Open Source / Supply Chain Security Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The "critical exploitable pattern" has been codenamed Cordyceps by Novee Security. The issue can allow full attacker control of repositories at dozens of the largest organizations worldwide, including Microsoft, Google, Apache, and Cloudflare. "The flaw is exploitable by any unauthenticated user," Elad Meged, founding engineer and security researcher at Novee Security, said . "No org membership or special privileges; a free account is enough to forge approvals, push code, or steal credentials." The penetration-testing company's scan of about 30,000 high-impact repositories has revealed more than 300 to be fully exploitable, enabling attacker-controlled code execution, credential theft, and supply chain compromise, which can have severe downstream impacts. The core of the problem tri...
+- **Source URL:** https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Dawn of the Apex Agentic Adversary Jun 24, 2026 Network Security / Vulnerability Management We are standing at the end of an era we never thought to mourn: the era of human-speed threats . For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE was cataloged, a vendor navigated a patch cycle, and weeks or even months later, a fix was deployed. In this era, dwell time was measured in days, sometimes weeks. We are now approaching an inflection point in the threat timeline unlike any that came before it. The trigger was the emergence of frontier agentic models in early 2026: AI entities that no longer just suggested code, but actively tested it. These models don't merely accelerate the offensive lifecycle; they radically compress the time between discovery and weaponization. The predator wearing a productivity badge There is a reason the old saying warns about the wolf in sheep’s clothing. In the scramble to stay competitive, organizations have handed AI the keys to the deepest layers of their infrastructure: granting L...
+- **Source URL:** https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering Jun 24, 2026 Money Laundering / Cybercrime The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group . "These subsidiaries are alleged to have assisted individuals and organizations in transferring proceeds of cryptocurrency investment frauds, cyber scams, and other criminal activities on cryptocurrency blockchains and allowing for the conversion of the proceeds of these schemes to the legitimate banking sector undetected," the DoJ said. The seized account, the Justice Department added, hosted backend infrastructure for the subsidiaries, including HuiOne Guarantee (aka Haowang Guarantee), which operated an illicit Telegram-based marketplace that engaged in transactions with billions of dollars between 2021 and 2025 by peddling a wide range of crimeware tools. These included personal an...
+- **Source URL:** https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root Jun 24, 2026 Vulnerability / Network Security Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. "An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device," Cisco said in an advisory released earlier this month. "A successful exploit could allow the attacker to write files to the underlying operating system that could be used later to elevate to root." In a post shared on X earlier this week, Defused Cyber said it observed active exploitation of the vulnerability in attacks. "This is currently being exploited from a single sourc...
+- **Source URL:** https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** CISA warns of max severity Ubiquiti flaws exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Amadey, StealC malware operations disrupted in Operation Endgame action
+- **Source URL:** https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Securing the service desk: Why social engineering attacks keep succeeding
+- **Source URL:** https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-24
+- **Headline / event:** Stealthy Mistic backdoor linked to ransomware access broker KongTuke
+- **Source URL:** https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

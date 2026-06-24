@@ -1,95 +1,86 @@
 {
-  "generatedAt": "2026-06-24T04:38:13.294Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-24T043813Z.md",
+  "generatedAt": "2026-06-24T15:09:49.730Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-24T150949Z.md",
   "candidates": [
     {
       "discovered": "2026-06-24",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
+      "link": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-four-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "embedding-forbidden-text-in-spyware-to-discourage-ai-analysis",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-06-24",
-      "title": "FTC Files Amicus Brief to Protect Consumers from Pharmaceutical Monopolies",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-files-amicus-brief-to-protect-consumers-from-pharmaceutical-monopolies",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-06-24",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks Jun 24, 2026 Open Source / Supply Chain Security Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The \"critical exploitable pattern\" has been codenamed Cordyceps by Novee Security. The issue can allow full attacker control of repositories at dozens of the largest organizations worldwide, including Microsoft, Google, Apache, and Cloudflare. \"The flaw is exploitable by any unauthenticated user,\" Elad Meged, founding engineer and security researcher at Novee Security, said . \"No org membership or special privileges; a free account is enough to forge approvals, push code, or steal credentials.\" The penetration-testing company's scan of about 30,000 high-impact repositories has revealed more than 300 to be fully exploitable, enabling attacker-controlled code execution, credential theft, and supply chain compromise, which can have severe downstream impacts. The core of the problem tri...",
+      "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "scattered-spider-hackers-plead-guilty-on-day-1-of-trial",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-06-24",
-      "title": "mass SMS phishing campaign during the summer of 2022",
-      "link": "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "mass-sms-phishing-campaign-during-the-summer-of-2022",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-06-24",
-      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation Jun 23, 2026 Initial Access Broker / Firewall Security A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign , active since February 2026, involves collecting credential lists, searching for exposed services, brute-forcing accessible systems, and deploying bespoke sniffers on compromised firewalls. \"Once deployed, these sniffers capture cleartext and hashed credentials from traffic passing through compromised devices,\" SOCRadar said [PDF] in a fresh report. \"The actors then crack, validate, and reuse the credentials against Active Directory domains and other exposed services.\" Central to the operation is a Golang-based tool called FortigateSniffer that takes advantage of the FortiOS built-in diagnostic command -diagnose sniffer packet to passively capture authentication traffic from the infected appliances. The tool is designed to ...",
-      "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fortibleed-targeted-fortigate-firewalls-in-110-million-credential-harvesting-operation-jun",
+      "slug": "cordyceps-ci-cd-flaws-expose-300-github-repositories-to-supply-chain-attacks-jun-24-2026-o",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-24",
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
+      "title": "Dawn of the Apex Agentic Adversary Jun 24, 2026 Network Security / Vulnerability Management We are standing at the end of an era we never thought to mourn: the era of human-speed threats . For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE was cataloged, a vendor navigated a patch cycle, and weeks or even months later, a fix was deployed. In this era, dwell time was measured in days, sometimes weeks. We are now approaching an inflection point in the threat timeline unlike any that came before it. The trigger was the emergence of frontier agentic models in early 2026: AI entities that no longer just suggested code, but actively tested it. These models don't merely accelerate the offensive lifecycle; they radically compress the time between discovery and weaponization. The predator wearing a productivity badge There is a reason the old saying warns about the wolf in sheep’s clothing. In the scramble to stay competitive, organizations have handed AI the keys to the deepest layers of their infrastructure: granting L...",
+      "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "tata-electronics-confirms-cyberattack-as-hackers-leak-data",
+      "slug": "dawn-of-the-apex-agentic-adversary-jun-24-2026-network-security-vulnerability-management-w",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-24",
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering Jun 24, 2026 Money Laundering / Cybercrime The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group . \"These subsidiaries are alleged to have assisted individuals and organizations in transferring proceeds of cryptocurrency investment frauds, cyber scams, and other criminal activities on cryptocurrency blockchains and allowing for the conversion of the proceeds of these schemes to the legitimate banking sector undetected,\" the DoJ said. The seized account, the Justice Department added, hosted backend infrastructure for the subsidiaries, including HuiOne Guarantee (aka Haowang Guarantee), which operated an illicit Telegram-based marketplace that engaged in transactions with billions of dollars between 2021 and 2025 by peddling a wide range of crimeware tools. These included personal an...",
+      "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "doj-seizes-huione-cloud-account-tied-to-cyber-scam-money-laundering-jun-24-2026-money-laun",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-24",
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root Jun 24, 2026 Vulnerability / Network Security Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. \"An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device,\" Cisco said in an advisory released earlier this month. \"A successful exploit could allow the attacker to write files to the underlying operating system that could be used later to elevate to root.\" In a post shared on X earlier this week, Defused Cyber said it observed active exploitation of the vulnerability in attacks. \"This is currently being exploited from a single sourc...",
+      "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisco-unified-cm-flaw-exploited-after-poc-reveals-file-write-path-to-root-jun-24-2026-vuln",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-24",
+      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-24",
-      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
+      "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisco-unified-cm-flaw-cve-2026-20230-now-exploited-in-attacks",
+      "slug": "amadey-stealc-malware-operations-disrupted-in-operation-endgame-action",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-24",
-      "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
+      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+      "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "healthtech-firm-xolis-suffers-data-breach-impacting-1-4-million-people",
+      "slug": "securing-the-service-desk-why-social-engineering-attacks-keep-succeeding",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-24",
-      "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
+      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+      "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-06-24",
-      "title": "Scattered Spider members plead guilty to hacking Transport for London",
-      "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "scattered-spider-members-plead-guilty-to-hacking-transport-for-london",
+      "slug": "stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke",
       "source": "BleepingComputer"
     }
   ]
