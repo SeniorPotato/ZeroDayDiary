@@ -10604,3 +10604,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Interesting Paper Exploring Prompt Injection
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability Jun 25, 2026 Browser Security / Malware An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adblock for YouTube (ID: cmedhionkhpnakcndndgjdbohmhepckk), has more than 10 million installs and carries a Featured badge on the Chrome Web Store. The extension description states that it allows users to prevent web page elements like ads, including preroll ads, from being displayed on the video sharing platform, as well as on external sites that load YouTube. While the add-on offers the promised functionality, it also features capabilities to run arbitrary JavaScript code. "It also contains the architectural ingredients for arbitrary JavaScript execution on any website, activated by a single server-side configuration change, without an extension update, without a store review, and without any visible sign that something has changed," researchers Oleg Zaytsev and Shachar Gritzman said in a re...
+- **Source URL:** https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories Jun 25, 2026 Hacking News / Cybersecurity News It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy crap, browser tricks jumping the fence, and “normal” workflows turning into phishing pipes because apparently email was not enough hell already. The worst part is how cheap some of it feels. Not elite. Not cinematic. Just stale secrets, fake updates, lazy trust, and random boxes quietly becoming someone else’s infrastructure. Same internet, fresh headache. Let’s get into it.
+- **Source URL:** https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Surviving the Mythos Era: Richard Bejtlich on the Case for NDR Jun 25, 2026 Artificial Intelligence / Threat Hunting Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we have? How do we know we’re seeing it all, in context? Answering these questions requires teams to go beyond alerts, the most common basis for initial triage. But investigations (and their outcomes) require defensible evidence, not assumptions, which is what alerts tend to offer. Alerts are becoming less useful as vulnerability discovery accelerates (a.k.a., the Mythos Era). Most organizations can’t investigate the volume of new findings with existing workflows. Even with increased automation, SecOps teams need validated evidence of active exploit and exposure, not more raw telemetry. As AI expedites both attacks and defense, security teams need to lay the groundwork that allows them to validate findings, understand attacker behavior, and stop suspicious traffic before it results in...
+- **Source URL:** https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis Jun 25, 2026 AI Security / Malware A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools and trick it into aborting or refusing an analysis of the artifact. The malware has been codenamed Gaslight owing to this deceptive behavior. It's been assessed with high confidence that the tool is the work of North Korea-aligned threat actors. "Its most notable feature is an embedded cascade of fabricated system-failure messages, designed to make an LLM-assisted triage agent doubt its own session," SentinelOne researcher Phil Stokes said in a technical report. "It attacks the agent's perception, rather than the sandbox it runs in." Central to the malware's architecture is a Telegram bot API based command-and-control (C2) channel that enters into a polling loop, allowing the operator to issue instructions over an interactive shell and return the...
+- **Source URL:** https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns Jun 25, 2026 Initial Access Broker / Ransomware A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as MLTBackdoor, is said to be linked to an initial access broker (IAB) named KongTuke (aka 404 TDS, Chaya_002, LandUpdate808, TAG-124, and Woodgnat), and dropped along with ModeloRAT, a Python remote access trojan (RAT) previously attributed to the group. "The backdoor runs payloads in memory with no file written to disk and includes a kill switch that lets it delete itself, which are features consistent with an operator seeking long-term, low-visibility access," Broadcom's cybersecurity teams said in a report shared with The Hacker News. ModeloRAT was first flagged by Huntress in January 2026 in connection with a variant of a ClickFix campaign dub...
+- **Source URL:** https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Bluekit phishing kit adopts browser-in-the-middle for login theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** The Four Elevations of Effective Fraud Prevention
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Webinar: Why account takeovers remain one of the hardest threats to stop
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
