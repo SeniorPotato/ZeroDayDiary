@@ -10564,3 +10564,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited Jun 24, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 26, 2026. The vulnerability in question is CVE-2025-67038 (CVSS score: 9.8), a code injection flaw that could result in the execution of arbitrary commands with elevated privileges. "The HTTP RPC module executes a shell command to write logs when the user's authentication fails," according to the vulnerability's description on CVE.org. "The username is directly concatenated with the command without any sanitization. This allows attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges." The security flaw was disclosed by Forescout Research Vedere Labs in April 2026 as part of a broader set of vulnerabilities collectively cod...
+- **Source URL:** https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered Jun 24, 2026 Cybercrime / Law Enforcement A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure powering Amadey and StealC. "The main common goal was to disrupt the 'assembly lines' cybercriminals use to launch ransomware, financial fraud, and attacks on critical infrastructure," Europol said in a statement. The development comes days after authorities from the Netherlands, Canada, Germany, and the U.S. disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. As part of the two-week-long action, cryptocurrency assets of criminal origin valued at more than $47 million have been identified, flagged, and restricted from use. In addition, as many as 27 million stolen login credentials have been recovered, and the malware distribution network has been hindered by dismantling 326 servers and 142 domains...
+- **Source URL:** https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** DraftKings hacker 'Snoopy' sentenced to 18 months in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-25
+- **Headline / event:** Malicious Edge extension abuses Native Messaging as bridge to
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
