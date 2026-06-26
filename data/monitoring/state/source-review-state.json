@@ -64,7 +64,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -371,7 +373,6 @@
       "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
       "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html",
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html",
-      "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html",
       "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html"
     ],
     "the-hacker-news": [
@@ -939,11 +940,6 @@
       "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
       "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
       "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-      "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
-      "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
-      "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
       "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
       "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
       "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
@@ -1564,9 +1560,14 @@
       "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
       "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
       "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-      "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
-      "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
-      "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/"
+      "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+      "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+      "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+      "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/"
     ]
   }
 }
