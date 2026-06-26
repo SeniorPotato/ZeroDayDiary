@@ -10716,3 +10716,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** One Million Passports Leaked Online
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries Jun 26, 2026 Linux / Vulnerability A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331 , nicknamed " pedit COW ," is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A public, working exploit appeared within a day of the CVE assignment on June 16. Red Hat rates the flaw as important . The exploit never touches the file on disk. It poisons the cached copy of a setuid root binary (/bin/su) in memory, injects a small payload, and runs that altered image as root. File-integrity checks come back clean while a root shell is already open. The exploit needs two things: act_pedit being loadable and unprivileged user namespaces being open, giving the attacker a namespace-local networking capability (CAP_NET_ADMIN) needed to trigger the bug. On the tested RHEL and Debian targets, both conditions were present. How the Bug Works Linux's tc traffic-...
+- **Source URL:** https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs Jun 26, 2026 AI Security / Vulnerability A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, and Amazon Q does the rest. Amazon has patched it. Tracked as CVE-2026-12957 (CVSS 8.5), the bug sat in how Amazon's AI coding assistant handled Model Context Protocol (MCP) servers. Wiz Research, which found and reported it, showed that a single config file dropped in a repo was enough to go from git clone to cloud compromise. How the attack worked Amazon Q read an MCP configuration file, .amazonq/mcp.json, from the open workspace and launched the servers it defined. MCP servers are local processes that an AI assistant can spawn to reach databases, APIs, or build tools, so starting one means running commands on the machine. Those processes inherited the developer's full environment. That usually means AWS keys, cloud CLI tokens, API secrets, and SSH agent sockets. ...
+- **Source URL:** https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue Jun 26, 2026 Vulnerability / Software Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability in question is CVE-2026-12569 (CVSS score: 9.3), a case of improper input validation that could allow an attacker to execute arbitrary code by sending a malicious request to the network. "The vulnerability is a remote code execution (RCE) issue that may be exploited through deserialization of untrusted data," according to an advisory released by PTC. Although patches for the flaw were released last week, PTC has since confirmed, as of June 25, that "we've received continued reports of heightened threat activity," with the company disclosing that unknown attackers are exploiting ...
+- **Source URL:** https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Jun 26, 2026 Linux / Vulnerability DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family. JFrog Security Research published a working exploit walkthrough for the flaw on June 25, the first public demonstration for this variant. Tracked as CVE-2026-43503 (CVSS 8.8), it lets a local user corrupt file-backed memory through a cloned network packet and gain root. The patch landed in mainline on May 21; if your kernel does not have it, update now. When the kernel copies a network packet internally, two helper functions drop a safety flag that marks the packet's memory as shared with a file on disk. That missing flag is the entire vulnerability. The attacker loads a privileged binary like /usr/bin/su into memory, wires those memory pages into a network packet, and forces the kernel to clone it. The cloned packet passes through an IPsec tunnel that the attacker controls, and the decryption step overwrites the binary's login checks with attacker-chosen bytes. The next time anyo...
+- **Source URL:** https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** Guardian Agents: The Next Layer of Identity Governance Jun 26, 2026 AI Security / Identity Governance AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to govern human access wasn't designed for autonomous actors, and the gap between what enterprises are deploying and what their governance programs actually cover is widening fast. This guide breaks down how the guardian agents emerged, why it matters, and what operationalizing it looks like in practice. The Governance Gap Agentic AI Created Identity governance has always lagged behind infrastructure change, but the arrival of production-grade agentic AI didn't just widen the gap. It changed its shape entirely. The assumptions baked into every IAM architecture built over the past two decades are no longer sufficient for the environment most enterprises are actually running today. Agents Aren't Service Accounts Security teams have spent years getting reasonably good at go...
+- **Source URL:** https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-26
+- **Headline / event:** Your First GRC Agent: A Red Teamer's Walkthrough
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
