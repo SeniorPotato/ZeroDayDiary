@@ -10772,3 +10772,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** The Chinese Control the Majority of Argentina’s Squid Fleet
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** Meta Is Testing Facial Recognition for Police and Military
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys Jun 26, 2026 Secure Messaging / Social Engineering The FBI and CISA have updated their March warning about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key. Hand it over once, and the attacker can restore the account's backup, read the private and group message history, and take over the account. Worse, the key keeps working. Make a new account on the same phone number, and the old key can still be used against it, the advisory warns. The fix is blunt: generate a new key in Settings, which kills the old one for future backup downloads, and accept that anything the attacker already pulled is gone. The updated advisory, PSA I-062626-PSA , adds two public tracking names the March notice lacked: UNC5792 and UNC4221. The FBI ties the activity to multiple Russian Intelligence Services (RIS) groups, including FSB officers embedded with the FSB Border Guards and others working for the Russian military services. The ca...
+- **Source URL:** https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks Jun 26, 2026 Malware / Windows Security A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking the activity under the moniker StrikeShark , said the campaign has targeted a diplomatic organization in Indonesia, government organizations in Taiwan, software development companies across multiple countries, and entities associated with other sectors located in Hong Kong, Lebanon, Syria, Colombia, North Macedonia, Nepal, and Serbia. "The observed victimology suggests a campaign with broad geographic reach and a diverse target set rather than a narrow focus on a specific industry or region," the Russian cybersecurity vendor said . The campaign does not exhibit direct links to any known threat actor or group, although the operators have utilized several open-source post-compromise tools like FScan and Pillager , commonly put to use ...
+- **Source URL:** https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign Jun 26, 2026 Cyber Espionage / Malware A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia. The activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062 , which Palo Alto Networks Unit 42 said shares overlaps with UAT-7237 , a hacking group that was first flagged by Cisco Talos in August 2025 in relation to a campaign directed against web infrastructure entities in Taiwan. Unit 42 said it also observed CL-STA-1062 campaigns in prior operations targeting strategic sectors in East Asia since March 2022, suggesting a broader but sustained focus in the region. "From a technical standpoint, the attackers behind CL-STA-1062 rely on a hybrid toolkit," Unit 42 said in a technical report. "While they frequently use common open-source tools such as SoftEther ...
+- **Source URL:** https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** FBI: Russian hackers now target Signal backup recovery keys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** CISA sets urgent deadline to fix Cisco flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** Polymarket customers lose $3 million in supply-chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** Cybersecurity firms targeted by fraudulent OpenAI organization invites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

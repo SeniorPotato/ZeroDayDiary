@@ -374,7 +374,10 @@
       "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html",
       "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html",
       "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html",
-      "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html"
+      "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
+      "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
+      "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
+      "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -952,15 +955,16 @@
       "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
       "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
       "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
-      "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-      "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
-      "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
-      "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
       "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
       "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
       "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html"
+      "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+      "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+      "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1580,7 +1584,14 @@
       "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
       "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
       "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/"
+      "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/"
     ]
   }
 }
