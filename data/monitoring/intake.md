@@ -10844,3 +10844,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-27
+- **Headline / event:** OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards Jun 27, 2026 Artificial Intelligence / Vulnerability Research OpenAI on Friday released three versions of GPT-5.6 , called Sol, Terra, and Luna , as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government. While Sol is the latest flagship model and the most powerful, Terra strikes a balance between efficiency and power, and Luna is fine-tuned for speed and affordability. "GPT‑5.6 Sol launches with our most robust safety stack to date. We strengthened protections for higher-risk activity, sensitive cyber requests, and repeated misuse, and spent multiple weeks finding weaknesses, pressure-testing our system, and hardening it against real-world attacks," OpenAI said . The model has also been touted as the "most capable model yet" for cybersecurity, making it much more suitable for vulnerability research and exploitation. On ExploitBench , GPT‑5.6 Sol is competitive with Anthropic Mythos Preview using only about one-third of the output tokens, OpenAI noted. The goal, ...
+- **Source URL:** https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
