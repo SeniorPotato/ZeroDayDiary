@@ -1,23 +1,14 @@
 {
-  "generatedAt": "2026-06-28T04:53:08.535Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-28T045308Z.md",
+  "generatedAt": "2026-06-28T14:17:07.105Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-28T141707Z.md",
   "candidates": [
     {
       "discovered": "2026-06-28",
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials Jun 27, 2026 Messaging Security / Cyber Espionage The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S. The systematic cyber attacks aimed at stealing sensitive information from the victims, the agency added. \"The goal of these 'hacks' is to gain access to sensitive military, political, and economic information exchanged by users, as well as to steal their personal data,\" the agency warned in a post shared on Telegram. To pull off the operation, the attackers send SMS messages that masquerade as the messaging platform's support bot and urge users to disclose their account credentials. The SSU noted that these attacks include not only organizations, officials or public figures, but also personal accounts belonging to Ukrainian nati...",
-      "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ukraine-says-russian-intelligence-used-fake-support-texts-to-steal-messaging-credentials-j",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-06-28",
-      "title": "Clean GitHub repo tricks AI coding agents into running",
-      "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "clean-github-repo-tricks-ai-coding-agents-into-running",
+      "slug": "data-breach-exposes-up-to-14-2-million-email-logins-at-six-isps",
       "source": "BleepingComputer"
     }
   ]
