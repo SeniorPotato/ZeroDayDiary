@@ -10852,3 +10852,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-28
+- **Headline / event:** Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials Jun 27, 2026 Messaging Security / Cyber Espionage The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S. The systematic cyber attacks aimed at stealing sensitive information from the victims, the agency added. "The goal of these 'hacks' is to gain access to sensitive military, political, and economic information exchanged by users, as well as to steal their personal data," the agency warned in a post shared on Telegram. To pull off the operation, the attackers send SMS messages that masquerade as the messaging platform's support bot and urge users to disclose their account credentials. The SSU noted that these attacks include not only organizations, officials or public figures, but also personal accounts belonging to Ukrainian nati...
+- **Source URL:** https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-28
+- **Headline / event:** Clean GitHub repo tricks AI coding agents into running
+- **Source URL:** https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

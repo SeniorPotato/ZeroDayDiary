@@ -961,7 +961,8 @@
       "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
       "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
+      "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1584,7 +1585,9 @@
       "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
       "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/"
+      "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
     ]
   }
 }
