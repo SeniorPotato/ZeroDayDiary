@@ -375,7 +375,9 @@
       "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html",
       "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html",
       "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
-      "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html"
+      "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
+      "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
+      "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -961,7 +963,21 @@
       "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
       "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
+      "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1586,7 +1602,18 @@
       "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
       "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
       "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
+      "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+      "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+      "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/"
     ]
   }
 }

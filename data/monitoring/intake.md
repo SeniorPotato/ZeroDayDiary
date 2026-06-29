@@ -10876,3 +10876,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Factoring RSA Keys with Many Zeros
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private Jun 29, 2026 Privacy / Social Media WhatsApp on Monday officially announced the start of global reservations of usernames with an aim to protect the privacy of more than three billion users on the messaging platform. The optional feature is designed to help users connect with someone on the service through usernames, as opposed to directly sharing their phone numbers. Username reservations will start rolling out starting today, enabling users to create and reserve a username before the feature becomes generally available later this year. "You choose your own, and it doesn't have to match your handle on any other app," the Meta-owned messaging app said in a statement shared with The Hacker News ahead of publication. "At its core, it's a privacy feature, not a social media handle – there's no directory to browse and no suggestions, so people need to know your exact username to contact you for the first time." As it goes without saying, choosing a username should be unique. WhatsApp...
+- **Source URL:** https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks Jun 29, 2026 Threat Intelligence / Malware The China-aligned espionage group Mustang Panda is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Unit found active compromises inside Indian government networks, including machines used by senior administrative staff, and worked with CERT-In on notification and cleanup. The malware abuses Zoho WorkDrive , a cloud storage platform common in India's government sector, to pass commands and exfiltrate data. That is the whole idea: the traffic looks like ordinary cloud activity, so it hides inside the network it is stealing from. Acronis names three new tools. SHARDLOADER is a loader that runs by sideloading a malicious DLL through a legitimately signed binary, a Solid PDF Creator executable in one campaign, and a Citrix Receiver binary in the other. It deploys one of two implants. MINIRECON is a rewor...
+- **Source URL:** https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More Jun 29, 2026 Cybersecurity / Hacking This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy cracks, and defenders have more cleanup waiting. Here’s the full Monday recap. ⚡ Threat of the Week New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets — Cybersecurity researchers detailed a new variant of the Dirty Frag Linux kernel flaw. Called DirtyClone (aka CVE-2026-43503), it allows local users to gain root privileges via cloned packets. The exploit works successfully on Debian, Ubuntu, and Fedora systems with default namespace configurations. "Any local user on a server or device running a vulnerable kernel who holds or can acquire the CAP_NET_ADMIN capability (frequently obtainable via unprivileged user namespaces) [is exploitable]," JFrog said. "This poses the highest risk to multi-te...
+- **Source URL:** https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** 236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers Jun 29, 2026 Cybercrime / Cryptocurrency New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Uni-App . The templates power bogus cryptocurrency exchanges, multi-language pig-butchering operations, WhatsApp phishing networks, fake gambling platforms, brand-impersonation sites, and crypto wallet drainers. A total of 236,493 distinct second-level domains have been identified by the DNS threat intelligence company. "For the last two years, there's been a dramatic scaling up of scam websites using the DCloud framework, and operators of these sites continue to launch complex real-world schemes to trick victims," Infoblox said in an exhaustive report published last week. It's being assessed that unknown threat actors are selling DCloud investment scam templates, although there are indications of centralized ownership across a significant chunk o...
+- **Source URL:** https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Why Post-Quantum Cryptography Starts With Credentials Jun 29, 2026 Quantum Computing / Non-Human Identity Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryptography or RSA, quantum hardware is advancing rapidly and will inevitably change how organizations protect their data. Ciphertext and credentials captured by attackers can now be stored and decrypted as soon as quantum computing catches up. How urgent is quantum-resistant cryptography? The Global Risk Institute’s 2025 Quantum Threat Timeline report shows that surveyed security specialists believe a cryptographically relevant quantum computer is likely to be available within 15 years, with 51-70% indicating so. The threat dates back to 1994, when Peter Shor proved that a powerful quantum computer could efficiently factor large numbers and compute discrete logarithms. However, Shor’s algorithm applies to public-key cryptography, posing no meani...
+- **Source URL:** https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** U.S. offers $10 million for hackers targeting WhatsApp, Signal users
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Agentic AI Has an Identity Problem and Attackers Know It
+- **Source URL:** https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Critical SimpleHelp flaw exploited to deploy new stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Hackers now exploit critical Oracle E-Business flaw in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-29
+- **Headline / event:** Webinar: Why business email compromise attacks keep succeeding
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
