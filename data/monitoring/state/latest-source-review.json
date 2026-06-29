@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-06-28T14:17:07.105Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-28T141707Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-06-28",
-      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "data-breach-exposes-up-to-14-2-million-email-logins-at-six-isps",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-06-29T05:00:38.906Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-29T050038Z.md",
+  "candidates": []
 }
