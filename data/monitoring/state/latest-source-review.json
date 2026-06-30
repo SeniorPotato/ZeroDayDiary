@@ -1,50 +1,104 @@
 {
-  "generatedAt": "2026-06-30T04:34:53.378Z",
-  "packetPath": "data/monitoring/review-packets/2026-06-30T043453Z.md",
+  "generatedAt": "2026-06-30T14:44:29.376Z",
+  "packetPath": "data/monitoring/review-packets/2026-06-30T144429Z.md",
   "candidates": [
     {
       "discovered": "2026-06-30",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "FTC Requires Amazon to Pay $2.25 Million to Resolve Charges It Knowingly Violated the Fair Credit Reporting Act",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "category": "privacy",
+      "slug": "ftc-requires-amazon-to-pay-2-25-million-to-resolve-charges-it-knowingly-violated-the-fair-",
+      "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-06-30",
-      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input Jun 29, 2026 Browser Security / Web Security Microsoft has found a malicious Chrome extension that posed as the AI search engine Perplexity and quietly logged what people searched for. It routed every query and every character typed into the address bar through an attacker-controlled server before redirecting users to real results. Microsoft says Google removed it from the store after responsible disclosure. The extension was called \"Search for perplexity ai\" (ID flkebkiofojicogddingbdmcmkpbplcd) and used a look-alike domain, perplexity-ai[.]online, to pass for the real service at perplexity.ai. Microsoft's Defender research team says the point was to intercept searches and collect data. It found no proof of password theft, but far more access than a search box should ever need. Once installed, the extension sets itself as the browser's default search engine. When you searched, the query went first to perplexity-ai[.]online, where the attacker's server logged it with your browser headers, IP address,...",
-      "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "title": "The Realities of AI Video Surveillance",
+      "link": "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "malicious-perplexity-chrome-extension-intercepted-searches-and-address-bar-input-jun-29-20",
+      "slug": "the-realities-of-ai-video-surveillance",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study Jun 30, 2026 API Security / Mobile Security Researchers tested 444 AI chatbot apps for iPhone and found that 282 of them, nearly two-thirds, exposed paid AI access through their network traffic. In many cases, the path in was visible just by watching what the app sent: a plaintext API key, a reusable token, or a backend server that accepted requests with no key at all. Whoever grabs it can send model requests on the developer's account, and the developer pays the bill. Three months after the researchers warned the developers, only 28% had fixed it. The work, from researchers at Wake Forest University, is the first in-depth study of the problem on iOS . It is striking partly because of how little effort the snooping took. The team used a tool they built, LLMKeyLens , that watches an app's traffic and pulls out the credentials as they go by. No jailbreaking, no cracking the app open. The key is the secret that lets the app call a service like OpenAI or Google Gemini. Embed it in the app, and it is exposed with ev...",
+      "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "282-ios-ai-apps-leak-api-keys-and-open-ai-proxy-access-in-network-traffic-study-jun-30-202",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-06-30",
-      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "title": "What the Numbers Say About FIFA 2026 Cyber Risk Jun 30, 2026 Phishing / Impersonation The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially deployed. Threat actor activity was pre-planned, months out, across three sectors and at least ten languages. Check Point Exposure Management published the FIFA World Cup 2026 Cyber Threat Report this month, covering financial services, transportation, hospitality, and gambling. Here are three findings worth reading carefully. 1 in 3 FIFA Partners Can't Block Email Impersonation Pre-tournament research by Proofpoint found that more than one-third of official FIFA World Cup 2026 partners lack sufficient DMARC enforcement to prevent domain spoofing. That means attackers can send an email that appears to come from a sponsor, a vendor, or a logistics partner, with no technical barrier stopping it. The World Cup supply chain is enormous. Airlines, hotels, broadcast partners, merchandise contractors, an...",
+      "link": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks",
+      "slug": "what-the-numbers-say-about-fifa-2026-cyber-risk-jun-30-2026-phishing-impersonation-the-fif",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer Jun 30, 2026 AI Security / Vulnerability An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer . The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker could exploit to obtain a fully authenticated \"Technician session by submitting a forged token containing arbitrary identity claims. \"TaskWeaver is a heavily obfuscated Node.js loader, delivered as jquery.js and executed through node.exe, that implements an encrypted, reusable payload delivery channel rather than a fixed set of post exploitation commands,\" Blackpoint Cyber said in an analysis. \"The observed second stage payload, Djinn Stealer, targets Windows, macOS, and Linux systems.\" Djinn Stealer is designed to harvest credentials associated with cloud...",
+      "link": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "attackers-exploit-simplehelp-cve-2026-48558-to-deploy-taskweaver-and-djinn-stealer-jun-30-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks Jun 30, 2026 Vulnerability / Wireless Security Two researchers have found six security flaws in AirDrop and Quick Share , the wireless features that beam files between nearby devices with no cables or shared network. An attacker within wireless range, with just a laptop and no prior connection, can crash the sharing service on a Mac or iPhone set to receive from anyone, with no tap or prompt. The same research found Quick Share flaws that bypass Samsung's session checks and trigger a potentially exploitable crash in Google's Windows app. The two features run inside an ecosystem of more than five billion active Apple and Android devices, though the tested bugs hit specific implementations and versions. The work, laid out in a new research paper by Arash Ale Ebrahim and Nils Ole Tippenhauer of the CISPA Helmholtz Center for Information Security, is the first to pull both stacks apart side by side, above the radio layer, where discovery becomes session handling, parsing, and trust decisions. The fixes have alre...",
+      "link": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "airdrop-and-quick-share-flaws-let-nearby-attackers-trigger-crashes-and-bypass-checks-jun-3",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials Jun 30, 2026 Agent Security / Browser Security Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind BioShocking , a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credentials and sending them to an attacker. The targets included OpenAI's ChatGPT Atlas, Perplexity's Comet, and Anthropic's Claude browser extension. An AI browser is one that can act for you, not just read pages. Switch it to agent mode, and it can click, type, and reach into the sites you are already signed into. That access is the whole point, and it is also the problem. The trick works because of how these agents read. The web page and your own instructions arrive as a single stream of text. That lets a malicious page slip in commands dressed up as ordinary content or game rules, and the agent cannot reliably tell the difference. Researchers call this indirect prompt injection . How the trick works",
+      "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-bioshocking-attack-tricks-ai-browsers-into-leaking-user-credentials-jun-30-2026-agent-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "lessons-from-the-underground-how-to-combat-business-email-compromise",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-30",
-      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-      "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+      "link": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach",
+      "slug": "insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-06-30",
-      "title": "WhatsApp rolls out usernames to help users hide their phone number",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+      "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number",
+      "slug": "blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-06-30",
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs",
       "source": "BleepingComputer"
     }
   ]
