@@ -11004,3 +11004,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** FTC Requires Amazon to Pay $2.25 Million to Resolve Charges It Knowingly Violated the Fair Credit Reporting Act
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** The Realities of AI Video Surveillance
+- **Source URL:** https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** 282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study Jun 30, 2026 API Security / Mobile Security Researchers tested 444 AI chatbot apps for iPhone and found that 282 of them, nearly two-thirds, exposed paid AI access through their network traffic. In many cases, the path in was visible just by watching what the app sent: a plaintext API key, a reusable token, or a backend server that accepted requests with no key at all. Whoever grabs it can send model requests on the developer's account, and the developer pays the bill. Three months after the researchers warned the developers, only 28% had fixed it. The work, from researchers at Wake Forest University, is the first in-depth study of the problem on iOS . It is striking partly because of how little effort the snooping took. The team used a tool they built, LLMKeyLens , that watches an app's traffic and pulls out the credentials as they go by. No jailbreaking, no cracking the app open. The key is the secret that lets the app call a service like OpenAI or Google Gemini. Embed it in the app, and it is exposed with ev...
+- **Source URL:** https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** What the Numbers Say About FIFA 2026 Cyber Risk Jun 30, 2026 Phishing / Impersonation The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially deployed. Threat actor activity was pre-planned, months out, across three sectors and at least ten languages. Check Point Exposure Management published the FIFA World Cup 2026 Cyber Threat Report this month, covering financial services, transportation, hospitality, and gambling. Here are three findings worth reading carefully. 1 in 3 FIFA Partners Can't Block Email Impersonation Pre-tournament research by Proofpoint found that more than one-third of official FIFA World Cup 2026 partners lack sufficient DMARC enforcement to prevent domain spoofing. That means attackers can send an email that appears to come from a sponsor, a vendor, or a logistics partner, with no technical barrier stopping it. The World Cup supply chain is enormous. Airlines, hotels, broadcast partners, merchandise contractors, an...
+- **Source URL:** https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer Jun 30, 2026 AI Security / Vulnerability An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer . The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker could exploit to obtain a fully authenticated "Technician session by submitting a forged token containing arbitrary identity claims. "TaskWeaver is a heavily obfuscated Node.js loader, delivered as jquery.js and executed through node.exe, that implements an encrypted, reusable payload delivery channel rather than a fixed set of post exploitation commands," Blackpoint Cyber said in an analysis. "The observed second stage payload, Djinn Stealer, targets Windows, macOS, and Linux systems." Djinn Stealer is designed to harvest credentials associated with cloud...
+- **Source URL:** https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks Jun 30, 2026 Vulnerability / Wireless Security Two researchers have found six security flaws in AirDrop and Quick Share , the wireless features that beam files between nearby devices with no cables or shared network. An attacker within wireless range, with just a laptop and no prior connection, can crash the sharing service on a Mac or iPhone set to receive from anyone, with no tap or prompt. The same research found Quick Share flaws that bypass Samsung's session checks and trigger a potentially exploitable crash in Google's Windows app. The two features run inside an ecosystem of more than five billion active Apple and Android devices, though the tested bugs hit specific implementations and versions. The work, laid out in a new research paper by Arash Ale Ebrahim and Nils Ole Tippenhauer of the CISPA Helmholtz Center for Information Security, is the first to pull both stacks apart side by side, above the radio layer, where discovery becomes session handling, parsing, and trust decisions. The fixes have alre...
+- **Source URL:** https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials Jun 30, 2026 Agent Security / Browser Security Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind BioShocking , a technique from security firm LayerX that tricked six AI browsers and assistants into copying a user's credentials and sending them to an attacker. The targets included OpenAI's ChatGPT Atlas, Perplexity's Comet, and Anthropic's Claude browser extension. An AI browser is one that can act for you, not just read pages. Switch it to agent mode, and it can click, type, and reach into the sites you are already signed into. That access is the whole point, and it is also the problem. The trick works because of how these agents read. The web page and your own instructions arrive as a single stream of text. That lets a malicious page slip in commands dressed up as ordinary content or game rules, and the agent cannot reliably tell the difference. Researchers call this indirect prompt injection . How the trick works
+- **Source URL:** https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Lessons from the Underground: How to Combat Business Email Compromise
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Insurance giant Aflac discloses data breach after subsidiary hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Blackfield ransomware asks Nidec Corporation for $2 million ransom
+- **Source URL:** https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** CISA: Windows BlueHammer flaw now exploited by ransomware gangs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
