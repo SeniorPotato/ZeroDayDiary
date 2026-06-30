@@ -65,7 +65,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -376,7 +378,6 @@
       "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html",
       "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
       "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
-      "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
       "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html"
     ],
     "the-hacker-news": [
@@ -969,15 +970,12 @@
       "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
       "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
       "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-      "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-      "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-      "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
       "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
       "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
       "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
+      "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1608,12 +1606,13 @@
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
       "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-      "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-      "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-      "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-      "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/"
+      "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
+      "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+      "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/"
     ]
   }
 }

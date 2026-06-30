@@ -10964,3 +10964,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input Jun 29, 2026 Browser Security / Web Security Microsoft has found a malicious Chrome extension that posed as the AI search engine Perplexity and quietly logged what people searched for. It routed every query and every character typed into the address bar through an attacker-controlled server before redirecting users to real results. Microsoft says Google removed it from the store after responsible disclosure. The extension was called "Search for perplexity ai" (ID flkebkiofojicogddingbdmcmkpbplcd) and used a look-alike domain, perplexity-ai[.]online, to pass for the real service at perplexity.ai. Microsoft's Defender research team says the point was to intercept searches and collect data. It found no proof of password theft, but far more access than a search box should ever need. Once installed, the extension sets itself as the browser's default search engine. When you searched, the query went first to perplexity-ai[.]online, where the attacker's server logged it with your browser headers, IP address,...
+- **Source URL:** https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** Nissan discloses employee data breach linked to Oracle zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** NAIC says public data stolen in ShinyHunters' PeopleSoft breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-06-30
+- **Headline / event:** WhatsApp rolls out usernames to help users hide their phone number
+- **Source URL:** https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
