@@ -11092,3 +11092,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** FTC Secures Agreement with Havas to Restore Competition in the Digital Advertising Ecosystem
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service Jul 01, 2026 Vulnerability / Enterprise Security Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker to facilitate arbitrary file reads or trigger a denial-of-service (DoS) condition. The vulnerabilities are listed below - CVE-2026-8451 (CVSS score: 8.8) - An insufficient input validation vulnerability leading to memory overread when NetScaler ADC or NetScaler Gateway is configured as a SAML IDP CVE-2026-8452 (CVSS score: 8.8) - A memory overflow vulnerability leading to unpredictable or erroneous behavior and denial-of-service when the appliance is configured as a Gateway or an AAA virtual server CVE-2026-8655 (CVSS score: 8.8) - Multiple memory overflow vulnerabilities leading to unpredictable or erroneous behavior and denial-of-service when NetScaler ADC is configured as an LB of type Oracle, a DNS Proxy, or a DNS recursive resolver deployment CVE-2026-10816 (CVSS sco...
+- **Source URL:** https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now trigger...
+- **Source URL:** https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints Jun 30, 2026 Vulnerability / Malware Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI) application endpoints for obtaining initial access to enterprise networks. The attack was observed over a 19-day window between March 27 and April 15, 2026. "In this campaign, a single line of Python code evaluated inside an unauthenticated Langflow API endpoint pulls down a shell script, fetches a miner binary, and launches it detached," Trend Micro researchers Simon Dulude and John Zhang said in a technical report published last week. At a high level, the malware is designed to terminate competing cryptocurrency miner processes associated with Kinsing , WatchDog , Rocke , and Outlaw ,...
+- **Source URL:** https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses Jun 30, 2026 Browser Security / Cryptocurrency Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a transaction. The cryptocurrency clipper activity has been codenamed Silent Swap by McAfee Labs. "The campaign is delivered through unsigned installers – observed in both .NET and Golang variants – that deploy a malicious Chromium extension masquerading as a benign 'Google Notes' utility," the cybersecurity company said in a technical report shared with The Hacker News. The unsigned .NET installer, named BaseZipInstaller, is designed to retrieve a ZIP archive, which serves as a foundation for the malicious browser extension by scanning the system for Chromium-based browsers. For each detected profile in those browsers, it forcibly terminates the browser process and injects the extension by modifying the Secure Preferences and Preferences files. The end goal of the ex...
+- **Source URL:** https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** New BioShocking attack manipulates AI browser into data theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Malicious PyPI packages give hackers control of Telegram bot servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Fake Perplexity extension on Chrome Web Store tracked searches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
