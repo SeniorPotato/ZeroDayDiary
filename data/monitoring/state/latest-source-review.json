@@ -1,77 +1,104 @@
 {
-  "generatedAt": "2026-07-01T04:54:57.516Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-01T045457Z.md",
+  "generatedAt": "2026-07-01T15:12:41.491Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-01T151241Z.md",
   "candidates": [
     {
       "discovered": "2026-07-01",
-      "title": "FTC Secures Agreement with Havas to Restore Competition in the Digital Advertising Ecosystem",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem",
+      "title": "Your Perspective Matters: Join the NIS360 survey",
+      "link": "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey",
       "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-secures-agreement-with-havas-to-restore-competition-in-the-digital-advertising-ecosyst",
-      "source": "FTC Press Releases"
+      "category": "security",
+      "slug": "your-perspective-matters-join-the-nis360-survey",
+      "source": "ENISA News"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service Jul 01, 2026 Vulnerability / Enterprise Security Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker to facilitate arbitrary file reads or trigger a denial-of-service (DoS) condition. The vulnerabilities are listed below - CVE-2026-8451 (CVSS score: 8.8) - An insufficient input validation vulnerability leading to memory overread when NetScaler ADC or NetScaler Gateway is configured as a SAML IDP CVE-2026-8452 (CVSS score: 8.8) - A memory overflow vulnerability leading to unpredictable or erroneous behavior and denial-of-service when the appliance is configured as a Gateway or an AAA virtual server CVE-2026-8655 (CVSS score: 8.8) - Multiple memory overflow vulnerabilities leading to unpredictable or erroneous behavior and denial-of-service when NetScaler ADC is configured as an LB of type Oracle, a DNS Proxy, or a DNS recursive resolver deployment CVE-2026-10816 (CVSS sco...",
-      "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+      "title": "Papa Johns Surveillance-Based Advertising",
+      "link": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "citrix-patches-six-netscaler-flaws-allowing-file-read-and-denial-of-service-jul-01-2026-vu",
+      "slug": "papa-johns-surveillance-based-advertising",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-07-01",
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands Jul 01, 2026 AI Coding / Vulnerability Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs found the pair and named them DuneSlide . They are tracked as CVE-2026-50548 and CVE-2026-50549, both rated 9.8 out of 10 (or 9.3 under the newer CVSS 4.0 scale). The fix is already out. Both bugs are patched in Cursor 3.0, released April 2, and every version before 3.0 is affected. Cursor's maker says more than half the Fortune 500 use the tool, so if you run it, update now. What the sandbox was for, and how it broke Starting in the 2.x line, Cursor runs the terminal commands its AI agent issues inside a sandbox by default: a locked box that limits what those commands can touch, so a stray instruction cannot wreck the machine. DuneSlide is about getting out of that box. The way in is prompt injection . The attacke...",
+      "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "critical-cursor-flaws-could-let-prompt-injection-escape-sandbox-and-run-commands-jul-01-20",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now trigger...",
-      "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts Jul 01, 2026 Vulnerability / Network Security A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts, according to an advisory from eSentire's Threat Response Unit (TRU). The Canadian cybersecurity company said it identified exploitation attempts targeting CVE-2026-8037 (CVSS score: 9.6), an operating system (OS) command injection flaw that could be exploited to achieve arbitrary code execution on susceptible devices. The exploitation activity commenced on June 29, 2026. \"OS Command Injection Remote Code Execution Vulnerability in API in Progress LoadMaster allows an unauthenticated attacker with permissions to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input,\" Progress said in an advisory for the vulnerability released early last month. In an analysis published this week, watchTowr Labs described the flaw as rooted in a function named \"escape_quotes()\" within the load balancer application and tha...",
+      "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-warns-poisoned-mcp-tool-descriptions-can-make-ai-agents-leak-data-jun-30-2026-ar",
+      "slug": "progress-kemp-loadmaster-pre-auth-rce-flaw-faces-active-exploitation-attempts-jul-01-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints Jun 30, 2026 Vulnerability / Malware Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI) application endpoints for obtaining initial access to enterprise networks. The attack was observed over a 19-day window between March 27 and April 15, 2026. \"In this campaign, a single line of Python code evaluated inside an unauthenticated Langflow API endpoint pulls down a shell script, fetches a miner binary, and launches it detached,\" Trend Micro researchers Simon Dulude and John Zhang said in a technical report published last week. At a high level, the malware is designed to terminate competing cryptocurrency miner processes associated with Kinsing , WatchDog , Rocke , and Outlaw ,...",
-      "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android Jul 01, 2026 Browser Security / Ransomware Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining \"unrealistic browser-malware concepts with a real browser capability\" to turn it into a working ransomware technique that runs entirely inside the browser on both Windows and Android devices. \"This is the first documented case where a frontier AI model independently bridged the gap between a theoretical browser-only ransomware risk and a practical, working attack chain – surfacing a novel attack path that defenders had previously dismissed as unfeasible due to browser sandboxing limits,\" Check Point said in a statement shared with The Hacker News. \"The expertise needed to discover a new attack path is no longer the bottleneck, and defenders need to account for that shift now — before threat actors operationalize it at scale.\" The identified sample is a Python Flask application named \" deepseek_python_20260125_da...",
+      "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "langflow-rce-exploited-to-deploy-monero-miner-on-exposed-ai-app-endpoints-jun-30-2026-vuln",
+      "slug": "ai-generated-browser-ransomware-abuses-chromium-api-on-windows-and-android-jul-01-2026-bro",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses Jun 30, 2026 Browser Security / Cryptocurrency Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a transaction. The cryptocurrency clipper activity has been codenamed Silent Swap by McAfee Labs. \"The campaign is delivered through unsigned installers – observed in both .NET and Golang variants – that deploy a malicious Chromium extension masquerading as a benign 'Google Notes' utility,\" the cybersecurity company said in a technical report shared with The Hacker News. The unsigned .NET installer, named BaseZipInstaller, is designed to retrieve a ZIP archive, which serves as a foundation for the malicious browser extension by scanning the system for Chromium-based browsers. For each detected profile in those browsers, it forcibly terminates the browser process and injects the extension by modifying the Secure Preferences and Preferences files. The end goal of the ex...",
-      "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience Jul 01, 2026 Attack Surface / Artificial Intelligence Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecurity Assessment confirms this is the case, as this year's findings reveal a series of surprising contradictions. Here are a few examples, based on the independent survey of 1,200 IT and cybersecurity professionals across six countries. IT & security leaders believe they have sufficient visibility into employee AI usage, while many frontline practitioners disagree . Security teams understand the importance of reducing the attack surface, yet they often lack the skills, resources, or strategy to do so. AI dominates cybersecurity conversations, but in some cases, it is drawing attention away from more prevalent attack techniques already causing significant damage. Although organizations say they recognize the importance of transparency after a breach, many professionals st...",
+      "link": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "silent-swap-crypto-clipper-uses-fake-google-notes-extension-to-replace-wallet-addresses-ju",
+      "slug": "2026-cybersecurity-assessment-the-gap-between-awareness-and-resilience-jul-01-2026-attack-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-01",
-      "title": "New BioShocking attack manipulates AI browser into data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029 Jul 01, 2026 Quantum Computing / Encryption Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encryption standards sooner than previously expected. \"Advances in quantum research and development have shifted the risk horizon,\" Mark Russinovich, chief technology officer of Microsoft Azure, said . \"We believe cryptographically relevant quantum computers could arrive sooner than previously expected – and the work required to prepare is significant, so organizations need to start now.\" To that end, the Windows maker is speeding up the Microsoft Quantum Safe Program ( QSP ) timeline with the goal of transitioning critical products and services to post-quantum cryptography (PQC) by 2029. The company is also planning to incorporate PQC requirements into its Secure Future Initiative ( SFI ). Some key focus areas include upgrading network cryptography by adopting TLS 1.3, building crypt...",
+      "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-bioshocking-attack-manipulates-ai-browser-into-data-theft",
+      "slug": "microsoft-accelerates-post-quantum-cryptography-shift-to-2029-jul-01-2026-quantum-computin",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-01",
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "turning-indicators-into-intelligence-in-opencti-with-criminal-ip",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers",
+      "slug": "over-900-oracle-e-business-instances-exposed-to-ongoing-attacks",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-01",
-      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-perplexity-extension-on-chrome-web-store-tracked-searches",
+      "slug": "amazon-fined-2-25m-for-withholding-evidence-from-fraud-victims",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-07-01",
+      "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "adobe-patches-seven-max-severity-coldfusion-campaign-flaws",
       "source": "BleepingComputer"
     }
   ]

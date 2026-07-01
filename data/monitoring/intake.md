@@ -11156,3 +11156,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Your Perspective Matters: Join the NIS360 survey
+- **Source URL:** https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Papa Johns Surveillance-Based Advertising
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands Jul 01, 2026 AI Coding / Vulnerability Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs found the pair and named them DuneSlide . They are tracked as CVE-2026-50548 and CVE-2026-50549, both rated 9.8 out of 10 (or 9.3 under the newer CVSS 4.0 scale). The fix is already out. Both bugs are patched in Cursor 3.0, released April 2, and every version before 3.0 is affected. Cursor's maker says more than half the Fortune 500 use the tool, so if you run it, update now. What the sandbox was for, and how it broke Starting in the 2.x line, Cursor runs the terminal commands its AI agent issues inside a sandbox by default: a locked box that limits what those commands can touch, so a stray instruction cannot wreck the machine. DuneSlide is about getting out of that box. The way in is prompt injection . The attacke...
+- **Source URL:** https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts Jul 01, 2026 Vulnerability / Network Security A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts, according to an advisory from eSentire's Threat Response Unit (TRU). The Canadian cybersecurity company said it identified exploitation attempts targeting CVE-2026-8037 (CVSS score: 9.6), an operating system (OS) command injection flaw that could be exploited to achieve arbitrary code execution on susceptible devices. The exploitation activity commenced on June 29, 2026. "OS Command Injection Remote Code Execution Vulnerability in API in Progress LoadMaster allows an unauthenticated attacker with permissions to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input," Progress said in an advisory for the vulnerability released early last month. In an analysis published this week, watchTowr Labs described the flaw as rooted in a function named "escape_quotes()" within the load balancer application and tha...
+- **Source URL:** https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android Jul 01, 2026 Browser Security / Ransomware Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining "unrealistic browser-malware concepts with a real browser capability" to turn it into a working ransomware technique that runs entirely inside the browser on both Windows and Android devices. "This is the first documented case where a frontier AI model independently bridged the gap between a theoretical browser-only ransomware risk and a practical, working attack chain – surfacing a novel attack path that defenders had previously dismissed as unfeasible due to browser sandboxing limits," Check Point said in a statement shared with The Hacker News. "The expertise needed to discover a new attack path is no longer the bottleneck, and defenders need to account for that shift now — before threat actors operationalize it at scale." The identified sample is a Python Flask application named " deepseek_python_20260125_da...
+- **Source URL:** https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** 2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience Jul 01, 2026 Attack Surface / Artificial Intelligence Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecurity Assessment confirms this is the case, as this year's findings reveal a series of surprising contradictions. Here are a few examples, based on the independent survey of 1,200 IT and cybersecurity professionals across six countries. IT & security leaders believe they have sufficient visibility into employee AI usage, while many frontline practitioners disagree . Security teams understand the importance of reducing the attack surface, yet they often lack the skills, resources, or strategy to do so. AI dominates cybersecurity conversations, but in some cases, it is drawing attention away from more prevalent attack techniques already causing significant damage. Although organizations say they recognize the importance of transparency after a breach, many professionals st...
+- **Source URL:** https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Microsoft Accelerates Post-Quantum Cryptography Shift to 2029 Jul 01, 2026 Quantum Computing / Encryption Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encryption standards sooner than previously expected. "Advances in quantum research and development have shifted the risk horizon," Mark Russinovich, chief technology officer of Microsoft Azure, said . "We believe cryptographically relevant quantum computers could arrive sooner than previously expected – and the work required to prepare is significant, so organizations need to start now." To that end, the Windows maker is speeding up the Microsoft Quantum Safe Program ( QSP ) timeline with the goal of transitioning critical products and services to post-quantum cryptography (PQC) by 2029. The company is also planning to incorporate PQC requirements into its Secure Future Initiative ( SFI ). Some key focus areas include upgrading network cryptography by adopting TLS 1.3, building crypt...
+- **Source URL:** https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Turning Indicators into Intelligence in OpenCTI with Criminal IP
+- **Source URL:** https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Over 900 Oracle E-Business instances exposed to ongoing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Amazon fined $2.25M for withholding evidence from fraud victims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-01
+- **Headline / event:** Adobe patches seven max severity ColdFusion, Campaign flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
