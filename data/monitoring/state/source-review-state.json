@@ -212,7 +212,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -380,7 +381,6 @@
       "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
       "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
       "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
-      "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
       "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html"
     ],
     "the-hacker-news": [
@@ -983,14 +983,17 @@
       "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
       "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
       "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
-      "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
-      "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
-      "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
       "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
       "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-      "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html"
+      "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+      "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+      "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1629,10 +1632,12 @@
       "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
       "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
       "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-      "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
-      "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
-      "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
-      "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/"
+      "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/"
     ]
   }
 }
