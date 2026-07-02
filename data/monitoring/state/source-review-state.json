@@ -66,7 +66,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -125,7 +127,6 @@
       "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
       "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience",
-      "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey",
       "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey"
     ],
     "ncsc-news": [],
@@ -214,7 +215,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-files-amicus-brief-protect-consumers-pharmaceutical-monopolies",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -383,7 +386,6 @@
       "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
       "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
       "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
-      "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
       "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html"
     ],
     "the-hacker-news": [
@@ -998,15 +1000,21 @@
       "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
       "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
       "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-      "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
-      "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
-      "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
       "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
       "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
       "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-      "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html"
+      "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+      "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1652,10 +1660,18 @@
       "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
       "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
       "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
-      "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-      "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
-      "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/"
+      "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
+      "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
+      "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+      "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/"
     ]
   }
 }
