@@ -67,7 +67,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
@@ -217,7 +216,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-requires-amazon-pay-225-million-resolve-charges-it-knowingly-violated-fair-credit-reporting-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-secures-agreement-havas-restore-competition-digital-advertising-ecosystem",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -386,7 +386,9 @@
       "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
       "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
       "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
-      "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html"
+      "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
+      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
+      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1009,12 +1011,18 @@
       "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
       "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
       "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-      "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-      "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html"
+      "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
+      "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+      "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+      "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1665,13 +1673,18 @@
       "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
       "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
       "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-      "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-      "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
-      "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
-      "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-      "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
       "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-      "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/"
+      "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
+      "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+      "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+      "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
+      "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+      "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+      "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+      "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
+      "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+      "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/"
     ]
   }
 }
