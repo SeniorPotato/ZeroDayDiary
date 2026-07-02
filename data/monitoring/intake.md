@@ -11244,3 +11244,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** FTC Seeks Public Comment on Policy Statement Addressing AI Accuracy
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters Jul 01, 2026 Kubernetes / Server Security Argo CD , a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv , which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in January 2025; roughly eighteen months later, it remains unpatched, so it published the details to warn users. The bug sits in repo-server, the Argo CD component that reads Git repositories and builds Kubernetes manifests, the files that define what the cluster deploys. Its internal gRPC service has no authentication; anyone who can reach it can send a crafted request to run a command. Synacktiv demonstrated the attack against Argo CD v2.13.3 and reports no patched release; it did not publish a full list of affected versions. The technique abuses kustomize , a standard tool Argo ...
+- **Source URL:** https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges Jul 01, 2026 Cybercrime / Ransomware A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes , 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police arrested him in April on an Interpol Red Notice, an international arrest request, before his extradition in late June. His case is the latest in a run of arrests targeting a crew tied to breaches at casinos, retailers, and airlines. Court records identify Stokes by the online handle "Bouquet" and describe at least four intrusions, the first when he was 16. In one case, in May 2025, prosecutors say he and others broke into a luxury jewelry retailer, copied its data, and demanded about $8 million in cryptocurrency. The retailer refused to pay, evicted the intruders, and spent at least $2 milli...
+- **Source URL:** https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT Jul 01, 2026 Malware / SEO Poisoning Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT . Kaspersky said the activity is part of a "massive, multi-domain, multi-language" campaign that distributes malicious installer archives hosted on spoofed websites. These installers masquerade as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam, among others. The Russian cybersecurity company said it identified more than 90 domain names localized across 10 languages, including English, Russian, Chinese, German, French, Spanish, Portuguese, and Arabic. Some of these domains were set up between August 2025 and March 2026. "The malicious archives bundle a legitimate, signed Microsoft install.exe binary alongside a rogue install.res.1033.dll library," security researcher Denis Kulik said . "It is loaded onto the device via DLL side-loading and deploys the ScreenConnect service, which awaits further instructions from the thr...
+- **Source URL:** https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer Jul 01, 2026 Malware / Cyber Attack Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs . The activity has been codenamed VEIL#DROP by Securonix. It's suspected that the initial payloads are distributed either via spear-phishing or a drive-by compromise , which occurs when an unsuspecting user lands on a website (legitimate or otherwise) under the attacker's control. "The infection chain begins with a deceptively named JavaScript file masquerading as a document (e.g., transcript.pdf.js), which executes through Windows Script Host and launches PowerShell with execution policy bypasses enabled," researchers Akshay Gaikwad, Shikha Sangwan, and Aaron Beardslee said in a report shared with The Hacker News. At a high level, the PowerShell script is responsible for retrieving a next-stage payload hosted on Blogger ("htlwub00klocate.blogspot[.]com"), allowing the ...
+- **Source URL:** https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures Jul 01, 2026 Endpoint Security / Malware A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's FortiGuard Labs identified the campaign in May 2026. It opens with a phishing PDF disguised as a corrupted file, checks that the visitor is really in Spain or Portugal, and hides its real payload inside an image. The goal is the usual one: steal banking logins and take over accounts. Ousaban sits quietly on a Windows PC and waits for the user to open a banking site. When a target bank loads, it can capture screenshots and keystrokes, tamper with the clipboard, show fake messages, and give the attacker remote control. Together, those are the tools for hijacking a live banking session and taking over an account. Ousaban watches for more than two dozen banks across the two countries, among them Banco Santander, BBVA, CaixaBank, Bankinter, and Caixa Geral de Depósitos. How the attack works It starts with a phishing PDF disguised as a corrupted file. Th...
+- **Source URL:** https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** Medtronic notifies customers impacted by ShinyHunters data breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** FortiBleed credential-theft campaign linked to Lynx
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** Kubota says hackers had month-long access to network systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** New ChocoPoC malware targets researchers via trojanized PoC exploits
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-02
+- **Headline / event:** DHS confirms hackers breached HSIN info-sharing platform
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
