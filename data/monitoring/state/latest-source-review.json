@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-07-03T04:10:33.665Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-03T041033Z.md",
+  "generatedAt": "2026-07-03T14:33:03.168Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-03T143303Z.md",
   "candidates": [
     {
       "discovered": "2026-07-03",
-      "title": "Travel App Hopper to Pay $35 Million to Settle FTC Allegations It Charged Fees Without Consent and Deceived Users About Fees and Benefits of Some Products",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "travel-app-hopper-to-pay-35-million-to-settle-ftc-allegations-it-charged-fees-without-cons",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-07-03",
-      "title": "FTC Approves Final Order Against Publishing.com, Settling Allegations It Misled Consumers",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-approves-final-order-against-publishing-com-settling-allegations-it-misled-consumers",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-07-03",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "title": "Flock Cameras Can Surveil Cars Without License Plates",
+      "link": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-seizes-netnut-proxy-platform-popa-botnet",
-      "source": "Krebs on Security"
+      "slug": "flock-cameras-can-surveil-cars-without-license-plates",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-07-03",
-      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials Jul 02, 2026 Malware / Cyber Attack Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral movement,\" Arctic Wolf said in a report published this week. \"Anubis affiliates repeatedly abused legitimate remote access and administration tools, including ScreenConnect, Zoho Assist, MeshAgent, Remotely, UltraVNC, and Total Software Deployment, to blend in with normal IT activity while maintaining control of victim systems.\" Anubis is a ransomware-as-a-service (RaaS) group that first emerged in late 2024 as a rebrand of Sphinx ransomware. The ransomware operation was formally announced on the Ransomware and Advanced Malware Protection (RAMP) underground forum in Febr...",
-      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer Jul 03, 2026 Infostealer / Cyber Espionage A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. \"Armored Likho blends financially motivated campaigns targeting private individuals with targeted cyber espionage aimed at organizations,\" Kaspersky said in a technical analysis published today. \"Their toolkit features obfuscated, modular RATs and infostealers specifically engineered to bypass dynamic analysis.\" The attacks are also characterized by the use of tools like Go2Tunnel for remote access and network tunneling. The wide variety of tools in its arsenal allows the threat actor to maintain persistent access to compromised hosts, steal credentials and sensitive data, and dynamically deliver modules tailored to the victim's profile. The Russian cybersecurity vendor said Armored Likho shares possible overlaps with a threat cluster tracked by BI.ZONE under...",
+      "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ransomware-groups-turn-to-citrix-bleed-2-byovd-and-supply-chain-credentials-jul-02-2026-ma",
+      "slug": "armored-likho-targets-government-agencies-power-sector-with-busysnake-stealer-jul-03-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-03",
-      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Jul 02, 2026 Hacking News / Cybersecurity News This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through. This is not one big break. It is small permissions, weak checks, open systems, and normal tools doing things they were allowed to do. That same pattern runs through the stories below.",
-      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus Jul 03, 2026 Mobile Security / Spyware A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc. \"Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations,\" the Citizen Lab researchers John Scott-Railton, Bill Marczak, Bahr Abdul Razzak, Kate Pundyk, Siena Anstis, and Ron Deibert said . The infections have not been attributed to a particular government at this time, and there is no evidence that the Greek government is behind the activity. However, the Canadian interdisciplinary research laboratory noted that it identified an overlap between the first infection and a previous campaign targeting Russian and Belarusian-speaking exiled journalists and activists in Europe. ...",
+      "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-ai-compute-hijacking-apple-email-flaw-bluehammer-ransomware-14-stories-jul-02-2",
+      "slug": "european-parliament-member-investigating-spyware-was-hacked-with-pegasus-jul-03-2026-mobil",
       "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-03",
+      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords Jul 03, 2026 Credential Theft / Cryptocurrency Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to validate the victim's login password through the macOS Pluggable Authentication Modules ( PAM ) before capturing it. The malware is delivered in two stages: A compiled AppleScript distributed inside a disk image that's designed to download and stage a follow-on payload. The secondary artifact is a Rust-based infostealer capable of credential theft, browser data collection, persistence, and exfiltration. The initial access vector for the malware is a lookalike site (\"maccyapp[.]com\") that mimics Maccy (\"maccy[.]app\"). The AppleScript (\"Maccy.scpt\") pres...",
+      "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "pamstealer-uses-fake-maccy-sites-and-pam-checks-to-steal-mac-login-passwords-jul-03-2026-c",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-03",
+      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+      "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit",
+      "source": "BleepingComputer"
     }
   ]
 }

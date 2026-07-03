@@ -218,8 +218,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers"
     ],
     "iso-insights": [
@@ -287,7 +285,6 @@
       "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
       "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/",
-      "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
     ],
     "schneier-on-security": [
@@ -392,7 +389,9 @@
       "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
       "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
       "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
-      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html"
+      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
+      "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
+      "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1024,8 +1023,12 @@
       "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
       "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
       "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html"
+      "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1682,7 +1685,9 @@
       "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
       "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
       "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-      "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/"
+      "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
     ]
   }
 }

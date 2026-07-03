@@ -11476,3 +11476,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** Flock Cameras Can Surveil Cars Without License Plates
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer Jul 03, 2026 Infostealer / Cyber Espionage A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. "Armored Likho blends financially motivated campaigns targeting private individuals with targeted cyber espionage aimed at organizations," Kaspersky said in a technical analysis published today. "Their toolkit features obfuscated, modular RATs and infostealers specifically engineered to bypass dynamic analysis." The attacks are also characterized by the use of tools like Go2Tunnel for remote access and network tunneling. The wide variety of tools in its arsenal allows the threat actor to maintain persistent access to compromised hosts, steal credentials and sensitive data, and dynamically deliver modules tailored to the victim's profile. The Russian cybersecurity vendor said Armored Likho shares possible overlaps with a threat cluster tracked by BI.ZONE under...
+- **Source URL:** https://thehackernews.com/2026/07/armored-likho-targets-government.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** European Parliament Member Investigating Spyware Was Hacked With Pegasus Jul 03, 2026 Mobile Security / Spyware A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc. "Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations," the Citizen Lab researchers John Scott-Railton, Bill Marczak, Bahr Abdul Razzak, Kate Pundyk, Siena Anstis, and Ron Deibert said . The infections have not been attributed to a particular government at this time, and there is no evidence that the Greek government is behind the activity. However, the Canadian interdisciplinary research laboratory noted that it identified an overlap between the first infection and a previous campaign targeting Russian and Belarusian-speaking exiled journalists and activists in Europe. ...
+- **Source URL:** https://thehackernews.com/2026/07/european-parliament-member.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords Jul 03, 2026 Credential Theft / Cryptocurrency Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to validate the victim's login password through the macOS Pluggable Authentication Modules ( PAM ) before capturing it. The malware is delivered in two stages: A compiled AppleScript distributed inside a disk image that's designed to download and stage a follow-on payload. The secondary artifact is a Rust-based infostealer capable of credential theft, browser data collection, persistence, and exfiltration. The initial access vector for the malware is a lookalike site ("maccyapp[.]com") that mimics Maccy ("maccy[.]app"). The AppleScript ("Maccy.scpt") pres...
+- **Source URL:** https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit
+- **Source URL:** https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
