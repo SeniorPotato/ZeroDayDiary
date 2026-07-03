@@ -1,114 +1,51 @@
 {
-  "generatedAt": "2026-07-02T14:30:19.289Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-02T143019Z.md",
+  "generatedAt": "2026-07-03T04:10:33.665Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-03T041033Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-02",
-      "title": "FTC and DOJ Issue Fiscal Year 2025 Hart-Scott-Rodino Annual Report",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report",
+      "discovered": "2026-07-03",
+      "title": "Travel App Hopper to Pay $35 Million to Settle FTC Allegations It Charged Fees Without Consent and Deceived Users About Fees and Benefits of Some Products",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-and-doj-issue-fiscal-year-2025-hart-scott-rodino-annual-report",
+      "slug": "travel-app-hopper-to-pay-35-million-to-settle-ftc-allegations-it-charged-fees-without-cons",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-02",
-      "title": "Cybersecurity Mission Creep in the US",
-      "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
+      "discovered": "2026-07-03",
+      "title": "FTC Approves Final Order Against Publishing.com, Settling Allegations It Misled Consumers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cybersecurity-mission-creep-in-the-us",
-      "source": "Schneier on Security"
+      "category": "privacy",
+      "slug": "ftc-approves-final-order-against-publishing-com-settling-allegations-it-misled-consumers",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-02",
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API Jul 02, 2026 API Security / Cyberespionage The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. \"In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs,\" Kaspersky said in a detailed report published this week. \"Because the Google API relies on the OAuth 2.0 protocol for authorization, applications can use an OAuth token to access requested email resources.\" The adversary is said to have developed Umbrij to acquire this token and use it to connect to the browser's management console in headless mode via a remote debugging port. Subsequently, a series of requests was issued to obtain an OAuth authorization code, which was then exchanged for an access token to reach the target resources via the API. The technique has been codenamed Shadow Token via Remote Debug (STRD) b...",
-      "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "discovered": "2026-07-03",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "toddycat-linked-umbrij-malware-abuses-oauth-to-access-gmail-via-google-api-jul-02-2026-api",
+      "slug": "fbi-seizes-netnut-proxy-platform-popa-botnet",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-07-03",
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials Jul 02, 2026 Malware / Cyber Attack Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral movement,\" Arctic Wolf said in a report published this week. \"Anubis affiliates repeatedly abused legitimate remote access and administration tools, including ScreenConnect, Zoho Assist, MeshAgent, Remotely, UltraVNC, and Total Software Deployment, to blend in with normal IT activity while maintaining control of victim systems.\" Anubis is a ransomware-as-a-service (RaaS) group that first emerged in late 2024 as a rebrand of Sphinx ransomware. The ransomware operation was formally announced on the Ransomware and Advanced Malware Protection (RAMP) underground forum in Febr...",
+      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ransomware-groups-turn-to-citrix-bleed-2-byovd-and-supply-chain-credentials-jul-02-2026-ma",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-02",
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents Jul 02, 2026 Identity Governance / Enterprise Security Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model built for humans develops structural blind spots that traditional IGA tools weren't designed to detect. This guide covers where that model breaks, what it fails to govern, and what extending it to agents actually requires. What Identity Lifecycle Management Was Designed to Handle To understand why identity lifecycle management breaks down around AI agents, you need to understand what it was built to do well and who it was built for. The entire architecture rests on a single foundational assumption: every identity maps to a human being whose organizational status changes through documented, HR-driven events. The identity lifecycle management process governs access from an identity's first provisioning event through every modificatio...",
-      "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+      "discovered": "2026-07-03",
+      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Jul 02, 2026 Hacking News / Cybersecurity News This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through. This is not one big break. It is small permissions, weak checks, open systems, and normal tools doing things they were allowed to do. That same pattern runs through the stories below.",
+      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "identity-lifecycle-management-wasn-t-built-for-ai-agents-jul-02-2026-identity-governance-e",
+      "slug": "threatsday-ai-compute-hijacking-apple-email-flaw-bluehammer-ransomware-14-stories-jul-02-2",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack Jul 02, 2026 Artificial Intelligence / Malware Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always needed a skilled person somewhere in the loop, either at the keyboard or writing the script the malware follows. If a model can chain those steps on its own, the skill needed to run an attack drops to whatever it costs to rent an AI agent. The way in was an old, already-patched bug. JADEPUFFER exploited CVE-2025-3248 , a missing-authentication flaw in Langflow , an open-source tool for building AI apps and agent workflows. The flaw lets anyone who can reach the server run their own Python code on it, no login needed. Langflow boxes are a tempting target because they often sit ...",
-      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ai-agent-exploits-langflow-rce-to-automate-database-ransomware-attack-jul-02-2026-artifici",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations Jul 02, 2026 Network Security / Ransomware The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. \"An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment for the first time,\" SOCRadar said in a new report published Wednesday. The company said it tracked scanning activity against approximately 11,250 FortiGate portals in more than 150 countries, followed by confirmed admin-level access on 409 targets and successful completion of the full attack chain on 354 of them. In all, at least 12 ransomware deployments have resulted from this access, causing hundreds of endpoints to be encrypted across affected organizations. The large-scale credential-harvesting operation, which came to light last month, involved the threat actors sys...",
-      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fortibleed-credential-theft-linked-to-inc-and-lynx-ransomware-operations-jul-02-2026-netwo",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos Jul 02, 2026 Malware / Vulnerability Research Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC , travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and Sekoia published their joint findings on July 1 and warned that, as of that report, the malware and its servers were still live, so do not run any of these PoCs. The trick is where the code sits. The visible PoC looks clean. The malware hides in a Python package that the PoC pulls in as a dependency, so it slips past a quick code review. How the trap works The bait is time pressure. When a big flaw drops, researchers race to test it and grab community PoCs to move fast. This campaign turns that habit into an infection route. The chain, in plain terms: You clone the repo and r...",
-      "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-chocopoc-rat-targets-vulnerability-researchers-via-fake-poc-exploit-repos-jul-02-2026-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisco-finally-confirms-attackers-exploiting-unified-cm-flaw",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-02",
-      "title": "Alleged Scattered Spider hacker extradited to the United States",
-      "link": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "alleged-scattered-spider-hacker-extradited-to-the-united-states",
-      "source": "BleepingComputer"
     }
   ]
 }
