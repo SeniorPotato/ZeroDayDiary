@@ -11436,3 +11436,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** Travel App Hopper to Pay $35 Million to Settle FTC Allegations It Charged Fees Without Consent and Deceived Users About Fees and Benefits of Some Products
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** FTC Approves Final Order Against Publishing.com, Settling Allegations It Misled Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** FBI Seizes NetNut Proxy Platform, Popa Botnet
+- **Source URL:** https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials Jul 02, 2026 Malware / Cyber Attack Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. "Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral movement," Arctic Wolf said in a report published this week. "Anubis affiliates repeatedly abused legitimate remote access and administration tools, including ScreenConnect, Zoho Assist, MeshAgent, Remotely, UltraVNC, and Total Software Deployment, to blend in with normal IT activity while maintaining control of victim systems." Anubis is a ransomware-as-a-service (RaaS) group that first emerged in late 2024 as a rebrand of Sphinx ransomware. The ransomware operation was formally announced on the Ransomware and Advanced Malware Protection (RAMP) underground forum in Febr...
+- **Source URL:** https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-03
+- **Headline / event:** ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Jul 02, 2026 Hacking News / Cybersecurity News This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through. This is not one big break. It is small permissions, weak checks, open systems, and normal tools doing things they were allowed to do. That same pattern runs through the stories below.
+- **Source URL:** https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
