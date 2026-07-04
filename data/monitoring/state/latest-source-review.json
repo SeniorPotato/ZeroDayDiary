@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-07-03T14:33:03.168Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-03T143303Z.md",
+  "generatedAt": "2026-07-04T04:03:20.825Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-04T040320Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-03",
-      "title": "Flock Cameras Can Surveil Cars Without License Plates",
-      "link": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
+      "discovered": "2026-07-04",
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices Jul 03, 2026 Vulnerability / IoT Security Security firm runZero has disclosed seven vulnerabilities in FatFs , a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on real-time operating systems. On the worst-affected systems, an attacker who gets a booby-trapped USB drive, SD card, or update file onto a device can corrupt its memory and run their own code. Many embedded devices lack the memory protections found on phones and desktops, which is why runZero says \"any physical access leads to a jailbreak.\" A public kiosk, a camera with an SD slot, an ATM, or a voting machine with a USB port should not hand over full control after a moment of physical access, but here it can. All seven bugs work the same basic way. The device tries to read a storage vo...",
+      "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "flock-cameras-can-surveil-cars-without-license-plates",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-07-03",
-      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer Jul 03, 2026 Infostealer / Cyber Espionage A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. \"Armored Likho blends financially motivated campaigns targeting private individuals with targeted cyber espionage aimed at organizations,\" Kaspersky said in a technical analysis published today. \"Their toolkit features obfuscated, modular RATs and infostealers specifically engineered to bypass dynamic analysis.\" The attacks are also characterized by the use of tools like Go2Tunnel for remote access and network tunneling. The wide variety of tools in its arsenal allows the threat actor to maintain persistent access to compromised hosts, steal credentials and sensitive data, and dynamically deliver modules tailored to the victim's profile. The Russian cybersecurity vendor said Armored Likho shares possible overlaps with a threat cluster tracked by BI.ZONE under...",
-      "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "armored-likho-targets-government-agencies-power-sector-with-busysnake-stealer-jul-03-2026-",
+      "slug": "unpatched-flaws-disclosed-in-filesystem-bundled-into-millions-of-embedded-devices-jul-03-2",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-03",
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus Jul 03, 2026 Mobile Security / Spyware A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc. \"Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations,\" the Citizen Lab researchers John Scott-Railton, Bill Marczak, Bahr Abdul Razzak, Kate Pundyk, Siena Anstis, and Ron Deibert said . The infections have not been attributed to a particular government at this time, and there is no evidence that the Greek government is behind the activity. However, the Canadian interdisciplinary research laboratory noted that it identified an overlap between the first infection and a previous campaign targeting Russian and Belarusian-speaking exiled journalists and activists in Europe. ...",
-      "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "discovered": "2026-07-04",
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android Jul 03, 2026 Linux / Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos , recently found a different bug. The AI caught one flaw and missed this one. A researcher, Jaeyoung Chung, found it and built a working attack. How the Bug Works Epoll is a standard Linux feature that lets a program watch many files or network connections at once. Servers, network services, and web browsers all lean on it. You cannot simply switch it off. Bad Epoll is a \"use-after-free\" bug. Two parts of the kernel try to clean up the same internal object at the same time. One frees the memory while the other is still writing into it. That brief collision lets an attacker corrupt kernel memory, then climb from a normal account up to root...",
+      "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "european-parliament-member-investigating-spyware-was-hacked-with-pegasus-jul-03-2026-mobil",
+      "slug": "new-bad-epoll-linux-kernel-flaw-lets-unprivileged-users-gain-root-hits-android-jul-03-2026",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-03",
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords Jul 03, 2026 Credential Theft / Cryptocurrency Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to validate the victim's login password through the macOS Pluggable Authentication Modules ( PAM ) before capturing it. The malware is delivered in two stages: A compiled AppleScript distributed inside a disk image that's designed to download and stage a follow-on payload. The secondary artifact is a Rust-based infostealer capable of credential theft, browser data collection, persistence, and exfiltration. The initial access vector for the malware is a lookalike site (\"maccyapp[.]com\") that mimics Maccy (\"maccy[.]app\"). The AppleScript (\"Maccy.scpt\") pres...",
-      "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "discovered": "2026-07-04",
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities Jul 03, 2026 Endpoint Security / Artificial Intelligence Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one umbrella. The ransomware component has been internally named CrownX. \"The attack began with a spoofed legal document email directing recipients to a password protected archive on Proton Drive,\" Blackpoint Cyber researchers Nevan Beal and Sam Decker said . \"Malicious content was embedded inside an ISO image rather than attached directly, reducing the likelihood of detection at the email layer.\" Should the email recipient interact with a document-themed Windows Shortcut (\"Secure Document CA-283505.pdf.lnk\") inside the mounted image, it triggers a staged malware s...",
+      "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "pamstealer-uses-fake-maccy-sites-and-pam-checks-to-steal-mac-login-passwords-jul-03-2026-c",
+      "slug": "new-avalon-malware-framework-packs-crownx-ransomware-capabilities-jul-03-2026-endpoint-sec",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-03",
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "discovered": "2026-07-04",
+      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets Jul 03, 2026 Software Supply Chain / Malware Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFrog, the packages \"rollup-packages-polyfill-core\" and \"rollup-runtime-polyfill-core\" mimic the legitimate \" rollup-plugin-polyfill-node \" project, down to the description, repository metadata, and package shape. \"The lookalike packages place themselves in the same rollup, polyfill, core, and node naming space, which can look plausible during a quick dependency review,\" JFrog said in a technical write-up of the campaign. The campaign also involves four other packages, all of which have since been removed from the npm registry - quirky-token react-icon-svgs rollup-plugin-polyfill-connect swift-parse-stream What's noteworthy here is that \"rollup-packages-polyfill-core\" installs and loads \"swift-parse-stream,...",
+      "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit",
+      "slug": "north-korea-linked-npm-packages-mimic-rollup-polyfills-to-steal-developer-secrets-jul-03-2",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-04",
+      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+      "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "netnut-proxy-network-disrupted-2-million-infected-devices-cut-off",
       "source": "BleepingComputer"
     }
   ]

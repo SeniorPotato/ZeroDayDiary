@@ -390,7 +390,6 @@
       "https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html",
       "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
-      "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
       "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html"
     ],
     "the-hacker-news": [
@@ -1026,9 +1025,14 @@
       "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
       "https://thehackernews.com/2026/07/european-parliament-member.html",
       "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
+      "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+      "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1687,7 +1691,8 @@
       "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
       "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
       "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
+      "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+      "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/"
     ]
   }
 }

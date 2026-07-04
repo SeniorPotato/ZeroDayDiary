@@ -11516,3 +11516,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices Jul 03, 2026 Vulnerability / IoT Security Security firm runZero has disclosed seven vulnerabilities in FatFs , a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on real-time operating systems. On the worst-affected systems, an attacker who gets a booby-trapped USB drive, SD card, or update file onto a device can corrupt its memory and run their own code. Many embedded devices lack the memory protections found on phones and desktops, which is why runZero says "any physical access leads to a jailbreak." A public kiosk, a camera with an SD slot, an ATM, or a voting machine with a USB port should not hand over full control after a moment of physical access, but here it can. All seven bugs work the same basic way. The device tries to read a storage vo...
+- **Source URL:** https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android Jul 03, 2026 Linux / Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos , recently found a different bug. The AI caught one flaw and missed this one. A researcher, Jaeyoung Chung, found it and built a working attack. How the Bug Works Epoll is a standard Linux feature that lets a program watch many files or network connections at once. Servers, network services, and web browsers all lean on it. You cannot simply switch it off. Bad Epoll is a "use-after-free" bug. Two parts of the kernel try to clean up the same internal object at the same time. One frees the memory while the other is still writing into it. That brief collision lets an attacker corrupt kernel memory, then climb from a normal account up to root...
+- **Source URL:** https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** New Avalon Malware Framework Packs CrownX Ransomware Capabilities Jul 03, 2026 Endpoint Security / Artificial Intelligence Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one umbrella. The ransomware component has been internally named CrownX. "The attack began with a spoofed legal document email directing recipients to a password protected archive on Proton Drive," Blackpoint Cyber researchers Nevan Beal and Sam Decker said . "Malicious content was embedded inside an ISO image rather than attached directly, reducing the likelihood of detection at the email layer." Should the email recipient interact with a document-themed Windows Shortcut ("Secure Document CA-283505.pdf.lnk") inside the mounted image, it triggers a staged malware s...
+- **Source URL:** https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets Jul 03, 2026 Software Supply Chain / Malware Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFrog, the packages "rollup-packages-polyfill-core" and "rollup-runtime-polyfill-core" mimic the legitimate " rollup-plugin-polyfill-node " project, down to the description, repository metadata, and package shape. "The lookalike packages place themselves in the same rollup, polyfill, core, and node naming space, which can look plausible during a quick dependency review," JFrog said in a technical write-up of the campaign. The campaign also involves four other packages, all of which have since been removed from the npm registry - quirky-token react-icon-svgs rollup-plugin-polyfill-connect swift-parse-stream What's noteworthy here is that "rollup-packages-polyfill-core" installs and loads "swift-parse-stream,...
+- **Source URL:** https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** NetNut proxy network disrupted, 2 million infected devices cut off
+- **Source URL:** https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
