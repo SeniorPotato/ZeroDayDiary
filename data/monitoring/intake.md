@@ -11556,3 +11556,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked "prosecutors office," warning that leaking it would help criminals dodge charges. The clues fit a real case. I...
+- **Source URL:** https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-04
+- **Headline / event:** North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign Jul 04, 2026 Cryptocurrency / Malware The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider . "The campaign remains active, and new malicious packages are likely to continue appearing as threat actors compromise maintainer accounts, modify legitimate repositories, and publish infected package versions where they retain or obtain registry access," Socket security researcher Karlo Zanki said in an analysis published this week. The 162 malicious release artifacts span multiple release versions corresponding to 108 unique packages and extensions, including 19 npm libraries, 10 Composer packages, 61 Go modules, and one Google Chrome extension. Contagious Interview is the moniker assigned to a North Korea-aligned campaign that weaponizes job recruitment to target software developers and individuals working i...
+- **Source URL:** https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
