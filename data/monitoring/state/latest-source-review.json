@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-07-05T04:31:12.329Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-05T043112Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-07-05",
-      "title": "JadePuffer ransomware used AI agent to automate entire attack",
-      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-07-05T14:10:44.005Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-05T141044Z.md",
+  "candidates": []
 }
