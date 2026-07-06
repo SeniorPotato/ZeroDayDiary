@@ -1,5 +1,15 @@
 {
-  "generatedAt": "2026-07-05T14:10:44.005Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-05T141044Z.md",
-  "candidates": []
+  "generatedAt": "2026-07-06T04:40:53.438Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-06T044053Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-07-06",
+      "title": "Flipper Zero firmware development continues with community help",
+      "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "flipper-zero-firmware-development-continues-with-community-help",
+      "source": "BleepingComputer"
+    }
+  ]
 }
