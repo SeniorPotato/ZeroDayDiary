@@ -11580,3 +11580,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** Flipper Zero firmware development continues with community help
+- **Source URL:** https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
