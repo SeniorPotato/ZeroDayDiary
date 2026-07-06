@@ -11588,3 +11588,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** France to Stop Certifying Non-Quantum-Safe Encryption
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions Jul 06, 2026 Security Operations / Artificial Intelligence Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation, and response on their own data foundation. Whether a platform will materially change outcomes for your team matters more than what it is called. We can measure that in investigation time, false-positive volume, analyst hours returned, total cost of running your SOC and finally whether the architecture will hold up 2-3 years from now as the volume, speed and complexity of attacks keep increasing. What Is an AI SOC Platform? An AI SOC platform is a security operations platform where AI agents carry out the core work of the SOC (detection, triage, investigation, and response) by reasoning over correlated security data, under human oversight. It differs from bolt-on AI, which summarizes ...
+- **Source URL:** https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT Jul 06, 2026 Cyber Espionage / Cybercrime A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by Seqrite Labs, involves sending spear-phishing emails impersonating the Income Tax Department of India. It was first observed on May 18, 2026. The activity, per the cybersecurity company, coincides with the annual income tax filing season in the country. "It is not opportunistic – the precision of the lure document, the use of real legal citations, bilingual content, and active payload rotation indicate a deliberate, resourced, and sustained threat operation focused exclusively on the Indian taxpayer ecosystem," security researchers Dixit Panchal and Soumen Burma said . The end goal of the campaign is assessed to be the deployment of malware for financial gain or sensitive data the...
+- **Source URL:** https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions Jul 06, 2026 Cyber Espionage / Endpoint Security Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix , tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it is a way for stolen data to get out, not a way in. In the researchers' tests, TrojPix hit a peak throughput of 8.1 Mbps and reached as far as 208 meters, the two measured separately rather than together. Most air-gap covert channels crawl along at bits or kilobits per second; at 8.1 megabits, roughly a megabyte a second, TrojPix could move a 100 MB file in under two minutes. That turns the threat from leaking a password into moving whole files while the monitor looks switched off. Real-world range is another matter: a receiver still has to fight through walls, shielding, and noise. Th...
+- **Source URL:** https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS Jul 06, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere between $150 for one month to $1,200 for lifetime access. Other subscription tiers include $300 for three months, $500 for six months, and $700 for twelve months. "Built around a modular architecture, the RAT supports dynamic capability expansion through encrypted plugins that can be delivered, loaded, unloaded, and updated directly from its command-and-control (C2) infrastructure," the cybersecurity company said in an analysis of the malware. The malware author also advertises a builder capable of generating multiple output formats, including JAR, EXE, APP, SH, BAT, and VBS, indicating an attempt to help prospective customers package the client tailored for different enviro...
+- **Source URL:** https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages Jul 06, 2026 Vulnerability / Web Security Researchers found a flaw in Opera GX , the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address from a single visit, with no click. Opera has patched the flaw and says it found no evidence that it was ever used in the wild. The fix shipped in Opera GX version 130.0.5847.89, so anyone on a current build is already covered; you can confirm yours at opera://about. There is no CVE. Because the attack needed no clicks or approvals, there was no workaround short of the patch. Opera's bug bounty team rated the issue P1, its top severity, and paid the maximum $5,000 award for a critical bug. How the attack works GX Mods let you reskin Opera GX with custom sounds, themes, wallpapers, and CSS that restyles the sites you visit. They ship as .crx files, like browser...
+- **Source URL:** https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** Software Is Now Written at the Speed of Thought. Security Isn't.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-06
+- **Headline / event:** Max severity Adobe ColdFusion flaw now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
