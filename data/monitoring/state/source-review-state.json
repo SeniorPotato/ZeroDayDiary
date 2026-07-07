@@ -220,7 +220,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -393,7 +394,9 @@
       "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
       "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
-      "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html"
+      "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
+      "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
+      "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1043,9 +1046,19 @@
       "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
       "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
       "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html"
+      "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+      "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+      "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1712,9 +1725,12 @@
       "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
       "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
       "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-      "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/"
+      "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+      "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+      "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/"
     ]
   }
 }

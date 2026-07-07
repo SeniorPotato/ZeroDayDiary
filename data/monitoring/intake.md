@@ -11708,3 +11708,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** FTC Sends More Than $2.7 Million to Consumers Harmed by Handy Technologies
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Google Is Suing Chinese Scammers Who Are Using Gemini
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts Jul 07, 2026 Identity Security / Threat Intelligence A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. "The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience, while a backend broker generated and polled Microsoft Authentication Broker device-code tokens," the email security company said in a report shared with The Hacker News. The activity is assessed to share "strong" overlaps with a campaign documented by Microsoft in February 2025 under the moniker Storm-2372 , including the use of messaging or Teams-style lures to trick unsuspecting victims into entering an attacker-provided device code, along with their credentials, effectively allowing the threat actor to recover the token and hijack their account. Despite these simi...
+- **Source URL:** https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data Jul 07, 2026 Vulnerability / AI Security A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones included, the issue can steer it into pulling private contents into a public comment. Noma calls the technique GitLost . The target is GitHub Agentic Workflows , a feature now in public preview that GitHub launched in February. Instead of writing automation scripts, you write instructions to an AI agent in plain English in a Markdown file. The agent reads issues and pull requests, runs tools, and replies on its own. It can be powered by GitHub Copilot, Anthropic's Claude, Google Gemini, or OpenAI Codex. Workflows are read-only by default, but an organization can hand one a token with...
+- **Source URL:** https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Jul 07, 2026 Cybercrime / Law Enforcement U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint . Microsoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes. Stokes is charged with conspiracy, computer intrusion, and fraud. A dual U.S.-Estonian citizen known online as "Bouquet," he was extradited from Finland and made his first court appearance in Chicago on June 30, as THN reported . He is presumed innocent pending trial. How the break-in worked Between May 12 and 15, 2025, attackers phoned the retailer's IT help desk from Google Voice numbers, posed as locked-out employees, and got staff to reset employees' passwords and the mobile devices tied to their multifactor authentication. Within a few hours, they controlled three accounts, t...
+- **Source URL:** https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants Jul 07, 2026 AI Security / Vulnerability Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer , an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand Security Research team. "An outsider could go from having no access to taking over any Writer AI organization inside industry-leading enterprises, with nothing more than a link," the cybersecurity company said in a report shared with The Hacker News. Put differently, the shortcoming could be abused to take over a victim's Writer account, and use it to access private chats, documents, and other sensitive data related to agents, configurations, private models, connectors, and large language model (LLM) credentials. Even worse, it could be abused to seize administrative control depending on the victim's role. An important aspect of the flaw is that the attacker and the...
+- **Source URL:** https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** What Changes When Your Software Supply Chain Includes AI Writing Your Code? Jul 07, 2026 AI Security / Software Supply Chain Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, "software supply chain security" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? SolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a team writes and more in everything that produces it. Shai-Hulud, the self-propagating malicious package campaign that spread through developer toolchains this year, taught the next one: knowing what's in your code is still necessary, but it's no longer sufficient. In the roughly 20 months since the Model Context Protocol launched, AI tools, models, and the infrastructure around them have become load-bearing parts of how software gets built, deployed, and run. Code is written by agents. Packages are pulled in by autonomous tools that decide they are needed. Prompts have...
+- **Source URL:** https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** The GitHub Actions Attack Pattern Your CI Security Scanners Miss
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Webinar tomorrow: Why modern email attacks require a new approach to defense
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** BeyondTrust warns of critical flaws in remote access software
+- **Source URL:** https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
