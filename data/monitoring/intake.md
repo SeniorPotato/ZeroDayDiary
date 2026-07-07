@@ -11652,3 +11652,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** FTC Warns Companies Making Questionable ‘Made in the USA’ Claims
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations Jul 06, 2026 Threat intelligence / Malware An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research under the moniker Cavern Manticore , which it said shares some level of tactical overlaps with MuddyWater and Lyceum , the latter of which is assessed to be a subgroup within OilRig . "The framework reflects a mature and adaptable toolset built around a shared .NET foundation, while using multiple compilation formats across different components, including .NET Framework, .NET Mixed-Mode C++/CLI, and .NET Native AOT ," the cybersecurity company said . "The compilation format itself becomes the anti-analysis layer that forces reverse engineers into multiple toolsets and me...
+- **Source URL:** https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems Jul 06, 2026 Linux / Vulnerability A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed ' Januscape ' and tracked as CVE-2026-53359 , the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit turns the same bug into full host code execution. Security researcher Hyunwoo Kim (@v4bel) found and reported the bug. He described Januscape as the first guest-to-host exploit triggerable on both Intel and AMD, to the best of public knowledge. The flaw went unnoticed for roughly 16 years. According to Kim, the exploit was used as a zero-day submission in Google's kvmCTF , the controlled KVM vulnerability reward program that offers up to $250,000 for full guest-to-host escapes. How It Works To run a virtual machine, KVM keeps its own private set of page tables that mi...
+- **Source URL:** https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure Jul 06, 2026 Vulnerability / DevOps Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig . The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated access. In a statement shared with The Hacker News via email, security researcher Ali Mustafa (@rz1027), who is credited with discovering and reporting the flaw, said the Gitea Docker images shipped an "app.ini" template that hard-codes "REVERSE_PROXY_TRUSTED_PROXIES = *" by default. The " app.ini " file is a core configuration file for managing server parameters, database connections, security behavior, and application settings. "With reverse-proxy login enabled, that wildcard trusts every source IP, so anyone who could reach the port could...
+- **Source URL:** https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Phishing poses as big-brand job interview to steal Google accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Fake IT support calls on Microsoft Teams push EtherRAT
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-07
+- **Headline / event:** Vietnam arrests suspects behind HiAnime anime piracy service
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
