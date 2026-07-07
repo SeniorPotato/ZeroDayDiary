@@ -1,77 +1,68 @@
 {
-  "generatedAt": "2026-07-06T15:55:11.506Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-06T155511Z.md",
+  "generatedAt": "2026-07-07T04:17:49.432Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-07T041749Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-06",
-      "title": "France to Stop Certifying Non-Quantum-Safe Encryption",
-      "link": "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
+      "discovered": "2026-07-07",
+      "title": "FTC Warns Companies Making Questionable ‘Made in the USA’ Claims",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "france-to-stop-certifying-non-quantum-safe-encryption",
-      "source": "Schneier on Security"
+      "category": "privacy",
+      "slug": "ftc-warns-companies-making-questionable-made-in-the-usa-claims",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-06",
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions Jul 06, 2026 Security Operations / Artificial Intelligence Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation, and response on their own data foundation. Whether a platform will materially change outcomes for your team matters more than what it is called. We can measure that in investigation time, false-positive volume, analyst hours returned, total cost of running your SOC and finally whether the architecture will hold up 2-3 years from now as the volume, speed and complexity of attacks keep increasing. What Is an AI SOC Platform? An AI SOC platform is a security operations platform where AI agents carry out the core work of the SOC (detection, triage, investigation, and response) by reasoning over correlated security data, under human oversight. It differs from bolt-on AI, which summarizes ...",
-      "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
+      "discovered": "2026-07-07",
+      "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations Jul 06, 2026 Threat intelligence / Malware An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research under the moniker Cavern Manticore , which it said shares some level of tactical overlaps with MuddyWater and Lyceum , the latter of which is assessed to be a subgroup within OilRig . \"The framework reflects a mature and adaptable toolset built around a shared .NET foundation, while using multiple compilation formats across different components, including .NET Framework, .NET Mixed-Mode C++/CLI, and .NET Native AOT ,\" the cybersecurity company said . \"The compilation format itself becomes the anti-analysis layer that forces reverse engineers into multiple toolsets and me...",
+      "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-to-evaluate-an-ai-soc-platform-in-2026-6-capabilities-that-separate-leaders-from-bolt-",
+      "slug": "iran-linked-hackers-use-new-cavern-c2-framework-to-target-israeli-organizations-jul-06-202",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-06",
-      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT Jul 06, 2026 Cyber Espionage / Cybercrime A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by Seqrite Labs, involves sending spear-phishing emails impersonating the Income Tax Department of India. It was first observed on May 18, 2026. The activity, per the cybersecurity company, coincides with the annual income tax filing season in the country. \"It is not opportunistic – the precision of the lure document, the use of real legal citations, bilingual content, and active payload rotation indicate a deliberate, resourced, and sustained threat operation focused exclusively on the Indian taxpayer ecosystem,\" security researchers Dixit Panchal and Soumen Burma said . The end goal of the campaign is assessed to be the deployment of malware for financial gain or sensitive data the...",
-      "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+      "discovered": "2026-07-07",
+      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems Jul 06, 2026 Linux / Vulnerability A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed ' Januscape ' and tracked as CVE-2026-53359 , the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit turns the same bug into full host code execution. Security researcher Hyunwoo Kim (@v4bel) found and reported the bug. He described Januscape as the first guest-to-host exploit triggerable on both Intel and AMD, to the best of public knowledge. The flaw went unnoticed for roughly 16 years. According to Kim, the exploit was used as a zero-day submission in Google's kvmCTF , the controlled KVM vulnerability reward program that offers up to $250,000 for full guest-to-host escapes. How It Works To run a virtual machine, KVM keeps its own private set of page tables that mi...",
+      "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "suspected-china-nexus-hackers-use-fake-indian-tax-filing-utility-to-deploy-dcrat-jul-06-20",
+      "slug": "16-year-old-linux-kvm-flaw-lets-guest-vms-escape-to-host-on-intel-and-amd-x86-systems-jul-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-06",
-      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions Jul 06, 2026 Cyber Espionage / Endpoint Security Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix , tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it is a way for stolen data to get out, not a way in. In the researchers' tests, TrojPix hit a peak throughput of 8.1 Mbps and reached as far as 208 meters, the two measured separately rather than together. Most air-gap covert channels crawl along at bits or kilobits per second; at 8.1 megabits, roughly a megabyte a second, TrojPix could move a 100 MB file in under two minutes. That turns the threat from leaking a password into moving whole files while the monitor looks switched off. Real-world range is another matter: a receiver still has to fight through walls, shielding, and noise. Th...",
-      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
+      "discovered": "2026-07-07",
+      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure Jul 06, 2026 Vulnerability / DevOps Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig . The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated access. In a statement shared with The Hacker News via email, security researcher Ali Mustafa (@rz1027), who is credited with discovering and reporting the flaw, said the Gitea Docker images shipped an \"app.ini\" template that hard-codes \"REVERSE_PROXY_TRUSTED_PROXIES = *\" by default. The \" app.ini \" file is a core configuration file for managing server parameters, database connections, security behavior, and application settings. \"With reverse-proxy login enabled, that wildcard trusts every source IP, so anyone who could reach the port could...",
+      "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-trojpix-attack-leaks-data-from-air-gapped-systems-via-video-cable-emissions-jul-06-202",
+      "slug": "threat-actors-probe-gitea-docker-flaw-cve-2026-20896-13-days-after-disclosure-jul-06-2026-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-06",
-      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS Jul 06, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere between $150 for one month to $1,200 for lifetime access. Other subscription tiers include $300 for three months, $500 for six months, and $700 for twelve months. \"Built around a modular architecture, the RAT supports dynamic capability expansion through encrypted plugins that can be delivered, loaded, unloaded, and updated directly from its command-and-control (C2) infrastructure,\" the cybersecurity company said in an analysis of the malware. The malware author also advertises a builder capable of generating multiple output formats, including JAR, EXE, APP, SH, BAT, and VBS, indicating an attempt to help prospective customers package the client tailored for different enviro...",
-      "link": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+      "discovered": "2026-07-07",
+      "title": "Phishing poses as big-brand job interview to steal Google accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-java-based-quimarat-maas-built-to-run-on-windows-linux-and-macos-jul-06-2026-malware-e",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-06",
-      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages Jul 06, 2026 Vulnerability / Web Security Researchers found a flaw in Opera GX , the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address from a single visit, with no click. Opera has patched the flaw and says it found no evidence that it was ever used in the wild. The fix shipped in Opera GX version 130.0.5847.89, so anyone on a current build is already covered; you can confirm yours at opera://about. There is no CVE. Because the attack needed no clicks or approvals, there was no workaround short of the patch. Opera's bug bounty team rated the issue P1, its top severity, and paid the maximum $5,000 award for a critical bug. How the attack works GX Mods let you reskin Opera GX with custom sounds, themes, wallpapers, and CSS that restyles the sites you visit. They ship as .crx files, like browser...",
-      "link": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "opera-gx-flaw-let-malicious-sites-auto-install-mods-to-steal-data-from-visited-pages-jul-0",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-06",
-      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-      "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "software-is-now-written-at-the-speed-of-thought-security-isn-t",
+      "slug": "phishing-poses-as-big-brand-job-interview-to-steal-google-accounts",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-06",
-      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+      "discovered": "2026-07-07",
+      "title": "Fake IT support calls on Microsoft Teams push EtherRAT",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks",
+      "slug": "fake-it-support-calls-on-microsoft-teams-push-etherrat",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-07-07",
+      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
+      "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "vietnam-arrests-suspects-behind-hianime-anime-piracy-service",
       "source": "BleepingComputer"
     }
   ]
