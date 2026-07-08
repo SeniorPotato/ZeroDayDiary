@@ -1,77 +1,113 @@
 {
-  "generatedAt": "2026-07-08T03:46:36.127Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-08T034636Z.md",
+  "generatedAt": "2026-07-08T14:41:40.825Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-08T144140Z.md",
   "candidates": [
     {
       "discovered": "2026-07-08",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "felons-fraudsters-flog-offensive-cybersecurity-startup",
+      "source": "Krebs on Security"
     },
     {
       "discovered": "2026-07-08",
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "title": "Cybersecurity and the Gap Between Skill and Ability",
+      "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-three-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "cybersecurity-and-the-gap-between-skill-and-ability",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-07-08",
-      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service Jul 07, 2026 Malware / Mobile Security A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts. Zimperium's zLabs , which found the operation, says it looks like a new variant of Oblivion , a $300-a-month rent-a-malware tool documented earlier this year. RedWing is sold as a complete product, in subscription tiers with referral discounts, guides, and how-to videos, so a buyer needs no malware-writing skill. A Telegram bot builds each buyer a custom app on demand. Researchers say a substantial number of the resulting droppers and payloads currently evade conventional security tools. Infection starts with a phishing link that opens a fake app-store page. The kit's dropper builder can mimic Google Play, the Galaxy Store, and AppGallery, or build fully custom pages, complete with fake ratings, reviews, ...",
-      "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS Jul 08, 2026 Vulnerability / Network Security Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker with access to the network could exploit to execute a command injection on the host device. (Affects versions 3.4.16 and earlier; fixed in version 3.4.20) CVE-2026-50747 (CVSS score: 9.9) - A series of authenticated SQL injection vulnerabilities in UniFi Talk Application that an attacker with access to the network could exploit to escalate privileges on the host device. (Affects versions 5.1.2 and earlier; fixed in version 5.2.2) CVE-2026-50748 (CVSS score: 9.9) - An improper input validation vulnerability in UniFi Access Application that an attacker with access to the network coul...",
+      "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "redwing-maas-packages-android-bank-fraud-as-a-telegram-rental-service-jul-07-2026-malware-",
+      "slug": "ubiquiti-patches-critical-unifi-flaws-across-connect-talk-access-protect-and-os-jul-08-202",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-08",
-      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots Jul 07, 2026 AI Security / Vulnerability A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it and named it Rogue Agent. The flaw affected only organizations that built agents with Dialogflow's Playbooks and custom Code Blocks, which let developers add their own Python. And it was not a remote, unauthenticated attack. Pulling it off needed the dialogflow.playbooks.update permission on one such agent, which limits the realistic attacker to a malicious insider or a compromised developer account, not a stranger on the internet. From that one foothold, though, the reach extended to every agent in the project. Google has fixed it, and both Varonis and Google say there is no sig...",
-      "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security Jul 08, 2026 A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time are already at stake. The Email Looks Safe. The Browser Tells a Different Story A recent EvilTokens attack shows how a phishing link can appear harmless during initial inspection while still leading to Microsoft 365 account takeover. The kit uses Microsoft Device Code Phishing to convince victims to complete a legitimate Microsoft login flow and unknowingly authorize access to their accounts. It does not need to steal the password directly. The real attack remains hidden until the page opens in the browser. Its HTML is encrypted with AES-GCM and becomes visible only after the browser dec...",
+      "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "rogue-agent-flaw-could-have-let-attackers-hijack-google-dialogflow-cx-chatbots-jul-07-2026",
+      "slug": "new-ghost-phishing-wave-is-breaking-traditional-email-security-jul-08-2026-a-recent-evilto",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-08",
-      "title": "Accenture confirms breach after hacker offers stolen data for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users Jul 08, 2026 Cybercrime / AI Security A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045 , involves infecting victims through fake CAPTCHA verification pages that deceive them into running a malicious command that installs a PowerShell toolkit dubbed SCMBANKER . Some components of the malware date back to October 2025. \"Once installed, the operator can see when a victim opens a banking session, lock the screen behind a fake bank warning, push the victims towards live phone interaction, redirect the browser, or replace account numbers copied to the clipboard,\" security researchers Jia Yu Chan and Salim Bitam said . \"For a full takeover, they can also deploy a commercial remote-access tool.\" SCMBANKER is specifically designed to go after Mexico's financial ecosystem, with evidence pointing to the use of a large...",
+      "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale",
+      "slug": "scmbanker-malware-uses-clickfix-lures-to-target-mexican-banking-users-jul-08-2026-cybercri",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures Jul 08, 2026 DevSecOps / Open Source Security New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\" Everything a reviewer would check matches. The commit's hash does not. That matters because so many systems treat a verified commit hash as a permanent, unique name for its contents. Here is the concrete failure: block a bad commit by its hash, and an attacker can re-push the same content under a fresh, still-\"Verified\" hash your blocklist has never seen. Deduplication, provenance logs, and reproducible-build records that key on the hash inherit the same soft spot. A compromised or hostile mirror can hand cloners validly signed commits whose hashes differ from those on the canonical forge. What this is not is a way to slip different code past a sig...",
+      "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "github-verified-commits-can-be-rewritten-into-new-hashes-without-breaking-signatures-jul-0",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "The Verification Step Is the New ATO Battleground in 2026 Jul 08, 2026 Identity Security / Compliance For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively well understood. That era is ending. Not because attackers gave up, but because the front door finally got harder to kick in. Passkeys are now mainstream. According to the FIDO Alliance's 2026 research, 75% of global consumers have enabled a passkey on at least one account. At the same time, passkeys are becoming more common in the workplace, with 68% of companies now using, testing, or introducing them for employee sign-ins. Phishing-resistant, passwordless authentication is no longer aspirational, it's becoming the default. When the password disappears, so does the value of a stolen password. So where does the attack go next? It moves downstream, to the moments where systems still trust a human to prove who they are. The attac...",
+      "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "the-verification-step-is-the-new-ato-battleground-in-2026-jul-08-2026-identity-security-co",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
+      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-08",
-      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "chinese-hackers-develop-longleash-malware-to-expand-orb-network",
+      "slug": "telco-giant-kddi-says-data-breach-affects-over-12-million-people",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-08",
-      "title": "Hidden backdoor in Tenda router firmware grants admin access",
-      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hidden-backdoor-in-tenda-router-firmware-grants-admin-access",
+      "slug": "cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-08",
-      "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
-      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+      "title": "Ubiquiti warns of new max severity UniFi OS",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "spain-arrests-suspected-member-of-pro-russian-hacktivist-groups",
+      "slug": "ubiquiti-warns-of-new-max-severity-unifi-os",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday",
       "source": "BleepingComputer"
     }
   ]
