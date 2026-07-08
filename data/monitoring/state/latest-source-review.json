@@ -1,95 +1,77 @@
 {
-  "generatedAt": "2026-07-07T15:16:39.498Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-07T151639Z.md",
+  "generatedAt": "2026-07-08T03:46:36.127Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-08T034636Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-07",
-      "title": "FTC Sends More Than $2.7 Million to Consumers Harmed by Handy Technologies",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-sends-more-than-2-7-million-to-consumers-harmed-by-handy-technologies",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-07-07",
-      "title": "Google Is Suing Chinese Scammers Who Are Using Gemini",
-      "link": "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
+      "discovered": "2026-07-08",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-is-suing-chinese-scammers-who-are-using-gemini",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-07-07",
-      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts Jul 07, 2026 Identity Security / Threat Intelligence A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. \"The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience, while a backend broker generated and polled Microsoft Authentication Broker device-code tokens,\" the email security company said in a report shared with The Hacker News. The activity is assessed to share \"strong\" overlaps with a campaign documented by Microsoft in February 2025 under the moniker Storm-2372 , including the use of messaging or Teams-style lures to trick unsuspecting victims into entering an attacker-provided device code, along with their credentials, effectively allowing the threat actor to recover the token and hijack their account. Despite these simi...",
-      "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "discovered": "2026-07-08",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "debull-tooling-abuses-microsoft-device-code-flow-to-target-m365-accounts-jul-07-2026-ident",
+      "slug": "cisa-adds-three-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service Jul 07, 2026 Malware / Mobile Security A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts. Zimperium's zLabs , which found the operation, says it looks like a new variant of Oblivion , a $300-a-month rent-a-malware tool documented earlier this year. RedWing is sold as a complete product, in subscription tiers with referral discounts, guides, and how-to videos, so a buyer needs no malware-writing skill. A Telegram bot builds each buyer a custom app on demand. Researchers say a substantial number of the resulting droppers and payloads currently evade conventional security tools. Infection starts with a phishing link that opens a fake app-store page. The kit's dropper builder can mimic Google Play, the Galaxy Store, and AppGallery, or build fully custom pages, complete with fake ratings, reviews, ...",
+      "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "redwing-maas-packages-android-bank-fraud-as-a-telegram-rental-service-jul-07-2026-malware-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-07",
-      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data Jul 07, 2026 Vulnerability / AI Security A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones included, the issue can steer it into pulling private contents into a public comment. Noma calls the technique GitLost . The target is GitHub Agentic Workflows , a feature now in public preview that GitHub launched in February. Instead of writing automation scripts, you write instructions to an AI agent in plain English in a Markdown file. The agent reads issues and pull requests, runs tools, and replies on its own. It can be powered by GitHub Copilot, Anthropic's Claude, Google Gemini, or OpenAI Codex. Workflows are read-only by default, but an organization can hand one a token with...",
-      "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "discovered": "2026-07-08",
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots Jul 07, 2026 AI Security / Vulnerability A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it and named it Rogue Agent. The flaw affected only organizations that built agents with Dialogflow's Playbooks and custom Code Blocks, which let developers add their own Python. And it was not a remote, unauthenticated attack. Pulling it off needed the dialogflow.playbooks.update permission on one such agent, which limits the realistic attacker to a malicious insider or a compromised developer account, not a stranger on the internet. From that one foothold, though, the reach extended to every agent in the project. Google has fixed it, and both Varonis and Google say there is no sig...",
+      "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "public-github-issue-could-trick-github-agentic-workflows-into-leaking-private-repo-data-ju",
+      "slug": "rogue-agent-flaw-could-have-let-attackers-hijack-google-dialogflow-cx-chatbots-jul-07-2026",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-07",
-      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Jul 07, 2026 Cybercrime / Law Enforcement U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint . Microsoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes. Stokes is charged with conspiracy, computer intrusion, and fraud. A dual U.S.-Estonian citizen known online as \"Bouquet,\" he was extradited from Finland and made his first court appearance in Chicago on June 30, as THN reported . He is presumed innocent pending trial. How the break-in worked Between May 12 and 15, 2025, attackers phoned the retailer's IT help desk from Google Voice numbers, posed as locked-out employees, and got staff to reset employees' passwords and the mobile devices tied to their multifactor authentication. Within a few hours, they controlled three accounts, t...",
-      "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "discovered": "2026-07-08",
+      "title": "Accenture confirms breach after hacker offers stolen data for sale",
+      "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "court-filing-reveals-windows-device-id-helped-fbi-trace-alleged-scattered-spider-hacker-ju",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-07",
-      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants Jul 07, 2026 AI Security / Vulnerability Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer , an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand Security Research team. \"An outsider could go from having no access to taking over any Writer AI organization inside industry-leading enterprises, with nothing more than a link,\" the cybersecurity company said in a report shared with The Hacker News. Put differently, the shortcoming could be abused to take over a victim's Writer account, and use it to access private chats, documents, and other sensitive data related to agents, configurations, private models, connectors, and large language model (LLM) credentials. Even worse, it could be abused to seize administrative control depending on the victim's role. An important aspect of the flaw is that the attacker and the...",
-      "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "writer-ai-flaw-could-let-agent-previews-leak-session-tokens-across-tenants-jul-07-2026-ai-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-07",
-      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code? Jul 07, 2026 AI Security / Software Supply Chain Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? SolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a team writes and more in everything that produces it. Shai-Hulud, the self-propagating malicious package campaign that spread through developer toolchains this year, taught the next one: knowing what's in your code is still necessary, but it's no longer sufficient. In the roughly 20 months since the Model Context Protocol launched, AI tools, models, and the infrastructure around them have become load-bearing parts of how software gets built, deployed, and run. Code is written by agents. Packages are pulled in by autonomous tools that decide they are needed. Prompts have...",
-      "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "what-changes-when-your-software-supply-chain-includes-ai-writing-your-code-jul-07-2026-ai-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-07",
-      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-      "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-github-actions-attack-pattern-your-ci-security-scanners-miss",
+      "slug": "accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-07",
-      "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+      "discovered": "2026-07-08",
+      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense",
+      "slug": "chinese-hackers-develop-longleash-malware-to-expand-orb-network",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-07",
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "discovered": "2026-07-08",
+      "title": "Hidden backdoor in Tenda router firmware grants admin access",
+      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "beyondtrust-warns-of-critical-flaws-in-remote-access-software",
+      "slug": "hidden-backdoor-in-tenda-router-firmware-grants-admin-access",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-07-08",
+      "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "spain-arrests-suspected-member-of-pro-russian-hacktivist-groups",
       "source": "BleepingComputer"
     }
   ]

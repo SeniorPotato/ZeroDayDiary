@@ -11788,3 +11788,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service Jul 07, 2026 Malware / Mobile Security A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts. Zimperium's zLabs , which found the operation, says it looks like a new variant of Oblivion , a $300-a-month rent-a-malware tool documented earlier this year. RedWing is sold as a complete product, in subscription tiers with referral discounts, guides, and how-to videos, so a buyer needs no malware-writing skill. A Telegram bot builds each buyer a custom app on demand. Researchers say a substantial number of the resulting droppers and payloads currently evade conventional security tools. Infection starts with a phishing link that opens a fake app-store page. The kit's dropper builder can mimic Google Play, the Galaxy Store, and AppGallery, or build fully custom pages, complete with fake ratings, reviews, ...
+- **Source URL:** https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots Jul 07, 2026 AI Security / Vulnerability A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it and named it Rogue Agent. The flaw affected only organizations that built agents with Dialogflow's Playbooks and custom Code Blocks, which let developers add their own Python. And it was not a remote, unauthenticated attack. Pulling it off needed the dialogflow.playbooks.update permission on one such agent, which limits the realistic attacker to a malicious insider or a compromised developer account, not a stranger on the internet. From that one foothold, though, the reach extended to every agent in the project. Google has fixed it, and both Varonis and Google say there is no sig...
+- **Source URL:** https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Accenture confirms breach after hacker offers stolen data for sale
+- **Source URL:** https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Chinese hackers develop LONGLEASH malware to expand ORB network
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Hidden backdoor in Tenda router firmware grants admin access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Spain arrests suspected member of pro-Russian hacktivist groups
+- **Source URL:** https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
