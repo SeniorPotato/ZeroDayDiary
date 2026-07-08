@@ -11852,3 +11852,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Felons, Fraudsters Flog Offensive Cybersecurity Startup
+- **Source URL:** https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Cybersecurity and the Gap Between Skill and Ability
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS Jul 08, 2026 Vulnerability / Network Security Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker with access to the network could exploit to execute a command injection on the host device. (Affects versions 3.4.16 and earlier; fixed in version 3.4.20) CVE-2026-50747 (CVSS score: 9.9) - A series of authenticated SQL injection vulnerabilities in UniFi Talk Application that an attacker with access to the network could exploit to escalate privileges on the host device. (Affects versions 5.1.2 and earlier; fixed in version 5.2.2) CVE-2026-50748 (CVSS score: 9.9) - An improper input validation vulnerability in UniFi Access Application that an attacker with access to the network coul...
+- **Source URL:** https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** New Ghost Phishing Wave Is Breaking Traditional Email Security Jul 08, 2026 A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time are already at stake. The Email Looks Safe. The Browser Tells a Different Story A recent EvilTokens attack shows how a phishing link can appear harmless during initial inspection while still leading to Microsoft 365 account takeover. The kit uses Microsoft Device Code Phishing to convince victims to complete a legitimate Microsoft login flow and unknowingly authorize access to their accounts. It does not need to steal the password directly. The real attack remains hidden until the page opens in the browser. Its HTML is encrypted with AES-GCM and becomes visible only after the browser dec...
+- **Source URL:** https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users Jul 08, 2026 Cybercrime / AI Security A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045 , involves infecting victims through fake CAPTCHA verification pages that deceive them into running a malicious command that installs a PowerShell toolkit dubbed SCMBANKER . Some components of the malware date back to October 2025. "Once installed, the operator can see when a victim opens a banking session, lock the screen behind a fake bank warning, push the victims towards live phone interaction, redirect the browser, or replace account numbers copied to the clipboard," security researchers Jia Yu Chan and Salim Bitam said . "For a full takeover, they can also deploy a commercial remote-access tool." SCMBANKER is specifically designed to go after Mexico's financial ecosystem, with evidence pointing to the use of a large...
+- **Source URL:** https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures Jul 08, 2026 DevSecOps / Open Source Security New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps "Verified." Everything a reviewer would check matches. The commit's hash does not. That matters because so many systems treat a verified commit hash as a permanent, unique name for its contents. Here is the concrete failure: block a bad commit by its hash, and an attacker can re-push the same content under a fresh, still-"Verified" hash your blocklist has never seen. Deduplication, provenance logs, and reproducible-build records that key on the hash inherit the same soft spot. A compromised or hostile mirror can hand cloners validly signed commits whose hashes differ from those on the canonical forge. What this is not is a way to slip different code past a sig...
+- **Source URL:** https://thehackernews.com/2026/07/github-verified-commits-can-be.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** The Verification Step Is the New ATO Battleground in 2026 Jul 08, 2026 Identity Security / Compliance For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively well understood. That era is ending. Not because attackers gave up, but because the front door finally got harder to kick in. Passkeys are now mainstream. According to the FIDO Alliance's 2026 research, 75% of global consumers have enabled a passkey on at least one account. At the same time, passkeys are becoming more common in the workplace, with 68% of companies now using, testing, or introducing them for employee sign-ins. Phishing-resistant, passwordless authentication is no longer aspirational, it's becoming the default. When the password disappears, so does the value of a stolen password. So where does the attack go next? It moves downstream, to the moments where systems still trust a human to prove who they are. The attac...
+- **Source URL:** https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** 3 Ways AI Powers Service Desk Attacks and How to Prevent Them
+- **Source URL:** https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Telco giant KDDI says data breach affects over 12 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** CISA orders feds to prioritize patching Langflow auth bypass flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** Ubiquiti warns of new max severity UniFi OS
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-08
+- **Headline / event:** CISA orders feds to patch max severity ColdFusion flaw by Friday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
