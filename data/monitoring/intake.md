@@ -12012,3 +12012,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** The Language of AI Could Change How Humans Speak
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories Jul 09, 2026 Hacking News / Cybersecurity News Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global fraud bust Global Operation Leads to ~6K Arrests A global anti-fraud operation involving 97 countries and territories has resulted in the arrest of 5,811 individuals and the interception of $293 million in illicit assets as part of an operation codenamed First Light 2026 that took place between January 15 and April 30, 2026, to tackle social engineering scams and associated money laundering activities. "Over 142,000 victims globally were identified during Operation First Light 2026, highlighting the extent to which social engineering scams and fraud have escalated ...
+- **Source URL:** https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up Jul 09, 2026 AI Security / Zero Trust AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven attacks do not, and they run at scale. Save your seat for the free webinar, " Outpacing Mythos: How to Fight Back Against AI-Powered Attacks ." In one hour, we take the attack apart. You see how AI-powered attacks get in, what they do once they are inside, and why network-based defenses keep landing a step behind. No slideware theory, just the mechanics, so the next campaign looks familiar instead of surprising. Then the useful part: stopping it. You leave with three moves that do real work, not three more products to babysit. Shrink what the attacker can reach. Cut exposed ent...
+- **Source URL:** https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Summer of Clearinghouses Jul 09, 2026 AI Security / Application Security Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena , and the main thing that sets it apart is that it was already real and running when we announced it — built quietly months earlier, heads down, taking findings and shipping fixes, because customers kept asking us to. We only announced it now because everyone else started announcing theirs, and staying quiet started to look like something it wasn't. The others arrived louder and, as far as anyone outside the press releases could tell, didn't exist yet. Here's the part none of those announcements will tell you: the clearinghouse is the least important thing to build. When a project we'd deliberately kept private, a five-billion-dollar press release , and the White House all reach for the same word inside a few weeks, that's not a trend. Trends are optional. This is the shape of a problem changing under everyone at once. So let me explain why these thin...
+- **Source URL:** https://thehackernews.com/2026/07/summer-of-clearinghouses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses Jul 09, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware, which, in turn, was an enhanced version of Monster , a Delphi-based ransomware that surfaced in March 2022. Broadcom's cybersecurity arm is tracing the developer behind these ransomware families under the moniker Hyadina. In one attack orchestrated by the ransomware operation in early June 2026, the threat actors are said to have leveraged AnyDesk for remote access and used a NirSoft-based credential harvesting toolkit before deploying the ransomware. The exact initial access vector is unknown. The credential harvester is designed to extract sensitive data from common web browsers, W...
+- **Source URL:** https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges Jul 09, 2026 Vulnerability / Endpoint Security Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine ("mpengine.dll"), which provides scanning, detection, and cleaning capabilities for its antivirus and antispyware software. The issue has been remediated in Microsoft Malware Protection Engine version 1.1.26060.3008, along with defense-in-depth updates to harden unspecified security-related features. RoguePlanet was first disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse), describing it as a race condition that could be abused to spawn a shell with SYSTEM-level privileges. This, in turn, grants the attacker the ability to run arbitrary code or perform unauthorized actions. The exploit has been found to work on systems running up-to-date versions of Wind...
+- **Source URL:** https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** New Forg365 phishing platform uses AI to target Microsoft 365 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** The Hidden Security Risks of Reduced Summer IT Coverage
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Police arrests 5,800 suspects in global anti-fraud crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** AssuranceAmerica data breach exposes records of 6.9 million drivers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

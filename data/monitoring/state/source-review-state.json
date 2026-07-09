@@ -223,7 +223,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair"
     ],
     "iso-insights": [
@@ -400,7 +399,9 @@
       "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
       "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
       "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
-      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"
+      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
+      "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
+      "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1072,9 +1073,19 @@
       "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
       "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
       "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-      "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-      "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-      "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html"
+      "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+      "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
+      "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+      "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+      "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+      "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
+      "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+      "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+      "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
+      "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1757,10 +1768,14 @@
       "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-      "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-      "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/"
+      "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+      "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+      "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+      "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/"
     ]
   }
 }
