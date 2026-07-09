@@ -1,77 +1,95 @@
 {
-  "generatedAt": "2026-07-09T04:14:52.344Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-09T041452Z.md",
+  "generatedAt": "2026-07-09T15:34:34.609Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-09T153434Z.md",
   "candidates": [
     {
       "discovered": "2026-07-09",
-      "title": "FTC, States Secure Settlement with Deere & Company, Advancing Farmers’ Right to Repair",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
+      "title": "The Language of AI Could Change How Humans Speak",
+      "link": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
       "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-states-secure-settlement-with-deere-company-advancing-farmers-right-to-repair",
-      "source": "FTC Press Releases"
+      "category": "security",
+      "slug": "the-language-of-ai-could-change-how-humans-speak",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-07-09",
-      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes Jul 09, 2026 Malware / Threat Intelligence Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the actor luring victims with a trojanized 7-Zip installer hosted on a domain named \"7zip[.]com,\" covertly recruiting compromised devices as proxy nodes. Lurking Lizard is also known to impersonate major proxy providers, including IPIDEA , SmartProxy (now Decodo), IP Royal, and 911Proxy, not to mention going to the extent of running fake \"independent\" review sites to drive traffic to its own scam storefronts. Interestingly, IPIDEA's infrastructure was dismantled by Google in an operation earlier this January.",
-      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories Jul 09, 2026 Hacking News / Cybersecurity News Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global fraud bust Global Operation Leads to ~6K Arrests A global anti-fraud operation involving 97 countries and territories has resulted in the arrest of 5,811 individuals and the interception of $293 million in illicit assets as part of an operation codenamed First Light 2026 that took place between January 15 and April 30, 2026, to tackle social engineering scams and associated money laundering activities. \"Over 142,000 victims globally were identified during Operation First Light 2026, highlighting the extent to which social engineering scams and fraud have escalated ...",
+      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-7-zip-installers-turn-devices-into-residential-proxy-nodes-jul-09-2026-malware-threat",
+      "slug": "threatsday-cloud-bucket-hijacking-windows-lpe-chain-global-fraud-bust-17-more-stories-jul-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-09",
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers Jul 08, 2026 AI Security / Threat Detection Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store, pulling files down with built-in system tools, writing to the startup folder: these have long been high-signal to defenders. What has changed is who is generating it. On the machines Sophos watched, it was often a developer's AI assistant going about ordinary work. What set the alarms off The analysis draws on seven days of telemetry from June 2026, taken from Sophos's behavioral engine on Windows and counted by unique machines, not raw event volume. It is a narrow window on one vendor's fleet, not an industry census. Sophos's charts put credential access at 56.2 perc...",
-      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up Jul 09, 2026 AI Security / Zero Trust AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven attacks do not, and they run at scale. Save your seat for the free webinar, \" Outpacing Mythos: How to Fight Back Against AI-Powered Attacks .\" In one hour, we take the attack apart. You see how AI-powered attacks get in, what they do once they are inside, and why network-based defenses keep landing a step behind. No slideware theory, just the mechanics, so the next campaign looks familiar instead of surprising. Then the useful part: stopping it. You leave with three moves that do real work, not three more products to babysit. Shrink what the attacker can reach. Cut exposed ent...",
+      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ai-coding-agents-found-triggering-endpoint-security-rules-built-to-catch-attackers-jul-08-",
+      "slug": "ai-attacks-move-in-minutes-join-this-webinar-on-building-a-defense-that-keeps-up-jul-09-20",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-09",
-      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware Jul 08, 2026 AI Security / Botnet AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call HalluSquatting , turns that habit into an attack: work out the fake names an AI reliably invents, register them first, and wait for the assistant to fetch your trap on a user's behalf. Anyone whose AI assistant can fetch an outside resource and then run commands with little human review is exposed. In tests, that path led the assistant to run attacker-supplied code on the machine. Repeat it with a popular enough resource, and one planted name can reach many machines, which is why the researchers frame it as a way to assemble a botnet. How it works The attack chains two AI quirks. The first is a hallucination : an AI making something up and presenting it as real. The second is a prompt injection : a booby-trapped instruction that hijacks the AI, so i...",
-      "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "title": "Summer of Clearinghouses Jul 09, 2026 AI Security / Application Security Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena , and the main thing that sets it apart is that it was already real and running when we announced it — built quietly months earlier, heads down, taking findings and shipping fixes, because customers kept asking us to. We only announced it now because everyone else started announcing theirs, and staying quiet started to look like something it wasn't. The others arrived louder and, as far as anyone outside the press releases could tell, didn't exist yet. Here's the part none of those announcements will tell you: the clearinghouse is the least important thing to build. When a project we'd deliberately kept private, a five-billion-dollar press release , and the White House all reach for the same word inside a few weeks, that's not a trend. Trends are optional. This is the shape of a problem changing under everyone at once. So let me explain why these thin...",
+      "link": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-hallusquatting-attack-could-trick-ai-coding-assistants-into-installing-botnet-malware-",
+      "slug": "summer-of-clearinghouses-jul-09-2026-ai-security-application-security-everyone-seems-to-ha",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-09",
-      "title": "Mount Royal University confirms breach as hackers claim attack",
-      "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+      "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses Jul 09, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware, which, in turn, was an enhanced version of Monster , a Delphi-based ransomware that surfaced in March 2022. Broadcom's cybersecurity arm is tracing the developer behind these ransomware families under the moniker Hyadina. In one attack orchestrated by the ransomware operation in early June 2026, the threat actors are said to have leveraged AnyDesk for remote access and used a NirSoft-based credential harvesting toolkit before deploying the ransomware. The exact initial access vector is unknown. The credential harvester is designed to extract sensitive data from common web browsers, W...",
+      "link": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "mount-royal-university-confirms-breach-as-hackers-claim-attack",
+      "slug": "goddamn-ransomware-uses-poisonx-driver-to-disable-endpoint-defenses-jul-09-2026-malware-en",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-09",
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges Jul 09, 2026 Vulnerability / Endpoint Security Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine (\"mpengine.dll\"), which provides scanning, detection, and cleaning capabilities for its antivirus and antispyware software. The issue has been remediated in Microsoft Malware Protection Engine version 1.1.26060.3008, along with defense-in-depth updates to harden unspecified security-related features. RoguePlanet was first disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse), describing it as a race condition that could be abused to spawn a shell with SYSTEM-level privileges. This, in turn, grants the attacker the ability to run arbitrary code or perform unauthorized actions. The exploit has been found to work on systems running up-to-date versions of Wind...",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-patches-rogueplanet-defender-flaw-that-can-grant-system-privileges-jul-09-2026-v",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-09",
+      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-09",
-      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+      "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials",
+      "slug": "the-hidden-security-risks-of-reduced-summer-it-coverage",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-09",
-      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers",
+      "slug": "police-arrests-5-800-suspects-in-global-anti-fraud-crackdown",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-09",
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+      "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "entra-passkey-enrollment-vishing-targets-microsoft-365-users",
+      "slug": "assuranceamerica-data-breach-exposes-records-of-6-9-million-drivers",
       "source": "BleepingComputer"
     }
   ]
