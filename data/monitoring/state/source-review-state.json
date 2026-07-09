@@ -222,7 +222,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/travel-app-hopper-pay-35-million-settle-ftc-allegations-it-charged-fees-without-consent-deceived",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -290,7 +292,6 @@
       "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/",
       "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
     ],
     "schneier-on-security": [
@@ -399,7 +400,6 @@
       "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
       "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
       "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
-      "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"
     ],
     "the-hacker-news": [
@@ -1065,15 +1065,16 @@
       "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
       "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
       "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-      "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
-      "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
       "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
       "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
       "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
-      "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+      "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1752,11 +1753,14 @@
       "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
       "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
       "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-      "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-      "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-      "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"
+      "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+      "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+      "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+      "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/"
     ]
   }
 }

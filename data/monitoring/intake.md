@@ -11948,3 +11948,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** FTC, States Secure Settlement with Deere & Company, Advancing Farmers’ Right to Repair
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes Jul 09, 2026 Malware / Threat Intelligence Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the actor luring victims with a trojanized 7-Zip installer hosted on a domain named "7zip[.]com," covertly recruiting compromised devices as proxy nodes. Lurking Lizard is also known to impersonate major proxy providers, including IPIDEA , SmartProxy (now Decodo), IP Royal, and 911Proxy, not to mention going to the extent of running fake "independent" review sites to drive traffic to its own scam storefronts. Interestingly, IPIDEA's infrastructure was dismantled by Google in an operation earlier this January.
+- **Source URL:** https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers Jul 08, 2026 AI Security / Threat Detection Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store, pulling files down with built-in system tools, writing to the startup folder: these have long been high-signal to defenders. What has changed is who is generating it. On the machines Sophos watched, it was often a developer's AI assistant going about ordinary work. What set the alarms off The analysis draws on seven days of telemetry from June 2026, taken from Sophos's behavioral engine on Windows and counted by unique machines, not raw event volume. It is a narrow window on one vendor's fleet, not an industry census. Sophos's charts put credential access at 56.2 perc...
+- **Source URL:** https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware Jul 08, 2026 AI Security / Botnet AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call HalluSquatting , turns that habit into an attack: work out the fake names an AI reliably invents, register them first, and wait for the assistant to fetch your trap on a user's behalf. Anyone whose AI assistant can fetch an outside resource and then run commands with little human review is exposed. In tests, that path led the assistant to run attacker-supplied code on the machine. Repeat it with a popular enough resource, and one planted name can reach many machines, which is why the researchers frame it as a way to assemble a botnet. How it works The attack chains two AI quirks. The first is a hallucination : an AI making something up and presenting it as real. The second is a prompt injection : a booby-trapped instruction that hijacks the AI, so i...
+- **Source URL:** https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Mount Royal University confirms breach as hackers claim attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Hackers exploit Roundcube flaw to spy on academic researchers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-09
+- **Headline / event:** Entra passkey enrollment vishing targets Microsoft 365 users
+- **Source URL:** https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

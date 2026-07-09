@@ -1,113 +1,77 @@
 {
-  "generatedAt": "2026-07-08T14:41:40.825Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-08T144140Z.md",
+  "generatedAt": "2026-07-09T04:14:52.344Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-09T041452Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-08",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "discovered": "2026-07-09",
+      "title": "FTC, States Secure Settlement with Deere & Company, Advancing Farmers’ Right to Repair",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "felons-fraudsters-flog-offensive-cybersecurity-startup",
-      "source": "Krebs on Security"
+      "category": "privacy",
+      "slug": "ftc-states-secure-settlement-with-deere-company-advancing-farmers-right-to-repair",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "Cybersecurity and the Gap Between Skill and Ability",
-      "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
+      "discovered": "2026-07-09",
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes Jul 09, 2026 Malware / Threat Intelligence Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the actor luring victims with a trojanized 7-Zip installer hosted on a domain named \"7zip[.]com,\" covertly recruiting compromised devices as proxy nodes. Lurking Lizard is also known to impersonate major proxy providers, including IPIDEA , SmartProxy (now Decodo), IP Royal, and 911Proxy, not to mention going to the extent of running fake \"independent\" review sites to drive traffic to its own scam storefronts. Interestingly, IPIDEA's infrastructure was dismantled by Google in an operation earlier this January.",
+      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cybersecurity-and-the-gap-between-skill-and-ability",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-07-08",
-      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS Jul 08, 2026 Vulnerability / Network Security Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker with access to the network could exploit to execute a command injection on the host device. (Affects versions 3.4.16 and earlier; fixed in version 3.4.20) CVE-2026-50747 (CVSS score: 9.9) - A series of authenticated SQL injection vulnerabilities in UniFi Talk Application that an attacker with access to the network could exploit to escalate privileges on the host device. (Affects versions 5.1.2 and earlier; fixed in version 5.2.2) CVE-2026-50748 (CVSS score: 9.9) - An improper input validation vulnerability in UniFi Access Application that an attacker with access to the network coul...",
-      "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ubiquiti-patches-critical-unifi-flaws-across-connect-talk-access-protect-and-os-jul-08-202",
+      "slug": "fake-7-zip-installers-turn-devices-into-residential-proxy-nodes-jul-09-2026-malware-threat",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security Jul 08, 2026 A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time are already at stake. The Email Looks Safe. The Browser Tells a Different Story A recent EvilTokens attack shows how a phishing link can appear harmless during initial inspection while still leading to Microsoft 365 account takeover. The kit uses Microsoft Device Code Phishing to convince victims to complete a legitimate Microsoft login flow and unknowingly authorize access to their accounts. It does not need to steal the password directly. The real attack remains hidden until the page opens in the browser. Its HTML is encrypted with AES-GCM and becomes visible only after the browser dec...",
-      "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "discovered": "2026-07-09",
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers Jul 08, 2026 AI Security / Threat Detection Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store, pulling files down with built-in system tools, writing to the startup folder: these have long been high-signal to defenders. What has changed is who is generating it. On the machines Sophos watched, it was often a developer's AI assistant going about ordinary work. What set the alarms off The analysis draws on seven days of telemetry from June 2026, taken from Sophos's behavioral engine on Windows and counted by unique machines, not raw event volume. It is a narrow window on one vendor's fleet, not an industry census. Sophos's charts put credential access at 56.2 perc...",
+      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-ghost-phishing-wave-is-breaking-traditional-email-security-jul-08-2026-a-recent-evilto",
+      "slug": "ai-coding-agents-found-triggering-endpoint-security-rules-built-to-catch-attackers-jul-08-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users Jul 08, 2026 Cybercrime / AI Security A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045 , involves infecting victims through fake CAPTCHA verification pages that deceive them into running a malicious command that installs a PowerShell toolkit dubbed SCMBANKER . Some components of the malware date back to October 2025. \"Once installed, the operator can see when a victim opens a banking session, lock the screen behind a fake bank warning, push the victims towards live phone interaction, redirect the browser, or replace account numbers copied to the clipboard,\" security researchers Jia Yu Chan and Salim Bitam said . \"For a full takeover, they can also deploy a commercial remote-access tool.\" SCMBANKER is specifically designed to go after Mexico's financial ecosystem, with evidence pointing to the use of a large...",
-      "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+      "discovered": "2026-07-09",
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware Jul 08, 2026 AI Security / Botnet AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call HalluSquatting , turns that habit into an attack: work out the fake names an AI reliably invents, register them first, and wait for the assistant to fetch your trap on a user's behalf. Anyone whose AI assistant can fetch an outside resource and then run commands with little human review is exposed. In tests, that path led the assistant to run attacker-supplied code on the machine. Repeat it with a popular enough resource, and one planted name can reach many machines, which is why the researchers frame it as a way to assemble a botnet. How it works The attack chains two AI quirks. The first is a hallucination : an AI making something up and presenting it as real. The second is a prompt injection : a booby-trapped instruction that hijacks the AI, so i...",
+      "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "scmbanker-malware-uses-clickfix-lures-to-target-mexican-banking-users-jul-08-2026-cybercri",
+      "slug": "new-hallusquatting-attack-could-trick-ai-coding-assistants-into-installing-botnet-malware-",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures Jul 08, 2026 DevSecOps / Open Source Security New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\" Everything a reviewer would check matches. The commit's hash does not. That matters because so many systems treat a verified commit hash as a permanent, unique name for its contents. Here is the concrete failure: block a bad commit by its hash, and an attacker can re-push the same content under a fresh, still-\"Verified\" hash your blocklist has never seen. Deduplication, provenance logs, and reproducible-build records that key on the hash inherit the same soft spot. A compromised or hostile mirror can hand cloners validly signed commits whose hashes differ from those on the canonical forge. What this is not is a way to slip different code past a sig...",
-      "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "discovered": "2026-07-09",
+      "title": "Mount Royal University confirms breach as hackers claim attack",
+      "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "github-verified-commits-can-be-rewritten-into-new-hashes-without-breaking-signatures-jul-0",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-08",
-      "title": "The Verification Step Is the New ATO Battleground in 2026 Jul 08, 2026 Identity Security / Compliance For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively well understood. That era is ending. Not because attackers gave up, but because the front door finally got harder to kick in. Passkeys are now mainstream. According to the FIDO Alliance's 2026 research, 75% of global consumers have enabled a passkey on at least one account. At the same time, passkeys are becoming more common in the workplace, with 68% of companies now using, testing, or introducing them for employee sign-ins. Phishing-resistant, passwordless authentication is no longer aspirational, it's becoming the default. When the password disappears, so does the value of a stolen password. So where does the attack go next? It moves downstream, to the moments where systems still trust a human to prove who they are. The attac...",
-      "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-verification-step-is-the-new-ato-battleground-in-2026-jul-08-2026-identity-security-co",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-08",
-      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
-      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them",
+      "slug": "mount-royal-university-confirms-breach-as-hackers-claim-attack",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "Telco giant KDDI says data breach affects over 12 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "discovered": "2026-07-09",
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "telco-giant-kddi-says-data-breach-affects-over-12-million-people",
+      "slug": "fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+      "discovered": "2026-07-09",
+      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw",
+      "slug": "hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-08",
-      "title": "Ubiquiti warns of new max severity UniFi OS",
-      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+      "discovered": "2026-07-09",
+      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+      "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ubiquiti-warns-of-new-max-severity-unifi-os",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-08",
-      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday",
+      "slug": "entra-passkey-enrollment-vishing-targets-microsoft-365-users",
       "source": "BleepingComputer"
     }
   ]
