@@ -12092,3 +12092,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** RentGrow to Pay $2.25 Million to Settle FTC Allegations the Company Violated the Fair Credit Reporting Act and FTC Act
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs Jul 09, 2026 Developer Security / Supply Chain Security Datadog Security Labs is warning of "several overlapping campaigns" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. "Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal access tokens (PATs) from legitimate users," Julie Agnes Sparks, senior security engineer at Datadog, said . While the activity in most cases involves targeting public data, select instances have gone beyond public information enumeration to successfully clone private repositories. The campaign employs a mix of automated scanner tools, over 50 dormant accounts, and dozens of legitimate accounts that have had their personal access tokens (PATs) exposed unintentionally or compromised through some other method to facilitate the enumeration. What's notable about the ...
+- **Source URL:** https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware Jul 09, 2026 Cyber Espionage / Malware Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper . What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake "ransomware" that scrambles files with a key it never saves. Because this is malware and not a single flaw, there is no patch to chase; GigaWiper is what an attacker runs after they are already inside, which makes early detection and clean, offline backups the real defense. The same malicious files show up in a second report under another name: BLUERABBIT , a backdoor Binary Defense flagged last month . Microsoft lists four hashes for the GigaWiper backdoor ; Binary Defense lists the same four for BLUERABBIT , and both command servers match. Binary Defense, citing Google's Threat Intelligence Group, ties the malware to a likely Ir...
+- **Source URL:** https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk Jul 09, 2026 Supply Chain Security / DevSecOps GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning dependency lifecycle scripts (i.e., preinstall, install, postinstall) and implicit node-gyp builds no longer run unless explicitly allowed. --allow-git defaults to none, meaning --allow-git defaults to none: Git dependencies (direct or transitive) are no longer resolved unless explicitly allowed. --allow-remote defaults to none, meaning dependencies from remote URLs (e.g., https tarballs) are no longer resolved unless explicitly allowed. To review and approve trusted scripts, users are now required to run: "npm approve-scripts --allow-scripts-pending," then commit the resulting a...
+- **Source URL:** https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** OpenMandriva Linux says contributor tried to sabotage the project
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Injective SDK on npm infected with cryptocurrency wallet stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** New Helix vishing group emerges in SharePoint data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

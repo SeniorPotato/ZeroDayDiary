@@ -223,7 +223,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -400,7 +402,6 @@
       "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
       "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
-      "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
       "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"
     ],
     "the-hacker-news": [
@@ -1078,14 +1079,15 @@
       "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
       "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
       "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-      "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
-      "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
-      "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
       "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
       "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-      "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html"
+      "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1772,10 +1774,12 @@
       "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
       "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
       "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-      "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-      "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
-      "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-      "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/"
+      "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+      "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+      "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
     ]
   }
 }
