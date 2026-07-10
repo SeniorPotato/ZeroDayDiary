@@ -224,7 +224,6 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-warns-companies-making-questionable-made-usa-claims",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act"
     ],
     "iso-insights": [
@@ -402,7 +401,9 @@
       "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html",
       "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
-      "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"
+      "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
+      "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+      "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1085,9 +1086,21 @@
       "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
       "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
       "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
+      "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+      "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+      "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
+      "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1777,9 +1790,12 @@
       "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
       "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
       "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-      "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-      "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
+      "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+      "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/"
     ]
   }
 }

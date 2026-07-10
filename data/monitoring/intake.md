@@ -12148,3 +12148,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** AI Surveillance and Social Progress
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched Jul 10, 2026 Vulnerability / Hardware Security Researchers at Ledger's Donjon security team have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything the attacker picks. No old password. No backup card. Once it is reset, whoever did it controls the wallet and can move the coins out. This is not an emergency for most owners. The attack needs the physical card in hand and a lab that Donjon puts at around $250,000. It also means cutting the card open, which leaves damage no one can miss. It cannot be done over the internet, and there is no fix coming: Tangem cards cannot take software updates, so every card already sold carries the flaw. The one group that should act now is anyone whose card is lost or stolen and holds serious value. How the card is meant to protect you A Tangem wallet looks like a plain bank card. Tap it to your phone, and a companion app talks to a Samsung S3D232A chip inside. That chip is a ...
+- **Source URL:** https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws Jul 10, 2026 AI Security / Vulnerability Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution on the host. A brief description of the high-severity vulnerabilities is as follows - GHSA-hjr6-g723-hmfm (CVSS score: 8.8) - An operating system command injection and an incomplete list of disallowed inputs vulnerability impacting the host execution environment filtering mechanism that could allow for executing or persist actions beyond the caller's intended authorization. GHSA-9969-8g9h-rxwm (CVSS score: 8.8) - An operating system command injection and an incomplete list of disallowed inputs vulnerability impacting the host execution environment filtering mechanism that could allow for executing or persist actions beyond the caller's intended authorization. GHSA-575v-8hfq-m3mc (CVSS score: 8.4) - A path traversal and link f...
+- **Source URL:** https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic Jul 10, 2026 Malware / Enterprise Security The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON . Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware via counterfeit installers using SEO poisoning techniques, it belies their true organizational structure , which compromises multiple distributors. "These distributors conduct activities across Asia using counterfeit software installers distributed through SEO campaigns, leveraging variants of Gh0st RAT and WinOS (ValleyRAT) trojan families," QiAnXin said . One such campaign observed in mid-June 2026 involved a distributor delivering a previously undocumented modular RAT targeting technology, education, and state-owned enterprises in the country. MODBEACON's requested command-and-control (C2) infrastructure is hosted on Amazon and Cloudflare's Content Delivery Networ...
+- **Source URL:** https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers Jul 10, 2026 Vulnerability / Server Security A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server process down. XQUIC is open-source, so the risk is not Alibaba's alone: any server that embeds it and serves HTTP/3 with the default QPACK settings is exposed. That includes Tengine, Alibaba's Nginx-based web server, which FoxIO says fronts the company's cloud and CDN on sites including Taobao and Alipay. Every release through v1.9.4, the latest, is affected. There is no fixed release and no CVE as of July 10. Until a fix ships, operators can set SETTINGS_QPACK_MAX_TABLE_CAPACITY to 0, which turns off QPACK's dynamic table, or drop HTTP/3 support entirely. The bug lives in how H...
+- **Source URL:** https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale Jul 10, 2026 Asset Management / Enterprise Security Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies , a telecommunications company with nearly a century of history, put this to the test. Geoff Krahn, Director of Product and Platform Security at Lumen, and his team used the Axonius asset intelligence platform to reconcile data from more than 40 disconnected systems into one trusted view. They uncovered 60 times more devices than they knew they had, then rebuilt their exposure management program on that foundation. Why asset inventories break down at enterprise scale Lumen's environment is an extreme case of a problem most security teams recognize. More than 40 independent IT and security to...
+- **Source URL:** https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** The Replicant in Your Directory: AI Agents and the Identity Security Gap
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Zimbra urges customers to patch critical web client XSS flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-10
+- **Headline / event:** Former ransomware negotiator gets 4 years for BlackCat attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
