@@ -12292,3 +12292,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions Jul 11, 2026 Vulnerability / Email Security Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. "The update fixes a security issue in the Classic Web Client where a specially crafted email could run malicious code when the email is opened," Zimbra said . "If exploited, it could allow access to mailbox information, session data, or account settings." XSS vulnerabilities occur when an application includes untrusted data in a web page without proper validation or escaping. This allows attackers to inject and execute malicious JavaScript in victims' browsers, which can result in session hijacking, credential theft, and account compromise. Stored XSS, or persistent ...
+- **Source URL:** https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** 'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
