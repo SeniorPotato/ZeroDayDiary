@@ -1,86 +1,23 @@
 {
-  "generatedAt": "2026-07-11T03:44:20.986Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-11T034420Z.md",
+  "generatedAt": "2026-07-11T13:56:06.813Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-11T135606Z.md",
   "candidates": [
     {
       "discovered": "2026-07-11",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions Jul 11, 2026 Vulnerability / Email Security Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. \"The update fixes a security issue in the Classic Web Client where a specially crafted email could run malicious code when the email is opened,\" Zimbra said . \"If exploited, it could allow access to mailbox information, session data, or account settings.\" XSS vulnerabilities occur when an application includes untrusted data in a web page without proper validation or escaping. This allows attackers to inject and execute malicious JavaScript in victims' browsers, which can result in session hijacking, credential theft, and account compromise. Stored XSS, or persistent ...",
+      "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "Friday Squid Blogging: “Squidbleed”",
-      "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "friday-squid-blogging-squidbleed",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Jul 10, 2026 Enterprise Security / Security Incident Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external security threat.\" The company has temporarily disabled access to the affected accounts, a step it says it took \"out of an abundance of caution\" while it works with internal and external security experts. It says it has no indication of unauthorized access to any ShareFile accounts or data, and that it notified customers after learning of the threat. What Progress has not said is what the threat is or who is behind it. The order became public when a customer posted the company's email to Reddit's r/sysadmin on July 10. Progress confirmed the disruption on its status page, listing Storage Zone Controller customers as \"not operational\" and the incident as under investigation as of a 12:12 p.m. EDT update. Only the Storage Zone Controller is af...",
-      "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "urgent-progress-tells-sharefile-customers-to-shut-down-storage-zone-controllers-over-secur",
+      "slug": "critical-zimbra-flaw-could-let-crafted-emails-run-malicious-code-in-user-sessions-jul-11-2",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-11",
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages Jul 10, 2026 Software Supply Chain / Malware Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21 , came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was released on July 8, 2026, but has since been deprecated on the registry. That said, the release artifacts belonging to the compromised version are still available for download from GitHub as of writing. \"The malicious functionality was introduced to the project's official GitHub repository through commits submitted by a GitHub account belonging to a developer with an established history of contributions to the repository,\" Socket said . The software supply chain security firm said the threat actor behind the attack also published version 1.20.21 across 17 additional @inj...",
-      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "injective-labs-github-compromise-pushes-wallet-key-stealing-npm-packages-jul-10-2026-softw",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "progress-urges-sharefile-admins-to-shut-down-servers-over-credible-threat",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "New U-Boot flaws could enable stealthy firmware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-u-boot-flaws-could-enable-stealthy-firmware-attacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "Police suspects Dutch hackers were involved in Odido breach",
-      "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "police-suspects-dutch-hackers-were-involved-in-odido-breach",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-11",
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-exploit-critical-auth-bypass-in-gitea-docker-image",
+      "slug": "ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets",
       "source": "BleepingComputer"
     }
   ]
