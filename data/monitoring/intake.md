@@ -12220,3 +12220,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Friday Squid Blogging: “Squidbleed”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Jul 10, 2026 Enterprise Security / Security Incident Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a "credible external security threat." The company has temporarily disabled access to the affected accounts, a step it says it took "out of an abundance of caution" while it works with internal and external security experts. It says it has no indication of unauthorized access to any ShareFile accounts or data, and that it notified customers after learning of the threat. What Progress has not said is what the threat is or who is behind it. The order became public when a customer posted the company's email to Reddit's r/sysadmin on July 10. Progress confirmed the disruption on its status page, listing Storage Zone Controller customers as "not operational" and the incident as under investigation as of a 12:12 p.m. EDT update. Only the Storage Zone Controller is af...
+- **Source URL:** https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages Jul 10, 2026 Software Supply Chain / Malware Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21 , came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was released on July 8, 2026, but has since been deprecated on the registry. That said, the release artifacts belonging to the compromised version are still available for download from GitHub as of writing. "The malicious functionality was introduced to the project's official GitHub repository through commits submitted by a GitHub account belonging to a developer with an established history of contributions to the repository," Socket said . The software supply chain security firm said the threat actor behind the attack also published version 1.20.21 across 17 additional @inj...
+- **Source URL:** https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Progress urges ShareFile admins to shut down servers over “credible” threat
+- **Source URL:** https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** New U-Boot flaws could enable stealthy firmware attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Ryuk ransomware member pleads guilty in the US, faces 15 years in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Police suspects Dutch hackers were involved in Odido breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-11
+- **Headline / event:** Hackers exploit critical auth bypass in Gitea Docker image
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
