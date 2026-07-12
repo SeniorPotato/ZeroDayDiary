@@ -1,23 +1,32 @@
 {
-  "generatedAt": "2026-07-11T13:56:06.813Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-11T135606Z.md",
+  "generatedAt": "2026-07-12T03:59:36.939Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-12T035936Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-11",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions Jul 11, 2026 Vulnerability / Email Security Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. \"The update fixes a security issue in the Classic Web Client where a specially crafted email could run malicious code when the email is opened,\" Zimbra said . \"If exploited, it could allow access to mailbox information, session data, or account settings.\" XSS vulnerabilities occur when an application includes untrusted data in a web page without proper validation or escaping. This allows attackers to inject and execute malicious JavaScript in victims' browsers, which can result in session hijacking, credential theft, and account compromise. Stored XSS, or persistent ...",
-      "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "discovered": "2026-07-12",
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory...",
+      "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-zimbra-flaw-could-let-crafted-emails-run-malicious-code-in-user-sessions-jul-11-2",
+      "slug": "compromised-jscrambler-8-14-0-npm-release-drops-rust-infostealer-during-install-jul-11-202",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-11",
-      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "discovered": "2026-07-12",
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns Jul 11, 2026 Threat Intelligence / Cyber Espionage Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026. \"At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records,\" Aleksandar Milenkoski, principal threat researcher at SentinelOne SentinelLABS, said in a report published this week. The activity targeted network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. The China-nexus threat actor is also said to have compromised one of these web applications to deploy a custom implant masquerading as a portal update. The application in question, named Complaint Management System (CMS), serves pol...",
+      "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets",
+      "slug": "hackers-weaponize-balochistan-police-portal-in-multi-group-espionage-campaigns-jul-11-2026",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-12",
+      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+      "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms",
       "source": "BleepingComputer"
     }
   ]
