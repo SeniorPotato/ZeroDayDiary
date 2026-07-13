@@ -12340,3 +12340,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Where do SMEs stand in preparing for the Cyber Resilience Act?
+- **Source URL:** https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Team Europe wins 1st ever International Cybersecurity Challenge for women
+- **Source URL:** https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Lessons Learned from CISA’s Recent GitHub Leak
+- **Source URL:** https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** AI Data Centers and the Concentration of Wealth
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** ⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More Jul 13, 2026 Cybersecurity / Hacking Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets. That's the shape of this week. Trusted code turns on the people who installed it. Old bugs from last year are still landing because the fix sat in a queue too long. Fake installers, poisoned packages, systems left facing the open internet, and helpful little AI assistants running instructions that were never yours. The gap between "patch exists" and "already exploited" keeps shrinking, and nobody's closing it. None of it is exotic. That's what wears you down. Same ordinary mistakes, just happening faster than we can keep up. Here's the full mess, top to bottom. ⚡ Threat of the Week Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers — Progress urged customers to shut down Win...
+- **Source URL:** https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Jul 13, 2026 AI Security / Data Integrity Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false "fact" about the user, hide the change, and quietly steer its answers in later sessions. When it works, the person reads an ordinary-looking reply and never learns their assistant was tampered with. The researchers named the attack stealth memory injection and built a tool that writes the emails automatically. The paper, "When Claws Remember but Do Not Tell," landed on arXiv on 6 July 2026 . First, what these assistants do A personal agent is an AI assistant that sticks around. Instead of forgetting everything when a chat ends, it keeps notes about you in files: your preferences, your contacts, and what you asked it to do. It reads those notes at the start of every new session, which is why it feels like it knows you. Many of these agents can also act for you, readin...
+- **Source URL:** https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft Jul 13, 2026 Email Security / Artificial Intelligence A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing , adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram and costing $400 a month (or $3,800 per year), attack chains leverage phishing lures that make use of legitimate email delivery infrastructure, such as Amazon Simple Email Service (Amazon SES) and Twilio SendGrid, to imitate a redirection chain that blends into regular email traffic before it ends in Forg365-controlled domains. "The panel exposes a mature operator workflow: accounts, links, invitations, OAuth app configuration, redirect links, SVG generation, campaign sending, SMTP profiles, SMTP rotation, AI email generation, token vaulting, account intelligence, keyword alerts, viewer links, and browser-extension support," ZeroBAC said . The email securi...
+- **Source URL:** https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling Jul 13, 2026 Artificial Intelligence / Privacy Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read. Each read gets pinned to the moment it happened: the time, your location, what you were doing, even how you were using your phone. Some versions in the filing would listen all day; others would check in only at set times. None of these ships in a product today, and Meta has not announced one; a filing like this stakes a claim on an idea long before anyone commits to building it. The application, US 2026/0182881 , was filed by Meta Platforms in December 2025 and published on July 2. It names a single inventor, Lachlan Dunn , and traces back to a provisional filing from December 2024. The patent-analysis site Patentlyze flagged the filing first. Its title pairs two ideas, emotional state analysis and real-time fitness coaching. The claims show the first is the ...
+- **Source URL:** https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory Jul 13, 2026 Artificial Intelligence / Threat Intelligence Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. "The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the enumeration attempt," Huntress researchers Jevon Ang and Dray Agha said . The attack chain involved the threat actor establishing Remote Desktop Protocol (RDP) access onto a domain-joined Windows Server with a set of pre-compromised credentials, followed by staging the tools in the "C:\ProgramData\" folder. The incident took place in early June 2026. This included an artificial intelligence (AI)-generated payload to map the Active Directory environment. The assessment is based on various telltale signs, such as the prompt iteration title, placeholder strings, over-engineered cod...
+- **Source URL:** https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Lidl discloses online shop breach after service provider hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** Breach at the Beach: Play the Ultimate Entra ID CTF
+- **Source URL:** https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** UK charges suspects linked to Russian Coms call spoofing platform
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** EU sanctions Russian GRU military hackers over cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-13
+- **Headline / event:** US and allies warn of Russian critical infrastructure attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

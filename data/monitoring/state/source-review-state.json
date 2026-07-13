@@ -129,7 +129,11 @@
       "https://www.enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
       "https://www.enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience",
-      "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey"
+      "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey",
+      "https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
+      "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
+      "https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
+      "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -293,7 +297,9 @@
       "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/",
       "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
+      "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -404,7 +410,9 @@
       "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
       "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
       "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
-      "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html"
+      "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html",
+      "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+      "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1101,7 +1109,19 @@
       "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
       "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
       "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+      "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1803,7 +1823,16 @@
       "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
       "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
       "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/"
+      "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+      "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+      "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+      "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/"
     ]
   }
 }
