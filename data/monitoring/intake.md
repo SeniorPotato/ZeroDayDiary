@@ -12524,3 +12524,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** FTC Endorses Ohio Supreme Court Proposal to Weaken ABA’s Law School Accreditation Monopoly
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Vulnerability in FIFA’s Network
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret." The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description ...
+- **Source URL:** https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Jul 14, 2026 Endpoint Security / Linux Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. "An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware," ESET researcher Martin Smolár said in a report published today. The UEFI shim bootloaders expose any UEFI-based machine that trusts Microsoft's " Microsoft Corporation UEFI CA 2011 " third-party UEFI certificate authority (CA) certificate, irrespective of the installed operating system. The certificate is used to sign third-party boot components intended to run under Secure Boot. It expired as of June 27, 2026, and has been replaced by Microsoft UEFI CA 2023 and Microsoft Option ROM UEFI CA 2023. The shim is a lightweight, open-source UEFI bootloader that acts as an ...
+- **Source URL:** https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks Jul 14, 2026 Cryptocurrency / Identity Protection Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or email, the same leaks can put a real name to an "anonymous" crypto identity. This is not a hack. The wallets behave exactly as they were built to. The 85 extensions together have about 35 million users listed on the Chrome Web Store. The team, from the university's DistriNet security group, posted the paper this month and will present it at the PETS 2026 privacy conference in Calgary in late July. They ran real wallets against real Web3 sites and mapped out five privacy weaknesses in how wallets and websites interact. When they reported the most far-reaching one to the wa...
+- **Source URL:** https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** How Pentera Turns AI Security Workflows into Validation Engines Jul 14, 2026 Artificial Intelligence / Security Agent AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one tool category at a time. They chain exposures across identities, networks, cloud assets, applications, and security controls. If the AI workflow only sees isolated findings, it cannot understand whether those findings create a real attack path. As AI-powered attackers accelerate exploitation, security teams need more than faster AI-assisted workflows. They need workflows grounded in evidence that can prove which risks are exploitable. These systems can correlate information and identify patterns, but without validation, they cannot answer the question security teams ultimately care about: C...
+- **Source URL:** https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials Jul 14, 2026 Cloud Security / Identity Security At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun to exploit this gap to obtain unauthorized access to an organization's cloud services. "A blind spot in cloud sign-in telemetry: Entra ID returns different error responses depending on whether a supplied OAuth client ID is valid," Proofpoint said in a statement. "Attackers exploit this to infer valid usernames and correct passwords at scale, effectively checking stolen credential lists without logging a successful login." In other words, the attacks leverage the OAuth client ID, a globally unique identifier (GUID) assigned to applications when requesting access to ...
+- **Source URL:** https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** You Don't Have to Run an Exploit to Know If You're Vulnerable
+- **Source URL:** https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** New phishing kits target Microsoft 365 accounts, evade MFA
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** SAP warns of critical flaws in NetWeaver and Commerce Cloud
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** US sanctions VPN, malware providers for enabling ransomware attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

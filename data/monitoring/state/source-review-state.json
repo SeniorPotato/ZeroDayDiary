@@ -72,8 +72,6 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
-      "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a"
     ],
     "ico-news": [],
@@ -233,7 +231,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -414,7 +413,9 @@
       "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
       "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html",
-      "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html"
+      "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+      "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
+      "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1121,8 +1122,20 @@
       "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
       "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
       "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html"
+      "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+      "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+      "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
+      "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1833,10 +1846,14 @@
       "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
       "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
       "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-      "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-      "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/"
+      "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+      "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/"
     ]
   }
 }
