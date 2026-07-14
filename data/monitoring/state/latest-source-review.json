@@ -1,131 +1,86 @@
 {
-  "generatedAt": "2026-07-13T15:12:40.233Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-13T151240Z.md",
+  "generatedAt": "2026-07-14T03:36:41.364Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-14T033641Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-13",
-      "title": "Where do SMEs stand in preparing for the Cyber Resilience Act?",
-      "link": "https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
+      "discovered": "2026-07-14",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
-      "source": "ENISA News"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "Team Europe wins 1st ever International Cybersecurity Challenge for women",
-      "link": "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
+      "discovered": "2026-07-14",
+      "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
-      "source": "ENISA News"
+      "slug": "improve-router-hygiene-to-protect-against-russian-state-sponsored-targeting",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "discovered": "2026-07-14",
+      "title": "FTC Secures $12 Million in Penalties for Pre-Merger Reporting Act Violations",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "lessons-learned-from-cisa-s-recent-github-leak",
-      "source": "Krebs on Security"
+      "category": "privacy",
+      "slug": "ftc-secures-12-million-in-penalties-for-pre-merger-reporting-act-violations",
+      "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "AI Data Centers and the Concentration of Wealth",
-      "link": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+      "discovered": "2026-07-14",
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks Jul 13, 2026 Endpoint Security / Cybercrime Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs. \"It validates the victim's login password locally before harvesting, collects broadly across browsers, cryptocurrency wallets, password managers, and the keychain, encrypts what it collects with AES-GCM before exfiltrating over libcurl, and persists by copying and re-signing itself,\" security researcher Thijs Xhaflaire said in a report shared with The Hacker News. CrashStealer is said to be distributed by means of a signed and Apple-notarized dropper that's distributed as a disk image file named \"Werkbit.app.\" Because both the disk image and binary are notarized and carry a valid developer ID (\"Emil Grigorov...",
+      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ai-data-centers-and-the-concentration-of-wealth",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-07-13",
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More Jul 13, 2026 Cybersecurity / Hacking Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets. That's the shape of this week. Trusted code turns on the people who installed it. Old bugs from last year are still landing because the fix sat in a queue too long. Fake installers, poisoned packages, systems left facing the open internet, and helpful little AI assistants running instructions that were never yours. The gap between \"patch exists\" and \"already exploited\" keeps shrinking, and nobody's closing it. None of it is exotic. That's what wears you down. Same ordinary mistakes, just happening faster than we can keep up. Here's the full mess, top to bottom. ⚡ Threat of the Week Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers — Progress urged customers to shut down Win...",
-      "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "weekly-recap-sharefile-threat-citrix-bleed-2-ransomware-ai-coding-attacks-and-more-jul-13-",
+      "slug": "crashstealer-macos-malware-uses-notarized-dropper-to-pass-gatekeeper-checks-jul-13-2026-en",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Jul 13, 2026 AI Security / Data Integrity Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly steer its answers in later sessions. When it works, the person reads an ordinary-looking reply and never learns their assistant was tampered with. The researchers named the attack stealth memory injection and built a tool that writes the emails automatically. The paper, \"When Claws Remember but Do Not Tell,\" landed on arXiv on 6 July 2026 . First, what these assistants do A personal agent is an AI assistant that sticks around. Instead of forgetting everything when a chat ends, it keeps notes about you in files: your preferences, your contacts, and what you asked it to do. It reads those notes at the start of every new session, which is why it feels like it knows you. Many of these agents can also act for you, readin...",
-      "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "discovered": "2026-07-14",
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found Jul 13, 2026 Browser Security / Web Security Google and Microsoft have pulled ModHeader , a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version. The collector was dormant. An empty allow-list kept it switched off, and no proof has emerged that it ever gathered or sent a single browsing domain. The analysis came from Stripe OLT , a UK security firm, which checked the code against Google's own Web Store signature and confirmed the collector shipped inside the genuine extension, not a counterfeit. Its review covers the Chrome build and its roughly 900,000 users; third-party trackers put another 700,000 or so on Edge. Microsoft pulled the Edge listing on July 3, and Google removed the Chrome one a week later, on July 10. Version 7.0.18 (extension ID idgpnmonknjnojddfkpgkljpfnnfcklj) still edits HTTP headers as advertised. The same minified background code also contains a...",
+      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-memghost-attack-plants-persistent-false-memories-in-ai-agents-through-one-email-jul-13",
+      "slug": "google-and-microsoft-pull-modheader-with-1-6-million-installs-after-dormant-collector-foun",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft Jul 13, 2026 Email Security / Artificial Intelligence A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing , adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram and costing $400 a month (or $3,800 per year), attack chains leverage phishing lures that make use of legitimate email delivery infrastructure, such as Amazon Simple Email Service (Amazon SES) and Twilio SendGrid, to imitate a redirection chain that blends into regular email traffic before it ends in Forg365-controlled domains. \"The panel exposes a mature operator workflow: accounts, links, invitations, OAuth app configuration, redirect links, SVG generation, campaign sending, SMTP profiles, SMTP rotation, AI email generation, token vaulting, account intelligence, keyword alerts, viewer links, and browser-extension support,\" ZeroBAC said . The email securi...",
-      "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "discovered": "2026-07-14",
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "forg365-phaas-targets-microsoft-365-with-device-code-and-aitm-session-theft-jul-13-2026-em",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-13",
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling Jul 13, 2026 Artificial Intelligence / Privacy Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read. Each read gets pinned to the moment it happened: the time, your location, what you were doing, even how you were using your phone. Some versions in the filing would listen all day; others would check in only at set times. None of these ships in a product today, and Meta has not announced one; a filing like this stakes a claim on an idea long before anyone commits to building it. The application, US 2026/0182881 , was filed by Meta Platforms in December 2025 and published on July 2. It names a single inventor, Lachlan Dunn , and traces back to a provisional filing from December 2024. The patent-analysis site Patentlyze flagged the filing first. Its title pairs two ideas, emotional state analysis and real-time fitness coaching. The claims show the first is the ...",
-      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "meta-files-patent-for-ai-that-can-listen-all-day-and-track-how-you-re-feeling-jul-13-2026-",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-13",
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory Jul 13, 2026 Artificial Intelligence / Threat Intelligence Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the enumeration attempt,\" Huntress researchers Jevon Ang and Dray Agha said . The attack chain involved the threat actor establishing Remote Desktop Protocol (RDP) access onto a domain-joined Windows Server with a set of pre-compromised credentials, followed by staging the tools in the \"C:\\ProgramData\\\" folder. The incident took place in early June 2026. This included an artificial intelligence (AI)-generated payload to map the Active Directory environment. The assessment is based on various telltale signs, such as the prompt iteration title, placeholder strings, over-engineered cod...",
-      "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "attacker-uses-suspected-ai-generated-powershell-script-to-map-active-directory-jul-13-2026",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-13",
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "lidl-discloses-online-shop-breach-after-service-provider-hack",
+      "slug": "new-crashstealer-malware-poses-as-apple-crash-reporting-tool",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-      "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "discovered": "2026-07-14",
+      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "breach-at-the-beach-play-the-ultimate-entra-id-ctf",
+      "slug": "cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "discovered": "2026-07-14",
+      "title": "Japan's largest taxi operator shuts systems after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform",
+      "slug": "japan-s-largest-taxi-operator-shuts-systems-after-cyberattack",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-13",
-      "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+      "discovered": "2026-07-14",
+      "title": "Hackers backdoor Jscrambler npm package with infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "eu-sanctions-russian-gru-military-hackers-over-cyberattacks",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-13",
-      "title": "US and allies warn of Russian critical infrastructure attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "us-and-allies-warn-of-russian-critical-infrastructure-attacks",
+      "slug": "hackers-backdoor-jscrambler-npm-package-with-infostealer",
       "source": "BleepingComputer"
     }
   ]
