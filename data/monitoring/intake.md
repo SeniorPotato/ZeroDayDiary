@@ -12452,3 +12452,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** FTC Secures $12 Million in Penalties for Pre-Merger Reporting Act Violations
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks Jul 13, 2026 Endpoint Security / Cybercrime Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs. "It validates the victim's login password locally before harvesting, collects broadly across browsers, cryptocurrency wallets, password managers, and the keychain, encrypts what it collects with AES-GCM before exfiltrating over libcurl, and persists by copying and re-signing itself," security researcher Thijs Xhaflaire said in a report shared with The Hacker News. CrashStealer is said to be distributed by means of a signed and Apple-notarized dropper that's distributed as a disk image file named "Werkbit.app." Because both the disk image and binary are notarized and carry a valid developer ID ("Emil Grigorov...
+- **Source URL:** https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found Jul 13, 2026 Browser Security / Web Security Google and Microsoft have pulled ModHeader , a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version. The collector was dormant. An empty allow-list kept it switched off, and no proof has emerged that it ever gathered or sent a single browsing domain. The analysis came from Stripe OLT , a UK security firm, which checked the code against Google's own Web Store signature and confirmed the collector shipped inside the genuine extension, not a counterfeit. Its review covers the Chrome build and its roughly 900,000 users; third-party trackers put another 700,000 or so on Edge. Microsoft pulled the Edge listing on July 3, and Google removed the Chrome one a week later, on July 10. Version 7.0.18 (extension ID idgpnmonknjnojddfkpgkljpfnnfcklj) still edits HTTP headers as advertised. The same minified background code also contains a...
+- **Source URL:** https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** New CrashStealer malware poses as Apple crash reporting tool
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** CISA warns of actively exploited RCE flaws in Joomla extensions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Japan's largest taxi operator shuts systems after cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-14
+- **Headline / event:** Hackers backdoor Jscrambler npm package with infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
