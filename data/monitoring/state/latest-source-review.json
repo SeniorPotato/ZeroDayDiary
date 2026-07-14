@@ -1,86 +1,104 @@
 {
-  "generatedAt": "2026-07-14T03:36:41.364Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-14T033641Z.md",
+  "generatedAt": "2026-07-14T14:14:52.454Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-14T141452Z.md",
   "candidates": [
     {
       "discovered": "2026-07-14",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-07-14",
-      "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "improve-router-hygiene-to-protect-against-russian-state-sponsored-targeting",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-07-14",
-      "title": "FTC Secures $12 Million in Penalties for Pre-Merger Reporting Act Violations",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations",
+      "title": "FTC Endorses Ohio Supreme Court Proposal to Weaken ABA’s Law School Accreditation Monopoly",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-secures-12-million-in-penalties-for-pre-merger-reporting-act-violations",
+      "slug": "ftc-endorses-ohio-supreme-court-proposal-to-weaken-aba-s-law-school-accreditation-monopoly",
       "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-07-14",
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks Jul 13, 2026 Endpoint Security / Cybercrime Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs. \"It validates the victim's login password locally before harvesting, collects broadly across browsers, cryptocurrency wallets, password managers, and the keychain, encrypts what it collects with AES-GCM before exfiltrating over libcurl, and persists by copying and re-signing itself,\" security researcher Thijs Xhaflaire said in a report shared with The Hacker News. CrashStealer is said to be distributed by means of a signed and Apple-notarized dropper that's distributed as a disk image file named \"Werkbit.app.\" Because both the disk image and binary are notarized and carry a valid developer ID (\"Emil Grigorov...",
-      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "title": "Vulnerability in FIFA’s Network",
+      "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "crashstealer-macos-malware-uses-notarized-dropper-to-pass-gatekeeper-checks-jul-13-2026-en",
+      "slug": "vulnerability-in-fifa-s-network",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-07-14",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret.\" The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description ...",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "rabbitmq-flaws-could-leak-oauth-secrets-and-expose-cross-tenant-queue-metadata-jul-14-2026",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-14",
-      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found Jul 13, 2026 Browser Security / Web Security Google and Microsoft have pulled ModHeader , a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version. The collector was dormant. An empty allow-list kept it switched off, and no proof has emerged that it ever gathered or sent a single browsing domain. The analysis came from Stripe OLT , a UK security firm, which checked the code against Google's own Web Store signature and confirmed the collector shipped inside the genuine extension, not a counterfeit. Its review covers the Chrome build and its roughly 900,000 users; third-party trackers put another 700,000 or so on Edge. Microsoft pulled the Edge listing on July 3, and Google removed the Chrome one a week later, on July 10. Version 7.0.18 (extension ID idgpnmonknjnojddfkpgkljpfnnfcklj) still edits HTTP headers as advertised. The same minified background code also contains a...",
-      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Jul 14, 2026 Endpoint Security / Linux Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\" ESET researcher Martin Smolár said in a report published today. The UEFI shim bootloaders expose any UEFI-based machine that trusts Microsoft's \" Microsoft Corporation UEFI CA 2011 \" third-party UEFI certificate authority (CA) certificate, irrespective of the installed operating system. The certificate is used to sign third-party boot components intended to run under Secure Boot. It expired as of June 27, 2026, and has been replaced by Microsoft UEFI CA 2023 and Microsoft Option ROM UEFI CA 2023. The shim is a lightweight, open-source UEFI bootloader that acts as an ...",
+      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-and-microsoft-pull-modheader-with-1-6-million-installs-after-dormant-collector-foun",
+      "slug": "11-old-microsoft-signed-linux-uefi-shims-could-let-attackers-bypass-secure-boot-jul-14-202",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-14",
-      "title": "New CrashStealer malware poses as Apple crash reporting tool",
-      "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks Jul 14, 2026 Cryptocurrency / Identity Protection Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or email, the same leaks can put a real name to an \"anonymous\" crypto identity. This is not a hack. The wallets behave exactly as they were built to. The 85 extensions together have about 35 million users listed on the Chrome Web Store. The team, from the university's DistriNet security group, posted the paper this month and will present it at the PETS 2026 privacy conference in Calgary in late July. They ran real wallets against real Web3 sites and mapped out five privacy weaknesses in how wallets and websites interact. When they reported the most far-reaching one to the wa...",
+      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-crashstealer-malware-poses-as-apple-crash-reporting-tool",
+      "slug": "study-of-85-crypto-wallet-extensions-finds-address-leaks-and-cross-site-tracking-risks-jul",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-14",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines Jul 14, 2026 Artificial Intelligence / Security Agent AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one tool category at a time. They chain exposures across identities, networks, cloud assets, applications, and security controls. If the AI workflow only sees isolated findings, it cannot understand whether those findings create a real attack path. As AI-powered attackers accelerate exploitation, security teams need more than faster AI-assisted workflows. They need workflows grounded in evidence that can prove which risks are exploitable. These systems can correlate information and identify patterns, but without validation, they cannot answer the question security teams ultimately care about: C...",
+      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "how-pentera-turns-ai-security-workflows-into-validation-engines-jul-14-2026-artificial-int",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-14",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials Jul 14, 2026 Cloud Security / Identity Security At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun to exploit this gap to obtain unauthorized access to an organization's cloud services. \"A blind spot in cloud sign-in telemetry: Entra ID returns different error responses depending on whether a supplied OAuth client ID is valid,\" Proofpoint said in a statement. \"Attackers exploit this to infer valid usernames and correct passwords at scale, effectively checking stolen credential lists without logging a successful login.\" In other words, the attacks leverage the OAuth client ID, a globally unique identifier (GUID) assigned to applications when requesting access to ...",
+      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials-jul-14",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-14",
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "you-don-t-have-to-run-an-exploit-to-know-if-you-re-vulnerable",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-14",
-      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions",
+      "slug": "new-phishing-kits-target-microsoft-365-accounts-evade-mfa",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-14",
-      "title": "Japan's largest taxi operator shuts systems after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "japan-s-largest-taxi-operator-shuts-systems-after-cyberattack",
+      "slug": "sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-14",
-      "title": "Hackers backdoor Jscrambler npm package with infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hackers-backdoor-jscrambler-npm-package-with-infostealer",
+      "slug": "us-sanctions-vpn-malware-providers-for-enabling-ransomware-attacks",
       "source": "BleepingComputer"
     }
   ]
