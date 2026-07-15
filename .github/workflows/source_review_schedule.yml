@@ -101,12 +101,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Merge pull request
+      - name: Leave pull request ready for review
         if: steps.cpr.outputs.pull-request-number
         run: |
-          gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" \
-            --squash \
-            --delete-branch \
-            --body "Auto-merged by workflow after validation"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          echo "Created or updated source review PR #${{ steps.cpr.outputs.pull-request-number }}."
+          echo "Auto-merge is intentionally disabled so scheduled changes receive human review before reaching main."
