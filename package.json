@@ -20,7 +20,6 @@
     "@astrojs/sitemap": "^3.7.0",
     "astro": "^5.17.1",
     "cheerio": "^1.2.0",
-    "leaflet": "^1.9.4",
     "sharp": "^0.34.3"
   },
   "overrides": {
