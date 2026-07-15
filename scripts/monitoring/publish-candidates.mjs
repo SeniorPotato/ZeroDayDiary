@@ -5,6 +5,16 @@ import { cleanText, extractDescription, extractParagraphs, extractTitle, normali
 import { writeValidatedMarkdown } from './lib/markdown-validation.mjs';
 
 const root = process.cwd();
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+const fixtureIndex = args.indexOf('--fixture');
+const fixturePath = fixtureIndex >= 0 ? args[fixtureIndex + 1] : '';
+
+if (fixtureIndex >= 0 && !fixturePath) {
+  throw new Error('--fixture requires a path to a local HTML file');
+}
+
+const fixtureHtml = fixturePath ? await fs.readFile(path.resolve(root, fixturePath), 'utf8') : '';
 const latestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
 const blogRoot = path.join(root, 'src/content/blog');
 
@@ -250,14 +260,16 @@ async function main() {
   const currentHour = now.getUTCHours();
   // Trigger at 00:17 and 12:17 UTC (cron: '17 */12 * * *')
   const isFreshnessWindow = (currentHour === 0 || currentHour === 12) && now.getUTCMinutes() >= 15;
-  // Enforce at least 1 post per run: always allow soft-skip relaxation until minimum quota is met
-  const mustPublishAtLeastOne = true;
+  const minimumPublishCount = Number.parseInt(process.env.MONITOR_PUBLISH_MINIMUM || '0', 10);
+  const mustPublishAtLeastOne = minimumPublishCount > 0;
 
   if (isFreshnessWindow) {
-    console.log(`Freshness window (12h cadence): last pubDate=${latestPubDate || 'none'}, today=${today}. Will publish at least 1 post.`);
+    console.log(`Freshness window (12h cadence): last pubDate=${latestPubDate || 'none'}, today=${today}. Minimum publish count=${minimumPublishCount}.`);
   } else {
-    console.log(`Regular run: must publish at least 1 post per run.`);
+    console.log(`Regular run: minimum publish count=${minimumPublishCount}.`);
   }
+  if (fixtureHtml) console.log(`Fixture: ${path.relative(root, path.resolve(root, fixturePath))}`);
+  if (dryRun) console.log('Dry run: candidate pages will be evaluated, but no posts will be written.');
 
   const review = JSON.parse(await fs.readFile(latestReviewPath, 'utf8'));
   const candidates = review.candidates || [];
@@ -275,9 +287,13 @@ async function main() {
 
     let html = '';
     try {
-      const res = await fetch(candidate.link, { headers: { 'user-agent': 'ZeroDayDiary/1.0 publisher bot' } });
-      html = await res.text();
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (fixtureHtml) {
+        html = fixtureHtml;
+      } else {
+        const res = await fetch(candidate.link, { headers: { 'user-agent': 'ZeroDayDiary/1.0 publisher bot' } });
+        html = await res.text();
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      }
     } catch (error) {
       console.log(`Skip ${candidate.link}: ${String(error.message || error)}`);
       continue;
@@ -353,16 +369,24 @@ ${recommendedActions.map((line) => `- ${sentenceCase(line)}`).join('\n')}
 - Source profile: ${titleCaseTag(profile.voice)}
 `;
 
-    await writeValidatedMarkdown(outPath, body, {
-      expectedSlug: slug,
-      expectedCanonical: canonical,
-      requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
-    });
+    if (dryRun) {
+      await writeValidatedMarkdown(null, body, {
+        expectedSlug: slug,
+        expectedCanonical: canonical,
+        requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
+      });
+    } else {
+      await writeValidatedMarkdown(outPath, body, {
+        expectedSlug: slug,
+        expectedCanonical: canonical,
+        requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
+      });
+    }
     published.push(path.relative(root, outPath).replace(/\\/g, '/'));
     existingSlugs.add(slug);
   }
 
-  console.log(`Published posts: ${published.length}`);
+  console.log(`${dryRun ? 'Publishable posts' : 'Published posts'}: ${published.length}`);
   for (const item of published) console.log(`- ${item}`);
 }
 

@@ -55,6 +55,7 @@ export function validateGeneratedMarkdown(markdown, { expectedSlug, expectedCano
 
 export async function writeValidatedMarkdown(filePath, markdown, options = {}) {
   validateGeneratedMarkdown(markdown, options);
+  if (!filePath) return;
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, markdown.endsWith('\n') ? markdown : `${markdown}\n`, 'utf8');
 }

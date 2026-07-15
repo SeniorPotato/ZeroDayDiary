@@ -16,10 +16,22 @@ const iso = now.toISOString();
 const packetStamp = iso.replace(/[:]/g, '').replace(/\.\d{3}Z$/, 'Z');
 const packetPath = path.join(packetDir, `${packetStamp}.md`);
 
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+const fixtureIndex = args.indexOf('--fixture');
+const fixturePath = fixtureIndex >= 0 ? args[fixtureIndex + 1] : '';
+
+if (fixtureIndex >= 0 && !fixturePath) {
+  throw new Error('--fixture requires a path to a local HTML file');
+}
+
 const sources = await readJson(sourcesPath, []);
 const state = await readJson(statePath, { seen: {} });
-await ensureDir(packetDir);
-await ensureDir(path.dirname(statePath));
+const fixtureHtml = fixturePath ? await fs.readFile(path.resolve(root, fixturePath), 'utf8') : '';
+if (!dryRun) {
+  await ensureDir(packetDir);
+  await ensureDir(path.dirname(statePath));
+}
 
 const reviewLines = ['# Review Packet', '', `- **Generated:** ${iso}`, ''];
 const newCandidates = [];
@@ -27,9 +39,13 @@ const newCandidates = [];
 for (const source of sources) {
   let html = '';
   try {
-    const res = await fetch(source.url, { headers: { 'user-agent': 'ZeroDayDiary/1.0 review bot' } });
-    html = await res.text();
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (fixtureHtml) {
+      html = fixtureHtml;
+    } else {
+      const res = await fetch(source.url, { headers: { 'user-agent': 'ZeroDayDiary/1.0 review bot' } });
+      html = await res.text();
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    }
   } catch (error) {
     reviewLines.push(`## ${source.name}`, '', '- Status: fetch failed', `- Error: ${String(error.message || error)}`, '');
     continue;
@@ -74,17 +90,23 @@ for (const source of sources) {
   state.seen[source.id] = [...seenForSource, ...publishable.map((item) => item.link)];
 }
 
-await fs.writeFile(packetPath, reviewLines.join('\n'), 'utf8');
-await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n', 'utf8');
-await fs.writeFile(latestReviewStatePath, JSON.stringify({ generatedAt: iso, packetPath: path.relative(root, packetPath).replace(/\\/g, '/'), candidates: newCandidates }, null, 2) + '\n', 'utf8');
+if (!dryRun) {
+  await fs.writeFile(packetPath, reviewLines.join('\n'), 'utf8');
+  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n', 'utf8');
+  await fs.writeFile(latestReviewStatePath, JSON.stringify({ generatedAt: iso, packetPath: path.relative(root, packetPath).replace(/\\/g, '/'), candidates: newCandidates }, null, 2) + '\n', 'utf8');
+}
 
-if (newCandidates.length > 0) {
+if (!dryRun && newCandidates.length > 0) {
   const intakeLines = newCandidates.map((item) => `\n- **Date discovered:** ${item.discovered}\n- **Headline / event:** ${item.title}\n- **Source URL:** ${item.link}\n- **Source tier:** ${item.tier}\n- **Initial category guess:** ${item.category}\n- **Why it may matter:** newly detected through scheduled source review from ${item.source.toLowerCase()}\n- **Status:** DISCOVERED\n`).join('');
   await appendFile(intakePath, intakeLines);
 }
 
 const reviewSummary = `\n- **Timestamp:** ${iso.replace('T', ' ').replace('Z', ' UTC')}\n- **Reviewer:** scheduled workflow\n- **Sources checked:** ${sources.map((s) => s.name).join(', ')}\n- **Result:** ${newCandidates.length > 0 ? `${newCandidates.length} new candidate(s)` : 'no publishable change'}\n- **Notes:** Review packet generated at \`${path.relative(root, packetPath).replace(/\\/g, '/')}\`.\n`;
-await appendFile(reviewLogPath, reviewSummary);
+if (!dryRun) {
+  await appendFile(reviewLogPath, reviewSummary);
+}
 
-console.log(`Generated review packet: ${path.relative(root, packetPath)}`);
+console.log(`${dryRun ? 'Dry run review packet' : 'Generated review packet'}: ${path.relative(root, packetPath)}`);
 console.log(`New candidates: ${newCandidates.length}`);
+if (fixtureHtml) console.log(`Fixture: ${path.relative(root, path.resolve(root, fixturePath))}`);
+if (dryRun) console.log('Dry run: no monitoring state, packet, intake, or review log files were written.');

@@ -12,7 +12,9 @@
     "monitor:review-published": "node scripts/monitoring/review-published-posts.mjs",
     "monitor:draft": "node scripts/monitoring/create-draft-from-candidate.mjs",
     "monitor:priority-check": "node scripts/monitoring/lib/publish-priority-check.mjs",
-    "draft:agent": "node scripts/create-agent-draft.mjs"
+    "draft:agent": "node scripts/create-agent-draft.mjs",
+    "monitor:validate": "node scripts/monitoring/validate-automation.mjs",
+    "validate": "npm run monitor:validate && npm run build"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

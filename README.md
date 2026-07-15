@@ -1,62 +1,83 @@
-# Astro Starter Kit: Blog
+# ZeroDayDiary
+
+ZeroDayDiary is an Astro content site for short, sourced notes on security, privacy, governance, AI-risk, infrastructure, and surveillance developments. The repository also contains monitoring automation that discovers candidate links from trusted sources, records review packets, and can turn reviewed candidates into posts.
+
+## Local setup
 
 ```sh
-npm create astro@latest -- --template blog
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The development server runs at `http://localhost:4321`. Production output is generated in `dist/`.
 
-Features:
+## Validation and build commands
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+| Command | Purpose |
+| --- | --- |
+| `npm run build` | Build the Astro site and validate content collections. |
+| `npm run monitor:priority-check` | Check monitoring priority rules against the sample set. |
+| `npm run monitor:validate` | Run fixture-based monitoring validation, dry-run review/publish checks, and priority checks. |
+| `npm run validate` | Single validation entry point for automation validation plus the site build. |
 
-## 🚀 Project Structure
+CI runs `npm run validate` so monitoring logic and the site build are checked together.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Content layout
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+- `src/content/blog/` contains published Markdown and MDX posts, grouped by year and month.
+- `src/content.config.ts` defines content schema expectations.
+- `docs/` contains runbooks and editorial guidance for operators.
+- `data/monitoring/` contains source configuration, review queues, review packets, and monitoring state.
+
+## Monitoring and editorial automation
+
+The monitoring pipeline is intentionally split into discovery, review, draft, and publication steps:
+
+1. `npm run monitor:review` fetches configured sources from `data/monitoring/sources.json`, finds unseen candidate links, writes a review packet, and updates monitoring state.
+2. Review packets in `data/monitoring/review-packets/` and queue/intake files support human review before publication.
+3. `npm run monitor:draft` can create a draft from a selected candidate.
+4. `npm run monitor:publish` can publish eligible candidates from the latest source review state.
+5. `npm run monitor:review-published` can run the optional editorial review pass for published posts when the Anthropic review configuration is available.
+
+### Safe dry-run modes
+
+Use dry-run mode before running mutating monitoring scripts locally:
+
+```sh
+npm run monitor:review -- --dry-run
+npm run monitor:publish -- --dry-run
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Both commands also accept local HTML fixtures for deterministic validation without live network access:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```sh
+npm run monitor:review -- --dry-run --fixture test/fixtures/monitoring/source-list.html
+npm run monitor:publish -- --dry-run --fixture test/fixtures/monitoring/article.html
+```
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+Dry-run review reports the packet and candidate count without writing monitoring state, intake, review-log, or packet files. Dry-run publish evaluates candidates and validates generated Markdown without writing posts.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## GitHub Actions configuration
 
-## 🧞 Commands
+Required repository permissions and credentials are configured in GitHub, not committed to this repository.
 
-All commands are run from the root of the project, from a terminal:
+- `GITHUB_TOKEN` is provided by GitHub Actions and is used by workflows that create commits or pull requests.
+- `ANTHROPIC_API_KEY` enables optional editorial review automation.
+- `ANTHROPIC_REVIEW_MODEL` selects the optional editorial review model.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Do not commit secret values. Document only variable names and expected behavior.
 
-## 👀 Want to learn more?
+## Candidate-to-publication flow
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. Source definitions in `data/monitoring/sources.json` determine which trusted pages are scanned.
+2. Source review produces candidate metadata in `data/monitoring/state/latest-source-review.json` and a human-readable packet under `data/monitoring/review-packets/`.
+3. Operators review candidate relevance and quality.
+4. Draft or publish scripts generate Markdown using shared validation checks.
+5. The Astro build validates the resulting content before deployment.
 
-## Credit
+## Operational guidance
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- Prefer `npm run validate` before opening a pull request.
+- Use `--dry-run` for local monitoring checks unless you intend to update tracked state or content.
+- Keep generated monitoring state and published content changes easy to review in pull requests.
+- See `docs/monitoring-workflow.md`, `docs/monitoring-runbook.md`, and `data/monitoring/README.md` for deeper operational details.
