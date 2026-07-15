@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '17 */12 * * *'
   workflow_dispatch:
+    inputs:
+      publish_candidates:
+        description: 'Publish qualifying candidates after source review'
+        type: boolean
+        default: false
+        required: false
 
 permissions:
   contents: write
@@ -34,6 +40,7 @@ jobs:
         run: npm run monitor:review
 
       - name: Publish qualifying candidates
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates }}
         run: npm run monitor:publish
 
       - name: Validate Anthropic review configuration
@@ -51,7 +58,7 @@ jobs:
           fi
 
       - name: Review generated posts with Anthropic editorial pass
-        if: ${{ env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates && env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
         run: npm run monitor:review-published
 
       - name: Build site
