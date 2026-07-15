@@ -4,13 +4,15 @@ import type { RenderableMarker } from '../../lib/landscape';
 
 interface Props {
 	markers: RenderableMarker[];
+	compact?: boolean;
 }
 
-const { markers } = Astro.props;
+const { markers, compact = false } = Astro.props;
 const markerPayload = JSON.stringify(markers);
+const mapId = compact ? 'landscape-map-home' : 'landscape-map';
 ---
 
-<section class="map-card">
+<section class:list={["map-card", { compact }]}>
 	<div class="map-head">
 		<div>
 			<p class="eyebrow">Map</p>
@@ -18,7 +20,7 @@ const markerPayload = JSON.stringify(markers);
 		</div>
 		<p class="subcopy">Pins are generated from the geo metadata added to the archive. Click a marker to open the related briefing.</p>
 	</div>
-	<div id="landscape-map" class="map-canvas" data-markers={markerPayload}></div>
+	<div id={mapId} class="map-canvas" data-markers={markerPayload}></div>
 </section>
 
 <script>
@@ -70,8 +72,7 @@ const markerPayload = JSON.stringify(markers);
 		return wrapper;
 	}
 
-	function initLandscapeMap() {
-		const el = document.getElementById('landscape-map');
+	function initLandscapeMap(el) {
 		if (!el || el.dataset.ready === 'true') return;
 		el.dataset.ready = 'true';
 		const markers = JSON.parse(el.dataset.markers || '[]');
@@ -111,8 +112,12 @@ const markerPayload = JSON.stringify(markers);
 		}
 	}
 
-	initLandscapeMap();
-	document.addEventListener('astro:page-load', initLandscapeMap);
+	function initLandscapeMaps() {
+		document.querySelectorAll('.map-canvas').forEach(initLandscapeMap);
+	}
+
+	initLandscapeMaps();
+	document.addEventListener('astro:page-load', initLandscapeMaps);
 </script>
 
 <style>
@@ -140,6 +145,11 @@ const markerPayload = JSON.stringify(markers);
 		border: 1px solid rgba(148,163,184,.14);
 		background: #0b1120;
 	}
+	.map-card.compact {
+		margin-bottom: 0;
+		padding: 1rem;
+	}
+	.map-card.compact .map-canvas { height: 25rem; }
 	:global(.landscape-marker-shell) {
 		background: transparent;
 		border: 0;
