@@ -1,0 +1,46 @@
+name: Create automation pull request
+description: Standardized wrapper around peter-evans/create-pull-request for generated repository changes.
+inputs:
+  commit-message:
+    description: Commit message for generated changes.
+    required: true
+  title:
+    description: Pull request title.
+    required: true
+  branch:
+    description: Branch used for the pull request.
+    required: true
+  body:
+    description: Inline pull request body. Ignored when body-file is set.
+    required: false
+    default: ''
+  body-file:
+    description: Path to a markdown file to use as the pull request body.
+    required: false
+    default: ''
+  delete-branch:
+    description: Whether to delete the branch after the pull request is merged.
+    required: false
+    default: 'true'
+runs:
+  using: composite
+  steps:
+    - name: Create Pull Request
+      if: ${{ inputs.body-file == '' }}
+      uses: peter-evans/create-pull-request@v7
+      with:
+        commit-message: ${{ inputs.commit-message }}
+        title: ${{ inputs.title }}
+        body: ${{ inputs.body }}
+        branch: ${{ inputs.branch }}
+        delete-branch: ${{ inputs.delete-branch }}
+
+    - name: Create Pull Request from body file
+      if: ${{ inputs.body-file != '' }}
+      uses: peter-evans/create-pull-request@v7
+      with:
+        commit-message: ${{ inputs.commit-message }}
+        title: ${{ inputs.title }}
+        body-file: ${{ inputs.body-file }}
+        branch: ${{ inputs.branch }}
+        delete-branch: ${{ inputs.delete-branch }}

@@ -1,0 +1,8 @@
+name: Validate site build
+description: Run the repository Astro build used by CI and automation workflows.
+runs:
+  using: composite
+  steps:
+    - name: Build site
+      shell: bash
+      run: npm run build

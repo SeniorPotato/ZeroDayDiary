@@ -36,14 +36,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup Node dependencies
+        uses: ./.github/actions/setup-node-deps
 
       - name: Create validated markdown post draft
         env:
@@ -55,11 +49,11 @@ jobs:
           INPUT_DRAFT: ${{ inputs.draft }}
         run: npm run draft:agent
 
-      - name: Build site for validation
-        run: npm run build
+      - name: Validate site build
+        uses: ./.github/actions/validate-site
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: ./.github/actions/create-automation-pr
         with:
           commit-message: "feat(content): add ${{ inputs.slug }} draft"
           title: "feat(content): add ${{ inputs.title }}"
@@ -76,4 +70,3 @@ jobs:
             - Slug: ${{ inputs.slug }}
             - Draft: ${{ inputs.draft }}
           branch: "feat/agent-publish-${{ inputs.slug }}"
-          delete-branch: true
