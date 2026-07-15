@@ -1,8 +1,8 @@
 import path from 'node:path';
 import fs from 'node:fs/promises';
-import { exists, escapeYaml, makeSlug } from './lib/shared.mjs';
+import { exists, makeSlug } from './lib/shared.mjs';
 import { cleanText, extractDescription, extractParagraphs, extractTitle, normaliseSentence } from './lib/html-utils.mjs';
-import { writeValidatedMarkdown } from './lib/markdown-validation.mjs';
+import { writeCanonicalPost } from './lib/content-writer.mjs';
 
 const root = process.cwd();
 const latestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
@@ -319,44 +319,22 @@ async function main() {
     const assessment = buildAssessment(tags, profile);
     const recommendedActions = buildRecommendedActions(tags, resolvedCategory, profile);
 
-    const pubDate = new Date(review.generatedAt || new Date().toISOString());
-    const year = String(pubDate.getUTCFullYear());
-    const month = String(pubDate.getUTCMonth() + 1).padStart(2, '0');
-    const day = String(pubDate.getUTCDate()).padStart(2, '0');
-    const outDir = path.join(blogRoot, year, month);
-    const outPath = path.join(outDir, `${slug}.md`);
-    const canonical = `https://zerodaydiary.com/blog/${year}/${month}/${slug}/`;
-
-    const body = `---
-title: "${escapeYaml(candidate.title)}"
-description: "${escapeYaml(standfirst)}"
-pubDate: ${year}-${month}-${day}
-draft: false
-tags:\n${tags.map((tag) => `  - ${tag}`).join('\n')}
-canonical: "${canonical}"
----
-
-## What happened
-${whatHappened}
-
-## Why it matters
-${whyItMatters}
-
-## Assessment
-${assessment}
-
-## Recommended actions
-${recommendedActions.map((line) => `- ${sentenceCase(line)}`).join('\n')}
-
-## Further reading
-- [Primary source](${candidate.link})
-- Source profile: ${titleCaseTag(profile.voice)}
-`;
-
-    await writeValidatedMarkdown(outPath, body, {
-      expectedSlug: slug,
-      expectedCanonical: canonical,
-      requireSections: ['What happened', 'Why it matters', 'Assessment', 'Recommended actions', 'Further reading'],
+    const { filePath: outPath } = await writeCanonicalPost({
+      root,
+      blogRoot,
+      title: candidate.title,
+      description: standfirst,
+      slugInput: slug,
+      dateInput: review.generatedAt || new Date(),
+      draft: false,
+      tags,
+      sections: {
+        'What happened': whatHappened,
+        'Why it matters': whyItMatters,
+        Assessment: assessment,
+        'Recommended actions': recommendedActions.map((line) => `- ${sentenceCase(line)}`).join('\n'),
+        'Further reading': `- [Primary source](${candidate.link})\n- Source profile: ${titleCaseTag(profile.voice)}`,
+      },
     });
     published.push(path.relative(root, outPath).replace(/\\/g, '/'));
     existingSlugs.add(slug);
