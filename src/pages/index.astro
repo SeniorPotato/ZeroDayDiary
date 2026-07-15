@@ -122,7 +122,7 @@ const categoryCounts = Object.fromEntries(
 
 <style>
 	.home-shell {
-		width: min(980px, calc(100% - 2rem));
+		width: min(1180px, calc(100% - 2rem));
 		max-width: none;
 		padding: 2.5rem 0 4rem;
 	}
@@ -206,21 +206,26 @@ const categoryCounts = Object.fromEntries(
 	.lead-story,
 	.compact-card,
 	.category-card {
-		padding: 1.15rem 0;
-		border-top: 1px solid rgba(148, 163, 184, 0.14);
+		background: linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.7));
+		border: 1px solid rgba(148, 163, 184, 0.14);
+		border-radius: 1.05rem;
+		box-shadow: 0 18px 44px rgba(2, 6, 23, 0.25);
 	}
 	.lead-story {
 		display: grid;
-		grid-template-columns: 10rem minmax(0, 1fr);
+		grid-template-columns: minmax(11rem, 0.35fr) minmax(0, 1fr);
 		gap: 1.25rem;
 		align-items: start;
+		padding: 1.2rem 1.25rem;
 	}
-	.lead-story-copy { max-width: 42rem; }
+	.lead-story-copy { max-width: 48rem; }
 	.lead-story h3 {
-		max-width: 19ch;
+		max-width: 24ch;
 		margin: 0 0 0.55rem;
-		font-size: clamp(1.8rem, 4vw, 2.55rem);
-		line-height: 1.02;
+		font-size: clamp(1.7rem, 3vw, 2.45rem);
+		line-height: 1.04;
+		overflow-wrap: anywhere;
+		hyphens: auto;
 	}
 	.lead-story h3 a,
 	.compact-card h3 a,
@@ -235,24 +240,31 @@ const categoryCounts = Object.fromEntries(
 	.post-grid.dense,
 	.category-grid {
 		display: grid;
-		gap: 0;
+		grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+		gap: 0.95rem;
+		align-items: stretch;
 	}
-	.post-grid.three-up,
-	.category-grid { grid-template-columns: 1fr; }
+	.compact-card,
+	.category-card {
+		min-height: 18rem;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 1rem 1.05rem;
+	}
 	.compact-card h3,
 	.category-card h3 {
-		max-width: 38rem;
+		max-width: none;
 		margin: 0.25rem 0 0.4rem;
-		font-size: 1.35rem;
-		line-height: 1.12;
-	}
-	.category-card {
-		display: grid;
-		grid-template-columns: 10rem minmax(0, 1fr);
-		gap: 1.25rem;
+		font-size: clamp(1.05rem, 1.4vw, 1.22rem);
+		line-height: 1.2;
+		overflow-wrap: anywhere;
+		hyphens: auto;
 	}
 	.category-card p:last-child {
-		max-width: 56ch;
+		max-width: 62ch;
 	}
 	.meta {
 		margin: 0;
@@ -269,12 +281,20 @@ const categoryCounts = Object.fromEntries(
 		flex-wrap: wrap;
 	}
 	.meta-dot { color: rgba(148, 163, 184, 0.7); }
-	.desc {
+	.desc,
+	.category-card p:last-child {
 		margin: 0;
-		max-width: 56ch;
+		max-width: 62ch;
 		color: rgba(226, 232, 240, 0.74);
 		font-size: 0.98rem;
-		line-height: 1.58;
+		line-height: 1.5;
+	}
+	.compact-card .desc,
+	.category-card p:last-child {
+		display: -webkit-box;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
 	}
 	.category-count {
 		margin: 0;
@@ -290,8 +310,7 @@ const categoryCounts = Object.fromEntries(
 		.hero-actions { align-items: stretch; flex-direction: column; }
 		.button { width: 100%; }
 		.section-head.split,
-		.lead-story,
-		.category-card {
+		.lead-story {
 			display: block;
 		}
 		.text-link { display: inline-block; margin-top: 0.35rem; }
