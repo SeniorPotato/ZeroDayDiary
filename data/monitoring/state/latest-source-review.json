@@ -1,131 +1,86 @@
 {
-  "generatedAt": "2026-07-15T03:37:34.245Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-15T033734Z.md",
+  "generatedAt": "2026-07-15T14:11:47.047Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-15T141147Z.md",
   "candidates": [
     {
       "discovered": "2026-07-15",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "title": "A Video Screen That Is Also a Camera",
+      "link": "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-four-known-exploited-vulnerabilities-to-catalog",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "a-video-screen-that-is-also-a-camera",
+      "source": "Schneier on Security"
     },
     {
       "discovered": "2026-07-15",
-      "title": "CISA Urges SharePoint Hardening After New Exploitations",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws Jul 15, 2026 Vulnerability / Browser Security Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718 , an invalid pointer in the JavaScript: WebAssembly component CVE-2026-15719 , a site isolation in the DOM: Navigation component \"We are aware that exploit code for this is public, however we are not aware of any attacks in the wild abusing this flaw,\" Mozilla said in an advisory. Both vulnerabilities have been addressed in Firefox version 152.0.6. The release comes as Google shipped fixes for 15 security flaws, including two critical use-after-free bugs in Ozone ( CVE-2026-15764 and CVE-2026-15765 ), a cross-platform abstraction layer that allows the browser to interact natively with various display servers and windowing systems. It supports Linux, ChromeOS, and Fuchsia. \"Use after free in Ozone in Google Chrome on Linux prior to 150.0.7871.125 allowed a remote attacker ...",
+      "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-urges-sharepoint-hardening-after-new-exploitations",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "ENISA on Air: Our first podcast launches on Frontier AI",
-      "link": "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "enisa-on-air-our-first-podcast-launches-on-frontier-ai",
-      "source": "ENISA News"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "FTC Secures Major Settlement with Caremark, Resolving Antitrust Case Against Second Drug Middleman",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-secures-major-settlement-with-caremark-resolving-antitrust-case-against-second-drug-mi",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-patches-a-record-570-security-flaws",
-      "source": "Krebs on Security"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack Jul 14, 2026 Vulnerability / Enterprise Security Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200 . Those two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are elevation-of-privilege flaws in identity and collaboration infrastructure: CVE-2026-56164 in on-premises SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Neither is one of the splashy remote code execution criticals. They are privilege bugs in two systems that matter more than their scores suggest: the company document store, and the box that signs its logins. The two zero-days to patch first CVE-2026-56164 , a SharePoint Server flaw Microsoft says is being exploited in attacks, lets an unauthenticated attacker escalate privileges over the ne...",
-      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-patches-record-622-flaws-including-two-zero-days-under-active-attack-jul-14-2026",
+      "slug": "firefox-chrome-adobe-and-vmware-updates-fix-multiple-critical-security-flaws-jul-15-2026-v",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-15",
-      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. \"As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF,\" SAP security firm Onapsis said . \"Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version.\" Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter...",
-      "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough. Jul 15, 2026 Network Security / Enterprise Security For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents. Employees routinely paste intellectual property into public LLMs for code optimization, while automated agents query internal documentation and move data across systems at machine speed. The challenge is not that SASE failed, but that data interactions have shifted to the presentation layer, an area network-centric architectures were never designed to see. This structural paradigm shift is explored in detail within The Guide to Modern SASE Architecture . Why Traditional Enforcement Struggles Traditional SASE relies on backhauling traffic to cloud proxies for decryption, inspection, and policy enforcement. However, modern internet protocols, spe...",
+      "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "sap-patches-cvss-9-9-netweaver-abap-flaw-that-could-expose-or-modify-data-jul-14-2026-ente",
+      "slug": "sase-has-an-ai-blind-spot-inspecting-packets-is-no-longer-enough-jul-15-2026-network-secur",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-15",
-      "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads Jul 14, 2026 Browser Security / Vulnerability Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the ClaudeBleed flaw, boxing external callers into a fixed set of tasks, but Manifold Security says the gap is still open in v1.0.80, the current release, eight versions later. If you run Claude for Chrome and any other extension that can touch claude.ai, you are in scope. In the default \"ask before acting\" mode, the forged task still hits an approval box you have to click. If you switched on \"Act without asking,\" the hands-off automation mode, it runs with no prompt at all. The quickest guard is to turn \"Act without asking\" off and review any extension with permissio...",
-      "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday Jul 15, 2026 Vulnerability / Enterprise Security Security researcher Chaotic Eclipse (aka Nightmare-Eclipse ) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires another standard user credential and a third username (which can be an administrator account),\" Chaotic Eclipse said . \"If the PoC is successful, it will end up mounting the target user hive in the current user classes root.\" The researcher said the exploit was stripped down to prevent public exploitation, adding the original exploit did not require additional user credentials and was not limited to the \"usrclass.dat\" hive. \"Any hive could be loaded using this vulnerability, but you would need some brain cells to make the PoC do it,\" the researc...",
+      "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "researchers-say-claude-for-chrome-flaw-lets-rogue-extensions-trigger-gmail-reads-jul-14-20",
+      "slug": "researcher-drops-new-windows-zero-day-poc-hours-after-microsoft-patch-tuesday-jul-15-2026-",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-15",
-      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts Jul 14, 2026 Malware / Threat Intelligence Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. \"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. \"Once deployed, it can profile the host, identify security tools, receive operator commands, move files, capture screenshots, and proxy traffic through the affected system.\" The implant also supports multiple communication methods, including HTTPS, WebView2, and DNS tunneling, allowing attackers to maintain access to compromised hosts even if one pathway is detected and closed off. There are some signs that LabubuRAT is being offered under a malware-as-a-service (MaaS) model. The starting point of the attack chain is an executable named \"nvidia-sysruntime.exe,\" which impersonates NVIDIA's container ru...",
-      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech Jul 15, 2026 Web Security / Supply Chain Security A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first. The Reality of the Approval Gap It's a pattern every security and IT team recognizes: You ran the security review. You approved the vendor. You moved on.",
+      "link": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "labubarat-masquerades-as-nvidia-software-to-control-windows-hosts-jul-14-2026-malware-thre",
+      "slug": "new-webinar-closing-the-approval-gap-in-ai-era-ad-tech-jul-15-2026-web-security-supply-cha",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-15",
-      "title": "LastPass, Bitwarden users targeted with fake security alerts",
-      "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution Jul 15, 2026 Endpoint Security / Vulnerability Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open. No prompt injection, no agent, no model in the loop, and no prior access to the machine: opening the folder is the entire exploit, and the result is arbitrary code execution as the logged-in user. AI security firm Mindgard reported the flaw to Cursor on December 15, 2025 and published full technical details on Tuesday, seven months later. There is still no patch, and Cursor has published no advisory for the issue. The mechanism takes about a sentence. Cursor checks several locations for a Git binary when a project loads, and one of them is the workspace itself. Process Monitor output in t...",
+      "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "lastpass-bitwarden-users-targeted-with-fake-security-alerts",
+      "slug": "cursor-flaw-lets-malicious-cloned-repositories-trigger-windows-code-execution-jul-15-2026-",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-07-15",
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-15",
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+      "title": "CISA warns admins to patch actively exploited SharePoint flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown",
+      "slug": "cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-07-15",
-      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "title": "US charges alleged operators of Russian bulletproof hosting service",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-15",
-      "title": "Nearly 300 GitHub repos pose as legit software to push",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nearly-300-github-repos-pose-as-legit-software-to-push",
+      "slug": "us-charges-alleged-operators-of-russian-bulletproof-hosting-service",
       "source": "BleepingComputer"
     }
   ]

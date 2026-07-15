@@ -12724,3 +12724,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** A Video Screen That Is Also a Camera
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws Jul 15, 2026 Vulnerability / Browser Security Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718 , an invalid pointer in the JavaScript: WebAssembly component CVE-2026-15719 , a site isolation in the DOM: Navigation component "We are aware that exploit code for this is public, however we are not aware of any attacks in the wild abusing this flaw," Mozilla said in an advisory. Both vulnerabilities have been addressed in Firefox version 152.0.6. The release comes as Google shipped fixes for 15 security flaws, including two critical use-after-free bugs in Ozone ( CVE-2026-15764 and CVE-2026-15765 ), a cross-platform abstraction layer that allows the browser to interact natively with various display servers and windowing systems. It supports Linux, ChromeOS, and Fuchsia. "Use after free in Ozone in Google Chrome on Linux prior to 150.0.7871.125 allowed a remote attacker ...
+- **Source URL:** https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough. Jul 15, 2026 Network Security / Enterprise Security For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents. Employees routinely paste intellectual property into public LLMs for code optimization, while automated agents query internal documentation and move data across systems at machine speed. The challenge is not that SASE failed, but that data interactions have shifted to the presentation layer, an area network-centric architectures were never designed to see. This structural paradigm shift is explored in detail within The Guide to Modern SASE Architecture . Why Traditional Enforcement Struggles Traditional SASE relies on backhauling traffic to cloud proxies for decryption, inspection, and policy enforcement. However, modern internet protocols, spe...
+- **Source URL:** https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday Jul 15, 2026 Vulnerability / Enterprise Security Security researcher Chaotic Eclipse (aka Nightmare-Eclipse ) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires another standard user credential and a third username (which can be an administrator account)," Chaotic Eclipse said . "If the PoC is successful, it will end up mounting the target user hive in the current user classes root." The researcher said the exploit was stripped down to prevent public exploitation, adding the original exploit did not require additional user credentials and was not limited to the "usrclass.dat" hive. "Any hive could be loaded using this vulnerability, but you would need some brain cells to make the PoC do it," the researc...
+- **Source URL:** https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** New Webinar: Closing the Approval Gap in AI-Era Ad Tech Jul 15, 2026 Web Security / Supply Chain Security A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first. The Reality of the Approval Gap It's a pattern every security and IT team recognizes: You ran the security review. You approved the vendor. You moved on.
+- **Source URL:** https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution Jul 15, 2026 Endpoint Security / Vulnerability Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open. No prompt injection, no agent, no model in the loop, and no prior access to the machine: opening the folder is the entire exploit, and the result is arbitrary code execution as the logged-in user. AI security firm Mindgard reported the flaw to Cursor on December 15, 2025 and published full technical details on Tuesday, seven months later. There is still no patch, and Cursor has published no advisory for the issue. The mechanism takes about a sentence. Cursor checks several locations for a Git binary when a project loads, and one of them is the workspace itself. Process Monitor output in t...
+- **Source URL:** https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** We built a vulnerability vending machine: AI tokens in, zero-days out
+- **Source URL:** https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** CISA warns admins to patch actively exploited SharePoint flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** US charges alleged operators of Russian bulletproof hosting service
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
