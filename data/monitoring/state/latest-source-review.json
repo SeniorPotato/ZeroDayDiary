@@ -1,104 +1,131 @@
 {
-  "generatedAt": "2026-07-14T14:14:52.454Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-14T141452Z.md",
+  "generatedAt": "2026-07-15T03:37:34.245Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-15T033734Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-14",
-      "title": "FTC Endorses Ohio Supreme Court Proposal to Weaken ABA’s Law School Accreditation Monopoly",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly",
+      "discovered": "2026-07-15",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-adds-four-known-exploited-vulnerabilities-to-catalog",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-07-15",
+      "title": "CISA Urges SharePoint Hardening After New Exploitations",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-07-15",
+      "title": "ENISA on Air: Our first podcast launches on Frontier AI",
+      "link": "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "enisa-on-air-our-first-podcast-launches-on-frontier-ai",
+      "source": "ENISA News"
+    },
+    {
+      "discovered": "2026-07-15",
+      "title": "FTC Secures Major Settlement with Caremark, Resolving Antitrust Case Against Second Drug Middleman",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman",
       "tier": "Tier 1",
       "category": "privacy",
-      "slug": "ftc-endorses-ohio-supreme-court-proposal-to-weaken-aba-s-law-school-accreditation-monopoly",
+      "slug": "ftc-secures-major-settlement-with-caremark-resolving-antitrust-case-against-second-drug-mi",
       "source": "FTC Press Releases"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "Vulnerability in FIFA’s Network",
-      "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
+      "discovered": "2026-07-15",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "vulnerability-in-fifa-s-network",
-      "source": "Schneier on Security"
+      "slug": "microsoft-patches-a-record-570-security-flaws",
+      "source": "Krebs on Security"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret.\" The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description ...",
-      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "discovered": "2026-07-15",
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack Jul 14, 2026 Vulnerability / Enterprise Security Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200 . Those two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are elevation-of-privilege flaws in identity and collaboration infrastructure: CVE-2026-56164 in on-premises SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Neither is one of the splashy remote code execution criticals. They are privilege bugs in two systems that matter more than their scores suggest: the company document store, and the box that signs its logins. The two zero-days to patch first CVE-2026-56164 , a SharePoint Server flaw Microsoft says is being exploited in attacks, lets an unauthenticated attacker escalate privileges over the ne...",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "rabbitmq-flaws-could-leak-oauth-secrets-and-expose-cross-tenant-queue-metadata-jul-14-2026",
+      "slug": "microsoft-patches-record-622-flaws-including-two-zero-days-under-active-attack-jul-14-2026",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Jul 14, 2026 Endpoint Security / Linux Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\" ESET researcher Martin Smolár said in a report published today. The UEFI shim bootloaders expose any UEFI-based machine that trusts Microsoft's \" Microsoft Corporation UEFI CA 2011 \" third-party UEFI certificate authority (CA) certificate, irrespective of the installed operating system. The certificate is used to sign third-party boot components intended to run under Secure Boot. It expired as of June 27, 2026, and has been replaced by Microsoft UEFI CA 2023 and Microsoft Option ROM UEFI CA 2023. The shim is a lightweight, open-source UEFI bootloader that acts as an ...",
-      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "discovered": "2026-07-15",
+      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. \"As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF,\" SAP security firm Onapsis said . \"Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version.\" Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter...",
+      "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "11-old-microsoft-signed-linux-uefi-shims-could-let-attackers-bypass-secure-boot-jul-14-202",
+      "slug": "sap-patches-cvss-9-9-netweaver-abap-flaw-that-could-expose-or-modify-data-jul-14-2026-ente",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks Jul 14, 2026 Cryptocurrency / Identity Protection Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or email, the same leaks can put a real name to an \"anonymous\" crypto identity. This is not a hack. The wallets behave exactly as they were built to. The 85 extensions together have about 35 million users listed on the Chrome Web Store. The team, from the university's DistriNet security group, posted the paper this month and will present it at the PETS 2026 privacy conference in Calgary in late July. They ran real wallets against real Web3 sites and mapped out five privacy weaknesses in how wallets and websites interact. When they reported the most far-reaching one to the wa...",
-      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "discovered": "2026-07-15",
+      "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads Jul 14, 2026 Browser Security / Vulnerability Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the ClaudeBleed flaw, boxing external callers into a fixed set of tasks, but Manifold Security says the gap is still open in v1.0.80, the current release, eight versions later. If you run Claude for Chrome and any other extension that can touch claude.ai, you are in scope. In the default \"ask before acting\" mode, the forged task still hits an approval box you have to click. If you switched on \"Act without asking,\" the hands-off automation mode, it runs with no prompt at all. The quickest guard is to turn \"Act without asking\" off and review any extension with permissio...",
+      "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "study-of-85-crypto-wallet-extensions-finds-address-leaks-and-cross-site-tracking-risks-jul",
+      "slug": "researchers-say-claude-for-chrome-flaw-lets-rogue-extensions-trigger-gmail-reads-jul-14-20",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "How Pentera Turns AI Security Workflows into Validation Engines Jul 14, 2026 Artificial Intelligence / Security Agent AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one tool category at a time. They chain exposures across identities, networks, cloud assets, applications, and security controls. If the AI workflow only sees isolated findings, it cannot understand whether those findings create a real attack path. As AI-powered attackers accelerate exploitation, security teams need more than faster AI-assisted workflows. They need workflows grounded in evidence that can prove which risks are exploitable. These systems can correlate information and identify patterns, but without validation, they cannot answer the question security teams ultimately care about: C...",
-      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "discovered": "2026-07-15",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts Jul 14, 2026 Malware / Threat Intelligence Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. \"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. \"Once deployed, it can profile the host, identify security tools, receive operator commands, move files, capture screenshots, and proxy traffic through the affected system.\" The implant also supports multiple communication methods, including HTTPS, WebView2, and DNS tunneling, allowing attackers to maintain access to compromised hosts even if one pathway is detected and closed off. There are some signs that LabubuRAT is being offered under a malware-as-a-service (MaaS) model. The starting point of the attack chain is an executable named \"nvidia-sysruntime.exe,\" which impersonates NVIDIA's container ru...",
+      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "how-pentera-turns-ai-security-workflows-into-validation-engines-jul-14-2026-artificial-int",
+      "slug": "labubarat-masquerades-as-nvidia-software-to-control-windows-hosts-jul-14-2026-malware-thre",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials Jul 14, 2026 Cloud Security / Identity Security At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun to exploit this gap to obtain unauthorized access to an organization's cloud services. \"A blind spot in cloud sign-in telemetry: Entra ID returns different error responses depending on whether a supplied OAuth client ID is valid,\" Proofpoint said in a statement. \"Attackers exploit this to infer valid usernames and correct passwords at scale, effectively checking stolen credential lists without logging a successful login.\" In other words, the attacks leverage the OAuth client ID, a globally unique identifier (GUID) assigned to applications when requesting access to ...",
-      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "discovered": "2026-07-15",
+      "title": "LastPass, Bitwarden users targeted with fake security alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials-jul-14",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-14",
-      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
-      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "you-don-t-have-to-run-an-exploit-to-know-if-you-re-vulnerable",
+      "slug": "lastpass-bitwarden-users-targeted-with-fake-security-alerts",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
-      "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "discovered": "2026-07-15",
+      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-phishing-kits-target-microsoft-365-accounts-evade-mfa",
+      "slug": "progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "discovered": "2026-07-15",
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud",
+      "slug": "sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-07-14",
-      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+      "discovered": "2026-07-15",
+      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+      "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "us-sanctions-vpn-malware-providers-for-enabling-ransomware-attacks",
+      "slug": "spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-07-15",
+      "title": "Nearly 300 GitHub repos pose as legit software to push",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "nearly-300-github-repos-pose-as-legit-software-to-push",
       "source": "BleepingComputer"
     }
   ]

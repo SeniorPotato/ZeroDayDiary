@@ -12612,3 +12612,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** CISA Urges SharePoint Hardening After New Exploitations
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** ENISA on Air: Our first podcast launches on Frontier AI
+- **Source URL:** https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** FTC Secures Major Settlement with Caremark, Resolving Antitrust Case Against Second Drug Middleman
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Microsoft Patches a Record 570 Security Flaws
+- **Source URL:** https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack Jul 14, 2026 Vulnerability / Enterprise Security Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200 . Those two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are elevation-of-privilege flaws in identity and collaboration infrastructure: CVE-2026-56164 in on-premises SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Neither is one of the splashy remote code execution criticals. They are privilege bugs in two systems that matter more than their scores suggest: the company document store, and the box that signs its logins. The two zero-days to patch first CVE-2026-56164 , a SharePoint Server flaw Microsoft says is being exploited in attacks, lets an unauthenticated attacker escalate privileges over the ne...
+- **Source URL:** https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. "As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF," SAP security firm Onapsis said . "Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version." Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter...
+- **Source URL:** https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads Jul 14, 2026 Browser Security / Vulnerability Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the ClaudeBleed flaw, boxing external callers into a fixed set of tasks, but Manifold Security says the gap is still open in v1.0.80, the current release, eight versions later. If you run Claude for Chrome and any other extension that can touch claude.ai, you are in scope. In the default "ask before acting" mode, the forged task still hits an approval box you have to click. If you switched on "Act without asking," the hands-off automation mode, it runs with no prompt at all. The quickest guard is to turn "Act without asking" off and review any extension with permissio...
+- **Source URL:** https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts Jul 14, 2026 Malware / Threat Intelligence Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. "LabubaRAT creates a reusable foothold for hands-on activity," Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. "Once deployed, it can profile the host, identify security tools, receive operator commands, move files, capture screenshots, and proxy traffic through the affected system." The implant also supports multiple communication methods, including HTTPS, WebView2, and DNS tunneling, allowing attackers to maintain access to compromised hosts even if one pathway is detected and closed off. There are some signs that LabubuRAT is being offered under a malware-as-a-service (MaaS) model. The starting point of the attack chain is an executable named "nvidia-sysruntime.exe," which impersonates NVIDIA's container ru...
+- **Source URL:** https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** LastPass, Bitwarden users targeted with fake security alerts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Spanish Police take down €140 million cyber fraud ring, arrest four
+- **Source URL:** https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-15
+- **Headline / event:** Nearly 300 GitHub repos pose as legit software to push
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
