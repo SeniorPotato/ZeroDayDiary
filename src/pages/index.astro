@@ -6,6 +6,8 @@ import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { CATEGORY_LIST } from '../data/categories';
+import LandscapeMap from '../components/landscape/LandscapeMap.astro';
+import { getRenderableMarkers, normalizeLandscapePosts } from '../lib/landscape';
 
 const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
@@ -18,7 +20,8 @@ const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
 
 const [lead, ...remaining] = allPosts;
 const todaysBriefings = remaining.slice(0, 3);
-const latestUpdates = remaining.slice(3, 9);
+const landscapePosts = normalizeLandscapePosts(allPosts);
+const homepageMarkers = getRenderableMarkers(landscapePosts).slice(0, 18);
 const categoryCounts = Object.fromEntries(
 	CATEGORY_LIST.map((category) => [
 		category.slug,
@@ -38,15 +41,43 @@ const categoryCounts = Object.fromEntries(
 			<section class="hero">
 				<div class="hero-copy">
 					<p class="eyebrow">Independent cybersecurity / privacy / AI risk journal</p>
-					<h1>Signal over noise<span>Cybersecurity / Privacy / AI Risk</span></h1>
+					<h1>Find the cyber risk signal faster.</h1>
 					<p class="lede">
-						Tracking the cybersecurity, privacy, and AI risk signals that matter, beyond the headline breaches.
+						Start with the mapped threat landscape or search the archive for the briefings, geographies, and topics that matter now.
 					</p>
 					<div class="hero-actions">
-						<a class="button primary" href="/blog">Read latest briefings</a>
+						<a class="button primary" href="/cyber-landscape">Explore the map</a>
 						<a class="button secondary" href="/search">Search archive</a>
-						<a class="button secondary" href="/categories">Browse topics</a>
 					</div>
+				</div>
+				<div class="path-card" aria-label="Primary homepage paths">
+					<p class="panel-label">Primary paths</p>
+					<a href="/cyber-landscape"><strong>Map briefings by geography</strong><span>{homepageMarkers.length} mapped signals from the archive</span></a>
+					<a href="/search"><strong>Search and compare topics</strong><span>{allPosts.length} briefings across {CATEGORY_LIST.length} risk categories</span></a>
+				</div>
+			</section>
+
+			<section class="product-paths" aria-labelledby="product-paths-heading">
+				<div class="section-head split compact">
+					<div>
+						<p class="eyebrow">Start here</p>
+						<h2 id="product-paths-heading">Map the landscape, then narrow the archive</h2>
+					</div>
+					<a class="text-link" href="/cyber-landscape">Open full landscape →</a>
+				</div>
+				<div class="path-grid">
+					<div class="map-preview">
+						<LandscapeMap markers={homepageMarkers} compact={true} />
+					</div>
+					<aside class="archive-path">
+						<p class="panel-label">Archive workflow</p>
+						<h3>Search by incident, technology, geography, or policy theme.</h3>
+						<p>Use the archive search when you already know what you are investigating; use topics when you want a fast scan by risk domain.</p>
+						<div class="hero-actions compact-actions">
+							<a class="button primary" href="/search">Search archive</a>
+							<a class="button secondary" href="/categories">Browse topics</a>
+						</div>
+					</aside>
 				</div>
 			</section>
 
@@ -97,28 +128,6 @@ const categoryCounts = Object.fromEntries(
 				</div>
 			</section>
 
-			<section class="latest-updates">
-				<div class="section-head compact">
-					<p class="eyebrow">Latest updates</p>
-					<h2>More briefings worth scanning</h2>
-				</div>
-				<div class="post-grid dense two-up">
-					{latestUpdates.map((post) => (
-						<article class="post-card compact-card subdued-card">
-							<div>
-								<div class="meta-row">
-									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-									<span class="meta-dot">•</span>
-									<p class="meta">{post.readingTime} min read</p>
-								</div>
-								<h3><a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a></h3>
-								<p class="desc">{post.data.description}</p>
-							</div>
-						</article>
-					))}
-				</div>
-			</section>
-
 
 			<section class="categories-section">
 				<div class="section-head split compact">
@@ -147,13 +156,13 @@ const categoryCounts = Object.fromEntries(
 	.home-shell { width: min(1180px, calc(100% - 2rem)); max-width: none; padding: 1.25rem 0 4rem; }
 	.hero {
 		display:grid;
-		grid-template-columns: minmax(0, 1fr);
+		grid-template-columns: minmax(0, 1.35fr) minmax(18rem, .65fr);
 		gap: 1rem;
 		align-items: stretch;
 		padding: 1.4rem 0 1.2rem;
 	}
 	.eyebrow { margin:0 0 .8rem; font-size:.76rem; text-transform:uppercase; letter-spacing:.18em; color:#22d3ee; }
-	.hero-copy, .hero-sidecard, .lead-story, .compact-card, .category-card {
+	.hero-copy, .path-card, .archive-path, .lead-story, .compact-card, .category-card {
 		padding:1.15rem 1.2rem;
 		border-radius:1.05rem;
 		background:linear-gradient(180deg, rgba(15,23,42,.92), rgba(15,23,42,.72));
@@ -167,8 +176,19 @@ const categoryCounts = Object.fromEntries(
 			linear-gradient(180deg, rgba(10,16,30,.98), rgba(15,23,42,.86));
 	}
 	.hero h1 { font-size: clamp(2.55rem, 5vw, 4.55rem); line-height: .92; max-width: 12ch; margin-bottom: 1rem; display:grid; gap:.14em; }
-	.hero h1 span { display:block; font-size: clamp(1.2rem, 2.1vw, 1.7rem); line-height:1; letter-spacing:-.02em; color:rgba(226,232,240,.9); }
 	.lede { font-size: 1.05rem; max-width: 52rem; color: rgba(226,232,240,.8); }
+
+	.path-card { display:flex; flex-direction:column; gap:.7rem; }
+	.path-card a { display:block; padding:.9rem; border-radius:.85rem; text-decoration:none; background:rgba(2,6,23,.28); border:1px solid rgba(148,163,184,.14); }
+	.path-card strong { display:block; color:#f8fafc; margin-bottom:.25rem; }
+	.path-card span { color:rgba(226,232,240,.68); font-size:.9rem; }
+	.product-paths { margin: 0 0 2rem; }
+	.path-grid { display:grid; grid-template-columns:minmax(0, 1.35fr) minmax(18rem, .65fr); gap:1rem; align-items:stretch; }
+	.map-preview :global(.map-card) { height:100%; }
+	.archive-path { display:flex; flex-direction:column; justify-content:center; }
+	.archive-path h3 { font-size:1.5rem; line-height:1.05; margin:.15rem 0 .75rem; }
+	.archive-path p:not(.panel-label) { color:rgba(226,232,240,.74); line-height:1.58; }
+	.compact-actions { margin-top:1rem; }
 	.hero-actions { display:flex; gap:.75rem; margin-top:1.35rem; flex-wrap:wrap; }
 	.button { display:inline-flex; align-items:center; justify-content:center; padding:.88rem 1.15rem; border-radius:999px; text-decoration:none; font-weight:700; }
 	.button.primary { background: linear-gradient(135deg, #06b6d4, #8b5cf6); color:#fff; box-shadow:0 16px 40px rgba(34,211,238,.16); }
@@ -181,7 +201,7 @@ const categoryCounts = Object.fromEntries(
 	.section-head.compact { margin-bottom: 1rem; }
 	.section-head.split { display:flex; justify-content:space-between; align-items:end; gap:1rem; }
 	.text-link { text-decoration:none; font-weight:700; color:#a5f3fc; }
-	.lead-block, .briefing-grid, .latest-updates, .categories-section { margin: 0 0 2rem; }
+	.lead-block, .briefing-grid, .categories-section { margin: 0 0 2rem; }
 	.lead-story {
 		display:grid;
 		grid-template-columns: 1fr;
@@ -223,15 +243,14 @@ const categoryCounts = Object.fromEntries(
 	.desc { color: rgba(226,232,240,.8); line-height:1.58; font-size:.95rem; max-width:52ch; }
 	.category-count { font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:#7dd3fc; }
 	@media (max-width: 1040px) {
-		.hero { grid-template-columns: 1fr; }
+		.hero, .path-grid { grid-template-columns: 1fr; }
 		.lead-story { grid-template-columns: 1fr; }
 		.lead-kicker { border-right:none; border-bottom:1px solid rgba(148,163,184,.12); padding-right:0; padding-bottom:.8rem; }
-		.hero-metrics { grid-template-columns: repeat(3, minmax(0,1fr)); }
 		.post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr 1fr; }
 	}
 	@media (max-width: 720px) {
 		.hero h1 { font-size: clamp(2rem, 10vw, 3rem); }
-		.hero-metrics, .post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr; }
+		.post-grid.three-up, .post-grid.two-up, .category-grid { grid-template-columns: 1fr; }
 		.section-head.split { flex-direction:column; align-items:flex-start; }
 	}
 </style>
