@@ -5,35 +5,36 @@ import { cleanText, extractDescription, extractParagraphs, extractTitle, normali
 import { writeCanonicalPost } from './lib/content-writer.mjs';
 
 const root = process.cwd();
+const sourcesPath = path.join(root, 'data/monitoring/sources.json');
 const latestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
 const blogRoot = path.join(root, 'src/content/blog');
 
-const AUTO_PUBLISH_SOURCES = new Set([
-  'CISA Cybersecurity Advisories',
-  'CISA Known Exploited Vulnerabilities Catalog',
-  'ICO News and Blogs',
-  'EDPB News',
-  'ENISA News',
-  'NCSC UK News',
-  'FTC Press Releases',
-  'ISO Insights and Updates',
-  'Krebs on Security',
-  'Schneier on Security',
-]);
+function defaultPublishPolicy(candidate) {
+  return {
+    auto: false,
+    voice: candidate.category === 'governance' ? 'governance' : 'reporting',
+    sourceNoun: `${candidate.source || candidate.name || 'source'} item`,
+  };
+}
 
-const SOURCE_PROFILES = {
-  'CISA Cybersecurity Advisories': { voice: 'advisory', sourceNoun: 'CISA and partner-agency guidance' },
-  'CISA Known Exploited Vulnerabilities Catalog': { voice: 'advisory', sourceNoun: 'CISA KEV update' },
-  'ICO News and Blogs': { voice: 'enforcement', sourceNoun: 'ICO announcement' },
-  'EDPB News': { voice: 'governance', sourceNoun: 'EDPB publication' },
-  'ENISA News': { voice: 'governance', sourceNoun: 'ENISA publication' },
-  'NCSC UK News': { voice: 'advisory', sourceNoun: 'NCSC announcement' },
-  'FTC Press Releases': { voice: 'enforcement', sourceNoun: 'FTC announcement' },
-  'ISO Insights and Updates': { voice: 'governance', sourceNoun: 'ISO publication' },
-  'Krebs on Security': { voice: 'reporting', sourceNoun: 'reported investigation' },
-  'Schneier on Security': { voice: 'analysis', sourceNoun: 'analysis post' },
-  'The Hacker News': { voice: 'reporting', sourceNoun: 'security reporting' },
-};
+function buildSourcePolicyLookup(sources) {
+  const byId = new Map();
+  const idByName = new Map();
+
+  for (const source of sources) {
+    const policy = { ...defaultPublishPolicy(source), ...(source.publish || {}) };
+    byId.set(source.id, policy);
+    idByName.set(source.name, source.id);
+  }
+
+  return { byId, idByName };
+}
+
+function resolveSourcePolicy(candidate, sourcePolicies) {
+  const sourceId = candidate.sourceId || sourcePolicies.idByName.get(candidate.source);
+  if (!sourceId) return defaultPublishPolicy(candidate);
+  return sourcePolicies.byId.get(sourceId) || defaultPublishPolicy(candidate);
+}
 
 function isBoilerplateText(text = '') {
   return /the \.gov means it'?s official|the site is secure|an official website of the united states government|here'?s how you know|skip to main content|report fraud|get consumer alerts|search the legal library|federal government websites often end in \.gov|https:\/\//i.test(text);
@@ -223,18 +224,18 @@ function isPriorityIndustryImpactCandidate(candidate) {
   return /source code|source leak|code leak|npm|package compromise|supply chain|malware|trojan|rat\b|remote access trojan|phishing|aitm|adversary-in-the-middle|data breach|breach|exfiltrat|stolen credentials|credential theft|zero-day|actively exploited|ransomware|wiper|botnet|backdoor/i.test(text);
 }
 
-function isSoftSkipCandidate(candidate) {
+function isSoftSkipCandidate(candidate, policy) {
   if (isPriorityIndustryImpactCandidate(candidate)) return false;
   if (candidate.tier !== 'Tier 1') return true;
-  if (!AUTO_PUBLISH_SOURCES.has(candidate.source)) return true;
+  if (!policy.auto) return true;
   if (/^cisa adds \w+ known exploited vulnerabilities to catalog$/i.test(candidate.title)) return true;
   if (/\?|\bmust\b|\bneeds\b|\bwhy\b|\bopinion\b/i.test(candidate.title)) return true;
   return false;
 }
 
-function shouldSkipCandidate(candidate, allowSoftSkips = false) {
+function shouldSkipCandidate(candidate, policy, allowSoftSkips = false) {
   if (isHardSkipCandidate(candidate)) return true;
-  if (!allowSoftSkips && isSoftSkipCandidate(candidate)) return true;
+  if (!allowSoftSkips && isSoftSkipCandidate(candidate, policy)) return true;
   return false;
 }
 
@@ -260,15 +261,18 @@ async function main() {
   }
 
   const review = JSON.parse(await fs.readFile(latestReviewPath, 'utf8'));
+  const sources = JSON.parse(await fs.readFile(sourcesPath, 'utf8'));
+  const sourcePolicies = buildSourcePolicyLookup(sources);
   const candidates = review.candidates || [];
   const existingSlugs = await listExistingSlugs(blogRoot);
   const published = [];
 
   for (const candidate of candidates) {
     if (published.length >= 3) break;
+    const profile = resolveSourcePolicy(candidate, sourcePolicies);
     // Allow soft-skip relaxation for all candidates until minimum quota (1 post) is met
     const allowSoftSkipsForThisCandidate = published.length === 0 && mustPublishAtLeastOne;
-    if (shouldSkipCandidate(candidate, allowSoftSkipsForThisCandidate)) continue;
+    if (shouldSkipCandidate(candidate, profile, allowSoftSkipsForThisCandidate)) continue;
 
     const slug = makeSlug(candidate.slug || candidate.title);
     if (!slug || existingSlugs.has(slug)) continue;
@@ -282,11 +286,6 @@ async function main() {
       console.log(`Skip ${candidate.link}: ${String(error.message || error)}`);
       continue;
     }
-
-    const profile = SOURCE_PROFILES[candidate.source] || {
-      voice: candidate.category === 'governance' ? 'governance' : 'reporting',
-      sourceNoun: `${candidate.source} item`,
-    };
 
     const sourceTitle = extractTitle(html) || candidate.title;
     const description = cleanDescription(extractDescription(html) || `New ${candidate.category} development detected from ${candidate.source}.`);
