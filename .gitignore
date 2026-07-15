@@ -12,6 +12,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# downloaded GitHub Actions log bundles
+job-*-logs.zip
+
 
 # environment variables
 .env
