@@ -6,7 +6,15 @@
     "category": "security",
     "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
     "kind": "html",
-    "includePatterns": ["/news-events/cybersecurity-advisories/", "/news-events/alerts/"]
+    "includePatterns": [
+      "/news-events/cybersecurity-advisories/",
+      "/news-events/alerts/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "advisory",
+      "sourceNoun": "CISA and partner-agency guidance"
+    }
   },
   {
     "id": "cisa-kev",
@@ -15,7 +23,14 @@
     "category": "security",
     "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "kind": "html",
-    "includePatterns": ["cve.org/CVERecord?id=CVE-"]
+    "includePatterns": [
+      "cve.org/CVERecord?id=CVE-"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "advisory",
+      "sourceNoun": "CISA KEV update"
+    }
   },
   {
     "id": "ico-news",
@@ -24,7 +39,14 @@
     "category": "privacy",
     "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/",
     "kind": "html",
-    "includePatterns": ["/about-the-ico/media-centre/news-and-blogs/"]
+    "includePatterns": [
+      "/about-the-ico/media-centre/news-and-blogs/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "enforcement",
+      "sourceNoun": "ICO announcement"
+    }
   },
   {
     "id": "edpb-news",
@@ -33,7 +55,14 @@
     "category": "governance",
     "url": "https://www.edpb.europa.eu/news/news_en",
     "kind": "html",
-    "includePatterns": ["/news/news/"]
+    "includePatterns": [
+      "/news/news/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "governance",
+      "sourceNoun": "EDPB publication"
+    }
   },
   {
     "id": "enisa-news",
@@ -42,7 +71,14 @@
     "category": "security",
     "url": "https://www.enisa.europa.eu/news",
     "kind": "html",
-    "includePatterns": ["/news/"]
+    "includePatterns": [
+      "/news/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "governance",
+      "sourceNoun": "ENISA publication"
+    }
   },
   {
     "id": "ncsc-news",
@@ -51,7 +87,14 @@
     "category": "security",
     "url": "https://www.ncsc.gov.uk/news",
     "kind": "html",
-    "includePatterns": ["/news/"]
+    "includePatterns": [
+      "/news/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "advisory",
+      "sourceNoun": "NCSC announcement"
+    }
   },
   {
     "id": "ftc-press",
@@ -60,7 +103,14 @@
     "category": "privacy",
     "url": "https://www.ftc.gov/news-events/news/press-releases",
     "kind": "html",
-    "includePatterns": ["/news-events/news/press-releases/"]
+    "includePatterns": [
+      "/news-events/news/press-releases/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "enforcement",
+      "sourceNoun": "FTC announcement"
+    }
   },
   {
     "id": "iso-insights",
@@ -69,7 +119,14 @@
     "category": "governance",
     "url": "https://www.iso.org/insights",
     "kind": "html",
-    "includePatterns": ["/contents/news/"]
+    "includePatterns": [
+      "/contents/news/"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "governance",
+      "sourceNoun": "ISO publication"
+    }
   },
   {
     "id": "krebs-on-security",
@@ -78,9 +135,24 @@
     "category": "security",
     "url": "https://krebsonsecurity.com/",
     "kind": "html",
-    "includePatterns": ["https://krebsonsecurity.com/20"],
-    "excludePatterns": ["/about/", "/cpm/", "/contact/", "/feed/"],
-    "titleRejectPatterns": ["about the author", "advertising/speaking"]
+    "includePatterns": [
+      "https://krebsonsecurity.com/20"
+    ],
+    "excludePatterns": [
+      "/about/",
+      "/cpm/",
+      "/contact/",
+      "/feed/"
+    ],
+    "titleRejectPatterns": [
+      "about the author",
+      "advertising/speaking"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "reporting",
+      "sourceNoun": "reported investigation"
+    }
   },
   {
     "id": "schneier-on-security",
@@ -89,9 +161,23 @@
     "category": "security",
     "url": "https://www.schneier.com/",
     "kind": "html",
-    "includePatterns": ["/archives/20"],
-    "excludePatterns": ["/about/", "/essays/", "/crypto-gram/"],
-    "titleRejectPatterns": ["about me", "posted on"]
+    "includePatterns": [
+      "/archives/20"
+    ],
+    "excludePatterns": [
+      "/about/",
+      "/essays/",
+      "/crypto-gram/"
+    ],
+    "titleRejectPatterns": [
+      "about me",
+      "posted on"
+    ],
+    "publish": {
+      "auto": true,
+      "voice": "analysis",
+      "sourceNoun": "analysis post"
+    }
   },
   {
     "id": "the-hacker-news",
@@ -100,9 +186,25 @@
     "category": "security",
     "url": "https://thehackernews.com/",
     "kind": "html",
-    "includePatterns": ["https://thehackernews.com/20"],
-    "excludePatterns": ["/search/label/", "/p/", "/search?", "/contact", "/about"],
-    "titleRejectPatterns": ["home", "webinars"]
+    "includePatterns": [
+      "https://thehackernews.com/20"
+    ],
+    "excludePatterns": [
+      "/search/label/",
+      "/p/",
+      "/search?",
+      "/contact",
+      "/about"
+    ],
+    "titleRejectPatterns": [
+      "home",
+      "webinars"
+    ],
+    "publish": {
+      "auto": false,
+      "voice": "reporting",
+      "sourceNoun": "security reporting"
+    }
   },
   {
     "id": "bleepingcomputer",
@@ -111,9 +213,24 @@
     "category": "security",
     "url": "https://www.bleepingcomputer.com/news/security/",
     "kind": "html",
-    "includePatterns": ["https://www.bleepingcomputer.com/news/security/"],
-    "excludePatterns": ["/vpn-deals/", "/downloads/", "/forums/", "/newsletter/"],
-    "titleRejectPatterns": ["sponsored", "deals"]
+    "includePatterns": [
+      "https://www.bleepingcomputer.com/news/security/"
+    ],
+    "excludePatterns": [
+      "/vpn-deals/",
+      "/downloads/",
+      "/forums/",
+      "/newsletter/"
+    ],
+    "titleRejectPatterns": [
+      "sponsored",
+      "deals"
+    ],
+    "publish": {
+      "auto": false,
+      "voice": "reporting",
+      "sourceNoun": "BleepingComputer item"
+    }
   },
   {
     "id": "reddit-security",
@@ -122,8 +239,23 @@
     "category": "security",
     "url": "https://old.reddit.com/r/security/",
     "kind": "html",
-    "includePatterns": ["/r/security/comments/"],
-    "titleRejectPatterns": ["comments?$", "overnight shifts", "security officer position", "vent thread", "looking for feedback", "do i want", "question"]
+    "includePatterns": [
+      "/r/security/comments/"
+    ],
+    "titleRejectPatterns": [
+      "comments?$",
+      "overnight shifts",
+      "security officer position",
+      "vent thread",
+      "looking for feedback",
+      "do i want",
+      "question"
+    ],
+    "publish": {
+      "auto": false,
+      "voice": "reporting",
+      "sourceNoun": "Reddit r/security item"
+    }
   },
   {
     "id": "reddit-privacy",
@@ -132,7 +264,21 @@
     "category": "privacy",
     "url": "https://old.reddit.com/r/privacy/",
     "kind": "html",
-    "includePatterns": ["/r/privacy/comments/"],
-    "titleRejectPatterns": ["comments?$", "uptick in security and off-topic posts", "crazy new law", "need help", "how did we end up here", "good grief"]
+    "includePatterns": [
+      "/r/privacy/comments/"
+    ],
+    "titleRejectPatterns": [
+      "comments?$",
+      "uptick in security and off-topic posts",
+      "crazy new law",
+      "need help",
+      "how did we end up here",
+      "good grief"
+    ],
+    "publish": {
+      "auto": false,
+      "voice": "reporting",
+      "sourceNoun": "Reddit r/privacy item"
+    }
   }
 ]

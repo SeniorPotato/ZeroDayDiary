@@ -65,6 +65,7 @@ for (const source of sources) {
       tier: source.tier,
       category: source.category,
       slug: makeSlug(item.title),
+      sourceId: source.id,
       source: source.name,
     });
 
