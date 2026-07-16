@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '17 */12 * * *'
   workflow_dispatch:
+    inputs:
+      publish_candidates:
+        description: 'Publish qualifying candidates during this run (manual review override)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -28,10 +37,11 @@ jobs:
         run: npm run monitor:review
 
       - name: Publish qualifying candidates
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' }}
         run: npm run monitor:publish
 
       - name: Validate Anthropic review configuration
-        if: ${{ env.ANTHROPIC_REVIEW_MODEL != '' || env.ANTHROPIC_API_KEY != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' && (env.ANTHROPIC_REVIEW_MODEL != '' || env.ANTHROPIC_API_KEY != '') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -45,7 +55,7 @@ jobs:
           fi
 
       - name: Review generated posts with Anthropic editorial pass
-        if: ${{ env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' && env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
         run: npm run monitor:review-published
 
       - name: Validate site build
