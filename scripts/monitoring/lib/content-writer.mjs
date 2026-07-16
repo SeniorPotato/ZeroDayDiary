@@ -1,6 +1,6 @@
 import path from 'node:path';
 import { escapeYaml, makeSlug } from './shared.mjs';
-import { writeValidatedMarkdown } from './markdown-validation.mjs';
+import { validateGeneratedMarkdown, writeValidatedMarkdown } from './markdown-validation.mjs';
 
 export const CANONICAL_SECTION_HEADINGS = [
   'What happened',
@@ -50,17 +50,22 @@ ${normalizedSections.map(([heading, content]) => `## ${heading}\n${content}`).jo
 `;
 }
 
-export async function writeCanonicalPost({ root = process.cwd(), blogRoot = path.join(root, 'src/content/blog'), title, description, slugInput, dateInput, draft, tags, sections }) {
+export async function writeCanonicalPost({ root = process.cwd(), blogRoot = path.join(root, 'src/content/blog'), title, description, slugInput, dateInput, draft, tags, sections, dryRun = false }) {
   const slug = makeSlug(slugInput || title);
   if (!slug) throw new Error('A valid slug could not be generated');
   const { year, month, pubDate } = resolvePostDate(dateInput || new Date());
   const canonical = buildCanonical({ year, month, slug });
   const filePath = path.join(blogRoot, year, month, `${slug}.md`);
   const markdown = buildPostMarkdown({ title, description, pubDate, draft, tags, canonical, sections });
-  await writeValidatedMarkdown(filePath, markdown, {
+  const validationOptions = {
     expectedSlug: slug,
     expectedCanonical: canonical,
     requireSections: CANONICAL_SECTION_HEADINGS,
-  });
-  return { filePath, slug, canonical, pubDate };
+  };
+  if (dryRun) {
+    validateGeneratedMarkdown(markdown, validationOptions);
+  } else {
+    await writeValidatedMarkdown(filePath, markdown, validationOptions);
+  }
+  return { filePath, slug, canonical, pubDate, markdown };
 }

@@ -6,7 +6,7 @@ import { writeCanonicalPost } from './lib/content-writer.mjs';
 
 const root = process.cwd();
 const sourcesPath = path.join(root, 'data/monitoring/sources.json');
-const latestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
+const defaultLatestReviewPath = path.join(root, 'data/monitoring/state/latest-source-review.json');
 const blogRoot = path.join(root, 'src/content/blog');
 
 function defaultPublishPolicy(candidate) {
@@ -240,6 +240,15 @@ function shouldSkipCandidate(candidate, policy, allowSoftSkips = false) {
 }
 
 async function main() {
+  const args = new Set(process.argv.slice(2));
+  const dryRun = args.has('--dry-run');
+  const cliArgs = process.argv.slice(2);
+  const fixtureArg = cliArgs.find((arg) => arg.startsWith('--fixture='));
+  const reviewFixtureArg = cliArgs.find((arg) => arg.startsWith('--review-fixture='));
+  const fixturePath = fixtureArg ? path.resolve(root, fixtureArg.split('=').slice(1).join('=')) : null;
+  const fixtureHtml = fixturePath ? await fs.readFile(fixturePath, 'utf8') : null;
+  const latestReviewPath = reviewFixtureArg ? path.resolve(root, reviewFixtureArg.split('=').slice(1).join('=')) : defaultLatestReviewPath;
+
   if (!(await exists(latestReviewPath))) {
     console.log('No latest-source-review.json found; nothing to publish.');
     return;
@@ -251,14 +260,15 @@ async function main() {
   const currentHour = now.getUTCHours();
   // Trigger at 00:17 and 12:17 UTC (cron: '17 */12 * * *')
   const isFreshnessWindow = (currentHour === 0 || currentHour === 12) && now.getUTCMinutes() >= 15;
-  // Enforce at least 1 post per run: always allow soft-skip relaxation until minimum quota is met
-  const mustPublishAtLeastOne = true;
+  const minimumPublishCount = Number.parseInt(process.env.MONITOR_PUBLISH_MINIMUM || '0', 10);
+  const mustPublishAtLeastOne = minimumPublishCount > 0;
 
   if (isFreshnessWindow) {
-    console.log(`Freshness window (12h cadence): last pubDate=${latestPubDate || 'none'}, today=${today}. Will publish at least 1 post.`);
+    console.log(`Freshness window (12h cadence): last pubDate=${latestPubDate || 'none'}, today=${today}. Minimum publish count=${minimumPublishCount}.`);
   } else {
-    console.log(`Regular run: must publish at least 1 post per run.`);
+    console.log(`Regular run: minimum publish count=${minimumPublishCount}.`);
   }
+  if (dryRun) console.log('Dry run: generated posts will be validated but not written.');
 
   const review = JSON.parse(await fs.readFile(latestReviewPath, 'utf8'));
   const sources = JSON.parse(await fs.readFile(sourcesPath, 'utf8'));
@@ -270,8 +280,7 @@ async function main() {
   for (const candidate of candidates) {
     if (published.length >= 3) break;
     const profile = resolveSourcePolicy(candidate, sourcePolicies);
-    // Allow soft-skip relaxation for all candidates until minimum quota (1 post) is met
-    const allowSoftSkipsForThisCandidate = published.length === 0 && mustPublishAtLeastOne;
+    const allowSoftSkipsForThisCandidate = published.length < minimumPublishCount && mustPublishAtLeastOne;
     if (shouldSkipCandidate(candidate, profile, allowSoftSkipsForThisCandidate)) continue;
 
     const slug = makeSlug(candidate.slug || candidate.title);
@@ -279,9 +288,13 @@ async function main() {
 
     let html = '';
     try {
-      const res = await fetch(candidate.link, { headers: { 'user-agent': 'ZeroDayDiary/1.0 publisher bot' } });
-      html = await res.text();
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (fixtureHtml !== null) {
+        html = fixtureHtml;
+      } else {
+        const res = await fetch(candidate.link, { headers: { 'user-agent': 'ZeroDayDiary/1.0 publisher bot' } });
+        html = await res.text();
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      }
     } catch (error) {
       console.log(`Skip ${candidate.link}: ${String(error.message || error)}`);
       continue;
@@ -327,6 +340,7 @@ async function main() {
       dateInput: review.generatedAt || new Date(),
       draft: false,
       tags,
+      dryRun,
       sections: {
         'What happened': whatHappened,
         'Why it matters': whyItMatters,
@@ -339,7 +353,7 @@ async function main() {
     existingSlugs.add(slug);
   }
 
-  console.log(`Published posts: ${published.length}`);
+  console.log(`${dryRun ? 'Validated publishable posts' : 'Published posts'}: ${published.length}`);
   for (const item of published) console.log(`- ${item}`);
 }
 
