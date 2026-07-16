@@ -5,4 +5,4 @@ runs:
   steps:
     - name: Build site
       shell: bash
-      run: npm run build
+      run: npm run validate

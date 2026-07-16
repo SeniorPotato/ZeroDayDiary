@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-07-16T07:30:00.000Z",
+  "packetPath": "test/fixtures/monitoring/review-packet.md",
+  "candidates": [
+    {
+      "discovered": "2026-07-16",
+      "title": "CISA warns operators about actively exploited edge appliance vulnerabilities",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-197a",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fixture-cisa-edge-appliance-vulnerabilities",
+      "sourceId": "cisa-advisories",
+      "source": "CISA Cybersecurity Advisories"
+    }
+  ]
+}

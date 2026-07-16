@@ -36,16 +36,23 @@ Content entries live in `src/content/blog/`. Frontmatter is validated by `src/co
 
 ## Build and validation
 
-Run these checks before opening or updating a pull request:
+Run the aggregate validation entry point before opening or updating a pull request:
 
 ```sh
+npm run validate
+```
+
+`npm run validate` runs fixture-based monitoring validation and then builds the Astro site. The monitoring validation includes the publication-priority check plus dry-run source review and candidate publication against local fixtures, so the highest-risk automation paths are exercised without writing monitoring state or posts.
+
+Useful lower-level checks:
+
+```sh
+npm run monitor:validate
 npm run monitor:priority-check
 npm run build
 ```
 
-`npm run monitor:priority-check` validates the publication-priority matching rules used by the monitoring automation. `npm run build` validates the Astro site and content collections.
-
-The CI workflow also runs `npm ci` and `npm run build` for pushes to `main` and pull requests.
+The CI workflow also runs `npm ci` and `npm run validate` for pushes to `main` and pull requests.
 
 ## Monitoring and editorial automation
 
@@ -53,8 +60,9 @@ ZeroDayDiary uses monitoring scripts to review configured sources, capture candi
 
 | Command | Effect | Notes |
 | --- | --- | --- |
-| `npm run monitor:review` | Fetches configured source pages, detects unseen links, writes review packets, updates state, intake, and review logs. | Network-dependent and mutates tracked monitoring files. |
-| `npm run monitor:publish` | Reviews candidate links and writes qualifying posts into `src/content/blog/`. | Network-dependent and mutates tracked content. |
+| `npm run monitor:review` | Fetches configured source pages, detects unseen links, writes review packets, updates state, intake, and review logs. | Network-dependent and mutates tracked monitoring files. Use `-- --dry-run` to validate without writes and `-- --fixture=path/to/source-list.html` to avoid live source fetches. |
+| `npm run monitor:publish` | Reviews candidate links and writes qualifying posts into `src/content/blog/`. | Network-dependent and mutates tracked content. Use `-- --dry-run` to validate generated Markdown without writes, `-- --fixture=path/to/article.html` to avoid live article fetches, and `-- --review-fixture=path/to/latest-source-review.json` for deterministic candidate input. |
+| `npm run monitor:validate` | Runs priority, source-review, and candidate-publication checks against local fixtures. | Read-only validation for monitoring automation. |
 | `npm run monitor:review-published` | Runs the optional Anthropic editorial pass over generated posts. | Requires Anthropic configuration. |
 | `npm run monitor:draft` | Creates a Markdown draft from a candidate JSON payload. | Mutates content files. |
 | `npm run draft:agent` | Creates a validated post or event draft from workflow-provided inputs. | Used by manual GitHub Actions workflows. |
@@ -77,7 +85,7 @@ Because several monitoring commands fetch live pages and write tracked files, av
 2. **Candidate triage** — editors review candidates in `data/monitoring/intake.md` and promote useful items into `data/monitoring/queue.md` with an appropriate status.
 3. **Drafting** — a draft can be created manually, through `npm run monitor:draft`, through `npm run draft:agent`, or by the scheduled candidate publisher when configured to publish qualifying candidates.
 4. **Review** — drafts should be checked for attribution, uncertainty, category/tag consistency, and editorial tone. If Anthropic review is configured, generated posts can receive an additional automated editorial pass.
-5. **Validation** — run `npm run monitor:priority-check` and `npm run build` before merging.
+5. **Validation** — run `npm run validate` before merging. Use the dry-run fixture modes for focused monitoring checks while debugging.
 6. **Publication** — publish by merging the validated content change. Draft content should keep `draft: true`; published content should set `draft: false` or omit a draft-only workflow setting as appropriate.
 
 The preferred editorial posture is source-first and evidence-aware: it is acceptable for a monitoring pass to produce no publishable change.
@@ -86,8 +94,8 @@ The preferred editorial posture is source-first and evidence-aware: it is accept
 
 The repository includes these workflows:
 
-- **CI** (`.github/workflows/ci.yml`) installs dependencies and builds the site for pull requests and pushes to `main`.
-- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. It reviews sources, publishes qualifying candidates, optionally runs the Anthropic editorial review, builds the site, opens or updates a monitoring pull request, and merges that pull request after validation.
+- **CI** (`.github/workflows/ci.yml`) installs dependencies and runs `npm run validate` for pull requests and pushes to `main`.
+- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. It reviews sources, publishes qualifying candidates, optionally runs the Anthropic editorial review, validates the site, and opens or updates a monitoring pull request for review.
 - **Agent Publish Post** (`.github/workflows/agent_publish.yml`) manually creates a validated post draft from workflow inputs and opens a pull request.
 - **Agent Publish Event Draft** (`.github/workflows/agent_publish_event.yml`) manually creates a validated event draft from workflow inputs and opens a pull request.
 
