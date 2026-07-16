@@ -5,9 +5,9 @@ Safeguards applied:
 - generated markdown must pass structural validation before any overwrite
 - AI revisions fail closed on malformed frontmatter/body
 - Astro build must pass before this PR is created
-- changes are proposed as a PR for review instead of pushing directly to main
+- changes are proposed as a PR and auto-merged after required checks pass
 
 Review focus:
-- confirm candidate quality and editorial fit
-- verify generated posts read cleanly
-- merge only after normal repository review
+- optional spot-check of candidate quality and editorial fit
+- optional spot-check that generated posts read cleanly
+- intervene only if the automated checks or generated content look wrong
