@@ -22,10 +22,18 @@ inputs:
     description: Whether to delete the branch after the pull request is merged.
     required: false
     default: 'true'
+outputs:
+  pull-request-number:
+    description: Number of the created or updated pull request.
+    value: ${{ steps.create-pr.outputs.pull-request-number || steps.create-pr-from-body-file.outputs.pull-request-number }}
+  pull-request-url:
+    description: URL of the created or updated pull request.
+    value: ${{ steps.create-pr.outputs.pull-request-url || steps.create-pr-from-body-file.outputs.pull-request-url }}
 runs:
   using: composite
   steps:
     - name: Create Pull Request
+      id: create-pr
       if: ${{ inputs.body-file == '' }}
       uses: peter-evans/create-pull-request@v7
       with:
@@ -36,6 +44,7 @@ runs:
         delete-branch: ${{ inputs.delete-branch }}
 
     - name: Create Pull Request from body file
+      id: create-pr-from-body-file
       if: ${{ inputs.body-file != '' }}
       uses: peter-evans/create-pull-request@v7
       with:

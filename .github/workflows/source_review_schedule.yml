@@ -6,13 +6,21 @@ on:
   workflow_dispatch:
     inputs:
       publish_candidates:
-        description: 'Publish qualifying candidates during this run (manual review override)'
+        description: 'Publish qualifying candidates during this run'
         required: false
-        default: 'false'
+        default: 'true'
         type: choice
         options:
-          - 'false'
           - 'true'
+          - 'false'
+      auto_merge:
+        description: 'Automatically merge the generated monitoring PR after checks pass'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
 permissions:
   contents: write
@@ -37,11 +45,11 @@ jobs:
         run: npm run monitor:review
 
       - name: Publish qualifying candidates
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' }}
+        if: ${{ github.event_name == 'schedule' || inputs.publish_candidates == 'true' }}
         run: npm run monitor:publish
 
       - name: Validate Anthropic review configuration
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' && (env.ANTHROPIC_REVIEW_MODEL != '' || env.ANTHROPIC_API_KEY != '') }}
+        if: ${{ (github.event_name == 'schedule' || inputs.publish_candidates == 'true') && (env.ANTHROPIC_REVIEW_MODEL != '' || env.ANTHROPIC_API_KEY != '') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -55,16 +63,24 @@ jobs:
           fi
 
       - name: Review generated posts with Anthropic editorial pass
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.publish_candidates == 'true' && env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
+        if: ${{ (github.event_name == 'schedule' || inputs.publish_candidates == 'true') && env.ANTHROPIC_REVIEW_MODEL != '' && env.ANTHROPIC_API_KEY != '' }}
         run: npm run monitor:review-published
 
       - name: Validate site build
         uses: ./.github/actions/validate-site
 
       - name: Create or update monitoring review pull request
+        id: monitoring-pr
         uses: ./.github/actions/create-automation-pr
         with:
-          commit-message: "chore(monitoring): run scheduled source review"
-          title: "chore(monitoring): scheduled source review"
+          commit-message: "chore(monitoring): run automated source review"
+          title: "chore(monitoring): automated source review"
           body-file: .github/source-review-pr-body.md
           branch: automation/source-review
+
+      - name: Enable auto-merge for monitoring pull request
+        if: ${{ steps.monitoring-pr.outputs.pull-request-number != '' && (github.event_name == 'schedule' || inputs.auto_merge == 'true') }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ steps.monitoring-pr.outputs.pull-request-url }}
+        run: gh pr merge --auto --squash --delete-branch "$PR_URL"
