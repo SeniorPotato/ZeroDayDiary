@@ -83,7 +83,7 @@ Because several monitoring commands fetch live pages and write tracked files, av
 
 1. **Discovery** — `npm run monitor:review` scans the configured source list and writes newly detected items to review packets, intake, state, and logs.
 2. **Candidate triage** — editors review candidates in `data/monitoring/intake.md` and promote useful items into `data/monitoring/queue.md` with an appropriate status.
-3. **Drafting** — a draft can be created manually, through `npm run monitor:draft`, through `npm run draft:agent`, or by the scheduled candidate publisher when configured to publish qualifying candidates.
+3. **Drafting** — a draft can be created manually, through `npm run monitor:draft`, through `npm run draft:agent`, or by the manually dispatched candidate publisher when explicitly configured to publish qualifying candidates.
 4. **Review** — drafts should be checked for attribution, uncertainty, category/tag consistency, and editorial tone. If Anthropic review is configured, generated posts can receive an additional automated editorial pass.
 5. **Validation** — run `npm run validate` before merging. Use the dry-run fixture modes for focused monitoring checks while debugging.
 6. **Publication** — publish by merging the validated content change. Draft content should keep `draft: true`; published content should set `draft: false` or omit a draft-only workflow setting as appropriate.
@@ -95,7 +95,7 @@ The preferred editorial posture is source-first and evidence-aware: it is accept
 The repository includes these workflows:
 
 - **CI** (`.github/workflows/ci.yml`) installs dependencies and runs `npm run validate` for pull requests and pushes to `main`.
-- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. It reviews sources, publishes qualifying candidates, optionally runs the Anthropic editorial review, validates the site, and opens or updates a monitoring pull request for review.
+- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. Scheduled runs are discovery-only by default: they review sources, update monitoring state/review packets, validate the site, and open or update a monitoring pull request for human review without auto-merge. Candidate publication is available only on manual dispatch when `publish_candidates` is explicitly set to `true`; that opt-in path can also run the Anthropic editorial review when configured.
 - **Agent Publish Post** (`.github/workflows/agent_publish.yml`) manually creates a validated post draft from workflow inputs and opens a pull request.
 - **Agent Publish Event Draft** (`.github/workflows/agent_publish_event.yml`) manually creates a validated event draft from workflow inputs and opens a pull request.
 
