@@ -74,7 +74,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
       "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations"
+      "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -305,7 +307,6 @@
       "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
     ],
     "schneier-on-security": [
@@ -421,7 +422,8 @@
       "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
       "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
       "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html",
-      "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html"
+      "https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html",
+      "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1146,13 +1148,13 @@
       "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
       "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
       "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-      "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
-      "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
       "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
-      "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html"
+      "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+      "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+      "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+      "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+      "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1875,9 +1877,11 @@
       "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
       "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-      "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-      "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
-      "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/"
+      "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
+      "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+      "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
     ]
   }
 }
