@@ -83,4 +83,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR_URL: ${{ steps.monitoring-pr.outputs.pull-request-url }}
-        run: gh pr merge --auto --squash --delete-branch "$PR_URL"
+        shell: bash
+        run: |
+          set -euo pipefail
+          if output="$(gh pr merge --auto --squash --delete-branch "$PR_URL" 2>&1)"; then
+            printf '%s\n' "$output"
+            exit 0
+          fi
+
+          printf '%s\n' "$output" >&2
+          if [[ "$output" == *"Protected branch rules not configured for this branch"* ]]; then
+            echo "Auto-merge requires a protected base branch; merging the validated monitoring PR directly." >&2
+            gh pr merge --squash --delete-branch "$PR_URL"
+          else
+            exit 1
+          fi
