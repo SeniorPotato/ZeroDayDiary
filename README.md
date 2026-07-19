@@ -95,7 +95,7 @@ The preferred editorial posture is source-first and evidence-aware: it is accept
 The repository includes these workflows:
 
 - **CI** (`.github/workflows/ci.yml`) installs dependencies and runs `npm run validate` for pull requests and pushes to `main`.
-- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. Scheduled runs review sources, publish qualifying candidates, optionally run the Anthropic editorial review, validate the site, open or update a monitoring pull request, and enable auto-merge so validated posts can go live without manual review. Manual dispatch can set `publish_candidates` or `auto_merge` to `false` for an exception run.
+- **Source Review Cadence** (`.github/workflows/source_review_schedule.yml`) runs on a schedule and by manual dispatch. Scheduled runs review sources, publish qualifying candidates, optionally run the Anthropic editorial review, validate the site, and commit generated monitoring changes directly to `main` so validated posts can go live without a pull-request approval gate. Manual dispatch can set `publish_candidates` to `false` for an exception source-review-only run.
 - **Agent Publish Post** (`.github/workflows/agent_publish.yml`) manually creates a validated post draft from workflow inputs and opens a pull request.
 - **Agent Publish Event Draft** (`.github/workflows/agent_publish_event.yml`) manually creates a validated event draft from workflow inputs and opens a pull request.
 
