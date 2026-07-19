@@ -13,18 +13,9 @@ on:
         options:
           - 'true'
           - 'false'
-      auto_merge:
-        description: 'Automatically merge the generated monitoring PR after checks pass'
-        required: false
-        default: 'true'
-        type: choice
-        options:
-          - 'true'
-          - 'false'
 
 permissions:
   contents: write
-  pull-requests: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -69,32 +60,19 @@ jobs:
       - name: Validate site build
         uses: ./.github/actions/validate-site
 
-      - name: Create or update monitoring review pull request
-        id: monitoring-pr
-        uses: ./.github/actions/create-automation-pr
-        with:
-          commit-message: "chore(monitoring): run automated source review"
-          title: "chore(monitoring): automated source review"
-          body-file: .github/source-review-pr-body.md
-          branch: automation/source-review
-
-      - name: Enable auto-merge for monitoring pull request
-        if: ${{ steps.monitoring-pr.outputs.pull-request-number != '' && (github.event_name == 'schedule' || inputs.auto_merge == 'true') }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR_URL: ${{ steps.monitoring-pr.outputs.pull-request-url }}
+      - name: Commit and publish monitoring changes
         shell: bash
         run: |
           set -euo pipefail
-          if output="$(gh pr merge --auto --squash --delete-branch "$PR_URL" 2>&1)"; then
-            printf '%s\n' "$output"
+
+          git add data/monitoring src/content/blog
+
+          if git diff --cached --quiet; then
+            echo "No monitoring changes to publish."
             exit 0
           fi
 
-          printf '%s\n' "$output" >&2
-          if [[ "$output" == *"Protected branch rules not configured for this branch"* ]]; then
-            echo "Auto-merge requires a protected base branch; merging the validated monitoring PR directly." >&2
-            gh pr merge --squash --delete-branch "$PR_URL"
-          else
-            exit 1
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(monitoring): run automated source review"
+          git push
