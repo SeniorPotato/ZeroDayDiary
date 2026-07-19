@@ -13004,3 +13004,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware Jul 19, 2026 Malware / Cyber Warfare Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145 , a sub-cluster within Sandworm , an advanced hacking unit affiliated with GRU, Russia's primary foreign military intelligence agency. In these attacks, threat actors have been found to leverage fake CAPTCHA checks on compromised websites that instruct prospective targets to execute a PowerShell command in the terminal. "The mentioned command, as an example, could be intended for downloading and saving a VBS file in the Startup autorun directory; one of the variants of such a program was called GHETTOVIBE," CERT-UA said in an alert. The attacks also involve the use of SCOUTCURL, a PowerShell script that performs basic reconnaissance by harvesting details about t...
+- **Source URL:** https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access Jul 19, 2026 Vulnerability / Network Security A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the moniker UTA0533 . The discovery was made following an incident response investigation earlier this month. The impacted organization has not been identified. "This threat actor was observed using multiple zero-day exploits, malware designed specifically for SonicWall SMA VPN appliances, as well as other attacker tradecraft," security researchers Sean Koessel and Steven Adair said in an analysis. The vulnerabilities in question are CVE-2026-15409 (CVSS score: 10.0) and CVE-2026-15410 (CVSS score: 7.2), both of which could be chained to facilitate arbitrary command execution and take over susceptible devices. Patches for both the vulnerabilities were released by SonicWall this wee...
+- **Source URL:** https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images Jul 17, 2026 Social Engineering / Malware North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. "Any user who ran the project ended up with a four-stage payload aligned with OtterCookie: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer," Elastic Security Labs said in a report shared with The Hacker News. The findings once again highlight the continued targeting of software developers by state-sponsored hackers aligned with the Democratic People's Republic of Korea (DPRK) with an aim to steal sensitive data and plunder cryptocurrency wallets. The activity is being tracked under the moniker REF9403. The cybersecurity arm of the Dutch enterprise search and observability platform said it discovered the campaign after the threat actors targeted membe...
+- **Source URL:** https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** Ernst & Young discloses data breach after support system hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-19
+- **Headline / event:** Inside the Search for "Clean" Residential Proxies for Carding
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
