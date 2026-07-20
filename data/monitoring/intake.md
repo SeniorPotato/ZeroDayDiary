@@ -13052,3 +13052,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution Jul 19, 2026 Vulnerability / Server Security F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline) , and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade. Triggering it can crash or restart the worker, causing a denial of service; where ASLR is disabled or can be bypassed, F5 says it may also allow remote code execution. The overflow lives in nginx's script engine, the code that assembles strings from directives at request time. It only surfaces under a specific configuration: a regex-based map whose output variable is referenced in a string expression after a capture from an earlier regex match. Under that pattern the engine's two-pass evaluation comes apart. The first pass measures how many bytes the result needs and allocates a buffer to fit; the second pass writes the bytes in. Both read the ...
+- **Source URL:** https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Hackers abuse ViPNet software to target Russian govt agencies
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

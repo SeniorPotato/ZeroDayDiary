@@ -1,64 +1,24 @@
 {
-  "generatedAt": "2026-07-19T13:55:15.608Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-19T135515Z.md",
+  "generatedAt": "2026-07-20T04:06:06.268Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-20T040606Z.md",
   "candidates": [
     {
-      "discovered": "2026-07-19",
-      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware Jul 19, 2026 Malware / Cyber Warfare Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145 , a sub-cluster within Sandworm , an advanced hacking unit affiliated with GRU, Russia's primary foreign military intelligence agency. In these attacks, threat actors have been found to leverage fake CAPTCHA checks on compromised websites that instruct prospective targets to execute a PowerShell command in the terminal. \"The mentioned command, as an example, could be intended for downloading and saving a VBS file in the Startup autorun directory; one of the variants of such a program was called GHETTOVIBE,\" CERT-UA said in an alert. The attacks also involve the use of SCOUTCURL, a PowerShell script that performs basic reconnaissance by harvesting details about t...",
-      "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "discovered": "2026-07-20",
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution Jul 19, 2026 Vulnerability / Server Security F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline) , and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade. Triggering it can crash or restart the worker, causing a denial of service; where ASLR is disabled or can be bypassed, F5 says it may also allow remote code execution. The overflow lives in nginx's script engine, the code that assembles strings from directives at request time. It only surfaces under a specific configuration: a regex-based map whose output variable is referenced in a string expression after a capture from an earlier regex match. Under that pattern the engine's two-pass evaluation comes apart. The first pass measures how many bytes the result needs and allocates a buffer to fit; the second pass writes the bytes in. Both read the ...",
+      "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "uac-0145-uses-clickfix-captchas-to-infect-ukrainian-devices-wih-malware-jul-19-2026-malwar",
+      "slug": "critical-nginx-vulnerability-can-crash-workers-and-may-allow-remote-code-execution-jul-19-",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-07-19",
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access Jul 19, 2026 Vulnerability / Network Security A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the moniker UTA0533 . The discovery was made following an incident response investigation earlier this month. The impacted organization has not been identified. \"This threat actor was observed using multiple zero-day exploits, malware designed specifically for SonicWall SMA VPN appliances, as well as other attacker tradecraft,\" security researchers Sean Koessel and Steven Adair said in an analysis. The vulnerabilities in question are CVE-2026-15409 (CVSS score: 10.0) and CVE-2026-15410 (CVSS score: 7.2), both of which could be chained to facilitate arbitrary command execution and take over susceptible devices. Patches for both the vulnerabilities were released by SonicWall this wee...",
-      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "discovered": "2026-07-20",
+      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "sonicwall-sma-zero-days-exploited-before-disclosure-to-gain-root-access-jul-19-2026-vulner",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-19",
-      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images Jul 17, 2026 Social Engineering / Malware North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. \"Any user who ran the project ended up with a four-stage payload aligned with OtterCookie: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer,\" Elastic Security Labs said in a report shared with The Hacker News. The findings once again highlight the continued targeting of software developers by state-sponsored hackers aligned with the Democratic People's Republic of Korea (DPRK) with an aim to steal sensitive data and plunder cryptocurrency wallets. The activity is being tracked under the moniker REF9403. The cybersecurity arm of the Dutch enterprise search and observability platform said it discovered the campaign after the threat actors targeted membe...",
-      "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fake-coding-tests-deliver-ottercookie-aligned-malware-hidden-in-svg-flag-images-jul-17-202",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-19",
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-19",
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ernst-young-discloses-data-breach-after-support-system-hack",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-19",
-      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "inside-the-search-for-clean-residential-proxies-for-carding",
+      "slug": "hackers-abuse-vipnet-software-to-target-russian-govt-agencies",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }

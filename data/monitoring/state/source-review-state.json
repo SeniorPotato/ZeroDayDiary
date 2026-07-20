@@ -1164,7 +1164,8 @@
       "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
       "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
       "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+      "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+      "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1899,7 +1900,8 @@
       "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
       "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
       "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/"
+      "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
     ]
   }
 }
