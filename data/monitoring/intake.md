@@ -13068,3 +13068,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** On Flock License Plate Tracking Cameras
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050 Jul 20, 2026 Cyber Espionage / SaaS Security A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB , which named the malware HollowGraph , says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks like ordinary Microsoft 365 chatter and network controls keyed to attacker-owned destinations have nothing to flag. The implant is a .NET DLL that supports just two commands, get and send , and it never reaches out to an attacker-owned server for payloads. Instead, it treats the compromised mailbox's calendar as a two-way dead drop. To pull tasking, it queries the calendar for an event the operator has planted, buried at 2050-05-13 , so the mailbox owner is unlikely to ever scroll to it, and reads its instructions from an attached file. To exfiltrate, it does the reverse: encrypts th...
+- **Source URL:** https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More Jul 20, 2026 Cybersecurity / Hacking A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch. Here is the full recap of what broke, what was exploited, and what needs attention now. ⚡ Threat of the Week New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code - Searchlight Cyber disclosed a pre-authenticated remote code execution vulnerability in WordPress Core that can be exploited anonymously on a standard WordPress installation, without requiring any plugins or other special conditions. It is a combination of CVE-2026-63030 (REST API batch-route confusion) and CVE-2026-60137 (SQL injection in WordPress core) that can be chained to turn an anonymous request into code execution. wa...
+- **Source URL:** https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine Jul 20, 2026 IoT Security / Cyber Espionage At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv , and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence services, which describe the operation as ongoing. In Ukraine, the surveillance has not stayed passive. Camera access there has been "used in attempts to neutralise Ukrainian military personnel" and destroy their equipment, the services say, turning an exposed roadside or business camera into a targeting aid. Across EU and NATO states, the services add, the same camera access is also collecting military intelligence that has nothing to do with the war. Getting in is rarely the hard part. The operators scan the internet for exposed devices, fingerprint IP cameras by bran...
+- **Source URL:** https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Mythos Didn't Break Your Security Program. Your Exposure Window Could. Jul 20, 2026 Security Operations / Exposure Management The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume . How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at scale? Those questions were and remain valid. Yet they all stop short of addressing the single metric that determines whether any of those vulnerabilities actually lead to a breach: the exposure window. The exposure window - the gap between the moment a vulnerability becomes exploitable and the moment your team fixes it - is the time an attacker has to do actual damage. That window is currently open far too wide. In 2025, the average eCrime breakout time dropped to 29 minutes . Even PCI DSS - the strictest compliance framework in the industry - allows 30 days to remediate a critical vulnerability. That's a 1,000-to-1 gap between how fast attackers move and how f...
+- **Source URL:** https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction Jul 20, 2026 Vulnerability / Endpoint Security Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266 , is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02 . The overflow lets an attacker "execute code in the context of the current process," per the advisory. The code runs with the token 7-Zip itself holds and gains no privileges of its own. On Windows, a normally launched 7-Zip runs under a filtered standard-user token even on an administrator account, so the attacker inherits those limited rights unless the program was started elevated. The bug came in from Landon Peng of Lunbun LLC, who reported it to 7-Zip on June 5. ZDI rates the flaw 7.0, or High, not the Critical several write-ups reached for. The full CVSS 3.0 vector is AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H . The AV:L makes it a local attack vector, not a network-re...
+- **Source URL:** https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** An AI SOC Evaluation Guide for Security Leaders
+- **Source URL:** https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Hugging Face warns an autonomous AI agent hacked its network
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-20
+- **Headline / event:** Critical ServiceNow code execution flaw now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

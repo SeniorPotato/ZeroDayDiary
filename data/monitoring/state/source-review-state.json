@@ -425,7 +425,8 @@
       "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html",
       "https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html",
       "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html",
-      "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html"
+      "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
+      "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1165,7 +1166,12 @@
       "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
       "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
       "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+      "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+      "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1901,7 +1907,10 @@
       "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
       "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
       "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-      "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+      "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+      "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+      "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
     ]
   }
 }
