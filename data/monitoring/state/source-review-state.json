@@ -238,7 +238,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-12-million-penalties-pre-merger-reporting-act-violations",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-endorses-ohio-supreme-court-proposal-weaken-abas-law-school-accreditation-monopoly",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-truheight-deceptive-unsubstantiated-advertising-supplements-kids"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-truheight-deceptive-unsubstantiated-advertising-supplements-kids",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/founders-celsius-network-ordered-pay-165-million-resolve-ftc-charges"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1171,7 +1172,12 @@
       "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
       "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
       "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-      "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+      "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+      "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+      "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+      "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1910,7 +1916,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
       "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
       "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-      "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+      "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+      "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
+      "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
     ]
   }
 }

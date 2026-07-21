@@ -13140,3 +13140,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Founders of Celsius Network Ordered to Pay $16.5 Million to Resolve FTC Charges
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/founders-celsius-network-ordered-pay-165-million-resolve-ftc-charges
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware Jul 20, 2026 Malware / Artificial Intelligence Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit . "FakeGit uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP files to deliver SmartLoader malware," Oleg Zaytsev, lead security researcher at Island, said in a report shared with The Hacker News. The end goal of these attacks is to leverage the access afforded by SmartLoader to establish persistence and push secondary payloads, such as StealC, an information stealer capable of harvesting a wide range of data from compromised systems. It's worth mentioning here that the use of trojanized MCP servers to distribute SmartLoader and StealC was flagged earlier this year by Straiker AI and subsequently by Derp.ca . But a concerning aspect ...
+- **Source URL:** https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign Jul 20, 2026 Malware / Vulnerability A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a payload dump: it caught the operation mid-build. Testing notes, failed experiments, documentation, and live delivery logs sat in one place, the kind of complete development trail defenders rarely see. Rapid7 reads the artifacts, down to a hardcoded path pointing at an open-source AI coding tool, as an operator using generative AI to produce, test, and document phishing delivery at speed. The most developed test set focused on CVE-2025-33053 (CVSS 8.8, now in CISA's KEV catalog ), the WebDAV working-directory hijack Check Point documented last year in its Stealth Falcon reporting. The...
+- **Source URL:** https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs Jul 20, 2026 Artificial Intelligence / Cybercrime A solo Russian-speaking threat actor known as " bandcampro " outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential proxy, compromise WordPress merchants, and plan a phone-based cryptocurrency fraud scheme aimed at elderly people in the U.S. and Canada. "The logs documented how the threat actor used an AI agent to migrate a command-and-control (C&C) server, and to control a small-scale botnet, among other hacking activities," Trend Micro researchers Joseph C Chen, Philippe Lin, Lucas Silva, Vladimir Kropotov, and Fyodor Yarochkin said . "The entire C&C operation fits in three plaintext files totaling roughly 5 KB, making it highly replicable and effectively disposa...
+- **Source URL:** https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent Jul 20, 2026 AI Security / Vulnerability In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by our services," the company said in a statement. While an investigation into the intrusion remains ongoing, Hugging Face said it has found no evidence that the AI agent tampered with public, user-facing models, datasets, or Spaces, and its own software supply chain. The starting point of the attack was the data processing pipeline itself, with a malicious dataset abusing two code execution paths, viz., in its remote code dataset loader and a template injection in a dataset configuration, to run code on a processing worker.
+- **Source URL:** https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines Jul 20, 2026 Malware / Application Security Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2, 2.8.3) - Published on July 18, 2026 Dendreo (versions 1.1.3, 1.1.4) - Published on October 14, 2017 fastlane-plugin-run_tests_firebase_testlab (version 0.3.2) - Published on February 06, 2018 "Each malicious release is a loader," StepSecurity said in an analysis. "It fetches a second stage from an attacker controlled Forgejo host, checks whether it is running in a build system and skips if it is, and on a developer machine it drops a native daemon and installs persistence." One aspect of the attack that immediately stands out is that "git_credential_manager" impersonates the official Microsoft Git Credential Manager, while t...
+- **Source URL:** https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Estée Lauder discloses data breach via Oracle E-Business flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** SonicWall SMA1000 flaws exploited as zero-days to push custom
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Hackers steal $23.7 million in crypto from Ostium in off-chain attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** JadePuffer agentic attacks now target AI model data with
+- **Source URL:** https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
