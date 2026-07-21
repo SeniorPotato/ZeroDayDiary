@@ -13228,3 +13228,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** MIT to Become Hotbed of AI Video Surveillance
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access Jul 21, 2026 Vulnerability / Network Security Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software. Successful exploitation of the flaw allows unauthenticated remote attackers to sidestep authentication and establish VPN sessions without valid credentials when authentication override cookies are enabled with specific certificate configurations. "Post-exploitation tradecraft varied across intrusions, from rapid encryption-only operations to full double-extortion, possibly suggesting multiple affiliates operating under the Qilin ransomware-as-a-service (RaaS) umbrella," the cybersecurity company said .
+- **Source URL:** https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities Jul 21, 2026 Email Security / Vulnerability Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component. As many as nine security vulnerabilities have been patched in Zimbra 10.1.20 . Topping the list is a command injection vulnerability in the SNMP monitoring component when SNMP notifications are enabled. Also patched are four cross-site scripting (XSS) flaws in the Classic Web Client - A stored cross-site scripting (XSS) vulnerability that could allow malicious attachment filenames to execute script under specific conditions. An XSS vulnerability where crafted fields could execute a malicious script under specific conditions. An XSS vulnerability where a crafted field could execute a malicious script when rendered. An XSS vulnerability where crafted attachments could execute a malicious script when rendered. Separately, fixes have been released for a mail forwarding restriction bypass (CV...
+- **Source URL:** https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Jul 21, 2026 Vulnerability / AI Security An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent. Researchers demonstrated that chain, plus six other attacks, against five open-source mobile agent frameworks: AppAgent, AppAgentX, Mobile-Agent-v3, Open-AutoGLM, and MobA. Everyone fell to at least six of the seven. The paper went up on arXiv on July 1 and was revised on July 14. The authors are at Simon Fraser University, the Chinese University of Hong Kong, Shandong University, and the Xingtu Lab at Chinese security firm QAX. Nothing here has a CVE, and first author Zidong Zhang told The Hacker News the team has no evidence of the techniques being used outside a controlled setting. The Hacker News checked all five frameworks and found the screenshot paths, the shell call, and the broadcast fallback that the paper describes st...
+- **Source URL:** https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** N-day is Becoming N-Hour. Patching Faster Won't Save You. Jul 21, 2026 Artificial Intelligence / Browser Security Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This is N-day exploitation, and it's always been a race: the vendor patches, the clock starts, and defenders try to deploy before an attacker finishes reverse-engineering the fix. For the last thirty-odd years, defenders usually won that race. Reverse-engineering a patch into a reliable exploit was slow, specialized work - usually requiring weeks of expert-level effort. Historically, the gap between a patch and a working public exploit spanned weeks, often months. The traditional playbook assumed you had at least a few weeks. You don't anymore. Not even close. Reverse-engineering a patch used to take weeks. Mythos does it in an hour. Anthropic's red team measured exactly that. Given not...
+- **Source URL:** https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Jul 21, 2026 Critical Infrastructure / Cloud Security A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt , described by three Zhejiang University researchers in a paper accepted to CHES 2026 , the IACR's hardware-security conference, and the evidence splits in two: they measured the power modulation on real GPUs and simulated the grid destabilization it could cause. The technique inverts the usual grid-attack model: no compromised sensors, no malware on control systems, no stolen operator credentials, just a workload built to misbehave on purpose. It works because a GPU's power draw follows whatever it is computing. Saturate the tensor cores and current spikes; drop to idle, and it collapses. Toggle between those states on a schedule and you get a controllable power oscillation at the wall socket. The authors frame it as a blunt question: can "purely com...
+- **Source URL:** https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Closing the Identity Gaps in Critical Infrastructure Security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** US seizes over 1,000 websites in FIFA World Cup piracy crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Critical Palo Alto VPN bug now exploited by Qilin ransomware gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-21
+- **Headline / event:** Windows LegacyHive zero-day flaw gets free, unofficial patches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

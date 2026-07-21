@@ -427,7 +427,8 @@
       "https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html",
       "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
-      "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html"
+      "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
+      "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1177,7 +1178,12 @@
       "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
       "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
       "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+      "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+      "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+      "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+      "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1921,7 +1927,11 @@
       "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
       "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
       "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-      "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
+      "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/"
     ]
   }
 }
