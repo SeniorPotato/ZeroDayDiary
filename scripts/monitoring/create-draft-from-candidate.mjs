@@ -22,7 +22,7 @@ const sections = {
   'Further reading': sourceLinks || '- Add primary and supporting sources.',
 };
 
-const { filePath } = await writeCanonicalPost({
+await writeCanonicalPost({
   root,
   title: candidate.title,
   description: candidate.description,
@@ -33,4 +33,4 @@ const { filePath } = await writeCanonicalPost({
   sections,
 });
 
-console.log(`Draft created: ${path.relative(root, filePath).replace(/\\/g, '/')}`);
+console.log('Draft created successfully.');
