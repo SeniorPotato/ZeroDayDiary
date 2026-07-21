@@ -8,17 +8,23 @@ if (!inputPath) {
   process.exit(1);
 }
 
-const root = process.cwd();
-const rootPath = await fs.realpath(root);
-const candidatePath = await fs.realpath(path.resolve(rootPath, inputPath));
-const relativeCandidatePath = path.relative(rootPath, candidatePath);
+function assertProjectFile(rootPath, filePath) {
+  const rootWithSeparator = rootPath.endsWith(path.sep) ? rootPath : `${rootPath}${path.sep}`;
 
-if (relativeCandidatePath.startsWith('..') || path.isAbsolute(relativeCandidatePath)) {
+  if (filePath === rootPath || filePath.startsWith(rootWithSeparator)) {
+    return filePath;
+  }
+
   console.error('Candidate path must resolve within the project root.');
   process.exit(1);
 }
 
-const candidate = JSON.parse(await fs.readFile(candidatePath, 'utf8'));
+const root = process.cwd();
+const rootPath = await fs.realpath(root);
+const candidatePath = await fs.realpath(path.resolve(rootPath, inputPath));
+const validatedCandidatePath = assertProjectFile(rootPath, candidatePath);
+
+const candidate = JSON.parse(await fs.readFile(validatedCandidatePath, 'utf8'));
 const sourceLinks = (candidate.sources || [])
   .map((src) => `- [${src.label || src.url}](${src.url})`)
   .join('\n');
