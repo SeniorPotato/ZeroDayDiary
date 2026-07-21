@@ -5,9 +5,8 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_TITLE } from '../consts';
-import { CATEGORY_LIST, getPrimaryCategory, getTagTheme } from '../data/categories';
+import { CATEGORY_LIST, getTagTheme } from '../data/categories';
 
-const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -17,7 +16,6 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     description: post.data.description,
     pubDate: post.data.pubDate,
     tags: post.data.tags,
-    readingTime: estimateReadingTime(`${post.data.title} ${post.data.description} ${post.body}`),
   }));
 const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
 ---
@@ -120,8 +118,6 @@ const allTags = [...new Set(posts.flatMap((post) => post.tags))].sort();
               <article class="result-card" data-title={post.title.toLowerCase()} data-description={post.description.toLowerCase()} data-tags={post.tags.join(' ').toLowerCase()}>
                 <div class="meta-row">
                   <p class="meta"><FormattedDate date={post.pubDate} /></p>
-                  <span class="meta-dot">•</span>
-                  <p class="meta">{post.readingTime} min read</p>
                 </div>
                 <h2><a href={`/blog/${cleanSlug(post.id)}/`}>{post.title}</a></h2>
                 <p class="desc">{post.description}</p>

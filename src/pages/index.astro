@@ -7,14 +7,9 @@ import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { CATEGORY_LIST } from '../data/categories';
 
-const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
 const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.map((post) => ({
-		...post,
-		readingTime: estimateReadingTime(`${post.data.title} ${post.data.description} ${post.body}`),
-	}));
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const [lead, ...remaining] = allPosts;
 const todaysBriefings = remaining.slice(0, 3);
@@ -61,8 +56,6 @@ const categoryCounts = Object.fromEntries(
 						<div class="lead-kicker">
 							<div class="meta-row">
 								<p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
-								<span class="meta-dot">•</span>
-								<p class="meta">{lead.readingTime} min read</p>
 							</div>
 						</div>
 						<div class="lead-story-copy">
@@ -84,8 +77,6 @@ const categoryCounts = Object.fromEntries(
 							<div>
 								<div class="meta-row">
 									<p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-									<span class="meta-dot">•</span>
-									<p class="meta">{post.readingTime} min read</p>
 								</div>
 								<h3><a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a></h3>
 								<p class="desc">{post.data.description}</p>

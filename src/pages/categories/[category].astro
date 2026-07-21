@@ -5,9 +5,8 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
-import { CATEGORY_META, CATEGORY_LIST, getPrimaryCategory, getTagTheme } from '../../data/categories';
+import { CATEGORY_META, CATEGORY_LIST, getTagTheme } from '../../data/categories';
 
-const estimateReadingTime = (text: string) => Math.max(1, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 220));
 const cleanSlug = (id: string) => id.replace(/\.(md|mdx)$/i, '');
 
 export async function getStaticPaths() {
@@ -18,10 +17,7 @@ const category = Astro.params.category ?? 'security';
 const meta = CATEGORY_META[category as keyof typeof CATEGORY_META];
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(category))).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-).map((post) => ({
-  ...post,
-  readingTime: estimateReadingTime(`${post.data.title} ${post.data.description} ${post.body}`),
-}));
+);
 const [lead, ...rest] = posts;
 ---
 
@@ -75,8 +71,6 @@ const [lead, ...rest] = posts;
         <article class="lead-card">
           <div class="meta-row">
             <p class="meta"><FormattedDate date={lead.data.pubDate} /></p>
-            <span class="meta-dot">•</span>
-            <p class="meta">{lead.readingTime} min read</p>
           </div>
           <h2><a href={`/blog/${cleanSlug(lead.id)}/`}>{lead.data.title}</a></h2>
           <p class="desc">{lead.data.description}</p>
@@ -89,8 +83,6 @@ const [lead, ...rest] = posts;
             <div>
               <div class="meta-row">
                 <p class="meta"><FormattedDate date={post.data.pubDate} /></p>
-                <span class="meta-dot">•</span>
-                <p class="meta">{post.readingTime} min read</p>
               </div>
               <h2><a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a></h2>
               <p class="desc">{post.data.description}</p>
