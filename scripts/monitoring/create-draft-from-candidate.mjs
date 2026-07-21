@@ -9,7 +9,16 @@ if (!inputPath) {
 }
 
 const root = process.cwd();
-const candidate = JSON.parse(await fs.readFile(path.resolve(root, inputPath), 'utf8'));
+const rootPath = await fs.realpath(root);
+const candidatePath = await fs.realpath(path.resolve(rootPath, inputPath));
+const relativeCandidatePath = path.relative(rootPath, candidatePath);
+
+if (relativeCandidatePath.startsWith('..') || path.isAbsolute(relativeCandidatePath)) {
+  console.error('Candidate path must resolve within the project root.');
+  process.exit(1);
+}
+
+const candidate = JSON.parse(await fs.readFile(candidatePath, 'utf8'));
 const sourceLinks = (candidate.sources || [])
   .map((src) => `- [${src.label || src.url}](${src.url})`)
   .join('\n');
