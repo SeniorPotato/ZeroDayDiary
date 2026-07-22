@@ -13308,3 +13308,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Student Loan Forgiveness Scammer Permanently Banned from Debt Relief Industry and Telemarketing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** LG to Ban Residential Proxies from Smart TV Apps
+- **Source URL:** https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Jul 21, 2026 Vulnerability / Cloud Security Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees. 404 Media reported Tuesday that a fix for the issue was deployed by Apple on July 3, 2026, after more than a year, when it was disclosed to the company by Tyler Murphy, co-founder of EasyOptOuts. Hide My Email generates unique, random email addresses that forward messages to a user's personal email inbox automatically. By creating disposable email addresses, the idea is to safeguard user privacy and tackle unwanted spam. The feature requires a paid subscription to iCloud+ and was announced by Apple in June 2021. However, at the start of the month, details emerged of a flaw that made it possible to unmask a user's real email address hidden behind a Hide My Email address. The issue was first reported to Apple on June 13, 2025, with Apple unsuccessfully attempting to patch it e...
+- **Source URL:** https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Jul 21, 2026 AI Security / Vulnerability Hidden text on a web page was enough to make Kiro , AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue, and no CVE has been assigned to it. Kiro's safety model rests on a human clicking "allow." The agent can run shell commands, fetch URLs, and edit files, and the design assumes a developer reviews anything risky before it happens. That approval step is the security boundary, and the flaw let an attacker slip past it without the developer ever being offered a choice. The weak point was the file that tells Kiro which external tools to load. Kiro reads its list of Model Context Protocol servers, and the exact command used to start each one, from ~/.kiro/settings/mcp.json. When that fi...
+- **Source URL:** https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities Jul 21, 2026 Software Security / Artificial Intelligence Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber , a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot program. CodeMender is an AI-powered agent for vulnerability discovery and patching that was unveiled by the company in October 2025. A Google DeepMind spokesperson told The Hacker News that there are plans to extend the model's capabilities to include red-teaming features and end-to-end enterprise defense. The lightweight model, per DeepMind, is both cost-efficient and highly capable alternative to large, costly cybersecurity-focused models. CodeMender can call upon 3.5 Flash Cyber "multiple times at high speed and low cost," allowing the AI agent to scan more code path...
+- **Source URL:** https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC Jul 21, 2026 Vulnerability / Web Security A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr . The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE researcher "splitline" with discovering and reporting the flaw. "In a network-based attack, an attacker authenticated as at least a Site Owner, could write arbitrary code to inject and execute code remotely on the SharePoint Server," Redmond said in an advisory released last week. "The attack vector is Network (AV:N) because this vulnerability is remotely exploitable and can be exploited from the internet. The attack complexity is Low (AC:L) because an attacker does not require significant prior knowledge of the system and can achieve repeatable success with the ...
+- **Source URL:** https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning Jul 21, 2026 Vulnerability / Cyber Attacks Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137 , have been codenamed wp2shell . "By the early hours of Saturday morning (UTC), successful exploitation was already well underway, initially using public exploit code to exfiltrate hashed credentials, with remote code execution following once additional details were made public," Jake Knott, principal security researcher at watchTowr, told The Hacker News in a statement. "From our vantage point across a global client base, we are seeing widespread impact of this vulnerability across organizations of every size and every vertical." Telemetry data captured by KEVIntel shows that 13 unique IP addresses from Switzerland, Germany, the U.K., Indonesia, Lithuania, the Netherlands, and Singapore h...
+- **Source URL:** https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Critical wp2shell WordPress flaws exploited to install webshells
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Police dismantle Kratos phishing platform, arrest developer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** FakeGit campaign uses 7,600 GitHub repos to push SmartLoader
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Critical SharePoint RCE flaw exploited to steal machine keys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
+- **Source URL:** https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
