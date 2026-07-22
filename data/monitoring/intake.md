@@ -13412,3 +13412,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** First steps forward for the implementation of the Health Action Plan
+- **Source URL:** https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** First-Person Identity Theft Story
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication Jul 22, 2026 Vulnerability / Web Security A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's "get_log_file" endpoint ("/api/w/{workspace}/jobs_u/get_log_file/{filename}"). "The filename parameter is concatenated into a file path without sanitization, allowing an attacker to read arbitrary files on the server using ../ sequences," according to an advisory published by Windmill in March 2026. "The primary sensitive value exposed by this vulnerability is the SUPERADMIN_SECRET environment variable, readable via /proc/1/environ. When set, this secret can be used as a Bearer token to authenticate as a superadmin and execute arbitrary code through the job preview API." However, it's worth noting that SUPERADMIN_SECRET is not set by default, and for standalon...
+- **Source URL:** https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** The Fastest Path to AI Adoption Runs Through Security Jul 22, 2026 AI Security / Shadow IT Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned. According to McKinsey's State of AI report, 76 percent of employees now use AI in some capacity at work, up from 55 percent the year before. Writing assistants, coding copilots, meeting summarizers, AI-powered research tools: they are woven into daily work. Most were never reviewed by security. The conventional response is restriction. An application appears, the security team blocks it, employees find a workaround within days, and the cycle repeats. It comes down to speed: the approval path moves slower than the pace of AI releases. When the official route takes six weeks, and a workaround takes six minutes, most employees will choose the workaround. Technology gets adopted because people find it use...
+- **Source URL:** https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Jul 22, 2026 AI Security / Cloud Security OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an "even more capable pre-release model," was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with "reduced cyber refusals for evaluation purposes" that might otherwise limit their ability to conduct cyber attacks, adding it expects such incidents to "become more commonplace with the proliferation of increasingly cyber-capable models." Describing it as an "unprecedented cyber incident" and one involving state-of-the-art cyber capabilities, OpenAI said it intends to conduct a thorough investigation in partnership with Hugging Face to get to the bottom of the matter. As part of an internal evaluation, the models are said to have identified and chained vulnerabilities across OpenAI's research environment and Hugging Face's producti...
+- **Source URL:** https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Why Modern SOCs Need Multi-Layered Detections Jul 22, 2026 Network Security / Artificial Intelligence The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report estimates around 79% of attacks are malware-free, as threat actors rely on credential theft and DLL side-load techniques to bypass host-level monitoring. Perimeter vulnerabilities compound this exposure; firewalls and VPN gateway breaches climbed 19% according to the latest Verizon Data Breach Investigations Report . Once an adversary gains access, breakout often occurs in seconds. Claude Mythos and similar models have further escalated operational pressure. These can rapidly discover and exploit previously unknown vulnerabilities, virtually closing the window from initial discovery to full compromise. Security practices must adapt to prioritize rapid containment and ...
+- **Source URL:** https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA Jul 22, 2026 Law Enforcement / Cybercrime German and US law enforcement have taken down the core infrastructure of Kratos , described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA) said they pulled more than 200 servers offline. Investigators estimate roughly 1,800 paying customers used Kratos to run about 15,000 phishing campaigns a month. Kratos harvested more than passwords. The kit was designed to steal the session cookie along with the login, and that cookie is enough to walk past two-factor authentication into the account as the user, the BKA said. ANY.RUN, which reverse-engineered the kit , found operators could pick one of two modes: a plain PHP page that only harvests credentials, or a Node.js reverse proxy designed to relay the login to Micros...
+- **Source URL:** https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** New InfraTrust report reveals infrastructure flaws admins should patch first
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Adobe Chrome extension flaw let sites access private WhatsApp chats
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** CISA orders urgent action on actively exploited Langflow RCE flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Stop renting storage space — this lifetime 2TB plan is yours for $59
+- **Source URL:** https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-22
+- **Headline / event:** Chick-fil-A discloses data breach after credential stuffing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

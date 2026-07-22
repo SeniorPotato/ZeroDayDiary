@@ -139,7 +139,8 @@
       "https://www.enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey",
       "https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
       "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
-      "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai"
+      "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
+      "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -431,7 +432,8 @@
       "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
       "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
-      "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html"
+      "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+      "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1191,7 +1193,12 @@
       "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
       "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
       "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-      "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html"
+      "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+      "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+      "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+      "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+      "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+      "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1944,7 +1951,12 @@
       "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
       "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
       "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
-      "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
+      "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+      "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
+      "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
+      "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/"
     ]
   }
 }
