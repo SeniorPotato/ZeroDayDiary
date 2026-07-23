@@ -435,7 +435,8 @@
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
       "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
       "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
-      "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html"
+      "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html",
+      "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1205,7 +1206,12 @@
       "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
       "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
       "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-      "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
+      "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+      "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+      "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+      "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+      "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
+      "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1967,7 +1973,10 @@
       "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
       "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
       "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-      "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/"
+      "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+      "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+      "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+      "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
     ]
   }
 }

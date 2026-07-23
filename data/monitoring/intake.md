@@ -13596,3 +13596,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** End-to-End Encryption and “Going Dark”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files Jul 23, 2026 Vulnerability / Application Security Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac. Accomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running local Cowork sessions were affected prior to it being patched. It has been codenamed SharedRoot . "We connected a folder to a fresh Claude Cowork session, sent one short message, and watched the agent escape the sandbox," Oren Yomtov, principal security researcher at Accomplish AI, said . "From inside the VM, it reached the host Mac and read and wrote files all over it, far outside the folder we'd connected, with no permission prompt anywhere." With this level of access, the agent can access any data stored on the Mac via the user's account, including SSH ke...
+- **Source URL:** https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge Jul 23, 2026 Ransomware / Network Security The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT , the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor. The implant never opens an outbound connection of its own. Its process talks to 127.0.0.1 and nothing else. It starts Chrome or Edge in headless mode and drives the browser over the Chrome DevTools Protocol, the browser's own debugging API. Every C2 message travels out from there through a WebRTC data channel relayed by Twilio's TURN service, so what a defender sees on the wire is a browser calling Cloudflare and Twilio. The attacker's own server address never appears at all. Chrome Does the Talking msaRAT looks for Chrome or Edge through environment variables first, then falls back to the registry for Chrome. If no matching browser is found, the CDP path is skipped. When it finds one, it starts the browser without a visible window using -...
+- **Source URL:** https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks Jul 23, 2026 Malware / Threat Intelligence An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx . The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented Windows loader called TriBack Loader. Group-IB found the server in mid-April 2026 in Alibaba Cloud's Singapore region; it was offline by the time the report published on July 23, 2026. Its bash history, phishing packages, post-exploitation tools, and webshell paths laid the operation out: active intrusions against a Vietnamese public hospital's medical imaging system and Malaysia's Ministry of Foreign Affairs, scanning and exploitation follow-up against Hong Kong education infrastructure, and a spear-phishing package addressed to the National Congress of Honduras. The operators reached the hospital's imaging server through webshells planted on an exposed Java management interface. One Loader, Four Builds TriBack Loader a...
+- **Source URL:** https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** How Synthetic Identity Fraud is Coming for Machine Identities Jul 23, 2026 Identity Security / Cloud Security Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a real identity, the attacker manufactures a new one, frankensteining together several real data points with fabricated ones to create a person who doesn't exist. Since no real victim monitors misuse, a fake identity can silently accumulate permissions and credibility over time before it's ever detected. This same principle has a largely unexplored parallel with Non-Human Identities (NHIs). Security teams are spending significant effort to protect NHIs from being stolen. Still, the machine-side equivalent of synthetic identity fraud is rarely discussed: identities that were never legitimately provisioned from the start. Following this approach, an attacker doesn't hijack an existing service account but instead fabricates one, blending real environmental attributes with fake o...
+- **Source URL:** https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers Jul 23, 2026 Vulnerability / Web Security Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13, 2026. The list of affected Packagist packages is below - dinushchathurya/nationality-list dinushchathurya/srilankan-divisional-secretariats dinushchathurya/srilankan-gn-divisions dinushchathurya/srilankan-local-authorities dinushchathurya/srilankan-mobile-number-validator dinushchathurya/srilankan-state-hospitals dinushchathurya/srilankan-universities dinushchathurya/uk-mobile-number-validator dinushchathurya/uk-post-code dinushchathurya/websmslk "The PHP libraries were not the execution path," Socket said in a statement. "Attackers had added...
+- **Source URL:** https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** New msaRAT malware uses Chrome, Edge browsers to route C2 traffic
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-23
+- **Headline / event:** Check Point warns of SmartConsole zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
