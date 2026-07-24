@@ -13756,3 +13756,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Have your say on the certification of EU Managed Security Services
+- **Source URL:** https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Why AI Needs a “Genie Coefficient”
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link Jul 24, 2026 Vulnerability / Enterprise Security Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization. The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8, 2026, following responsible disclosure. "A single link could hijack OpenAI's ChatGPT Agent Builder to stand up an attacker-controlled AI agent with a real employee's access and its approvals switched off," the AI security company said in a two-part report shared with The Hacker News. The attack occurs when an unsuspecting employee clicks open a benign-looking ChatGPT link, causing it to spawn a new AI agent within the company's trust boundary that does the attacker's bidding. The issue is a case of cross-site request forgery (CSRF) that forges an attack...
+- **Source URL:** https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers Jul 24, 2026 Vulnerability / Web Security A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet. XBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and CVE-2026-32191, and rated both 9.8 on the CVSS scale. XBOW, the autonomous offensive security startup, found both and reported them privately. Bing users have no patch or mitigation to apply: Microsoft fixed both server-side before the advisories went out in March, and the records state there is "no customer action to resolve." Neither advisory recorded exploitation or public disclosure when they went up on March 19. XBOW published the exploit mechanics on July 23, after holding them back at Microsoft's request until the remediation had landed. What outlive...
+- **Source URL:** https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do Jul 24, 2026 Enterprise Security / AI Security AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of AI agents is essential to securing them. It's not easy, but it's the only path forward. Organizations approach this challenge with different levels of sophistication. For many, the current goal is simply to find the AI agents already operating across the business. That is a necessary first step. AI agents are appearing in SaaS platforms, developer environments, cloud workflows, customer support systems, productivity tools, and internal applications. Some are sanctioned, and others are not. But discovery alone isn't useful. AI agents are not passive; they reason, plan, c...
+- **Source URL:** https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry Jul 24, 2026 Artificial Intelligence / Threat Intelligence Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection. The agent then worked through the ministry's network on its own, checking hosts for ways to gain root access, hunting through file systems, and crawling a folder of staff personnel records going back to 2012. The operator left the agent's own logs sitting on a web server with directory listing switched on, where threat intelligence firm Hunt.io and researcher Bob Diachenko found them, along with 585 files and 470 MB of attack tooling. The tool is Hermes , an open-source assistant from Nous Research that people install to manage their mail, run chores, and take instructions over Telegram or Slack. It is not a hacking tool, and nothing here is a flaw in it. The mode the operator used, called YOLO, is a documented feat...
+- **Source URL:** https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Golden Chickens Resurfaces With Four New Malware Families and Modular Implants Jul 24, 2026 Threat Intelligence / Browser Security The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings. The malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential theft utility codenamed ChromEggscalator. Recorded Future's Insikt Group is tracking the group under the moniker TAG-195. TAG-195 is a financially motivated malware-as-a-service (MaaS) developer whose tooling has been previously linked to TAG-127 as an operator and customer. The threat intelligence company said it has also observed TAG-127 deploying TinyEgg via ClickFix-style social engineering campaigns that trick unsuspecting users into manually executing malicious commands. "The four new families indicate an architectural transition and evolution in the TAG-195 MaaS ecosys...
+- **Source URL:** https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Chick-fil-A data breach affects more than 13,000 customers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Europol flags 4,340 URLs for removal in 'The Com' crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Man gets six years for hacking 750 women's Snapchat accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Clop ransomware targets Windchill, FlexPLM in data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

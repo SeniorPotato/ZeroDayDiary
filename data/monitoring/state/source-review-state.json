@@ -142,7 +142,8 @@
       "https://www.enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act",
       "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
       "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
-      "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan"
+      "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan",
+      "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -437,7 +438,8 @@
       "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
       "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
       "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html",
-      "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html"
+      "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html",
+      "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1217,7 +1219,12 @@
       "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
       "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
       "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
-      "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
+      "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+      "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+      "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1987,7 +1994,12 @@
       "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
       "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
       "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-      "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/"
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+      "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+      "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+      "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
     ]
   }
 }
