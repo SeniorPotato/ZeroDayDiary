@@ -13668,3 +13668,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes Jul 23, 2026 Email Security / Vulnerability A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA , CISA and partner agencies published a joint advisory on the campaign Thursday, alongside research from Palo Alto Networks' Unit 42 and Proofpoint. The advisory calls the technique "a view-based exploit that only requires a user to view a malicious email" in a vulnerable client. It says the actors have been targeting and compromising Western government and commercial organizations through Zimbra since at least July 2025. The flaw, CVE-2025-66376 , is a stored cross-site scripting vulnerability in Zimbra's Classic UI. A crafted HTML email abuses CSS @import handling to execute JavaScript inside a...
+- **Source URL:** https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories Jul 23, 2026 Hacking News / Cybersecurity News Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak code, and normal network traffic. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. The danger was easy to miss because it looked ordinary. Here is the full list:
+- **Source URL:** https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts Jul 23, 2026 Authentication / Data Protection Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video. The selfie for sign-in , per the tech giant, is another option on top of existing recovery methods to log in to an account, including an email address or a phone number. The idea is to use a video selfie as a way to regain access if a user ever gets locked out or doesn't have access to their usual phone or computer. As part of the process, users are required to set up a selfie video by just looking into the device's camera and completing a "few short, guided head movements" to capture their face from different angles. Should users have any trouble signing in to their accounts with the selfie method at a later stage, they can just take another selfie to sign back in. "Selfie video compares the new video to the one you set up to confirm it is really you and help you get back into your account," Google said in a blog post shared with The Ha...
+- **Source URL:** https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs Jul 23, 2026 Linux / Vulnerability RefluXFS , a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600 , lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access. Qualys said default installations of Red Hat Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet the conditions for exploitation. The company demonstrated the race against /etc/passwd and setuid-root binaries. The overwrite lands at the block layer. It survives a reboot and leaves the target's ownership, permissions, timestamps, and setuid bit untouched, so a modified setuid-root binary still runs as root. The fix was merged on July 16, and Linux vendors have begun shipping backported kernels. The patch traces the bug to Linux 4.11 in 2017: a Fixes: tag naming commit 3c68d44a2b49 and a stable backport request marked # v4.11 . Who is exposed Exploitation requires three conditions: The system runs Linux 4.11 or later without the RefluXFS fi...
+- **Source URL:** https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access Jul 23, 2026 Vulnerability / Network Security Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild . The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges. "Successful exploitation allows the attacker to modify security policies and security configurations," according to a description of the flaw in CVE.org. "Remote exploitation requires internet access to the Management Server IP address and a configuration that does not restrict Trusted Clients." Lotem Finkelstein, vice president of research at Check Point, said the company is aware of a small number of customers being targeted by this flaw, ...
+- **Source URL:** https://thehackernews.com/2026/07/check-point-patches-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** New Dolphin X malware uses AI to rank high-value targets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Australian energy provider Origin says data breach exposes client data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Fake Claude app promoted by Bing ads pushes SectopRAT
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Russian hackers exploit Zimbra zero-click flaw for email theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-24
+- **Headline / event:** Hackers abuse Notepad++ plugins to stealthily install
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
