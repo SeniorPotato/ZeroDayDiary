@@ -13852,3 +13852,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Friday Squid Blogging: Illex Squid Catch in the Falklands
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery Jul 24, 2026 Malware / Artificial Intelligence The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. " BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet reconnaissance and malware delivery into a repeatable victim acquisition pipeline," JUMPSEC said in a detailed report shared with The Hacker News. "The platform profiles victims' cryptocurrency wallets before malware delivery, enabling selective targeting of high-value victims." Describing the campaign as an operator-driven victim acquisition platform, the cybersecurity company noted that the activity involves using compromised trusted contacts as the initial access vector to create a self-propagating attack chain via Telegram. Details of the activity have been...
+- **Source URL:** https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller Jul 24, 2026 Vulnerability / Enterprise Security Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost . Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync . Microsoft patched the Active Directory Certificate Services (AD CS) issue ten days earlier as CVE-2026-54121 . Microsoft classed the flaw as improper authorization and assigned it a CVSS score of 8.8. Exploitation requires network access and a domain account, but no administrator rights or user interaction. In the researchers' test, a normal Domain Users account could create a computer account under the default ms-DS-MachineAccountQuota value of 10 or reuse one it already controlled. The chain also required an Enterprise CA that followed the vulnerable chain path, enrollment through t...
+- **Source URL:** https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Jul 24, 2026 Vulnerability / Database Security Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution . Redis 6.2.23, 7.2.15, and 7.4.10 fix the Streams shared-NACK use-after-free; Redis 8.2.8, 8.4.5, and 8.6.5 fix both the Streams issue and the RedisBloom and TDigest out-of-bounds writes; Redis 8.8.1 fixes the RedisBloom and TDigest loaders, while the Streams guard was already present in Redis 8.8.0. Two PoC targets, Redis 6.2.22 and 7.4.9, were the May security updates Redis told users to install, but those releases did not include the shared-NACK ownership guard. Upgrade to the fixed release for the deployed branch. Until then, revoke RESTORE from accounts that do not strictly need it and block untrusted network acce...
+- **Source URL:** https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks Jul 24, 2026 Cyber Espionage / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099 , a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to deliver a malware strain called LONEPAGE. Other cyber attacks mounted by the adversary have employed phishing emails as an initial access method to deploy MATCHBOIL, MATCHWOK, and DRAGSTARE. It's known to be active since at least mid-2022. The latest set of attacks begins, observed earlier this summer, with a phishing email containing an image attachment, which, when clicked, opens a URL that's concealed using a link shortener from where the request is sent to a file-sharing service like EasySend[.]co to retrieve a ZIP archive. The ZIP file contains a Visual Basic Script (VBSc...
+- **Source URL:** https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Hermes AI agent used to automate attack on Thai Finance Ministry
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** OnTrac notifies customers of data breach after network hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

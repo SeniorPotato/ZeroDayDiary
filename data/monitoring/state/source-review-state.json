@@ -439,7 +439,8 @@
       "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
       "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html",
       "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html",
-      "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html"
+      "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html",
+      "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1224,7 +1225,11 @@
       "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
       "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
       "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
+      "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+      "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -1999,7 +2004,10 @@
       "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
       "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
       "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-      "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+      "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/"
     ]
   }
 }
