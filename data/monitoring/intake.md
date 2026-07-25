@@ -13916,3 +13916,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available Jul 25, 2026 Vulnerability / Application Security Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723 , the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires Fastjson 1.2.68 through 1.2.83, a Spring Boot executable fat-JAR, a network-reachable path that sends attacker-controlled JSON to an affected parser, and SafeMode left at its disabled default. AutoType can remain disabled, and no classpath gadget is required. As of July 25, Alibaba had not released a fixed Fastjson 1.x version. Organizations that cannot migrate immediately should enable SafeMode with -Dfastjson.parser.safeMode=true or use com.alibaba:fastjson:1.2.83_noneautotype . Alibaba lists migration to Fastjson2 as the long-term fix. Alibaba published its advisory on July 21 follo...
+- **Source URL:** https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git Jul 25, 2026 Vulnerability / Application Security Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap pointer. Enough of those and an automated probe can locate the libraries in memory. Two more notebooks then fire the payload. No administrator rights, no CI or runner access, no victim interaction, no access to anyone else's project. GitLab did not file the fix as a security fix. A review by The Hacker News found the Oj 3.17.3 bump listed under bug fixes in the June 10 patch release , not in the security-fix table. There is no CVE, no CVSS score, and no mention of the notebook-diff chain. Operators who triaged that release against the security table had no reason to treat it as urgent. ...
+- **Source URL:** https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking Jul 25, 2026 Phishing / Cybercrime For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting credentials for later use, attackers now synchronize their activity with victims in real time, authenticating against legitimate insurance portals as victims unknowingly complete the login process. The entire attack can unfold within a single browsing session. This shift highlights a broader trend across the cybersecurity landscape. As phishing campaigns become more sophisticated, simply identifying malicious websites and impersonation domains is no longer enough. Organizations increasingly need to understand the infrastructure, techniques, and operational workflows behind these attacks. ...
+- **Source URL:** https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE Jul 25, 2026 Vulnerability / Ransomware Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling unauthenticated remote code execution and deployment of hex-named JSP web shells under /Windchill/login/," according to a new coordinated advisory released by Ransom-ISAC along with eCrime.ch and DEFUSED. Upon gaining an initial foothold, the attackers have been found to conduct file system enumeration, stage engineering/design data, and ultimately carry out double extortion data theft. Targets of the campaign include manufacturing, automotive, aerospace, and retail sectors. It's suspected that threat actors are exploiting CVE-2026-12569 (CVSS score: 9.3), a critical security fl...
+- **Source URL:** https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-25
+- **Headline / event:** DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts Jul 25, 2026 Ransomware / Cybercrime The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation under the name Funky Mantis . "The portal combined build generation, finance, victim chat, support, victim records, teams, and payout functions," the company said in an extensive report shared with The Hacker News. "The service integrated access brokerage or access distribution with ransomware deployment. Administrators offered country-specific 'networks,' asked whether an affiliate would use personal or program-supplied access, and imposed two-to-three-day completion windows." Various analyses show that DevMan first emerged on the scene in April 2025 as an affiliate for Qilin, DragonForce, Apos, and RansomHub, before shifting to their o...
+- **Source URL:** https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED

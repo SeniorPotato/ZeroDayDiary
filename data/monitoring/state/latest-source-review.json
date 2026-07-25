@@ -1,86 +1,56 @@
 {
-  "generatedAt": "2026-07-25T03:40:25.884Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-25T034025Z.md",
+  "generatedAt": "2026-07-25T14:03:27.048Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-25T140327Z.md",
   "candidates": [
     {
       "discovered": "2026-07-25",
-      "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
-      "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available Jul 25, 2026 Vulnerability / Application Security Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723 , the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires Fastjson 1.2.68 through 1.2.83, a Spring Boot executable fat-JAR, a network-reachable path that sends attacker-controlled JSON to an affected parser, and SafeMode left at its disabled default. AutoType can remain disabled, and no classpath gadget is required. As of July 25, Alibaba had not released a fixed Fastjson 1.x version. Organizations that cannot migrate immediately should enable SafeMode with -Dfastjson.parser.safeMode=true or use com.alibaba:fastjson:1.2.83_noneautotype . Alibaba lists migration to Fastjson2 as the long-term fix. Alibaba published its advisory on July 21 follo...",
+      "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-illex-squid-catch-in-the-falklands",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-07-25",
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery Jul 24, 2026 Malware / Artificial Intelligence The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \" BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet reconnaissance and malware delivery into a repeatable victim acquisition pipeline,\" JUMPSEC said in a detailed report shared with The Hacker News. \"The platform profiles victims' cryptocurrency wallets before malware delivery, enabling selective targeting of high-value victims.\" Describing the campaign as an operator-driven victim acquisition platform, the cybersecurity company noted that the activity involves using compromised trusted contacts as the initial access vector to create a self-propagating attack chain via Telegram. Details of the activity have been...",
-      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "bluenoroff-zoom-phishing-kit-profiles-crypto-wallets-before-malware-delivery-jul-24-2026-m",
+      "slug": "fastjson-1-x-rce-vulnerability-targeted-in-attacks-with-no-patched-available-jul-25-2026-v",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-25",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller Jul 24, 2026 Vulnerability / Enterprise Security Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost . Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync . Microsoft patched the Active Directory Certificate Services (AD CS) issue ten days earlier as CVE-2026-54121 . Microsoft classed the flaw as improper authorization and assigned it a CVSS score of 8.8. Exploitation requires network access and a domain account, but no administrator rights or user interaction. In the researchers' test, a normal Domain Users account could create a computer account under the default ms-DS-MachineAccountQuota value of 10 or reuse one it already controlled. The chain also required an Enterprise CA that followed the vulnerable chain path, enrollment through t...",
-      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git Jul 25, 2026 Vulnerability / Application Security Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap pointer. Enough of those and an automated probe can locate the libraries in memory. Two more notebooks then fire the payload. No administrator rights, no CI or runner access, no victim interaction, no access to anyone else's project. GitLab did not file the fix as a security fix. A review by The Hacker News found the Oj 3.17.3 bump listed under bug fixes in the June 10 patch release , not in the security-fix table. There is no CVE, no CVSS score, and no mention of the notebook-diff chain. Operators who triaged that release against the security table had no reason to treat it as urgent. ...",
+      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "certighost-exploit-lets-low-privileged-active-directory-users-impersonate-a-domain-control",
+      "slug": "researcher-publishes-gitlab-rce-poc-letting-authenticated-users-run-commands-as-git-jul-25",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-25",
-      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Jul 24, 2026 Vulnerability / Database Security Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution . Redis 6.2.23, 7.2.15, and 7.4.10 fix the Streams shared-NACK use-after-free; Redis 8.2.8, 8.4.5, and 8.6.5 fix both the Streams issue and the RedisBloom and TDigest out-of-bounds writes; Redis 8.8.1 fixes the RedisBloom and TDigest loaders, while the Streams guard was already present in Redis 8.8.0. Two PoC targets, Redis 6.2.22 and 7.4.9, were the May security updates Redis told users to install, but those releases did not include the shared-NACK ownership guard. Upgrade to the fixed release for the deployed branch. Until then, revoke RESTORE from accounts that do not strictly need it and block untrusted network acce...",
-      "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking Jul 25, 2026 Phishing / Cybercrime For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting credentials for later use, attackers now synchronize their activity with victims in real time, authenticating against legitimate insurance portals as victims unknowingly complete the login process. The entire attack can unfold within a single browsing session. This shift highlights a broader trend across the cybersecurity landscape. As phishing campaigns become more sophisticated, simply identifying malicious websites and impersonation domains is no longer enough. Organizations increasingly need to understand the infrastructure, techniques, and operational workflows behind these attacks. ...",
+      "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "kimi-k3-agents-found-redis-zero-days-and-built-rce-exploit-researchers-say-jul-24-2026-vul",
+      "slug": "ctm360-research-reveals-how-insurance-phishing-has-evolved-into-real-time-account-hijackin",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-25",
-      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks Jul 24, 2026 Cyber Espionage / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099 , a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to deliver a malware strain called LONEPAGE. Other cyber attacks mounted by the adversary have employed phishing emails as an initial access method to deploy MATCHBOIL, MATCHWOK, and DRAGSTARE. It's known to be active since at least mid-2022. The latest set of attacks begins, observed earlier this summer, with a phishing email containing an image attachment, which, when clicked, opens a URL that's concealed using a link shortener from where the request is sent to a file-sharing service like EasySend[.]co to retrieve a ZIP archive. The ZIP file contains a Visual Basic Script (VBSc...",
-      "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE Jul 25, 2026 Vulnerability / Ransomware Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling unauthenticated remote code execution and deployment of hex-named JSP web shells under /Windchill/login/,\" according to a new coordinated advisory released by Ransom-ISAC along with eCrime.ch and DEFUSED. Upon gaining an initial foothold, the attackers have been found to conduct file system enumeration, stage engineering/design data, and ultimately carry out double extortion data theft. Targets of the campaign include manufacturing, automotive, aerospace, and retail sectors. It's suspected that threat actors are exploiting CVE-2026-12569 (CVSS score: 9.3), a critical security fl...",
+      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-notepad-plugin-delivers-matchboil-v2-in-uac-0099-attacks-jul-24-2026-cyber-espionage-",
+      "slug": "cl0p-affiliates-target-internet-exposed-ptc-windchill-and-flexplm-with-unauthenticated-rce",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-07-25",
-      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts Jul 25, 2026 Ransomware / Cybercrime The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation under the name Funky Mantis . \"The portal combined build generation, finance, victim chat, support, victim records, teams, and payout functions,\" the company said in an extensive report shared with The Hacker News. \"The service integrated access brokerage or access distribution with ransomware deployment. Administrators offered country-specific 'networks,' asked whether an affiliate would use personal or program-supplied access, and imposed two-to-three-day completion windows.\" Various analyses show that DevMan first emerged on the scene in April 2025 as an affiliate for Qilin, DragonForce, Apos, and RansomHub, before shifting to their o...",
+      "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-25",
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-25",
-      "title": "OnTrac notifies customers of data breach after network hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ontrac-notifies-customers-of-data-breach-after-network-hack",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
+      "slug": "devman-raas-portal-centralizes-payload-builds-victim-management-and-affiliate-payouts-jul-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
     }
   ]
 }
