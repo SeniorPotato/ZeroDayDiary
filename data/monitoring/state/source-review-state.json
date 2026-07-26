@@ -1234,7 +1234,8 @@
       "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
       "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
       "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
+      "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2012,7 +2013,10 @@
       "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/"
+      "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+      "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+      "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
     ]
   }
 }

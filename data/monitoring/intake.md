@@ -13956,3 +13956,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-26
+- **Headline / event:** Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable Jul 25, 2026 Browser Security / Malvertising A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and cryptocurrency investors across 12 countries in 25 languages. Its landing pages fingerprint visitors, showing suspected researchers and bots an empty page while selected targets receive a convincing copy of the impersonated service. The defense against that is the ordinary one: install trading and wallet software from the vendor's own site, not from an ad. The documented chain does not rely on a browser vulnerability or remove Mark of the Web (MotW). Confiant's analysis documents the delivery, not execution of the file inside the browser, and does not establish whether the fina...
+- **Source URL:** https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-26
+- **Headline / event:** Steam forum ClickFix attacks infect gamers with XMRig cryptominers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-26
+- **Headline / event:** Malicious sites use JavaScript to build malware in browser memory
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-26
+- **Headline / event:** ShinyHunters data leaks fuel $2,000 sextortion email scam
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
