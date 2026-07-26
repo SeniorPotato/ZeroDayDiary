@@ -1,46 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:57:08.914Z",
-  "packetPath": "data/monitoring/review-packets/2026-07-26T035708Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-07-26",
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable Jul 25, 2026 Browser Security / Malvertising A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and cryptocurrency investors across 12 countries in 25 languages. Its landing pages fingerprint visitors, showing suspected researchers and bots an empty page while selected targets receive a convincing copy of the impersonated service. The defense against that is the ordinary one: install trading and wallet software from the vendor's own site, not from an ad. The documented chain does not rely on a browser vulnerability or remove Mark of the Web (MotW). Confiant's analysis documents the delivery, not execution of the file inside the browser, and does not establish whether the fina...",
-      "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "malvertising-sends-malware-in-pieces-then-makes-the-browser-build-the-executable-jul-25-20",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-07-26",
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-26",
-      "title": "Malicious sites use JavaScript to build malware in browser memory",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "malicious-sites-use-javascript-to-build-malware-in-browser-memory",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-07-26",
-      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-07-26T13:58:41.861Z",
+  "packetPath": "data/monitoring/review-packets/2026-07-26T135841Z.md",
+  "candidates": []
 }
