@@ -13996,3 +13996,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Cognyte Sells a Mobile Cell Surveillance Van
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an int...
+- **Source URL:** https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** ⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More Jul 27, 2026 Cybersecurity / Hacking Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped. That is the mood. Here is the full recap. ⚡ Threat of the Week OpenAI Says Its AI Agent Went Rogue and Targeted Hugging Face - OpenAI disclosed that it lost control of two AI models during a security evaluation that ended in a breach of Hugging Face. The AI company said its AI models broke out of a sealed testing environment and broke into Hugging Face's production system to find solutions for the ExploitGym benchmark. "The incident also makes clear that advanced models can discover and exploit novel attack paths in real-world systems without source-code access," OpenAI said. "It highlights that advanced cyber capabilities must be developed alongside stronger safegua...
+- **Source URL:** https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process Jul 27, 2026 Vulnerability / Enterprise Security n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The affected ranges are <2.31.5 and >=2.32.0,<2.32.1 . n8n fixed the flaw in versions 2.31.5 and 2.32.1 . It tracks the issue as GHSA-gv7g-jm28-cr3m , rates it High with a CVSS 4.0 score of 8.7, and no CVE had been assigned as of July 27, 2026. Administrators should update rather than rely on n8n's interim guidance to restrict instance access and workflow editing to fully trusted users. The advisory describes those controls as incomplete, short-term mitigations. It lists no patched 1.x release and does not say whether n8n Cloud was affected. Exploitation requires a valid account with permission to create or modify workflows. It does not require action from another user. A succ...
+- **Source URL:** https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update Jul 27, 2026 Malware / Cyber Attack Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs "secure document" lures to deliver legitimate remote monitoring and management ( RMM ) tools. "The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened," ZeroBEC said in a report published last week. The bogus Teams page in question is "teamvem[.]com." The active download is used to deliver "supportdev.exe," an Inno Setup-based loader that launches PowerShell in a hidden window, fetches an official Level RMM installer, and registers the endpoint using an attacker-controlled enrollment secret ("LEVEL_API_KEY=GxSCHE8EZwfyYN3iPQHPai8D"). The same PowerShell command has been found to download and deploy ConnectWise ScreenConnect in parallel, indicating an attempt to drop multiple RMM tools with an intent to...
+- **Source URL:** https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware Jul 27, 2026 Malware / Email Security The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra . According to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote access trojans (RATs) and information stealer malware. "Cruciferra is written in Mono and features numerous techniques designed to evade detection, analysis, and incident response efforts," the enterprise security company said in an analysis published last week. "These include using indirect system calls, API and Import Address Table (IAT) unhooking, bring-your-own-vulnerable-driver ( BYOVD )-based EDR tampering, privilege escalation, persistence mechanisms, and a customized implementation of Process Ghosting used to execute payloads while minimizing forensic artifacts."...
+- **Source URL:** https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Shadow AI agents are multiplying. Here's how to find and secure them.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-27
+- **Headline / event:** Ernst & Young data breach claimed by ShinyHunters extortion gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
