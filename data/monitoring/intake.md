@@ -14148,3 +14148,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Axon Is Another License Plate Surveillance Company
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach Jul 28, 2026 Vulnerability / Artificial Intelligence JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud and self-hosted customers. The Artifactory exploit occurred inside OpenAI's environment. OpenAI says a separate attack path later reached Hugging Face's systems. JFrog says its cloud customers are already protected. Self-hosted users should review the Artifactory release notes and move to the remediating build for their maintained branch. Several Artifactory CVE records were published on July 27 with affected-version ranges and fixed-version thresholds, but neither JFrog nor OpenAI has said whether any of those records correspond to the vulnerabilities used during the evaluati...
+- **Source URL:** https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root Jul 28, 2026 Network Security / Vulnerability OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6 REQUEST. odhcpd runs as root, and the advisory notes that embedded hardware commonly lacks stack canaries and address space layout randomization (ASLR), making code execution a realistic outcome on typical devices. The advisory includes public Python proof-of-concept code for both documented overflow paths. Users on the 24.10 branch should install 24.10.8, while users on 25.12 should install 25.12.5; firmware images are available through the OpenWrt Firmware Selector. As of July 28, the reviewed OpenWrt materials did not report exploitation in the wild. The flaw was also absent from CISA...
+- **Source URL:** https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays Jul 28, 2026 Malware / Cyber Espionage The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers, BridgeHead and ArcBridge, with an aim to maintain covert access. Targets of the campaign include Egypt, SMB and government environments in Jordan and Tanzania, aviation organizations in Pakistan, telecommunication companies in Ethiopia, and financial-sector entities in Burkina Faso, per Kaspersky. "The toolset includes NightLedger, a new Windows backdoor for reconnaissance, command execution, file operations, process discovery, and screenshot capture; and two custom WebSocket-based tunnelers, ArcBridge and BridgeHead, for covert network access and operator-controlled tunneling," Kasper...
+- **Source URL:** https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In Jul 28, 2026 Vulnerability / Enterprise Security JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already been updated. JetBrains has credited Antoni Tremblay with discovering and reporting the flaw on July 10, 2026. "If exploited, this flaw may enable an unauthenticated attacker with HTTP(S) access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process," JetBrains said. The flaw allows unauthenticated remote code execution via the agent polling protocol to sidestep authentication checks and achieve command execution. Depending on the privileges granted to the TeamCity server process, ...
+- **Source URL:** https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit Jul 28, 2026 Vulnerability / Linux STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem. Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local privilege escalation, not remote code execution, so an attacker needs a foothold on the machine before any of it applies. The demonstrated exploit also requires unprivileged user namespaces, the CONFIG_NET_ACT_GACT and CONFIG_NET_CLS_FLOWER kernel options, and a kernel-specific return-oriented programming (ROP) chain containing hardcoded offsets. Those conditions narrow the immediate exposure, but full exploit source code is now public. The upstream fix landed on June 1, 2026, and has since been backported to several stable kernel branches. The Linux CNA record lists vulnerable ranges begi...
+- **Source URL:** https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Is Your SSO Protected Against Modern Credential Attacks?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Over 24,000 exposed server BMCs leak password hash via decades-old flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-28
+- **Headline / event:** Data breach at medical billing firm MCBS affects 1.26 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

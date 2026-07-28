@@ -443,7 +443,8 @@
       "https://www.schneier.com/blog/archives/2026/07/end-to-end-encryption-and-going-dark.html",
       "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
-      "https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html"
+      "https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html",
+      "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1247,7 +1248,12 @@
       "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
       "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
       "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
+      "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+      "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+      "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2036,7 +2042,10 @@
       "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
       "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-      "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
+      "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+      "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+      "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+      "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/"
     ]
   }
 }
