@@ -79,7 +79,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a"
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+      "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -246,7 +247,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-truheight-deceptive-unsubstantiated-advertising-supplements-kids",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/founders-celsius-network-ordered-pay-165-million-resolve-ftc-charges",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/student-loan-forgiveness-scammer-permanently-banned-debt-relief-industry-telemarketing",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-returns-money-consumers-harmed-trend-deploys-deceptive-marketing"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-returns-money-consumers-harmed-trend-deploys-deceptive-marketing",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-takes-action-against-elite-events-bypassing-ticket-purchase-limits-violation-better-online"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1241,7 +1243,11 @@
       "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
       "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
       "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-      "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html"
+      "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+      "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2025,7 +2031,12 @@
       "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
       "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
       "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-      "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
+      "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
+      "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+      "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
     ]
   }
 }
