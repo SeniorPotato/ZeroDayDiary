@@ -444,7 +444,8 @@
       "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
       "https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html",
-      "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html"
+      "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html",
+      "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1253,7 +1254,12 @@
       "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
       "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
       "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-      "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
+      "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+      "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+      "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2045,7 +2051,11 @@
       "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
       "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
       "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
-      "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/"
+      "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+      "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+      "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+      "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+      "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
     ]
   }
 }

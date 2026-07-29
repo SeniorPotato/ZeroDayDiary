@@ -14220,3 +14220,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Measuring LLMs’ Ability to Perform Cryptanalysis
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack Jul 28, 2026 Artificial Intelligence / Encryption Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server. The AES result removes a 256-way guessing step from an existing meet-in-the-middle attack. Anthropic said neither result affects production systems. HAWK remains a candidate in a National Institute of Standards and Technology (NIST) post-quantum standardization process, and the public recovery code only targets the smaller HAWK-256 parameter. The Advanced Encryption Standard (AES) result applies to seven of AES-128's ten rounds and still requires an impractical number of chosen plaintexts. The company said no production software needs to change as a result. Anthropic published...
+- **Source URL:** https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process Jul 28, 2026 Linux / Endpoint Security A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (DDoS) methods. It can also run a SOCKS5 proxy, execute shell commands, and collect system and network data. The malware can update itself and retrieve additional Executable and Linkable Format (ELF) or Android package (APK) payloads. Nozomi listed architecture-specific samples for i386, amd64, MIPS, ARM, PowerPC, and m68k. The report identifies no specific vendor or device model. It also names no operator, infection count, or real-world DDoS victims. It shows what Tengu can do, not how far it has spread. Defenders should start by removing internet exposure for Telnet and other unne...
+- **Source URL:** https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** 24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login Jul 28, 2026 Vulnerability / Server Security Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to a vulnerability with the IPMI v2.0 specification itself, according to a new report Lava shared with The Hacker News. IPMI v2.0 was introduced in February 2024. The issue in question is CVE-2013-4786 (CVSS score: 7.5), a high-severity information disclosure flaw that enables remote attackers to obtain password hashes for valid accounts and conduct offline password guessing attacks by obtaining the HMAC from an RMCP+ Authenticated Key-Exchange Protocol (RAKP) message response from a BMC. Per an advisory released by Dell, "this is an inherent problem with the specification for IPMI ...
+- **Source URL:** https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost Jul 28, 2026 AI Security / Vulnerability Management Microsoft has launched its first cybersecurity-specific model inside MDASH , its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved MDASH customers through an Azure AI Foundry private preview. MAI-Cyber-1-Flash is designed to handle up to 90% of MDASH tasks, with GPT-5.4 reserved for the hardest 10%. It is available only inside MDASH, not as a standalone public model or general-purpose application programming interface. The headline score belongs to MDASH running MAI-Cyber-1-Flash alongside GPT-5.4, not to the new model by itself. CyberGym Level 1 is a known-vulnerability reproduction test. It gives an agent a vulnerability description and the corresponding unpatched source code, then checks whether it can produce a ...
+- **Source URL:** https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw Jul 28, 2026 Vulnerability / Threat Intelligence A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution. "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host," Arista said in a Monday advisory. "Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator. This functionality was intended to be for internal use only and is not intended to be remotely accessible." The American network equipment company said the issue has already been addressed in hosted and dedicated versions of VCO in advance. The following versions are affected - VCO 5.2.x r...
+- **Source URL:** https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** CubePilot drone software dev hit by DNS hijacking to intercept traffic
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** OpenAI models used Artifactory zero-days to escape to the internet
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** CISA shares advice on isolating vital systems during cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** vBulletin fixes critical pre-auth RCE flaw with public exploit
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
