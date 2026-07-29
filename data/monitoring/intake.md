@@ -14300,3 +14300,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Long-Lived Vulnerability in Microsoft Secure Boot
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline Jul 29, 2026 Critical Infrastructure / Threat Intelligence A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. Braham 's water plant went offline, and the city asked residents to minimize water use until treatment resumed. Plymouth reported cellular communications problems at two water towers and multiple wastewater lift stations but continued operating manually. South St. Paul and Maple Plain maintained services after automated utility controls were affected, with Maple Plain declaring a local state of emergency to support its response. Minnesota IT Services (MNIT) said on July 28 that it was not aware of any active requests for residents to change their drinking-water use. Officials have not publicly identified the attacker, initial access method, affected product...
+- **Source URL:** https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments Jul 29, 2026 Cybercrime / Threat Intelligence Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6 , the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies, metallurgical plants, logistics operators, and banks. The operation has been ongoing since 2017. "Most of the content on these fraudulent websites was copied from the legitimate company websites. Some also used lookalike domain names," the cybersecurity company said in an exclusive report shared with The Hacker News. "These fake websites, available in English, French, Arabic, and Russian, were used to target international customers and steal advance payments for goods that did not exist." Analysis indicates that the phony prepayment scheme has primarily singled out o...
+- **Source URL:** https://thehackernews.com/2026/07/nine-year-fraud-campaign.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Mythos Asks the Right Question. It Doesn't Answer It. Jul 29, 2026 Exposure Management / Artificial Intelligence AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change? The honest answer is yes. But not the part most people are focused on. The discussion around Mythos, Anthropic's frontier model and its implications for offensive security, tends to center on discovery. AI accelerates reconnaissance. It helps attackers identify exposures faster, chain techniques more efficiently, and move at machine speed through environments that were previously protected, in part, by the attacker's own time constraints. That's real. And it matters. But here's the part getting less attention: most security teams weren't winning the prioritization battle bef...
+- **Source URL:** https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser Jul 29, 2026 Vulnerability / Browser Security Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702 , the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update . "No settings or additional user interaction are required," Eten Zou, CEO of Nebula Security, told The Hacker News. "Visiting a malicious webpage is enough to trigger it," Zou said every Tor Browser release that incorporated a vulnerable Firefox version was affected, though researchers have not identified the exact Tor releases. On its own, the bug runs code only inside Firefox's sandboxed content process. Nebula released public exploit material and used the flaw as the first stage of IonStack, a browser-to-kernel chain built for an ARM64 device running Android 17. The released end-to-end code targets one supported Google build, a...
+- **Source URL:** https://thehackernews.com/2026/07/researchers-show-single-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** 73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack Jul 29, 2026 Incident Response / Enterprise Security Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack. According to The State of Incident Response Readiness 2026 , based on a survey of 600 senior IT security decision makers conducted by Vanson Bourne in January and February 2026, 73% of organizations admit they would not be "fully ready" if a significant cybersecurity attack occurred tomorrow. The findings point to a critical gap between having incident response capabilities and being able to execute them effectively under pressure. The report also found that cyberattacks are already a recurring business risk. More than three-quarters of organizations, 76%, experienced at least one cyberattack in the past 12 months, while 32% experienced more than one. Incident Response Readiness Remains a Weak Point Incident response has evolved f...
+- **Source URL:** https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** Your AI Agents Are Guessing at Scale: Permissions Decide the Damage
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-29
+- **Headline / event:** These near-mint ASUS Chromebook refurbs are only $145
+- **Source URL:** https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

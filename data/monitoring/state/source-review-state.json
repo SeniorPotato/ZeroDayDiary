@@ -445,7 +445,8 @@
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
       "https://www.schneier.com/blog/archives/2026/07/cognyte-sells-a-mobile-cell-surveillance-van.html",
       "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html",
-      "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
+      "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
+      "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1259,7 +1260,12 @@
       "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
       "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
       "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-      "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
+      "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+      "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+      "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2055,7 +2061,9 @@
       "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
       "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
       "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-      "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
+      "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+      "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/"
     ]
   }
 }
