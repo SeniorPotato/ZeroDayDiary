@@ -14468,3 +14468,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** Should You Use AI for a Task? Here’s a Simple Way to Decide
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Jul 30, 2026 Vulnerability / Cloud Security A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz , which codenamed the chain CosmosEscape , said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a multi-tenant gateway exposed a platform-wide signing secret and a regional account directory, allowing the researchers to locate a target and retrieve its primary account key. Microsoft blocked the vulnerable Gremlin entry point within 48 hours of the November 2025 report. Wiz said Microsoft completed the longer-term fix across all regions in July 2026 and eliminated the platform-wide key. Microsoft said its review found no unauthorized activity outside the researchers' testing. It said no customer data was accessed and no customer action is required. The Hacker News has reached o...
+- **Source URL:** https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents Jul 30, 2026 Vulnerability / AI Security Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft. In his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session. Måløy's timeline says Microsoft confirmed the reported behavior on March 31 and deployed two mitigations. The first blocked the original prompt wording; the second upgraded the underlying model to GPT-5.5. He said the full chain worked with modified instructions on GPT-5.6 the next day, and the attack class still reproduced on July 28. "The vulnerability class therefore remains exploitable at the time of publication," Måløy said. The attack is not zero-click and does not execute conventional malware. It requires a Copilot drafting or editing operation, and the malicious document must en...
+- **Source URL:** https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** The Network Has Become the Control Plane for AI Security Jul 30, 2026 Network Security / AI Security Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to applications, applications exchange data, and security tools inspect packets, protocols, and destinations. Firewalls became exceptionally good at understanding where traffic was going and whether it should be allowed. But just as AI is reshaping every aspect of the business world, it's also had a monumental impact on how security teams view network traffic and the firewall. AI is driving new network dynamics that traditional security policies were never designed to govern. Employees, applications, and agents send prompts, call models, connect to services, and trigger actions across the environment, all activity most firewalls can't see, let alone understand. AI agents interact with external servic...
+- **Source URL:** https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts Jul 30, 2026 Vulnerability / Web Security South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could infect a system running a vulnerable AnySign4PC version without a prompt or user-initiated download. The Korea Internet & Security Agency (KISA) says AnySign4PC versions 1.1.4.4 through 1.1.4.6 are affected and lists version 1.1.5.0 as the fixed release. It recommends deleting vulnerable installations. AhnLab refers to two exploited products only as financial-security software A and I. Its report does not disclose their identities, affected or fixed versions, or vulnerability identifiers. AhnLab said it identified evidence of related attacks at 72 organizations in 2026. The company also found 15 legitimate websites used as watering holes. Its investigation also foun...
+- **Source URL:** https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT Jul 30, 2026 Cybercrime / Threat Intelligence The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access. "In this campaign, the group combines new vulnerable-driver abuse, newly observed abuse of legitimate applications for DLL sideloading, defense evasion, and layered recovery mechanisms to keep ValleyRAT running," Cato Networks researchers Shani Kurtzberg, Tomer Pugach, Dr. Guy Waizel, Zohar Buber, Idan Tarab, and Shani Kurtzberg said in an analysis. The attack chain begins with an invoice-themed phishing lure that uses attacker-controlled content hosted on legitimate QQ and Tencent Cloud services to trigger a DLL side-loading chain via a ZIP archive that paves the way for the deployment of ValleyRAT, but not before leveraging the BYOVD technique to obtain kernel access and impai...
+- **Source URL:** https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-30
+- **Headline / event:** After the Break-In: What Attackers Do Once They're Already Inside
+- **Source URL:** https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
