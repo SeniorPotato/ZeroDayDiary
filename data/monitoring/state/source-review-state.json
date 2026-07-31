@@ -322,7 +322,8 @@
       "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/"
+      "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -452,7 +453,8 @@
       "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
       "https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html",
       "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
-      "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html"
+      "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html",
+      "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1286,7 +1288,12 @@
       "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
       "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
       "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
+      "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+      "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+      "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+      "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2095,7 +2102,10 @@
       "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
       "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
       "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
-      "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
+      "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+      "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+      "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/"
     ]
   }
 }

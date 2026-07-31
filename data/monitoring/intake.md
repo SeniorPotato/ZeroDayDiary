@@ -14620,3 +14620,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Read This Before You Buy That TV Streaming Stick
+- **Source URL:** https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Facial Recognition at Madison Square Garden
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined Jul 31, 2026 Vulnerability / Browser Security Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined. Both versions were released last month. In its latest patch for Chrome 151, released Wednesday, the tech giant resolved 370 flaws , out of which 349 were reported by Google itself. Seven of the vulnerabilities have been marked critical in severity. The development comes amid an exponential surge in vulnerability discovery, mainly fueled by the advent of large language models (LLMs) that have accelerated the process, leading to an unprecedented spike in new bug reports, so much so that issues are being flagged at a faster rate than companies can fix them. According to statistics shared by the U.S. National Vulnerabilities Database (NVD), 46,872 flaws have been recorded so far in 2026, nearing the 49,920 vulnerabilities reported for the entirety of 2025.
+- **Source URL:** https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Jul 31, 2026 Mobile Security / Vulnerability An academic study has disclosed a "widespread class" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session. The findings have been released by a group of researchers from Singapore's Nanyang Technological University in a paper titled "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis." The study has uncovered dozens of vulnerabilities in the signaling interfaces of LTE/5G core networks, and specifically covers two LTE implementations (Open5GS and OpenAirInterface) and five 5G implementations (Open5GS, free5GC, OpenAirInterface, SD-Core, and eUPF) across two core signaling protocols, GTP-C and PFCP. "Our research finds these vulnerabilities share a single recurring root cause, implicit trust between core networ...
+- **Source URL:** https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** 6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026 Jul 31, 2026 Phishing / Browser Security Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months. Designed for input-constrained devices like smart TVs, printers, and so on, the device authorization login flow has been adopted by a wide range of apps and use-cases that it wasn't originally intended for - most commonly CLI logins. Researchers first described the attack vector in 2020, but it took until 2024 before nation-state actors like Storm-2372 started using it in the wild. By 2025, ShinyHunters was using device code phishing against Salesforce tenants at scale, then in February 2026, the EvilTokens kit arrived and criminal adoption skyrocketed. By April, Microsoft was reporting 10 to 15 entirely new campaigns every 24 hours . Barracuda counted 7 million attacks in four weeks . The FBI issued a standalone advisory on Kali365 , the first US federal agency PSA about a specif...
+- **Source URL:** https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks Jul 31, 2026 Artificial Intelligence / Cyber Attack Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The researchers recovered no further operator input in the session. The operator, tracked through the aliases knaithe and KnYuan , launched exploitation attempts against more than 460 targets using autonomous and conventional workflows. Unit 42 described seven exploit tracks. They span eight Common Vulnerabilities and Exposures (CVE) identifiers because the n8n chain combines two vulnerabilities. The DeepSeek-led attacks against Langflow and n8n failed because the exposed systems did not meet the exploits' configuration requirements. In separate manual operations, Unit 42 reported data exfiltration from three organizations through the NetScaler memory-overread flaw CVE-2026-3055 and command execution on 11...
+- **Source URL:** https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Jul 31, 2026 Artificial Intelligence / Offensive Security Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a "large-scale retrospective review" in response to a recent disclosure from OpenAI that a combination of its models escaped the sandboxed environment by exploiting a previously unreported zero-day in Artifactory to obtain internet access and break into Hugging Face's production systems with an end goal to cheat on an evaluation. "After reviewing 141,006 evaluation runs where Claude could have obtained internet access, we identified three incidents in which a model accessed the internet from within or while interacting with the evaluation environment of Irregular, one of our third-...
+- **Source URL:** https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** ShinyHunters claims Brinks Home breach, threatens to leak stolen data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Microsoft Teams vishing attacks lead to Chaos ransomware attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-07-31
+- **Headline / event:** Analog Devices discloses data breach, says operations unaffected
+- **Source URL:** https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
