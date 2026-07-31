@@ -81,7 +81,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
       "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -450,7 +451,8 @@
       "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
       "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
       "https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html",
-      "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html"
+      "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+      "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1279,7 +1281,12 @@
       "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
       "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
       "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-      "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html"
+      "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+      "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2083,7 +2090,12 @@
       "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
       "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
       "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-      "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/"
+      "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+      "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+      "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+      "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
     ]
   }
 }
