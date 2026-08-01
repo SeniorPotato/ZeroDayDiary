@@ -14700,3 +14700,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Statements on the Grant of Early Termination of the FTC’s Investigation of IonQ’s Proposed Acquisition of SkyWater
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/07/statements-grant-early-termination-ftcs-investigation-ionqs-proposed-acquisition-skywater
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Friday Squid Blogging: Squid Helps Discover New Marine Species
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Anthropic’s Opus 5 Is Better at Resisting Prompt Injection
+- **Source URL:** https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk Jul 31, 2026 Malware / Threat Intelligence A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025. These targeted organizations operate across several sectors, such as healthcare, research, government offices, ministries of foreign affairs, logistics, law-enforcement agencies, urban planning and facilities management, and public educational establishments, per Kaspersky. The activity has not been linked to any known adversary or group. The attacks are characterized by the use of two new obfuscated backdoors the Russian cybersecurity company is tracking as OctLurk and SilkLurk , as well as a specialized utility codenamed LurkProxy to proxy network traffic. "OctLurk and SilkLurk can download and inject additional plugins to perform further malicious actions, including launching command shells, perf...
+- **Source URL:** https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm Jul 31, 2026 Endpoint Security / Malware Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka . According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that involves privilege escalation, weakening Microsoft Defender protections, and downloading additional payloads. While HollowFrame is launched via a DLL side-loading pair comprising the legitimate Python binary ("python.exe") and a rogue DLL ("python311.dll"), Matryoshka comes in two variants, one which supports HTTP-based communication and command execution, and another that uses GitHub for command-and-control (C2), including beaconing, tasking, reconnaissance, file transfer, and secondary payload delivery. "Together, HollowFrame and Matryoshka gave the actor a pers...
+- **Source URL:** https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies Jul 31, 2026 IoT Security / Botnet Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators. Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology Co., Ltd., a mainland China company founded in 2019. The same apps have a second job. When a box detects an HDMI signal, it usually switches to relaying other people's traffic through the owner's broadband line as a SOCKS5 exit node. With HDMI off, it goes back to waiting for ad-fraud tasks. Bitsight found the operation by registering an expired domain used as a factory backdoor and telemetry collector. Most identifiable devices reported the model name H96_MAX_V11, though Bitsight said its sinkhole view was skewed toward older models from one brand and did not establish a complete affected-model list. In one day, after filtering for devices carrying the Fuyao apps, the sinkhole ...
+- **Source URL:** https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** CISA warns of cyberattacks disrupting U.S. water utilities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Amgen says cloud data breach exposed patient health, proprietary info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Arch Linux disables AUR package adoption to stop malware flood
+- **Source URL:** https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Online ad firm Adform’s script compromised to steal cryptocurrency
+- **Source URL:** https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-01
+- **Headline / event:** Hacker uses DeepSeek AI to autonomously attack vulnerable servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
