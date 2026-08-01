@@ -1299,7 +1299,10 @@
       "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
       "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
       "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html"
+      "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+      "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+      "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2116,7 +2119,8 @@
       "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
       "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
       "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-      "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
+      "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
+      "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/"
     ]
   }
 }
