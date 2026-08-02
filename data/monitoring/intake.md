@@ -14820,3 +14820,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-02
+- **Headline / event:** Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes Aug 01, 2026 Vulnerability / Threat Intelligence An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard , the Bitcoin-only hardware wallet made by Canadian firm Coinkite . A March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG) instead of the STM32 hardware random number generator (RNG). Block says an attacker who can determine or sufficiently constrain the device UID, timer state, and prior RNG-call history can reproduce candidate output streams offline without accessing the device. Candidate seeds can then be checked by deriving their addresses and comparing them with public blockchain data. Coinkite shipped emergency firmware for every affected model and release track on July 31, but installing it does not repair an existing seed. Coinkite tells owners with exposed seeds to generate a new one on patched f...
+- **Source URL:** https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-02
+- **Headline / event:** Rails patches critical Active Storage flaw with RCE potential
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
