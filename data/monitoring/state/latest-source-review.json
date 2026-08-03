@@ -1,5 +1,16 @@
 {
-  "generatedAt": "2026-08-02T13:57:46.231Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-02T135746Z.md",
-  "candidates": []
+  "generatedAt": "2026-08-03T03:56:21.256Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-03T035621Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-08-03",
+      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+      "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }
