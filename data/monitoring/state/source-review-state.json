@@ -457,7 +457,8 @@
       "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html",
       "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html",
-      "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html"
+      "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
+      "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1303,7 +1304,12 @@
       "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
       "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
       "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+      "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+      "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+      "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+      "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2123,7 +2129,9 @@
       "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
       "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
       "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-      "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/"
+      "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+      "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+      "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/"
     ]
   }
 }
