@@ -15004,3 +15004,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Some Claude Chats Are Searchable on Google
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks Aug 04, 2026 Supply Chain Attack / Malware A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026. SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages across 1,381 versions. Neither broader total was independently reproducible from a complete public list at the reporting cutoff. The malicious release used a preinstall script to run a credential-stealing bundle inside developer and continuous integration (CI) environments. SafeDep and Socket say it can harvest repository, package registry, cloud and private-key material, then use available npm publishing access to poison more packages. The Keyv repository also retained separate Claude Code and Visual Studio Code (VS Code) hooks that can execute the payload once a user trusts the workspace...
+- **Source URL:** https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access Aug 04, 2026 Threat Intelligence / Endpoint Security Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect. The campaign has been codenamed SMOKE#SCREEN by Securonix Threat Research. "The campaign relies on a toolkit of VBScript droppers, batch file loaders, compiled .NET executables and an HTML phishing page, all ultimately pointing to a live WsgiDAV-based staging server at 207.174.0[.]143:8080," researchers Shikha Sangwan, Akshay Gaikwad, and Aaron Beardslee said in a report shared with The Hacker News. Successful attacks culminate with a ScreenConnect agent installed and beaconing to one of three attacker-controlled relay servers, providing the attackers with persistent remote access to compromised systems. The activity has not been attributed to ...
+- **Source URL:** https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted Aug 04, 2026 Enterprise Security / Threat Intelligence The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as "script kiddies," sat at the other end, running public tools they didn't fully understand. Generative AI is collapsing that ranking. The next generation of attackers won't necessarily bring years of exploit development or reverse engineering experience. Instead, they'll use AI to close knowledge gaps by accelerating research, explaining unfamiliar concepts, generating code, troubleshooting errors, and adapting known techniques to new environments. The barrier to entry is dropping fast. The Economics of Cyberattacks Are Changing Every major technology shift changes economics as it changes the solutions we rely on. Clo...
+- **Source URL:** https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent Aug 04, 2026 AI Security / DevSecOps Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt-injected into posting /adk-issue-fix as adk-bot . They identified the bot as a collaborator, so that comment satisfied the privileged workflow's owner, member, or collaborator gate. The trusted bot identity became the authorization bridge. The team demonstrated arbitrary code execution on the continuous integration (CI) runner and exfiltration of the bot personal access token (PAT). The privileged job also held a Google API key and a Google Cloud service-account credential. Its researcher-controlled proof-of-concept attacks do not identify in-the-wild exploitation or a compromised ADK release. The exposed component was the repository automation, not a flaw in the distributed ADK Python package. Fo...
+- **Source URL:** https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root Aug 04, 2026 Vulnerability / Database Security cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects all supported versions of cPanel & WHM, along with WP Squared. Reaching it requires a valid cPanel account and access to the MySQL/MariaDB feature. From there, the vendor says the account holder could execute arbitrary database commands with full administrative privileges. Depending on the operating system and database engine configuration, “this may extend to operating-system-level compromise.” cPanel patched CVE-2026-58048 in these builds: 11.110.0.137 11.118.0.71 11.126.0.78 11.134.0.48 11.136.0.32 138.1.6 for WP Squared Servers that cannot update immediately can ...
+- **Source URL:** https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Varonis Agent IBAC keeps AI agents within their intended boundaries
+- **Source URL:** https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

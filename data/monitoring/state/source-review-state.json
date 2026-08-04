@@ -460,7 +460,8 @@
       "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html",
       "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
       "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
-      "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html"
+      "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
+      "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1316,7 +1317,12 @@
       "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
       "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
       "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
+      "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+      "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+      "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2143,7 +2149,8 @@
       "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
       "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
       "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-      "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/"
     ]
   }
 }
