@@ -14908,3 +14908,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** More on the OpenAI Agent’s Attack on Hugging Face
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users Aug 03, 2026 Malware / Software Supply Chain Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is " lib-mtop ," an unscoped package with the same name as a private Alibaba package under the "@ali" scope. Although the npm package was first published sometime in November 2023 with no functionality, three new versions (v1.0.1, v1.0.2, and v1.0.3) were uploaded earlier this March and April. It's currently not clear if this was the result of a maintainer account takeover or the project developer opting to go rogue. Regardless of how the malicious changes were pushed, the newly added changes feature a loader that's designed to fetch a remote JavaScript payload using curl and then execute it. The same maintainer account " ch4ce ," whic...
+- **Source URL:** https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts Aug 03, 2026 Authentication / Web Security Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls Pass-ta-key , Silver Pass-ta-key and Golden Pass-ta-key ; the strongest targets the master key protecting the user's synced passkeys. None of this breaks the cryptography. The attacks go after the code around the passkey: how Chrome stores its device keys, how it re-enrolls a device after that state disappears, and whether the site you are signing into bothers to check that a human was verified at all. The attacks can silently obtain a valid authentication assertion, install an attacker-controlled user-verification key, or extract the 32-byte Security Domain Secret (SDS) used to decrypt synced passkey private keys. The researchers said the last two paths can p...
+- **Source URL:** https://thehackernews.com/2026/08/google-password-manager-attacks-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws Aug 03, 2026 Vulnerability / Cybercrime The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per statistics listed on Ransomware.Live, the group has claimed 885 victims to date, with the most recent victim listed on August 2, 2026. The attacks are suspected to involve the exploitation of CVE-2026-15409 and CVE-2026-15410 , which could be chained to facilitate arbitrary command execution and take over susceptible devices. Fixes for the vulnerability pair were released by SonicWall in mid-July 2026. The two shortcomings are assessed to have been weaponized as zero-days, with Rapid7 noting that the attacks leveraged the foothold to extract high-value credentials, active session dat...
+- **Source URL:** https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete Aug 03, 2026 Vulnerability / Endpoint Security N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version. N-central is the remote monitoring and management platform managed service providers and IT teams use to administer customer endpoints. After compromising an N-central server, the attackers used Take Control to reach managed endpoints and registered Cloudflare tunnels as services on the devices. The tunnels connect outbound to Cloudflare's edge, so they need no inbound firewall rule or open listening port. Running them as services lets them survive a reboot. N-able said the tunnels preserved access after the route through the N-central server was revoked. Nothing in the disclosure suggests Cloudflare was compromised; the attackers abused it...
+- **Source URL:** https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code Aug 03, 2026 Vulnerability / AI Security Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the custom pipelines loading process," Zafran Labs researchers Gal Zaban and Ido Shani said in an analysis published last week. The shortcomings have been collectively named FaceHugger . With Hugging Face becoming the "GitHub of the AI era" and its libraries and repositories prevalent in enterprise environments, vulnerabilities in libraries like Diffusers can grant attackers extensive access owing to how the library is embedded into production pipelines, CI/CD systems, and container images. Diffusers is a Python package that serves as a library of state-of-the-art (SOT...
+- **Source URL:** https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** New Pass-ta-key attacks let malware hijack Google-synced passkeys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** New DOUBLECUP ClickFix service hides malware in browser cache images
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** Fake Roblox Xeno script launcher pushes infostealer, RAT
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-04
+- **Headline / event:** N-able warns of N-central auth bypass flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
