@@ -463,7 +463,8 @@
       "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
       "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
       "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html",
-      "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html"
+      "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
+      "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1327,7 +1328,12 @@
       "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
       "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
       "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-      "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
+      "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+      "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+      "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2160,7 +2166,9 @@
       "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
       "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
       "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-      "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/"
+      "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+      "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+      "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/"
     ]
   }
 }

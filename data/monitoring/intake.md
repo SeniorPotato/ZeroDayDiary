@@ -15140,3 +15140,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Vulnerabilities in Car Anti-Theft Device
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 build...
+- **Source URL:** https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses Aug 05, 2026 Cyber Espionage / Threat Intelligence Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, observed in two trojanized npm package "bianira-ui" and "fluid-type-ui," has been codenamed NullReceiver by OpenSourceMalware, which has described it as a "deliberate improvement on EtherHiding." The activity has been linked to North Korea. The packages are currently no longer available for download from npm. However, statistics show that they have been downloaded a few hundred times since they were first published on July 28, 2026 - bianira-ui (109 downloads), uploaded by an npm user named "npmuser1101" fluid-type-ui (587 downloads), uploaded by an npm user named "npmuser3002" EtherHiding was first publicly documented by Guardio Labs in October ...
+- **Source URL:** https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch Aug 05, 2026 Linux / Vulnerability A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim Manizada on July 28, 2026. The bug sits in the kernel datapath, not the userspace ovs-vswitchd daemon. In a technical write-up , Manizada said an attacker needs "no existing OVS bridge, no running ovs-vswitchd, no host-level CAP_NET_ADMIN." On affected systems where the OVS kernel datapath is available and unprivileged user namespaces are enabled, an ordinary user can create private user and network namespaces with unshare -Urn, gain CAP_NET_ADMIN inside that namespace, and reach the vulnerable flow-installation path. If the openvswitch module is installed but not loaded, resolvi...
+- **Source URL:** https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk Aug 05, 2026 Phishing / Identity Security Kali365 is turning a legitimate Microsoft login into a gateway to corporate data. The phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud, operational disruption, and costly incident response. How Kali365 Targets US Organizations Kali365 is a device code phishing kit built to abuse legitimate Microsoft authentication. ANY.RUN telemetry records more than 80 public sessions linked to the campaign each week, with the United States emerging as its main geographic target. One of these sandbox sessions shows a SharePoint-themed lure used to draw the victim into the authentication flow. View the analysis session and gather IOCs SharePoint-themed Kali365 lure analyzed inside ANY.RUN’s Interactive Sandbox Based on the resear...
+- **Source URL:** https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gite...
+- **Source URL:** https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** How AI-powered phishing killed blocklists for good
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Massive ChainDrop npm supply-chain attack infects hundreds of packages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
