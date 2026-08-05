@@ -15060,3 +15060,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Iran Cyberattacks Against Minnesota Water Systems
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens Aug 04, 2026 Phishing / Cybercrime The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts. "Greatness supports AiTM [adversary-in-the-middle] credential and token theft, device code phishing, and OAuth consent abuse, all from the same operator panel and shared backend infrastructure," ZeroBEC said in a report shared with The Hacker News detailing the PhaaS kit's latest capabilities. "The platform now supports AiTM token theft, device code phishing, OAuth consent abuse, and multiple target platforms, including iCloud, Yahoo, and Google Workspace. This evolution reflects the broader trend of PhaaS platforms expanding from simple credential harvesting to integrated attack ecosystems." The phishing platform was first pu...
+- **Source URL:** https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT Aug 04, 2026 Social Engineering / Cybercrime A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager . "The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second stage," SOCRadar said in a technical report. "This second stage decrypts the final payload in memory via a custom SHA-256 stream cipher in Counter (CTR) mode along with bitwise XOR using the victim's public IP address as the cryptographic key." Payloads delivered via the loader service include CountLoader , with variants for both Windows and macOS, and DeviceManager, which utilizes EtherHiding to resolve its command-and-control (C2) infrastructure and communicate with the server over HTTP or DNS tunneling. The service is assessed to be active since ea...
+- **Source URL:** https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises Aug 04, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities ( KEV ) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows authentication bypass and account takeover in susceptible versions of the software. The issue has been addressed in version 2026.3 HF1. "N-able N-central contains an authentication bypass using an alternate path or channel [that] allows for authentication bypass and account takeover in N-central," CISA said. Successful exploitation of the vulnerability can permit remote attackers to gain administrative access to vulnerable N-central servers and then abuse the built-in Take Control feature to pivot into managed endpoints and deploy persistence mechanisms. N-able has shared the fol...
+- **Source URL:** https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** OpenAI, Anthropic AI agents targeted real people and systems in cyber tests
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** TP-Link patches Omada ZTP flaws allowing hackers to breach networks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** Phishing service spoofs RingCentral to steal Microsoft 365 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** New XCSSET variant targets macOS devs via compromised Xcode projects
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-05
+- **Headline / event:** 77 Open VSX extensions found harvesting developer info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

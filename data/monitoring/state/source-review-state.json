@@ -83,7 +83,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
-      "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -461,7 +462,8 @@
       "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
       "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
       "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
-      "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
+      "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html",
+      "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1322,7 +1324,10 @@
       "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
       "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
       "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-      "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html"
+      "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+      "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+      "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2150,7 +2155,12 @@
       "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
       "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
       "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/"
+      "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+      "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+      "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+      "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+      "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+      "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/"
     ]
   }
 }
