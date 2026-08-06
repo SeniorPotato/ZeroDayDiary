@@ -149,7 +149,8 @@
       "https://www.enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women",
       "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
       "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan",
-      "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services"
+      "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
+      "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -465,7 +466,8 @@
       "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
       "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html",
       "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
-      "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html"
+      "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html",
+      "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1339,7 +1341,12 @@
       "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
       "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
       "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html"
+      "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2179,7 +2186,8 @@
       "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
       "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+      "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/"
     ]
   }
 }

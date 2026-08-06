@@ -15292,3 +15292,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** ENISA scales up its role in the CVE Program
+- **Source URL:** https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Adversarial Clothing Designed to Fool Facial Recognition Systems
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities Aug 06, 2026 OT Security / Vulnerability Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed controllers, not water utilities or confirmed victims. Forescout said the publicly described effects could be achieved without a vulnerability exploit: attackers changed IP addresses and set passwords on controllers that were already reachable, causing operators to lose visibility and, in some cases, control of connected equipment. Neither the government alerts nor Forescout's analysis explains how the attackers found, selected, or initially accessed their targets. Water and wastewater utilities in at least seven states have reported incidents since July 27 , the FBI and EPA said in a July...
+- **Source URL:** https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps Aug 06, 2026 Vulnerability / Blockchain Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains . Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of roughly $5.7 million. The blockchain security firm, which coined the Ill Bloom name in July, has now confirmed five applications that used the generator as an entropy source for recovery-phrase generation: RRWallet , which Coinspect says is discontinued. No fix. Bexo Wallet , which Coinspect says has been fixed in version 20.1.0, although the updated builds had not yet been uploaded. NanChat , which independently confirmed versions before 1.3.0 were affected. Fixed in 1.3.0. Bitcoin Libre , which Coinspect says fixed the issue in version 4, released July 2024. Milo , w...
+- **Source URL:** https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses Aug 06, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from and what sites are being visited. It's available as part of the iCloud+ subscription. Researchers Talal Haj Bakry and Tommy Mysk, who found the issue, said the problem is rooted in three features in Apple's WebKit: DNS prefetching, WebAuthn Related Origin Requests, and WebTransport. WebKit is the default web browser engine used by Safari and all third-party browsers on iOS and iPadOS, such as Google Chrome, Microsoft Edge, Mozilla Firefox, Brave, and others. The three features "bypass the configured proxy and send traffic directly from the device, which exposes t...
+- **Source URL:** https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory Aug 06, 2026 AI Security / Web Security A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads inside "Ask AI" buttons on marketing and competitor comparison pages. When a user logged into ChatGPT, Claude, Gemini, or Grok clicks one, a pre-formed query executes immediately in their session, with no confirmation and no warning. Most of these links are benign. The dangerous ones instruct the AI to permanently save the vendor's domain as a "trusted source," quietly biasing every future answer in that vendor's favor. In February 2026, Microsoft Security catalogued the behavior as AI Recommendation Poisoning , identifying 31 companies across 14 industries deploying it, with more than 50 distinct prompts observed in a single data source over ...
+- **Source URL:** https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access Aug 06, 2026 Database Security / Endpoint Security Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt , investigated after credential-theft detections fired on July 27, 2026, and traced the chain to SYSTEM-level code execution on the underlying Windows server. The flaw sat in the application, where an autocomplete search field passed unvalidated input to the database over a Java Database Connectivity (JDBC) connection. The account behind that connection had enough privilege to create Java objects. No Oracle patch closes either the application flaw or the account privilege behind it. Finding the toolkit means hunting: search the Oracle installation for object names beginning Khunt, and SQL logs...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
