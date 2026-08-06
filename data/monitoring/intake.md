@@ -15204,3 +15204,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures Aug 05, 2026 Malware / Threat Intelligence A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks. The server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft said the wider cluster distributed MacSync and Atomic Stealer (AMOS) ; the chain it analyzed through the gate ended in AMOS. The attack still requires the user to copy and run an obfuscated command in Terminal. That command retrieves scripts and launches an infostealer targeting credentials, browser data, authentication stores, cryptocurrency wallets, and sensitive files. Microsoft has not disclosed victim numbers, targeted sectors, or the identity of the operators. Users should not follow any website, CAPTCHA, chat, or download instruction that asks them to paste text into Terminal. Micro...
+- **Source URL:** https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes Aug 05, 2026 Cybercrime / Artificial Intelligence OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive ties to scam compounds and human trafficking in the past. The cluster of accounts is said to have used OpenAI's models to create and support the operation of fake online personas, generate and translate messages sent to scam targets, create promotional content for their fraudulent schemes, and assist with day-to-day activities. The promotional content included creating social media advertisements for "chatter" jobs in Poipet specifically targeting users in Bangladesh and India that promised a base salary of $800 (and a bonus of $100 for "full attendance"), alon...
+- **Source URL:** https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt Aug 05, 2026 AI Security / Threat Intelligence Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms. One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6. "Advertisements for Poison Claude explain how the service can offer the cheap tokens: by taking advantage of free bonus credits, such as the US$100 bonus credit on AWS for Bedrock accounts," Okta researchers Jeremy Kirk and Mathew Woodyard said in an analysis published Tuesday. "The service plainly states on its website that: 'We add those accounts to our pool, your request is routed to a specific account under the hood (you don't see this), and you get charged 5-15% of the official per-token price depending on the model.'" Poison Claude accepts payments in cryptocurrencies. Once a cus...
+- **Source URL:** https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports Aug 05, 2026 Vulnerability / Web Security Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and control-plane details through application programming interface (API) routes that did not enforce the expected access checks. The more severe server-side path, tracked as CVE-2026-41679 (CVSS score: 10.0), requires no pre-existing account or victim interaction against network-accessible deployments using authenticated mode with the default registration configuration. The second path, tracked as GHSA-x8hx-rhr2-9rf7 (CVSS score: 9.6), requires a user to open an attacker-controlled page while Paperclip is running in its default local_trusted mode. The source tagged as Paperclip v2026.416.0 contains the import-authorization fix and hostname-validation guard di...
+- **Source URL:** https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Leaked n8n API Tokens Exposed Live Instances to Credential Theft Aug 05, 2026 AI Security / DevSecOps GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896 instances reachable at the time of testing, 321 accepted at least one leaked token. That means leaked credentials provided authenticated access to 36% of the reachable instances we tested, or roughly 26% of all hostnames identified in the commits. The implications extend well beyond n8n. Organizations use the automation platform to connect databases, source code repositories, cloud environments, artificial intelligence services, customer support platforms, and other internal systems. A sufficiently privileged n8n token can expose workflow definitions and execution data, allow attackers to us...
+- **Source URL:** https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Ransom Cartel ransomware creator sentenced to 16 years in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Canadian pleads guilty to Snowflake cloud data-theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** Hackers run khunt post-exploitation toolkit from Oracle database
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** COLDCARD security audit phishing attack installs remote access tool
+- **Source URL:** https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-06
+- **Headline / event:** CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

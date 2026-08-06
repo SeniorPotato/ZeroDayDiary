@@ -84,7 +84,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
       "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -1333,7 +1334,12 @@
       "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
       "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
       "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-      "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
+      "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+      "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+      "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+      "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2168,7 +2174,12 @@
       "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
       "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
       "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-      "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/"
+      "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+      "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+      "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
     ]
   }
 }
