@@ -15356,3 +15356,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** Canadian Man Pleads Guilty in Snowflake Extortions
+- **Source URL:** https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** a September 2024 story
+- **Source URL:** https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts Aug 06, 2026 Virtualization Security / Linux Zapscape , a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page tables used for nested guest memory translation. Security researcher Hyunwoo Kim, who disclosed the bug, said the demonstrated exploit path can run commands on the host with kernel, or root, privileges. The upstream fix has been merged, and administrators running KVM hosts that expose nested virtualization to untrusted guests should update to a fixed stable kernel or a vendor package that backports the patch. The required L1 kernel privilege usually means guest root. Intel systems also require both EPT page-walk length 4 and 5 to be exposed to the L1 guest. AMD has no equivalent conditio...
+- **Source URL:** https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs Aug 06, 2026 Network Security / Vulnerability Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode. "These vulnerabilities were found during internal security testing using existing testing processes as well as frontier AI models [...] and are not known to be actively exploited," Cisco said, urging customers to apply the necessary updates for optimal protection. The vulnerabilities impacting Catalyst SD-WAN Software are listed below - CVE-2026-20303 (CVSS score: 9.9) - An improper input validation vulnerability (which also covers path traversals) CVE-2026-20304 (CVSS score: 9.9) - An improper access control vulnerability CVE-2026-20310 (CVSS score: 9.9) - An improper link resolution before file acc...
+- **Source URL:** https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs Aug 06, 2026 Vulnerability / Hardware Security An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION . On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on, their exploit leaked arbitrary kernel memory at 5.47 bytes per second with 91.97% accuracy, enough to locate and read /etc/shadow, which stores the system's password hashes, in five of ten attempts. It needs no privileges, only local code execution, so the risk sits on shared systems running an affected processor. The pair disclosed to AMD and Intel on February 5. AMD told them it plans a kernel patch; MIT says one has since shipped and arrives in a normal operating system update. A fix is in the Linux kernel. The commit, "x86/bugs: Make Safe-RET robust against interrupt injec...
+- **Source URL:** https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories Aug 06, 2026 Hacking News / Cybersecurity News Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and trusted defaults doing attackers a favor. Nothing here is especially mystical. Just ordinary systems trusting slightly too much, slightly too early. The full list follows. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model Aug 06, 2026 DevSecOps / Vulnerability Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon Bedrock AgentCore's InvokeHarness API, Google's Agent Development Kit (ADK) for Python, and the Vercel AI SDK harness packages for the Codex and OpenCode coding agents. AWS has fixed the managed service, Google addressed the issues in ADK 2.5.0, and Vercel patched @ai-sdk/harness-codex in version 1.0.29 and @ai-sdk/harness-opencode in version 1.0.28. These are not identical vulnerabilities and do not share the same attack conditions. AWS involved an authenticated remote request, Google's paths required attacker-controlled session events or user-authored function calls, and V...
+- **Source URL:** https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** ClickFix attack pushes macOS infostealer for crypto theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** Swiss government SharePoint breach compromised 200 accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-07
+- **Headline / event:** Meta AI model hacked a company during misconfigured cyber test
+- **Source URL:** https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

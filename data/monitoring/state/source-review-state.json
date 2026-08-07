@@ -328,7 +328,9 @@
       "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
+      "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -1346,7 +1348,12 @@
       "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
       "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
       "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html"
+      "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+      "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2187,7 +2194,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
       "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/"
+      "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
     ]
   }
 }
