@@ -15516,3 +15516,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Friday Squid Blogging: Arctic Bobtail Squid Video
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer Aug 07, 2026 Malware / Browser Security A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. "These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher Paul McCarty said . Unlike other npm-oriented software supply chain attacks that make use of lifecycle hooks like preinstall or postinstall to trigger the execution of malicious code, the newly identified packages come with a README that instructs developers to load them with require(), a built-in function to import modules, local files, and third-party packages. The attack leads to the execution of a downloader named WEL1DROPPER , which, when executed, identifies the host operating system and processor architecture and fetches a compatible payload from one of the three Cloudflare Workers...
+- **Source URL:** https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets Aug 07, 2026 Malware / Social Engineering ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture. "While the malware payload is capable of stealing passwords, its most interesting function is its capability to slowly deplete cryptocurrency accounts, siphoning their contents into accounts under the threat actor's control," Huntress security researcher Andrew Brandt said . The attack chain begins with pasting a ClickFix command into the Terminal app, triggering the execution of a Bash profiler/loader that collects extensive system details and then retrieves a Mach-O payload that matches the victim's processor architecture. The payload is a Go-based stealer that can ...
+- **Source URL:** https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data Aug 07, 2026 Phishing / SaaS Security A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671 . "UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices," Google Threat Intelligence Group (GTIG) and Mandiant said in a report. These calls are designed to trick victims into spoofed login portals where adversary-in-the-middle (AitM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. The threat actors then leverage the captured data to establish session persistence and deploy automated Python and PowerShell scripts for data exfiltration from enterprise cloud environments and SaaS applications, including Microsoft 365 and Okta. According to the tech giant, UNC6671 has diversi...
+- **Source URL:** https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day Aug 07, 2026 Web Security / Vulnerability PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle , generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning was authorized through bug bounty or vulnerability disclosure programs and found roughly 700 vulnerable targets before deeper validation and RQP research. Kettle said those findings involved banks, government infrastructure, security products, and an airport. The research produced new desync triggers, a dual-matching Content-Length pattern, and a "dangling-byte" technique designed to make response queue poisoning (RQP) more reliable. RQP can potentially make a front end lose track of which back-end response belongs to which user, potentially exposing another user's resp...
+- **Source URL:** https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access Aug 07, 2026 Endpoint Security / Vulnerability Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies permit. On TPM-backed systems, the attacker does not extract the private key, recover the PIN, or trigger a biometric prompt. Windows ticketing keeps private-key operations available while the user is interactively signed in, allowing code running as the user to ask Windows to sign authentication data. Administrator privileges are not required. The technique requires code execution in the victim's signed-in session. Mollema describes the behavior as a consequence of how Windows Hello for Business works and says it was left as-is. The disclosure does not report active exploitatio...
+- **Source URL:** https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Metabase SQLi zero-day exploited in customer data-theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Unlimited Technology Systems breach impacts 3.8 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Levi Strauss & Co. says hackers stole corporate data in cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-08
+- **Headline / event:** Real emails, hijacked payments: Two H1 2026 attack chains
+- **Source URL:** https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

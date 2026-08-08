@@ -85,7 +85,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
       "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -471,7 +472,8 @@
       "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
       "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html",
       "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
-      "https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html"
+      "https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html",
+      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1360,7 +1362,12 @@
       "https://thehackernews.com/2026/08/growing-up-hard-way.html",
       "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
       "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html"
+      "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+      "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+      "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+      "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+      "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+      "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2207,7 +2214,11 @@
       "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
       "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
       "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
-      "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
+      "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+      "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/"
     ]
   }
 }
