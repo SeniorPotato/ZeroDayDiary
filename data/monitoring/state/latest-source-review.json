@@ -1,16 +1,5 @@
 {
-  "generatedAt": "2026-08-09T02:30:09.901Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-09T023009Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-08-09",
-      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-08-09T13:16:46.755Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-09T131646Z.md",
+  "candidates": []
 }
