@@ -1,56 +1,16 @@
 {
-  "generatedAt": "2026-08-08T13:13:41.586Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-08T131341Z.md",
+  "generatedAt": "2026-08-09T02:30:09.901Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-09T023009Z.md",
   "candidates": [
     {
-      "discovered": "2026-08-08",
-      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers Aug 08, 2026 AI Security / Enterprise Security Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor , an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was enough to make the assistant gather internal data and send it out through a URL request, with no separate approval step. The firm published on August 5, 2026 and said the chain still worked with Rovo's web-search option switched off. That bypass is single-sourced, and the report establishes the finding's status only on that date; a later remediation is not confirmed here. Varonis Threat Labs put the instructions in a link instead. It found that the rovoChatPrompt URL parameter would preload attacker instructions into Rovo Chat, so one click from an authenticated user was enou...",
-      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "discovered": "2026-08-09",
+      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "atlassian-rovo-can-be-tricked-into-sending-jira-and-confluence-data-to-attackers-aug-08-20",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-08",
-      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens Aug 08, 2026 Email Security / Vulnerability New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email. PortSwigger researcher Gareth Heyes presented the work at Black Hat USA 2026. One Outlook/Firefox chain spoofs a Microsoft sign-in screen and captures the password a recipient types. A Yahoo/AOL paste race can expose a Medium email-login token and let an attacker sign in as the victim. A Gmail/Cowork chain can exfiltrate a Slack token after prompt injection and user interaction. The paper presents proof-of-concept research and does not report malicious exploitation. Public PoCs remain available as of August 8. The researcher said Fastmail fixed two CSS mutation bugs and a Proton Mail proxy bypass stopped working when he re...",
-      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-css-attacks-can-break-webmail-defenses-to-steal-passwords-and-tokens-aug-08-2026-email",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-08",
-      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication Aug 08, 2026 Zero-Day / Vulnerability Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain administrator access to the instance. Armed with the elevated access, the attacker can change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. \"We recently identified that Metabase Cloud was attacked by someone utilizing an unknown ('0-day') security vulnerability in versions 1.58 and above,\" Metabase said in an advisory. Metabase Cloud instances have already been updated to the latest version. Users running self-hosted versions are advised to apply security patches released b...",
-      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "metabase-zero-day-exploited-in-wild-allows-admin-access-without-authentication-aug-08-2026",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-08",
-      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist Aug 08, 2026 Vulnerability / Enterprise Security N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said. \"This is not a duplicate of our previous communication. Hotfix 2 is required, even if you already applied the earlier hotfix. Hotfix 2 supersedes Hotfix 1 with additional hardening measures to further protect you and your customers.\" The disclosure comes as N-able acknowledged that it detected unusual activity within a customer's environment on July 31, 2026, leading to the discovery of unknown threat actors exploiting a then-zero-day flaw in the N‑central server (CVE-2026-18577, CVSS score: 8.2). It impacts all versions prior to 2026.3.1.7. It's worth noting that CVE-2026-18577 relates to an i...",
-      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "n-able-issues-n-central-hotfix-2-as-attackers-reach-managed-systems-and-persist-aug-08-202",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-08",
-      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts Aug 08, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary code execution on susceptible devices. \"Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints,\" CISA said . In an analysis published in June 2026, watchTowr Labs described the issue as present in a function named \"escape_quotes()\" within the load balancer application and that it stemmed from improper handling of user-supplied input, ultimately enabling command injection. Successful exploitation of the...",
-      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "progress-kemp-loadmaster-flaw-hits-cisa-kev-after-792-reported-exploit-attempts-aug-08-202",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
+      "slug": "hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
     }
   ]
 }
