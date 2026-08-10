@@ -15652,3 +15652,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Python Now Has a Post-Quantum Encryption Library
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development Aug 10, 2026 Cyber Espionage / Artificial Intelligence North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the setup after months of tracking and log analysis on infrastructure tied to Kimsuky, a hacking unit under North Korea's Reconnaissance General Bureau. Genians found no evidence that the group had trained an AI model of its own, and the firm does not offer that as reassurance. It describes an actor in a "research and knowledge acquisition" stage, assembling and testing existing tools rather than making new models, with the apparent aim of folding AI through the operation, from writing malware to analyzing data. For an intelligence unit that has spent years phishing governm...
+- **Source URL:** https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA Aug 10, 2026 Identity Security / Endpoint Security Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a Windows Hello for Business key from a compromised user session without a fresh PIN or biometric check. None cracked the math. The impact is not the same in all three cases. SpecterOps showed a Windows and Microsoft Entra ID chain that could impersonate privileged users while satisfying phishing-resistant multifactor authentication (MFA); that chain reused signed authentication material rather than stealing the authenticator's private key. Unit 42 showed attacks against Google Password Manager in Chrome , including a path that recovers the private keys for a victim's synced p...
+- **Source URL:** https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development Aug 10, 2026 Software Supply Chain / DevSecOps AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped. In our latest webinar with Chainguard experts, “ The True Cost of Building at Machine Speed ,” you can now watch how security teams can keep AI-driven development fast without letting risk scale with it. For years, application security followed a familiar cycle: developers wrote code, scanners found problems, security teams prioritized them, and engineers fixed what mattered most. AI puts that model under pressure. If teams can suddenly create many times more code, security can also end up with many more components, dependencies, findings, and fixes to manage. More scanning alone does no...
+- **Source URL:** https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful conn...
+- **Source URL:** https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials Aug 10, 2026 Malware / Cybercrime Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although neither of the extensions is now available on Open VSX, the GitHub repository for " web3devtoolsx/solidity-pro " continues to remain accessible as of writing. According to Yeeth Security , early iterations of the extensions – from 1.0.0 through v2.4.x – were found to beacon to Cloudflare Workers endpoints to retrieve an encrypted Python payload and execute it. Subsequent versions starting with v3.0.0, on the other hand, have shifted to a full-blown information stealer that can collect browser profiles, crypto wallets, source-control tokens, API keys, SSH keys, and Telegram bot tokens. The captured data is then exfiltrated via a Telegram bot u...
+- **Source URL:** https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Member of The Com sent to prison for blackmail, sextortion
+- **Source URL:** https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** LexisNexis shuts down services after suspicious activity on servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Valve notifies Steam hardware customers of a data breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-10
+- **Headline / event:** Critical Progress LoadMaster flaw now actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

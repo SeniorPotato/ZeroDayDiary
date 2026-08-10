@@ -473,7 +473,8 @@
       "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html",
       "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
       "https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html",
-      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html"
+      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html",
+      "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1372,7 +1373,12 @@
       "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
       "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
       "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+      "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+      "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+      "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+      "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2224,7 +2230,11 @@
       "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
       "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
       "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-      "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+      "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+      "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
+      "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+      "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
     ]
   }
 }
