@@ -15804,3 +15804,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** AI for Military Support
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development Aug 11, 2026 Artificial Intelligence / Vulnerability OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. "Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk, dual-use cyber tasks," OpenAI said . The artificial intelligence (AI) company said it's making GPT 5.6 Cyber available through Daybreak Red, a new tier that provides access to its purpose-trained cybersecurity models to other firms for authorized vulnerability research, exploit validation, and security testing. GPT-5.6-Cyber, a more cyber-permissive version of GPT-5.6 Sol, builds upon GPT‑5.5‑Cyber , which OpenAI released in June 2026. To measure the reduced rate of refusals provided by GPT‑5.6‑Cyber through Daybreak Red access, OpenAI said it created an internal evaluat...
+- **Source URL:** https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices Aug 11, 2026 IoT Security / Mobile Security A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it switched on in 9 of them, and used it to run their own code on a commercial EV charger. Six of the eight cellular modules they tested accepted the command. Only 3 of 18 phones did: the OPPO Find X5, the OPPO Reno 14 F 5G, and the ASUS Zenfone 9. No iPhone or Pixel was among them. The exposure is in machine-to-machine hardware. Five of the six were Quectel parts, three of them pulled from an EV charger, an industrial router, and a car's telematics control unit. Knowing the victim's number is not enough: every attack starts with a hostile card already in the slot, swapped by hand,...
+- **Source URL:** https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo Aug 11, 2026 Cryptography / Software Supply Chain Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories. That key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball came from Mozilla and was not tampered with. That decision carries a cost for anyone who checks what they download: files signed with the old key stop verifying once a user imports the revocation. That covers older Firefox and Thunderbird downloads, not just future ones. Nothing so far points to anyone outside the company getting hold of the key. The repository was private, the browser maker says a review of available audit records turned up no sign of unauthorized access, and everyone who could see it already had legitimate access anyway. Mozilla revoked it regardless. Most Firefox and Thunderbird users need to do nothing. Two groups do. Anyone who checks signatu...
+- **Source URL:** https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers Aug 11, 2026 Insider Threat / Cyber Espionage Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver's license and a New York bank account. The researchers said the image metadata showed it had been processed with Google Gemini. They also reported a SynthID watermark, the invisible marker Google embeds in images its AI tools create or edit. The second supplied a Texas license, a valid Social Security number, and a bank account in Kansas City. The third sent a New York license belonging to someone else, a genuine iPhone 15 photograph with the GPS coordinates stripped. A successful placement gives the operative a real employee account and real access to source code and internal systems. The July 31 joint alert says North Korean IT work...
+- **Source URL:** https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11 Aug 11, 2026 Vulnerability / Enterprise Security Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that redirection is not allowed by default. Security researchers Alejandro Hernando and Borja Martinez described the technique in " Plug And Pwn: Weaponizing Windows PnP Auto-Install ," research prepared for DEF CON 34. They built tooling to emulate arbitrary USB devices and said that, under the required conditions, an unprivileged user can turn the PnP installation path into SYSTEM code execution. Microsoft's own driver documentation describes the underlying selection step: Windows receives hardware and compatible IDs for a device and uses them to find a matching driver package. A...
+- **Source URL:** https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Mozilla updates GPG signing key for Firefox releases after exposure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Vague Task, Total Access: When AI Delegation Becomes a Security Risk
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** DDoS attacks over 1 Tbps surged fivefold in the second quarter
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Cisco warns of high-severity ClamAV flaws with public exploits
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
