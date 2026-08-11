@@ -15732,3 +15732,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** FTC Stops Sprawling Credit Repair Scheme that Scammed Consumers Out of Nearly $200 Million
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw Aug 10, 2026 Ransomware / Cybercrime Microsoft has disclosed that Storm-1175 , a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor . The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said. "StormEncryptor is written in C++ and appends the file name extension .encrypted to files it encrypts," Microsoft noted in a series of posts on Bluesky. "It then drops a ransom note named !!!README_FIRST!!!.txt to every scanned directory." Although the exact vulnerability exploited by the threat actor as part of this campaign is unclear, the tech giant said it likely involves the exploitation of CVE-2026-18577 , a newly disclosed security flaw in N-able N‑central, to obtain initial access. The vulnerability is assessed to be a patch bypass for CVE-2026-18556, both of which allow authentication bypass and account takeover in susceptible vers...
+- **Source URL:** https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors Aug 10, 2026 Cybersecurity / Hacking A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s everything else that made the Monday recap. ⚡ Threat of the Week Anthropic's Model Attempts to Poison Open-Source Project — A new evaluation conducted by the U.K. AI Security Institute (AISI) found that AI models with access to the internet reached out into the real world to target individuals and organizations autonomously across 10 of the total of 122 runs. Of 19 such actions recorded, 17 originated from Anthropic's Mythos 5 and the remaining two involved OpenAI's GPT-5.6-Sol with cyber classifiers. In the most serious case, Anthropic's Claude Mythos 5 spent 34 hours trying...
+- **Source URL:** https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause Aug 10, 2026 Artificial Intelligence / Threat Detection OpenAI has announced that it's pausing some "internal activities" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security controls for higher-capability models and associated activities, such as isolated testing environments, restricted network and tool access, enhanced model weight protections and encryption, additional monitoring and detection capabilities, and sandboxed execution. "We are pausing internal activities involving Astra that do not yet meet these strengthened security control requirements," it said in a statement. "We have implemented universal monitoring for risky actions and misalignment across all agentic applications of Astra, including training and evaluation. Monitors evaluate the model's Chain of Thought and trigger a security re...
+- **Source URL:** https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** Hackers breached a small Polish energy plant via private APN last year
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** BdThemes plugins supply-chain hack creates rogue WordPress admins
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** New StormEncryptor ransomware used by former Medusa affiliate
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-11
+- **Headline / event:** CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

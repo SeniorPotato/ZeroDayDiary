@@ -258,7 +258,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-takes-action-against-elite-events-bypassing-ticket-purchase-limits-violation-better-online",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/statements-grant-early-termination-ftcs-investigation-ionqs-proposed-acquisition-skywater",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-ditches-disparate-impact"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-ditches-disparate-impact",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1378,7 +1379,10 @@
       "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
       "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
       "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-      "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+      "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+      "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+      "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+      "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2234,7 +2238,12 @@
       "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
       "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
       "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
+      "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+      "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
+      "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+      "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/"
     ]
   }
 }
