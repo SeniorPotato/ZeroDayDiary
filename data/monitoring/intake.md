@@ -15996,3 +15996,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Prompt Injections for Defense
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning Aug 12, 2026 Vulnerability / Artificial Intelligence A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing, even handed to a weaker model in the same provider family to make it reveal the hidden content. The team behind the paper Stealing Reasoning Traces from Proprietary LLM APIs demonstrated four abuse paths: stealing proprietary reasoning for model distillation , extracting private data from other users' published traces, recovering harmful content concealed behind a safe visible answer, and hiding prompt injections inside opaque reasoning blocks. Across 6,708 public agent trajectories, the team decoded 315,320 thinking blocks. After excluding benchmark sources, it counted 704...
+- **Source URL:** https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Enterprise Defenses Recovered at the Edge and Collapsed Inside Aug 12, 2026 Security Validation / Attack Simulation Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Picus Labs' new Blue Report 2026 , which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness climbed from 62% to 69% , matching its 2024 peak, and logging reached a four-year high of 58% . The good news: The recovery is real. The bad news: It's taking place almost exclusively at the perimeter. The report's sharper finding is what happens after that perimeter is crossed . Inside, the picture inverts : defenses that look strong from the outside turn soft , and are the softest of all against the quiet moves, the reconnaissance and credential theft that precede every serious breach. This is a fault line that runs through the entire report. A vulnerable interior behin...
+- **Source URL:** https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws Aug 12, 2026 Vulnerability / Web Security Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could lead to arbitrary code execution (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-48273 (CVSS score: 9.9) - An eval injection vulnerability in ColdFusion that could lead to arbitrary code execution (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-71384 (CVSS score: 9.6) - An incorrect authorization vulnerability in ColdFusion that could lead to an application denial-of-service (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-71362 (CVSS score: 9.1) - An incorrect authorization vulnerability in Commerce that could lead to privilege escalation CVE-2026-71398 (CVSS score: 10.0) - An incorrec...
+- **Source URL:** https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access Aug 12, 2026 Vulnerability / Threat Intelligence Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were released by Broadcom late last month. The German cybersecurity company said it discovered the activity following an incident response engagement. The attack chain is said to have exhibited path traversal activity consistent with the flaw, followed by the deployment of a malicious cron job to establish persistence on the host using reverse_ssh, an open-source tool used for setting up SSH connections to threat actor-controlled infrastructure. Compromised systems identified by QUIRSO were found to first establish contact with the attacker's domains on August 3, five days after Broadcom pub...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations Aug 12, 2026 Software Supply Chain / Data Breach Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more than 2,500 organizations. Those totals are not a victim count. CloudSEK told The Hacker News the material came from confidential intelligence sources and consists of captured loot and log files it assessed as belonging to the campaign, not data gathered from the organizations it names. The files were taken, in other words. CloudSEK has published the dataset as a public lookup , searchable by name or domain and filterable by confidence. Each row gives an organization's name and domain, a count of secrets exposed, a count of runs, and a label reading High or Medium. What a high-co...
+- **Source URL:** https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Signal adds new security feature to thwart man-in-the-middle attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-12
+- **Headline / event:** Wesco confirms security incident after ExfilSquad claims data theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
