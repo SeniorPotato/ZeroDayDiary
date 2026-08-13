@@ -16156,3 +16156,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** Separating AI’s Technological Problems from Its Capitalism Problems
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS Aug 13, 2026 Malware / Vulnerability Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer called AmnesiaStealer that's capable of hijacking Chromium web browsers to steal session data. The multi-stage stealer is spread via a counterfeit GitHub download page titled "Download for macOS" and claims to be from a verified publisher. The page employs a ClickFix-style lure that instructs users to copy and paste a Base64-encoded command into the macOS Terminal app. The attack chain ultimately leads to the deployment of AmnesiaStealer via a dropper script hosted on a remote server, which, according to Jamf Threat Labs , runs in three distinct stages. "The first is a shell script that downloads and launches the payload," security researcher Thijs Xhaflaire said in a report shared with The Hacker News. "The second is a Rust infostealer that harvests the Keychain, browsers, Apple Notes, and Telegram. The third is a stream_module, fetched on comm...
+- **Source URL:** https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** WindRelay Android Malware Turns Victims' Phones Into NFC Relays for Payment Fraud Aug 13, 2026 Malware / Mobile Security A previously unseen Android near field communication ( NFC ) relay malware family dubbed WindRelay is being deployed in conjunction with a known remote access trojan (RAT) called SpyNote as part of a contactless payment fraud scheme. The purpose-built malware, according to Group-IB, is designed to capture live card data via NFC and transmit it to fraudsters in real time. It was first detected in the wild in late August 2025. "SpyNote's Accessibility Service access lets the fraudster sideload and activate the NFC app silently, with no screen sharing ever triggered," researchers Alexander Grabko, Konstantinos Angelopoulos, Pavlos Gaitanis, and Bruno Bijelić said . These attacks typically work by luring prospective targets via phishing, smishing, or vishing scams into sideloading a malicious app. Once installed, the threat actor abuses SpyNote's remote access to install the NFC relay malware without any further user interaction. To lend credibility to the sch...
+- **Source URL:** https://thehackernews.com/2026/08/windrelay-android-malware-turns-victims.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** North Korean Remote Workers Are Infiltrating Government and Businesses: How to Expose Them Before Hiring Aug 13, 2026 Cyber Espionage / Threat Intelligence Companies are used to thinking about attackers as outsiders trying to break in. North Korean IT workers flip that model. They apply for jobs, pass interviews, receive legitimate credentials, and can end up inside the same systems companies spend millions trying to protect. That risk is no longer theoretical. The FBI is now investigating a North Korean remote IT worker who reportedly worked for a U.S. federal agency. For CISOs, the priority is clear: spot the warning signs before a fraudulent hire becomes trusted access. When the Threat Gets Hired A recent joint investigation by Mauro Eldritch ( BCA LTD ), Heiner García ( NorthScan ), and ANY.RUN showed what this looks like from inside the operation. Researchers deliberately hired suspected DPRK developers linked to Lazarus Group and gave them what looked like ordinary virtual desktops. In reality, they were controlled ANY.RUN Sandboxes, capturing their activity in real time. The operation exposed forged identities, re...
+- **Source URL:** https://thehackernews.com/2026/08/north-korean-remote-workers-are.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** Attackers Exploit SharePoint Authentication Bypass After Public PoC Release Aug 13, 2026 Vulnerability / Enterprise Security Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. "The authentication feature could be bypassed as this vulnerability allows impersonation," Microsoft said in an advisory for the flaw last month. "Exploiting this vulnerability could allow an attacker to disclose files and modify data, but the attacker cannot impact the availability of the system." According to Defused Cyber , threat actors are leveraging a PoC exploit released by Rapid7 earlier this week, once again indicating fresh flaws are being rapidly abused in real-world attacks. It's worth mentioning that CVE-2026-55040 is the fifth SharePoint vulnerability to be exploited t...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** White House taps security firms for offensive hack-back operations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** WhatsApp rolls out new feature that flags potential scam messages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** Hackers exploit critical Adobe Commerce flaw to hijack customer accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** Hundreds of fake Chrome VPN extensions route traffic through a proxy
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-13
+- **Headline / event:** The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
