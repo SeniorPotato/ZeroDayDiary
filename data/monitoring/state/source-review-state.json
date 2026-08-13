@@ -260,7 +260,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/07/statements-grant-early-termination-ftcs-investigation-ionqs-proposed-acquisition-skywater",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-ditches-disparate-impact",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-advertising-claims-other"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1402,7 +1403,12 @@
       "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
       "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
       "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html"
+      "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2276,7 +2282,12 @@
       "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
       "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
       "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-      "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/"
+      "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+      "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+      "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
+      "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/"
     ]
   }
 }
