@@ -16300,3 +16300,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Who’s Tracking You? Use This New Service to Find Out
+- **Source URL:** https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth Aug 14, 2026 Malware / Threat Intelligence The threat actor known as HoneyMyte (aka Mustang Panda ) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) network information. Russian cybersecurity vendor Kaspersky said it identified victims in Myanmar, Mongolia, Pakistan, and Russia, including confirmed government entities, with CoolClient consistently deployed as a secondary backdoor following a PlugX infection. The kernel component is deployed when CoolClient has full access to the Service Control Manager (SCM) and the SeTcbPrivilege privilege. If those conditions are not met, the malware skips driver deployment and proceeds to the final-stage implant. Kaspersky has also published file hashes, paths, and C2 domains as indicators of compromise (IoCs). "Our analysis confirms that the investigated malware is a new CoolClient variant ...
+- **Source URL:** https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers Aug 14, 2026 Browser Security / Endpoint Security Cybersecurity researchers have detailed a post-exploitation technique that enables the Chrome DevTools Protocol (CDP) inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, and authenticated browser sessions. The technique assumes that an operator already has code execution on the Windows host and does not involve exploiting a Chrome or Edge security vulnerability. The requirement for prior code execution and sufficient access to manipulate the target process places the technique in a narrower post-compromise scenario than a remotely exploitable browser flaw. SpecterOps said defenders can look for signs of process injection targeting chrome.exe and msedge.exe using Sysmon Event IDs 8 and 10. "Since App-Bound Encryption was enabled, we've seen an increase in attackers using Chrome Remote Debugging to extract cookies," Google said in a March 2025 post . Google changed C...
+- **Source URL:** https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps Aug 14, 2026 United States Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more advanced cases, relay multi-factor authentication (MFA) prompts in real time. CTM360, which detailed the activity in a new report titled RecruitTrap , said it identified more than 3,000+ phishing URLs over two months. The campaign impersonated real recruiters and recruitment processes associated with more than 50 organizations across 14 sectors . Marketing professionals accounted for the majority of observed targets. The focus on marketing roles appears deliberate. Compromised marketing accounts can provide access to advertising platforms, corporate social media profiles, customer data, email, and other business-critical services. Read the full report here: https://www.ctm360.com/reports/recruittrap-browser-in-the-browser-bitb-recruitment-scam...
+- **Source URL:** https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware Aug 14, 2026 Spyware / Cyber Espionage Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks. In a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users targeted in 110 countries and that it has notified customers in over 150 countries to date. Apple began sending threat notifications to users in late 2021. "The extreme cost, sophistication, and worldwide nature of mercenary spyware attacks make them some of the most advanced digital threats in existence today," the tech giant said . "As a result, Apple does not attribute the attacks or resulting threat notifications to any specific attackers or geographical regions." Typically, such notifications are sent to people who may have been individually targeted because of "who they are or what they do," including journalists, activists, politicians, and diplomats. They tend to focus on a very small number of speci...
+- **Source URL:** https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups Aug 14, 2026 Cybercrime / Offensive Operation A new White House memo signed by U.S. President Donald Trump has instructed the National Coordination Center (NCC) to establish a program that would allow private sector companies to take advantage of their "innovative capabilities" to break into foreign Transnational Criminal Organizations (TCOs) and disrupt them. "By partnering with vetted United States companies subject to the direction and oversight of the Federal Government, we will enhance our ability to counter TCO threats and combat transnational cybercrime, fraud, and other predatory schemes against American citizens," the memo reads . To that end, the NCC has been tasked with setting up a program that allows authorized companies to conduct two types of operations against TCOs upon obtaining approval: cyber surveillance operations, which can access sensitive data without authorization from the owner or operator, and cyber effects operations, which can result in disruption, denial, degradation, or destr...
+- **Source URL:** https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Shell investigates 'potential incident' after Clop data theft claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** RingCentral data breach exposed info of 1.6 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Data analyst sent to prison for stealing data, extorting employer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

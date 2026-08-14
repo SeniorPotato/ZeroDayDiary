@@ -336,7 +336,8 @@
       "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com",
-      "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/"
+      "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -482,7 +483,8 @@
       "https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html",
       "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
       "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
-      "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"
+      "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html",
+      "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1416,7 +1418,12 @@
       "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
       "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
       "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
-      "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html"
+      "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
+      "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+      "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
+      "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
+      "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+      "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2305,7 +2312,10 @@
       "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
       "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
       "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
+      "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+      "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+      "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+      "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/"
     ]
   }
 }
