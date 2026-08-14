@@ -1413,7 +1413,10 @@
       "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
       "https://thehackernews.com/2026/08/windrelay-android-malware-turns-victims.html",
       "https://thehackernews.com/2026/08/north-korean-remote-workers-are.html",
-      "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+      "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+      "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
+      "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2297,7 +2300,12 @@
       "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
       "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
-      "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/"
+      "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+      "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
+      "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+      "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+      "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
+      "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
     ]
   }
 }

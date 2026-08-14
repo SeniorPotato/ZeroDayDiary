@@ -16236,3 +16236,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Unpatched GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE Aug 13, 2026 Zero-Day / Vulnerability A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @q1uf3ng on X. "GeoServer jsonArrayContains unauthorized SQL injection, and in the case of the sa database, it's naturally possible to achieve RCE," the researcher said. The threat intelligence and exposure management platform said it began to observe exploitation attempts within hours of public disclosure, and that it has seen hundreds of attempts originating from a small pool of IP addresses. "Currently, we're seeing attackers probe to identify vulnerable systems across the internet, triggering errors and not proceeding further," Jake Knott, principal security r...
+- **Source URL:** https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories Aug 13, 2026 Hacking News / Cybersecurity News Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data breaches, scams, and new attack methods. The latest ThreatsDay Bulletin puts all of these short updates in one place, so you can quickly catch up on what happened, what changed, and what security teams should know. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure Aug 13, 2026 Cyber Espionage / Critical Infrastructure Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new ongoing campaign that delivers a previously undocumented backdoor called PATCHCORD . According to Acronis Threat Research Unit (TRU) , the backdoor is a compiled C/C++ implant delivered by means of sector-specific lures, including fake VPN installers impersonating Afghan Telecom (AFTEL) and telecom management tools. An analysis of the threat actor's infrastructure has also led to the discovery of another Go-based backdoor dubbed SHEETCORD that uses Google Sheets for command-and-control (C2) communications. The malware has been found to be delivered via a domain impersonating India's National Informatics Center (NIC). "The campaign's infrastructure centers on a single C2 server with multiple associated domains, including domains impersonating Afghan telecom operators and a hijacked legitimate healthcare domain," researchers Darrel Virtusio, San...
+- **Source URL:** https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Ukraine shuts down 94 fraudulent call centers, seize millions in cash
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt
+- **Source URL:** https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Hackers breach govt webmail while running parallel crypto fraud
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** AI 'watermark removers' flood the web. Almost none can prove they work.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-14
+- **Headline / event:** Critical VMware vCenter RCE flaw exploited for reverse SSH access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
