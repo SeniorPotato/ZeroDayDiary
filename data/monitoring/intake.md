@@ -16380,3 +16380,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Friday Squid Blogging: Searching for the Colossal Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware Aug 14, 2026 Malware / Cybercrime Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale. DNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available for registration and is then snapped up by another party. During the first half of 2026, 50,400 dropcatch domains were re-registered each day in the generic top-level domains (gTLDs) like ".com" alone, a figure that jumps to around 65,000 when country code top-level domains (ccTLDs) are taken into consideration. These account for nearly 20$ of all daily gTLD and ccTLD registrations, meaning one out of five newly registered domains is a dropcatch domain. "These domains can be particularly interesting, even dangerous, because they inherit reputation and sometimes connections from their previous life," Infoblox said in an exhaustive three-part report shared with The Ha...
+- **Source URL:** https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** IAM Compliance Requirements and Best Practices Aug 14, 2026 Identity Security / Risk Management IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains what IAM compliance requires, which regulations matter, and how organizations move from periodic access reviews toward continuous, evidence-backed verification that auditors can trust. Understanding IAM Compliance and Why It Matters Identity and Access Management (IAM) governs who can access what, under which conditions, and for how long. IAM compliance measures whether those access decisions match your stated policies and regulatory obligations, and whether you can produce evidence to prove it. The critical distinction is between policy intent and runtime execution. IAM platforms express how access should work. Applications and infrastructure reveal how access actually works. The gap between the two is where compliance failures, unmanaged access, and audit surp...
+- **Source URL:** https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud Aug 14, 2026 United States The China-linked threat actor known as Jewelbug has been observed carrying out cyber espionage operations targeting governments and militaries, while simultaneously engaging in cryptocurrency fraud. "Both missions are administered from a single control panel, XG-Web , a browser-centric remote-access and information-stealing framework that turns a victim's browser into a full remote-control channel and reaches from there into the host and the internal network behind it," Broadcom's Symantec and Carbon Black Threat Hunter Team said . Jewelbug is assessed to be a China-based hackers-for-hire group that runs parallel operations, including espionage against governments and militaries across the Middle East, Southeast Asia and South Asia, and a for-profit cryptocurrency fraud business. "The group has developed five generations of command-and-control (C&C) code and a family of implants spanning browsers, Windows endpoints, Linux servers and network devices,...
+- **Source URL:** https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Hackers arrested over €30M bank fraud exploiting service provider flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Hackers exploit macOS Screen Sharing flaw to deploy Monero miner
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Max severity SAP Commerce Cloud flaw now targeted in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
