@@ -1,86 +1,26 @@
 {
-  "generatedAt": "2026-08-15T01:50:50.359Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-15T015050Z.md",
+  "generatedAt": "2026-08-15T12:59:54.225Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-15T125954Z.md",
   "candidates": [
     {
       "discovered": "2026-08-15",
-      "title": "Friday Squid Blogging: Searching for the Colossal Squid",
-      "link": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch Aug 15, 2026 Vulnerability / Cloud Security A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231 , is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit specially crafted input to certain functions lacking sufficient validation,\" per CVE.org. \"Successful exploitation could enable arbitrary code execution and compromise internal components, resulting in high impact on confidentiality, integrity, and availability of the application.\" According to Defused Cyber, exploitation attempts against CVE-2026-58231 began to hit its honeypot systems merely three days after the release of the patch. \"This vulnerability has no public PoC and is not known to be exploited,\" the threat intelligence company said in an X post ...",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-searching-for-the-colossal-squid",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware Aug 14, 2026 Malware / Cybercrime Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale. DNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available for registration and is then snapped up by another party. During the first half of 2026, 50,400 dropcatch domains were re-registered each day in the generic top-level domains (gTLDs) like \".com\" alone, a figure that jumps to around 65,000 when country code top-level domains (ccTLDs) are taken into consideration. These account for nearly 20$ of all daily gTLD and ccTLD registrations, meaning one out of five newly registered domains is a dropcatch domain. \"These domains can be particularly interesting, even dangerous, because they inherit reputation and sometimes connections from their previous life,\" Infoblox said in an exhaustive three-part report shared with The Ha...",
-      "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-spend-nearly-7-million-on-expired-domains-to-redirect-traffic-to-scams-and-malware",
+      "slug": "sap-commerce-cloud-cve-2026-58231-targeted-in-exploitation-attempts-days-after-patch-aug-1",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-08-15",
-      "title": "IAM Compliance Requirements and Best Practices Aug 14, 2026 Identity Security / Risk Management IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains what IAM compliance requires, which regulations matter, and how organizations move from periodic access reviews toward continuous, evidence-backed verification that auditors can trust. Understanding IAM Compliance and Why It Matters Identity and Access Management (IAM) governs who can access what, under which conditions, and for how long. IAM compliance measures whether those access decisions match your stated policies and regulatory obligations, and whether you can produce evidence to prove it. The critical distinction is between policy intent and runtime execution. IAM platforms express how access should work. Applications and infrastructure reveal how access actually works. The gap between the two is where compliance failures, unmanaged access, and audit surp...",
-      "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
+      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner Aug 15, 2026 Vulnerability / Endpoint Security A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned . The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to authenticate to the built-in remote desktop feature service without valid credentials. The updates released by Apple improve state management mechanisms to enforce correct credential validation and prevent unauthorized authentication attempts. The shortcoming was addressed as part of an emergency update in macOS Tahoe 26.6.1 , macOS Sequoia 15.7.9 , and macOS Sonoma 14.8.9 earlier this month. \"An authentication issue was addressed with improved state management,\" Apple said in an advisory released on August 6, 2026. It credited security researcher Alfredo Pesoli of Bynario for discover...",
+      "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "iam-compliance-requirements-and-best-practices-aug-14-2026-identity-security-risk-manageme",
+      "slug": "apple-macos-screen-sharing-flaw-exploited-on-internet-exposed-macs-to-install-monero-miner",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud Aug 14, 2026 United States The China-linked threat actor known as Jewelbug has been observed carrying out cyber espionage operations targeting governments and militaries, while simultaneously engaging in cryptocurrency fraud. \"Both missions are administered from a single control panel, XG-Web , a browser-centric remote-access and information-stealing framework that turns a victim's browser into a full remote-control channel and reaches from there into the host and the internal network behind it,\" Broadcom's Symantec and Carbon Black Threat Hunter Team said . Jewelbug is assessed to be a China-based hackers-for-hire group that runs parallel operations, including espionage against governments and militaries across the Middle East, Southeast Asia and South Asia, and a for-profit cryptocurrency fraud business. \"The group has developed five generations of command-and-control (C&C) code and a family of implants spanning browsers, Windows endpoints, Linux servers and network devices,...",
-      "link": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "china-linked-jewelbug-uses-xg-web-for-government-espionage-and-crypto-fraud-aug-14-2026-un",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-      "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-15",
-      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
     }
   ]
 }

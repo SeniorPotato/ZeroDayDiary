@@ -16444,3 +16444,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch Aug 15, 2026 Vulnerability / Cloud Security A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231 , is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation. "SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit specially crafted input to certain functions lacking sufficient validation," per CVE.org. "Successful exploitation could enable arbitrary code execution and compromise internal components, resulting in high impact on confidentiality, integrity, and availability of the application." According to Defused Cyber, exploitation attempts against CVE-2026-58231 began to hit its honeypot systems merely three days after the release of the patch. "This vulnerability has no public PoC and is not known to be exploited," the threat intelligence company said in an X post ...
+- **Source URL:** https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-15
+- **Headline / event:** Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner Aug 15, 2026 Vulnerability / Endpoint Security A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned . The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to authenticate to the built-in remote desktop feature service without valid credentials. The updates released by Apple improve state management mechanisms to enforce correct credential validation and prevent unauthorized authentication attempts. The shortcoming was addressed as part of an emergency update in macOS Tahoe 26.6.1 , macOS Sequoia 15.7.9 , and macOS Sonoma 14.8.9 earlier this month. "An authentication issue was addressed with improved state management," Apple said in an advisory released on August 6, 2026. It credited security researcher Alfredo Pesoli of Bynario for discover...
+- **Source URL:** https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
