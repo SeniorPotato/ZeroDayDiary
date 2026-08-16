@@ -1,16 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:58:00.130Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-16T015800Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-08-16",
-      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-08-16T13:01:59.690Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-16T130159Z.md",
+  "candidates": []
 }
