@@ -1,34 +1,84 @@
 {
-  "generatedAt": "2026-08-17T01:55:52.468Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-17T015552Z.md",
+  "generatedAt": "2026-08-17T13:07:22.843Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-17T130722Z.md",
   "candidates": [
     {
       "discovered": "2026-08-17",
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+      "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
+      "link": "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale",
+      "slug": "hacking-public-wi-fi-dns-to-steal-credentials",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "How MCP Servers Can Expose Enterprise Secrets Aug 17, 2026 AI Security / Identity Security MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become a major gap in MCP server security. The Model Context Protocol (MCP) allows AI agents to reach the tools and data, including internal documentation and cloud infrastructure, that form the foundation of enterprise systems. Behind that convenience, the MCP server connecting those tools and data to enterprise systems typically holds the keys to everything it touches: credentials, service account keys, API tokens and other secrets. Every organization should now question what secrets they are handing to AI and how well those secrets are protected once they reach an MCP server. What is Model Context Protocol (MCP)? Model Context Protocol (MCP) is an open standard, originally introduced by Anthropic, that allows...",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "how-mcp-servers-can-expose-enterprise-secrets-aug-17-2026-ai-security-identity-security-mc",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access Aug 17, 2026 Vulnerability / Mobile Security Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker. The advisory , published August 17, 2026, is the second stage of a chain that began in March 2026, when SSD disclosed remote code execution in the same firmware through a malformed SIP video call. Completing the full chain requires the attacker to control a private 4G cellular network and the victim to answer the incoming video call. \"We have tried to reach out to the vendor through multiple channels (email and LinkedIn) but have not been able to receive any response,\" SSD Secure Disclosure said in its advisory. The March 2026 disclosure carried the same statement. The research was carried out by an independent security researcher using the handle 0x50594d. The privilege-escalation vulnerability is classified as CWE-1189, Improper ...",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "unisoc-volte-video-call-exploit-chain-can-give-attackers-full-android-kernel-access-aug-17",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies Aug 17, 2026 Malware / Botnet Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies. \"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including encrypted C2 communications, an SSH brute-force scanner, a SOCKS relay module, a credential sniffer, and an integrated exploit arsenal targeting multiple known vulnerabilities,\" Fortinet FortiGuard Labs said . Evidence indicates that the botnet has been active in the wild since July 2026, exploiting known vulnerabilities in publicly-accessible devices to deliver the malware. Some of the security flaws weaponized by the botnet are below - CVE-2007-3010 - Alcatel OmniPCX Enterprise Remote Code Execution Vulnerability CVE-2016-6277 - NETGEAR Multiple Routers Remote Code Ex...",
+      "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "evooo1bot-linux-botnet-exploits-known-flaws-to-turn-edge-devices-into-socks5-proxies-aug-1",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware Aug 17, 2026 Vulnerability / Ransomware Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code. A fix for the flaw was released by Broadcom on July 29, 2026. German incident response company QUIRSO assessed with moderate confidence that the exploitation campaign aimed at CVE-2026-59310 is operated by a Chinese-speaking threat actor, likely working in the UTC+08:00 time zone, which is predominantly used in Chinese-speaking regions. \"This assessment is based on the convergence of Chinese-language artifacts in attacker-created scripts, apparent reuse of research from a Chinese security publication, repeated operational use of Chinese-language tools and management software, victi...",
+      "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "suspected-china-nexus-actor-exploits-vmware-vcenter-flaw-deploys-babuk-derived-ransomware-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "philips-and-ge-investigating-clop-ransomware-data-theft-claims",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-08-17",
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "large-scale-ddos-attacks-disrupted-threema-secure-messaging-service",
+      "slug": "french-tax-authority-data-breach-affects-678-000-individuals",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-08-17",
-      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-      "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control",
+      "slug": "microsoft-working-on-defender-patch-for-shieldbreak-zero-day",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }

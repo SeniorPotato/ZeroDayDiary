@@ -485,7 +485,8 @@
       "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
       "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html",
       "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
-      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html"
+      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
+      "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1429,7 +1430,11 @@
       "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
       "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
       "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html"
+      "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+      "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2329,7 +2334,10 @@
       "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
       "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
       "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
+      "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/"
     ]
   }
 }
