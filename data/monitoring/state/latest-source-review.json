@@ -1,5 +1,36 @@
 {
-  "generatedAt": "2026-08-16T13:01:59.690Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-16T130159Z.md",
-  "candidates": []
+  "generatedAt": "2026-08-17T01:55:52.468Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-17T015552Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-08-17",
+      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "large-scale-ddos-attacks-disrupted-threema-secure-messaging-service",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-08-17",
+      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+      "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }
