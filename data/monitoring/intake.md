@@ -16644,3 +16644,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** LLMs and Contextual Integrity
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files Aug 18, 2026 AI Security / Application Security Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between sessions. The work, released as a preprint on August 10, 2026, tests the technique in a simulated six-agent coding collaboration and in a chain of paired agents modeled on OpenClaw , the open-source autonomous assistant formerly known as Clawdbot and Moltbot . There is no evidence that the technique has spread successfully in the wild, and the same paper reports that a review of archived posts from Moltbook, the social network for AI agents, found no successful agent-to-agent propagation despite several attempts. A one-paragraph warning added to an agent's system prompt reduced spread to near zero across the payloads tested. Fifteen generations of adversarial optimization run against that warning on C...
+- **Source URL:** https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks Aug 18, 2026 Endpoint Security / Cyber Attack Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT . "TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services," Ontinue said in a technical report shared with The Hacker News. "Tasking flows through SharePoint Online file dead-drops via the Microsoft Graph API. Interactive operator access routes through WebRTC DataChannels relayed by Microsoft Teams TURN servers." Traffic to and from the Graph API is driven by means of a headless instance of the victim's own Edge browser, thereby making it virtually indistinguishable from legitimate network activity. The implant is equipped to harvest Windows credentials using pixel-perfect fake lock screens, offer a reverse SOCKS5 pivot into victim networks, execute arbitrary commands, and establish persistence on the host. Ontinue's Cyber Defense Cen...
+- **Source URL:** https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025 Aug 18, 2026 SaaS Security / Cloud Security A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco. The activity, which Reco has named the City Forum campaign after a domain tied to the attacker's IP address, traces back to one server: 158.220.87.79, hosted on a commodity VPS through the German provider Contabo. Every request from that server carries the same fingerprint, the default user agent of Go's net/http library, which tells researchers the tool behind it is a compiled, purpose built program rather than anything run from a browser. Passive DNS shows the same domain pointed at that IP as far back as March 2025, and the server has not moved since. Targets identified so far span telecoms, banks and other financial services firms, enterprise software vendors including security and data privacy companies, and public sector portals, though Reco...
+- **Source URL:** https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** 16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets Aug 18, 2026 Cryptocurrency / Open Source Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the moniker StubMaker . The complete list of packages published as part of the campaign is below - ubnuler ubnlder ri18nr reaker rakier orakw joxn ise18n ioe18n ie18u iai8n i1l8n i18om activesupmport brumdler brundlef "This new malware harvests browser credentials, cryptocurrency wallets, seed phrases, and Telegram data," security researcher Paul McCarty (aka 6mile) said. "All of the malicious RubyGems packages appear to be typosquats of popular Ruby dependencies, but rather than the clever SEO-fueled typosquats we've seen from other threat actors (e.g., events-channel imitating the popular Node.js events module), they're all clumsy typos." The 16 gems have been published...
+- **Source URL:** https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Aug 18, 2026 Vulnerability / Cybercrime SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers. The hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line "[Important] Your SafePal Order Information Has Been Affected." The exposed records did not include wallet credentials or financial information, according to SafePal, which said it has found no evidence that the incident itself compromised access to SafePal wallets or funds. "This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers," SafePal said . Under certain conditions, the flaw allowed unauthorized access to another customer's order information, the company ...
+- **Source URL:** https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-18
+- **Headline / event:** CISA: Windows Task Host flaw now exploited by ransomware gangs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

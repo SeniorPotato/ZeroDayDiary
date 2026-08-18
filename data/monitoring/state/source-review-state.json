@@ -489,7 +489,8 @@
       "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html",
       "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
       "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
-      "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html"
+      "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
+      "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1442,7 +1443,12 @@
       "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
       "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
       "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html"
+      "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+      "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+      "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2348,7 +2354,8 @@
       "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
       "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
       "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/"
+      "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/"
     ]
   }
 }
