@@ -88,7 +88,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -1448,7 +1449,11 @@
       "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
       "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
       "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-      "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html"
+      "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+      "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+      "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2355,7 +2360,10 @@
       "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
       "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
       "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/"
+      "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+      "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+      "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/"
     ]
   }
 }

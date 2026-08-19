@@ -16700,3 +16700,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps Aug 18, 2026 AI Security / Vulnerability Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch , turn in part on an undocumented URL parameter that the assistant itself surfaced during testing. The company said it reported the issue to Microsoft in December 2025 and that patches shipped on August 18, 2026. CoSnitch is tracked as CVE-2026-24301 in Microsoft's Security Update Guide. The research names Copilot Personal, the consumer assistant hosted at copilot.microsoft.com, and does not state that the same behavior affected Microsoft 365 Copilot. The researchers said they found no evidence that CoSnitch was exploited in the wild. They reached the parameter by repeatedly asking Copilot why a prompt could not be made to run without user interaction, an ap...
+- **Source URL:** https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets Aug 18, 2026 Vulnerability / Artificial Intelligence Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts. According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows - CVE-2026-64849 (CVSS score: 9.3) - An unauthenticated Server-Side Request Forgery (SSRF) vulnerability in MLflow that can allow an attacker who can reach the Tracking Server (mlflow server) to issue HTTP requests to arbitrary internal cloud metadata endpoints and extract sensitive data. (Affects versions < 3.15.0) CVE-2026-25895 (CVSS score: 9.5) - A missing authentication for a critical function and path traversal vulnerability in FUXA that can allow an unauthenticated, remote attacker to write arbitrary files to the server file system and achieve remote code execution. (Affects ve...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000 Aug 18, 2026 Cybercrime / Ransomware A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000. "In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous," GuidePoint Research and Intelligence Team (GRIT) said in a report shared with The Hacker News. "While cybersecurity firms commonly reach out to ransomware victims to offer consulting or recovery services, it is generally done only after the attack becomes public knowledge." The cybersecurity company said it has responded to several recent ransomware incidents involving the threat actor, who is believed to be an affiliate with employment across multiple ransomware-as-a-service (RaaS) operations. In emails sent to the victims, Ransom Busters is seen requesting contact with their CEO o...
+- **Source URL:** https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE Aug 18, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than 43,500 stars and has been forked over 7,900 times. The vulnerability in question relates to CVE-2025-62593 (CVSS score: 9.4), which can result in remote code execution via web browsers like Mozilla Firefox and Apple Safari by means of a DNS rebinding attack . "Due to the longstanding decision by the Ray Development team to not implement any sort of authentication on critical endpoints, like the /api/jobs & /api/job_agent/jobs/ has once again led to a severe vulnerability that allows attackers to execute arbitrary code against Ray," according to an advisory shared by Ray ...
+- **Source URL:** https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Comcast turns your Xfinity WiFi into a home motion detector
+- **Source URL:** https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Clop created custom web shell for Windchill data theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Your Controls Block Known Attacks. What About the Behavior?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
