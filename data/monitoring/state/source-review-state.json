@@ -491,7 +491,8 @@
       "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
       "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
       "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
-      "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"
+      "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html",
+      "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1453,7 +1454,12 @@
       "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
       "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
       "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+      "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+      "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+      "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+      "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2363,7 +2369,9 @@
       "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
       "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
       "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/"
+      "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+      "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/"
     ]
   }
 }

@@ -16764,3 +16764,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** ICE Collecting DNA Samples
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Aug 19, 2026 IoT Security / Network Security Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm , was reconstructed from a 407 MB exposed working directory containing 2,616 files across 234 subdirectories, including tooling, logs, shell history, and campaign records, with the researchers saying confirmed compromises were concentrated in Ukraine and Russia. The researchers said 1,923 cameras were configured with a persistent account during the operation and 283 were reached through the P2P path. Users of affected Dahua products are advised to install the corresponding fix software or newer firmware, while ITRES Labs recommends disabling P2P where it is not required and checking firmware against the vendor's download site. "The relay establishes the route w...
+- **Source URL:** https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Phishing 3.0: The Fight Moves to Agent Versus Agent Aug 19, 2026 Phishing / Artificial Intelligence Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person. From Bad Content to Bad Intent to AI on Both Sides Phishing 1.0 was bad content. Malicious links, infected attachments, spam. Secure email gateways were built for this. Scan the message, match the signature, drop the bad stuff. That era is largely handled. Phishing 2.0 is bad intent. Business email compromise, executive impersonation, fake invoices, wire fraud. There is no malicious payload to scan, only social engineering that reads as a normal request from a person you trust. Gateways are blind to it because there is nothing in the content to flag. Behavioral analysis is the only thing that catches it, which is why some of us have spent the better part ...
+- **Source URL:** https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data Aug 19, 2026 Website Security / Cybercrime Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screenshots, and activity logs created to track the status of the activity. "The operation doesn't rely on a single piece of malware, but on a whole toolkit of criminal software working together – some components encrypt files, others silently steal documents or lock the screen, and another acts as a live chat between the attackers and their victims," Check Point Research's Jaromír Hořejší said . The large-scale campaign is being tracked by the cybersecurity company under the moniker StopAndProtect after discovering a ransomware family of the same name in mid-May 2026. The infection chain begins with a ClickFix social engineering attack, resulting in the execution of a PowerShell command that leads to the deployment of additional .NET downloaders and l...
+- **Source URL:** https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation Aug 19, 2026 Vulnerability / Ransomware The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials. CVE-2026-55040 (CVSS score: 9.1) - A weak authentication vulnerability impacting Microsoft SharePoint that could allow an unauthorized attacker to bypass a security feature over a network. CVE-2026-59310 (CVSS score: 9.8) - A path traversal vulnerability in Broadcom VMware vCenter that could allow a threat actor with network access to vCenter to execute arbitrary code. CVE-2026-33824 (CVSS score: 9.8) - A double free vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions ...
+- **Source URL:** https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure Aug 19, 2026 Malware / Cloud Security Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before treating a domain as connected, including process ancestry, command-line patterns, request paths, headers, and upload parameters. Microsoft did not disclose a victim count or attribute the activity to a named threat actor in the report published Tuesday. "The investigation also confirmed active data exfiltration, not just beaconing," the company said. According to the analysis , observed execution began from an interactive zsh Terminal session consistent with ClickFix social engineering, followed by curl retrieving attacker-controlled content over a recurring /curl/ path and na...
+- **Source URL:** https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** Critical RCE flaw in Windows IKE Extension now actively exploited
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-19
+- **Headline / event:** CISA: Medusa ransomware hit over 500 critical infrastructure orgs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
