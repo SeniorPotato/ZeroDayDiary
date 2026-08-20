@@ -89,7 +89,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -265,7 +267,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-stops-sprawling-credit-repair-scheme-scammed-consumers-out-nearly-200-million",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-advertising-claims-other",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/08/statement-ftc-win-blocking-loctite-liquid-nails-construction-adhesive-merger"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/statement-ftc-win-blocking-loctite-liquid-nails-construction-adhesive-merger",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-connecticut-secure-4-million-settlement-manchester-city-nissan-over-deceptive-fees-allegations",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1459,7 +1463,11 @@
       "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
       "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
       "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html"
+      "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+      "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+      "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2371,7 +2379,12 @@
       "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
       "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/"
+      "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+      "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+      "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+      "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+      "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
+      "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/"
     ]
   }
 }

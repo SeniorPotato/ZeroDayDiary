@@ -16828,3 +16828,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Defending Against an Active Threat to Siemens S7 Series PLCs
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** FTC, Connecticut Secure $4 Million Settlement with Manchester City Nissan Over Deceptive Fees Allegations
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-connecticut-secure-4-million-settlement-manchester-city-nissan-over-deceptive-fees-allegations
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** FTC Seeks Comment on Enforcement Policy Statement Regarding Personalized Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim's memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. "We demonstrate that the production implementation of DyPrIs was insufficient," the researchers said in the paper . Cloudflare Workers runs code from multiple...
+- **Source URL:** https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Aug 19, 2026 Machine Learning / AI Safety OpenAI on Tuesday revealed that it paused reinforcement learning ( RL ) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident . "As models become more capable, the risks associated with developing and testing them internally also grow," the AI company said . "Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling." The company said its largest planned frontier RL run remains on hold for the time being as it conducts smaller-scale training and evaluations to evaluate model behavior, validate its safeguards, and establish more concrete evidence of alignment before moving to the next phase. To that end, OpenAI said it plans to strengthen safeguards across its development process, inc...
+- **Source URL:** https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs Aug 19, 2026 Malware / Threat Intelligence A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a China-nexus threat cluster with medium confidence. "What makes SilkParasite interesting is the traces of AI-assisted development running through otherwise expert code, which is a different thing from AI-generated malware," Bitdefender Labs said in a technical report shared with The Hacker News. Unlike other operations that rely on AI-generated malware, SilkParasite's arsenal exhibits all hallmarks typically associated with professional espionage tooling that's developed by a team of human operators while AI is likely used to streamline the process. The Romanian cybersecurity v...
+- **Source URL:** https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data Aug 19, 2026 Vulnerability / Ransomware A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault data, decrypting every credential in the Windchill keystore, and running additional code by means of a custom Java class loader, turning the tool into a backdoor for remote access and post-exploitation activity, such as lateral movement, ransomware, or persistence. While threat actors are typically known to deploy lightweight web shells (or reuse open-source variants like Behinder or China Chopper) as a way to maintain remote access to compromised systems and enable basic command execution capabilities, the latest development signals the use of a bespoke web shell that's tailored to the ...
+- **Source URL:** https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Rogue ransomware affiliate poses as recovery firm to steal payments
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Sakura Internet hack exposes data of up to 1.36 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Healthtech firm CareCloud data breach impacts 3.7 million patients
+- **Source URL:** https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** Hackers compromise 14,500 Dahua web cameras in 35-day campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-20
+- **Headline / event:** US warns of AI-powered attacks on Siemens PLCs in critical infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
