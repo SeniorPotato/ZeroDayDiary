@@ -496,7 +496,8 @@
       "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
       "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
       "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html",
-      "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html"
+      "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html",
+      "https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1467,7 +1468,12 @@
       "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
       "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
       "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-      "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
+      "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+      "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
+      "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2384,7 +2390,11 @@
       "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
       "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
       "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/"
+      "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+      "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/"
     ]
   }
 }
