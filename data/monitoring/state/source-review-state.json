@@ -91,7 +91,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+      "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -497,7 +498,8 @@
       "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
       "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html",
       "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html",
-      "https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html"
+      "https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html",
+      "https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1473,7 +1475,12 @@
       "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
       "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
       "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html"
+      "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2394,7 +2401,10 @@
       "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
       "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-      "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/"
     ]
   }
 }
