@@ -17092,3 +17092,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** More Incidents of AIs Going Rogue in Cybersecurity Challenges
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** Wazuh and AI For Enhanced SOC Workflows Aug 21, 2026 Security Operations / Artificial Intelligence Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate cyberattacks and accelerate vulnerability discovery, defenders are adopting AI to improve threat detection and enhance incident response. Security Operations Centers (SOCs) receive a high volume of alerts from endpoints, cloud workloads, network devices, identity providers, and business applications. Although SIEM and XDR platforms provide visibility into these environments, analysts often spend considerable time correlating alerts, searching documentation, and determining the next investigative steps. AI offers a practical way to augment analysts by providing contextual explanations, summarizing ...
+- **Source URL:** https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0 Aug 21, 2026 Vulnerability / Enterprise Security Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below - CVE-2026-20030 (CVSS score: 10.0) - An SQL injection vulnerability CVE-2026-20357 (CVSS score: 10.0) - A missing authentication for critical function vulnerability CVE-2026-20358 (CVSS score: 10.0) - An external control of file system vulnerability CVE-2026-20359 (CVSS score: 9.9) - An insufficiently protected credentials vulnerability The issues affect Cisco Crosswork Release version 7.2.1 and earlier, and have been addressed in version 7.2.1-SP. Cisco has also released fixes to remediate five vulnerabilities affecting Cisco Secure Workload, including Software-as-a-Service (SaaS) a...
+- **Source URL:** https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure Aug 21, 2026 Vulnerability / Enterprise Security A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab projects and rewrite their data under certain conditions without requiring credentials, user interaction, or obscure configuration. The following versions of GitLab Community Edition (CE) and Enterprise Edition (EE) are affected by the flaw - 18.2 before 18.11.11 19.0 before 19.0.8 19.1 before 19.1.6 19.2 before 19.2.4 In an alert released earlier this week, GitLab said the issue could be exploited via a GraphQL directive. Fixes for the flaw were rolled out in GitLab CE and EE versions 19.2.4, 19.1.6, 19.0.8, and 18.11.11. Preemptive exposure management firm watchTowr told The Hacker News that it was able to reproduce the vulnerability within minutes of ...
+- **Source URL:** https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution Aug 21, 2026 Vulnerability / Threat Intelligence Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory or Azure AD. "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network," Microsoft said in an alert released Thursday. Flaws of this kind occur when an application converts user-controlled data back into an active object or code structure without proper validation. This can lead to code execution, denial-of-service, or access control bypass that can permit an attacker to perform unauthorized actions. The company credited Principal Security Engineer Robert Fitzaptrick for discovering and reporting the issue. ...
+- **Source URL:** https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js threa...
+- **Source URL:** https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** CISA orders feds to patch actively exploited TrueConf Server flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** Hackers abuse FTP server banners to deliver new Windows
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-21
+- **Headline / event:** SickKids data breach exposes employee and job applicant info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
