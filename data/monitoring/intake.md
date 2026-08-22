@@ -17164,3 +17164,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** FTC Files Amicus Brief to Protect Competition in Biologic Drug Markets
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-files-amicus-brief-protect-competition-biologic-drug-markets
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** Friday Squid Blogging: Neon Flying Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-neon-flying-squid.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** AI Is Learning to Write Genetic Code
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2 Aug 21, 2026 Malware / Threat Intelligence Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0. "When the module loads, it locates the bundled binary, marks it executable, and launches it as a detached background process," TrendAI, Trend Micro's enterprise cybersecurity business, said in a report published Thursday. "No install hook function call is needed; a single import anywhere in the dependency graph, even a transitive one, is enough to execute the payload." The list of identified packages is below - streak-metrics-math@1.0.0,1.0.1 kit-map-vim@1.0.0 streak-map-cache@1.0.0 streak-map-kit@1.0.0 map-streak-kit@1.0.0 streak-cache-map@1.0.0 streak-calc-metrics@1.0.0 streak-calc-math@1.0.0 streak-math-abz@1.0.0 streak-metricsaz@1.0.0 streak-math-metrics@1.0.0 streak-metrica...
+- **Source URL:** https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot Aug 21, 2026 Endpoint Security / Threat Detection Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported from outside the machine. The driver, BTR.sys (Boot Time Removal Tool), is a required Windows component, which means it cannot be added to Microsoft's Vulnerable Driver Blocklist or blocked via Windows Defender Application Control (WDAC) without disrupting Defender itself. Jiří Vinopal, a threat researcher and reverse engineer at Check Point Research, presented the findings as a main-stage briefing at Black Hat USA 2026 and DEF CON 34 in Las Vegas and published the accompanying research paper alongside a proof-of-concept tool, BTR_CLI, on August 20, 2026. Check Point Research said it found no evidence the technique has been used in real-world attacks. "Dur...
+- **Source URL:** https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet Aug 21, 2026 Malware / Automotive Security Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation of a proxy botnet. "The malware spread through the built-in updaters of Android-based automotive head unit firmware," security researcher Dmitry Kalinin said. "This is the first documented case of malware found on a car head unit with an infection chain specific to that type of device." The activity has been attributed with high confidence to the MoYu Group , which was outed by the HUMAN Satori Threat Intelligence and Research team last year as part of a broader ad fraud and residential proxy scheme dubbed BADBOX. In July 2025, Google filed a lawsuit against 25 unnamed individuals or entities in China for allegedly operating the BADBOX botnet a...
+- **Source URL:** https://thehackernews.com/2026/08/android-car-malware-spreads-through.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** New SynkLoader malware pushed in Microsoft Teams phishing campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** Hundreds of leaked AWS keys give full control over corporate accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-22
+- **Headline / event:** Is Online Privacy Possible? How Digital Identities Can Help
+- **Source URL:** https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
