@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-08-22T13:02:03.995Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-22T130203Z.md",
+  "generatedAt": "2026-08-23T02:00:34.776Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-23T020034Z.md",
   "candidates": [
     {
-      "discovered": "2026-08-22",
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+      "discovered": "2026-08-23",
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit Aug 22, 2026 Privacy / Regulation The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an additional $100 million \"upon entry of an order vacating a prior consent decree entered against TikTok’s predecessor, Musical.ly,\" the DoJ said in a press release. A complaint filed back in August 2024 alongside the Federal Trade Commission (FTC) accused the company of \"massive-scale invasions of children's privacy\" by knowingly allowing children under 13 to create TikTok accounts and unlawfully collecting data from those who used it in \"Kids Mode.\" It further alleged TikTok and its parent company ByteDance failed to \"comply with parents' requests to delete their children's accounts and information.\" At the time, the company disputed...",
+      "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "named-pipes-under-attack-securing-windows-interprocess-communication",
+      "slug": "tiktok-agrees-to-400-million-settlement-in-u-s-child-privacy-lawsuit-aug-22-2026-privacy-r",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-23",
+      "title": "Hackers infect Android car head units with proxy botnet",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-infect-android-car-head-units-with-proxy-botnet",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }

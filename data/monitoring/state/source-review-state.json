@@ -1493,7 +1493,8 @@
       "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
       "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
       "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
+      "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+      "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2424,7 +2425,8 @@
       "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
       "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
       "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/"
+      "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+      "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
     ]
   }
 }
