@@ -1,5 +1,16 @@
 {
-  "generatedAt": "2026-08-23T13:03:17.573Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-23T130317Z.md",
-  "candidates": []
+  "generatedAt": "2026-08-24T01:58:43.622Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-24T015843Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-08-24",
+      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+      "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }
