@@ -17412,3 +17412,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Black Hat State of Security Vendors
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode Aug 25, 2026 Vulnerability / AI Security Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record. The CNA record says the command can run as a local subprocess when the notebook is opened in edit mode. The vulnerability, tracked as CVE-2026-75149 , is a code injection issue affecting versions prior to 0.23.15. VulnCheck's CVE Numbering Authority (CNA) record assigns it a CVSS v4 score of 8.7 and a CVSS v3.1 score of 8.8, with user interaction required and no attacker authentication required. Marimo has addressed the issue in version 0.23.15. The CVE was published on August 19. Users running an affected release should move to a version outside the affected range. According to OSV's CVE import , a crafted notebook can supply an attacker-controlled MCP server command through notebook configurat...
+- **Source URL:** https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows Aug 25, 2026 Phishing / Enterprise Security Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication. According to ANY.RUN research, 48% of targeted email addresses were potentially compromised. Most of the affected companies are US-based. Mirage2FA Campaign Scope and Impact By stealing passwords and session cookies, attackers can gain access to authenticated Microsoft 365 sessions and SSO-connected services. This creates significant identity-related risks for companies, potentially exposing corporate email, trusted business accounts, and other sensitive data. Once an authenticated Microsoft 365 session is hijacked, a path for impersonation, fraud, and further compromise is created. Key takeaways about Mirage2FA by ANY.RUN The campaign has a broad geographic and corporate reach. Apart from the United States accounting for 63.7% of the tot...
+- **Source URL:** https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages Aug 25, 2026 Phishing / Threat Intelligence Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the registry and its mirrors as a safe, validated storage for the malware," OX Security researchers Moshe Siman Tov Bustan and Vitalii Chepurko said . The list of npm packages, some of which are still available for download, is below - bgzxcuite2 prezdentkxheiw egair0810 mnteckets airdzticket egypt0811 passport811 vxhjkseuiaqkb ndmushdkeqe ndmxchdjxn2 ndmfguyhoxc3 mjsdqwocvn m2fcsfyjkuxb m3fdfocdoewn @worrisome/reutil testdgdbcsd tesgfvbncsdbcv mndsxcusiwlk1 mn2adskhweox mn3sadkoiewu mn4xcouzvhus mbxcnsuwgs1 s...
+- **Source URL:** https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands Aug 25, 2026 Malware / Social Engineering Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers ( DDRs ) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE . While threat actors are known to abuse legitimate services to point to additional command-and-control (C2) infrastructure and blend in with regular network traffic, the development marks the first time this unusual technique has been spotted in the wild. An FTP banner is a welcome message or text string that an FTP server sends to a client immediately upon connection. The mechanism allows "malware stagers to fetch commands directly from the protocol's initial response," SOCRadar said in a technical report. The modus operandi was first highlighted by the MalwareHunterTeam early last month. However, it's worth noting that the method is a lot less stealthy than traditional web-based DDRs, as security controls are likely to flag FTP connections ...
+- **Source URL:** https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Frontier AI: Vulnerability Management's Systemic Revolution Aug 25, 2026 Attack Surface Management Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a common goal of identifying vulnerabilities and confirming the risk was removed from the environment. In come Frontier AI models such as Anthropic's Mythos to radically change the vulnerability management space. These models can identify zero-day flaws, chain complex exploits, and adapt in real time. They have forced vulnerability management programs to take an introspective look at themselves and ask, “Is my vulnerability program ready for this revolution?” For many organizations, the answer is no. Many vulnerability management programs were hanging by a thread already, with very distant pl...
+- **Source URL:** https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** WhatsApp adds stronger two-step verification, multiple passkeys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Hackers breached over 270 Zimbra servers in ongoing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Police arrests dozens of suspects in global cybercrime crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

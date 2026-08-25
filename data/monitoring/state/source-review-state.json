@@ -507,7 +507,8 @@
       "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html",
       "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-neon-flying-squid.html",
       "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html",
-      "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html"
+      "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html",
+      "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1505,7 +1506,12 @@
       "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
       "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
       "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
+      "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+      "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+      "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2444,7 +2450,10 @@
       "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
       "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
       "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
+      "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+      "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/"
     ]
   }
 }
