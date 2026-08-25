@@ -17340,3 +17340,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning Aug 24, 2026 Malware / SEO Poisoning Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs, installation guides, developer credits, and links to genuine GitHub repositories. Notably, one of the sites has been built using Lovable , an artificial intelligence (AI)-powered website builder, highlighting how readily available tools can further lower the barrier and make it easier to launch convincing new malicious sites. Weedhack was first documented by the cybersecurity company back in June 2026, detailing its use of SEO poisoning and YouTube to redirect traffic to the bogus domains. The attack triggers a multi-stage sequence that culminates in the deployment of JAR payloads that can ...
+- **Source URL:** https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Aug 24, 2026 Cybersecurity / Hacking A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are. Plenty to clean up. Here’s the short version. ⚡ Threat of the Week U.S. Warns of AI-Powered Attacks on Siemens PLCs — Threat actors are using AI to write exploit scripts targeting internet-exposed Siemens S7 Series programmable logic controllers (PLCs) used across water, energy, manufacturing, and other critical infrastructure sectors, according to the U.S. government. The agencies warned: "This is not a theoretical risk—it is an active threat." The exploitation of poorly secured PLCs could result in disruption of critical industrial processes, safety incidents, downtime or equipment damage, compromise of sensitive data, and compliance violations, not...
+- **Source URL:** https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit Aug 24, 2026 Cybercrime / Malware Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Details of the threat activity came to light following the discovery of an open directory hosted at "139.180.197[.]150," which was observed communicating with one of the compromised machines. "The actor leveraged publicly disclosed vulnerabilities to gain initial access at scale," Cisco Talos said in a two-part report published last week. The actor employed a mixture of open-source offensive frameworks, including Metasploit , ysoserial , PentestGPT , DeepAudit, and multiple privilege escalation exploits to automate intrusion operations and establish persistence." UAT-10147 has been described as a threat actor that conducts search engine op...
+- **Source URL:** https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Microsoft Teams now lets admins block external bots from meetings
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** Hackers target WordPress sites in miniOrange auth bypass attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** ReliaQuest confirms failed data-theft attack after ShinyHunters breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-25
+- **Headline / event:** South Korean startup platform breach exposes key management failures
+- **Source URL:** https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

@@ -93,7 +93,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
       "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -1501,7 +1502,10 @@
       "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
       "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
       "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-      "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html"
+      "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+      "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+      "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+      "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2435,7 +2439,12 @@
       "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
       "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
       "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+      "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+      "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+      "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
     ]
   }
 }
