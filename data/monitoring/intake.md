@@ -17588,3 +17588,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing Aug 26, 2026 Red Teaming / Security Operations The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different defensive outcomes. Both organizations were fully compromised at the domain level, and in both, the red team also reached sensitive business systems (SBSs) and cloud resources. The advisory, tracked as AA26-237A and titled "A Tale of Two SOCs," was released on August 25, 2026. CISA identified the first target only as a Government Services and Facilities Sector organization, referred to as Organization A , and the second as a Water and Wastewater Systems Sector entity, referred to as Organization B . "CISA conducted two simultaneous red team assessments using similar tradecraft but observed different defensive responses," the agency said in the advisory. Against Organization A, the re...
+- **Source URL:** https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code Aug 26, 2026 Vulnerability / Web Security The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912 , both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player library, which Kaltura also distributes as html5lib. Neither requires authentication or a Kaltura session token, and network access to the endpoint is the only precondition CERT/CC states. No patch is available, and CERT/CC said it was "unable to reach Kaltura to coordinate these vulnerabilities." Administrators are advised to restrict or disable external access to the endpoint and to enforce a strict allow-list for the ServiceUrl parameter that permits only legitimate backend API URLs. No exploitation had been reported at the time of writing, and neither CVE appeared in CISA...
+- **Source URL:** https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine Aug 26, 2026 Artificial Intelligence / Security Operations The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression follows a well-known pattern: an alert arrives; a detection engine assigns a severity score. The issue then waits for a human to decide if it should escalate to an investigation. Given the volume of network telemetry in the security stack, the queue is an unavoidable result of humans as the investigative layer. Long alert queues also force security teams to decide which signals to analyze before they even know what those signals represent. Threat hunting has always addressed security questions via an alternative approach: start with a hypothesis about attacker behavior, search the available evidence, then prove or disprove it. The sequence is powerful, but it hits the same wall: human capacity. Agentic security operations change the paradigm. The SOCs now being built are predica...
+- **Source URL:** https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests Aug 26, 2026 AI Security / Application Security Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an OpenClaw agent running Opus 4.6 to book him into a gym class. The agent booked sessions months beyond the window the site allowed. It then tested, without being asked, whether the same API would let it cancel another member's waitlist entry. The test removed the person holding the top place and moved the user up one position. The agent told him it could not add the member back. Aikido's test system is a single-page web application backed by a GraphQL API carrying the two flaws described in the original incident. The seven-day booking window is enforced only in the frontend, and the cancel...
+- **Source URL:** https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation Aug 26, 2026 Artificial Intelligence / Disinformation OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) tool to generate social media posts and comments that were shared on Substack, Telegram, X, Facebook and LinkedIn. The accounts "were being used to promote the International Burke Institute (IBI), a self-described 'expert community' based in Israel," the company said . "What began as an investigation into AI-generated social media posts led us to a much broader influence operation, built around a website containing copied and misattributed academic work, a 'sovereignty' index that cast Russia in a favourable light, and efforts to disguise the operators' Russian origins." The campaign is assessed to have reached "relatively small audiences," with Telegram channels attracting more users and amassing about 10-20,000 followers each. The m...
+- **Source URL:** https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Hackers now exploit critical Gitea flaw in code injection attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** From Fake Workers to Account Recovery: The Growing Identity Verification Risk
+- **Source URL:** https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

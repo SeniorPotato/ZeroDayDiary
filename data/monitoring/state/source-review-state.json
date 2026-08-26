@@ -1519,7 +1519,12 @@
       "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
       "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
       "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
+      "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+      "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2466,7 +2471,9 @@
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
       "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
       "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-      "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"
+      "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+      "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/"
     ]
   }
 }
