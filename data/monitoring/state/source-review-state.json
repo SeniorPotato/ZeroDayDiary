@@ -94,7 +94,9 @@
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
       "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -274,7 +276,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-connecticut-secure-4-million-settlement-manchester-city-nissan-over-deceptive-fees-allegations",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-files-amicus-brief-protect-competition-biologic-drug-markets",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-approves-final-consent-order-ascension-health-amsurg-deal"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1511,7 +1514,12 @@
       "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
       "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
       "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
-      "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html"
+      "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+      "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+      "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2453,7 +2461,12 @@
       "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
       "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
       "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-      "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/"
+      "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+      "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+      "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+      "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"
     ]
   }
 }

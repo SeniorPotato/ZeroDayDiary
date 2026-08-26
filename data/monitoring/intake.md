@@ -17484,3 +17484,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** A Tale of Two SOCs: Insights From Two Red Team Assessments
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** FTC Approves Final Consent Order in Ascension Health-AmSurg Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-approves-final-consent-order-ascension-health-amsurg-deal
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches Aug 25, 2026 Critical Infrastructure / Cybercrime The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an "unprecedented, whole-of-government, economic campaign" against the nation and its enablers. "We are launching an economic onslaught against Iran's financial connections around the globe. Our objective is to sever every economic lifeline that sustains this tyrannical regime until Tehran stands alone," said Secretary of the Treasury Scott Bessent. The action, codenamed Operation Economic Outcast, aims to cut the Iranian regime and the Islamic Revolutionary Guard Corps (IRGC) from the financial "lifelines" that support the "leading state sponsor of terror." To that end, the sanctions designate nearly 60 Iran-linked entities, individuals, and vessels across nuclear, missile, oil, and cyber networks, including the digital assets sector. Specifically, the sanctions take aim at a malicious cyber group affiliated with Iran...
+- **Source URL:** https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Aug 25, 2026 AI Security / Vulnerability Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself. The findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident Response Team (PSIRT) beforehand. The research carries no CVE identifier. No exploitation has been reported as of August 25, 2026. Oasis Security's head of research, Elad Luz, told The Hacker News that NemoClaw v0.0.35 fixed the issue on macOS and Linux. There is no fix on the Windows and WSL path, according to Luz, where v0.0.34 added a Windows installation that carries a warning instead. NemoClaw is NVIDIA's open source reference stack for running agents such as OpenClaw inside its OpenShell sandboxes, and Ollama is one of its supported local inference backends. The report des...
+- **Source URL:** https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android Aug 25, 2026 Authentication / Password Security Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method. The tech giant said more than 1 billion people use a passkey to log into WhatsApp. Support for passkeys was first introduced in Android in October 2023, before expanding to iOS in early 2024. Meta also followed it up by integrating passkeys into Facebook logins in June 2025. Users can manage their passkeys by navigating to Settings > Account > Passkeys. Along with the update, WhatsApp said it's adding a full password option as part of two-step verification, and users on Android will see more context on calls from people who aren't in their contacts. "Two-step verification is an extra protection layer that helps prevent someone from taking over your account, even if they get hold of your one-time passcode," WhatsApp...
+- **Source URL:** https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access Aug 25, 2026 Vulnerability / Web Security Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators. The vulnerabilities, as disclosed by Patchstack , are listed below - CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation vulnerability stemming from signature algorithm confusion (Fixed in version 17.0.5 for the Standard edition) CVE-2026-15981 (CVSS score: 9.8) - An authentication bypass vulnerability stemming from accepting malformed signatures as valid (Fixed in version 17.0.6 for the Standard edition) "This is due to the mo_saml_validate_signature() function performing a loose boolean check on the raw tri-state integer returned by PHP's openssl_verify(), causing an error return value of -1 to be evaluated as truthy and therefore treated as a successful signature verification," according to a...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data Aug 25, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to compromise Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in. Successful exploitation of the flaw can lead to unauthorized access to the instances or modification of critical data. "Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion, or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in accessible data," CISA said . While patches for the flaw w...
+- **Source URL:** https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** LACMA data breach last year exposed social security and medical data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Hackers abuse npm mirrors to host phishing redirect pages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Massive DDoS attack disrupts Norway’s government digital services
+- **Source URL:** https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-26
+- **Headline / event:** Hospital operator Nutex Health says data stolen in cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
