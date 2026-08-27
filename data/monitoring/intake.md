@@ -17740,3 +17740,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** FTC Finalizes Orders with Cox Media Group, Two Other Firms Settling Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+- **Source URL:** https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** LLM-Based Social Engineering Scams
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face Aug 27, 2026 Artificial Intelligence / Data Breach OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a "highly capable, internal-only research model" comparable in scale to GPT‑5.6 Sol. "The models, operating under reduced safeguards, took actions that were misaligned with the goals of their assigned tasks – they communicated through unauthorized channels, exploited vulnerabilities in shared infrastructure, gained internet access, and accessed third-party systems," it said in a postmortem. OpenAI said the AI agents powered by one of the research models, despite not having internet access, found a way to exploit a then-zero-day vulnerability in the Artifactory package manager during r...
+- **Source URL:** https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE Aug 27, 2026 Vulnerability / Web Security Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604 (CVSS score: 9.0), affects Next.js applications that use both the Pages Router and App Router without Cache Components when the server uses a Windows filesystem. Linux and macOS deployments are not affected. "There is no known workaround for affected windows-hosted applications. You should upgrade immediately if your server is hosted on Windows," Vercel said in its advisory . The fixes are available in Next.js 15.5.24 (Maintenance LTS) and 16.3.3 (Active LTS), published on August 25, 2026. Affected users can upgrade by running npm install next@15.5.24 for the 15.5 l...
+- **Source URL:** https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories Aug 27, 2026 Hacking News / Cybersecurity News A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different tricks, same advantage: attackers keep finding places where trust is cheap and friction is low. That sets the tone. Here’s the full list of what surfaced this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers Aug 27, 2026 Vulnerability / Artificial Intelligence Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindguard. The latest version of the IDE is 1.0.337. "The issue allowed attacker-controlled repository content to influence the Kiro agent and ultimately cause sensitive local information to be transmitted to an external endpoint," security researcher Fergal Glynn said in a report shared with The Hacker News. Kiro Powers goes beyond skills by bundling Model Context Protocol (MCP) server configurations, steering files ("POWER.md"), hooks, and contextual knowledge. The steering file is like an "onboarding manual" that provides persistent context and tells the AI agent what MCP tools are ava...
+- **Source URL:** https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Learn How to Build Security Operations Ready for AI-Powered Attacks Aug 27, 2026 Artificial Intelligence / Webinar Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or generating another alert. It is knowing which exposures matter, what an attacker can reach, and which issues need to be fixed first. That is the focus of next week's webinar, How to Build AI Threat Readiness Across Your Security Operations , featuring an expert from Wiz. The session will show how security teams can improve visibility, prioritize real risk, and shorten the path from detection to remediation. Most security teams already have plenty of data. They have vulnerability findings, cloud alerts, identity signals, application telemetry, and threat detections. The harder problem is conne...
+- **Source URL:** https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Nearly 700 rogue AI agents coordinated in the Hugging Face attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** PaperCut warns of NG, MF flaw exploited in zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Manchester Airports Group says hackers stole travelers' data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** How Threat Research and MDR Help SMBs Build a Defensive Edge
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Android 17 adds ECH support to make web browsing harder to track
+- **Source URL:** https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
