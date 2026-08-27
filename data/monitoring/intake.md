@@ -17644,3 +17644,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** CISA Adds Six Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** FTC Announces 2027 Telemarketer Fees to Access the National Do Not Call Registry
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-announces-2027-telemarketer-fees-access-national-do-not-call-registry
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address Aug 27, 2026 Malware / Phishing Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal , during a June 2026 intrusion at an unnamed communications organization in Venezuela. GoCaracal provides operators with remote shell access and payload execution, while the extended profile adds browser data theft, keylogging, remote desktop control, and SOCKS5 proxying. Arctic Wolf also published a YARA rule and representative indicators of compromise (IoCs) that defenders can use to hunt for the malware. "We assess with medium confidence that this activity is linked to Dark Caracal," Arctic Wolf said. Arctic Wolf based the assessment on Bandook use, recurring Delphi-loader characteristics, Spanish-language financial lures, malicious SVGs, URL shorteners, document-themed infrastructure, hosting-provider preferences, and Latin American targeting. In its technical analysis of GoCaracal , Arctic Wolf said the malware ap...
+- **Source URL:** https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access Aug 27, 2026 Hardware Security / Vulnerability Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell. Dubbed GPUThor , the attack was developed by researchers at the University of Toronto, who hammered four DRAM banks for 24 hours each on four Ampere-class cards, inducing bit flips on each. The following GPUs were tested and found vulnerable - RTX A6000 (48 GB GDDR6) RTX A5000 (24 GB GDDR6) RTX A4500 (20 GB GDDR6) RTX A4000 (16 GB GDDR6) Mounting the attack requires the ability to launch an unprivileged CUDA kernel on the target GPU, either as a co-tenant on a shared card or as untrusted code on a single-tenant machine. The researchers advise avoiding cross-tenant GPU sharing, monitoring ECC error counters, and restricting untrusted CUDA workloads. "Recently, researchers at the U...
+- **Source URL:** https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs Aug 27, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2019-1068 - A remote code execution vulnerability in Microsoft SQL Server that could allow an attacker to execute code in the context of the SQL Server Database Engine service account. CVE-2026-8452 - An improper restriction of operations within the bounds of a memory buffer vulnerability in Citrix NetScaler ADC and NetScaler Gateway that could lead to denial-of-service. CVE-2022-0995 - An out-of-bounds memory write vulnerability in Linux Kernel that could allow a local user to gain privileged access or cause a denial of service on the system. CVE-2015-5287 - A privilege escalation vulnerability in Red Hat Automatic B...
+- **Source URL:** https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations Aug 26, 2026 Cyber Espionage / Critical Infrastructure The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive networks in the country. The activity has been attributed to a Chinese state-sponsored group known as QTFY, employed by Nanjing Xinjiuwei Network Technology Company (南京鑫玖维网络科技有限公司). "Among the victims of QTFY computer intrusion activity are the National Aeronautics and Space Administration, Federal Reserve, Department of Energy, Department of Justice, Department of Health and Human Services, National Institutes of Health, and the U.S. Senate," DoJ said. Damon Rouse, a security researcher at Lumen Black Lotus Labs who has been tracking the activity for over the past 18 months, told The Hacker News that the digital quartermaster has been active since May 2018. Nanjing counts both China's Ministry of State Security (MSS) and the People's Liberation Army...
+- **Source URL:** https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler Aug 26, 2026 Malware / Cyber Espionage Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore , an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC). Group-IB, in a new analysis published today, described the cyber espionage actor as among the most active Iranian APT groups in 2026. Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Screening Serpens, Smoke Sandstorm, Subtle Snail, and UNC1549) is assessed to be linked to Tortoiseshell (aka Imperial Kitten and Unyielding Wasp ), which is part of the Charming Kitten (aka Eclipsed Wasp ) cluster. Tortoiseshell is known to be active since at least July 2018, mainly targeting defense, aerospace, IT service providers, and military organizations in the Middle East and the U.S. Nimbus Manticore also has a history of orchestrating its own version of the Dream Job campaign to deliver malware under the pretext of job opportunity-themed social engine...
+- **Source URL:** https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** ATF confirms “major incident” after recent Qilin breach claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Critical Avada WordPress theme flaw enables zero-click RCE
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** New GPUThor attack defeats NVIDIA ECC protection for root access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-27
+- **Headline / event:** Boston Scientific says cyberattack disrupted operations globally
+- **Source URL:** https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
