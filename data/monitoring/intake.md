@@ -17852,3 +17852,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** AI Doesn’t Mean the End of Mathematics—at Least Not Yet
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL Aug 28, 2026 Vulnerability / Cloud Security ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker. The company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their own instances to apply the fixes themselves. The advisory was published on August 27, 2026, and the four vulnerabilities are listed below - CVE-2026-18885 (CVSS score: 10.0) - A code injection vulnerability in the GraphQL Composite Data API that could enable an unauthenticated user to execute arbitrary code and gain access to, or modify, instance data CVE-2026-18886 (CVSS score: 10.0) - An improper access control vulnerability in the system configuration image upload processor that could enable an unauthenticated user to create or modify instance data, resulting in privilege escala...
+- **Source URL:** https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access Aug 28, 2026 Vulnerability / Network Security VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics ( ZBT ), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233 . VulnCheck, which assigned both identifiers as a CVE Numbering Authority (CNA), rated each 9.3 on the CVSS 4.0 scoring system and 9.8 on CVSS 3.1. Both vectors record a network attack requiring no privileges and no user interaction. SPEAKINGSTONE, which runs as the service yunmgrd , sends beacons over UDP port 10000 to a hardcoded command-and-control (C2) server. Because the implant dials outward, it functions from behind NAT and ordinary egress filtering. Its protocol supports message types that execute arbitrary commands as root, exfiltrate the WAN PPPoE username and password, wri...
+- **Source URL:** https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server Aug 28, 2026 Vulnerability / Web Security cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The vulnerability, assigned the CVE identifier CVE-2026-65643 , impacts all supported versions of cPanel & WHM. cPanel described the issue as a critical security vulnerability and said that an authenticated account holder who can add parked or addon domains can create arbitrary files on the server. "Successful exploitation leads to code execution as the root user, giving an attacker full control of the server," cPanel said in a notification to customers. cPanel has released the following patched versions - 11.110.0.141 or later 11.134.0.53 or later 11.136.0.37 or later 11.138.0.2 or later 11.138.1.7 or later (WP Squared) The notification names WP Squared in its patched list and does not mention DNSOnly. cPanel patched three separate flaws in July , and ...
+- **Source URL:** https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions Aug 28, 2026 Vulnerability / Enterprise Security PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it's "aware of confirmed customer incidents and is treating this matter with the highest priority." An investigation into the incident is ongoing. The following indicators of compromise have been shared so far - Alerts from intrusion-detection, endpoint-security, or network-monitoring tools involving the PaperCut Application Server, particularly suspicious post-exploitation activity from "pc-app.exe" Missing, unexpectedly truncated, or deleted PaperCut server.log files The presence of the below entries in "server.log" - ERROR No suitable driver found for jdbc:no:x ERROR DatabaseUtils - Database error looking up cardID: VALUES CAST ...
+- **Source URL:** https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations Aug 28, 2026 Malware / Cyber Espionage Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE , a lightweight Windows batch script that's distributed via macro-enabled Microsoft Word documents bearing diplomatic-themed lures. Early versions are said to have impersonated Spanish government material, before switching to a social engineering approach a month later. The activity has been attributed with moderate confidence to a Russian state-sponsored hacking group known as APT28 (aka Fancy Bear and Forest Blizzard). It's tracked by the Mastercard-owned cybersecurity and threat intelligence firm under the moniker BlueDelta. This determination is based on what Recorded Future described as significant code and tradecraft overlap between HOOKEDGE a...
+- **Source URL:** https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** ServiceNow warns of three max severity security vulnerabilities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Windows 11 KB5120998 update released with 35 changes and fixes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Australia arrests alleged TeamPCP hackers behind supply-chain attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Webinar: How Google Workspace breaches happen and what to do next
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Carhartt data breach exposes information of 12.9 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

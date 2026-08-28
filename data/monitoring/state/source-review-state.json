@@ -517,7 +517,8 @@
       "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html",
       "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html",
       "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
-      "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
+      "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1540,7 +1541,12 @@
       "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
       "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
       "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-      "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
+      "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+      "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+      "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+      "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+      "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2499,7 +2505,12 @@
       "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
       "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
       "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-      "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/"
+      "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+      "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+      "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
+      "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+      "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
+      "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
     ]
   }
 }
