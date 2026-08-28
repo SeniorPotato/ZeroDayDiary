@@ -17940,3 +17940,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Friday Squid Blogging: Truckload of Squid Spills in Rhode Island
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network Aug 28, 2026 Data Breach / Ransomware Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The same statement disclosed that forensic work had found further data outflows in the portfolio of the Senate Department for Mobility, Transport, Climate Protection and Environment, with the exfiltration dated between August 7 and August 12, 2026. Scope and content are still being examined, and the Senate Chancellery said personal or other non-public data cannot be excluded from what was taken. The department first reported an outflow on August 7, the Senate Chancellery said in response to questions, seven days before it was cut off from the network on August 14. Berlin has published no figure for how much left the network. The only itemized account in circulation is the attackers' own, a leak-site post indexed on August 28 that claims 5.79 terabyt...
+- **Source URL:** https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable Aug 28, 2026 Vulnerability / Blockchain Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4w-cg88-2cq2 , is rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness classification, or a CVSS score. Affected versions are < 0.6.2 and >= 0.7.0 < 0.7.2 , and the fix shipped in v0.6.2 and v0.7.2 on August 19. Chain operators are told to upgrade to one of those releases or later, a change that is state-breaking and requires a coordinated network upgrade. Operators who cannot upgrade immediately are told to halt the chain rather than attempt a coordinated governance upgrade. In a post-mortem published August 28 , Cosmos Labs said the flaw was reported through its bug bounty program on April 25 and was assessed at the time as posing no risk to funds on live networks. "We were unable to reproduce the vulnerability ...
+- **Source URL:** https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication Aug 28, 2026 Vulnerability / Web Security Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening. "This vulnerability gives an unauthenticated attacker remote control over PaperCut's trusted configuration, which could be used to execute arbitrary Java code inside the application's process," Huntress researchers John Hammond and Andrew Brandt said . Specifically, an attacker can leverage an unauthenticated request to make changes to the server configuration and ultimately achieve code execution. Huntress has explained the flaw as follows - In unpatched versions of PaperCut NG and PaperCut MF, a specifically crafted request can refer to one page that is rendered for the response, and another page that owns the component or action being executed. PaperCut's authorization check could trust the rendered page and miss the permissions required by the...
+- **Source URL:** https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body Aug 28, 2026 Vulnerability / Cyber Espionage The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities ( KEV ) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of WebDAV API authentication bypass that could allow an attacker to access, modify or delete any file without authentication if the username of the victim is known and the victim has no signing-key configured, which is the default configuration. Disclosed by ownCloud in November 2023, the issue impacts "core" versions from 10.6.0 through 10.13.0. It was fixed in version 10.13.1. CISA's addition of the flaw to the KEV catalog comes a couple of days after Hunt.io said it identified an open directory on the host "31.58.209[.]241," which staged custom Python scripts, o...
+- **Source URL:** https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** 19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code Aug 28, 2026 Web Security / Supply Chain Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities. The extensions , per Socket security researcher Karlo Zanki, share similarities in code and tradecraft, with evidence indicating that the campaign may have been active since February 2024. Socket is tracking the activity under the name Superior. The modus operandi is relatively straightforward: the threat actor either acquires legitimate extensions with proper functionality or pushes a clean version that's devoid of any malware. Once the extensions begin to gather user downloads, a new version with the malicious behavior is published.
+- **Source URL:** https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** PaperCut releases second emergency patch for exploited flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** GiveWP WordPress donation plugin flaw lets hackers execute server commands
+- **Source URL:** https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** 68-year-old imprisoned after making $1.3 million by pirating IPTV services
+- **Source URL:** https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-28
+- **Headline / event:** Over 8,300 Gitea servers vulnerable to code execution attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

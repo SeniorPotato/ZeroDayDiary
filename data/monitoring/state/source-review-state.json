@@ -518,7 +518,8 @@
       "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html",
       "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
       "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
-      "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html"
+      "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
+      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1546,7 +1547,12 @@
       "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
       "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
       "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-      "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html"
+      "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+      "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+      "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+      "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2510,7 +2516,12 @@
       "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
       "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
       "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
-      "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
+      "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+      "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+      "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+      "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+      "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+      "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/"
     ]
   }
 }
