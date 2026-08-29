@@ -1,114 +1,44 @@
 {
-  "generatedAt": "2026-08-28T22:23:18.686Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-28T222318Z.md",
+  "generatedAt": "2026-08-29T07:07:29.884Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-29T070729Z.md",
   "candidates": [
     {
-      "discovered": "2026-08-28",
-      "title": "Friday Squid Blogging: Truckload of Squid Spills in Rhode Island",
-      "link": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html",
+      "discovered": "2026-08-29",
+      "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth Aug 28, 2026 Vulnerability / IoT Security Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU , including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC. The flaws are tracked as CVE-2026-76639 and CVE-2026-76640 , with the first involving a network-adjacent path through chat_go and bashrunner and the second beginning from BLE proximity. An exact fixed firmware release has not been verified in any accessible Unitree guidance, leaving G1 EDU owners without a confirmed release target for either vulnerability. Laflamme said Unitree patched the cloud account-to-robot ownership check in July 2026. As of the August 27 disclosure, the current cloud-assisted route requires an account bound to the target G1 or the relevant key material already in hand. Laflamme published the research on August 27, 2026, describing the two issues as separate root-RCE paths. The research timeline shows Laflamm...",
+      "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "friday-squid-blogging-truckload-of-squid-spills-in-rhode-island",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network Aug 28, 2026 Data Breach / Ransomware Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The same statement disclosed that forensic work had found further data outflows in the portfolio of the Senate Department for Mobility, Transport, Climate Protection and Environment, with the exfiltration dated between August 7 and August 12, 2026. Scope and content are still being examined, and the Senate Chancellery said personal or other non-public data cannot be excluded from what was taken. The department first reported an outflow on August 7, the Senate Chancellery said in response to questions, seven days before it was cut off from the network on August 14. Berlin has published no figure for how much left the network. The only itemized account in circulation is the attackers' own, a leak-site post indexed on August 28 that claims 5.79 terabyt...",
-      "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "berlin-refuses-to-pay-hackers-who-stole-data-from-the-city-s-state-network-aug-28-2026-dat",
+      "slug": "two-unitree-g1-edu-humanoid-robot-flaws-enable-root-rce-one-starts-over-bluetooth-aug-28-2",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-08-28",
-      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable Aug 28, 2026 Vulnerability / Blockchain Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4w-cg88-2cq2 , is rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness classification, or a CVSS score. Affected versions are < 0.6.2 and >= 0.7.0 < 0.7.2 , and the fix shipped in v0.6.2 and v0.7.2 on August 19. Chain operators are told to upgrade to one of those releases or later, a change that is state-breaking and requires a coordinated network upgrade. Operators who cannot upgrade immediately are told to halt the chain rather than attempt a coordinated governance upgrade. In a post-mortem published August 28 , Cosmos Labs said the flaw was reported through its bug bounty program on April 25 and was assessed at the time as posing no risk to funds on live networks. \"We were unable to reproduce the vulnerability ...",
-      "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "discovered": "2026-08-29",
+      "title": "Key Reasons Why Identity Fabric Matters in 2026 Aug 28, 2026 Identity Security / Zero Trust An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated workloads, identity security depends less on static configuration and more on runtime visibility. This article covers the architecture, the risks of unmanaged identities, and practical steps to close the gap between access intent and actual execution. The guidance here focuses on enterprise hybrid and multi-cloud environments; smaller single-directory deployments may not require the full scope described. Understanding Identity Fabric Architecture and How It Works An Identity Fabric is not a single product but an architectural approach that connects identity providers, governance systems, applications, and infrastructure into one observable layer. Its purpose is to reconcile what access policy intends with how identities are actually used at runtime. Closing this g...",
+      "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cosmos-evm-flaw-exploited-after-cosmos-labs-knew-every-blockchain-running-it-was-vulnerabl",
+      "slug": "key-reasons-why-identity-fabric-matters-in-2026-aug-28-2026-identity-security-zero-trust-a",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-08-28",
-      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication Aug 28, 2026 Vulnerability / Web Security Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening. \"This vulnerability gives an unauthenticated attacker remote control over PaperCut's trusted configuration, which could be used to execute arbitrary Java code inside the application's process,\" Huntress researchers John Hammond and Andrew Brandt said . Specifically, an attacker can leverage an unauthenticated request to make changes to the server configuration and ultimately achieve code execution. Huntress has explained the flaw as follows - In unpatched versions of PaperCut NG and PaperCut MF, a specifically crafted request can refer to one page that is rendered for the response, and another page that owns the component or action being executed. PaperCut's authorization check could trust the rendered page and miss the permissions required by the...",
-      "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "discovered": "2026-08-29",
+      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "attackers-chain-two-papercut-flaws-to-execute-code-without-authentication-aug-28-2026-vuln",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body Aug 28, 2026 Vulnerability / Cyber Espionage The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities ( KEV ) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of WebDAV API authentication bypass that could allow an attacker to access, modify or delete any file without authentication if the username of the victim is known and the victim has no signing-key configured, which is the default configuration. Disclosed by ownCloud in November 2023, the issue impacts \"core\" versions from 10.6.0 through 10.13.0. It was fixed in version 10.13.1. CISA's addition of the flaw to the KEV catalog comes a couple of days after Hunt.io said it identified an open directory on the host \"31.58.209[.]241,\" which staged custom Python scripts, o...",
-      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "owncloud-flaw-exploited-to-steal-nuclear-records-from-philippine-research-body-aug-28-2026",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code Aug 28, 2026 Web Security / Supply Chain Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities. The extensions , per Socket security researcher Karlo Zanki, share similarities in code and tradecraft, with evidence indicating that the campaign may have been active since February 2024. Socket is tracking the activity under the name Superior. The modus operandi is relatively straightforward: the threat actor either acquires legitimate extensions with proper functionality or pushes a clean version that's devoid of any malware. Once the extensions begin to gather user downloads, a new version with the malicious behavior is published.",
-      "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "19-chrome-and-edge-extensions-found-with-wallet-stealing-and-crypto-draining-code-aug-28-2",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "PaperCut releases second emergency patch for exploited flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "papercut-releases-second-emergency-patch-for-exploited-flaws",
+      "slug": "mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-08-28",
-      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-      "link": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+      "discovered": "2026-08-29",
+      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+      "link": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
-      "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "68-year-old-imprisoned-after-making-1-3-million-by-pirating-iptv-services",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-28",
-      "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "over-8-300-gitea-servers-vulnerable-to-code-execution-attacks",
+      "slug": "toy-making-giant-hasbro-disclose-data-breach-affecting-employees",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }

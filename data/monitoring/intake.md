@@ -18028,3 +18028,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-29
+- **Headline / event:** Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth Aug 28, 2026 Vulnerability / IoT Security Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU , including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC. The flaws are tracked as CVE-2026-76639 and CVE-2026-76640 , with the first involving a network-adjacent path through chat_go and bashrunner and the second beginning from BLE proximity. An exact fixed firmware release has not been verified in any accessible Unitree guidance, leaving G1 EDU owners without a confirmed release target for either vulnerability. Laflamme said Unitree patched the cloud account-to-robot ownership check in July 2026. As of the August 27 disclosure, the current cloud-assisted route requires an account bound to the target G1 or the relevant key material already in hand. Laflamme published the research on August 27, 2026, describing the two issues as separate root-RCE paths. The research timeline shows Laflamm...
+- **Source URL:** https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-29
+- **Headline / event:** Key Reasons Why Identity Fabric Matters in 2026 Aug 28, 2026 Identity Security / Zero Trust An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated workloads, identity security depends less on static configuration and more on runtime visibility. This article covers the architecture, the risks of unmanaged identities, and practical steps to close the gap between access intent and actual execution. The guidance here focuses on enterprise hybrid and multi-cloud environments; smaller single-directory deployments may not require the full scope described. Understanding Identity Fabric Architecture and How It Works An Identity Fabric is not a single product but an architectural approach that connects identity providers, governance systems, applications, and infrastructure into one observable layer. Its purpose is to reconcile what access policy intends with how identities are actually used at runtime. Closing this g...
+- **Source URL:** https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-29
+- **Headline / event:** McKesson discloses breach after ShinyHunters claims patient data theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-29
+- **Headline / event:** Toy-making giant Hasbro disclose data breach affecting employees
+- **Source URL:** https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

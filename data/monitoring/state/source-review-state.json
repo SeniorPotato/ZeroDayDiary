@@ -1552,7 +1552,9 @@
       "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
       "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
       "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html"
+      "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+      "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+      "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2521,7 +2523,9 @@
       "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
       "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
       "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
-      "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/"
+      "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+      "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+      "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
     ]
   }
 }
