@@ -18076,3 +18076,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-30
+- **Headline / event:** TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor Aug 30, 2026 Social Engineering / Malware Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix , that aims to trick users into running a malicious command in Windows Terminal or PowerShell. "While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully," Microsoft security researchers Sagar Patil, Suriyaraj Natarajan, and Parasharan Raghavan said in an analysis published this week. The campaign, targeting organizations across multiple sectors, leverages compromised websites as a starting point to serve fake Cloudflare CAPTCHA verifications that prompt unsuspecting site visitors to copy and execute a malicious PowerShell command. The attack chain, per the Windows maker, is a sophisticated multi-stage process that leverages DLL sideloading, steganographic payload extraction, extensive ...
+- **Source URL:** https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-30
+- **Headline / event:** FulcrumSec claims Manchester Airports hack, theft of 86 GB of data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-30
+- **Headline / event:** Chrome Web Store extensions caught stealing crypto, browser data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

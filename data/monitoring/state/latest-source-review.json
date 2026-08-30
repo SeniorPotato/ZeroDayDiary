@@ -1,5 +1,36 @@
 {
-  "generatedAt": "2026-08-30T05:27:42.931Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-30T052742Z.md",
-  "candidates": []
+  "generatedAt": "2026-08-30T16:43:11.246Z",
+  "packetPath": "data/monitoring/review-packets/2026-08-30T164311Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-08-30",
+      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor Aug 30, 2026 Social Engineering / Malware Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix , that aims to trick users into running a malicious command in Windows Terminal or PowerShell. \"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully,\" Microsoft security researchers Sagar Patil, Suriyaraj Natarajan, and Parasharan Raghavan said in an analysis published this week. The campaign, targeting organizations across multiple sectors, leverages compromised websites as a starting point to serve fake Cloudflare CAPTCHA verifications that prompt unsuspecting site visitors to copy and execute a malicious PowerShell command. The attack chain, per the Windows maker, is a sophisticated multi-stage process that leverages DLL sideloading, steganographic payload extraction, extensive ...",
+      "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "terminalfix-uses-fake-cloudflare-captchas-to-deploy-reverse-tunnel-backdoor-aug-30-2026-so",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-08-30",
+      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+      "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-08-30",
+      "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+      "link": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "chrome-web-store-extensions-caught-stealing-crypto-browser-data",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }

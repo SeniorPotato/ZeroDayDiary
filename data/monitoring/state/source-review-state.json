@@ -1555,7 +1555,8 @@
       "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
       "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
       "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
-      "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
+      "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2527,7 +2528,9 @@
       "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
       "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
       "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
-      "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/"
+      "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+      "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+      "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/"
     ]
   }
 }
