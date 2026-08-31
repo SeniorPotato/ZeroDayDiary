@@ -18100,3 +18100,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** FTC, States Sue Amazon Over Secret Ad Surcharge Scheme
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Is Someone Hacking DoD Refrigerators?
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Hiding Prompt Injection in Legal Filing
+- **Source URL:** https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales Aug 31, 2026 Social Engineering / Artificial Intelligence Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession. The ongoing insider threat is part of what has been described as the IT worker scheme , where North Korea leverages its network of skilled IT workers, both within and outside the country, to fraudulently land jobs in Fortune 500 companies and private sector firms across the world and remotely earn income to further Pyongyang's unlawful nuclear weapons and ballistic missile programs. This entails relying on stolen or forged identity documents, VPNs, and proxy services to mask their true identity and location. The yearslong campaign is also tracked under the monikers Famous Chollima, Jasper Sleet, Nickel Tapestry, PurpleDelta (formerly TAG-121), UNC5267, and Wagemole. ...
+- **Source URL:** https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** ⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More Aug 31, 2026 Cybersecurity / Hacking The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional. Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems, and weak defaults kept things moving. Different attacks, same useful mistake: something familiar was trusted without a second look. Here is the week... ⚡ Threat of the Week U.S. Disrupts Chinese Proxy Network Enabling Cyber Espionage — The U.S. Federal Bureau of Investigation (FBI) disrupted infrastructure associated with a technical quartermaster who sold reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. The QTYF group is said to have created and operated the QScan and QTRouter frameworks, which have been used to target U.S. critical infrastructu...
+- **Source URL:** https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions Aug 31, 2026 Malware / Endpoint Security The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions. Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper , a genuine Chinese desktop-wallpaper tool that in its unmodified form is adware, bundling partner apps and displaying ad banners. Once installed, ValleyRAT (also tracked as Winos 4.0) hands the operator full control of the compromised machine. Kaspersky said the attack's geography and payload point to Silver Fox as the likely group behind it, and urged users to avoid software of questionable reputation and to keep it away from security-tool exclusions. "This case is a clear example of how adware and affiliate networks can turn out to be far more dangerous than they appear. ValleyRAT is a sophisticated backdoor capable of...
+- **Source URL:** https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets Aug 31, 2026 Artificial Intelligence / Ransomware Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security . The two independent analyses are based on exposed infrastructure associated with the Russian-speaking cybercrime group, leading to the discovery of its toolkit, shell history, and encryptor. CloudSEK said the exposed open directory leaked "months of activity" that was active against more than 20 organizations across nine countries between April and July 2026. Four of those victims have since been listed on its data leak site. "The operator used Cursor, an agentic coding assistant, to plan attacks in Russian, while excluding CIS [Commonwealth of Independent States] ranges and CIS-country domains, without exception," CloudSEK noted. Details about Aurora first emerged in late May 2026, with CYFIRMA highlighting atta...
+- **Source URL:** https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance Aug 31, 2026 Artificial Intelligence / Endpoint Visibility Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activity logs alone cannot tell you whether an agent’s access is legitimate. AI has moved from the browser tab to the endpoint with harnesses like Claude Code. They run on developers' machines, execute bash commands locally, and connect to third parties via MCP servers, skills, and plugins. All this so the user can outsource labor to the machine and focus on designing, thinking, and creating. Local agents are not a niche category. They account for 68.6% of the AI agents Token Security discovers in customer environments, and they often inherit the employee's credentials, network position, and permissions. The shift to the endpoint has major implications for security. With Claude Code, there is no ce...
+- **Source URL:** https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Microsoft warns of TerminalFix attacks deploying reverse tunnels
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Chinese Fire Ant hackers turn Cisco routers into spying platforms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** File servers are here to stay. Here’s how to manage them securely
+- **Source URL:** https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Berlin confirms data theft after Rhysida ransomware attack claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-08-31
+- **Headline / event:** Microsoft says Windows 11 KB5120998 update resets mouse settings
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

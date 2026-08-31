@@ -98,7 +98,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
       "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -281,7 +282,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-approves-final-consent-order-ascension-health-amsurg-deal",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-announces-2027-telemarketer-fees-access-national-do-not-call-registry",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -519,7 +521,9 @@
       "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
       "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
       "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
-      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html"
+      "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html",
+      "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
+      "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1556,7 +1560,12 @@
       "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
       "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
       "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-      "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html"
+      "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+      "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+      "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2530,7 +2539,12 @@
       "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
       "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
       "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-      "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/"
+      "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+      "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+      "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
+      "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/"
     ]
   }
 }
