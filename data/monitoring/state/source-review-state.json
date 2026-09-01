@@ -1565,7 +1565,9 @@
       "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
       "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
       "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-      "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html"
+      "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+      "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2544,7 +2546,9 @@
       "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
       "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
       "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-      "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/"
+      "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
+      "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
+      "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/"
     ]
   }
 }

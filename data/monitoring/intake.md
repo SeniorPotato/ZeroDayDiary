@@ -18212,3 +18212,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-01
+- **Headline / event:** China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs Aug 31, 2026 Cyber Espionage / Network Security A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, and manage high-value networks. Sygnia, the incident response firm that investigated the intrusion, said the actor turned the compromised routers into collection platforms, capturing network traffic, harvesting credentials, and suppressing the logging and telemetry that defenders rely on to reconstruct an attack. The firm assessed that the hacker group used its foothold to explore paths to connected high-value environments, including critical infrastructure. However, activity against those networks was limited to scanning and connection attempts rather than confirmed compromise. Controlling the routers gave the actor a vantage point over traffic moving through trusted network paths, Sygnia said. "...
+- **Source URL:** https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-01
+- **Headline / event:** DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims Aug 31, 2026 Cyber Espionage / IoT Botnet The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted. Last week, the DoJ said the National Aeronautics and Space Administration, Federal Reserve, Department of Energy, Department of Justice, Department of Health and Human Services, National Institutes of Health, and the U.S. Senate were some of the victims of "computer intrusion activity" orchestrated by QTFY , a state-sponsored group affiliated with the People's Republic of China (PRC). In the newly updated statement, the aforementioned agencies have been listed as "among the targets of QTFY." The update was reported by Reuters over the weekend. "Edits have been made to ensure this press release accurately reflects the government's allegations in the affidavit in support of the domain seizures," t...
+- **Source URL:** https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-01
+- **Headline / event:** Cronos blockchain restarts after $74 million Tectonic exploit
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-01
+- **Headline / event:** Nigerians extradited to US for sextortion, deaths of two teens
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

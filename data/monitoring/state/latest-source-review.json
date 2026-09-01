@@ -1,144 +1,44 @@
 {
-  "generatedAt": "2026-08-31T19:08:23.909Z",
-  "packetPath": "data/monitoring/review-packets/2026-08-31T190823Z.md",
+  "generatedAt": "2026-09-01T05:13:55.486Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-01T051355Z.md",
   "candidates": [
     {
-      "discovered": "2026-08-31",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "discovered": "2026-09-01",
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs Aug 31, 2026 Cyber Espionage / Network Security A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, and manage high-value networks. Sygnia, the incident response firm that investigated the intrusion, said the actor turned the compromised routers into collection platforms, capturing network traffic, harvesting credentials, and suppressing the logging and telemetry that defenders rely on to reconstruct an attack. The firm assessed that the hacker group used its foothold to explore paths to connected high-value environments, including critical infrastructure. However, activity against those networks was limited to scanning and connection attempts rather than confirmed compromise. Controlling the routers gave the actor a vantage point over traffic moving through trusted network paths, Sygnia said. \"...",
+      "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "FTC, States Sue Amazon Over Secret Ad Surcharge Scheme",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
-      "sourceId": "ftc-press",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Is Someone Hacking DoD Refrigerators?",
-      "link": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "is-someone-hacking-dod-refrigerators",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Hiding Prompt Injection in Legal Filing",
-      "link": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hiding-prompt-injection-in-legal-filing",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales Aug 31, 2026 Social Engineering / Artificial Intelligence Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession. The ongoing insider threat is part of what has been described as the IT worker scheme , where North Korea leverages its network of skilled IT workers, both within and outside the country, to fraudulently land jobs in Fortune 500 companies and private sector firms across the world and remotely earn income to further Pyongyang's unlawful nuclear weapons and ballistic missile programs. This entails relying on stolen or forged identity documents, VPNs, and proxy services to mask their true identity and location. The yearslong campaign is also tracked under the monikers Famous Chollima, Jasper Sleet, Nickel Tapestry, PurpleDelta (formerly TAG-121), UNC5267, and Wagemole. ...",
-      "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "north-korean-job-fraud-expands-beyond-it-into-healthcare-and-sales-aug-31-2026-social-engi",
+      "slug": "china-linked-fire-ant-hijacks-cisco-routers-to-steal-credentials-and-blind-security-logs-a",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-08-31",
-      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More Aug 31, 2026 Cybersecurity / Hacking The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional. Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems, and weak defaults kept things moving. Different attacks, same useful mistake: something familiar was trusted without a second look. Here is the week... ⚡ Threat of the Week U.S. Disrupts Chinese Proxy Network Enabling Cyber Espionage — The U.S. Federal Bureau of Investigation (FBI) disrupted infrastructure associated with a technical quartermaster who sold reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. The QTYF group is said to have created and operated the QScan and QTRouter frameworks, which have been used to target U.S. critical infrastructu...",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "discovered": "2026-09-01",
+      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims Aug 31, 2026 Cyber Espionage / IoT Botnet The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted. Last week, the DoJ said the National Aeronautics and Space Administration, Federal Reserve, Department of Energy, Department of Justice, Department of Health and Human Services, National Institutes of Health, and the U.S. Senate were some of the victims of \"computer intrusion activity\" orchestrated by QTFY , a state-sponsored group affiliated with the People's Republic of China (PRC). In the newly updated statement, the aforementioned agencies have been listed as \"among the targets of QTFY.\" The update was reported by Reuters over the weekend. \"Edits have been made to ensure this press release accurately reflects the government's allegations in the affidavit in support of the domain seizures,\" t...",
+      "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "weekly-recap-chinese-spy-proxy-ai-agents-go-off-task-router-backdoors-and-more-aug-31-2026",
+      "slug": "doj-corrects-china-hacking-claim-says-u-s-agencies-were-targets-not-victims-aug-31-2026-cy",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-08-31",
-      "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions Aug 31, 2026 Malware / Endpoint Security The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions. Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper , a genuine Chinese desktop-wallpaper tool that in its unmodified form is adware, bundling partner apps and displaying ad banners. Once installed, ValleyRAT (also tracked as Winos 4.0) hands the operator full control of the compromised machine. Kaspersky said the attack's geography and payload point to Silver Fox as the likely group behind it, and urged users to avoid software of questionable reputation and to keep it away from security-tool exclusions. \"This case is a clear example of how adware and affiliate networks can turn out to be far more dangerous than they appear. ValleyRAT is a sophisticated backdoor capable of...",
-      "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+      "discovered": "2026-09-01",
+      "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "valleyrat-backdoor-hides-in-signed-adware-that-users-add-to-antivirus-exclusions-aug-31-20",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets Aug 31, 2026 Artificial Intelligence / Ransomware Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security . The two independent analyses are based on exposed infrastructure associated with the Russian-speaking cybercrime group, leading to the discovery of its toolkit, shell history, and encryptor. CloudSEK said the exposed open directory leaked \"months of activity\" that was active against more than 20 organizations across nine countries between April and July 2026. Four of those victims have since been listed on its data leak site. \"The operator used Cursor, an agentic coding assistant, to plan attacks in Russian, while excluding CIS [Commonwealth of Independent States] ranges and CIS-country domains, without exception,\" CloudSEK noted. Details about Aurora first emerged in late May 2026, with CYFIRMA highlighting atta...",
-      "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "aurora-ransomware-operators-use-cursor-ai-in-attacks-against-10-targets-aug-31-2026-artifi",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance Aug 31, 2026 Artificial Intelligence / Endpoint Visibility Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. They also expose a larger problem: activity logs alone cannot tell you whether an agent’s access is legitimate. AI has moved from the browser tab to the endpoint with harnesses like Claude Code. They run on developers' machines, execute bash commands locally, and connect to third parties via MCP servers, skills, and plugins. All this so the user can outsource labor to the machine and focus on designing, thinking, and creating. Local agents are not a niche category. They account for 68.6% of the AI agents Token Security discovers in customer environments, and they often inherit the employee's credentials, network position, and permissions. The shift to the endpoint has major implications for security. With Claude Code, there is no ce...",
-      "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "securing-claude-code-the-new-compliance-api-local-visibility-and-identity-governance-aug-3",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels",
+      "slug": "cronos-blockchain-restarts-after-74-million-tectonic-exploit",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-08-31",
-      "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+      "discovered": "2026-09-01",
+      "title": "Nigerians extradited to US for sextortion, deaths of two teens",
+      "link": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "File servers are here to stay. Here’s how to manage them securely",
-      "link": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "file-servers-are-here-to-stay-here-s-how-to-manage-them-securely",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-      "link": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-08-31",
-      "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "microsoft-says-windows-11-kb5120998-update-resets-mouse-settings",
+      "slug": "nigerians-extradited-to-us-for-sextortion-deaths-of-two-teens",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
