@@ -526,7 +526,8 @@
       "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
       "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
       "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
-      "https://www.schneier.com/blog/archives/2026/09/rewiring-democracy-series-on-the-renovator.html"
+      "https://www.schneier.com/blog/archives/2026/09/rewiring-democracy-series-on-the-renovator.html",
+      "https://www.schneier.com/blog/archives/2026/09/wireless-routers-as-motion-detectors.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1578,7 +1579,12 @@
       "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
       "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
       "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-      "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+      "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+      "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2567,7 +2573,12 @@
       "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
       "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-      "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/"
+      "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+      "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+      "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/"
     ]
   }
 }

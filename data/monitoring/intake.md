@@ -18396,3 +18396,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Wireless Routers as Motion Detectors
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/wireless-routers-as-motion-detectors.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code Sep 02, 2026 Vulnerability / AI Coding Agent Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive as files with its .git directory intact, which a shared archive, a shared drive, a sync folder, or a USB stick preserves, whereas an ordinary clone does not. Fixes have shipped for goose, Claude Code, and Cursor, while Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code were still executing repository-supplied commands when Manifold retested them on September 1. OpenAI published three CVEs of its own the same day covering the identical class in Codex, credited to three unrelated research groups. "The helper runs outside Codex's command sandbox and wi...
+- **Source URL:** https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages Sep 02, 2026 Web Security / Malware A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and sports betting. Check Point Research said it has tracked the campaign since mid-2025. The modules reverse-proxy visitors to a set of phishing pages while the traffic still appears to originate from the legitimate domain. The site's own security headers are stripped, allowing the injected content to run freely. Those pages pose as trusted app stores including Google Play, Microsoft Store, and Amazon, and push online gambling and sports betting behind that facade. Check Point said the likely goal is search engine optimization (SEO) manipulation at scale, with compromised high-reputation domains, many of them Brazilian government sites, chained together to inflate search rankings. AN...
+- **Source URL:** https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access Sep 02, 2026 Network Security / Supply Chain Attack Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor hypervisors sustained root-level compromise. The incident window ran from approximately August 28 at 20:57 Coordinated Universal Time (UTC) to August 30 at 06:10 UTC. Virtualizor said every operator should check its servers because the company has no affected-version range or definitive list of installations that received the package. Virtualizor released Patch 9 with a Security Analyzer on September 1, but the vendor said cryptographic package signing remained future work. Operators should run the official scanner, rotate and restrict application programming interface (API) credentials, and audit each server for persistence and unauthorized access. "This affected a handful of servers rat...
+- **Source URL:** https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control Sep 02, 2026 Malvertising / Mobile Security Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union that saw it at least once, with totals for infected devices and confirmed victims remaining unreported. Device takeover requires the victim to grant a succession of controls after sideloading the Android Package (APK). Users should stop the installation when a streaming app requests system controls unrelated to streaming. "There is little doubt that StreamRat is a new and technically sophisticated threat, developed by individuals with prior experience in the Android malware ecosystem," ThreatFabric said in its StreamRat analysis . ThreatFabric did not attribute the campaign t...
+- **Source URL:** https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** How to Secure Enterprise AI: From Adoption to Incident Readiness Sep 02, 2026 Artificial Intelligence / Enterprise Security The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber risk. Download the full eBook here. The Business Reality In Sygnia’s 2026 CISO Survey Report , which surveyed 600 senior IT and security leaders worldwide, nearly one-third already report extensive AI use across threat detection and IR, with 63% expecting it to be fully embedded in their organization by 2027. 1 Yet 73% of IT security decision makers say their organization would not be fully ready if a significant cyberattack occurred tomorrow. 1 Security teams feel they do not have adequate time to adapt. The tools are being deployed. The governance, controls, and incident readiness to support them are not. Security leaders are now tasked with enabling AI adoption while reducing the inheri...
+- **Source URL:** https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Hackers exploit critical JFrog Artifactory flaw to forge admin tokens
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Ransomware protection for MSPs: A 6-point checklist for faster recovery
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Dropbox accounts breached through Lenovo email verification flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Microsoft Defender flags legitimate Google search links as malicious
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** US charges Russian for infecting 80,000 freelancers with
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
