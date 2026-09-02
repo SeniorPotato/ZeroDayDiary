@@ -18340,3 +18340,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** FBI Probes Service Selling 153M+ Drivers Licenses
+- **Source URL:** https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure Sep 01, 2026 Vulnerability / Supply Chain Attack Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr . The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in Artifactory. "JFrog Artifactory contains an authentication weakness that, under default configuration, may allow an unauthenticated attacker with network access to obtain administrative privileges," according to a description of the flaw on CVE.org. The vulnerability was patched by JFrog with Artifactory version 7.161.20 released on August 28, 2026. It affects the following versions - 7.161.0 > 7.161.19 7.146.0 > 7.146.36 7.133.0 > 7.133.28 7.125.0 > 7.125.19 7.117.0 > 7.117.27 7.111.4 > 7.111.21 "It affects default configs, requires no auth, no user interaction," Vercel CEO Guillermo Rauch said in a post on LinkedIn. ...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems Sep 01, 2026 Cybercrime / Malware Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described the threat actor as "specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers." The adversary is said to have successfully carried out at least one heist of assets worth tens of thousands of U.S. dollars. The activity overlaps with threat activity clusters tracked by CrowdStrike and Trend Micro under the monikers Plump Spider and SHADOW-AETHER-064 . According to CrowdStrike, the e-crime group is operating out of Brazil and has been active since September 2023, monetizing their intrusions by gaining unauthorized access to internal payment systems and carrying out fraudulent transactions. Initial access to financial entities and companies offering financial services is acc...
+- **Source URL:** https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity Sep 01, 2026 Vulnerability / Artificial Intelligence Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user. CVE-2026-66066 aka KindaRails2Shell (CVSS score: 9.5) - A vulnerability that could allow an unauthenticated attacker to read arbitrary files from the server, leak Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials, and API tokens, ultimately leading to remote code execution. Attackers can exploit CVE-2026-66066 by uploading a crafted image by taking advantage of the discrepancy between Active Storage and libvips in how they read input files. Successful exploitation requires affected applications to use libvips for Active Storage ...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Hackers abuse Faronics Deploy admin tool to install ScreenConnect
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Aesto Health says data breach affects over 9.5 million patients
+- **Source URL:** https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-02
+- **Headline / event:** Critical Langflow flaw exploited to steal OpenAI and AWS keys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
