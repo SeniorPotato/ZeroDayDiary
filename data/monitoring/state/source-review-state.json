@@ -285,7 +285,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-announces-2027-telemarketer-fees-access-national-do-not-call-registry",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1592,7 +1593,12 @@
       "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
       "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
       "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html"
+      "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+      "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+      "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+      "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2589,7 +2595,10 @@
       "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
       "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-      "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/"
+      "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+      "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/"
     ]
   }
 }

@@ -18572,3 +18572,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** FTC Extends Public Comment on Proposed Policy Statement Regarding Personalized Pricing
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root Sep 03, 2026 Vulnerability / Network Security Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any IOS XR version. The Nexus vulnerability, tracked as CVE-2026-20212 (CVSS score: 9.8), is a case of binding to an unrestricted IP address that leaves TCP ports 43210 and 43211 reachable in the default Layer 3 virtual routing and forwarding (VRF) instance. An attacker who can reach a switch's address on either port can connect directly to the service. Crafted input sent to that service is then executed as code with root privileges. An exploitation attempt can also crash the S1HAL process and reload the device. Cisco said it's not aware of any malicious use of the flaw as of its September 2 disclosure. It has published no fixed-release table and directs customers to its...
+- **Source URL:** https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory Sep 03, 2026 Cybercrime / Artificial Intelligence Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. "Unlike the standard infostealer model, BraZetsu is a comprehensive master toolkit that empowers Initial Access Brokers (IABs) by turning compromised systems into highly valuable commercial assets," Group-IB malware analysts Julio Guapo Menezes and Miguel Salazar said in a technical report. "The framework exhibits high operational maturity, utilizing a modular architecture and stealth techniques that allowed some samples to remain fully undetectable on VirusTotal at the time of analysis." BraZetsu is a portmanteau of "Brazil" and "Zetsu," a fictional character from the Japanese Manga series Naruto who is known to operate as a threat from the shadows. The naming is inspired by the fact that the initial access tool stealthily infiltrat...
+- **Source URL:** https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data Sep 03, 2026 Data Breach / Privacy Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track , the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada. West Publishing said it discovered the activity on June 30, 2026. A subset of court records could contain individuals' names, Social Security numbers, driver's license numbers, dates of birth, medical information, and health insurance information, the company said. The firm is offering potentially affected individuals 12 months of Experian IdentityWorks credit monitoring, with enrollment open until December 31, 2026, using a multi-use code published in the notice, and a hotline at 1-833-918-5294 that requires the engagement number B171847. In Canada, Thomson Reuters Canada Limited is offering 12 months of TransUnion myTrueIdentity monitoring with a call center scheduled to open on September 4. "...
+- **Source URL:** https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries Sep 03, 2026 Social Engineering / Malware An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of observed activity was associated with the United States , making it the campaign's top geographic target. ANY.RUN research connected 601 cases to the wider operation, which uses fake documents to trick victims into installing legitimate remote monitoring and management (RMM) software. The attackers adapt their lures to different targets, using shipping and UPS communications, Adobe PDFs, tax notices, US Social Security Administration themes, invoices, and other documents. Rapidly rotated, disposable Vercel infrastructure makes the campaign harder to track and detect. US-First Threat with Daily Infrastructure Rotation Threat overview by ANY.RUN The campaign’s infrastructure changes significantly faster than its attack pattern. ANY.RUN researchers identifi...
+- **Source URL:** https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks Sep 03, 2026 Malware / Web Security Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter Team today, the attack method has been put to use in attacks targeting government departments, technology companies, and hotels since February 2026. "The technique's appeal is that node.exe (the binary that runs Node.js) is a legitimate, signed developer tool," the Broadcom-owned cybersecurity division said in a report shared with The Hacker News. "The attacker's malicious code lives in interpreted scripts rather than in a binary, making it less likely to trigger signature-based detection, while a registry Run key entry can relaunch the payload at every login." In one intrusion observed between March 23 and July 25, 2026, targeting an unspecified Asian technology company, attackers downloaded the official Node.js installer from nodejs[.]org and used the t...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Critical Elementor Pro flaw exploited to take over WordPress sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Your Employee’s Password Appeared in an Infostealer Log. Now What?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Plex warns users to patch security vulnerabilities immediately
+- **Source URL:** https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
