@@ -18484,3 +18484,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Statement Regarding Fairfield Medical Center’s Sale to Adena Health
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** AI Agents Are Now Emailing Me with Their Security Concerns
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs Sep 02, 2026 Artificial Intelligence / Vulnerability Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program . "The Fairwind Program gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models that help them build better defenses, before new threats arrive," Google said . "So defenders have an early advantage, to help them protect vital infrastructure – which in turn protects people who rely on those systems." The tech giant said it's currently working with over 650 partners globally, including CrowdStrike, Datadog, Menlo Security, Palo Alto Networks, and Snowflake. The program is available to a group of Google Cloud customers, government agencies, and cybersecurity partners. The release of Gemini 3.8 Flash Cyber comes a little over a month after Google unveiled Gemini 3....
+- **Source URL:** https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Fake Software Installers Disable Windows Update and Weaken Microsoft Defender Sep 02, 2026 Malware / Social Engineering An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers. "The campaign has targeted users looking to download popular software and has resulted in compromises across multiple organizations and industries, primarily affecting China-based operations of multinational organizations and Chinese-speaking users," Microsoft said . The installers, once launched, deploy malware that's capable of setting up persistence, weakening security protections, and communicating with attacker-controlled infrastructure. The activity has resulted in victims spanning healthcare, manufacturing, gaming, technology, logistics, government, and education sectors. The Windows maker has assessed with moderate confidence that the campaign is consistent with a Chinese threat cluster dubbed Silver Fox (aka Yinhu), which has a track record of using spoofed vendor download pages to distribute Gh0st RAT and ValleyRAT (a...
+- **Source URL:** https://thehackernews.com/2026/09/fake-software-installers-disable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain Sep 02, 2026 Vulnerability / Network Security SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities , discovered internally by SonicWall's William Perry and Adam Babis, are listed below - CVE-2026-83548 (CVSS score: 10.0) - A pre-authentication SSRF vulnerability in the Appliance Work Place interface that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations. CVE-2026-83549 (CVSS score: 7.8) - A post-authentication operating system command injection vulnerability in the Appliance Management Console (AMC) that could allow a remote authenticated attacker as administrator to execute arbitrary commands under specific conditions, leading to remote code execution. SonicWall said it has "investigated a case indicating the active exploitation of the vulnerabilities," suggesting th...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends Sep 02, 2026 Vulnerability / Web Security Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals. The project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability details on August 31. GeoNetwork originated at the United Nations Food and Agriculture Organization and is maintained under the Open Source Geospatial Foundation (OSGeo). It is a core component of many Spatial Data Infrastructure deployments across Europe and beyond, including the backend of the European INSPIRE geoportal. The chain combines a missing authorization check with an unsafe transformation engine. The first flaw, CVE-2026-63219 (CVSS score: 8.6), is a missing authorization check on the formatter upload endpoint. The unauthenticated file upload flaw allows an anonymous user to write arbitrary .xsl or .zip formatter files to the GeoNetwork f...
+- **Source URL:** https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands Sep 02, 2026 Malware / Cybercrime The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev , 40, was arrested in Cyprus in May 2025, the U.S. Attorney's Office for the Northern District of California said in a press release. He made his initial appearance in federal court in San Francisco on August 31 and was remanded to federal custody. The indictment, filed on June 1, 2021, and unsealed the same day as his appearance, describes the platform only as "a well-known freelance employment technology company" based in the Northern District of California. Thousands of computers infected with TVRAT , one of two malware types named in the indictment, were calling back to a command-and-control (C2) domain hosted in the U.S., with approximately half of the victims located in the ...
+- **Source URL:** https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Hackers exploit Sangoma Switchvox flaw to deploy reverse shells
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** WordPress backup plugin flaw exposes millions of sites to takeover attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-03
+- **Headline / event:** Sality botnet infrastructure dismantled in joint global takedown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
