@@ -18644,3 +18644,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories Sep 03, 2026 Hacking News / Cybersecurity News The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides that point to unsafe downloads. One wrong letter in a web address can be enough. There is also ransomware, stolen ID data, hidden attack servers, and weak settings that should have been fixed long ago. Here’s the full list. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means Sep 03, 2026 Malware / DevOps In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments , Continuous Integration/Continuous Deployment (CI/CD) tooling, cloud configurations, and even AI tool configs. Earlier variants of the infostealer worm only checked 189 paths. The jump says a lot. Attackers have stopped trying to break trust relationships and started using the credentials that already make those relationships work. Software supply chains have always depended on trust. Developers trust package registries. Organizations trust maintainers. CI/CD systems trust the credentials and identities they're given. Applications trust the dependencies they pull down during a build. Attackers realized they don't need to break any of that. They just needed to find where the credentials and standing privileges already sit. This is what is driving the current focus on software supply ...
+- **Source URL:** https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone Sep 03, 2026 Spyware / Mobile Security The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware , according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. "Our analysis confirmed that an iMessage zero-click exploit was used to infect the device with NSO Group's Pegasus spyware," the Citizen Lab said . "We found high-confidence indicators of infection from a period across December 2025 – January 2026; however, this does not preclude the possibility of additional infections." It's assessed that the zero-click exploit used in the attack targeted Apple iMessage, and has been addressed by Apple with iOS 18.4.1 , which was released in April 2025. The discovery comes in the aftermath of Apple sending a new set of threat notifications to customers whom it suspected may have been targeted by mercenary spyware attacks. The alerts were sent to an unspecified number of users in 110 countries. In a...
+- **Source URL:** https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon Sep 03, 2026 Vulnerability / Endpoint Security The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank , a proof-of-concept (PoC) for a privilege escalation flaw impacting Crowdstrike Falcon. "FalconFlank is a 0-day privilege escalation that abuses the office malicious macros remediation in CrowdStrike Falcon Sensor," the researcher said in a GitHub README file, adding the cybersecurity company may already have detections for the flaw by now. "So if you want to test, you either have to add it to the exclusions or obfuscate the PoC and change the DLL load technique." The PoC, the researcher added, works in a fully updated Windows 11 25H2 machine or Windows Server 2025 with CrowdStrike Falcon. In a statement shared with The Hacker News, a CrowdStrike spokesperson said they are currently investigating the report. "We are actively investigating these claims and advise customers to disable the Microsof...
+- **Source URL:** https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners Sep 03, 2026 Vulnerability / Artificial Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog after they landed in attackers' crosshairs. The vulnerabilities are as follows - CVE-2026-83548 (CVSS score: 10.0) - A server-side request forgery vulnerability in SonicWall SMA 1000 Appliances that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations. CVE-2026-83549 (CVSS score: 7.8) - A post-authentication operating system command injection vulnerability in SonicWall SMA 1000 Appliances that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution. CVE-2026-9586 (CVSS score: 9.3) - An SQL injection vulnerability in Sangoma Switchvox that could allow an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL...
+- **Source URL:** https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** French hospital fined €500,000 after breach exposes data of 727,000
+- **Source URL:** https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** Coder's registry infrastructure compromised to push malicious modules
+- **Source URL:** https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-04
+- **Headline / event:** HPE patches critical ArubaOS-CX remote code execution flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

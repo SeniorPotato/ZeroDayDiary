@@ -1598,7 +1598,12 @@
       "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
       "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
       "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-      "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html"
+      "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+      "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+      "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+      "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+      "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2598,7 +2603,10 @@
       "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
       "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
       "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-      "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/"
+      "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+      "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+      "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+      "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/"
     ]
   }
 }
