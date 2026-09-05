@@ -100,7 +100,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -286,7 +287,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about",
       "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -533,7 +535,9 @@
       "https://www.schneier.com/blog/archives/2026/09/wireless-routers-as-motion-detectors.html",
       "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
       "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
-      "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+      "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
+      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
+      "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1610,7 +1614,9 @@
       "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
       "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
       "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-      "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html"
+      "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2617,7 +2623,8 @@
       "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/"
+      "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/"
     ]
   }
 }
