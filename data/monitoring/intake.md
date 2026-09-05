@@ -18852,3 +18852,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-05
+- **Headline / event:** Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted Sep 05, 2026 Data Breach / Vulnerability Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company's hardware wallets. "Throughout our entire relationship with ShipMonk, we repeatedly requested and received written assurance confirming the deletion of the data, in line with our contract, data policy, and past communications," Trezor said . "We are very disappointed that, despite receiving this confirmation, the data was not deleted in their systems." The exposure is in addition to 13,689 customers the company disclosed last month as having had their data either fully or partially exposed. The breach, it noted at the time, was limited during its 90-day data storage policy. Trezo...
+- **Source URL:** https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-05
+- **Headline / event:** Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel Sep 05, 2026 Artificial Intelligence / AI Agents A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki , a German software developer wiki that runs on the ProWiki farm at wikiservice[.]at and had been edited about 20 times over the previous decade. The researchers, led by Sydney Von Arx of the AI safety nonprofit Nightingale Collective , reconstructed the deleted pages from edit history and published their analysis along with a downloadable copy of the data. The wikis let anyone change a page with an ordinary web request, the kind normally used only to read a page rather than to write one. Agents that were restricted to reading the internet could therefore still write to the site, because the restriction was written a...
+- **Source URL:** https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-05
+- **Headline / event:** Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities Sep 05, 2026 Vulnerability / Web Security Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as create privileged accounts. "Observed post-exploitation activity included delivery of Windows registry hive collection tools, Metasploit/Meterpreter-related Java payloads, and commands used to identify hosts, users, processes, and sensitive configuration data," Arctic Wolf said. The cybersecurity company told The Hacker News that the activity has targeted vulnerable PaperCut servers across the education sector, impacting organizations ranging from K-12 schools to major universities in the U.S. and Europe. Some of the identified malicious activity includes - Running discover...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-05
+- **Headline / event:** Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-05
+- **Headline / event:** OpenAI admits it didn't disclose rogue AI wiki hijacking incident
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

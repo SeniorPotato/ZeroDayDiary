@@ -1616,7 +1616,10 @@
       "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
       "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
       "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
+      "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+      "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2624,7 +2627,9 @@
       "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
       "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-      "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/"
+      "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/"
     ]
   }
 }
