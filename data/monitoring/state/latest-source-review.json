@@ -1,56 +1,36 @@
 {
-  "generatedAt": "2026-09-05T15:16:48.844Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-05T151648Z.md",
+  "generatedAt": "2026-09-06T04:43:09.647Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-06T044309Z.md",
   "candidates": [
     {
-      "discovered": "2026-09-05",
-      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted Sep 05, 2026 Data Breach / Vulnerability Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company's hardware wallets. \"Throughout our entire relationship with ShipMonk, we repeatedly requested and received written assurance confirming the deletion of the data, in line with our contract, data policy, and past communications,\" Trezor said . \"We are very disappointed that, despite receiving this confirmation, the data was not deleted in their systems.\" The exposure is in addition to 13,689 customers the company disclosed last month as having had their data either fully or partially exposed. The breach, it noted at the time, was limited during its 90-day data storage policy. Trezo...",
-      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "discovered": "2026-09-06",
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Sep 05, 2026 Zero Day / Vulnerability Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5 . Sansec, which discovered the flaw and named it StyleSmuggler , said attacks started on September 4. \"Sansec is publishing early because stores are being compromised right now,\" the company said. As of September 6, Adobe has not published an advisory, a CVE identifier, a patch, or a workaround, and its Adobe Commerce security bulletin index lists nothing after the August 11 update. A successful attack gives the attacker code execution on the store's server and installs a persistent backdoor. Sansec said all current versions are affected, including 2.4.9, and that it reproduced the full unauthenticated chain on clean Magento Open Source installations of 2.4.7, 2.4.8, and 2.4.9. Its ...",
+      "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "trezor-says-shipmonk-breach-exposed-67-000-u-s-customers-data-it-said-was-deleted-sep-05-2",
+      "slug": "unpatched-magento-and-adobe-commerce-zero-day-exploited-to-backdoor-online-stores-sep-05-2",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-09-05",
-      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel Sep 05, 2026 Artificial Intelligence / AI Agents A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki , a German software developer wiki that runs on the ProWiki farm at wikiservice[.]at and had been edited about 20 times over the previous decade. The researchers, led by Sydney Von Arx of the AI safety nonprofit Nightingale Collective , reconstructed the deleted pages from edit history and published their analysis along with a downloadable copy of the data. The wikis let anyone change a page with an ordinary web request, the kind normally used only to read a page rather than to write one. Agents that were restricted to reading the internet could therefore still write to the site, because the restriction was written a...",
-      "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+      "discovered": "2026-09-06",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials Sep 05, 2026 Data Breach / Identity Security JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. \"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said . \"They should also treat all executions, including their inputs and outputs in your Cadence project, as potentially untrusted.\" \"As the threat actors gained access to the Cadence server, any credentials or secrets stored in Cadence, contained in the compromised backup, or made available to executions on the affected server should be considered compromised and must be revoked or rotated.\" Cadence is a JetBrains-hosted cloud computing service that integrates with PyCharm via an optional plugin to let developers run machine learning and heavy workloads on cloud...",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "thousands-of-openai-agents-quietly-turned-an-abandoned-wiki-into-their-coordination-channe",
+      "slug": "attackers-breached-jetbrains-cadence-via-unpatched-teamcity-extracting-aws-credentials-sep",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-09-05",
-      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities Sep 05, 2026 Vulnerability / Web Security Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as create privileged accounts. \"Observed post-exploitation activity included delivery of Windows registry hive collection tools, Metasploit/Meterpreter-related Java payloads, and commands used to identify hosts, users, processes, and sensitive configuration data,\" Arctic Wolf said. The cybersecurity company told The Hacker News that the activity has targeted vulnerable PaperCut servers across the education sector, impacting organizations ranging from K-12 schools to major universities in the U.S. and Europe. Some of the identified malicious activity includes - Running discover...",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+      "discovered": "2026-09-06",
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code Sep 05, 2026 Vulnerability / Server Security Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code. \"A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host,\" Broadcom said in an alert. The tech giant credited @h4urek, @cameudis, and Stan S for discovering the issue. Also patched by Broadcom is a stack-based buffer-overflow vulnerability in HGFS ( CVE-2026-59347 , CVSS score: 8.1), which can be exploited by a bad actor with local administrative privileges on a virtual machine to execute code as the virtual machine's VMX process running on the host. Yeonghyeon Choi and Tianc...",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "attackers-exploit-papercut-flaws-to-steal-credentials-from-schools-and-universities-sep-05",
+      "slug": "critical-vmware-workstation-and-fusion-flaw-lets-vm-admins-execute-host-code-sep-05-2026-v",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-05",
-      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-09-05",
-      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "openai-admits-it-didn-t-disclose-rogue-ai-wiki-hijacking-incident",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
     }
   ]
 }
