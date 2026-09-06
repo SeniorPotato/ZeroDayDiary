@@ -18916,3 +18916,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-06
+- **Headline / event:** Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner Sep 06, 2026 Malware / Endpoint Security Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager , WinUpdate , SoftManager , and LockAppHost and published the findings on September 2 , along with a technical white paper . REVSTEALER has been sold as a commercial infostealer since at least February 2026, when the earliest sample was first detected on VirusTotal. The core stealer exfiltrates browser passwords and cookies, cryptocurrency wallets, gaming accounts, messaging data, and files, then reports "complete" to its server, deletes itself, and leaves no persistence. The four newly documented programs work differently. Each installs itself into the user's profile and stays there. Elastic recovered the ...
+- **Source URL:** https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-06
+- **Headline / event:** Attackers conceal phishing lures using invisible Unicode characters
+- **Source URL:** https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
