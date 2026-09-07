@@ -1,26 +1,5 @@
 {
-  "generatedAt": "2026-09-06T15:30:04.440Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-06T153004Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-09-06",
-      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner Sep 06, 2026 Malware / Endpoint Security Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager , WinUpdate , SoftManager , and LockAppHost and published the findings on September 2 , along with a technical white paper . REVSTEALER has been sold as a commercial infostealer since at least February 2026, when the earliest sample was first detected on VirusTotal. The core stealer exfiltrates browser passwords and cookies, cryptocurrency wallets, gaming accounts, messaging data, and files, then reports \"complete\" to its server, deletes itself, and leaves no persistence. The four newly documented programs work differently. Each installs itself into the user's profile and stays there. Elastic recovered the ...",
-      "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "four-revstealer-linked-modules-disable-windows-update-and-defender-to-run-a-crypto-miner-s",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-06",
-      "title": "Attackers conceal phishing lures using invisible Unicode characters",
-      "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "attackers-conceal-phishing-lures-using-invisible-unicode-characters",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-09-07T04:46:12.940Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-07T044612Z.md",
+  "candidates": []
 }
