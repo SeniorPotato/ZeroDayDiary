@@ -18932,3 +18932,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Automobile Camouflage to Hide from Flock Cameras
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks Sep 07, 2026 Phishing / Identity Security Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff, is being tracked by Arctic Wolf under the moniker PREY-0058 , adding it shares significant tradecraft similarities with a data extortion group that Google-owned Mandiant calls UNC6671 . It also said that the data extortion threat actor known as Cinder likely represents yet another rebrand or a possible continuation of Pink operations, citing overlaps between organizations listed on the Cinder leak site and those connected to Pink. It's worth noting that the ever-evolving labels do not correspond to a single proven actor identity, but rather an amorphous set of affiliates, splint...
+- **Source URL:** https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** ⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More Sep 07, 2026 Cybersecurity / Hacking Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management gave outsiders useful clues before login. Add active attacks on browsers, routers, and online stores, and there’s plenty to check—even for teams that have kept up with the patches. Read the full recap for the week’s major developments, plus more research, attacks, and security news beyond what we covered last week. ⚡ Threat of the Week N-able Patches Critical N-central Flaws — N-able has released hotfixes to address two severe N-central flaws (CVE-2026-86206 and CVE-2026-86207) that could allow an unauthorized party to bypass authentication controls and gain full access to the platform. ...
+- **Source URL:** https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Your Cloud Security Checklist Doesn't Work the Way You Think It Does Sep 07, 2026 Cloud Security / Data Security If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index , Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in common. Here’s what the data looks like. How risk differs across cloud providers Intruder grouped every misconfiguration into one of six categories: weak identity and access management (IAM), missing logging, misconfigured services, permissive firewalls, exposed services, and weak encryption. For each category, they compared how many accounts had at least one issue in it across the three providers. Weak IAM controls and missing logging are near-universal, affecting between 80% and 98% of accounts regardless of provider. The other four categories are where things diverge: Exposed services: AWS (76%) , Azure (64%) , Google Cloud (8%) Permissive firewalls: AWS...
+- **Source URL:** https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts Sep 07, 2026 Malware / Vulnerability Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress , three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake Geek Squad refund form lure, to activate a four-stage VBScript chain that leads to rogue ScreenConnect installations. However, once the ScreenConnect instances were installed, the cybersecurity company said it observed the clients repeatedly spawning "wscript.exe" to execute VBScripts named 1.vbs, 2.vbs, 3.vbs, and 4.vbs. The incidents were observed in August 2026. The details of the three attacks are below - A social engineering attack that persuaded a user into executing Quick Assist as part of a tech support scam, after which a rogue ScreenConnect remote access client was d...
+- **Source URL:** https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released Sep 07, 2026 Vulnerability / Web Security A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities in Telerik UI for ASP.NET AJAX that can allow an unauthenticated attacker to execute remote code on the server hosting a vulnerable application. Progress Software patched the flaws in July, and exploitation requires a non-default configuration — but the release pairs a detailed write-up with a ready-to-run tool and two payloads, putting a complete attack path in public hands for the first time. The underlying flaws are not new. Progress shipped the fix in version 2026.2.708 (2026 Q2 SP1) on July 8 and published the CVEs and advisory on July 22. What changed on September 7 is t...
+- **Source URL:** https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Magento StyleSmuggler zero-day exploited to deploy Linux backdoor
+- **Source URL:** https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Mathspace discloses data breach affecting over 1 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Trezor data breach impact now reaches 81,000 customers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-07
+- **Headline / event:** Hackers exploit new MikroTik RouterOS flaws to hijack routers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
