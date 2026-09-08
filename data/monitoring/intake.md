@@ -19060,3 +19060,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** FTC Takes Action Against Payment Processor Humboldt Merchant Services for Knowingly Facilitating Payment Processing for Sham Merchants
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Stealing AI Reasoning Traces
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution Sep 08, 2026 Cybercrime / Cloud Security A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider . "The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment service Pix, digital asset platforms, and financial entities' cloud environments," CrowdStrike said . Slim Spider has been observed orchestrating a multi-stage intrusion at a Brazil-based financial institution in late March 2026, setting its sights on the entity's cryptocurrency assets and instant payment accounts. As part of the attack, the e-crime group is said to have developed custom Bash scripts that query the cloud instance metadata to steal temporary cloud credentials over socket connections. Upon establishing access to the organization's cloud environment, the t...
+- **Source URL:** https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC Sep 08, 2026 Cryptocurrency / Vulnerability Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC . The network is still paused, so holders cannot turn that token back into bitcoin. The 3,400 bitcoin was sent to a Liquid Federation address at 16:09 UTC on September 7, about 85% of what was taken. The federation is the group of operators that holds the bitcoin backing L-BTC. The remaining 598.5 bitcoin was not a separate payment. It is the change from that same transaction, sent back to the address the funds had come from. It was still there on September 8 , according to the block explorer mempool.space. Neither Blockstream nor Liquid Network has said publicly whether that bitcoin is part of an agreement. In an incident notice , Blockstream, which provides the technology f...
+- **Source URL:** https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account Sep 08, 2026 Vulnerability / Artificial Intelligence Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel between the two. The reply the user saw said nothing about it. Check Point said the same channel could also copy out the chat history and the files in that conversation. How much an attacker could take depended on what the session could already access, including its data, tools, other connected apps, and permissions. The instruction had to be in the conversation before any of this worked. Check Point named three ways to get it there: a prompt the user pastes in, a shared ChatGPT conversation the user opens, or a custom GPT that holds it in its builder instructions, which are not shown to th...
+- **Source URL:** https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours Sep 08, 2026 Artificial Intelligence / Cybercrime Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations , with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG) said it has observed attackers with diverse motivations targeting proprietary AI models across healthcare, government, and media sectors, exfiltrating API credentials, and co-opting victim cloud environments to sustain unauthorized AI workloads. This highlights growing attacker focus on enterprise AI assets for espionage, extortion, and resource theft. "At this point, we can assume that all threat actors are using AI in some capacity and their operations have benefited," John Hultquist, chief analyst at GTIG, said in a statement shared with The Hacker News. "Like everyone else, we're concerned about the vulnerability problem, but AI is being applie...
+- **Source URL:** https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls Sep 08, 2026 Vulnerability / Mobile Security Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since blocked the exploit for all users. No attacks using the flaw have been reported, and Calif does not say there were any. Attacks that require no action from the target, known as zero-click attacks, are not new. Last year, WhatsApp patched a flaw it said may have been used in targeted attacks. Answering the call does not stop the attack. Calif said a person who picks up hears nothing and the exploit still works. Declining the call ends that attempt, but the attacker can call again later, for example while the target is asleep. The caller has to be on the target's WeChat contac...
+- **Source URL:** https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** SAP warns of maximum severity 'OVERPASS' kernel
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Adobe fixes critical Magento zero-day exploited to backdoor servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Webinar: The forgotten Google Workspace access that can lead to a breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** Hackers build AI frameworks for widescale credential theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** 220 million traveler records exposed in Vietnam-linked APIS leak
+- **Source URL:** https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

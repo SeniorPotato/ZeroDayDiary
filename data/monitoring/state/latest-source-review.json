@@ -1,54 +1,124 @@
 {
-  "generatedAt": "2026-09-08T04:41:21.740Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-08T044121Z.md",
+  "generatedAt": "2026-09-08T16:40:38.069Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-08T164038Z.md",
   "candidates": [
     {
       "discovered": "2026-09-08",
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution Sep 07, 2026 Malware / Browser Security Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences integrity values,\" SOCRadar said . \"A native-messaging tool then extends it beyond browser telemetry to host-level command execution and file management.\" Once installed, the PEEP \"extension\" agent polls its command-and-control (C2) server (\"206.237.30[.]232\" or \" xfjcc[.]fun \") every 30 seconds over plaintext HTTP for new commands, while exfiltrating browsing history, active-tab metadata, and session cookies. It also functions as a remote access and browser monitoring toolkit that runs host commands, steals credentials, hijacks sessions...",
-      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "title": "FTC Takes Action Against Payment Processor Humboldt Merchant Services for Knowingly Facilitating Payment Processing for Sham Merchants",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-takes-action-against-payment-processor-humboldt-merchant-services-for-knowingly-facili",
+      "sourceId": "ftc-press",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "Stealing AI Reasoning Traces",
+      "link": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "peep-turns-chrome-and-edge-into-post-compromise-backdoors-for-host-command-execution-sep-0",
+      "slug": "stealing-ai-reasoning-traces",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution Sep 08, 2026 Cybercrime / Cloud Security A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider . \"The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment service Pix, digital asset platforms, and financial entities' cloud environments,\" CrowdStrike said . Slim Spider has been observed orchestrating a multi-stage intrusion at a Brazil-based financial institution in late March 2026, setting its sights on the entity's cryptocurrency assets and instant payment accounts. As part of the attack, the e-crime group is said to have developed custom Bash scripts that query the cloud instance metadata to steal temporary cloud credentials over socket connections. Upon establishing access to the organization's cloud environment, the t...",
+      "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "slim-spider-steals-crypto-custody-secrets-from-brazilian-financial-institution-sep-08-2026",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-08",
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw Sep 07, 2026 Vulnerability / Enterprise Security Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a maximum-severity vulnerability that could allow remote code execution on the N-central server without authentication. The company's own communications disagree on whether the flaw has already been exploited. The vulnerability, tracked as CVE-2026-86218 , carries a CVSS 4.0 score of 10.0, assigned by N-able as the CVE Numbering Authority, and is classed as a static code injection weakness (CWE-96). It affects every N-central build before 2026.3.1.14, the build shipped as 2026.3 Hotfix 4 in the early hours of September 6 (UTC). That includes servers already updated to Hotfix 3 (2026.3...",
-      "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC Sep 08, 2026 Cryptocurrency / Vulnerability Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC . The network is still paused, so holders cannot turn that token back into bitcoin. The 3,400 bitcoin was sent to a Liquid Federation address at 16:09 UTC on September 7, about 85% of what was taken. The federation is the group of operators that holds the bitcoin backing L-BTC. The remaining 598.5 bitcoin was not a separate payment. It is the change from that same transaction, sent back to the address the funds had come from. It was still there on September 8 , according to the block explorer mempool.space. Neither Blockstream nor Liquid Network has said publicly whether that bitcoin is part of an agreement. In an incident notice , Blockstream, which provides the technology f...",
+      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "n-able-issues-fourth-n-central-hotfix-in-five-weeks-for-unauthenticated-rce-flaw-sep-07-20",
+      "slug": "liquid-hackers-return-3-400-bitcoin-taken-via-elements-bug-still-holding-47m-in-btc-sep-08",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-08",
-      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies Sep 07, 2026 Malvertising / Web Security Cybersecurity researchers have unpacked JSCeal , a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator , using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers,\" Check Point Research said in a technical report published last week. JSCeal was first documented by Check Point in July 2025, highlighting the threat actors' use of fake cryptocurrency trading sites to which unsuspecting users are redirected via malicious ads on Facebook and Google. The counterfeit sites instruct them to download bogus installers for TradingView that lead to the deployment of the malware. The activity overlaps with a threat cluster tracked under the monikers WEEVILPROXY and MeadowLocust. Malvertising campaigns distributing the malware make use of two ZIP archives delivered via PowerShell...",
-      "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account Sep 08, 2026 Vulnerability / Artificial Intelligence Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel between the two. The reply the user saw said nothing about it. Check Point said the same channel could also copy out the chat history and the files in that conversation. How much an attacker could take depended on what the session could already access, including its data, tools, other connected apps, and permissions. The instruction had to be in the conversation before any of this worked. Check Point named three ways to get it there: a prompt the user pastes in, a shared ChatGPT conversation the user opens, or a custom GPT that holds it in its builder instructions, which are not shown to th...",
+      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "jsceal-malware-can-bypass-google-authentication-using-stolen-session-cookies-sep-07-2026-m",
+      "slug": "chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-to-another-account-sep-08-202",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-08",
-      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours Sep 08, 2026 Artificial Intelligence / Cybercrime Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations , with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG) said it has observed attackers with diverse motivations targeting proprietary AI models across healthcare, government, and media sectors, exfiltrating API credentials, and co-opting victim cloud environments to sustain unauthorized AI workloads. This highlights growing attacker focus on enterprise AI assets for espionage, extortion, and resource theft. \"At this point, we can assume that all threat actors are using AI in some capacity and their operations have benefited,\" John Hultquist, chief analyst at GTIG, said in a statement shared with The Hacker News. \"Like everyone else, we're concerned about the vulnerability problem, but AI is being applie...",
+      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks",
+      "slug": "autonomous-ai-agents-compromise-thousands-of-credentials-in-under-six-hours-sep-08-2026-ar",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls Sep 08, 2026 Vulnerability / Mobile Security Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since blocked the exploit for all users. No attacks using the flaw have been reported, and Calif does not say there were any. Attacks that require no action from the target, known as zero-click attacks, are not new. Last year, WhatsApp patched a flaw it said may have been used in targeted attacks. Answering the call does not stop the attack. Calif said a person who picks up hears nothing and the exploit still works. Declining the call ends that attempt, but the attacker can call again later, for example while the target is asleep. The caller has to be on the target's WeChat contac...",
+      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "wechat-zero-click-worm-took-over-accounts-on-iphone-and-android-via-incoming-calls-sep-08-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "SAP warns of maximum severity 'OVERPASS' kernel",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "sap-warns-of-maximum-severity-overpass-kernel",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-09-08",
-      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
-      "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "connectwise-warns-of-new-screenconnect-flaw-without-patch",
+      "slug": "adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "Hackers build AI frameworks for widescale credential theft",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-build-ai-frameworks-for-widescale-credential-theft",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-08",
+      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+      "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "220-million-traveler-records-exposed-in-vietnam-linked-apis-leak",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
