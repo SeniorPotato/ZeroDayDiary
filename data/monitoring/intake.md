@@ -19020,3 +19020,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution Sep 07, 2026 Malware / Browser Security Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. "Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences integrity values," SOCRadar said . "A native-messaging tool then extends it beyond browser telemetry to host-level command execution and file management." Once installed, the PEEP "extension" agent polls its command-and-control (C2) server ("206.237.30[.]232" or " xfjcc[.]fun ") every 30 seconds over plaintext HTTP for new commands, while exfiltrating browsing history, active-tab metadata, and session cookies. It also functions as a remote access and browser monitoring toolkit that runs host commands, steals credentials, hijacks sessions...
+- **Source URL:** https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw Sep 07, 2026 Vulnerability / Enterprise Security Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a maximum-severity vulnerability that could allow remote code execution on the N-central server without authentication. The company's own communications disagree on whether the flaw has already been exploited. The vulnerability, tracked as CVE-2026-86218 , carries a CVSS 4.0 score of 10.0, assigned by N-able as the CVE Numbering Authority, and is classed as a static code injection weakness (CWE-96). It affects every N-central build before 2026.3.1.14, the build shipped as 2026.3 Hotfix 4 in the early hours of September 6 (UTC). That includes servers already updated to Hotfix 3 (2026.3...
+- **Source URL:** https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies Sep 07, 2026 Malvertising / Web Security Cybersecurity researchers have unpacked JSCeal , a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. "The payloads are protected with javascript-obfuscator , using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers," Check Point Research said in a technical report published last week. JSCeal was first documented by Check Point in July 2025, highlighting the threat actors' use of fake cryptocurrency trading sites to which unsuspecting users are redirected via malicious ads on Facebook and Google. The counterfeit sites instruct them to download bogus installers for TradingView that lead to the deployment of the malware. The activity overlaps with a threat cluster tracked under the monikers WEEVILPROXY and MeadowLocust. Malvertising campaigns distributing the malware make use of two ZIP archives delivered via PowerShell...
+- **Source URL:** https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** N-able patches max severity N-central flaw amid ongoing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-08
+- **Headline / event:** ConnectWise warns of new ScreenConnect flaw without patch
+- **Source URL:** https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
