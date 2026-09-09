@@ -291,7 +291,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/statement-regarding-fairfield-medical-centers-sale-adena-health",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -544,7 +545,9 @@
       "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
       "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
       "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
-      "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html"
+      "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
+      "https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html",
+      "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1648,7 +1651,12 @@
       "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
       "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
       "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
+      "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+      "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+      "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+      "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2671,7 +2679,12 @@
       "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
       "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
       "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-      "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/"
+      "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+      "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
+      "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+      "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+      "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/"
     ]
   }
 }

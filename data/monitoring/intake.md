@@ -19228,3 +19228,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** FTC Withdraws Obsolete Policy Statement
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Driver’s License Data for Sale
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Claude Fable Solves a Historical Cipher
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week Sep 09, 2026 Vulnerability / Cyber Espionage Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo, PerplexedGoblin, RedBravo, TA412, Tide Castle, and Violet Typhoon) on August 28, 2026. "Within days, several other espionage-motivated clusters began using BlueMoon, the majority of which have a suspected China nexus," Proofpoint said in a report published today. "However, BlueMoon may not be exclusive to China-aligned actors, as some usage remains unattributed and there are also potentially more actors using the exploit kit." The exploit chain employs three vulnerabilities - CVE-2026-85046 , a type confusion in V8 in Google Chrome A V8 sandbox escape that does not...
+- **Source URL:** https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA Sep 09, 2026 Malware / Artificial Intelligence Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others. Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API keys. Once the data is stolen, threat actors who have purchased access to these off-the-shelf offerings put them up for sale on underground forums in the form of stealer logs to enable follow-on attacks. "Session tokens and API keys are sought specifically by threat actors because it is often possible to replay those secrets and bypass credential-based authentication," Jeremy Kirk, director of threat intelligence at Okta, said in a report shared with The Hacker News. "Once successfully replayed, a threat actor is effectively logged in to an LLM service without actua...
+- **Source URL:** https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE Sep 09, 2026 Security Operations / Artificial Intelligenc A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act. As AI accelerates vulnerability discovery and research, that delay matters more. The challenge is no longer just finding vulnerabilities. It is reducing the time between disclosure, exposure assessment, and response. Register now for our next live expert webinar, " Outpacing AI-Era Attacks Starts With Faster Time to Answer ," to see how the Tines security team approaches that problem. See How Tines Built a Faster Exposure View In this webinar, Tines Co-founder and CCO Thomas Kinsella and Senior Security Operations Engineer Andrew Katz will show how their security team brings multiple sources of exposure data into one interactive view.
+- **Source URL:** https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval Sep 09, 2026 Vulnerability / Artificial Intelligence A flaw in DeepSeek Harness , DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web interface on the same machine, and its commands would then run outside the sandbox without an approval prompt. It worked on a default installation until DeepSeek fixed the tool on August 27, and it required attacker-supplied text that the agent read to prompt it to make the call. The flaw is tracked as CVE-2026-82533 . VulnCheck, which assigned the identifier, published the record on September 8 and rated the flaw 9.4 out of 10. OX Research , the security firm that reported the flaw, said one shell command was enough. The command invoked the tool's local interface an...
+- **Source URL:** https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets Sep 09, 2026 Vulnerability / Cryptocurrency Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server, and it holds their bitcoin. The flaw affects versions v1.7.0 through v1.18.5, all released before August 2025, and Alby said one user has been affected so far. Versions v1.19.0 and later do not have the flaw. The first release with that fix was published on August 29, 2025, so a Hub updated to any release published since then is not affected. Alby is telling anyone still on an older build to stop outside access to the Hub's management interface first, which is the web page used to control the wallet. The next step is to update to v1.24.0 , the current release. The company has not said what the flaw is. It said it would publish full details later, in l...
+- **Source URL:** https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** ShinyHunters hackers claim breach of Florida "DAVID" DMV database
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Veradigm warns of patient data breach after ransomware gang claims attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** MFA's Weakest Link: Account Recovery Is the New Attack Path
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Over 36,000 exposed Plex servers vulnerable to recent flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Man gets 15 years for extorting women with AI-generated porn videos
+- **Source URL:** https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
