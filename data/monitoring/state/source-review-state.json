@@ -101,7 +101,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -367,7 +369,8 @@
       "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
       "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
+      "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -540,7 +543,8 @@
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
       "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
       "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
-      "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"
+      "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1639,7 +1643,12 @@
       "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
       "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
       "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html"
+      "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+      "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+      "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+      "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",

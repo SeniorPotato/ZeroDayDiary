@@ -19156,3 +19156,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies
+- **Source URL:** https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Microsoft Plugs Nearly 1,000 Security Holes
+- **Source URL:** https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** AIs as Modern Genies
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days Sep 09, 2026 Zero-Day / Vulnerability Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These include 723 flaws in Windows, 111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools. Of these, over 110 shortcomings have been assigned a critical severity rating. Three prominent vulnerability types, namely privilege escalation, remote code execution, and information disclosure, account for nearly 90% of the flaws patched this month. Along with Microsoft's fixes for 25 non-Microsoft CVEs, the update brings the total number of vulnerabilities resolved to 999. September's record-setting security updates come after Microsoft patched 457 vulnerabilities in August, 663 in July , 220 in June , and 161 in May . "At this scale, the challenge is not simply getting through the patch list but knowing what needs attention first," Jack Bicer...
+- **Source URL:** https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** N-able N-central Pre-Auth RCE Flaw Exploited in the Wild Sep 09, 2026 Vulnerability / Code Injection The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability in question is CVE-2026-86218 (CVSS score: 10.0), which has been described as a case of static code injection. It has been patched in N-central 2026.3 Hotfix 4 , released on September 5, 2026. "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution," CISA said. The development came shortly after Huntress said it commenced an investigation following the compromise of a customer's fully patched N-central production environment on September 4, 2026. However, it remains unclear if the intrusion involved CVE-2026-86218 or two other vulnerabilities ( CVE-2026-86206 and CVE-2026-86207 )...
+- **Source URL:** https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** What It Took to Reach 1 Billion Build Manifests Sep 08, 2026 Cloud Security / Artificial Intelligence In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less interesting than the system that produced it, and why we had to fundamentally rethink that system to get here. What a build manifest actually represents Let’s be precise about what we're counting. How do we define a “build manifest”? Think of it as every time the Chainguard Factory produces a new, verifiable artifact: a fresh image for go:1.26.5 , a rebuild of nginx triggered by a libc patch, a new architecture variant, a regenerated SBOM after a dependency change - all these events cause a new build and therefore new artifacts. At our scale, a single project like Python might have dozens of supported versions, each with multiple architecture builds, each r...
+- **Source URL:** https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials Sep 08, 2026 Vulnerability / Linux A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database accessed via LDAP. The attack needs a second flaw in that database software. The FreeIPA project has already fixed its side in version 4.13.4 . Red Hat says it reproduced the chain twice on a default installation, most recently on a machine with no access at all. Red Hat tracks the FreeIPA flaw as CVE-2026-76578 and rates it critical, with a CVSS score of 9.8. The same page says that score is preliminary and subject to review. Red Hat ships FreeIPA as its Identity Management product , where the package is called ipa . FreeIPA ships an access control rule, called an ACI, that lets a user manage their own one-time-password token. The rule does no...
+- **Source URL:** https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-09
+- **Headline / event:** Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell Sep 08, 2026 Vulnerability / Web Security Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. "This update resolves a critical vulnerability that could result in arbitrary code execution," Adobe said , adding it's "aware that CVE-2026-75650 has been exploited in the wild targeting Adobe Commerce merchants." At its core, the flaw abuses Magento's template system through PHP code injection to generate a "Payment Transaction Failed Reminder" email, triggering code execution in the process.
+- **Source URL:** https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
