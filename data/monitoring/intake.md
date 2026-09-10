@@ -19332,3 +19332,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto Sep 09, 2026 Cybercrime / Cryptocurrency The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscating two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar to help disrupt 13 scam compounds run by Chinese organized crime syndicates. "Approximately $52 million of cryptocurrency involved in scam money laundering was restrained in one day, bringing the total restrained by the Scam Center Strike Force to approximately $938 million," DoJ said. In tandem, the Treasury Department's Office of Foreign Assets Control (OFAC) has sanctioned the Chinese-language media for facilitating cyber scams, fraud, money laundering, and other criminal activity targeting Americans. "Scam centers in Southeast Asia steal billions of dollars from American victims each year," said Secretary of the Treasury Scot...
+- **Source URL:** https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok Sep 09, 2026 Artificial Intelligence / Cloud Security U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting "systematic extraction" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at an industrial-scale and one that forms the "core" of their AI development strategy, according to a bulletin released by the National Security Agency (NSA), the Cybersecurity and Infrastructure Security Agency (CISA), and the Federal Bureau of Investigation (FBI). "While 'distillation' is recognized as a legitimate and useful technique in AI research, China-based AI companies are engaging in aggressive, malicious, and targeted distillation activities at an industrial scale that extract restricted proprietary functionalities and capabilities of U.S. frontier AI models," the authoring agencies said . The joint advisory noted that Chinese AI firms l...
+- **Source URL:** https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox Sep 09, 2026 Vulnerability / Browser Security Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine. "Out-of-bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page," reads a description of the flaw on the NIST National Vulnerability Database (NVD). Security researcher Jihyeon Jeong of Compsec Lab, Seoul National University, has been acknowledged for discovering and reporting the flaw on August 6, 2026. The researcher received a $2,500 bug bounty reward for responsible disclosure. Google acknowledged it is "aware that an exploit for CVE-2026-87491 exists in the wild," but has not disclosed any additional specific information r...
+- **Source URL:** https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root Sep 09, 2026 Vulnerability / Web Security cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user. cPanel published the advisory on September 8 and says every supported version of cPanel and WHM is affected. The flaw is tracked as CVE-2026-67401 . cPanel's advisory calls it an SQL injection issue in EmailTrack, but does not say which cPanel feature or privilege an account needs. cPanel's developer documentation lists an EmailTrack module that tracks email statistics, and the advisory does not say whether that is the affected code. cPanel is web hosting control panel software. A customer manages one hosting account via cPanel, while the provider manages the entire machine via WHM as the root user. Attackers exploited a different cPanel flaw in April . Taking over the panel is not the s...
+- **Source URL:** https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans Sep 09, 2026 Malware / Web Security Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a check of the file on disk can come back clean. Those three scripts are the same ones F5 pointed customers to in March, when it said changes to them alone do not show a break-in. A web shell is usually a small script an attacker drops into a web server's folders to run commands through ordinary web requests. Because it sits on disk, defenders look for it by scanning files and comparing them against known-good copies. That approach does not work here. As the researchers put it, the web shell "does not need to exist in its final form on disk." The three scripts are apm_css.php3, full_wt.php3 and webtop_popup_css.php3, part of the BIG-IP APM webtop. ...
+- **Source URL:** https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** AdaptHealth confirms 4.1 million people exposed in July cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking
+- **Source URL:** https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** US says Chinese firms extracted billions of tokens from frontier AI models
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

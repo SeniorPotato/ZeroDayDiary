@@ -103,7 +103,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -1656,7 +1657,12 @@
       "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
       "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
       "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-      "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html"
+      "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+      "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+      "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+      "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2684,7 +2690,12 @@
       "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
       "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
       "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
-      "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/"
+      "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+      "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/"
     ]
   }
 }
