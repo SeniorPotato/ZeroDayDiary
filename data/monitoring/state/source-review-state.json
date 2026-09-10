@@ -293,7 +293,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-extends-public-comment-proposed-policy-statement-regarding-personalized-pricing",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-proposed-2027-budget-horseracing-integrity-safety-authority"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -548,7 +549,8 @@
       "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
       "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html",
-      "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html"
+      "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
+      "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1662,7 +1664,12 @@
       "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
       "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
       "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html"
+      "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+      "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+      "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+      "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+      "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2695,7 +2702,12 @@
       "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
       "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-      "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/"
+      "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+      "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+      "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+      "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
     ]
   }
 }

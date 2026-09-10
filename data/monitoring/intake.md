@@ -19420,3 +19420,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** FTC Publishes Proposed 2027 Budget for Horseracing Integrity and Safety Authority
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-proposed-2027-budget-horseracing-integrity-safety-authority
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** AIs Compress Exploit Timeline
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Google Play Early Access Abused to Push Thousands of Deceptive Android Apps Sep 10, 2026 Mobile Security / Artificial Intelligence Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the official Android app marketplace. The main idea behind the program is for developers to solicit user feedback for new applications or features they may be working on before their release. One aspect worth highlighting is that users cannot leave public reviews or star ratings for apps that are available in Early Access. This has opened the door to a new kind of abuse where threat actors are pushing thousands of Early Access applications with deceptive content, including fake casino games and reward apps, as well as misleading utilities and titles that may infringe on third-party trademarks. Among the identified apps is a Grand Theft Auto imitator named "Vice Streets: Open World" (APK package:com.gamblechaos.withfriends.game), which has more than 1 ...
+- **Source URL:** https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE Sep 10, 2026 Vulnerability / Network Security Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only "under specific conditions" that it has not described. One flaw affects Check Point's Security Gateways, its firewall appliances. The other affects those gateways and the Security Management Server, the console used to configure them. Check Point disclosed the flaws on September 9 in a notice to its customer community , and began delivering fixes the same day. The company says it found both itself and has no indication that either has been used in an attack. The first flaw, CVE-2026-85102 , is a failure to properly validate certificate trust during VPN negotiation. Its CVE record says an unauthenticated remote attacker may be able to run code on the Security Gateway. The second, CVE-2026-85103 , is a heap-based buffer overflow that happens while t...
+- **Source URL:** https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances Sep 10, 2026 Cyber Attack / Vulnerability A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances. According to independent reports from Blackpoint Cyber and GreyNoise , the activity originates from " 45.142.193[.]132 ," an IP address that has been linked to unauthorized port scanning and brute-force attack attempts in recent weeks. It's worth noting the same IP address was also flagged by Arctic Wolf in connection with the exploitation activity last week. "At this time, we cannot confirm the exact end goal of this campaign," Nevan Beal, principal MDR analyst at Blackpoint, told The Hacker News. "The threat actor's methodology is consistent with initial-access activity, but we do not yet have sufficient evidence to confirm whether they are operating as an initial access broker." At its core, the opportunist...
+- **Source URL:** https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks Sep 10, 2026 Malware / Mobile Security The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9. A work profile is a separate space that Android typically reserves for employer apps, and what's inside it is kept separate from everything in the personal space. That split hides the trojan from the banking app's own malware checks, Group-IB said, so a fraudulent payment can look unrelated to the alert already raised on the phone. It has confirmed the full chain on infected devices in Indonesia. Android's platform documentation says any app in the phone's main profile can start the setup for a work profile, and that the user is told what a work profile does before one is created. Group-IB said banking apps carry security code that looks for known malware on the phone. From inside a work profile, that scan does not reach the personal space wher...
+- **Source URL:** https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline Sep 10, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the patches by September 12, 2026. The vulnerabilities are listed below - CVE-2026-20079 (CVSS score: 10.0) - An authentication bypass vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system. CVE-2026-19490 (CVSS score: 9.3) - An authentication bypass vulnerability in Citrix NetScaler ADC and NetScaler Gateway when the appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy). CVE-2025-25249 (CVSS score: 7.3) - A heap-based buffer overflow ...
+- **Source URL:** https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** AI-powered attack exploited PaperCut flaws to hack 395 organizations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** IDScan confirms breach tied to 153 million stolen driver’s licenses
+- **Source URL:** https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** The Top 4 Threats We Found by Investigating Every Alert for a Quarter
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-10
+- **Headline / event:** CISA: WatchGuard RCE flaw now exploited in ransomware attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
