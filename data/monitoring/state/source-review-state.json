@@ -170,7 +170,8 @@
       "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
       "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan",
       "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
-      "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program"
+      "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
+      "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -551,7 +552,8 @@
       "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html",
       "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
-      "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html"
+      "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1673,7 +1675,12 @@
       "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
       "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
       "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-      "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
+      "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2714,7 +2721,12 @@
       "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
       "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
       "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-      "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
+      "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+      "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+      "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+      "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/"
     ]
   }
 }

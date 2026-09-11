@@ -19572,3 +19572,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** The CRA Single Reporting Platform is launched
+- **Source URL:** https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Cliff Stoll’s DEF CON Talk
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure Sep 11, 2026 Vulnerability / Web Security GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under certain conditions. The problem, per GitLab, stems from "improper path confinement and missing authentication enforcement in the repository commits API." The issue impacts the following versions of GitLab Community Edition (CE) and Enterprise Edition (EE) - All versions from 18.7 before 19.1.8, All versions from 19.2 before 19.2.6, and All versions from 19.3 before 19.3.2 According to preemptive exposure management firm watchTowr, the vulnerability is already witnessing active in-the-wild probes since 06:00 UTC on September 11, 2026. The issue, it said, allows an ...
+- **Source URL:** https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks Sep 11, 2026 Artificial Intelligence / Cybercrime Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method . It refers to a machine learning technique where a large, powerful AI model assumes the role of a "teacher" to train a smaller, less-capable or faster "student" model to copy its capabilities. Illicit distillation, on the other hand, is an industrial-scale campaign that covertly extracts a model's capabilities and replicates them in another model without authorization, typically by making use of networks of fake accounts created with stolen credit cards, login credentials, and API keys. Frontier AI labs in the West, including those from Google and OpenAI , have repeatedly called out distillation attacks aimed at their models. Anthropic said it has observed unauthorized labs ...
+- **Source URL:** https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Claude Used to Automate Exploitation and Data Theft Across Multiple Victims Sep 11, 2026 Artificial Intelligence / Cyber Operations Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial spyware vendors, state propaganda institutions, and politically motivated individuals. "The cybersecurity skills of AI models means that AI has collapsed the labor and tooling gap that used to separate well-resourced, state-sponsored operations from individual operators," Anthropic said . "The use of AI went beyond simple questions and responses from a chatbot but rather involved the use of multi-agent frameworks executing reconnaissance, exploitation, and data exfiltration." Among the notable cases highlighted by Anthropic is the development of an AI-assisted workflow by...
+- **Source URL:** https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection Sep 11, 2026 Cyber Espionage / Malware Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has been attributed to a cyber espionage group it calls GTG-20006 (where "GTG" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight Blizzard (aka APT29 and Cozy Bear). This actor is said to have developed an AI-driven process to automatically rebuild and re-deploy their toolkit if it was detected by security products, thereby undermining defenders' ability to block the artifacts via static detections. Attacks mounted by GTG-20006 have targeted military intelligence targets in Ukrainian and European governments, along with diplomatic and defense organizations and individuals connected to U.S. foreign policy. The toolkit includes a number of programs - Two Windows-based implants A mobile explo...
+- **Source URL:** https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Your Critical Vulnerabilities Might Not Be Your Biggest Risk Sep 11, 2026 Penetration Testing / Artificial Intelligence Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise. A critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker from reaching anything important, then it doesn’t necessarily need immediate attention. On the other hand, a medium-severity vulnerability may appear less important, but if it can be used to provide a foothold that can be chained with other weaknesses to reach sensitive data or privileged systems, then fixing that gap becomes a priority. How Autonomous Penetration Testing Reveals What Attackers Can Actually Exploit Severity scores tell you what vulnerabilities could mean in isolation. Autonomous penetration testing tells you what an attacker can actually do with the vulnerabilities....
+- **Source URL:** https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Artifactory flaws chained in attacks deploying backdoor
+- **Source URL:** https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** GitLab urges users to patch max severity path traversal flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Trezor: 347,000 users targeted in phishing attacks after Brevo breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Conti ransomware gang member sentenced to 4 years in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
