@@ -104,7 +104,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-      "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -1669,7 +1670,10 @@
       "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
       "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
       "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-      "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html"
+      "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+      "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+      "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2707,7 +2711,10 @@
       "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
       "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
       "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-      "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
+      "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+      "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
     ]
   }
 }

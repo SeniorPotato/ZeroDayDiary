@@ -19516,3 +19516,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories Sep 10, 2026 Hacking News / Cybersecurity News A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A package looks useful right up until it isn’t. Different stories, same basic problem: the path in was often already there. Nothing here needed magic. Mostly access, trust, weak edges, and someone willing to keep poking. That’s the week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example "sk-1234" Admin Key Sep 10, 2026 Cloud Security / Artificial Intelligence Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234 , the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI gateway, the software a company puts between its applications and the model providers it pays for. That key is the gateway's administrator credential. Anyone who holds it can read every model provider's API key stored on the server. In Wiz's tests, it also reached the cloud IAM credentials of the machine the gateway runs on. Changing the key needs no upgrade, and it closes every path in Wiz's report that depends on holding it. Where the Number Comes From Wiz ran one scan. It found 3,074 LiteLLM gateways on Shodan in February, and 294 of them accepted the key. In 191 of those 294, no key was set at all, so they would have accepted anything. The rest had the setup guide's value left in place. A second scan in August found more than 85,000 instances, but W...
+- **Source URL:** https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6 Sep 10, 2026 Artificial Intelligence / Web Security Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents. The AI company said the incident dates back to January 2026 and involved an early version of Claude Opus 4.6 that breached "third-parties after being unable to abort its task." It said it notified all the affected parties but did not share any further details. The January incident is said to have gone unnoticed until last month. In late July 2026, Anthropic revealed three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, broke into three unnamed organizations during cybersecurity evaluations without its knowledge. The American firm said it expanded its scan to roughly 481 million transcripts following the discovery of the latest incident, but noted it did not find "other...
+- **Source URL:** https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** New Android malware encrypts files, steals data, and harasses victims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Surfshark VPN says hackers breached internal testing, proxy servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-11
+- **Headline / event:** Trezor warns users of email provider breach, phishing attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
