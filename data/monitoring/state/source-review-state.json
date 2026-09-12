@@ -105,7 +105,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
       "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -553,7 +555,9 @@
       "https://www.schneier.com/blog/archives/2026/09/drivers-license-data-for-sale.html",
       "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
       "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html"
+      "https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html",
+      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
+      "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1680,7 +1684,11 @@
       "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
       "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
       "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
+      "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+      "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+      "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+      "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2726,7 +2734,10 @@
       "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
       "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
       "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-      "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/"
+      "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+      "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
     ]
   }
 }
