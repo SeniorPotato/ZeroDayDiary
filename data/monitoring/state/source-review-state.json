@@ -1688,7 +1688,9 @@
       "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
       "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
       "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-      "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
+      "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+      "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2737,7 +2739,8 @@
       "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
       "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
       "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-      "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
+      "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/"
     ]
   }
 }

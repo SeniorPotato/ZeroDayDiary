@@ -19756,3 +19756,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-12
+- **Headline / event:** When the Whole Company Adopts AI: What It Does to Your SOC Sep 12, 2026 AI Agent / Security Operations Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate accounts. We reviewed AI-related activity across numerous enterprise environments. Two numbers frame everything that follows. AI-related alerts still account for only 0.43% of all SOC alerts. And that share is climbing every single month, up 685% between February and June 2026. AI is a small slice of the alert stream today and the fastest-growing slice at the same time. What makes those alerts worth a security team’s attention is not their volume but their composition. We sort everything an AI agent triggers in a SOC into three buckets: real attacks, risks, and noise, with the split being 94....
+- **Source URL:** https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-12
+- **Headline / event:** OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers Sep 12, 2026 Vulnerability / Web Security The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the Ruby programming language with hundreds of junk gems, prompting the maintainers to suspend new user sign-ups for about four days. In a follow-up analysis, Socket highlighted a campaign dubbed GemStuffer that involved a cluster of more than 150 gems that used the package registry as a data exfiltration channel and staged public data scraped from U.K. local government democratic services portals. At that time, the software supply chain security company noted the activity shares the "same abuse pattern" as the broader RubyGems spam-publishing incident. "It's not...
+- **Source URL:** https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-12
+- **Headline / event:** Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
