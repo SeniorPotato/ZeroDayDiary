@@ -19780,3 +19780,11 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-13
+- **Headline / event:** CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV Sep 12, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect , and MikroTik RouterOS to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization vulnerability in JFrog Artifactory that could lead to privilege escalation due to a validation check of the token signature/issuer and not the token's scope. CVE-2026-42018 (CVSS score: 7.5) - An improper authentication vulnerability in JFrog Artifactory that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially leaking sensitive resources. CVE-2026-84869 (CVSS score: 9.9) - An improper privilege management and missing authorization vulnerability in ConnectWise ScreenConnect that could allow an attacker to fil...
+- **Source URL:** https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
