@@ -19788,3 +19788,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-13
+- **Headline / event:** Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data Sep 13, 2026 Cloud Security / Identity Security Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers (CEOs) of various target companies, aiming to persuade accounts payable departments at those firms to initiate Automated Clearing House ( ACH ) transfers for a supposed ServiceNow annual subscription. Evidence indicates that the operators behind the campaign have leveraged generative artificial intelligence (AI) to facilitate the creation of email templates and draft emails tailored to their recipients. The activity primarily singled out enterprise users in the U.S., spanning IT services, consumer goods, real estate, and discrete manufacturing sectors. "The campaign follows steps bef...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-13
+- **Headline / event:** Hackers exploit Tencent app flaw to deploy GrayRabbit
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
