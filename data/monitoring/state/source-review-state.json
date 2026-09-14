@@ -557,7 +557,8 @@
       "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
       "https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html",
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
-      "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html"
+      "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
+      "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1692,7 +1693,12 @@
       "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
       "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
       "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+      "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2743,7 +2749,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
       "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
       "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+      "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/"
     ]
   }
 }

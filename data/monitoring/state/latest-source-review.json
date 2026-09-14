@@ -1,5 +1,116 @@
 {
-  "generatedAt": "2026-09-14T05:00:19.492Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-14T050019Z.md",
-  "candidates": []
+  "generatedAt": "2026-09-14T18:05:01.123Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-14T180501Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-09-14",
+      "title": "Using AI for Weapons Development",
+      "link": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "using-ai-for-weapons-development",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing Sep 14, 2026 Vulnerability / Cloud Security Researchers have disclosed a new hardware attack, called DDRop , that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit board, called an interposer , between the processor and a memory module. The interposer costs under $200 to build. DDRop works against Intel TDX, Intel Scalable SGX, and AMD SEV-SNP, the hardware that cloud services use to keep customer data private while it is in use, even from the cloud provider. Confidential computing keeps a server's memory encrypted, so that even someone with physical access to the machine sees only scrambled data. To cover the large amount of memory that a cloud server uses, though, these designs omit a guarantee called freshness. The processor can confi...",
+      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-ddrop-attack-breaks-intel-tdx-and-amd-sev-snp-confidential-computing-sep-14-2026-vulne",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials Sep 14, 2026 Network Security / Cyber Attack An attacker was operating inside the network of 3BB , one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of machines already under their control. The researchers captured the exposed server on June 3, 2026, while the operation was still live. The tools on it had been run from a computer inside 3BB's own network, and one recovered file showed the attacker gaining full administrative control, known as root, of an internal server. To maintain that access, the attacker installed MeshCentral , a free tool that IT teams typically use to manage computers remotely. The recovered settings show it was configured as a hidden backdoor, with the agents reporting to a control server that the atta...",
+      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "3bb-attacker-used-meshcentral-backdoor-for-root-access-targeted-subscriber-credentials-sep",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports Sep 14, 2026 Vulnerability / Data Security A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to an attacker-controlled server, or rewrite what the page displayed. Telegram shipped a fix in July, but the app update does not update files exported with earlier versions, so old HTML exports can still carry the script. Telegram Desktop, Telegram's app for Windows, macOS, and Linux, can save a single chat or all chats from an account as HTML pages that open in a browser. Bots can attach rows of buttons under their messages, which Telegram calls inline keyboards, and the bot chooses the text shown on each button. Until the fix, the export code wrote that button text directly ...",
+      "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "telegram-desktop-flaw-lets-hidden-javascript-exfiltrate-messages-from-html-exports-sep-14-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries Sep 14, 2026 Cyber Espionage / Vulnerability A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. \"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU) said in an analysis. \"The activity progressed from source-code theft to persistent access, credential collection, and lateral movement, including root-level access to a three-node Proxmox cluster.\" The activity is said to have resulted in confirmed compromises affected organizations in Canada (2), Argentina (1), Taiwan (4), the U.S. (4), Qatar (1), and Sri Lanka (1), with the threat actor using Simplified Chinese labels to classify targets spanning defense, election, energy, aerospace, telecommunications, government, public safety, and research sectors. The Singapore ...",
+      "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "red-heron-exploits-gitea-rce-to-compromise-13-organizations-across-six-countries-sep-14-20",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution Sep 14, 2026 Web Security / Vulnerability WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved. \"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin Repository Team Co-Lead, said . \"A plugin can be secure today and introduce a vulnerability, or malicious code, in a future release.\" WordPress said the lack of a \"consistent review step\" between the commit of a release and the release of a plugin to downstream users meant that it could open the door for malicious attacks. The content management system (CMS) platform noted that its automated review detected a backdoor committed to a release of a plugin with about 20,000 active installations on July 28, 2026. Because the release was within a cooldown window, ...",
+      "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "wordpress-adds-automated-plugin-reviews-to-block-high-risk-updates-before-distribution-sep",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "why-patch-automation-needs-brakes-not-just-an-accelerator",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "Revolut discloses data breach exposing financial info, passports",
+      "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "revolut-discloses-data-breach-exposing-financial-info-passports",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-14",
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }
