@@ -1,26 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:20:45.158Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-13T162045Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-09-13",
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data Sep 13, 2026 Cloud Security / Identity Security Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers (CEOs) of various target companies, aiming to persuade accounts payable departments at those firms to initiate Automated Clearing House ( ACH ) transfers for a supposed ServiceNow annual subscription. Evidence indicates that the operators behind the campaign have leveraged generative artificial intelligence (AI) to facilitate the creation of email templates and draft emails tailored to their recipients. The activity primarily singled out enterprise users in the U.S., spanning IT services, consumer goods, real estate, and discrete manufacturing sectors. \"The campaign follows steps bef...",
-      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "attackers-use-passkey-phishing-to-hijack-microsoft-cloud-accounts-and-exfiltrate-data-sep-",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-13",
-      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-09-14T05:00:19.492Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-14T050019Z.md",
+  "candidates": []
 }
