@@ -559,7 +559,9 @@
       "https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html",
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
       "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
-      "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
+      "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1702,7 +1704,12 @@
       "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
       "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
       "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+      "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+      "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+      "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+      "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+      "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2762,7 +2769,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
       "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
       "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
-      "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/"
+      "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+      "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+      "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+      "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/"
     ]
   }
 }

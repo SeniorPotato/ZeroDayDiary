@@ -19956,3 +19956,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** 25 Years of Mass Surveillance Is Enough
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** On the NSA’s Supercomputer from the 1960s
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists Sep 15, 2026 Malware / Cyber Espionage Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world. The malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record audio. The FBI calls it HEAVYGRAM , and the U.K.'s National Cyber Security Center (NCSC) calls it CHOSEN BRICK . The joint advisory was published on September 15 by the NCSC , the FBI, and the Netherlands' intelligence service, the AIVD. The FBI also released an updated analysis of the malware that expands on a March 2026 alert , the first to describe the campaign, with more technical detail and new indicators of compromise. The FBI attributes the malware to Iran's Ministry of Intelligence and Security (MOIS), the country's main intelligence agency, and dates th...
+- **Source URL:** https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** BambooToken Malware Uses MQTT to Control Windows and Linux Systems Sep 15, 2026 Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport ( MQTT ) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken , is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America. Activity linked to the malware has been detected as recently as July 2026. Lumen Black Lotus Labs said it discovered the previously undocumented malware on VirusTotal in early 2026, with evidence pointing to a skilled threat actor that has managed to stay undetected until now. The initial access vector used to deliver BambooToken remains undetermined. "The actor used Tendyron's 'OnKey' software to sideload agents into targeted machines," Black Lotus Labs said in a report shared with The Hacker News. "Tendyron creates hardware-based tokens employed in high-se...
+- **Source URL:** https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds Sep 15, 2026 Vulnerability / Malware With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH bastion host in eight seconds using a custom Python toolkit they "wrote and debugged by hand" without any AI agent in the loop. "Eight seconds is the kind of speed we expect to see in AI-assisted attacks," the Sysdig Threat Research Team said . "This operator got there on skill alone, and along the way walked straight past a trap that every agentic threat actor (ATA) we've profiled against this same CVE fell into. Not only can skilled human attackers move at machine speed, but they can also often better evade defenders' detections." The attack chain ha...
+- **Source URL:** https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point Sep 15, 2026 Security Testing / Attack Simulation Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise. But no matter how much you validate against these exposures, it doesn't fix the main problem the industry is facing: these are isolated, disconnected testing. And real attackers, increasingly AI Powered ones, don't test techniques one at a time. They chain them. A phishing email leads to a credential harvest. That harvest leads to an initial foothold. The foothold leads to privilege escalation, then lateral movement, then data staging, then exfiltration… until the damage is irreversibly done. Any one of those individual steps might be something a security control is theoretically capable of catching - but there's just too many po...
+- **Source URL:** https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers Sep 15, 2026 Vulnerability / Cloud Security Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs . The credential harvesting activity, observed in August 2026, has been found to leverage an exploit for CVE-2026-39364 (CVSS score: 8.2), a high-severity security flaw in Vite that could permit an unauthenticated attacker to bypass security restrictions via query parameter manipulation and leak sensitive data, including files specified by server.fs.deny. "On the Vite dev server, files that should be blocked by server.fs.deny (e.g., .env, *.crt) can be retrieved with HTTP 200 responses when query parameters such as ?raw, ?import&raw, or ?import&url&inline are appended," Vite s...
+- **Source URL:** https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** CenterPoint Energy confirms customer data stolen in cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** BambooToken malware controls Windows and Linux systems via MQTT
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Hackers target WordPress sites via third-party WooCommerce plugin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** What Zero-Day Response Should Be in the Post-Mythos Era
+- **Source URL:** https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** CISA: Critical VMware RCE flaw now exploited by ransomware gangs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
