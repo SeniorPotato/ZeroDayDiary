@@ -19892,3 +19892,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** ⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits Sep 14, 2026 Cybersecurity / Hacking AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems, weak defaults, and simple paths that should have been harder to abuse. A few of these stories are clever. Most are just easy. Here’s what mattered this week. ⚡ Threat of the Week OpenAI Agents Behind May 2026 Attack on RubyGems — The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to researchers. The event was driven by a cluster of OpenAI agents that engaged in en masse publication of thousands of packages to RubyGems in May and June 2026. "The swarm behaves extremely similarly to the German-wiki agents we previously found," researchers Spencer Kitts, Thomas Larsen, and Sydney Von...
+- **Source URL:** https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** AI Changed the Exposure Problem. Validation Needs to Change With It. Sep 14, 2026 Vulnerability / Penetration Testing There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action. In the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the year before. Yet only 495 were catalogued as exploited in the wild during that same period, and 116 were already under attack on the day they became public. Meanwhile, Anthropic’s own disclosure data shows Mythos-class models surfacing 26,153 vulnerability candidates in open-source software, with only 421 of those getting patched upstream. That small exploited subset is a very important point. It tells defenders that treating every vulnerability with a High or Critical CVSS rating as an emergency is not only impossible, it’s actually the wrong model . The critical task security teams fa...
+- **Source URL:** https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users Sep 14, 2026 Malware / Browser Security A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named "Twitch Enhanced Viewer | JeetBot," lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store - Chrome - pnhhdhhcadcjfckjhpmjneldiegbojfb - 30,000 users (Published on June 26, 2025) Firefox - twitchenhancedviewer@example.com - 604 users (Published on July 7, 2025) Both extensions are still available for download as of writing. The extension listing description states: "JeetBot is a modern tool for streamers and viewers who appreciate quality, convenience, and control," adding it "expands Twitch capabilities: 1080p stream for regions with constraints." "Current builds (v85.x) forward the token inline as an &auth= query parameter on a network-layer redirect ...
+- **Source URL:** https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Hackers hijack HBO Max Reddit account to push malware in ClickFix ads
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Homebrew 7.0.0 gets built-in GUI, better security controls
+- **Source URL:** https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Japan's Digital Agency says VPN flaw exposed 246,000 personnel records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-15
+- **Headline / event:** Twitch extension with 30K installs exposes users’ OAuth tokens
+- **Source URL:** https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
