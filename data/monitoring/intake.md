@@ -20052,3 +20052,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** FTC Publishes Price Transparency FAQs for Auto Dealers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-price-transparency-faqs-auto-dealers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens Sep 15, 2026 Cybercrime / Browser Security Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN . Elastic Security Labs is tracking the activity under the moniker REF9334 . Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and Microsoft Edge. "The KREMLIN malware ecosystem employs multi-stage JavaScript loaders, custom C++ installers, and malicious browser extensions to steal credentials, session tokens, and sensitive data," security researchers Cyril François and Andrew Pease said in a technical report shared with The Hacker News. "Malicious browser extensions bypass Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs, and App-Bound encrypted hashes." A defining aspect of the operation is the use of blockchain to conceal the threat actor-controlled...
+- **Source URL:** https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server Sep 15, 2026 Vulnerability / Web Security A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14 . On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself, according to the advisory. cPanel said it had received notice of the flaw, which affects versions before 6.3.7, and urged administrators to update to that release, which LiteSpeed published on September 11 . The flaw can bypass the controls that keep hosting accounts apart, including CageFS , cPanel said. CageFS is a CloudLinux tool that gives each hosting account a restricted view of the file system, so it cannot see other accounts or the server's configuration files. Neither cPanel's advisory nor LiteSpeed's release notes describe how the flaw works. LiteSpeed's an...
+- **Source URL:** https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution Sep 15, 2026 Vulnerability / Network Security Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-76461 , carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker to run arbitrary commands with root privileges on the underlying operating system. "An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device," Cisco said in a Monday advisory. "A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system." The shortcoming affects Cisco Secure Email Gateway, both physical and virtual, regardless of device configuration. However, the networkin...
+- **Source URL:** https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE Sep 15, 2026 Vulnerability / Cyber Espionage A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE . Volexity, which is tracking the threat cluster under the moniker UTA0560 , said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The emails contained a message encouraging the users to click a link that led to the website of a U.S.-based university," researchers Ankur Saini, Conor Quigley, Sean Koessel, Steven Adair, and Tom Lancaster said . "These links abused a reflected cross-site scripting (XSS) vulnerability on the website, redirecting recipients to threat-actor-controlled infrastructure hosting a multi-stage exploit chain." The exploit chain, as previously highlighted by Proofpoint, involves three separate flaws – two in Chrome and one in Windows Advanced Local Procedure Call (ALPC). It first ab...
+- **Source URL:** https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** Acronis warns of actively exploited flaw in its cPanel backup plugin
+- **Source URL:** https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-16
+- **Headline / event:** Suspected Black Axe gang leaders face cybercrime charges in the US
+- **Source URL:** https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

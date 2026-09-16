@@ -299,7 +299,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-proposed-2027-budget-horseracing-integrity-safety-authority"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-proposed-2027-budget-horseracing-integrity-safety-authority",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-price-transparency-faqs-auto-dealers"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1709,7 +1710,11 @@
       "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
       "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
       "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-      "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
+      "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+      "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+      "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2774,7 +2779,10 @@
       "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
       "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
       "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-      "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/"
+      "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+      "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+      "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+      "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
     ]
   }
 }
