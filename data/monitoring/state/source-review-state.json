@@ -109,7 +109,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -381,7 +382,10 @@
       "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/"
+      "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "https://krebsonsecurity.com/2024/03/a-close-up-look-at-the-consumer-data-broker-radaris/",
+      "https://krebsonsecurity.com/2024/06/krebsonsecurity-threatened-with-defamation-lawsuit-over-fake-radaris-ceo/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -1721,7 +1725,12 @@
       "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
       "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
       "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-      "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html"
+      "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+      "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+      "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2793,7 +2802,10 @@
       "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
       "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
-      "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
+      "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+      "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+      "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+      "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/"
     ]
   }
 }
