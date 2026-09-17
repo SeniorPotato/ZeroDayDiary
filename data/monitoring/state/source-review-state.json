@@ -568,7 +568,8 @@
       "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
       "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
       "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html"
+      "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
+      "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1730,7 +1731,12 @@
       "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
       "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
       "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-      "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
+      "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2805,7 +2811,11 @@
       "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
       "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
       "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-      "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/"
+      "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+      "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+      "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
+      "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
+      "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/"
     ]
   }
 }

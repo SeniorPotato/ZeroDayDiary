@@ -20300,3 +20300,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** How Candidates Could Use AI for Good
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files Sep 17, 2026 Vulnerability / Artificial Intelligence Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a security announcement on September 15. The escape runs with the rights of the host account that runs the virtual machine. The flaw, CVE-2026-77179 , is rated Critical, affects versions 0.28.0 up to but not including 0.42.0 on macOS, and was fixed in 0.42.0 on September 7. Docker Sandboxes runs each AI coding agent in its own small virtual machine with the project directory shared in. The code that could escape is whatever runs inside that machine, such as a coding agent that has been turned against its user, or anything malicious the agent installs and runs. Docker has not reported any exploitation. CISA's added assessment on the CVE record lists exploitation as none, and the flaw is not in CISA's Known Exploited Vulnerabilities catalog as of the ca...
+- **Source URL:** https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords Sep 17, 2026 Cyber Espionage / Malware The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE . "HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading, file cleanup, and persistence via Windows autorun registry keys," Group-IB said . On the other hand, CRUDEEXCLUDE is a Delphi-based Windows utility employed to prepare environments for the deployment of subsequent stages such as HEAVYGRAM. First observed in late July 2024, the malware is often disguised as a legitimate application with a graphical user interface (GUI), and configures Microsoft Defender exclusion paths for defense evasion. The findings build upon an alert the U.S. Federal Bureau of Investigation (FBI) first issued in March 2026 and again earlier this wee...
+- **Source URL:** https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone Sep 17, 2026 Vulnerability / DNS Security Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution. Unbound 1.26.1, released the same day, fixes the bug, tracked as CVE-2026-81642 , along with eight other flaws. One of the eight, CVE-2026-82717 , is a heap corruption bug in CNAME synthesis reported by Ben Morris of Anthropic. It could also lead to remote code execution "under certain systems and compilation options," NLnet Labs said. NLnet Labs has not reported exploitation of either bug, and CISA's entry for CVE-2026-81642 marked exploitation as "none" on Wednesday. NLnet Labs rates the DNSKEY flaw Critical, with a CVSS score of 4.0 (9.1), and its scoring lists a network attack vector requiring no privileges or user interaction. NVD listed the CVE as "Await...
+- **Source URL:** https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar Sep 17, 2026 Security Operations / Artificial Intelligence A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is measured in time. 📅 Save Your Spot Today: How to Prove You're Ready for Mythos-Class Attacks . Can’t join live? Register anyway. We’ll send the webinar recording after the session, so you can watch it later, whenever it fits your schedule, and still see the full, fresh CVE-to-validation workflow. Stop prioritizing on severity alone A high score tells you a vulnerability could be serious. It does not prove that an attacker can use it against you. Security teams need faster answers: Is the affected asset exposed? What attack techniques does exploitation require? Do ...
+- **Source URL:** https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** CISO's Expert Guide to Agentic Pentesting for Websites Sep 17, 2026 Application Security / AI Agent Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR 2026), the #1 initial-access vector, while annual pentesting leaves an estimated 90% of the estate untested. The capability is proven, not projected. An autonomous system topped HackerOne's US leaderboard in 2025 (XBOW), and peer-reviewed agents exploited 87% of one-day flaws unaided (Fang et al., 2024). Continuous beats periodic, measurably. Programmatic testing makes teams 4.5x more likely to fix criticals within three days (Cobalt, 2026). It's an AI agent in your production. Hold it to a bar. Provable coverage, an independent validator, blast-radius guardrails, and a...
+- **Source URL:** https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** What Recent AI-Powered Attacks Mean for Your Identity Security
+- **Source URL:** https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** US takes down NightmareStresser DDoS-for-hire platform
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Chinese hackers use SparroWocky malware in govt espionage attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-17
+- **Headline / event:** Cisco warns of max severity ISE zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
