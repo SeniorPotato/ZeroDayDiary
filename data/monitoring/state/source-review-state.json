@@ -303,7 +303,10 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-withdraws-obsolete-policy-statement",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-proposed-2027-budget-horseracing-integrity-safety-authority",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-publishes-price-transparency-faqs-auto-dealers",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-prevent-anticompetitive-arrangement-beretta-ruger-deal"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-prevent-anticompetitive-arrangement-beretta-ruger-deal",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-historic-action-against-multilevel-marketing-operator-amway-unfair-deceptive-business",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/fleetcor-agrees-pay-100-million-resolve-administrative-action-after-federal-court-finds-it-violated",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1736,7 +1739,12 @@
       "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
       "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
       "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
+      "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+      "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2815,7 +2823,10 @@
       "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
       "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
       "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-      "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+      "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+      "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/"
     ]
   }
 }

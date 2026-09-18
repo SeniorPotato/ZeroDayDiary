@@ -20380,3 +20380,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** FTC Takes Historic Action Against Multilevel Marketing Operator Amway for Unfair and Deceptive Business Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-historic-action-against-multilevel-marketing-operator-amway-unfair-deceptive-business
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** FleetCor Agrees to Pay $100 Million to Resolve Administrative Action After Federal Court Finds that It Violated the FTC Act by Charging Unauthorized Fees
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/fleetcor-agrees-pay-100-million-resolve-administrative-action-after-federal-court-finds-it-violated
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** FTC Announces Additional Payments to Consumers Stemming from FTC’s Amazon Prime Settlement
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root Sep 17, 2026 Vulnerability / Enterprise Security A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw has been exploited. Check Point told The Hacker News that the vulnerable path runs only through the Trusted Clients setting, which controls which hosts may connect to the management server through SmartConsole. The flaw, tracked as CVE-2026-91843 and rated 9.8 out of 10 on the CVSS scale by Check Point, is a stack overflow in the login process, which handles requests before a user is authenticated. Internet scanning company Censys said the overflow is triggered by a login request that carries a very long username. Check Point said in a notice on its CheckMates community on...
+- **Source URL:** https://thehackernews.com/2026/09/critical-check-point-management-server.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories Sep 17, 2026 Hacking News / Cybersecurity News Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough. So the threat landscape is not getting cleaner. It is just getting more places to make the same mistake. Here’s what showed up this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America Sep 17, 2026 Malware / Cyber Espionage The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025. "SparroWocky is a modular, C++ backdoor," ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News ahead of publication. "Its architecture and the techniques used by its authors indicate strong knowledge of anti-analysis tricks and Windows internals." SparroWocky is so named for the fact that early iterations of the malware have been found to contain the first stanza of Jabberwocky , a famous nonsense poem written by the English author, poet, and mathematician Lewis Carroll in around 1855. The latest findings from ESET indicate that the cyber espionage group , which shares some level of overlap with Earth Estries and Salt Typhoon, has replaced SparrowDoor with Spar...
+- **Source URL:** https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads Sep 17, 2026 Artificial Intelligence / Vulnerability OpenAI on Wednesday disclosed six new instances of "unexpected or concerning model behavior" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency. "As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the progress of alignment research," OpenAI said. "We do not believe that the AI industry has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer." "Decisions about how AI development should proceed in the months and years to come need to draw on evidence that people outside the companies building frontier models can examine for themselves." The six incidents are outside of the recently disclosed misaligned activity targeting Hugging Face , DseWiki , and RubyGems . Details of the inc...
+- **Source URL:** https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS Sep 17, 2026 Vulnerability / DNS Security The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it disclosed on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH). A sender with no credentials can crash the server process, named, with a single request that carries an invalid SIG(0) signature, if the sender closes the connection before named finishes checking the signature. ISC said in its advisories that it is not aware of any of the fourteen being exploited. Which Release Fixes What The fixed releases, described in ISC's release notes , are: BIND 9.20.29, on the current stable branch: fixes all fourteen BIND 9.21.26, on the development branch: fixes thirteen, because CVE-2026-19662 does not affect 9.21 BIND 9.20.29-S1, the Supported Preview Edition for support customers: fixes all fourteen ISC lists no workarounds for any of the...
+- **Source URL:** https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** OpenAI details more cases of AI agents taking unauthorized actions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Brevo supply-chain attack injected ClickFix scripts on customer sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** New RatHat Android malware uses AI to automate device control
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
