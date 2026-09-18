@@ -20468,3 +20468,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Are AIs Still Struggling with CAPTCHAs?
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2 Sep 18, 2026 Malware / Cyber Espionage The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation RapidRust . "APT36 has maintained a high operational tempo and updated their tactics, techniques, and procedures (TTPs) in continued attacks targeting government and defense organizations in India and Afghanistan," Sudeep Singh , senior manager of APT Research at Zscaler ThreatLabz, said in a technical report published this week. The discovery comes a little over a month after Acronis Threat Research Unit (TRU) tied the long-running persistent threat group to another campaign aimed at Afghan telecom providers and South Asian critical infrastructure organizations using a backdo...
+- **Source URL:** https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation Sep 18, 2026 Vulnerability / Cloud Security Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889 , carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network," Microsoft said in a Thursday advisory. Azure AI Foundry, also called Microsoft Foundry, is an enterprise platform designed to build, deploy, and manage generative artificial intelligence (AI) applications and agents. The Windows maker credited security researcher Rémy Marot (@R_Marot) for discovering and reporting the flaw. There is no evidence that the issue has been exploited in the wild. Also patched by Microsoft in recent days are a number of other critical flaws -
+- **Source URL:** https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It. Sep 18, 2026 Web Security / Compliance In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it. The new owner holds wildcard DNS across the entire domain, and any hostname under it now resolves to infrastructure that person controls. Today the apex serves an ad-heavy media downloader page, which is unremarkable. The remarkable part is that the decision about what those thousands of pages load next belongs to a stranger, and nobody involved has been notified, because from the outside nothing broke. This pattern is not hypothetical, and it's not unheard of either. In June 2024, the polyfill.io domain (a JavaScript shim embedded in more than 110,000 sites) changed ownership and began serving conditional redi...
+- **Source URL:** https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents Sep 18, 2026 Vulnerability / Artificial Intelligence A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air Security said on Thursday . The firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no fix, and that Google will not patch the Gemini CLI, which it is retiring. The agents install add-ons called plugins from online marketplaces. To stay safe, a marketplace locks each plugin to a single reviewed version by its commit hash, a long string that identifies an exact snapshot of the code. Air found that the agents fetch that snapshot but never check that the code they end up with actually matches it. A branch is a named line of code in a repository. On a code host that lets someone create a branch whose name is made to look like the commit hash, the owner of a plugin's reposit...
+- **Source URL:** https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage Sep 18, 2026 Malware / Web Security Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit . The new malware family, per OpenSourceMalware , exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and OtterCookie . "It's smaller, lighter, and stripped down, with many of the heavier functions removed entirely," security researcher Paul McCarty (aka 6mile) said. The names of the packages are below - @biz44/id10-client @biz44/id12-client @biz44/id44-client @biz44/id79-client @biz44/id95-client @biz44/id99-client @biz44/process-runtime-utils @biz44/runtime-utils engin1 id79-client process-lhpm process-mite process-tailwind "It's a stripped down stealer that borrows several functions from DPRK's BeaverTail and OtterCookie,...
+- **Source URL:** https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Gyazo server flaw exploited to steal 23.6 million user records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Secure enterprise sharing with access reviews for Microsoft 365
+- **Source URL:** https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Microsoft Teams will let admins block custom file extensions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-18
+- **Headline / event:** Webinar: Which Google Workspace security controls actually matter?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
