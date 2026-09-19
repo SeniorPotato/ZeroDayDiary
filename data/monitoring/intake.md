@@ -20564,3 +20564,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Friday Squid Blogging: On Squid Egg Sacs
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root Sep 18, 2026 Vulnerability / Linux A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated. The flaws are called DirtyAH6 , TUNderflow , PPPoEject , and DiagSpill . Researcher Asim Manizada found them and reported them to the Linux kernel security team in mid-July. He published a technical write-up with working exploits on September 18, after a coordinated hold with Linux distributions so the fixes could be released first. So far, there are no reports of the four being used in real-world attacks. The exploits are Manizada's own, are tuned to specific kernel builds, and can crash a machine, so they are meant for isolated test systems. Still, public exploit code raises the ris...
+- **Source URL:** https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution Sep 18, 2026 Vulnerability / Web Security WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai , whose researchers reported the flaw, calls the attack chain Click2Shell . On its own the flaw only installs a real theme that the attacker picks, but the security research team showed it could be combined with a separate weakness in a theme to run the attacker's own code on the server. The fix shipped on September 17 in WordPress 7.1.1 . Because this is a security release, WordPress advises updating right away. There is no sign the flaw has been used in real attacks. The installed theme stays switched off, so the site's own appearance does not change and nothing looks wrong. Reaching code execution needed a second, separate flaw in the theme that was installed. As pwn.ai wrote of t...
+- **Source URL:** https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer Sep 18, 2026 Malware / Cybercrime A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. "The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns," CrowdStrike's Counter Adversary Operations said in an analysis published this week. PhantomRaven was first flagged by Koi Security and DCODX in late October 2025, calling attention to a slopsquatting and typosquatted campaign in which more than 100 malicious packages were uploaded to npm to steal authentication tokens, CI/CD secrets, and GitHub credentials from developers' machines. The software supply chain attack used these packages as a cover to retrieve a remote dynamic dependency (RDD) from an external server so that the libraries themselves are not flagged by security ...
+- **Source URL:** https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall Sep 18, 2026 Mobile Security / Malware Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. "Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses an automated multi-stage infection pipeline," Zimperium researchers Gianluca Braga, Vishnu Pratapagiri, and Fernando Ortega said . "Once deployed, it pairs Accessibility abuse with autonomous local ADB (Android Debug Bridge) self-pairing to break out of the standard Android application sandbox, staging independent native daemons that execute with shell-level privileges." RatHat is propagated via deceptive phishing sites promoted via malvertising, smishing campaigns, and third-party forums that trick unsuspecting users into installing malware-laced APKs. These pa...
+- **Source URL:** https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** New Check Point flaw lets hackers execute code with root privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
