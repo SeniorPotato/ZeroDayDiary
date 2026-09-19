@@ -20628,3 +20628,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Identity Visibility in 2026: The Foundation of Identity Security Sep 19, 2026 Identity Security / Zero Trust Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report . This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in identity visibility tools , and how to build a practical program. What is identity visibility? Identity visibility is the ability to see every identity in an environment, what it can access, and how that access is actually used at runtime. It combines inventory, entitlement mapping, and behavioral telemetry into one continuous picture instead of a periodic snapshot. The important distinction is between intent and execution. Identity and access management (IAM) platforms express policy intent: who should have access, under what conditions, and for how long. Applications and infrastructu...
+- **Source URL:** https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws Sep 19, 2026 Vulnerability / Artificial Intelligence Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research, not a real-world attack: the team reported the flaws to OpenAI, proved the access with a harmless pull request, and then stopped. From the first look, that internal access took under 72 hours. OpenAI confirmed a fix about 14 hours after the report, according to Hacktron, and on September 1 paid the team a $6,500 bounty. OpenAI said the award "recognizes the OpenAI-side finding, not the actions against Discourse," the open-source software that runs the forum. Testing the forum itself was outside its bug bounty program. OpenAI has not publicly described the login flaw, and it ...
+- **Source URL:** https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE Sep 19, 2026 Vulnerability / Identity Security SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326 , is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds Access Rights Manager was reported to be affected by an unauthenticated remote code execution vulnerability," SolarWinds said in an advisory released on September 17, 2026. "The issue stems from a hard-coded static key." The company credited Armadin security researcher Kai Huang with discovering and reporting the flaw, which has been patched in ARM 2026.2.1 . SolarWinds makes no mention of the vulnerability being exploited in the wild. The development comes nearly two months after the company shipped fixes for a critical flaw impacting Web Help Desk (WHD) (CVE-2026-28323...
+- **Source URL:** https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild Sep 19, 2026 Vulnerability / Web Security A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. "Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary OS commands by submitting inline workflow definitions containing malicious JavaScript or Python expressions to the workflow API endpoint prior to authentication," a description of the flaw on the NIST National Vulnerability Database (NVD) reads. "Attackers can exploit unsandboxed GraalVM evaluators configured with HostAccess.ALL or allowAllAccess(true) through INLINE, LAMBDA, DO_WHILE, and SWITCH task types to invoke arbitrary system commands via Java reflection or direct subprocess calls." In an outbreak alert issued this week, Fortinet ...
+- **Source URL:** https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up Sep 19, 2026 Artificial Intelligence / Web Security Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed by OpenAI, Anthropic, and Meta. According to the Journal, the model gained access to a protected system after repeatedly guessing its password. Two other cases related to the model finding credentials in a public repository, allowing it to obtain unauthorized access to protected systems. However, unlike other incidents observed in the case of Anthropic and OpenAI, the Gemini model ended the intrusion after finding that it had breached a real company's system. Irregular is said to have notified Google of the incidents in July 2026. In a report published last month, Irregular pinn...
+- **Source URL:** https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** BragJack attacks hijack AI browser agents through malicious extensions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** North Korean WaterPlum hackers infected 30,000 devices worldwide
+- **Source URL:** https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** ShinyHunters hacks Clop leak site, threatens to extort ransomware gang
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-19
+- **Headline / event:** Calling viral AI actress Tilly Norwood? Agree to a face scan first
+- **Source URL:** https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
