@@ -20700,3 +20700,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-20
+- **Headline / event:** CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories Sep 19, 2026 Data Breach / Supply Chain Attack An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18. The French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's supply chain attack on TanStack , in which malicious versions of TanStack's npm packages stole credentials from developers' machines. The code appeared on an online forum on September 16. Along with the source code, it contained the email addresses of 83 CrowdSec users and the names, email addresses, and investment context of 51 potential investors from 2020, the company said. CrowdSec says the account was used only to copy code, that its infrastructure and databases were not accessed, and that no code was changed. How the Code Was Taken On May 11, 84 malicious versions of 42 TanStack npm packages were published. The compromise is tracked as CVE-2026-45321 . Installing one of those versi...
+- **Source URL:** https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-20
+- **Headline / event:** CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild Sep 19, 2026 Vulnerability / Linux The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path that could allow local authenticated users to trigger memory disclosure or denial-of-service (DoS). CVE-2026-53266 (CVSS score: 8.8) - An out-of-bounds write vulnerability in the ebtables Source Network Address Translation (SNAT) Address Resolution Protocol (ARP) rewrite path that could allow a local attacker to trigger unintended system behavior, DoS, or local privilege escalation. CVE-2025-39964 (CVSS score: 7.8) - A race condition vulnerability that could allow concurrent writes to the same AF_ALG socket, allowing a local attacker to crash the system or corrupt cryptographic ope...
+- **Source URL:** https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-20
+- **Headline / event:** Viral AI actress' hotline face-scans every caller, watches their mood
+- **Source URL:** https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
