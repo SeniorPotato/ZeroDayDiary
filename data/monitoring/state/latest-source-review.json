@@ -1,26 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:10:35.178Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-20T161035Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-09-20",
-      "title": "Malicious npm packages evade install-script defenses at runtime",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "malicious-npm-packages-evade-install-script-defenses-at-runtime",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-09-20",
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "researchers-escape-openai-codex-sandbox-to-run-commands-on-host",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-09-21T05:00:15.248Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-21T050015Z.md",
+  "candidates": []
 }
