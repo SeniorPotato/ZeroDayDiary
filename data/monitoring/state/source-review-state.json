@@ -1764,7 +1764,12 @@
       "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
       "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
       "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-      "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
+      "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2860,7 +2865,9 @@
       "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
       "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
       "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-      "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
+      "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+      "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+      "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/"
     ]
   }
 }
