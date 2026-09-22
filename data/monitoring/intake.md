@@ -20844,3 +20844,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience
+- **Source URL:** https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** GPT-6 Astra Breaks an Old Enigma Message
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials Sep 22, 2026 Artificial Intelligence / Vulnerability A critical vulnerability in Bifrost , an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is disabled, which is the default configuration. A fix is available in transports/v2.1.0. Yuval Moravchick of JFrog Security Research , who discovered the flaw, said an attacker can register a stdio-type MCP client through a single unauthenticated POST to the management API endpoint /api/mcp/client. Bifrost starts the specified command immediately, before any MCP handshake, as the gateway process user. On the official Docker image, that user is appuser. Because the gateway stores API keys for every connected provider, executing commands on the gateway process grants the attack...
+- **Source URL:** https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates Sep 22, 2026 Vulnerability / Endpoint Security A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool, called BigDiskBuster , has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in attacks. When updates are blocked, Defender keeps running, but its detection content grows stale. The researcher's screenshot shows Defender returning a generic Windows error when trying to update, but whether the failure raises an automatic alert is not clear from the proof-of-concept alone. Naceri said he was dismissed from Microsoft's Security Response Center in 2024 and has been releasing exploits without coordinating with the company since April. His first three Defender tools — BlueHammer, RedSun, and UnDefend — were all exploited in live intrusions before Microsoft...
+- **Source URL:** https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** AI Agents Are Rewriting the Rules of Lateral Movement Sep 22, 2026 Artificial Intelligence / Identity Security Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May 2026, OpenAI announced that one of its models had disproved a 1946 Erdős conjecture in discrete geometry, largely by working through paths a mathematician would abandon as too tedious. The same principle applies to cybersecurity. An AI agent can test thousands of actions, abandon failed routes, discover credentials, switch tools, and keep going. That persistence is part of what makes agents useful, but it also changes how we need to think about lateral movement. AI agent risk has two dimensions: Access defines the possible blast radius Autonomy determines how much an agent can do with...
+- **Source URL:** https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups Sep 22, 2026 Vulnerability / Network Security Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952 , may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are exposed. As of September 22, fixed releases are out for the 5.2 and 6.4 release trains, but not yet for the 6.1 and 7.0 trains. Arista has already patched the Hosted and Dedicated versions of VCO. The affected releases include those that fixed a different VCO flaw, which Arista reported as exploited in July . Arista gave the flaw a CVSS 3.1 score of 10.0. A successful attack may compromise the orchestrator and the data it manages. A compromised VCO may also give attackers access to the Edge devices it manages. Arista said the flaw "was discovered externally and is known t...
+- **Source URL:** https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** DORA Year Two: Can Your SOC Actually See the Attack? Sep 22, 2026 Network Security / Incident Response When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows. Now in its second year, the harder part of DORA is demonstrating how well frameworks work in practice. EU regulators are increasing their focus on DORA implementation, Information and Communication Technology (ICT) incident analysis, and the effectiveness of ICT risk supervision. For security teams, that raises an important question: does the SOC have enough visibility to detect, investigate, and scope an active intrusion across critical systems? While DORA doesn’t prescribe a particular security stack, several of its requirements rely on continuous visibility in the ICT environment to identify behavior that may indicate an emerging risk. Continuou...
+- **Source URL:** https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Check Point warns of Management Server zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Webinar tomorrow: Inside real-world Google Workspace breaches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** D-Link warns of max severity zero-day bug in DIR-822A routers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** New Windows Defender zero-day blocks Microsoft antivirus updates
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

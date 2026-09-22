@@ -179,7 +179,8 @@
       "https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan",
       "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
       "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
-      "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched"
+      "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+      "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -577,7 +578,8 @@
       "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
       "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
       "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
-      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html"
+      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
+      "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1772,7 +1774,12 @@
       "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
       "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
       "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-      "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+      "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2873,7 +2880,12 @@
       "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
       "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
       "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-      "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/"
+      "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+      "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+      "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+      "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/"
     ]
   }
 }

@@ -1,64 +1,124 @@
 {
-  "generatedAt": "2026-09-22T05:00:57.733Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-22T050057Z.md",
+  "generatedAt": "2026-09-22T16:59:37.450Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-22T165937Z.md",
   "candidates": [
     {
       "discovered": "2026-09-22",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
+      "link": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-",
+      "sourceId": "enisa-news",
+      "source": "ENISA News"
     },
     {
       "discovered": "2026-09-22",
-      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure Sep 21, 2026 Malware / Cybercrime Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript . \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG) researchers Sam Decker, Andi Ursry, and Nevan Beal said . Like many malware families observed in recent months, ChainScript employs an EtherHiding -style command-and-control (C2) discovery technique that makes use of a Polygon smart contract to locate its active WebSocket infrastructure. ChainScript is a full-featured RAT that provides extensive remote access to the operator, including interactive CMD and PowerShell, file operations, screenshot capture, payload deployment, cryptocurrency wallet enumeration (both desktop apps and browser extensions), and remote JavaScript execution. The...",
-      "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "title": "GPT-6 Astra Breaks an Old Enigma Message",
+      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "clickfix-lures-deploy-chainscript-rat-using-polygon-to-rotate-c2-infrastructure-sep-21-202",
+      "slug": "gpt-6-astra-breaks-an-old-enigma-message",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials Sep 22, 2026 Artificial Intelligence / Vulnerability A critical vulnerability in Bifrost , an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is disabled, which is the default configuration. A fix is available in transports/v2.1.0. Yuval Moravchick of JFrog Security Research , who discovered the flaw, said an attacker can register a stdio-type MCP client through a single unauthenticated POST to the management API endpoint /api/mcp/client. Bifrost starts the specified command immediately, before any MCP handshake, as the gateway process user. On the official Docker image, that user is appuser. Because the gateway stores API keys for every connected provider, executing commands on the gateway process grants the attack...",
+      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-without-credentials-sep-22-20",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-22",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors Sep 21, 2026 Malware / Social Engineering The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple macOS backdoors tracked as FLATROOF (aka Gaslight ) and ROOFDECK, both of which were previously observed in the March-April 2026 attack on KelpDAO's LayerZero bridge . Jade Sleet, also tracked under the monikers PUKCHONG, Slow Pisces, TraderTraitor, and UNC4899, has a history of targeting the Web3 sector for cryptocurrency heists. In early 2025, the hacking group was tied to the theft of about $1.5 billion from Bybit's cold wallet infrastructure following a supply chain compromise of Safe{Wallet}'s developer environment. \"Jade Sleet mostly targets users as...",
-      "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates Sep 22, 2026 Vulnerability / Endpoint Security A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool, called BigDiskBuster , has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in attacks. When updates are blocked, Defender keeps running, but its detection content grows stale. The researcher's screenshot shows Defender returning a generic Windows error when trying to update, but whether the failure raises an automatic alert is not clear from the proof-of-concept alone. Naceri said he was dismissed from Microsoft's Security Response Center in 2024 and has been releasing exploits without coordinating with the company since April. His first three Defender tools — BlueHammer, RedSun, and UnDefend — were all exploited in live intrusions before Microsoft...",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "jade-sleet-linked-to-indian-it-provider-breach-with-flatroof-and-roofdeck-backdoors-sep-21",
+      "slug": "researcher-drops-bigdiskbuster-zero-day-poc-that-blocks-microsoft-defender-updates-sep-22-",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-22",
-      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-      "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement Sep 22, 2026 Artificial Intelligence / Identity Security Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May 2026, OpenAI announced that one of its models had disproved a 1946 Erdős conjecture in discrete geometry, largely by working through paths a mathematician would abandon as too tedious. The same principle applies to cybersecurity. An AI agent can test thousands of actions, abandon failed routes, discover credentials, switch tools, and keep going. That persistence is part of what makes agents useful, but it also changes how we need to think about lateral movement. AI agent risk has two dimensions: Access defines the possible blast radius Autonomy determines how much an agent can do with...",
+      "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps",
+      "slug": "ai-agents-are-rewriting-the-rules-of-lateral-movement-sep-22-2026-artificial-intelligence-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups Sep 22, 2026 Vulnerability / Network Security Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952 , may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are exposed. As of September 22, fixed releases are out for the 5.2 and 6.4 release trains, but not yet for the 6.1 and 7.0 trains. Arista has already patched the Hosted and Dedicated versions of VCO. The affected releases include those that fixed a different VCO flaw, which Arista reported as exploited in July . Arista gave the flaw a CVSS 3.1 score of 10.0. A successful attack may compromise the orchestrator and the data it manages. A compromised VCO may also give attackers access to the Edge devices it manages. Arista said the flaw \"was discovered externally and is known t...",
+      "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-cvss-10-0-velocloud-orchestrator-flaw-actively-exploited-in-certificate-based-setups-s",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "DORA Year Two: Can Your SOC Actually See the Attack? Sep 22, 2026 Network Security / Incident Response When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows. Now in its second year, the harder part of DORA is demonstrating how well frameworks work in practice. EU regulators are increasing their focus on DORA implementation, Information and Communication Technology (ICT) incident analysis, and the effectiveness of ICT risk supervision. For security teams, that raises an important question: does the SOC have enough visibility to detect, investigate, and scope an active intrusion across critical systems? While DORA doesn’t prescribe a particular security stack, several of its requirements rely on continuous visibility in the ICT environment to identify behavior that may indicate an emerging risk. Continuou...",
+      "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "dora-year-two-can-your-soc-actually-see-the-attack-sep-22-2026-network-security-incident-r",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "Check Point warns of Management Server zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "check-point-warns-of-management-server-zero-day-exploited-in-attacks",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-09-22",
-      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
+      "slug": "eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-09-22",
-      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
+      "slug": "webinar-tomorrow-inside-real-world-google-workspace-breaches",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-windows-defender-zero-day-blocks-microsoft-antivirus-updates",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
