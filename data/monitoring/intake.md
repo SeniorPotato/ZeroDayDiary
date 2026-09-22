@@ -20796,3 +20796,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure Sep 21, 2026 Malware / Cybercrime Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript . "ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software," Blackpoint Adversary Pursuit Group (APG) researchers Sam Decker, Andi Ursry, and Nevan Beal said . Like many malware families observed in recent months, ChainScript employs an EtherHiding -style command-and-control (C2) discovery technique that makes use of a Polygon smart contract to locate its active WebSocket infrastructure. ChainScript is a full-featured RAT that provides extensive remote access to the operator, including interactive CMD and PowerShell, file operations, screenshot capture, payload deployment, cryptocurrency wallet enumeration (both desktop apps and browser extensions), and remote JavaScript execution. The...
+- **Source URL:** https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors Sep 21, 2026 Malware / Social Engineering The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple macOS backdoors tracked as FLATROOF (aka Gaslight ) and ROOFDECK, both of which were previously observed in the March-April 2026 attack on KelpDAO's LayerZero bridge . Jade Sleet, also tracked under the monikers PUKCHONG, Slow Pisces, TraderTraitor, and UNC4899, has a history of targeting the Web3 sector for cryptocurrency heists. In early 2025, the hacking group was tied to the theft of about $1.5 billion from Bybit's cold wallet infrastructure following a supply chain compromise of Safe{Wallet}'s developer environment. "Jade Sleet mostly targets users as...
+- **Source URL:** https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** BigCommerce alerts merchants of data breach linked to Ribon apps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** CISA alerts of active exploitation of three Linux kernel flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-22
+- **Headline / event:** WordPress Click2Shell flaw lets hackers execute PHP on the server
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

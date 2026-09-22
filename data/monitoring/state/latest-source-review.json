@@ -1,74 +1,64 @@
 {
-  "generatedAt": "2026-09-21T18:12:58.408Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-21T181258Z.md",
+  "generatedAt": "2026-09-22T05:00:57.733Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-22T050057Z.md",
   "candidates": [
     {
-      "discovered": "2026-09-21",
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR Sep 21, 2026 Endpoint Security / Malware A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers checked it in August, and was not on Microsoft's list of blocked drivers. LastPass says none of its own systems, services, or customer vaults were touched, and that the attackers only borrowed its name. The lure is a fake GitHub page (github.com/LastPass-Authenticator) that ranks in search results for terms like \"LastPass Authenticator download\" and looks like a real LastPass product page. Clicking the download button sends the visitor through several GitHub pages to an attacker server, which serves a large ZIP file. The real LastPass Authenticator comes from lastpass.com and ...",
-      "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "discovered": "2026-09-22",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fake-lastpass-authenticator-installer-abuses-microsoft-signed-driver-to-kill-antivirus-and",
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "sourceId": "cisa-advisories",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure Sep 21, 2026 Malware / Cybercrime Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript . \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG) researchers Sam Decker, Andi Ursry, and Nevan Beal said . Like many malware families observed in recent months, ChainScript employs an EtherHiding -style command-and-control (C2) discovery technique that makes use of a Polygon smart contract to locate its active WebSocket infrastructure. ChainScript is a full-featured RAT that provides extensive remote access to the operator, including interactive CMD and PowerShell, file operations, screenshot capture, payload deployment, cryptocurrency wallet enumeration (both desktop apps and browser extensions), and remote JavaScript execution. The...",
+      "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "clickfix-lures-deploy-chainscript-rat-using-polygon-to-rotate-c2-infrastructure-sep-21-202",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-09-21",
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto Sep 21, 2026 Malware / Cyber Espionage The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory . The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency, blockchain, and Web3 technologies. In all, the threat actors are estimated to have plundered at least $10.71 million worth of cryptocurrency from victims. The alert comes courtesy of cybersecurity and intelligence agencies from Japan, the U.S., Australia, and Germany. The activity is tracked by the broader cybersecurity community under the monikers CL-STA-0240, DeceptiveDevelopment, DEV#POPPER, Famous Chollima, Gwisin Gang, PurpleBravo, Tenacious Pungsan, UNC5342, Void Dokkaebi, and WaterPlum. The cyber threat group \"conducts cyber attacks by infiltrating unsuspecting job seekers' com...",
-      "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "discovered": "2026-09-22",
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors Sep 21, 2026 Malware / Social Engineering The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple macOS backdoors tracked as FLATROOF (aka Gaslight ) and ROOFDECK, both of which were previously observed in the March-April 2026 attack on KelpDAO's LayerZero bridge . Jade Sleet, also tracked under the monikers PUKCHONG, Slow Pisces, TraderTraitor, and UNC4899, has a history of targeting the Web3 sector for cryptocurrency heists. In early 2025, the hacking group was tied to the theft of about $1.5 billion from Bybit's cold wallet infrastructure following a supply chain compromise of Safe{Wallet}'s developer environment. \"Jade Sleet mostly targets users as...",
+      "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "contagious-interview-campaign-compromises-30-000-devices-steals-10-71m-in-crypto-sep-21-20",
+      "slug": "jade-sleet-linked-to-indian-it-provider-breach-with-flatroof-and-roofdeck-backdoors-sep-21",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-09-21",
-      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data Sep 21, 2026 Data Privacy / Regulatory Compliance Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which processing the order covers, and it says its full decision will be published later. The three features are Web & App Activity, Location History and Location Accuracy. Web & App Activity is a Google account setting that, when turned on, lets Google process data about a user's activity on its sites and apps. That data can include location. Location History, which users must opt in to, keeps track of where they go with their signed-in mobile devices, even when they are not using a Google service. For both cases, the DPC found that Google breached the GDPR's rules on law...",
-      "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "discovered": "2026-09-22",
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-fined-403-million-over-gdpr-violations-tied-to-location-data-sep-21-2026-data-priva",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-21",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks Sep 21, 2026 Cybersecurity News / Hacking A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not always more clarity. Nothing here needs much drama. Just a lot of small doors left open. Here’s what happened. ⚡ Threat of the Week Cisco Warns of Actively Exploited ISE Auth Bypass — Cisco warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. \"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker could exp...",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-clickfix-surge-and-browser-hijacks-",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-21",
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data Sep 21, 2026 Endpoint Security / Malware Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary remote commands through two redundant, token-authenticated C2 servers,\" Securonix researchers Akshay Gaikwad and Aaron Beardslee said in a report shared with The Hacker News. The starting point of the infection chain is the use of \"wscript.exe\" to execute an encoded Visual Basic Script (VBScript) file staged on the victim's desktop (\"95c9050t66.vbs\"). The exact initial access pathway used to deliver the payload is unclear, although it's possible that it may have been via email-based phishing or social engineering. By giving it a completely random file nam...",
-      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "task-stomp-powershell-backdoor-steals-documents-wi-fi-passwords-and-clipboard-data-sep-21-",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-09-21",
-      "title": "Google fined €403 million over location data privacy violations",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "google-fined-403-million-over-location-data-privacy-violations",
+      "slug": "bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-09-21",
-      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-      "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "discovered": "2026-09-22",
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-s-cjis-v6-1-what-security-teams-need-to-know",
+      "slug": "cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-22",
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
