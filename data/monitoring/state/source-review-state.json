@@ -581,7 +581,8 @@
       "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
       "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
-      "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"
+      "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+      "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1786,7 +1787,12 @@
       "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
       "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
       "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html"
+      "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2897,7 +2903,12 @@
       "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
       "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
       "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-      "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/"
+      "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+      "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/"
     ]
   }
 }
