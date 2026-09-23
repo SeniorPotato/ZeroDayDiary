@@ -20940,3 +20940,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** FTC Endorses Education Department Proposal to Expand Higher Education Accreditation Options
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-endorses-education-department-proposal-expand-higher-education-accreditation-options
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks Sep 22, 2026 Network Security / Vulnerability Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said . The flaw, CVE-2026-93616 , allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point gateways it manages. Separately, Check Point said attackers have been trying since September 12 to exploit a VPN flaw it fixed on September 9 . The attempts, against a flaw tracked as CVE-2026-85102, have targeted customers of Spark, Check Point's firewall line for small businesses. When the fix came out, Check Point had no evidence the flaw was being exploited. CVE-2026-93616 is a path traversal bug in the management server's web service. The service does not properly limit which files and folders a request can reach. An attacker can use it to upload scripts to the s...
+- **Source URL:** https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers Sep 22, 2026 Vulnerability / Web Security WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners to update now . WordPress rates the flaw as critical, assigns it a CVSS score of 9.2, and assigns it CVE-2026-87902 . Reaching it requires no account and no action from a logged-in user. Every version from 4.7.0 through 7.1.1 is affected. That includes 7.1.1, from WordPress's September 17 security release , so a site updated less than a week ago still needs this one. It is a separate flaw from the ones that the release fixed.
+- **Source URL:** https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials Sep 22, 2026 Supply Chain Attack / Malware Cybersecurity researchers have disclosed details of a malicious npm package named "tw-pkgprobe-7731" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named "tw-pkgprobe-7731," was first uploaded to the npm registry in mid-August 2026 by an npm account named "twdepprobe7731." In total, 11 versions of the package were published in quick succession on the same day over an approximately 45-minute time period. The npm user account no longer exists as of writing. "The first version of tw-pkgprobe-7731 posed as an authorized security research probe," ReversingLabs researcher Lucija Valentić said in a report published today. "Comments inside the package describe it as an 'Authorized bug-bounty research probe (Twilio HackerOne program)' that 'runs only inside Twilio's serverless packager sandbox' and ...
+- **Source URL:** https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises Sep 22, 2026 Artificial Intelligence / Cybercrime Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain." The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare , Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver Foundation, and TRM Labs. Microsoft is tracking the threat actors behind the development and support of EvilTokens as Storm-2992 . In tandem, the Metropolitan Police Service arrested two men, aged 32 and 38, on September 11, 2026, in connection with the illicit commercial operation. The tech giant described EvilTokens as a "powerful cybercrime platform" that used AI to compromise email accounts and design roadmaps for financial fraud and scams. "While EvilTokens helped cybercriminals access email accounts, at the center of the service was an AI-style chatbot t...
+- **Source URL:** https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory Sep 22, 2026 Vulnerability / Virtualization A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as CVE-2026-89775 , allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine. The affected code is part of the mainline Linux kernel for ARM64, and it is fixed in Linux 6.18.51, 7.2.5, and 7.3-rc1. Nested virtualization allows a guest to run its own hypervisor, enabling it to host virtual machines. On ARM64, it is off by default. It is an experimental boot-time mode that needs Armv8.4 hardware with a feature called FEAT_NV2, so a plain ARM64 KVM host that never turns it on is outside the reported attack path. The flaw sits in the part of KVM that handles nested virtualization on ARM64. When a guest arranges its memory in a certain way, a size calculat...
+- **Source URL:** https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Rogue external MFA providers can steal passwords during logins
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Sweden fines Miljödata $183,000 over breach affecting 2.2 million
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** Chinese hackers exploit WordPress, Zyxel flaws to steal govt data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-23
+- **Headline / event:** New ClosedQuorum Windows malware uses AI for attack decisions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
