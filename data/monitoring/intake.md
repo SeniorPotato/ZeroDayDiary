@@ -21124,3 +21124,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry Sep 23, 2026 Malware / Supply Chain Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido , the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/docker (1,449 downloads) gocommunity.io/orderedbtree gogets.dev/btreex The malware deployed through these packages demonstrates overlaps with Graphalgo , a campaign that was first documented by ReversingLabs earlier this February and attributed to North Korean (aka DPRK) threat actors. As part of this effort, prospective developers are approached via social platforms like LinkedIn and Facebook, or through job offerings on forums by posing as non-existent Web3 companies, and then asked to complete a coding task by providing a benign GitHub repository that introduces the malicio...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** 545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent Sep 23, 2026 Artificial Intelligence / Security Testing Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real, which are duplicates, which are inventions, and, the question nobody has time for, what did the agent never try? That is a day of expert work for one run. Multiply it by three models, four prompt variants and ten repetitions, and the review queue is longer than the experiment. XRanges for AI, built by CTF.ae, exists for that loop. It deploys realistic target applications with instrumentation baked into every service, records what an agent actually does inside them, and scores each run live on four independent signals. This walkthrough covers how it works, what a run looks like from deployment t...
+- **Source URL:** https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests Sep 23, 2026 Artificial Intelligence / Cybersecurity Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic , is a "major step up from Opus 5," and "achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands of simulated scenarios." The AI company said the model is less likely than its other recent models to carry out hard-to-reverse actions or act outside the boundaries it's been given, adding it's more resistant than Opus 5 to prompt injection. In its systems card, Anthropic explained that the latest model exhibited less misaligned behavior and less cooperation with misuse than any other recent Claude model. "It also took overeager or destructive actions less than any other model we tested," Anthropic said. "Regressions included being more likely ...
+- **Source URL:** https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape Sep 23, 2026 Vulnerability / Linux A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst released exploit code targeting Ubuntu 26.04. Ubuntu's security tracker lists the Linux package on 26.04 as "vulnerable, work in progress." The 24.04 and 22.04 releases are also affected through newer kernel packages, including those for AWS, Azure, and GCP workloads. No fix has shipped on any affected release. The flaw is not in CISA's Known Exploited Vulnerabilities catalog, and there are no confirmed reports of attacks using it. The vulnerability sits in the kernel's garbage collector for AF_UNIX sockets. That collector cleans up file descriptors passed between processes t...
+- **Source URL:** https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers Sep 23, 2026 Vulnerability / Network Security Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127 , affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes. APM is the BIG-IP module that controls how users reach an organization's applications and networks. The vulnerable setup has an APM access policy and an OAuth authorization server profile on the same virtual server, which hosts the BIG-IP address that receives the OAuth traffic. Specific malicious traffic sent to that virtual server can lead to remote code execution. The flaw is a heap-based buffer overflow. F5 rates it 9.8 out of 10 on CVSS v3.1 and 9.3 on CVSS v4.0. Because the malicious traffic goes to the virtual server itself, limiting access to the BIG-IP management interface does...
+- **Source URL:** https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Placeholder domain used in dev docs now serves ClickFix attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** New RemControl Android banking malware targets users in Europe and Canada
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Check Point warns of hackers exploiting Security Gateway VPN RCE flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-24
+- **Headline / event:** Hackers start exploiting critical WordPress flaw for code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

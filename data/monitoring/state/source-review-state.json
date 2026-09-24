@@ -1792,7 +1792,12 @@
       "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
       "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
       "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html"
+      "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2908,7 +2913,11 @@
       "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
       "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
       "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-      "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/"
+      "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/"
     ]
   }
 }
