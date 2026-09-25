@@ -115,7 +115,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -586,7 +587,8 @@
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
       "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
       "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html"
+      "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
+      "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1811,7 +1813,12 @@
       "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
       "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
       "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
+      "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+      "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+      "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+      "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2938,7 +2945,10 @@
       "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
       "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
       "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-      "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/"
+      "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+      "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+      "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
     ]
   }
 }
