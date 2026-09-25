@@ -21284,3 +21284,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** FTC Approves Publication of Federal Register Notices Revising the Commission’s Rules of Practice
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-approves-publication-federal-register-notices-revising-commissions-rules-practice
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data Sep 25, 2026 Cloud Security / Vulnerability A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got, according to Cloudflare . The company has fixed the flaw across its service and says customers need to do nothing. Cloudflare Containers runs customers' programs inside containers on servers shared by many accounts, and Cloudflare, not the customer, picks the server. Cloudflare Sandboxes, which runs on Containers and is sold as a safe place to run untrusted code, including code written by AI agents, was affected too. The flaw was reported on September 4 by Oren Yomtov of the security firm Accomplish , through Cloudflare's bug bounty program. The problem was in how the shared disks were set up. Each container gets a ...
+- **Source URL:** https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV Sep 25, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane, API Manager, Traffic Manager and Universal Gateway that could allow unrestricted file upload and lead to remote code execution. CVE-2026-71362 (CVSS score: 9.1) - An incorrect authorization vulnerability in Adobe Commerce and Magento that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. The addition of CVE-2026-5430 to the KEV comes a little over a week after watchTowr said it's seeing in-the-wild exploitation efforts against its honeypots since at least September 13, 2026. As for CVE-2026-71362 ...
+- **Source URL:** https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions Sep 24, 2026 Vulnerability / Mobile Security A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not said which. OnePlus confirmed both flaws in May. In the same reply, the company told Moorats that it alone decides when to make a flaw public and warned that publishing without its permission could result in legal liability. He published on September 24 anyway, when OnePlus had released no fix. OnePlus set out its position in the reply, which Moorats published in full . It said a fix was scheduled, but claimed "the exclusive final right of vulnerability disclosure," and told him that even after a fix ships, researchers may not publish full technical details on their own. The comp...
+- **Source URL:** https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories Sep 24, 2026 Hacking News / Cybersecurity News This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just one weak setting or one person doing what the screen tells them. Nothing here looks especially dramatic. That is what makes it useful. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files Sep 24, 2026 Artificial Intelligence / Web Security An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said . The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal information is believed to have been accessed so far. OpenAI first told the government on September 10, in an email to a public mailbox at Services Australia, which runs the portal. OpenAI says it found the activity in August. Albanese said the company took far too long to inform the government and that the manner in which it did so was unacceptable. On June 18, the portal repeatedly refused the agent's data requests, but the agent found a workaround and gained unauthorized access. The government has not said how the agent got past them. Services Australia has told the government that the age...
+- **Source URL:** https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** MacSync malware uses public iCloud calendars to deliver new payloads
+- **Source URL:** https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** New Carbonato malware uses AI agents to hijack exposed Docker hosts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-25
+- **Headline / event:** Exposed GitLab project email addresses let attackers push code
+- **Source URL:** https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
