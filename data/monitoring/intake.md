@@ -21524,3 +21524,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells Sep 26, 2026 Vulnerability / Web Security Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day in attacks against academic institutions to conduct reconnaissance, deploy remote access software like MeshCentral agent for persistence, move laterally over SSH, run a shell script to connect via SSH to other internal PeopleSoft machines using known username/password combinations, and steal data. At that time, Google-owned Mandiant said it initiated notifications to over 100 global organizations whose IP addresses matched vulnerable endpoints, most of them located in the U.S. "This new wave of activity stems from UNC6240 modifying its exploit to bypass web application firewall (WAF...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** Zero Trust for AI Agents Starts With Fixing Zero Visibility Sep 26, 2026 Artificial Intelligence / Cloud Security The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to examine whether speed has outpaced the ability to secure what gets deployed . Security teams are increasingly asking what an agent can reach once it's running, and whether anyone would notice before it mattered. However tempting it may be to jump directly into enforcement controls and detections, you need to look before you leap. Research from Veeam reveals that 70% of organizations admit that AI workflows are already in contact with sensitive corporate data without full oversight in place, and 67% report that IT cannot fully track the autonomous workflows that employees are building. Sh...
+- **Source URL:** https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link Sep 26, 2026 Vulnerability / Web Security Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions 4.3.0 and 4.3.1 of the plugin, which is active on over 10 million WordPress sites. Statistics from WordPress.org show that the two impacted versions alone have been installed on more than 2 million sites. "One link, opened by a logged-in WordPress user, makes that user carry out any REST API action their account is permitted to perform," Patchstack said . "On a stock installation, an administrator clicking the link creates a second administrator account for the attacker." The WordPress security company said the attack does not hinge on any prerequisite, such as JavaScrip...
+- **Source URL:** https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild Sep 26, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows - CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint that allows an authorized attacker to execute code over a network. CVE-2026-67279 (CVSS score: 6.9) - An improper enforcement of behavioral workflow vulnerability in Mikrotik RouterOS that could allow an unauthenticated client to open a session channel and send an exec request. As reported by The Hacker News earlier this week, CVE-2026-65660 was originally described by Microsoft as a spoofing vulnerability impacting SharePoint Server. The tech giant has since updated the advisory to state that it could be abused to obtain remote code execution. "As of 9/25/2026, Microsoft ...
+- **Source URL:** https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack Sep 26, 2026 Threat Intelligence / Vulnerability Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. "Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems," said Frank Balonis, Chief Information Security Officer (CISO) at Kiteworks. "Out of an abundance of caution, we notified customers directly and recommended a precautionary shutdown window while we continue to work through the matter with federal intelligence authorities." The company said it has not found any evidence that its customers' systems have been compromised, emphasizing the advisory is preventative rather than a response to a confirmed hack. The development was first reported by German news publication Heise. Kiteworks did not disclose which law enforcement agency alerted the ...
+- **Source URL:** https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-26
+- **Headline / event:** GitHub Actions re-enabled with Mini Shai-Hulud payload still active
+- **Source URL:** https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
