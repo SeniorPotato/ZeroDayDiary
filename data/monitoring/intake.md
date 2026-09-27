@@ -21572,3 +21572,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-27
+- **Headline / event:** Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials Sep 26, 2026 Malware / Endpoint Security The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex . The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. "The attack chain begins with a fake CAPTCHA page and culminates in the deployment of a fully-featured C2 agent," Ontinue threat researcher Rhys Downing said in a technical report. "The stealer extracts credentials and data from seven Chromium-based browsers, exfiltrates cryptocurrency wallets, and establishes persistent remote filesystem access through a PowerShell-based Native Messaging Host installed within the victim's browser." The infection makes use of bogus MSI installers delivered via ClickFix to trigger a series of actions, including delivering a loader dubbed LunexLoader that's designed to bypass User Ac...
+- **Source URL:** https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-27
+- **Headline / event:** ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

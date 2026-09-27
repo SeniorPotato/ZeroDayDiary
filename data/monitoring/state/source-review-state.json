@@ -1829,7 +1829,8 @@
       "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
       "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
       "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
+      "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2964,7 +2965,8 @@
       "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
       "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
       "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-      "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/"
+      "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
     ]
   }
 }
