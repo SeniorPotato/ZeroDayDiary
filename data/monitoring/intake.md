@@ -21588,3 +21588,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-27
+- **Headline / event:** Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation Sep 27, 2026 Vulnerability / Network Security Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr said two unpatched NetScaler RCE flaws had been exploited, and after some administrators said they had taken appliances offline. Citrix did not say whether its two flaws are the ones watchTowr described, but they match that account. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. Citrix said in its bulletin that the two exploited flaws are: CVE-2026-88771 (CVSS v4 score: 9.5) - An improper input validation flaw that lets an unauthenticated attacker run arbitrary commands. It a...
+- **Source URL:** https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-27
+- **Headline / event:** Citrix admins warned to shut down NetScalers over 2 exploited zero-days
+- **Source URL:** https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-27
+- **Headline / event:** Cloudflare fixes Containers cross-tenant flaw exposing customer data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

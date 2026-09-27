@@ -1,24 +1,34 @@
 {
-  "generatedAt": "2026-09-27T05:22:26.485Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-27T052226Z.md",
+  "generatedAt": "2026-09-27T17:00:14.391Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-27T170014Z.md",
   "candidates": [
     {
       "discovered": "2026-09-27",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials Sep 26, 2026 Malware / Endpoint Security The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex . The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and culminates in the deployment of a fully-featured C2 agent,\" Ontinue threat researcher Rhys Downing said in a technical report. \"The stealer extracts credentials and data from seven Chromium-based browsers, exfiltrates cryptocurrency wallets, and establishes persistent remote filesystem access through a PowerShell-based Native Messaging Host installed within the victim's browser.\" The infection makes use of bogus MSI installers delivered via ClickFix to trigger a series of actions, including delivering a loader dubbed LunexLoader that's designed to bypass User Ac...",
-      "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation Sep 27, 2026 Vulnerability / Network Security Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr said two unpatched NetScaler RCE flaws had been exploited, and after some administrators said they had taken appliances offline. Citrix did not say whether its two flaws are the ones watchTowr described, but they match that account. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. Citrix said in its bulletin that the two exploited flaws are: CVE-2026-88771 (CVSS v4 score: 9.5) - An improper input validation flaw that lets an unauthenticated attacker run arbitrary commands. It a...",
+      "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "lunex-stealer-abuses-amd-driver-to-disable-security-monitoring-and-steal-browser-credentia",
+      "slug": "warning-two-unpatched-citrix-netscaler-rce-zero-days-under-active-exploitation-sep-27-2026",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-09-27",
-      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks",
+      "slug": "citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-27",
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
