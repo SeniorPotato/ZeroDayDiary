@@ -319,7 +319,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-endorses-education-department-proposal-expand-higher-education-accreditation-options",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-seeks-public-comment-whether-update-rule-impersonation-government-businesses-address-platforms",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-approves-publication-federal-register-notices-revising-commissions-rules-practice"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-approves-publication-federal-register-notices-revising-commissions-rules-practice",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-states-win-protections-lower-pesticide-prices-american-farmers-antitrust-case-against-corteva"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -405,7 +406,8 @@
       "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/",
       "https://krebsonsecurity.com/2019/09/satori-iot-botnet-operator-pleads-guilty/",
-      "https://krebsonsecurity.com/2021/08/t-mobile-investigating-claims-of-massive-data-breach/"
+      "https://krebsonsecurity.com/2021/08/t-mobile-investigating-claims-of-massive-data-breach/",
+      "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -596,7 +598,8 @@
       "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
       "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
       "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
-      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html"
+      "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+      "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1833,7 +1836,12 @@
       "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
       "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
       "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+      "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+      "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2971,7 +2979,12 @@
       "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
       "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
       "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-      "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/"
+      "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+      "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+      "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/"
     ]
   }
 }

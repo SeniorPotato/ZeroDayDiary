@@ -1,26 +1,136 @@
 {
-  "generatedAt": "2026-09-28T05:28:05.014Z",
-  "packetPath": "data/monitoring/review-packets/2026-09-28T052805Z.md",
+  "generatedAt": "2026-09-28T19:41:44.256Z",
+  "packetPath": "data/monitoring/review-packets/2026-09-28T194144Z.md",
   "candidates": [
     {
       "discovered": "2026-09-28",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "title": "FTC, States Win Protections to Lower Pesticide Prices for American Farmers in Antitrust Case Against Corteva",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-states-win-protections-lower-pesticide-prices-american-farmers-antitrust-case-against-corteva",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
+      "category": "privacy",
+      "slug": "ftc-states-win-protections-to-lower-pesticide-prices-for-american-farmers-in-antitrust-cas",
+      "sourceId": "ftc-press",
+      "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-09-28",
-      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "critical-zero-day-vulnerabilities-exploited-in-citrix-netscaler-adc-gateway",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
+      "slug": "dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation",
+      "sourceId": "krebs-on-security",
+      "source": "Krebs on Security"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "New Attack Against RSA",
+      "link": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "new-attack-against-rsa",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks Sep 28, 2026 Vulnerability / Endpoint Security Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950 , refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the issue was addressed with improved bounds checking. It credited Meta Product Security with discovering and reporting the issue. \"Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27,\" it added. However, the company offered no details on how many individuals were targeted, if any of those attempts were successful, or when the first instance of CVE-2026-86950 exploitation occurred. The shortcoming has been addressed in the following devices and operating syste...",
+      "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "apple-patches-coregraphics-flaw-possibly-exploited-in-targeted-attacks-sep-28-2026-vulnera",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks Sep 28, 2026 Cyber Attack / Threat Intelligence Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least October 2025. Microsoft found NeedyMantis while following up on indicators from Kaspersky's investigation into the supply chain attack on DAEMON Tools . In that attack, official, signed installers for the DAEMON Tools Lite disk image program carried malicious code from April 8, 2026. The developer replaced them with a clean version on May 5. Microsoft tracks the activity tied to that attack as Storm-3069. It says Storm-3069 is one group that uses NeedyMantis, though it has not seen the malware itself spread through a supply chain attack. Defenders can check their networks using the fi...",
+      "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-use-needymantis-to-maintain-long-term-access-in-breached-networks-sep-28-2026-cybe",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "IAM for AI agents: A Practical Enterprise Framework Sep 28, 2026 AI Agent Security / Enterprise Security What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended. Identity and access management (IAM) for AI agents treats each agent as a non-human identity with a human owner, a defined purpose, scoped authorization, an expiration, and continuous monitoring. The complication is architectural. IAM platforms express intended access, while applications and infrastructure reveal what the agent actually executed. Between the two sits identity dark matter: the agents, credentials, application-local accounts, and authentication paths that central identity data never reports. A framework that cannot observe that surface produces policy intent, not assurance. Wh...",
+      "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "iam-for-ai-agents-a-practical-enterprise-framework-sep-28-2026-ai-agent-security-enterpris",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M Sep 28, 2026 Vulnerability / Cybercrime The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most customer funds in offline cold wallets and use hot and warm wallets to process withdrawals. Transfers from those wallets must still be approved before they are signed. The stolen funds came from part of Bitget's hot and warm wallets, and its cold wallets were not affected. Bitget said last week that a critical backend system in its wallet infrastructure had been compromised and used to spoof transaction data and trigger its approval process. It had not said how the attacker got in. Bitget CEO Gracy Chen described the attack on Monday in a livestream, in an interview with The...",
+      "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "bitget-says-attacker-exploited-third-party-security-product-flaw-to-steal-388m-sep-28-2026",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims Sep 28, 2026 Mobile Security / Artificial Intelligence RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone, including text messages and passwords entered into fake login screens overlaid on banking apps. Its latest version asks Google's Gemini AI model to estimate each victim's bank balance from those messages and sorts the phones into high-value and mid-value groups. Nothing in the samples Cleafy analyzed uses the model to move money. Its role is \"deciding which victims are worth an operator's time,\" the company said. One Console, Three Versions The malware on victims' phones has changed little since late 2025, Cleafy said. The console behind it has been replaced. Samples f...",
+      "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "rathat-android-malware-console-uses-gemini-to-identify-higher-value-victims-sep-28-2026-mo",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "Misconfigured Supabase apps expose data in over 16,000 databases",
+      "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "misconfigured-supabase-apps-expose-data-in-over-16-000-databases",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+      "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "bitget-resumes-bitcoin-withdrawals-after-387-5-million-crypto-heist",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-09-28",
+      "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+      "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
     }
   ]
 }

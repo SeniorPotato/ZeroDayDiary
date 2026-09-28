@@ -21628,3 +21628,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** FTC, States Win Protections to Lower Pesticide Prices for American Farmers in Antitrust Case Against Corteva
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-states-win-protections-lower-pesticide-prices-american-farmers-antitrust-case-against-corteva
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation
+- **Source URL:** https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** New Attack Against RSA
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks Sep 28, 2026 Vulnerability / Endpoint Security Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950 , refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the issue was addressed with improved bounds checking. It credited Meta Product Security with discovering and reporting the issue. "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27," it added. However, the company offered no details on how many individuals were targeted, if any of those attempts were successful, or when the first instance of CVE-2026-86950 exploitation occurred. The shortcoming has been addressed in the following devices and operating syste...
+- **Source URL:** https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks Sep 28, 2026 Cyber Attack / Threat Intelligence Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least October 2025. Microsoft found NeedyMantis while following up on indicators from Kaspersky's investigation into the supply chain attack on DAEMON Tools . In that attack, official, signed installers for the DAEMON Tools Lite disk image program carried malicious code from April 8, 2026. The developer replaced them with a clean version on May 5. Microsoft tracks the activity tied to that attack as Storm-3069. It says Storm-3069 is one group that uses NeedyMantis, though it has not seen the malware itself spread through a supply chain attack. Defenders can check their networks using the fi...
+- **Source URL:** https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** IAM for AI agents: A Practical Enterprise Framework Sep 28, 2026 AI Agent Security / Enterprise Security What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended. Identity and access management (IAM) for AI agents treats each agent as a non-human identity with a human owner, a defined purpose, scoped authorization, an expiration, and continuous monitoring. The complication is architectural. IAM platforms express intended access, while applications and infrastructure reveal what the agent actually executed. Between the two sits identity dark matter: the agents, credentials, application-local accounts, and authentication paths that central identity data never reports. A framework that cannot observe that surface produces policy intent, not assurance. Wh...
+- **Source URL:** https://thehackernews.com/2026/09/iam-for-ai-agent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M Sep 28, 2026 Vulnerability / Cybercrime The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most customer funds in offline cold wallets and use hot and warm wallets to process withdrawals. Transfers from those wallets must still be approved before they are signed. The stolen funds came from part of Bitget's hot and warm wallets, and its cold wallets were not affected. Bitget said last week that a critical backend system in its wallet infrastructure had been compromised and used to spoof transaction data and trigger its approval process. It had not said how the attacker got in. Bitget CEO Gracy Chen described the attack on Monday in a livestream, in an interview with The...
+- **Source URL:** https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims Sep 28, 2026 Mobile Security / Artificial Intelligence RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone, including text messages and passwords entered into fake login screens overlaid on banking apps. Its latest version asks Google's Gemini AI model to estimate each victim's bank balance from those messages and sorts the phones into high-value and mid-value groups. Nothing in the samples Cleafy analyzed uses the model to move money. Its role is "deciding which victims are worth an operator's time," the company said. One Console, Three Versions The malware on victims' phones has changed little since late 2025, Cleafy said. The console behind it has been replaced. Samples f...
+- **Source URL:** https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Misconfigured Supabase apps expose data in over 16,000 databases
+- **Source URL:** https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** JadePuffer agentic AI attacks target Azure, destroy cloud resources
+- **Source URL:** https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** 80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking
+- **Source URL:** https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-28
+- **Headline / event:** US soldier gets 70 months in prison for extorting 10 tech, telecom firms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
