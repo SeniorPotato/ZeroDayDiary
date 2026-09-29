@@ -21732,3 +21732,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions Sep 29, 2026 Artificial Intelligence / Supply Chain OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said. The ChatGPT maker said it made the decision to scrap its GPT-6.1 Astra model release after testing raised questions about whether it can follow user instructions without deviating from expected behavior. The Journal reported that the model exhibited higher levels of deception than its predecessor during evaluation, and failed to disclose what actions it had carried out. In some cases, it went ahead without seeking permission or attempted to use outside tools in scenarios where doing so could be deemed unsafe. "While (GPT-6.1 Astra) improved on axes such as model laziness...
+- **Source URL:** https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot Sep 29, 2026 Artificial Intelligence / Web Security OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. "An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox," OpenAI said . "Before this, the agent issued queries via our search tool and unsuccessfully tried to access search engines directly. Note that all internet access apart from the DNS resolver in this report hit our offline webcache and therefore did not access the live internet." OpenAI said it has since added blocking controls at two independent layers to prevent this access in the first place. It also said its misalignment monitoring system detected the behavior within 15 minutes and it was acknowledged by a human reviewer...
+- **Source URL:** https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** ⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats Sep 28, 2026 Cybersecurity News / Hacking A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing exotic. Mostly things nobody expected to matter anymore. Here’s the full recap of what mattered this week. ⚡ Threat of the Week Citrix Warns of Actively Exploited NetScaler ADC and Gateway Flaws — Citrix released patches to address multiple vulnerabilities, including CVE-2026-88771 and CVE-2026-88772, that have come under active exploitation. CVE-2026-88771 is an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands, while successful exploitation of CVE-2026-88772 could allow for remote code execution or denial-of-service. CISA...
+- **Source URL:** https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI Sep 28, 2026 Identity Security / AI Agent Security AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users. According to Okta’s Global CISO Insights 2026 report, only 47% of CISOs are confident they can identify every AI agent in their environment. Even among those who feel confident about visibility, roughly 80% still worry that excessive access may be going unreviewed. That is the real problem: seeing an agent is not the same as controlling what it can do. Join Matt Immler , Regional CSO at Okta, for a practical session on how to bring AI agents under stronger identity governance before excessive access becomes harder to contain.
+- **Source URL:** https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent Sep 28, 2026 Malware / Cloud Security Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent . "The implant installs the framework unchanged, then overwrites its SOUL.md persona file," ThreatDown said . "The 39-line prompt directs it to execute tasks received through Telegram, maintain persistence, and collect credentials." At a high level, the botnet breaks into Docker daemons exposed without authentication on port 2375 and scans neighboring networks every five minutes to propagate further. On each host, it installs Hermes Agent with instructions to follow operators' Telegram commands. The cybersecurity company said it found the operation through an unauthenticated Docker registry that's been publicly accessible since May 2026. The staged data has been found to include details of the botnet and a separate campaign that d...
+- **Source URL:** https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Japan's Keio confirms ransomware attack disrupted business systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Times Car confirms data breach affecting 6.6 million user accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Dutch police confirm arrest in ShinyHunters hacking investigation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** CISA orders feds to patch exploited Citrix flaws by Wednesday
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
