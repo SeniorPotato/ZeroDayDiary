@@ -21804,3 +21804,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Using Device Linking to Eavesdrop on WhatsApp and Signal
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks Sep 29, 2026 Data Breach / Network Security An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a report (in French) published on Tuesday: it worked because of weak login protection, poorly separated networks and gaps in monitoring. The tax administration, known as the DGFIP, runs France's tax website, impots.gouv.fr. The data came from E-Contact, the tool taxpayers use to message the tax administration. The stolen data covers a little over 350,000 individuals and a little over 250,000 businesses , the DGFIP says. Taxpayers' own online accounts and passwords were not compromised. For individuals, the data that may have been viewed or copied includes their tax ID, contact details, family situation, reference taxable income and tax...
+- **Source URL:** https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses Sep 29, 2026 Vulnerability / Hardware Security A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time ( JIT ) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR) . "The key insight is that, while modern CPUs restore architectural code coherence after self-modification, they do not necessarily invalidate stale indirect branch prediction entries (i.e., branch targets)," researchers Sander Wiebing, Yuhui Zhu, Alessandro Biondi, and Cristiano Giuffrida said in an accompanying paper. "In JIT engines, these stale targets can outlive the original code and later be reused when the code cache is repopulated, yielding a transient execute-after-free primitive. This allows attackers to hijack transient control flow to newly generated code at obsolete offsets, bypassing software hardening...
+- **Source URL:** https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor Sep 29, 2026 Malware / Cyber Espionage Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the U.S. and U.K. At least one computer was infected, but the number of breached organizations has not been disclosed. Security agencies in the U.S., U.K., Australia, Canada and New Zealand said in December 2023 that Star Blizzard almost certainly works under Center 18 of Russia's Federal Security Service (FSB). The group has long stolen email passwords by posing as people its targets know. By 2023, it had already used fake conference and event invitations as bait, often exchanging messages with a target before sending a malicious link. Microsoft counted at least 13 larger campaigns this year, each with tens to hundreds of emails, on top of ...
+- **Source URL:** https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown Sep 29, 2026 Vulnerability / Enterprise Security Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown . "During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base," the company said in a statement. "Kiteworks developed and deployed a fix during the window, [and] applied an additional protective layer across all environments." There is no evidence that the vulnerability has ever been exploited in a malicious context. Other Kiteworks products are not affected by the flaw. The development comes days after Kiteworks, previously Accellion, urged customers to take their systems offline for a period of nine hours, in addition to shutting down environments it hosts on behalf of customers, after receiving intelligence about a potential imminent cybe...
+- **Source URL:** https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** 101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent Sep 29, 2026 Supply Chain / Malware Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub . "The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent," OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical write-up published Monday. These packages have been collectively downloaded 490,000 times, out of which 116,000 occurred in the last 30 days. The names of some of the packages are below - ourin-baileys @nexustechpro/baileys @badzz88/baileys @ostyado/baileys levvleys @vanzxy/baileys @yudzxml/baileys @chatunity/baileys @kelvdra/baileys neuralwhatsapp lilys-baileys @fyxzpediaa/baileys noxleyss @xrelly-stack/bails alipclutch-baileys kurobails eliteprotech-baileys @xayz/baileys chromestaff-baileys @sanzoffc/baileys @s...
+- **Source URL:** https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** New Spectre v2 attack variant leaks Linux root password hash in minutes
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Automated AI agent used to breach cybersecurity nonprofit DIVD
+- **Source URL:** https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Catch threats before they escalate with real-time Identity Telemetry
+- **Source URL:** https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Vietnamese man charged in $16 million 'pig butchering' crypto scam
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-29
+- **Headline / event:** Kiteworks patches critical flaw, brings customer systems online
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

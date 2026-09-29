@@ -599,7 +599,8 @@
       "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
       "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
-      "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html"
+      "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1846,7 +1847,12 @@
       "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
       "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
       "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-      "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
+      "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+      "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+      "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+      "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -2993,7 +2999,12 @@
       "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
       "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
       "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/"
+      "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+      "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+      "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+      "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+      "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/"
     ]
   }
 }
