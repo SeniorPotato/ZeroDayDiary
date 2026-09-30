@@ -21892,3 +21892,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution Sep 30, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler Packet Processing Engine (NSPPE). "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial-of-service," the U.S. Cybersecurity and Infrastructure Security Agency (CISA) said . The issue, per watchTowr , is that NetScaler implicitly trusts the declared fragment size in the DTLS handshake header's fragment_length field (i.e., 1 byte), while the header simultaneously claims that the complete message, as denoted by the length field, is 120...
+- **Source URL:** https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation Sep 29, 2026 United States Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. "It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters," the Politie Landelijke Opsporing en Interventies said in an X post Monday. Police said the individual is expected to appear before the Rotterdam District Court on September 29, 2026. Although law enforcement officials did not disclose any additional details, independent security journalist Brian Krebs and DataBreaches.Net identified the arrested man as Pepijn van der Stap (aka Umbreon), who was previously apprehended in 2023 for his role in a series of data thefts and extortions. Per DataBreaches.Net, van der Stap was arrested on September 15, 2026. In 2023, it emerged that the individual worked at cybersecurity company Hadrian and volunteered at the Dutch Institute for Vulnerability Disclosure (DIVD). ...
+- **Source URL:** https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials Sep 29, 2026 Identity Security / Artificial Intelligence A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and 2.2.0. The Model Context Protocol (MCP) is an open standard for connecting AI applications to outside tools and data, and this package is its official Python SDK for building MCP servers and clients. With the stolen credentials, the attacker can request a valid access token from the real login service. Cycode, the security firm that reported the flaw , demonstrated that full exchange in a test and says the resulting token carries whatever permissions the app was granted. The client secret is long-lived, so it keeps working until it is changed. The flaw is rated high (7.5) for the two prov...
+- **Source URL:** https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Signal adds encypted local backup support to iOS, desktop apps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Custom ChatGPTs push ClickFix attacks to deploy RAT
+- **Source URL:** https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** FBI tells ShinyHunters members to turn themselves in after recent arrest
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Hackers exploit Citrix NetScaler zero-day to deploy web shells
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Former US Air Force members sent to prison over BEC attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
