@@ -187,7 +187,8 @@
       "https://www.enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services",
       "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
       "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
-      "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience"
+      "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -601,7 +602,8 @@
       "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
       "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html"
+      "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
+      "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1856,7 +1858,12 @@
       "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
       "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
       "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-      "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html"
+      "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3013,7 +3020,12 @@
       "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
       "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-      "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/"
+      "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+      "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/"
     ]
   }
 }

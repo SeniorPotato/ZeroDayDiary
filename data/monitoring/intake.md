@@ -21964,3 +21964,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Cybersecurity Month @ work: Employees' skills under the looking glass
+- **Source URL:** https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** I Want Better Reporting on AI Genie Behavior
+- **Source URL:** https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets Sep 30, 2026 Vulnerability / Email Security Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol (SNMP) notifications are enabled and the optional zimbra-snmp package is installed. Exploitation of CVE-2026-73570 can be triggered by a specially crafted SMTP request (i.e., email against exposed Zimbra servers without requiring authentication or user interaction. The vulnerability was patched by Zimbra in July 2026 with the release of version 10.1.20. "Following successful exploitation, observed activity included deployment of JSP web shells and reverse shells, privilege escalation, persistent remote-access tooling, and memory-backed execution," the tech giant said . "Thr...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks Sep 30, 2026 Endpoint Security / Social Engineering Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. "Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected devices and enabled threat actors to gain an initial foothold using trusted administrative software," the Microsoft Security Research team said . The initial foothold is then used to download and install a ConnectWise ScreenConnect client, offering threat actors a redundant remote-access channel to compromised endpoints. The access is then abused to deliver additional tools and carry out information collection and credential-access operations. The activity has not been attributed to any known threat actor or group. The multi-stage intrusion chain, which the Windows maker detected in Ju...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager Sep 30, 2026 Vulnerability / Network Security Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504 , could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a CVSS score of 9.8 out of 10. It sits in the part of the Manager's API that handles login sessions. The Manager mishandles URI encoding in an HTTP request. A crafted request can therefore bypass an authentication rule intended to restrict access to a single API endpoint. The attacker needs no credentials, only the ability to send that request to the Manager's API. Managers exposed to the internet are at risk of compromise, according to Cisco. By default, the admin user holds the netadmin role, which is allowed to perform all operations on the device. Cisco said its Product Security I...
+- **Source URL:** https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures Sep 30, 2026 Malware / Artificial Intelligence Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared conversations with AI chatbots and malicious Claude Artifacts to distribute stealer malware and remote access trojans (RATs). Custom GPTs refer to a personalized version of ChatGPT that, as the name implies, allows users to define custom instructions, upload reference files, and enable specific skills to handle unique tasks without any coding. They are hosted on the legitimate ChatGPT website with the Custom GPT name at the top. "In the incidents we saw, victims interacted with an attacker-created Custom GPT, which was programmed to respond to their prompts with a message that includ...
+- **Source URL:** https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Know Your Enemy: Browser-Based Attack Techniques in 2026 Sep 30, 2026 Web Security / Phishing Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in the browser. Here are the six most dangerous techniques that should be on every security team's radar in 2026. 1. Phishing for credentials and sessions Modern phishing kits don't just steal passwords — they intercept live sessions. Reverse-proxy adversary-in-the-middle (AiTM) kits like Tycoon2FA, Sneaky2FA, and Evilginx relay credentials and session tokens in real time, bypassing most forms of MFA. These kits are sold as turnkey Phishing-as-a-Service platforms with anti-bot protection, dynamic lure generation, and automated session replay — reducing the barrier to sophisticated phishing to effectively zero. At the same time, phishing delivery has moved well beyond email — attackers deliver link...
+- **Source URL:** https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Apple patches CoreGraphics zero-day flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Cisco warns of new SD-WAN zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** AI's Third Wave: Coworkers Break the Security Model That Worked for Agents
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-09-30
+- **Headline / event:** Microsoft to block Entra ID script injection attacks starting October
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
