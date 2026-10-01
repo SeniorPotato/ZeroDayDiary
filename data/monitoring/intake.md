@@ -22060,3 +22060,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path Oct 01, 2026 Vulnerability / Mobile Security Security researchers have published the first public proof-of-concept for CVE-2026-86950 , an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working exploit is separate work the analysis does not demonstrate. Apple patched the flaw on September 28 , crediting Meta Product Security with the discovery and noting it may have been used in an "extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27." The U.S. Cybersecurity and Infrastructure Security Agency added the flaw to its Known Exploited Vulnerabilities catalog the following day, requiring federal agencies to apply the fix by October 2. Apple has not listed iOS 27 or macOS Golden Gate 27 as affected in the September 28 advi...
+- **Source URL:** https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft Oct 01, 2026 Vulnerability / Zero-Day Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. "Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker to initiate unauthorized withdrawals," Bitget said in a post on X. On September 24, 2026, the cryptocurrency exchange disclosed that threat actors stole $387.5 million from its hot and warm wallets through a series of unauthorized transfers, prompting it to halt all withdrawals temporarily. Close to $632,700 in cryptocurrency assets have been frozen by Circle, Tether, and NEAR Intents. In a subsequent analysis , Bitget said the attackers exploited the flaw to obtain high-level internal credentials and use them to issue fraudulent withdrawal commands to the wallet system and ...
+- **Source URL:** https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** MetaMask Security Incident Prompts Exit of Affected Ethereum Validators Oct 01, 2026 MetaMask on Thursday said it's responding to what it described as an "ongoing security incident" impacting part of its infrastructure. "We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors," the software cryptocurrency wallet maker said . "At this time, we have identified no immediate threat to MetaMask wallets." MetaMask did not disclose any additional details related to the security issue. As a precautionary measure, MetaMask said it's proactively exiting affected validators within its non-custodial staking operations, in coordination with clients and partners. "As a reminder, our staking operations are non-custodial in nature, and we do not manage withdrawal keys for stake on behalf of our clients," it added. Lido, a decentralized liquid staking solution for Ethereum, said MetaMask has taken steps to protect client assets related to its operated Ethereum...
+- **Source URL:** https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs Oct 01, 2026 Vulnerability / Web Security Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations & Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler authentication events containing attacker-controlled usernames designed to weaponize CVE-2026-88771. CVE-2026-88771 (CVSS score: 9.5) is an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands. The security flaw, along with CVE-2026-88772, was disclosed last week after reports that the Dutch National Cyber Security Centre (NCSC-NL) reportedly sent a pre-notification to organizations in the Netherlands that urged organizations to shut their appliances down, citing active exploitation. As of writing, there are currently no d...
+- **Source URL:** https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub Sep 30, 2026 Artificial Intelligence / DevSecOps AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers' personal accounts, where anyone could download them but company security teams did not see them. The affected organizations include one of the world's largest tech companies, a leading AI lab, a major enterprise software provider, and a Fortune 500 travel company. Glow began contacting them on September 9, published its findings on September 29, and says others are likely affected too. In one case, a developer at a manufacturer with more than 100,000 employees asked an agent to check a fix to an internal billing screen. The agent created a public repository in the developer's personal GitHub ...
+- **Source URL:** https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Russian state hackers use new RedFlick technique to push
+- **Source URL:** https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** DIVD says Zammad zero-days enabled AI-driven network breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Over 543,000 valid credentials exposed in public GitHub repositories
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** TeamViewer urges users to patch severe flaws “as soon as possible”
+- **Source URL:** https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Bitget hacked via zero-day in third-party security products
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
