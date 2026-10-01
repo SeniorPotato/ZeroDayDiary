@@ -22148,3 +22148,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Connected Cars Are a Surveillance Platform
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory Oct 01, 2026 Vulnerability / Web Security Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the "SC_" markers present in the injected content. Sucuri has described the malware as a "self-healing mesh" that's blockchain-controlled. "The payload lives in at least eight places at once, spread across files, the database, and shared memory, and every one of those places can rebuild all the others," security researcher Gabriel Barbosa said . "Delete the plugin and a drop-in rewrites it. Delete the drop-in and the theme rewrites it. Clean every file on disk, and the next page load restores the whole set from the database or from a shared-memory segment. The result is a circular system with no single point you can remove to stop it." According to Sucuri, the malware does no...
+- **Source URL:** https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** How Financial Services Companies Can Modernize Their Software Supply Chain Oct 01, 2026 DevSecOps / Patch Management Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date eighteen months out on the roadmap to address it. Nobody in that conversation is being unreasonable. Financial services carry more legacy software than almost any other industry for a few reasons: decades of accumulated infrastructure, regulatory obligations that reward stability, and applications where an hour of downtime is unacceptable. In that environment, minimizing change is risk management. Every dependency bump, every base image swap, every migration is a chance to break something that clears trades or moves money. So the instinct to stick to the status quo has been sound. The problem...
+- **Source URL:** https://thehackernews.com/2026/10/how-financial-services-companies-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates Oct 01, 2026 Artificial Intelligence / Vulnerability OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A "core cluster of the activity," going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any technical evidence to back this assessment, likely owing to security reasons. "The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations," OpenAI said . "Instead, they manipulated model interactions so that protected reasoning could be reproduced in forms visible to the requester in a coordinated, scaled manner that violated our terms of service." The activity is said to have begun on July 1, 2026, initially at a low volume before it spiked on July 24 and 25, 2026, to 16,000 attempted requests using a relevan...
+- **Source URL:** https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV Oct 01, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities ( KEV ), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with the privileges of the admin user. "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request," CISA said. Successful exploitation could allow an attacker to sidestep authentication by sending a crafted HTTP request to the API of the affected system, and gain access to the API as the admin user.
+- **Source URL:** https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Metamask discloses security incident affecting its infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Police dismantle KillSec ransomware gang allegedly led by 16-year-old
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** The Day-One Hole in Zero Trust Architecture
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Kiteworks patches max severity code injection
+- **Source URL:** https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-01
+- **Headline / event:** Hackers stole Pentagon personnel records of over 3 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
