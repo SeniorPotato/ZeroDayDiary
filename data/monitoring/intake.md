@@ -22236,3 +22236,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version Oct 01, 2026 Artificial Intelligence / AI Safety Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon , that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. "It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense," Koray Kavukcuoglu, senior vice president of Google DeepMind and Chief AI Architect at Google, said . The development comes nearly a month after the tech giant unveiled Gemini 3.8 Flash Cyber , which it described as the most capable cybersecurity model. Like similar models from rivals Anthropic and OpenAI, Argon is assessed to be highly capable at autonomously finding, validating, and patching critical software vulnerabilities. This includes a previously unknown critical vulnerability exposing sensitive personal information across healthcare software used by hospitals worldwide. Google did not reveal...
+- **Source URL:** https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Fortinet warns of critical FortiMail flaw exploited in zero-day attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Autonomous AI agents tried to hack US, Canadian government websites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Microsoft says threat actors are ahead in the early AI race
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

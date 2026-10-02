@@ -1,114 +1,54 @@
 {
-  "generatedAt": "2026-10-01T18:26:22.093Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-01T182622Z.md",
+  "generatedAt": "2026-10-02T05:42:33.528Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-02T054233Z.md",
   "candidates": [
     {
-      "discovered": "2026-10-01",
-      "title": "Connected Cars Are a Surveillance Platform",
-      "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
+      "discovered": "2026-10-02",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "connected-cars-are-a-surveillance-platform",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
+      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
+      "sourceId": "cisa-advisories",
+      "source": "CISA Cybersecurity Advisories"
     },
     {
-      "discovered": "2026-10-01",
-      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.",
-      "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+      "discovered": "2026-10-02",
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version Oct 01, 2026 Artificial Intelligence / AI Safety Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon , that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu, senior vice president of Google DeepMind and Chief AI Architect at Google, said . The development comes nearly a month after the tech giant unveiled Gemini 3.8 Flash Cyber , which it described as the most capable cybersecurity model. Like similar models from rivals Anthropic and OpenAI, Argon is assessed to be highly capable at autonomously finding, validating, and patching critical software vulnerabilities. This includes a previously unknown critical vulnerability exposing sensitive personal information across healthcare software used by hospitals worldwide. Google did not reveal...",
+      "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-ai-powered-zero-day-chain-543k-live-secrets-model-inspection-rce-and-13-more-st",
+      "slug": "google-rolls-out-gemini-4-argon-to-trusted-cyber-defenders-plans-guardrail-free-version-oc",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-10-01",
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory Oct 01, 2026 Vulnerability / Web Security Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's blockchain-controlled. \"The payload lives in at least eight places at once, spread across files, the database, and shared memory, and every one of those places can rebuild all the others,\" security researcher Gabriel Barbosa said . \"Delete the plugin and a drop-in rewrites it. Delete the drop-in and the theme rewrites it. Clean every file on disk, and the next page load restores the whole set from the database or from a shared-memory segment. The result is a circular system with no single point you can remove to stop it.\" According to Sucuri, the malware does no...",
-      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "discovered": "2026-10-02",
+      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "wordpress-backdoor-rebuilds-itself-after-cleanup-using-files-database-and-shared-memory-oc",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain Oct 01, 2026 DevSecOps / Patch Management Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date eighteen months out on the roadmap to address it. Nobody in that conversation is being unreasonable. Financial services carry more legacy software than almost any other industry for a few reasons: decades of accumulated infrastructure, regulatory obligations that reward stability, and applications where an hour of downtime is unacceptable. In that environment, minimizing change is risk management. Every dependency bump, every base image swap, every migration is a chance to break something that clears trades or moves money. So the instinct to stick to the status quo has been sound. The problem...",
-      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "how-financial-services-companies-can-modernize-their-software-supply-chain-oct-01-2026-dev",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates Oct 01, 2026 Artificial Intelligence / Vulnerability OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any technical evidence to back this assessment, likely owing to security reasons. \"The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations,\" OpenAI said . \"Instead, they manipulated model interactions so that protected reasoning could be reproduced in forms visible to the requester in a coordinated, scaled manner that violated our terms of service.\" The activity is said to have begun on July 1, 2026, initially at a low volume before it spiked on July 24 and 25, 2026, to 16,000 attempted requests using a relevan...",
-      "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "openai-disrupts-reasoning-extraction-campaign-linked-to-moonshot-ai-associates-oct-01-2026",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV Oct 01, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities ( KEV ), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with the privileges of the admin user. \"Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request,\" CISA said. Successful exploitation could allow an attacker to sidestep authentication by sending a crafted HTTP request to the API of the affected system, and gain access to the API as the admin user.",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-exploited-cisco-catalyst-sd-wan-manager-auth-bypass-to-kev-oct-01-2026-vulnerabi",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "Metamask discloses security incident affecting its infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "metamask-discloses-security-incident-affecting-its-infrastructure",
+      "slug": "fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-10-01",
-      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+      "discovered": "2026-10-02",
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old",
+      "slug": "autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
-      "discovered": "2026-10-01",
-      "title": "The Day-One Hole in Zero Trust Architecture",
-      "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+      "discovered": "2026-10-02",
+      "title": "Microsoft says threat actors are ahead in the early AI race",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "the-day-one-hole-in-zero-trust-architecture",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "Kiteworks patches max severity code injection",
-      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "kiteworks-patches-max-severity-code-injection",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-10-01",
-      "title": "Hackers stole Pentagon personnel records of over 3 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "hackers-stole-pentagon-personnel-records-of-over-3-million-people",
+      "slug": "microsoft-says-threat-actors-are-ahead-in-the-early-ai-race",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
