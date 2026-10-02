@@ -22276,3 +22276,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** FTC, States Sue Lens.com for Misrepresenting the Price of Contact Lenses in Search Ads and on Its Website
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Unidentified Flock Cameras in Florida
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** How American Political Campaigns Are Using AI—and What They’re Spending on the Tools
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers Oct 02, 2026 Vulnerability / Application Security A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory . The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw is tracked as CVE-2026-90970 . GitLab disclosed it on October 2 and rated it critical, with a CVSS score of 9.9 out of 10. GitLab runs AI Gateways for its customers and has already fixed them. Customers on GitLab.com, GitLab Dedicated, and self-managed instances that use a GitLab-hosted gateway do not need to act, the company said. Self-managed customers can instead host their own gateway , an option GitLab offers for keeping AI request and response data inside the customer's own environment. GitLab strongly recommends that those customers update immediately. It sent that gui...
+- **Source URL:** https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign Oct 02, 2026 Cyber Espionage / Malware Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster under the moniker UAT-11587 . The threat actor was first detected in September 2025 in connection with a spear-phishing campaign directed against Taiwan's academic, think tank, and civil society policy community. Since then, attacks linked to the intrusion set have expanded to target 16 entities across eight Asian countries. "Antino is a Rust-compiled Windows backdoor that supports host reconnaissance, shell and PowerShell execution, file transfer, in-memory shellcode loading and persistence," security researcher Ashley Shen said . "Its native command-and-control channel ...
+- **Source URL:** https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attac...
+- **Source URL:** https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling Oct 02, 2026 Artificial Intelligence / Data Security OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported . "We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work." The impacted employees are Jasmine Wang , Tomek Korbak , and Mikita Balesni , the Journal reported, citing people familiar with the matter. The three researchers have all previously expressed concerns about the pace of artificial intelligence (AI) development. It's said that the individuals shared confidential information with a third-party AI-safety organization. The name of the organization was not disclosed. According...
+- **Source URL:** https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report Oct 02, 2026 Enterprise Security / Artificial Intelligence The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board member asks three questions: How secure is the organization, overall? What is the actual financial exposure? Is the security posture better than it was last quarter? Most security leaders cannot answer any of them with confidence. Not because the data doesn't exist, but because it lives in a dozen tools that don't share context. A new guide to confident board reporting for CISOs takes on exactly this problem. This article walks through why traditional reporting fails and what a better model looks like. Boards Have Stopped Trusting Activity Metrics For years, security reporting has run on counts. Vulnerabilities found. Patches applied. Alerts closed. P...
+- **Source URL:** https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** GitLab warns of critical RCE vulnerability in AI Gateway service
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** US sanctions Tren de Aragua gang members in ATM hacks crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** The EDR blind spot: 3 ways browser attacks evade endpoint telemetry
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Dell asks admins to patch max severity CSM flaws as soon as possible
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-02
+- **Headline / event:** Microsoft’s X account hacked in crypto pump-and-dump scheme
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

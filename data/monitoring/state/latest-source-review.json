@@ -1,54 +1,134 @@
 {
-  "generatedAt": "2026-10-02T05:42:33.528Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-02T054233Z.md",
+  "generatedAt": "2026-10-02T17:53:20.735Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-02T175320Z.md",
   "candidates": [
     {
       "discovered": "2026-10-02",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "title": "FTC, States Sue Lens.com for Misrepresenting the Price of Contact Lenses in Search Ads and on Its Website",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website",
       "tier": "Tier 1",
-      "category": "security",
-      "slug": "cisa-adds-one-known-exploited-vulnerability-to-catalog",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
+      "category": "privacy",
+      "slug": "ftc-states-sue-lens-com-for-misrepresenting-the-price-of-contact-lenses-in-search-ads-and-",
+      "sourceId": "ftc-press",
+      "source": "FTC Press Releases"
     },
     {
       "discovered": "2026-10-02",
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version Oct 01, 2026 Artificial Intelligence / AI Safety Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon , that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu, senior vice president of Google DeepMind and Chief AI Architect at Google, said . The development comes nearly a month after the tech giant unveiled Gemini 3.8 Flash Cyber , which it described as the most capable cybersecurity model. Like similar models from rivals Anthropic and OpenAI, Argon is assessed to be highly capable at autonomously finding, validating, and patching critical software vulnerabilities. This includes a previously unknown critical vulnerability exposing sensitive personal information across healthcare software used by hospitals worldwide. Google did not reveal...",
-      "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "title": "Unidentified Flock Cameras in Florida",
+      "link": "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "google-rolls-out-gemini-4-argon-to-trusted-cyber-defenders-plans-guardrail-free-version-oc",
+      "slug": "unidentified-flock-cameras-in-florida",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "How American Political Campaigns Are Using AI—and What They’re Spending on the Tools",
+      "link": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "how-american-political-campaigns-are-using-ai-and-what-they-re-spending-on-the-tools",
+      "sourceId": "schneier-on-security",
+      "source": "Schneier on Security"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers Oct 02, 2026 Vulnerability / Application Security A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory . The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw is tracked as CVE-2026-90970 . GitLab disclosed it on October 2 and rated it critical, with a CVSS score of 9.9 out of 10. GitLab runs AI Gateways for its customers and has already fixed them. Customers on GitLab.com, GitLab Dedicated, and self-managed instances that use a GitLab-hosted gateway do not need to act, the company said. Self-managed customers can instead host their own gateway , an option GitLab offers for keeping AI request and response data inside the customer's own environment. GitLab strongly recommends that those customers update immediately. It sent that gui...",
+      "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "gitlab-patches-critical-9-9-ai-gateway-flaw-allowing-command-execution-on-self-hosted-serv",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-10-02",
-      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign Oct 02, 2026 Cyber Espionage / Malware Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster under the moniker UAT-11587 . The threat actor was first detected in September 2025 in connection with a spear-phishing campaign directed against Taiwan's academic, think tank, and civil society policy community. Since then, attacks linked to the intrusion set have expanded to target 16 entities across eight Asian countries. \"Antino is a Rust-compiled Windows backdoor that supports host reconnaissance, shell and PowerShell execution, file transfer, in-memory shellcode loading and persistence,\" security researcher Ashley Shen said . \"Its native command-and-control channel ...",
+      "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks",
+      "slug": "antino-backdoor-uses-outlook-and-onedrive-for-c2-in-china-nexus-espionage-campaign-oct-02-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attac...",
+      "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "dell-csm-flaws-enable-unauthenticated-admin-access-and-root-on-kubernetes-nodes-oct-02-202",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling Oct 02, 2026 Artificial Intelligence / Data Security OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported . \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for the company was quoted as saying. \"Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.\" The impacted employees are Jasmine Wang , Tomek Korbak , and Mikita Balesni , the Journal reported, citing people familiar with the matter. The three researchers have all previously expressed concerns about the pace of artificial intelligence (AI) development. It's said that the individuals shared confidential information with a third-party AI-safety organization. The name of the organization was not disclosed. According...",
+      "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "openai-parts-ways-with-three-safety-researchers-over-sensitive-information-mishandling-oct",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report Oct 02, 2026 Enterprise Security / Artificial Intelligence The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board member asks three questions: How secure is the organization, overall? What is the actual financial exposure? Is the security posture better than it was last quarter? Most security leaders cannot answer any of them with confidence. Not because the data doesn't exist, but because it lives in a dozen tools that don't share context. A new guide to confident board reporting for CISOs takes on exactly this problem. This article walks through why traditional reporting fails and what a better model looks like. Boards Have Stopped Trusting Activity Metrics For years, security reporting has run on counts. Vulnerabilities found. Patches applied. Alerts closed. P...",
+      "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "why-cisos-struggle-to-answer-the-board-s-three-hardest-questions-and-how-to-fix-the-report",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-10-02",
-      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-      "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
+      "slug": "us-sanctions-tren-de-aragua-gang-members-in-atm-hacks-crackdown",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     },
     {
       "discovered": "2026-10-02",
-      "title": "Microsoft says threat actors are ahead in the early AI race",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "microsoft-says-threat-actors-are-ahead-in-the-early-ai-race",
+      "slug": "the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "dell-asks-admins-to-patch-max-severity-csm-flaws-as-soon-as-possible",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-02",
+      "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+      "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "microsoft-s-x-account-hacked-in-crypto-pump-and-dump-scheme",
       "sourceId": "bleepingcomputer",
       "source": "BleepingComputer"
     }
