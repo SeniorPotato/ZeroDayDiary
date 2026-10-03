@@ -1890,7 +1890,10 @@
       "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
       "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
       "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-      "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
+      "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3072,7 +3075,8 @@
       "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
       "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
       "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-      "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
+      "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+      "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
     ]
   }
 }
