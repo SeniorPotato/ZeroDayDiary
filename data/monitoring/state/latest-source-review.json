@@ -1,16 +1,26 @@
 {
-  "generatedAt": "2026-10-04T05:58:13.295Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-04T055813Z.md",
+  "generatedAt": "2026-10-04T16:52:09.513Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-04T165209Z.md",
   "candidates": [
     {
       "discovered": "2026-10-04",
-      "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members Oct 04, 2026 Cybercrime / Data Breach A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported , citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and law enforcement to identify other members of the group. \"His cooperation is critical to ongoing efforts to arrest these hackers,\" a source told the news agency. Rey, who also went by the online alias ReyXBF, is not an unknown face. In a report published in November 2025, independent security journalist Brian Krebs labeled him as one of the three administrators of Scattered LAPSUS$ Hunters (SLH or SLSH), a group that's assessed to be an amalgamation of Scattered Spider, LAPSUS$, and ShinyHunters. \"Previously, Rey was an administrator of the data leak websi...",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
+      "slug": "shinyhunters-suspect-rey-reportedly-detained-in-jordan-helping-fbi-identify-group-members-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-04",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing Oct 04, 2026 Cyber Espionage / Phishing A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a U.S. think tank in February 2026. The phishing email carried the subject line \"Request for Feedback on Military Integration of Claude.\" \"This activity likely supports wider Chinese intelligence objectives to better understand ongoing developments within the U.S. AI policy and regulatory landscape and occurs amid intense strategic competition, accusations of model distillation, and export controls involving the U.S. and China,\" Proofpoint said in an analysis published this week. The enterprise security company has described TA419 as a China-aligned and espionage-motivat...",
+      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "china-aligned-ta419-targets-u-s-ai-policy-experts-with-microsoft-aitm-phishing-oct-04-2026",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
     }
   ]
 }
