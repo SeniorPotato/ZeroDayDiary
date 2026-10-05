@@ -328,7 +328,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-approves-publication-federal-register-notices-revising-commissions-rules-practice",
       "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-states-win-protections-lower-pesticide-prices-american-farmers-antitrust-case-against-corteva",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -613,7 +615,8 @@
       "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
       "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
       "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
-      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html"
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
+      "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1896,7 +1899,12 @@
       "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
       "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
       "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-      "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
+      "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3081,7 +3089,12 @@
       "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
       "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
       "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-      "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+      "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+      "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+      "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+      "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/"
     ]
   }
 }

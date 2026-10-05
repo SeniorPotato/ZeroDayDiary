@@ -22508,3 +22508,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** FTC Issues Letters Warning Hospitals Against Deceptive Pricing Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Premier Martial Arts Franchisor and its Former Franchise Sales Organization Settle FTC Charges that the Companies Made Deceptive Claims and Violated the Franchise Rule
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Another Historic Cipher Falls to AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes Oct 05, 2026 Vulnerability / Email Security Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940 , is rated 8.8 on the CVSS scoring system. "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network," Microsoft said in an advisory released on October 2, 2026. The Windows maker said an authenticated attacker can exploit this flaw to gain unauthorized access to other users' mailboxes within the same organization and read email messages and attachments. However, the vulnerability does not allow cross-tenant access. Microsoft has already deployed a "related service-side fix" to Exchange Online to address the issue. As a result, Exchange Online customers are not required to take any action. Users of affected on-premises Microsoft Exchange Server products are a...
+- **Source URL:** https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** ⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests Oct 05, 2026 Cybersecurity News / Hacking A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others are still getting in because the basics gave way first. Here’s what mattered this week. ⚡ Threat of the Week Citrix Warns of Newly Exploited NetScaler ADC and Gateway Flaw — Citrix released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. "CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to denial-of-service under specific depl...
+- **Source URL:** https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** The Credential Layer Is Expanding Faster Than Security Teams Can See It Oct 05, 2026 DevSecOps / Supply Chain Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they can access. This is the first of three articles we are releasing that explain the reason behind our mission. — Software production is accelerating beyond the growth assumptions that shaped many of today's security controls. GitHub COO Kyle Daigle said the platform had gone from roughly 1 billion commits during all of 2025 to 2.9 billion commits in August 2026, an annualized pace of over 14 billion for the 2026 reporting year. GitHub's own engineering team has gone further in its capacity planning, saying it moved from preparing for 10x scale to designing for a future that require...
+- **Source URL:** https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2 Oct 05, 2026 Vulnerability / Malware Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling . "Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel," Nozomi Networks said in a report published last week. "The result is a botnet whose traffic can resemble legitimate NAT-traversal activity while still supporting propagation, proxying, tunneling and denial-of-service commands." The operational technology (OT) security company said it observed a spike in attempts to exploit CVE-2021-35394 (CVSS score: 9.8), a critical remote code execution (RCE) flaw in Realtek Jungle SDK starting around September 5, 2026, with a subset of the activity delivering Cling. An analysis of the malware sample has found it to embed exploit logic for various command injectio...
+- **Source URL:** https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access Oct 05, 2026 Vulnerability / Artificial Intelligence Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. "Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge and understanding," Apple said in a post. "For communication apps, this can also compromise the privacy of the people users are communicating with." Full Disk Access , accessed via Privacy & Security in the Settings app, was introduced by Apple in macOS Mojave (version 10.14), offers users greater control over which applications can access their entire system and data from apps like Mail, Messages, Safari, and Time Machine backups. Once the setting is enabled for an application, it allows that program to bypass certain security restrictions and read and writ...
+- **Source URL:** https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Rejetto HFS servers now actively scanned for critical RCE flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** IQVIA fined $7.8 million for failing to properly anonymize health data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** Denmark population registry data breach affects 8.8 million people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** New Dell System Update flaw lets hackers gain root privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-05
+- **Headline / event:** South Korea probes bank breaches amid suspected AI-powered attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
