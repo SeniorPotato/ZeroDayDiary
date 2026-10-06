@@ -22612,3 +22612,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account Oct 06, 2026 Data Breach / Privacy Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on October 5 . They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to give passwords or other confidential information to anyone who calls or emails, even someone who seems to know those details. The register's administration has stopped the company's access and reported the case to Datatilsynet, Denmark's data protection authority. Police are investigating. A very large number of automated lookups were made in the register to identify valid personal identification numbers, known as CPR numbers, Datatilsynet said in a notice on October 5. Its account comes from the notification it received from the register a day earlier. It has not y...
+- **Source URL:** https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits Oct 06, 2026 Social Engineering / Malware A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. "Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file," the Microsoft Threat Intelligence team said in a post on X. Thus, when the victim is prompted to paste and execute a malicious command -- as is the case with ClickFix attacks – it executes the cached website content that's already on the device. What's notable about this browser cache smuggling approach is that it allows the attackers to conceal the payload script and bypass the character limit restrictions . The Windows Run dialog, triggered by Win + R, truncates any input that exceeds approximately 260 characters. In the attack chain observed by Microsoft, the staged payload is a Visual Basic Script (VBScript), which th...
+- **Source URL:** https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE Oct 05, 2026 Vulnerability / Web Security A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and seize control of affected systems. "Rejetto HFS 3.0.0 through 3.2.0 derives its session-cookie signing key from the non-cryptographic Math.random() generator and discloses outputs of the same generator to unauthenticated clients during login," according to an advisory for the flaw. "A remote attacker can collect a small number of login responses, reconstruct the generator's state, recover the signing key, and forge a valid administrator session cookie, leading to full administrative access and remote code execution via the server_code configuration feature." Hori...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline Oct 05, 2026 Zero-Day / Vulnerability Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779 , carries a CVSS score of 8.7 out of 10.0. "CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to denial-of-service under specific deployment conditions," Citrix said . "The issue affects customer-managed NetScaler deployments running affected supported versions when the required preconditions are met." For successful exploitation, NetScaler ADC or NetScaler Gateway must be configured either as a SAML service provider (SP) or SAML identity provider(IdP). Customers can check if their NetScaler deployment meets the precondition by reviewing their configuration for entries matching the following - SAML SP - add authentication samlAction SAML IdP - add authentication samlIdPPro...
+- **Source URL:** https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** tenfold CE: Our free Identity Governance tool just got 2 new features
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-06
+- **Headline / event:** Alleged dev of Ploutus ATM malware appears in US court after arrest
+- **Source URL:** https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

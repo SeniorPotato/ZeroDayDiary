@@ -1904,7 +1904,11 @@
       "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
       "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
       "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-      "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
+      "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+      "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+      "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3094,7 +3098,9 @@
       "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
       "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
       "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-      "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/"
+      "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+      "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+      "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/"
     ]
   }
 }
