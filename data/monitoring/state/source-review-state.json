@@ -330,7 +330,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-sue-lenscom-misrepresenting-price-contact-lenses-search-ads-its-website",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-redress-payments-consumers-impacted-goats-deceptive-shipping-refund-policies"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -616,7 +617,8 @@
       "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
       "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
-      "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html"
+      "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1908,7 +1910,12 @@
       "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
       "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
       "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-      "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+      "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3100,7 +3107,12 @@
       "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
       "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
       "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
-      "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/"
+      "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
+      "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+      "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+      "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+      "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+      "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/"
     ]
   }
 }
