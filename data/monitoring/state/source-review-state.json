@@ -331,7 +331,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-redress-payments-consumers-impacted-goats-deceptive-shipping-refund-policies"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-redress-payments-consumers-impacted-goats-deceptive-shipping-refund-policies",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -418,7 +419,9 @@
       "https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/",
       "https://krebsonsecurity.com/2019/09/satori-iot-botnet-operator-pleads-guilty/",
       "https://krebsonsecurity.com/2021/08/t-mobile-investigating-claims-of-massive-data-breach/",
-      "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
+      "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -618,7 +621,8 @@
       "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
       "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
-      "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
+      "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1918,7 +1922,12 @@
       "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
       "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
       "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
+      "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+      "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3119,7 +3128,12 @@
       "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
       "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-      "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/"
+      "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+      "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+      "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+      "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+      "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/"
     ]
   }
 }

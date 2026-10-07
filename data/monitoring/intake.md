@@ -22812,3 +22812,123 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** FTC and USDA Seek Public Comment on Agricultural Equipment Manufacturing and Distribution Market Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** ShinyHunters Extorted Boeing Spin-off Prior to Arrests
+- **Source URL:** https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** a November 2025 profile
+- **Source URL:** https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** our November 2025 profile of Rey
+- **Source URL:** https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Apple’s Verified Photography System
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains Oct 07, 2026 Web Security / Domain Hijacking Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6 . Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted connection and read the private data sent to it. Chrome blocked the unauthorized certificates for Google's domains through CRLSets , its way of quickly blocking certificates in emergencies, Google said. The company also worked with the certificate authorities (CAs) that issued the certificates to have them revoked, a step meant to protect people using other browsers and apps. Google did not name the domains. Certificate Transparency (CT) logs are the public record of certificates issued by CAs. They show at least 12 certificates issued between September 22 and 27 for Google...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer Oct 07, 2026 Supply Chain / Malware Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx . The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have been flagged as malicious. The attack is designed to infect Windows systems through three separate pathways - A loader for Overlord , an open-source RAT written in Go that uses Solana transactions to extract the command-and-control (C2) address A chain that installs movinlike, a Node.js stealer targeting Discord, browsers, Telegram, and cryptocurrency wallets, and A downloader The list of identified malicious packages is below - tlxbnhd tldriver mxdriver img-to-native native-runner function-flag (Still live) function-color (Still live) cdn-img-fet...
+- **Source URL:** https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances Oct 07, 2026 Vulnerability / Network Security SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions. SonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being used in attacks. The most serious flaw, tracked as CVE-2026-102255 , is a server-side request forgery (SSRF) bug in WorkPlace, the portal that SMA1000 users log in to. It exists due to an unintended access path through SonicWall and can be reached before authentication. An attacker who abuses that path could "reach internal functionality and perform unauthorized operations," SonicWall said in its security advisory , dated October 6, without saying which functions. All four flaws affect SMA1000 models 6210, 7210 and 8200v on these platform-hotfix versions:
+- **Source URL:** https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely Oct 07, 2026 Vulnerability / Artificial Intelligence A critical vulnerability in LMCache , open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode , where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network message to that server can run commands as the user the LMCache process runs as. The server can be reached from another machine only when an operator sets it to listen on a routable address, rather than the localhost it uses by default. JFrog disclosed the flaw on October 7 and assigned it a severity score of 9.8 out of 10, in the critical range, the rating it gives a server bound to a routable address. The vulnerability, tracked as CVE-2026-105192 , affects LMCache from version 0.3.9, released in October 2025, through 0.5.5, the latest stable release, and is also present in the ...
+- **Source URL:** https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet Oct 07, 2026 Botnet / Cryptojacking Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito , has been found to install cryptocurrency miners, including XMRig and Iron, and connects victims to Kryptex, a Russian cryptocurrency mining service. "Compromised hosts are reused to expand the botnet," Lumen Black Lotus Labs said in a report shared with The Hacker News. "Infected servers are turned into scanners and exploit servers, allowing the actor to find and compromise additional vulnerable systems." The malware distributed as part of the campaign has been codenamed PoeLLM owing to what has been described as a "creative" technique that hides the command-and-control (C2) address within a poem the threat actors wr...
+- **Source URL:** https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** PoeLLM malware infects exposed AI servers in cryptomining attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Ransomware has a new target. Is your backup ready?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Hackers exploit critical Atlassian flaw after public PoC release
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** SonicWall warns of max severity SSRF flaw in SMA1000 gateways
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-07
+- **Headline / event:** Musician sent to prison for $10 million streaming fraud using AI bots
+- **Source URL:** https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
