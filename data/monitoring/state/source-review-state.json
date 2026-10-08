@@ -124,7 +124,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -332,7 +333,10 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/premier-martial-arts-franchisor-its-former-franchise-sales-organization-settle-ftc-charges-companies",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-redress-payments-consumers-impacted-goats-deceptive-shipping-refund-policies",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-auto-dealership-group-price-transparency-win-consumers",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-fair-pricing-protections-taking-action-against-major-wholesale-t-shirt-distributors",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -622,7 +626,8 @@
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
       "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
       "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
-      "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"
+      "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1932,7 +1937,12 @@
       "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
       "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
       "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-      "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html"
+      "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+      "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+      "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+      "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+      "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+      "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
