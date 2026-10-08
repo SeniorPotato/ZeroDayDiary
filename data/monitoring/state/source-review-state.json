@@ -1927,7 +1927,12 @@
       "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
       "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
       "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-      "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
+      "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+      "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+      "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3133,7 +3138,11 @@
       "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
       "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-      "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/"
+      "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+      "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+      "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+      "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+      "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/"
     ]
   }
 }

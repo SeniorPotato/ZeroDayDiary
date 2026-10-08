@@ -22932,3 +22932,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm Oct 08, 2026 Artificial Intelligence / Cloud Security The npm package known as " tensorlake ," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 "contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code," Socket said . Version 0.5.144 is no longer available for download from the npm package registry. An analysis of the compromised release shows that it contains a preinstall hook designed to launch a JavaScript file ("package/lib/setup.mjs"), an obfuscated loader that launches the main credential-stealing and self-propagating worm ("package/lib/Math_Symbol.js") using the Bun runtime. The stealer malware is designed to harvest credentials across local files, CI environments, Kubernetes, and Vault sources. It also drops the HackBrowserData binary, exfiltrate...
+- **Source URL:** https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow Oct 07, 2026 Artificial Intelligence / Data Security The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of escalation: more attacks, more data loss, more pressure, and more urgency. That narrative is still familiar, but comparing the five most recent years of Voice of the CISO research suggests a more useful reading. The CISO role has not simply become harder because every metric is rising at once. It has become harder because the center of risk has shifted and moved closer to the way work now gets done. The latest 2026 findings show signs of progress. Fewer CISOs expect a material cyberattack in the next 12 months, and fewer report material loss of sensitive information than in 2025. But those improvements sit within a longer trend line that is much less settled. Over five years,...
+- **Source URL:** https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials Oct 07, 2026 Cybercrime / Network Security The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways. "The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat actors to harvest and crack authentication data at scale," the agencies said . "Initial findings indicate attackers are continuing to scan internet-exposed Fortinet firewalls using previously obtained compromised credentials." FortiBleed was first documented by SOCRadar in Hudson Rock in June 2026, with the activity targeting thousands of Fortinet firewalls as part of a global campaign. In all, the Russian-speaking operation is estimated to have netted more than 86,644 working device credentials spanning 194 countries as of June 19, 2026. The campaign subsequently pro...
+- **Source URL:** https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details Oct 07, 2026 Vulnerability / Web Security Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple products, including Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible, and Fisheye. "This arbitrary file access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions," the Australian company said. "Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be sensitive files present that increase your risk." Atlassian said impacted Atlassian Cloud pro...
+- **Source URL:** https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** What Is Agentic Pentesting? What It Proves, and Where It Stops. Oct 07, 2026 Vulnerability / Security Testing If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting. What can the assessment actually prove? When is that proof produced? And, How much of your environment does the proof cover? Most evaluations stop at the first step. However, it’s at the second and third ones where validation programs are won or lost. One note on where we stand: Picus builds and sells autonomous pentesting . That is exactly why we can be precise about where it ends, because the limits belong to the method, not to any vendor's implementation, and no roadmap can remove them. The problem in four numbers Four numbers from this year explain why the second and third questions now c...
+- **Source URL:** https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** Ransomware recovery CEO charged over secret ransom payments
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** Hackers hijack Google domains after breaching ccTLD registries
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-08
+- **Headline / event:** Advantest confirms personal information stolen in ransomware attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
