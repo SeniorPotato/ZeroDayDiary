@@ -1946,7 +1946,12 @@
       "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
       "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
       "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
+      "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+      "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3161,7 +3166,12 @@
       "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
       "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
       "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
-      "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/"
+      "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+      "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+      "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/"
     ]
   }
 }

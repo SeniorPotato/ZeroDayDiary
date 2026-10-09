@@ -23156,3 +23156,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack Oct 09, 2026 Cybercrime / Data Breach The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X . ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The suspect is a Canadian citizen who was arrested in Pennsylvania, according to The New York Times and CBS News . Both cited unnamed sources. The Times reported that the arrest was made on suspicion of involvement in the theft of FBI data. A law enforcement source told CBS News that the suspect is believed to have been directly involved in the hack. An FBI spokesperson declined to comment on the Times report, CBS News said. Patel's post does not say whether the suspect took part in the breach. It calls ShinyHunters "the group believed to be responsible for the recent FBIjobs.g...
+- **Source URL:** https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands Oct 09, 2026 Mobile Security / Malware Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword . "Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure," iVerify said in a new report published Thursday. The name "P7" is a nod to the threat actor's use of the "p7_" variable prefix in changes made to the original DarkSword code. DarkSword was first publicly documented earlier this March by Google Threat Intelligence Group (GTIG), iVerify, and Lookout, detailing its ability to target iPhones running iOS versions between iOS 18.4 and 18.7. The kit was detected in the wild in November 2025. The toolkit is engineered to chain multiple iOS vulnerabilities to escape the browser sandbox, escalate to kernel privileges, and inject the main payload into SpringBoard, t...
+- **Source URL:** https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** TP-Link Sued by Four More U.S. States Over Router Security and China Ties Oct 09, 2026 Network Security / Data Privacy Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February . Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link denies the claims and says it will fight them in court. TP-Link Systems is based in Irvine, California. Until a 2024 restructuring, it was affiliated with TP-Link Technologies, a Chinese company that the suits do not name as a defendant. The complaints from Florida , Montana , and Nebraska do not allege that the Chinese government has obtained customers' data through TP-Link. They describe that as a risk under Chinese law. Separately, they say state-backed hackers have exploited flaws in TP-Link routers. Iowa's announcement is worded more strongly in places. Attorney General Brenna Bird's office said TP-Link firmware gives the Chinese governm...
+- **Source URL:** https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access Oct 09, 2026 Vulnerability / Endpoint Security Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its changelog described the fix only as "fixed a bug that could lead to a crash," with no CVE assigned and no security advisory. The exploit, called AnyPwn, targets a heap buffer overflow in AnyDesk's session protocol, a remote desktop tool. The code was released on GitHub on October 8. Administrators should update AnyDesk Linux to at least version 8.0.3. The latest release is 8.1.0. What the Exploit Demonstrates The published exploit works only over direct TCP connections on port 7070. The exploit is probabilistic: the heap layout must place a target object adjacent to the overflowed buffer; otherwise, the service crashes instead of executing the attacker's command. The offsets in the published code...
+- **Source URL:** https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects Oct 09, 2026 Vulnerability / Artificial Intelligence Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing," Anthropic said . "Projects that join will receive thorough, periodic security scans by our strongest models at no cost." Anthropic also noted that the outputs of the scanner will be fully model-generated and do not require human review or triage, thereby facilitating faster and more frequent scanning. These reports are expected to be generated by its strongest models, including Claude Mythos. The company pointed out that it expects to use a set of criteria similar to Google's OSS-Fuzz to pick projects, while emphasizing that the process may evolve over time. Project maintainers are advised to provide a short description explaining the importance of their project in cases where "...
+- **Source URL:** https://thehackernews.com/2026/10/anthropic-launches-free-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto
+- **Source URL:** https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** FBI arrests another suspected ShinyHunters hacker after agency breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Germany arrests alleged core Qilin ransomware member after extradition
+- **Source URL:** https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** How to keep AI agents within their permissions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Max severity SonicWall SMA1000 flaw now exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
