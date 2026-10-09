@@ -23084,3 +23084,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia Oct 08, 2026 Web Security / Threat Intelligence Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe, and Australia. The campaign uses a multi-stage routing chain to screen visitors and automated traffic before delivering an Adobe-themed Device Code phishing page. For security teams, that makes Wazza more than another malicious URL. The campaign shows how attackers can control the path to the final lure, making the initial link less informative and potentially complicating automated detection. MSSPs face an added challenge, as they investigate alerts across multiple customer environments while keeping response times under control. That uncertainty can translate directly into longer in...
+- **Source URL:** https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** 16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases Oct 08, 2026 Browser Security / Malware Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. "The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to attacker-controlled Cloudflare Workers," Socket researcher Joseph Edwards said in an analysis. The names of the extensions are below - view-focus-bright@webtools.co@6.12.2 quick-track-nest@tabtools.co@8.1.18 vibe-kit-tool@fasttools.co@9.21.9 edge-hub-snap@protools.net@4.12.24 core-hub-peak@neattools.example@8.24.21 sipoo-grozza@browserweb.com@2.1 mozart-seo@webtools.com@1.4 clean-file-bar@neattools.com@4.21.8 clean-net-timer@plugify.example@4.17.1 manager-square@webtools.com@1.4 manager-course@webtools.com@1.4 val-andrew@browserweb.com@1.4 manag...
+- **Source URL:** https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks Oct 08, 2026 Cybercrime / Cyber Espionage The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for information leading to his identification or location, the news outlet NTD reported this week, citing a notice from the department's Rewards for Justice program. Zhang remains at large, U.S. authorities say, meaning he has not been arrested. The charges against him have not been tested in court. Rewards for Justice is the State Department's national security rewards program. It says it has paid more than $250 million to over 125 people since 1984. Zhang is wanted for his alleged role in "malicious cyber activities against U.S. critical infrastructure," NTD quoted the notice as saying. The amount and that wording match an offer the program was already making in January 2025 . That of...
+- **Source URL:** https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data Oct 08, 2026 Cybercrime / Ransomware The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire fraud conspiracy. If convicted, the defendant faces up to 20 years in prison for each count. "By falsely claiming to decrypt ransomware without paying off the ransomers, the defendant re-victimized his clients while extracting a hefty profit for himself," said U.S. Attorney Joseph Nocella, Jr. for the Eastern District of New York. Pinhasi, who owned and operated a Florida company called MonsterCloud, is alleged to have made false representations to ransomware victims, urging them not to pay a ransom and claiming to have "proprietary tools" and "advanced decryption tec...
+- **Source URL:** https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** FBI disrupts Chinese hacking tools used to breach critical infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Ransomware attack disrupts Japan's IDCF Cloud used by govt clients
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** Low-cost Android phones ship with residential proxy
+- **Source URL:** https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-09
+- **Headline / event:** FakeGit malware campaign returns with 17,610 malicious GitHub repos
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

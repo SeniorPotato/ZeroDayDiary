@@ -1,106 +1,96 @@
 {
-  "generatedAt": "2026-10-08T18:52:15.849Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-08T185215Z.md",
+  "generatedAt": "2026-10-09T06:13:25.059Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-09T061325Z.md",
   "candidates": [
     {
-      "discovered": "2026-10-08",
-      "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+      "discovered": "2026-10-09",
+      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia Oct 08, 2026 Web Security / Threat Intelligence Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe, and Australia. The campaign uses a multi-stage routing chain to screen visitors and automated traffic before delivering an Adobe-themed Device Code phishing page. For security teams, that makes Wazza more than another malicious URL. The campaign shows how attackers can control the path to the final lure, making the initial link less informative and potentially complicating automated detection. MSSPs face an added challenge, as they investigate alerts across multiple customer environments while keeping response times under control. That uncertainty can translate directly into longer in...",
+      "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "chinese-government-linked-cyber-threat-actors-combine-automated-and-hands-on-hacking-tools",
-      "sourceId": "cisa-advisories",
-      "source": "CISA Cybersecurity Advisories"
-    },
-    {
-      "discovered": "2026-10-08",
-      "title": "FTC Secures Settlement with Auto Dealership Group in Price Transparency Win for Consumers",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-auto-dealership-group-price-transparency-win-consumers",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-secures-settlement-with-auto-dealership-group-in-price-transparency-win-for-consumers",
-      "sourceId": "ftc-press",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-10-08",
-      "title": "FTC Secures Fair Pricing Protections by Taking Action Against Major Wholesale T-Shirt Distributors",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-fair-pricing-protections-taking-action-against-major-wholesale-t-shirt-distributors",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-secures-fair-pricing-protections-by-taking-action-against-major-wholesale-t-shirt-dist",
-      "sourceId": "ftc-press",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-10-08",
-      "title": "FTC Returns More than $15.8 Million to Consumers Misled by Cash Advance App Company Cleo AI",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-returns-more-than-15-8-million-to-consumers-misled-by-cash-advance-app-company-cleo-ai",
-      "sourceId": "ftc-press",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-10-08",
-      "title": "How Technology Empowers—and Imperils—Dictators",
-      "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "how-technology-empowers-and-imperils-dictators",
-      "sourceId": "schneier-on-security",
-      "source": "Schneier on Security"
-    },
-    {
-      "discovered": "2026-10-08",
-      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails Oct 08, 2026 Data Breach / Cyber Espionage Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group , has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more than 1,300 scripts, guessed passwords for Microsoft 365 and Exchange accounts, and copied mailboxes using tools designed to collect mail. The hackers have been breaking into networks since at least mid-January 2021, according to the agencies' joint advisory . It describes the hacking in the present tense but provides no date for any theft and does not specify how many organizations were breached. The same hackers targeted U.S. government services, critical manufacturing, healthcare, and IT organizations, along with U.S. law enforcement, education, and religious groups. Organizations ...",
-      "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "fbi-says-china-linked-hackers-ran-portal-giving-third-parties-access-to-stolen-emails-oct-",
+      "slug": "wazza-phishkit-targets-banking-government-and-manufacturing-across-the-us-eu-and-australia",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-10-08",
-      "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories Oct 08, 2026 Hacking News / Cybersecurity News The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more reassuring. Malicious code turned up in developer packages and extensions that looked harmless. Familiar online services helped phishing emails appear legitimate. A basic file upload flaw gave attackers a way in, while weak session cookies made impersonation far too easy. Even AI assistants are getting their own instructions hidden inside phishing messages now. What's interesting is the gap between effort and results. Some attacks involve several stages, careful timing, and plenty of tricks. Others get surprisingly far because of a bad design choice or something nobody bothered to check. Both seem to be working well enough. Anyway, here's what else turned u...",
-      "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+      "discovered": "2026-10-09",
+      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases Oct 08, 2026 Browser Security / Malware Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to attacker-controlled Cloudflare Workers,\" Socket researcher Joseph Edwards said in an analysis. The names of the extensions are below - view-focus-bright@webtools.co@6.12.2 quick-track-nest@tabtools.co@8.1.18 vibe-kit-tool@fasttools.co@9.21.9 edge-hub-snap@protools.net@4.12.24 core-hub-peak@neattools.example@8.24.21 sipoo-grozza@browserweb.com@2.1 mozart-seo@webtools.com@1.4 clean-file-bar@neattools.com@4.21.8 clean-net-timer@plugify.example@4.17.1 manager-square@webtools.com@1.4 manager-course@webtools.com@1.4 val-andrew@browserweb.com@1.4 manag...",
+      "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "threatsday-ransomware-affiliate-betrayal-whatsapp-rat-exposed-hacker-tools-and-12-more-sto",
+      "slug": "16-malicious-firefox-extensions-pose-as-rabby-and-okx-wallets-to-steal-recovery-phrases-oc",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-10-08",
-      "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks Oct 08, 2026 Data Breach / Web Security Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/CC called what it knows \"limited and fragmentary\" in the alert, translated here from Japanese. It said its account does not mean the same method was used in every incident. Besides consumer apps, the systems hit include business intelligence (BI) tools and employee-facing management systems that their operators did not expect the public to reach. Data stored in them leaked in some cases. For defenders, the alert includes eight source IP addresses, five User-Agent strings, and a list of API controls, including access controls on every endpoint, public or not. The only product it names a...",
-      "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+      "discovered": "2026-10-09",
+      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks Oct 08, 2026 Cybercrime / Cyber Espionage The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for information leading to his identification or location, the news outlet NTD reported this week, citing a notice from the department's Rewards for Justice program. Zhang remains at large, U.S. authorities say, meaning he has not been arrested. The charges against him have not been tested in court. Rewards for Justice is the State Department's national security rewards program. It says it has paid more than $250 million to over 125 people since 1984. Zhang is wanted for his alleged role in \"malicious cyber activities against U.S. critical infrastructure,\" NTD quoted the notice as saying. The amount and that wording match an offer the program was already making in January 2025 . That of...",
+      "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "japan-sees-sharp-rise-in-web-data-leaks-amid-mobile-api-abuse-and-metabase-attacks-oct-08-",
+      "slug": "u-s-offers-up-to-10-million-for-tips-on-zhang-yu-charged-in-hafnium-hacks-oct-08-2026-cybe",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-10-08",
-      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML Oct 08, 2026 Malware / Cyber Espionage The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN . According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065). ASHVEIN, which its developers internally refer to as \"TelemetryBrowser,\" brings together credential theft, surveillance, and remote-control capabilities. Its functionality includes credential theft from Chrome and Firefox, GDI-based screenshot capture, file enumeration and retrieval, PowerShell remote shell execution, system fingerprinting, and encrypted command-and-control (C2) communications. \"ASHVEIN also hides tasking inside invisible HTML elements,\" TrendAI said . \"Some variants use a GitHub-based dead drop resolver as a fallback mechanism, while delivery methods inclu...",
-      "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+      "discovered": "2026-10-09",
+      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data Oct 08, 2026 Cybercrime / Ransomware The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire fraud conspiracy. If convicted, the defendant faces up to 20 years in prison for each count. \"By falsely claiming to decrypt ransomware without paying off the ransomers, the defendant re-victimized his clients while extracting a hefty profit for himself,\" said U.S. Attorney Joseph Nocella, Jr. for the Eastern District of New York. Pinhasi, who owned and operated a Florida company called MonsterCloud, is alleged to have made false representations to ransomware victims, urging them not to pay a ransom and claiming to have \"proprietary tools\" and \"advanced decryption tec...",
+      "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "uac-0099-targets-ukrainian-government-personnel-with-ashvein-rat-hiding-commands-in-html-o",
+      "slug": "monstercloud-owner-accused-of-billing-over-19m-while-secretly-paying-ransoms-to-decrypt-da",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-10-08",
-      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms Oct 08, 2026 Agentic AI / Web Security Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration. \"In this activity, the threat actor leveraged ARTEX, a recently released open-source agentic penetration testing (pentesting) tool developed in China, alongside large language models (LLMs),\" the cybersecurity company said . CrowdStrike said it discovered the campaign after it identified a set of open directories hosted at a Hong Kong-based IP address, exposing Claude Code session histories, Claude memory files, and ARTEX configuration files. The campaign has not been attributed to any known threat actor or group. But evidence points to a suspected Chinese-speaking operator driven by financial gain. ARTEX is a large lan...",
-      "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+      "discovered": "2026-10-09",
+      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-korean-financial-firms-oct-08",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
+      "slug": "hackers-get-1-262-000-for-98-zero-days-at-pwn2own-ireland",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-09",
+      "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-09",
+      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ransomware-attack-disrupts-japan-s-idcf-cloud-used-by-govt-clients",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-09",
+      "title": "Low-cost Android phones ship with residential proxy",
+      "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "low-cost-android-phones-ship-with-residential-proxy",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-10-09",
+      "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+      "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "fakegit-malware-campaign-returns-with-17-610-malicious-github-repos",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
     }
   ]
 }

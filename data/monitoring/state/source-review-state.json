@@ -1942,7 +1942,11 @@
       "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
       "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
       "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-      "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
+      "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+      "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+      "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+      "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3152,7 +3156,12 @@
       "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
       "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-      "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/"
+      "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/"
     ]
   }
 }
