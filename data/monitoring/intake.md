@@ -23316,3 +23316,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't Oct 10, 2026 Artificial Intelligence / Enterprise Security In environments studied for the 2026 State of Agent Security Report , roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest expression of a shift the security industry is only starting to name. For several years, "AI security" solved a first-party problem: the company decided to use AI, procured licenses, deployed a model behind a gateway, and security pointed controls at the thing the business had chosen. Agents do not arrive that way. They arrive inside software the enterprise already runs, and they arrive without a decision. Why the decision point mattered more than the controls Every control in the first-party toolkit assumes a moment exists: model scanning assumes a model was selected, prompt inspect...
+- **Source URL:** https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws Oct 10, 2026 Artificial Intelligence / Web Security Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos Preview exploiting SQL or command injection flaws in unspecified third-party software to run commands on a university server, either because its own tools were intentionally limited or because an outside service it needed was unavailable, causing it to use other tools hosted on a third party's site to complete the task. Claude Haiku 4.5 and a non-frontier research model submitting a sensitive form on a real website when it was not authorized to do so. This occurred in scenarios where instructions were ambiguous or due to environment misconfigurations that prevented the agent from w...
+- **Source URL:** https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** ARTEX AI, Claude agents used in cyberattacks on South Korean banks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management
+- **Source URL:** https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

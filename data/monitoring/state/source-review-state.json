@@ -1958,7 +1958,9 @@
       "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
       "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
       "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html"
+      "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+      "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3181,7 +3183,10 @@
       "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
       "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/"
+      "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
+      "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/"
     ]
   }
 }
