@@ -23236,3 +23236,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** FBI Arrests Founder of Ransomware Negotiation Firm
+- **Source URL:** https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Friday Squid Blogging: I Caught a Squid
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories Oct 09, 2026 Supply Chain Attack / Cloud Security Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. "Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC," StepSecurity said . "Eight hours later, the account of Henry Wu (henrywoo), the original author of Uber's athenadriver, was used to push the same workflow to 318 repositories in a 16-minute window, 21:10–21:26 UTC." As of October 9, 2026, Socket said it has identified more than 500 GitHub accounts that committed the malicious workflow to tens of thousands of repositories since October 7, 2026. The activity has been attributed to GhostAction , a massive supply chain attack campaign that first came to light in September 2025. The activity impacted 817 repositories across 327 GitHu...
+- **Source URL:** https://thehackernews.com/2026/10/credential-stealing-github-actions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge Oct 09, 2026 Vulnerability / Cryptojacking Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the "com/ahsay/obs/api/ApiStructsAction.java" component. CVE-2026-105134 (CVSS v4 score: 9.3) - An operating system command injection vulnerability in the Replication Receiver component. A remote attacker could chain the two vulnerabilities to bypass authentication and execute arbitrary commands on affected systems. It's worth noting that CVE identifiers for these flaws were not published until October 4, 2026. According to Huntress, exploitation efforts aimed at the two flaws began on October 7, 2026, at 11:20 p.m. UTC, with unidentified threat actors weaponizing them to achieve remote code execution on impacted hosts...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies Oct 09, 2026 Vulnerability / Cyber Espionage The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands. CVE-2021-3199 (CVSS score: 9.8) - A path traversal vulnerability in ONLYOFFICE Docs that can occur when JSON Web Token (JWT) is used, via a "/.." sequence in an image upload parameter and could allow for remote code execution. CVE-2023-22894 (CVSS score: 7.2) - A cleartext storage of sensitive information vulnerability in Strapi that could allow an attacker with access to the admin panel to discover sensitive user details via the query filter. CVE-2016-3081 (CVSS score: 8.1) - A...
+- **Source URL:** https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition Oct 09, 2026 Identity Security / Artificial Intelligence As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The " Horizons of Identity Security " report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a structural failure that legacy approaches cannot solve. The data shows that while businesses have spent years maturing their identity programs for human employees, those same playbooks are fundamentally broken when applied to the ephemeral, autonomous, and rapidly multiplying world of non-human AI agents. A Market Stalled at the Starting Line Despite years of investment in identity and access management, the market's overall security maturity has hit a wall. According to the report, the center of gravity remains firmly planted in the foundational stages, with a combined 6...
+- **Source URL:** https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys Oct 09, 2026 Vulnerability / Dark Web A bug in GoBalance , a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which disclosed the flaw on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control. Taking over the address does not grant the attacker access to the site's servers, database, or stored user data. How the Flaw Works An .onion address is really a public key , so whoever holds the matching private key controls the address. To stay reachable, a site publishes a signed record, called a descriptor, that anyone on the Tor network can fetch, and GoBalance signs that record. The flaw is in the signing step. A Tor private key is 64 bytes long, but GoBalance passed only the first 32 bytes to the signer and dropped the rest. The dropped half is the part that k...
+- **Source URL:** https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Citrix warns admins to patch new NetScaler RCE flaw immediately
+- **Source URL:** https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-10
+- **Headline / event:** Man admits to running network of 15,000 money mules for cybercriminals
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
