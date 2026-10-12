@@ -629,7 +629,8 @@
       "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
       "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
       "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html"
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1960,7 +1961,12 @@
       "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
       "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
       "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
+      "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3187,7 +3193,12 @@
       "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
       "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
       "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+      "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
     ]
   }
 }

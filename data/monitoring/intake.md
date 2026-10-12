@@ -23364,3 +23364,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** FBI Arrests Suspect in FBI-Hacking Case
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** ⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More Oct 12, 2026 Cybersecurity News / Hacking Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves. Malware got better at hiding its tracks. And some systems turned out to be easier to break into than anyone would like to admit. The odd part is how normal much of it looked until someone checked closer. There's more going on here than a few bad bugs and clever attacks. Some of the smaller stories are just as telling. This week's full recap is worth a read, especially the bits that didn't make the big headlines. ⚡ Threat of the Week Atlassian Flaw Exploited in the Wild — Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian...
+- **Source URL:** https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports Oct 12, 2026 Cryptocurrency / Cybercrime Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86 million, according to pseudonymous blockchain investigator Specter . "We recommend Ledger users who purchased from this reseller in the last 90 days to not initiate set up if you have not done so yet," Ledger said in an X post. "If you have set up your Ledger device, consider moving assets to a new Ledger signer (with new seed)." The company has since revealed that one of the impacted users' devices contained an unauthorized hardware implant, and that it's reaching out to impacted users as part of an ongoing probe into the incident. Out of an abundance of caution, ...
+- **Source URL:** https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch Oct 12, 2026 Vulnerability / Network Security Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker "to direct the appliance to issue requests on their behalf and reach internal functionality and perform unauthorized operations." Patches for the flaw were released by SonicWall on October 6, 2026, with versions 12.4.3-03670 (platform-hotfix) and 12.5.0-03082 (platform-hotfix). The vulnerability has since started witnessing active exploitation attempts, with first signs detected by threat intelligence firms Defused Cyber and Previdian on October 8, 2026. Data from Previdian shows that a total of 135 attempts have been observed to date from two unique IP addresses located in the U.S. SonicWall has yet to update the advisory ...
+- **Source URL:** https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE Oct 12, 2026 Vulnerability / Web Security A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The security flaw impacts Bricksforge versions up to and including 3.1.8.9. Patches have been released in version 3.1.8.10. Bricksforge is a WordPress plugin that's advertised as a "Swiss Army knife" for Bricks, a visual website-building tool for WordPress, with support for animations, advanced forms, and scrolling video sequences. WordPress security company Patchstack said it detected exploitation efforts targeting the flaw on October 7, 2026, at 9:47 p.m. UTC. "Bricksforge validates a file's MIME type when it is first uploaded. When a form is later submitted, however, it ...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records Oct 12, 2026 Web Security / Cybercrime Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed to a Russian-speaking, financially motivated initial access broker codenamed CyberXero . The threat actor is assessed to be active since at least July 2026. "The operation runs two pipelines at once: a global, automated campaign against WordPress and e-commerce platforms, and a curated, manual campaign against Ukrainian energy and critical infrastructure," SOCRadar said in a report published last week. The global campaign specifically focuses on known security flaws like wp2shell (CVE-2026-63030 and CVE-2026-60137) and CVE-2026-4815 , an SQL injection vulnerability impactin...
+- **Source URL:** https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Anthropic takes risky AI tests offline after models breach govt sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Retail giant Ahold Delhaize takes systems offline after cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Cyberattack shuts down refrigerators at French supermarkets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Norway fines Microsoft ad firm $9.6 million over Grindr data sharing
+- **Source URL:** https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-12
+- **Headline / event:** Yandex confirms service outage as users lose access to cloud files
+- **Source URL:** https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
