@@ -1,16 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:41:54.212Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-11T174154Z.md",
-  "candidates": [
-    {
-      "discovered": "2026-10-11",
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "nippon-columbia-malware-incident-exposes-8-6-million-karaoke-fan-records",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    }
-  ]
+  "generatedAt": "2026-10-12T06:03:05.557Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-12T060305Z.md",
+  "candidates": []
 }
