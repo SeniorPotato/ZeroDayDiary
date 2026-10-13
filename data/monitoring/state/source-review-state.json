@@ -1966,7 +1966,8 @@
       "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
       "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
       "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-      "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+      "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3198,7 +3199,10 @@
       "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
       "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
       "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
+      "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
     ]
   }
 }

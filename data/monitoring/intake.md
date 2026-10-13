@@ -23452,3 +23452,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies Oct 13, 2026 Mobile Security / Cybercrime Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa . The preinstalled malware ("com.android.system.lite") runs with system-level privileges, which make it possible to install or uninstall apps, grant itself additional permissions to accessibility services, notifications, and SMS, and load arbitrary code supplied remotely by the operators. Specifically, it fetches a remote configuration from an external server and then downloads and executes additional payloads designed to conduct ad fraud and silent installation or removal of partner apps. These apps incorporate proxyware, ad fraud, and code execution features. It can also grant permission to any Androi...
+- **Source URL:** https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Ledger confirms spy chip implant behind wallet crypto thefts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** GitLab warns of max severity code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
