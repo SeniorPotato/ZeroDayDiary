@@ -336,7 +336,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-auto-dealership-group-price-transparency-win-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-fair-pricing-protections-taking-action-against-major-wholesale-t-shirt-distributors",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -1967,7 +1969,12 @@
       "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
       "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
       "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html"
+      "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3202,7 +3209,12 @@
       "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
       "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
       "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-      "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+      "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+      "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/"
     ]
   }
 }

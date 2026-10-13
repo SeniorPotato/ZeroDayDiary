@@ -23484,3 +23484,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** FTC, States Ask Federal Court to Hold Martin Shkreli in Contempt for Allegedly Violating Lifetime Ban from Pharmaceutical Industry
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** FTC Sues Operator of Sextortion Relief Scheme for Misleading Consumers into Believing it Would Identify Criminals and End Sextortion Attacks
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets Oct 13, 2026 Artificial Intelligence / IoT Security Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are "challenging to shut down," since "there's no centralized point to shut off." Prior work has demonstrated that AI agents can act like one by scanning their network, executing an exploit, and copying model weights to a target machine across a GPU cluster with an aim to generate tailored attack strategies and use compromised machines as a botnet to run large language models (LLMs) in order to sustain its reasoning and expand in scale. "Such an 'AI worm' could carry its model weights with it as it reproduces (or re-download them from a public hub), and then run inference directly on compromised hardware," Anthropic said . "Eff...
+- **Source URL:** https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another Oct 13, 2026 A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that converts a personal account into an organization, Docker said in a security advisory on October 12. Conversion transferred the account's personal access tokens (PATs) to the user designated as the organization's owner. A PAT is used in place of a password in the registry, and the person who created each token can still use it. The access was limited to the registry. It did not reach the Docker Hub web interface, and it could not be used to change a password, email address, or two-factor settings, or to take over an account. Docker tracks the flaw as CVE-2026-105445 and rated it critical. The CVE record it published on October 13 gives the flaw a CVSS 4.0 score of 9.4. The ...
+- **Source URL:** https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far Oct 13, 2026 Vulnerability / Enterprise Security An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to "act immediately." A fix for the third is still pending, according to Volexity. Volexity, which reported the flaws to Ivanti, found the attack on one customer's appliance. The appliance was fully patched at the time and running version 22.8R2.4. The attacker, which Volexity tracks as UTA0576, began exploiting it on October 3. Ivanti said on October 13 that it is aware of "limited exploitation in the wild." The first two flaws are an authentication bypass and a remote code execution flaw, tracked together as CVE-2026-104935 . Together they let an attacker run code as the appliance's cgi-server user, and the third flaw, a privilege escalation, raises that to root, Volexity said. The CVE reco...
+- **Source URL:** https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft Oct 13, 2026 Vulnerability / Cloud Security A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain, the name such an application passes to the SDK to say which tenant a request is for. The flaw is tracked as CVE-2026-89111 and carries SAP's CVSS score of 10.0 out of 10. The advisory names version 0.45.2 , released on August 21, as the fix. The SDK handles authentication for those services with the application's client credentials, a client ID and a client secret. Version 0.45.2 added a check that rejects any tenant subdomain that is not a simple name. Six later releases do not apply that check in every case, The Hacker News found. Versions 0.53.0 through 0.55.0, published betwe...
+- **Source URL:** https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking Oct 13, 2026 DevSecOps / Supply Chain Security GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. "Your configuration becomes validated and exempt from expiry after its first successful publish," the Microsoft-owned subsidiary said . "Changing the repository or project identity requires a new trust relationship with a fresh 48-hour validation window -- ordinary edits don't restart the deadline." The change contains the risk associated with trusting a repository or project name that changes ownership, GitHub said, adding npm also rejects trusted publishing tokens from GitHub Actions issue_comment events going forward, along with the Existing pull_request_target restriction. In an update to its documentation, GitHub states that a newly created trusted publisher configuration must compl...
+- **Source URL:** https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** UK Housing Ombudsman Service investigates 'security incident'
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** TFG London cyberattack disrupts systems at Hobbs and Whistles retailers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Ivanti warns of Connect Secure zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** Docker Hub flaw let attackers impersonate users, tamper with images
+- **Source URL:** https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-13
+- **Headline / event:** The MFA Gaps Attackers are Still Exploiting
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
