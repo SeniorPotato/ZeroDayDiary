@@ -23580,3 +23580,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Microsoft Patches More Than 1,400 Security Flaws
+- **Source URL:** https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug Oct 14, 2026 Vulnerability / Endpoint Security Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities , including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code execution flaws and 250 information disclosure flaws. Over 70 flaws are rated Critical in severity. "Hundreds of CVEs in a single release used to be the exception; now it's the baseline," Dustin Childs, head of Threat Awareness at the Zero Day Initiative (ZDI), said . "Is AI to blame? Partly. It's accelerating bug-hunting on both sides of the fence, so vendors are finding (and fixing) more flaws, and researchers are finding them faster too." "But AI isn't creating these bugs out of thin air; it's just shortening the time between a vulnerability existin...
+- **Source URL:** https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room Oct 14, 2026 Insider Threat / Artificial Intelligence A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by authorities on October 9, 2026, the U.S. Department of Justice (DoJ) said. Alfozan had been employed at OpenAI since July 2025, working as an engineering lead. He has since been terminated. According to Alfozan's LinkedIn profile, he graduated from the University of California, Berkeley, with a master's in data science in 2025. He was previously employed at Meta as a senior systems engineer and went on to become the founding engineer at Nash. "Abdulrahman Alfozan allegedly concealed a covert recording device inside his employer's executive conference room to secretly capt...
+- **Source URL:** https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation Oct 13, 2026 Data Privacy / Compliance The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the "very serious" nature of the breach. The infringements occurred between July 2018 and April 2020. "Xandr acted as an intermediary that relayed the personal data of Grindr users in Norway, including data revealing sexual orientation, to potentially thousands of other companies," the Data Protection Authority said in a statement. The data protection authority said its investigation found that Xandr was a joint controller with Grindr, which meant it was responsible for obtaining users' consent before processing their data. Instead of ensuring they had the legal basis for their own processing of the data, Xandr pointed fing...
+- **Source URL:** https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** [Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls Oct 13, 2026 Artificial Intelligence / Identity Security The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much larger attack. And that's where traditional identity security faces a serious problem: Checking who gets access isn't enough if you can't control what happens after. See How to Stop AI-Powered Identity Attacks — Register for the Webinar Why Traditional Identity Controls Are Falling Behind
+- **Source URL:** https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network Oct 13, 2026 Vulnerability / IoT Security Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to an advisory published by SSD Secure Disclosure on October 12. The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware 04.54.40. Whether other models or firmware versions are affected is not known. Owners of affected TVs should check for a firmware update. No workaround is available for those who cannot update yet. The attack enters through a service that the TV exposes on port 3001, which is used by the LG ThinQ app for pairing. An attacker replays a manifest from sync-demo, a built-in app already on the device, signed with a test certificate the firmware trusts. A permission in the manifest causes the pairing service to skip the PIN prompt and hand over a privileged key. With that key, the attacker laun...
+- **Source URL:** https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Anthropic warns self-replicating AI could spread to your smart devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Ghostscript flaw lets hackers hijack servers via PDF uploads
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** SAP warns of maximum severity OAuth2 SSRF security flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
