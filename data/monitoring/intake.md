@@ -23668,3 +23668,123 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** U.K. Sanctions Cryptomus for RU Money Laundering
+- **Source URL:** https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** How Cryptocurrency Turns to Cash in Russian Banks
+- **Source URL:** https://krebsonsecurity.com/2024/12/how-cryptocurrency-turns-to-cash-in-russian-banks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** a record CAD $176 million fine
+- **Source URL:** https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** The Future of AI Cryptanalysis
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Cyberattack on Connected Fridges in France
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages Oct 14, 2026 Cybercrime / Financial Fraud Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System . "Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide," the Microsoft Threat Intelligence and Microsoft Digital Crimes Unit said . The court-authorized operation is the result of an investigation that Microsoft launched in late 2025 after it was notified of malicious messaging campaigns targeting people in Japan. The The Chinese-language cybercriminal ecosystem has been described as an interconnected network of phishing kit operators, developers, and an illicit marketplace and initial access broker (IAB) codenamed YAM ...
+- **Source URL:** https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud Oct 14, 2026 Cybercrime / Social Engineering The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme . The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money laundering conspiracy, conspiracy to commit identity theft, and aggravated identity theft. The following individuals have been charged - Sun Sheng Ming, 37, Dandong City, China Pei Li Guang, age unknown, Liaoning, China Weng Shou Cheng, age unknown, Liaoning, China Han Guo Bin, age unknown, Dandong City, China Wang Jian Jun, 34, Dandong City, China Sheng Zhang Kun, age unknown, Shenzhen, China Zhang Wei Ping, age unknown, Dandong City, China Zhang Li Ping, age unknown, unknown location Yu Yang, 40, age unknown, Dandong City, China Jin Long, 35, unknown locat...
+- **Source URL:** https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts Oct 14, 2026 Vulnerability / Cybercrime The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior that could allow a remote unauthenticated attacker to execute arbitrary commands. "CISA is aware of cyber threat actors exploiting this zero-day authentication bypass vulnerability, which allows remote, unauthenticated execution of arbitrary commands, to conduct credential theft and data exfiltration," the agency said . The agency has since added the flaw to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by October 16, 2026. ...
+- **Source URL:** https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution Oct 14, 2026 Vulnerability / Web Security A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0 . Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash instead. The flaw, a use-after-free tracked as CVE-2026-92392 , affects curl and libcurl 8.12.0 through 8.22.0, both the command-line tool and the library that many other programs use for transfers. curl rates it High on its own four-level scale, its first High-severity flaw since the SOCKS5 heap overflow of October 2023 . The project cut its release cycle by two weeks to ship the fix. The attack runs from the server side. The client has to upload a file of roughly 135KB over HTTP/2 to a server controlled by the attacker, and the server's certificate must pass the client's checks....
+- **Source URL:** https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team Oct 14, 2026 Social Engineering / Artificial Intelligence Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes Monday. She's traveling, she's rushed, and she apologizes for the bad connection. Ten minutes later an email lands with the wire details. A couple of years ago that scenario was a conference talk. Now it shows up in incident reports. In a 2025 Gartner survey of 302 cybersecurity leaders , 62% said their organization had experienced at least one deepfake attack in the prior 12 months. In the same survey, 43% reported at least one deepfake audio call incident and 37% had run into deepfakes on video calls. And the wire is only the obvious ask. The same cloned voice can call the help ...
+- **Source URL:** https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** The Blind Spots of Agentic Pentesting and How to Close Them
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Global takedown hits network behind 1 billion phishing messages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** CISA warns admins to immediately fix Ivanti flaw exploited as zero-day
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Hirudo Android malware replaces banking apps to evade security checks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-14
+- **Headline / event:** Microsoft: Recent Windows updates may trigger Remote Desktop failures
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
