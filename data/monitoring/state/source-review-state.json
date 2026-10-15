@@ -641,7 +641,8 @@
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
       "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
       "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html"
+      "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -1998,7 +1999,12 @@
       "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
       "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
       "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-      "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html"
+      "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+      "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3250,7 +3256,10 @@
       "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
       "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
-      "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/"
+      "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
     ]
   }
 }

@@ -23868,3 +23868,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Measuring Human Cryptanalysis Effort
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads Oct 15, 2026 Spyware / Cyber Espionage Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background. The Citizen Lab, a research group at the University of Toronto, said this is the first public, technical confirmation that mercenary spyware, meaning hacking tools sold to governments, has reached real devices through targeted ads. The method had been described before from leaked company documents, but not shown in a live attack. The researchers recovered the spyware itself from one device, but not the exploit that breaks into the browser or app to install it. That first break-in step is described from how the attack was set up, not from captured code. How the Attack Worked The ads were placed by...
+- **Source URL:** https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks Oct 15, 2026 Cyber Espionage / Malware The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives exploiting CVE-2025-8088 . The attacks lead to the deployment of custom reverse shells like FoalShell, Chvost, Laplas, and PickleShell that facilitate interactive remote access to compromised hosts, according to Cisco Talos and Recorded Future Insikt Group, which are tracking the campaign under the monikers UAT-6275 and TAG-193. "UAT-6275's targeting is concentrated in Central Asia, and the wider CIS region," security researcher Ashley Shen said . "Across the reviewed campaigns, observed victims and lure themes span nine countries: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenist...
+- **Source URL:** https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams Oct 15, 2026 Cybercrime / Web Security A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka , which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting users to tech support scams. These scams make use of full-screen browser manipulation and exit prevention techniques to serve bogus Microsoft Windows security alert screens instructing victims to contact a Windows Support number to address the problem. "Help TDS delivers tech support scams (TSSs) that direct users to call centers, where social engineering is used to convince them to install remote desktop tools," Infoblox said in a report shared with The Hacker News. "It's not simple credit card fraud: it's remote access, living-off-the-land malware operations. Once in,...
+- **Source URL:** https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks Oct 15, 2026 Vulnerability / Web Security NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could get past client-certificate checks, though F5 calls the forgery non-deterministic and beyond the attacker's control. The fifth lets an HTTP/3 client slip extra bytes into a request that NGINX passes on to a backend. None of the five was in CISA's Known Exploited Vulnerabilities catalog as of October 15, and neither NGINX nor F5 reports attacks. NGINX rates all five medium . F5 scores the three memory bugs 9.2, Critical, on CVSS v4.0, the TLS flaw 8.3, and the HTTP/3 flaw 6.9. Which Configurations Are Exposed Every one of the five needs a directive you added: an alias...
+- **Source URL:** https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing Oct 15, 2026 Vulnerability / Web Security Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the sharp package to handle SVG images. The fixes are in Next.js 16.4.1 and 15.5.28, the current Active and Maintenance long-term support (LTS) releases. What Was Fixed The update covers three separate issues. Vercel, which develops Next.js, rated both code-execution flaws critical, each with a CVSS score of 9.5. The table lists the versions each issue affects and the version that fixes it. Issue Affected versions Fixed in Who is exposed Code execution through use cache ( GHSA-673q-mjm6-r5xr ...
+- **Source URL:** https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Is AI pentesting as good as a human pentester?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** Police arrests 95 suspects in international CSAM crackdown action
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-15
+- **Headline / event:** UK Legal Aid Agency: Hackers stole records dating back to 1978
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
