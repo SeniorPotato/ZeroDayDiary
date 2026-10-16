@@ -23940,3 +23940,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** FTC Sends More than $9.8 Million to Consumers Harmed by Walmart’s Failure to Stop Scammers that Used its Wire Transfer Services to Take Millions from Customers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** FTC Sues Ticket Broker Over Unlawful Tactics Used to Buy Millions of Tickets to Popular Live Events
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-ticket-broker-over-unlawful-tactics-used-buy-millions-tickets-popular-live-events
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory Oct 15, 2026 Linux / Vulnerability A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape , is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared layer that cloud providers use to keep customers' workloads apart. It was found in a Vercel security challenge and reported privately before any public release, and there is no sign it has been used in a real attack. What the Researcher Showed Paulos Yibelo of the security firm pwn.ai found that specially made network packets sent from inside a virtual machine could do three things, he explained in a technical write-up : read the host's memory, crash the host, and run code on it. All three come from the same kernel flaw. Vercel said in its report on the challen...
+- **Source URL:** https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More Oct 15, 2026 Hacking News / Cybersecurity News Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and some flaws are so simple you wonder how nobody spotted them sooner. There's a lot more hiding in the details, including a few twists you probably wouldn't expect. Here's what made the list this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules Oct 15, 2026 Vulnerability / Web Security Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory . Several exploit paths exist through contributed modules, and at least one known path needs no login. Tracked as CVE-2026-108097 , the flaw sits in Field UI, the core module behind the admin pages where site builders manage fields and how they display. Drupal rates it 19 out of 25 on its own risk scale, the level the project calls critical. The advisory does not name the contributed modules that open a path to the flaw, and custom code may also expose it. Drew Webber of the Security Team and Octavio Galland are credited with reporting it. What to Do Now The fixed release for each supported branch: Drupal 11.4.x: update to 11.4.10 Drupal 11.3.x: update to 11.3.19 ...
+- **Source URL:** https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early Oct 15, 2026 Malware / Artificial Intelligence Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets. Similar attacks appearing across different customers can trigger repetitive investigations, consume analyst capacity, and extend response times, making it harder to maintain consistent service levels as threat activity grows. How Fake AI Attacks Are Reaching US Businesses Fake AI attacks pose a serious risk to business security The campaigns investigated by ANY.RUN use familiar AI brands to encourage employees to execute malicious commands, install compromised applications, or submit credentials through fraudulent authentication pages.
+- **Source URL:** https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation Oct 15, 2026 Vulnerability / Network Security Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall," Palo Alto Networks said . The issue impacts PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series). Cloud NGFW and Prisma Access are not affected by the vulnerability. Palo Alto Networks said that no special configuration is required to exploit the issue, but said the security risk can be minimized by restricting access to the management interface to only trusted internal IP addresses. "You can reduce the risk of exploitation by restr...
+- **Source URL:** https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Android gets AI defenses against messaging scams, fake calls
+- **Source URL:** https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Fake Arch Linux packages push malware with root privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
