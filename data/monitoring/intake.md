@@ -24036,3 +24036,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Sweden sweeps the winning title of the European Cybersecurity Challenge
+- **Source URL:** https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Backdooring Open-Weight AI Models
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing Oct 16, 2026 Phishing / Artificial Intelligence Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes. The activity is being tracked by Cisco Talos under the moniker UAT-11985 , describing it as likely fueled by artificial intelligence (AI)-assisted content generation so as to quickly craft bespoke lures aimed at different targets within the confines of a common social engineering framework. The campaign was first observed in mid-2026. "The operation leveraged legitimate public event themes and impersonated reputable academic and policy institutions to establish credibility," Talos researcher Joey Chen said in an analysis. "Beyond traditional email phishing, the actor incorporated QR code phishing (quishing) te...
+- **Source URL:** https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract Oct 16, 2026 Artificial Intelligence / Web Security OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part of the GPT-5.6 Sol family. The incident occurred on June 26, 2026, and was discovered by OpenAI three months later. "An internal research model asked to update a cryptocurrency trading application used funds from a wallet that the task had not supplied to pay for a deployment on Sepolia, an Ethereum test network," OpenAI said . "It derived wallet keys from publicly known developer recovery phrases, found an account with test-network funds, and used that account to pay for the requested contract deployment." The assignment allowed the model to deploy compatible cont...
+- **Source URL:** https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** AI Decision Models and Their Impact on AI SOC Platforms Oct 16, 2026 Artificial Intelligence / Security Operations In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking . OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision , an open LoRA adapter you can run locally. Others, like Laya, are already showing up in open source tooling. These models skip text generation entirely. You hand them some state and a set of typed questions. They hand back a choice, a score, or a yes/no with a probability attached. For security operations, I think this is some of the best news of the year. I also think most of the conversation is pointed at the wrong layer. Why a SOC should be excited Three properties make decision models a natural fit for alert triage. You get a number you can automate against. A typed answer with a calibrated probability is something you can put a thresho...
+- **Source URL:** https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers Oct 16, 2026 Zero-Day / Vulnerability The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a remote attacker to perform file operations on an affected appliance. "The vulnerability exists within internal components of Remote Support," BeyondTrust said in a Thursday alert. "The components did not adequately validate the origin of the messages it received. Under the right conditions, this could be used to perform file operations on the appliance." Patches for the flaw have been pushed to all Remote Support SaaS customers as of October 9, 2026. Self-hosted customers of Remote Support running versions from 24.3.1 through 26.2.3 are advised to manually update to BT26-0...
+- **Source URL:** https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing Oct 16, 2026 Artificial Intelligence / Data Security AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested voluntarily reported the cases to CERT-In, India's national cyber agency. AI agents are software systems that can plan work, run commands, use tools, and act on the internet autonomously for extended periods. In these cases, the agents gained access via credentials and connection settings left exposed in application configuration and public code repositories, and via cloud service roles with excessive permissions. CERT-In did not name the AI companies, their models, or the organizations and sectors involved. It did not say how many companies reported cases or how many organizations were affecte...
+- **Source URL:** https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Employees using personal ChatGPT at work? Here's what IT admins need to do
+- **Source URL:** https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** Burger King Japan data breach exposes 11 million customer records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** BAE Systems cyberattack disrupts US federal court operations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-16
+- **Headline / event:** BeyondTrust patches zero-day exploited in attacks since August
+- **Source URL:** https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

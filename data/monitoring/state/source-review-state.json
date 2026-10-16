@@ -197,7 +197,8 @@
       "https://www.enisa.europa.eu/news/enisa-scales-up-its-role-in-the-cve-program",
       "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
       "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
-      "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass"
+      "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+      "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -645,7 +646,8 @@
       "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
       "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
       "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html"
+      "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+      "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2012,7 +2014,12 @@
       "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
       "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
       "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-      "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+      "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3271,7 +3278,11 @@
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
       "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-      "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/"
+      "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+      "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+      "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
     ]
   }
 }
