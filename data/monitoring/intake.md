@@ -24124,3 +24124,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug Oct 16, 2026 Vulnerability / OpenBSD A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped patches for both issues in September. The integer overflow in the shmat(4) attach function was fixed in errata 018 , shipped September 14 as a reliability fix. The reference-counting use-after-free that completes the chain was fixed separately in errata 026, shipped September 30 as a security fix. Both are available through syspatch and cover all architectures. OpenBSD 7.8 also received the integer-overflow fix. The integer overflow, the entry point for the full chain, is classified as a reliability fix, not a security fix. No CVE has been assigned for either flaw as of publication...
+- **Source URL:** https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor Oct 16, 2026 Supply Chain Attack / Endpoint Security Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor. Google Threat Intelligence Group, Mandiant , and ManageEngine's Threat Analysis Lab , which disclosed the campaign this week, say AOMEI has reported fixing its servers, but that fix does not remove the backdoor from machines that were already hit. AOMEI Backupper is Windows backup and disk-cloning software made by AOMEI Technology, a vendor registered in Hong Kong. Like the company's remote-desktop tool AnyViewer, it runs background services that regularly check AOMEI's servers over HTTPS for software updates and promotional pop-ups. Two files drive that check. One, down_html.ini, names the update package to download and the checksum the program uses to ...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions Oct 16, 2026 Vulnerability / Network Security A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH . The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a privileged attacker to achieve arbitrary write or delete files via specifically crafted arguments to existing commands. It was patched by Fortinet in April 2026. "PEERSTITCH leaves no persistent binary on disk, opens no listening ports and initiates no outbound network connections," Palo Alto Networks Unit 42 researchers Daniel Gott and Shawn Westfall said . "Instead, it communicates through traffic generated by legitimate processes on the infected host, which makes the malware resistant to conventional endpoint and network detection." The cybersecurity company said it discov...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** Critical BlockStrap flaw lets hackers run code on Magento servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-17
+- **Headline / event:** Targeted ads installed Candiru spyware in zero-click attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
