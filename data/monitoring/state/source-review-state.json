@@ -2027,7 +2027,8 @@
       "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
       "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
       "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+      "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3294,7 +3295,8 @@
       "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
       "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+      "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
     ]
   }
 }

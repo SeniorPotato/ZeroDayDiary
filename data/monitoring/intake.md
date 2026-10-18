@@ -24220,3 +24220,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-18
+- **Headline / event:** ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants Oct 18, 2026 Cloud Security / Cyber Attack ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise Cloud Management - 2399d300-6fca-4e6a-a686-399fefe75b83 ConnectWise Cloud Management - MS Teams - 24205314-2b89-4e07-a2a4-579e898a5640 ConnectWise Cloud Management - Exchange Online - b78f6a77-d4e5-46fb-87e5-d1648bd02519 ConnectWise Cloud Management - MS Graph - 0de14c77-b9b0-4137-9360-34878a929827 ConnectWise Cloud Management - Partner Center - 412dcf96-176d-4b3a-a1b0-4981ad66971e ConnectWise Cloud Management - SharePoint Online - b2b55f5b-7758-4719-8d8f-88ae172e6bdb The IT management software provider said it took the action on October 17, 2026, at 07:00 UTC, adding it has a...
+- **Source URL:** https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-18
+- **Headline / event:** Hackers exploit SiteGuard WAF flaw to run commands as admins
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
