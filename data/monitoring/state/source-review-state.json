@@ -347,7 +347,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-operator-sextortion-relief-scheme-misleading-consumers-believing-it-would-identify",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-ticket-broker-over-unlawful-tactics-used-buy-millions-tickets-popular-live-events"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-ticket-broker-over-unlawful-tactics-used-buy-millions-tickets-popular-live-events",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-block-playpowers-acquisition-rival-playground-manufacturer-burke"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -441,7 +442,8 @@
       "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
       "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "https://krebsonsecurity.com/2024/12/how-cryptocurrency-turns-to-cash-in-russian-banks/",
-      "https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/"
+      "https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/",
+      "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -650,7 +652,8 @@
       "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
       "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
       "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html"
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+      "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2028,7 +2031,12 @@
       "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
       "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+      "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3296,7 +3304,10 @@
       "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
       "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-      "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
     ]
   }
 }

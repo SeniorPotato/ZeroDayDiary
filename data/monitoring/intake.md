@@ -24236,3 +24236,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** FTC Sues to Block PlayPower’s Acquisition of Rival Playground Manufacturer Burke
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-block-playpowers-acquisition-rival-playground-manufacturer-burke
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site
+- **Source URL:** https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** Training AIs to Solve CAPTCHAs
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor Oct 19, 2026 Vulnerability / Web Security Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog , the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell . The vulnerabilities are below - CVE-2026-96652 (CVSS score: 5.3) - An unauthenticated server-side request forgery (SSRF) stemming via the "/player/timeline" endpoint by taking advantage of the fact that the "protocol" parameter is inserted into a programmatically-constructed player URL with no validation, allowing an attacker to force the Plex server to POST to a destination of their choice. CVE-2026-96654 (CVSS score: 6.9) - An improper neutralization of URL values included in the "searchOne" endpoint that could allow an attacker to call other plugins' functions and...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor Oct 19, 2026 Web Security / Vulnerability Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the malware can recreate its hidden backdoor whenever someone visits the site. Rank Math has removed the affected files and released a clean version, 3.0.124. Installing it replaces the plugin but does not remove files, administrator accounts, or scheduled tasks the malware may already have placed elsewhere on the server, Wordfence said in an advisory on October 17. Who Is Affected The version number does not show whether a copy is affected. Rank Math's changelog dates 3.0.123 to October 7, more than a week before the window opened, and the notice limits the inciden...
+- **Source URL:** https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More Oct 19, 2026 Cybersecurity News / Hacking The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were left so exposed that breaking in barely required any effort. Even AI agents crossed lines they weren't supposed to. Some attacks were clever. Others were painfully simple. The full recap shows just how much can go wrong, and how little it sometimes takes. ⚡ Threat of the Week ConnectWise Suspends Cloud Backup Following Unauthorized Access — ConnectWise disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenant...
+- **Source URL:** https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories Oct 19, 2026 Developer Security / Supply Chain The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps taken by GitHub to prevent the workflow from running. According to the threat intelligence platform, the threat actor registered the domain " my-github[.]com " and pointed it at " 193.32.204[.]199 ," the same IP address that's used as an exfiltration endpoint for data harvested from running the malicious workflow. The domain was registered on October 9, 2026, 17 days after " my-gitlab[.]com " was registered. It's unclear if the latter code-hosting-themed domain is operated by the same threat actor. "It follows the same my-.com nam...
+- **Source URL:** https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software Oct 19, 2026 Artificial Intelligence / Enterprise Security In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together, they produce this path: public internet → email → case record → agent prompt → agent action → case comment → outbound reply An unauthenticated outsider now has a route into an internal agent's instructions, and the agent's reply leaves through the same door. Nothing was misconfigured. The finding, documented by researchers in August 2026, is a clean example of how agents that arrive inside existing platforms fail: through the application around them, not the model inside them. The risk is in the application, and the application is the thing nobody re-reviewed Which intake fea...
+- **Source URL:** https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** OpenCode hack exposes API keys amid AI distillation attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** Inside the Underground Market for Know Your Client Services
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-19
+- **Headline / event:** F5 releases out-of-band patches for critical NGINX vulnerabilities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
