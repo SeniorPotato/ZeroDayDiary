@@ -24396,3 +24396,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Possible new Cellebrite iPhone Radio Zero-Day
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software Oct 20, 2026 Web Security / Browser Security The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the compromise to the root programs on the evening of October 17, and Chrome and Firefox blocked the eight certificates within hours, after Chrome verified the findings. No TLS certificate chaining to the six intermediates used for websites had been logged to Certificate Transparency (CT) before Chrome's block, so none could have been trusted by default in Chrome or any other browser that requires CT logging, the Chrome Root Program said. It is not known how the keys left eMudhra, when, or whether anyone besides the researcher holds them. The keys are the ones Go blocked in its Octobe...
+- **Source URL:** https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution Oct 20, 2026 Vulnerability / Enterprise Security Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted packets. Patches for the flaw were released last week by Fortinet in the following versions - FortiSIEM 7.5.0 (Upgrade to 7.5.1 or above) FortiSIEM 7.6 (Not affected) According to Horizon3.ai, the issue involves an unauthenticated attacker connecting to the gRPC service listening on TCP port 27918 and exploiting the flaw to overwrite an existing file outside of the intended directory and turn the arbitrary-file-write primitive into remote code execution. "The FortiSIEM gRPC QueryResultReq handler processes untrusted metadata without proper path validation," Horiz...
+- **Source URL:** https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA Oct 20, 2026 Vulnerability / Network Security Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was added by the U.S. Cybersecurity and Infrastructure Security Agency (CSIA) to its Known Exploited Vulnerabilities (KEV) catalog on May 13, 2026. "Ransomware operators exploiting CVE-2026-0257 include Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka INC)," Unit 42 researchers said in an update shared on Monday. The development comes days after ReliaQuest said it detected both Qilin and Settra ransomware groups actively exploiting the flaw in financially-motivated attacks. According to Unit 42, the threat actors are weaponizing the flaw to gain an initial foothold into corpo...
+- **Source URL:** https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites Oct 20, 2026 Artificial Intelligence / Cyber Attack A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company SharkNinja and engine maker Cummins, according to Reuters , which reviewed the attacker's own records to identify them. How much data, if any, was taken is not known. The researcher, Snorre Fagerland of the security firm NorForge , found the operations by scanning the internet for exposed copies of Cairn , an open-source AI tool popular with hackers. Beginning around October 2, he found about two dozen Cairn instances being used maliciously, which let him read the attackers' work in real time. He set out the findings on Monday, and Reuters, which saw the report before publication, named...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election Oct 20, 2026 Spyware / Mobile Security The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or open a file for it to work. The lab found the infection with high confidence, but its note provides no date within 2026, does not identify who was behind the attack, and notes that its investigation is ongoing. The election was called in September after nearly two years of protests that began when a railway station canopy collapsed in Novi Sad in November 2024, killing 16 people. The Citizen Lab, a research group at the University of Toronto, analyzed forensic artifacts from the phone at Đokić's request, working with the Serbian digital-rights group SHARE Foundation. SHARE ...
+- **Source URL:** https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** DHS bans DeepSeek products across US federal civilian agencies
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** CJIS v6.1 Compliance: 5 Practical Priorities for Agencies
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Hacker gets 8 years for stealing $3.3 million from taxpayers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** OVHcloud CLI releases backdoored on GitHub to steal developer secrets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Ahold Delhaize: Cyberattack affects services across US and Europe
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
