@@ -24324,3 +24324,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** FTC Issues Annual Report to Congress on Agency’s Actions to Protect Older Adults
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** FTC Order Preserves Competition in Digital Advertising Ecosystem as Part of Publicis’s Acquisition of LiveRamp
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware Oct 20, 2026 Artificial Intelligence / Cybercrime Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own machines. "ROMULUS may be a privately operated panel, a commercial cybercriminal delivery service, an affiliate framework, or software that has been copied between operators," security researcher Sai Molige said in an analysis. The cybersecurity company said it identified six IP addresses running ROMULUS -
+- **Source URL:** https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic Oct 19, 2026 Malware / Artificial Intelligence A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. "The tools delivered information-stealing malware and backdoors for macOS and Windows machines," Elastic Security Labs researchers Jia Yu Chan and Daniel Stepanic said . "The operation also repackaged a legitimate coding agent to send model requests through attacker-controlled services, while its audit tools generated fabricated security findings." The scheme poses as a Web3 venture capital accelerator named Apex Accelerator to target cryptocurrency startups and founders. It's being tracked under the moniker REF8801 . The names of the npm packages, each of which targets both Windows and macOS machines, are listed below - @apexacc/cli (Apex Copilot CLI — AI advisor fo...
+- **Source URL:** https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys Oct 19, 2026 Data Breach / Artificial Intelligence An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without ever seeing the key. The affected group is 1.4% of Console users, all of whom have an outside provider linked, and OpenCode has told them via email to revoke those keys with each provider and replace them. The email went out on the morning of October 17 under the subject line "Action Required: Potential provider key breach." Anyone who did not get one was not affected, OpenCode said in a post on X later that day. The keys at risk are the ones pasted into Console. The OpenCode command-line and desktop apps keep provider keys added on the machine in a SQLite database th...
+- **Source URL:** https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Bullhorn takes staffing platform offline to contain cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Nikkei discloses third data breach in a month, 1.8M records exposed
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** WordPress SEO plugin Rank Math compromised to backdoor websites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-20
+- **Headline / event:** Hackers hijack AOMEI update servers to secretly spread
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
