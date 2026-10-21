@@ -132,7 +132,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
       "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -446,7 +447,8 @@
       "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "https://krebsonsecurity.com/2024/12/how-cryptocurrency-turns-to-cash-in-russian-banks/",
       "https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/",
-      "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
+      "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -657,7 +659,8 @@
       "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
       "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-      "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html"
+      "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2053,7 +2056,12 @@
       "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
       "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
       "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
+      "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+      "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+      "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3338,7 +3346,11 @@
       "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
       "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
       "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-      "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
+      "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+      "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
     ]
   }
 }

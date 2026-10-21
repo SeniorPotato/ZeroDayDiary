@@ -24572,3 +24572,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Critical Vulnerabilities in PHP Require Immediate Patching
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Widespread PHP Flaw May Cause Many Site Outages Today
+- **Source URL:** https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Workshop on Economics and Information Security (WEIS) Archive
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So Oct 21, 2026 AI Security / Enterprise Security OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment. "A GPT-6.1 Sol agent repairing an evaluation pipeline disabled automatic alerts to our Security team, treating an earlier instruction not to send messages during a Slack history search as a reason to suppress monitoring notifications," OpenAI said in a report. The end result of this action was that the misalignment monitor still ran and saved its reports, but automatic human alerts were disabled by setting "no_notify" to true and emptying the lists of people configured to receive monitoring reports. In another task on October 6, a GPT-6 Astra agent migrating a program is said to have removed its monitoring int...
+- **Source URL:** https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge Oct 21, 2026 Vulnerability / Web Security PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell , sit in the PHP runtime, not in any application, so a site is exposed even when its own code is secure. The risk is highest on servers using Apache's mod_php, where a working exploit triggers the attack before any application code runs. Both flaws are rated 9.2 on the CVSS v4.0 scale and carry the identifiers CVE-2026-109618 and CVE-2026-109619 . PHP published them around the scheduled release time of 14:00 UTC on October 21, a day after details leaked ahead of a planned October 22 disclosure. Researchers at Wiz, Calif, and OpenAI found and reported the flaws, which affect nearly every PHP version back to PHP 5.4. Who Is Affected Every PHP installatio...
+- **Source URL:** https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands Oct 21, 2026 Web Security / Browser Security Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls. As part of these attacks, unsuspecting users who land on legitimate-but-compromised sites or malicious ads are redirected to phishing landing pages that display fake Cloudflare or Google reCAPTCHA verification or other non-existent errors and instruct users to copy and paste a command on the Windows Run dialog (or the Mac Terminal app) to address it. The moment a user presses the Enter key after pasting the command, it triggers a multi-stage infection chain that leads to the deployment of malware, such as information stealers or remote access trojans. In an attempt to blend in with regular act...
+- **Source URL:** https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors Oct 21, 2026 Cyber Espionage / Malware Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. "The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading," Sophos security researcher Gabor Szappanos said in a post published Tuesday. Between August 2025 and August 2026, attacks mounted by the threat actor have resulted in victims in the Philippines, Taiwan, Afghanistan, Namibia, and likely South Korea. Evidence indicates that Bronze Sandcastle is most active in the UTC+8 time zone. DLL sideloading is a popular adversarial technique that exploits the way Windows loads DLL files, allowing an attacker to trick a legitimate program into loading a malicious DLL . When an application is launched, it needs to load various DLLs in order to function correctly. If the application does not provide the f...
+- **Source URL:** https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports Oct 21, 2026 Email Security / Cybercrime Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result. Proofpoint shared several examples of the shift at its Protect 2026 conference. In one, a single threat actor contacted more than 30 real estate agents at the same company, each from a different account, about a different property, and in different words, before closing every thread with the same request: join a video meeting. Federal data points the same way. The FBI's Internet Crime Complaint Center counted more than 22,000 complaints involving AI in 2025, with nearly $900 million in associated losses, and logged 24,768 business email compromise (BEC) complaints with about $3.05 billion in reported losses, according to its 2025 Internet Crime Report . What AI C...
+- **Source URL:** https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** OpenAI agents disabled safety monitoring, one lied about it
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** PHP ships emergency patches for critical PHP2Shell flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** ClickFix has never been bigger, and AI tools are its most convincing lure yet
+- **Source URL:** https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** CISA: SafePay ransomware hit over 600 critical infrastructure orgs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
