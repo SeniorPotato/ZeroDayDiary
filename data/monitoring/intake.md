@@ -24484,3 +24484,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** CISA Adds Six Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators Oct 20, 2026 Data Protection / Regulatory Compliance WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the chatbot ever followed the instructions is not known: Redact , the data-deletion software company that found the text, read the instructions, not the chatbot's answers. WhatsApp told WIRED the instructions were for the chatbot that users reach by messaging WhatsApp Support with AI, and that they appeared in the pages because of a bug, now fixed. A second block of hidden text on the page about reporting and blocking told the chatbot that once a user mentioned a lawyer, a lawsuit, or a court, it should not cite privacy laws such as the GDPR, even when the user raised them. A W...
+- **Source URL:** https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** What Security Teams Can Do To Tame Wild Code Oct 20, 2026 Artificial Intelligence / Runtime Security A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them. If you work in security, that success introduces a new set of questions. Whose credentials does the workflow use? Which records can it access? Who can see its output? If it starts exposing information it shouldn’t, can you trace what happened and stop further access? Wild code takes root when useful builds spread faster than the processes for owning, securing, and maintaining them. It isn’t simply another name for unapproved software. Employees are creating new capabilities, not just adopting existing products. A small experiment can become an operational dependency before secu...
+- **Source URL:** https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns Oct 20, 2026 Encryption / Software Security Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not named, and that it is blocking them because of "specific security concerns around their operation." It handled the fix on its URGENT track , the one reserved for its most serious issues, and recommends upgrading immediately. Two days earlier, on October 17, Mozilla added six intermediate certificates issued by eMudhra's emSign Root TLS CA - G3 to OneCRL , the list Firefox uses to block certificates. The Mozilla bug behind those entries is closed to the public , and neither Mozilla nor Go has said what prompted its action. Whether Chrome, Apple, or Microsoft have taken simil...
+- **Source URL:** https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader Oct 20, 2026 Cyber Espionage / Cyber Attack The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail , involved the use of a backdoor called HOOKEDGE and a previously undocumented loader that is designed to decrypt and run an encrypted payload in memory by using a cryptographic key that's supplied at runtime. Targets of the activity included a law enforcement agency, a naval shipbuilder, and a manufacturer of military aircraft engines – entities that hold information that could be of use to a foreign intelligence agency, the Broadcom-owned threat intelligence unit said. "During one attack against the naval shipbuilder, operators returned to a compromised host repeatedly over the course of a week in what appeared to be hands-on-keyboard activity,...
+- **Source URL:** https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident Oct 20, 2026 Cloud Security / Incident Response ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began rolling out mitigations on October 17 at 5:00 a.m. UTC, three days after the incident was first identified - Disabling affected application connections and suspending Cloud Backup. Suspending SaaS Security and Cloud Management as a precaution because they are integrated with Cloud Backup. Enlisting the help of independent third-party specialists for incident response and remediation. Enhancing administrative-access protections. Publishing technical guidance to help partners investigate and remediate potential unauthorized activity in their own and managed customer environments. ...
+- **Source URL:** https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** PHP warns admins of two critical flaws, emergency patches coming tomorrow
+- **Source URL:** https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Mozilla, Google, Apple block compromised eMudhra CA certificates
+- **Source URL:** https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Revolut outage disrupts online banking operations worldwide
+- **Source URL:** https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Stolen UpdraftCentral keys used to backdoor WordPress sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-21
+- **Headline / event:** Zeabur shutting down after second security breach in two months
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
