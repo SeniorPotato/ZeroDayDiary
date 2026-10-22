@@ -24668,3 +24668,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Joint statement on critical PHP vulnerabilities
+- **Source URL:** https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack Oct 22, 2026 Supply Chain Attack / Cloud Security Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX , a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse against South Korean financial institutions, to speed up scanning and reconnaissance, password spraying, and OAuth application abuse at downstream victims. The tech giant said the threat actor used the AI tool at "machine speed" to automate attacks targeting hundreds of organizations across the world spanning a broad range of sectors since September 2026. Targets include aerospace and defense, automotive, chemicals, energy, financial services, government, legal, manufacturing, media, military, semiconductor, software, technology, and think tanks and non-profits. "Storm-0940's use of ARTEX accelerated the speed of compromised application ab...
+- **Source URL:** https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases Oct 21, 2026 Vulnerability / Software Security GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an instance updated then is in range again. The flaw, tracked as CVE-2026-110264 , is rated 10.0 on the CVSS scale, the maximum. GitLab says that, under certain conditions, it could allow an unauthenticated user to run arbitrary code on the server due to an integer overflow during the compilation of a specially crafted regular expression. GitLab has not said what those conditions are. The company reports no sign the flaw has been used in attacks, and it is not listed in the U.S. CISA catalog of known exploited vulnerabilities as of October 22. Only self-managed installations need to act. G...
+- **Source URL:** https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor Oct 21, 2026 Malware / Artificial Intelligence The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep , Socket , StepSecurity , and Upwind . The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the malicious Docker images have been removed. Oliver Jensen, director of security at LiteLLM, said an investigation into the incident is ongoing, and that it's still working to trace the original attack vector by which the threat actor published the malicious release. "We have identified that the malicious actions were taken through three engineers' GitHub accounts, appearing to be by way of stolen GitHub CLI OAuth tokens," Jensen said . "The threat actor used one user's account to trigger the project-releaser run, and another user's account to approve it. A...
+- **Source URL:** https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't Oct 21, 2026 Vulnerability / Server Security You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your risk is taking exposed PHP off the internet or behind access controls, cutting what a compromised server can reach, and having the update ready to apply the moment it lands. Cloudflare says it is seeing early attempts to exploit the flaws, and has pushed emergency rules for sites behind it that it calls a stopgap until you patch. No compromise has been confirmed, the public exploit code going around has not been shown to work, and neither flaw is in CISA's catalog of known exploited flaws. PHP has not said which versions are affected, which part of PHP is involved, or whether any setting ...
+- **Source URL:** https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** The Harness Is the Hard Part of Agentic Pentesting Oct 21, 2026 AI Penetration Testing / Web Security An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July showed what happens when that harness gives way, even inside an OpenAI evaluation built to contain the agents. Why Each Control Takes Rigorous Engineering Let’s take a closer look at the attack different stages and the role AI agents can take there Scope A pentesting agent makes thousands of decisions about where to send its next request, and the model judges each one against a rule written in plain language. A web app’s real boundary often extends past one domain through redirects and calls to outside services. Enforcing scope means code that inspects every request before it leaves, a...
+- **Source URL:** https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Lazarus hackers use post-quantum cryptography for malware delivery
+- **Source URL:** https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

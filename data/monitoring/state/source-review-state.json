@@ -202,7 +202,8 @@
       "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
       "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
       "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
-      "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge"
+      "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
+      "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -2061,7 +2062,12 @@
       "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
       "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
       "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-      "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
+      "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3350,7 +3356,10 @@
       "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
       "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
       "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-      "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+      "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/"
     ]
   }
 }
