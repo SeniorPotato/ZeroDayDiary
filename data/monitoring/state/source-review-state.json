@@ -353,7 +353,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-ticket-broker-over-unlawful-tactics-used-buy-millions-tickets-popular-live-events",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-block-playpowers-acquisition-rival-playground-manufacturer-burke",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-perpetrators-government-impersonation-scheme-over-deceptive-ads-misleading-promises-fake",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/court-permanently-shuts-down-illegal-debt-relief-operation-following-ftc-allegation-schemes"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -661,7 +663,8 @@
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
       "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html"
+      "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
+      "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2067,7 +2070,12 @@
       "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
       "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
       "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-      "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
+      "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+      "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3359,7 +3367,11 @@
       "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
       "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
       "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-      "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/"
+      "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
     ]
   }
 }

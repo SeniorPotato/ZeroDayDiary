@@ -24740,3 +24740,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** FTC Sues Perpetrators of Government Impersonation Scheme Over Deceptive Ads, Misleading Promises and Fake Reviews
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-perpetrators-government-impersonation-scheme-over-deceptive-ads-misleading-promises-fake
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Court Permanently Shuts Down Illegal Debt Relief Operation Following FTC Allegation That Scheme’s Operators Impersonated Government and Business Entities
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/court-permanently-shuts-down-illegal-debt-relief-operation-following-ftc-allegation-schemes
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** New Serious PHP Vulnerabilities Released and Patched
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes Oct 22, 2026 Vulnerability / Linux Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative , with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network interface. ZDI-CAN-33549 is an integer underflow in KSMBD's SMB Direct path. A client can supply RDMA buffer descriptors in which the first is longer than the declared payload, causing the server's size counter to wrap and allowing a subsequent memory copy to overrun the end of an allocated buffer. It requires three things: an RDMA-capable interface (hardware or the rxe software driver), a writable KSMBD share, and a client negotiating SMB Direct. ZDI-CAN-33774 requires no authentication, exposing any server running KSMBD on port 445. The flaw is a race in how KSMBD assign...
+- **Source URL:** https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations Oct 22, 2026 Data Privacy / Regulatory Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal , which came to light in 2018. According to multiple reports from the Associated Press , the New York Times , Reuters , and the Wall Street Journal , state District Court Judge Francis J. Mathew called out Meta and Facebook for making misleading statements about the privacy of consumers in the state. "Facebook promised users that they (the users) controlled their data," Mathew wrote in his ruling. "This was false." The penalty relates to more than 43 million violations of the state's unfair practices law. The case, filed in 2021, was filed in the aftermath of revelations that Cambridge Analytica, a British political consulting firm, obtained data belonging to millions of Facebook users without their consent to build psychographic profiles. The data was ...
+- **Source URL:** https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown Oct 22, 2026 Cybercrime / Law Enforcement INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III , the cybercrime crackdown took place between June 29 and August 31, 2026. "Authorities identified 65,929 victims targeted by cybercriminal networks, underscoring the scale and sophistication of today's digital threats," INTERPOL said in a statement. "Financial investigations linked criminal activity to losses exceeding USD 385 million."
+- **Source URL:** https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat Oct 22, 2026 Enterprise Security / Artificial Intelligence Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool? Most of the conversation about AI security is about what threat actors are doing with it. But the bigger threat may already be inside your organization.
+- **Source URL:** https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation Oct 22, 2026 Cloud Security / Artificial Intelligence Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed "anomalous activity" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a "subset of users," although it did not disclose an exact number. Environment variables refer to user-defined key-value pairs that are used to store sensitive data like API keys, database credentials, or feature flags. They are configured at the operating system or container environment level instead of hard-coding the values directly into a program's source code. Railway said the incident is likely part of a series of attacks designed to target platform companies with the ultimate goal of compromising artificial intelligence (AI) inference providers. The company also said it has n...
+- **Source URL:** https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Machine speed attacks require machine speed detection and response
+- **Source URL:** https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Amazon says PHP2Shell exploitation began 4 days before patches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** GitLab warns of new max severity code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-22
+- **Headline / event:** Authorities disrupt nearly 11,000 cybercrime networks in Africa
+- **Source URL:** https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
