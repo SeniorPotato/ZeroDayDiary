@@ -24836,3 +24836,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks Oct 22, 2026 Vulnerability / Enterprise Security Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For on-premises orchestrators, the fix is in VCO 5.2.3.18, 6.1.3.10, and 6.4.2.12, while Hosted and Dedicated orchestrators have already been patched. The flaw is tracked as CVE-2026-114625 and rated 9.9 on the CVSS scale. Orchestrators running the releases that fixed the VCO flaws exploited in July and September are still affected, because those releases are older than the new fixes. Arista bought the VeloCloud SD-WAN product line from Broadcom, announcing the deal in July 2025. The products were earlier known as VMware SD-WAN by VeloCloud. To exploit the flaw, an attacker needs network acc...
+- **Source URL:** https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable Oct 22, 2026 Cryptography / Vulnerability eMudhra , an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday . The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' certificates with free ones from partners, though its announcement did not name the partners or provide a date for the exit. Six of those eight were for website (TLS) certificates. Chrome will stop trusting the eMudhra root certificate above them, emSign ECC Root CA - G3. The change is expected to reach users on the morning of October 27, Pacific time. On October 20, Mozilla decided to stop trusting the same root in Firefox. Removing a root from a browser also cuts off legitimate certificates issued beneath it. About 30,800 unexpired certificates chained to that root as of October 21, by Chrome's count of public Certificate Transparenc...
+- **Source URL:** https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More Oct 22, 2026 Hacking News / Cybersecurity News This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs , compromised eMudhra certificates , a Node.js RCE flaw , a hacked LiteLLM release, and hundreds of hijacked Tor relays . That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed databases, broken login checks, and trusted tools being turned against their users are causing trouble too. Some attacks are clever. Others work because someone left a simple security gap open. This ThreatsDay, we're digging into the stories that didn't make as much noise but still deserve attention. Some are strange, some are serious, and a few might surprise you. Here's everything else you shouldn't miss this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL Oct 22, 2026 Vulnerability / Artificial Intelligence A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly , the company behind OpenCode, fixed the flaw in version 1.18.33 on September 28. It did not request a CVE or publish a security advisory, so vulnerability scanners will not flag the builds still at risk: 1.0.137 through 1.18.32. During that sign-in, the server itself supplies the web address the user is sent to, an OAuth "authorization endpoint." On Windows and WSL, OpenCode handed that address to a helper that opens it in a browser. The helper built a PowerShell command around the address without escaping it, so an address written to carry a PowerShell command would run that command. The browser step runs only when a developer starts the sign-in, by ru...
+- **Source URL:** https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release Oct 22, 2026 Cloud Security / Data Breach LiteLLM on Wednesday disclosed that threat actors compromised "multiple independent security controls" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m. PST. The following compromised versions were published - LiteLLM v1.107.0 (PyPI) v1.107.0, latest, main-latest, and main-stable (Docker) v1.107.0, latest, main-latest, and main-stable (GHCR) Users who downloaded an unpinned version of LiteLLM between 11:39 a.m. and 1:23 p.m. UTC via pip or used the Docker image v1.107.0, latest, main-latest, or main-stable between 11:46 a.m. and 2:20 p.m. UTC are impacted. The poisoned version incorporated code to harvest credentials and keys, and run arbitrary code from a remote server every hour, turning it into a remote acce...
+- **Source URL:** https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Railway warns devs to rotate secrets after potential breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Capcom confirms data breach affecting 11.7 million accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** LiteLLM release pipeline hacked to distribute info-stealer
+- **Source URL:** https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Arista patches new VeloCloud Orchestrator zero-day exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
