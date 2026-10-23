@@ -24908,3 +24908,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials Oct 23, 2026 Vulnerability / Cyber Attack Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. "Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims, resulting in persistent remote access and data exfiltration," according to a joint investigation published by Group-IB and NyxLab. The widespread exploitation activity has been attributed to a threat actor known as k0t, who also goes by the aliases CryptoFeel, Member19, and QazWsxShop. The cybercriminal actor was first seen in the wild on October 22, 2025. The threat actor is assessed to share connections with ransomware groups such as Qilin and The Gentlemen, likely operating as an initial access broker or an affiliate. Analysis of the threat actor's dark web activity reveals a k...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the followi...
+- **Source URL:** https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack Oct 23, 2026 Malware / Cyber Espionage The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET , the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of the MATCHWOK backdoor via a downloader called MATCHBOIL. The activity ultimately culminated with the threat actor handing off access to Sandworm, which then conducted a data-wiping attack on September 17, 2025, more than two months after it obtained a foothold. What makes the attack stand out is UAC-0099's use of a previously undocumented backdoor called MythicRatatoskr that communicates with a command-and-control (C2) server hosted inside the Yggdrasil mesh network. The backdoor was deployed a day after MATCHWOK was executed. There are indications that development on the backdoo...
+- **Source URL:** https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image Oct 23, 2026 Vulnerability / Web Security Pillow , the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900 , is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript , a separate program it runs to turn the image into pixels, without checking the name first. Ghostscript can read a name chosen by an attacker as instructions rather than as a file, and point it to a second file that carries commands to run. Pillow's maintainers fixed it in version 13.0.0 , released on October 16. Pillow turns up almost everywhere Python handles images: web upload forms, avatar and thumbnail tools, document and PDF pipelines, and most machine-learning projects pull it in. OX Security, the firm whose report drew attention to the flaws, estimates the library is downloaded about 436 million times a month . Version 13.0.0 is a large security release, with fixes...
+- **Source URL:** https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data Oct 23, 2026 Vulnerability / Web Security Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their " Node2Shell " proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder ( CVE-2026-111497 ). Node.js disclosed the flaw and released fixes on October 21 , and applications that decode untrusted Brotli data should update. Imperva's test did not succeed on every attempt, and code execution took several tries in its Linux arm64 setup. The result covers that one build and application setup, with other architectures and the 22.x and 26.x lines not tested. On the fixed release, 24.22.1, the same data was rejected, and no code ran. The demonstration goes beyond the first public proof of concept , which achieved code execution only on a deliberately weakened test build. On a standard build, that proo...
+- **Source URL:** https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** Quest Diagnostics confirms data breach exposed patient records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** PHP shares mitigation for new RCE vulnerability with no patch
+- **Source URL:** https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** You gave your AI agent access, but who is giving it orders?
+- **Source URL:** https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-23
+- **Headline / event:** HPE patches eight max severity RCE and auth bypass AOS flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

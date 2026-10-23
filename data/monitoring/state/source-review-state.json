@@ -2080,7 +2080,12 @@
       "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
       "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
       "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-      "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+      "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3380,7 +3385,11 @@
       "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
       "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
       "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-      "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
     ]
   }
 }
