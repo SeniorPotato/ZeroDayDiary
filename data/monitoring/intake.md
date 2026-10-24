@@ -25052,3 +25052,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software Oct 24, 2026 Vulnerability / Web Security A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497 , the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially causing a crash, a memory leak, or the execution of attacker-controlled code. Imperva researchers have shown that code can run on one unpatched Node.js build . The same has not been demonstrated on the other software, and no real-world attacks have been reported. The flaw was first disclosed on October 21 , when Node.js and Google shipped fixes, and more have followed product by product since. Because the bug is in Google's decoder and each program ships its own copy of it, every one has to update that copy on its own. Brotli is a compression format from Google, used across the web to ...
+- **Source URL:** https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline Oct 24, 2026 Artificial Intelligence / Data Breach LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. "On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of the LiteLLM Agent Platform, an open source tool we use for orchestrating agents," LiteLLM's Oliver Jensen and Mateo Wang said . "The error was quickly identified, the commit force-pushed over, and we identified the exposed keys as requiring revocation. However, key revocation did not occur for the master key." LiteLLM said the unknown attacker (operating from "69.48.229[.]143") used this unrevoked key on October 10, 2026, to gain access to the Agent Platform and extracted a GitHub CLI OAuth token the service was configured with to allow self-hosted cloud a...
+- **Source URL:** https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads Oct 24, 2026 Privacy / Artificial Intelligence Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. "You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use, such as Google Photos and Workspace apps like Gmail and Drive, in order to provide you with a more personalized experience, subject to the policies and settings of the accessing service," reads a policy update effective October 16, 2026. "For example, Search may process some of the data that you allow Search to access to personalize content, including ads." Google also notes in its revised policy that "We don't show you personalized ads based on your content from Drive, Gmail, or Google Photos, unless you choose to make data from these services available to ...
+- **Source URL:** https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet Oct 24, 2026 Vulnerability / Endpoint Security Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn , an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was popular about a decade ago, and the original shut down in 2014, but several copies kept running under the same name. A separate, legal project that took the Popcorn Time name in early 2025 is unrelated to it. Eye Security, which monitors client networks for threats, found the updater during a routine threat hunt: a program called Updater.exe on one client's laptop kept trying to reach a web address that was no longer registered. The firm registered the address itself to see what would connect, and about 50 requests a second poured in. It later laid out the operation, which it named ...
+- **Source URL:** https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud Oct 24, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities ( KEV ), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating system command injection vulnerability in Collabora Online – Built-in CODE Server (aka richdocumentscode) when used within the NextCloud platform that could allow remote code execution via "proxy.php" when the CODE local document server isn't running. (Fixed in September 2026 in version 26.4.303) CVE-2026-114625 (CVSS score: 9.9) - An SQL injection vulnerability in on-premise versions of Arista VeloCloud Orchestrator that could allow a remote attacker to access privileged internal functionality. (Fixed in October 2026 in versions 5.2.3.18, 6.1.3.10, and 6.4.2.12) As r...
+- **Source URL:** https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot
+- **Source URL:** https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

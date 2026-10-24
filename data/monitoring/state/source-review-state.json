@@ -2093,7 +2093,12 @@
       "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
       "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3398,7 +3403,8 @@
       "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
       "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
       "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+      "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
     ]
   }
 }
