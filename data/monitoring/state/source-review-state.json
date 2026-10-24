@@ -133,7 +133,9 @@
       "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
       "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
+      "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+      "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+      "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -664,7 +666,8 @@
       "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
       "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
-      "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html"
+      "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2085,7 +2088,12 @@
       "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
       "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
       "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
+      "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3389,7 +3397,8 @@
       "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
       "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
       "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-      "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+      "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+      "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
     ]
   }
 }

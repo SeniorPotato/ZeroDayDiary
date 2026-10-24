@@ -24980,3 +24980,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Friday Squid Blogging: Increasing Squid Populations
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations Oct 23, 2026 Malware / Cyber Espionage Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX . The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41 , Kaspersky said in a technical report published this week. The primary objective behind deploying the malware is to undermine Microsoft Windows startup defenses, along with third-party security solutions, while maintaining long-term, covert access to compromised devices. Notably, BlackX is assessed to be an updated version of BlackLotus , a notorious bootkit that was first observed being advertised on cybercrime forums in late 2022, before its existence was officially confirmed by ESET in March 2023. BlackLotus is designed to exploit a now-patched Secure Boot bypass vulnerability tracked as CVE-2022-21894 (CVSS score: 4.4...
+- **Source URL:** https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws Oct 23, 2026 Vulnerability / Software Security Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any application that builds a regular expression from text an attacker controls is affected, not just GitLab. Which Applications Are Affected In its advisory , Ruby said an application is affected only if it compiles a regular expression from a string an attacker controls. That happens when a program passes such a string to Regexp.new, Regexp.union or Regexp.compile, or places it inside a pattern through interpolation, as in /#{input}/. Applications that only use regular expressions written by their own developers are not affected. Ruby fixed the bugs in 4.0.9, 3.4.12, and 3.3.13. The...
+- **Source URL:** https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions Oct 23, 2026 Ransomware / Cybercrime Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an infrastructure provider supporting different partners across the ransomware ecosystem. "The operators exploited edge and remote-access systems at scale, including FortiClient EMS, SimpleHelp, cPanel, and VPN gateways," SOCRadar said . "They used AI-managed knowledge bases to track victims, stolen credentials, and campaign progress." A notable aspect that defines the campaign is its "AI-executed, human-approved operating structure" in which a human operator provides a victim-specific prompt and reviews every step, while the intrusions themselves are e...
+- **Source URL:** https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances Oct 23, 2026 Artificial Intelligence / Cryptocurrency AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set no limits. The missing limit is one of 25 flaws V12 found in the x402 code, and one of three it rated critical and described in detail. The x402 Foundation, which maintains the SDKs, had already fixed all three critical flaws in the August 18 releases. One of the other two let a facilitator, the service that checks x402 payments, accept a Solana transaction that moved no tokens as a valid payment. Among the x402 SDKs, only the TypeScript one had this flaw. The other let a malicious server get an agent to sign a login message for a different website. V12 found the flaws by reviewing t...
+- **Source URL:** https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware Oct 23, 2026 Vulnerability / Threat Intelligence Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium , as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote code execution (RCE) via specially crafted HTTP requests. The vulnerabilities have been patched in PHP versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35. "However, analysis of the sample revealed that it is an updated and significantly expanded version of the Mirai-derived botnet variant identified in early 2026," Sophos said . "The sample displays downloader and network disruption functionality." ⚡ WARNING — PHP Warns of Another Unpatched RCE Flaw CVE-2026-115560 Specifically, it resolves a hard-coded, encrypted command-and-control (C2) address, establishes a TCP connec...
+- **Source URL:** https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-24
+- **Headline / event:** Abandoned Popcorn Time app exposed millions of devices to RCE attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
