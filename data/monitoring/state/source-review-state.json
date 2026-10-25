@@ -2098,7 +2098,8 @@
       "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+      "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3404,7 +3405,8 @@
       "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
       "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
       "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+      "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
     ]
   }
 }

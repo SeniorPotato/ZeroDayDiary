@@ -25100,3 +25100,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-25
+- **Headline / event:** OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication Oct 25, 2026 Artificial Intelligence / Cybersecurity OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access," the artificial intelligence (AI) company said . "We've implemented this policy and will maintain it until advances in these safeguards justify broader internet access." OpenAI said models' growing capabilities can have the side effect of them getting much better at devising ways around environmental restrictions to escape containment and perform unintended actions. This can involve the model exploiting a software flaw or misconfiguration to reach the live internet, or finding unauthorized ways to communicate with agents in other sandboxes. Late ...
+- **Source URL:** https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-25
+- **Headline / event:** AI coding agents hijacked using AGENTS.md file in Downloads folder
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

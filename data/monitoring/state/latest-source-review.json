@@ -1,5 +1,26 @@
 {
-  "generatedAt": "2026-10-25T04:46:34.226Z",
-  "packetPath": "data/monitoring/review-packets/2026-10-25T044634Z.md",
-  "candidates": []
+  "generatedAt": "2026-10-25T16:26:35.303Z",
+  "packetPath": "data/monitoring/review-packets/2026-10-25T162635Z.md",
+  "candidates": [
+    {
+      "discovered": "2026-10-25",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication Oct 25, 2026 Artificial Intelligence / Cybersecurity OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access,\" the artificial intelligence (AI) company said . \"We've implemented this policy and will maintain it until advances in these safeguards justify broader internet access.\" OpenAI said models' growing capabilities can have the side effect of them getting much better at devising ways around environmental restrictions to escape containment and perform unintended actions. This can involve the model exploiting a software flaw or misconfiguration to reach the live internet, or finding unauthorized ways to communicate with agents in other sandboxes. Late ...",
+      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "openai-ai-agents-demonstrate-vm-escapes-and-secret-cross-sandbox-communication-oct-25-2026",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-10-25",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "ai-coding-agents-hijacked-using-agents-md-file-in-downloads-folder",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    }
+  ]
 }
