@@ -25132,3 +25132,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** FTC and State Partners Sue Dollar General for Charging Consumers More than Advertised for Many Products
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-state-partners-sue-dollar-general-charging-consumers-more-advertised-many-products
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Bias in Qwen3-Coder Model
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento Oct 26, 2026 Malware / Web Security An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. "When you visit, that code makes your browser ask the group's server what to do next," Sansec said . "The server first checks whether you are a real shopper or a security scanner, so scanners get nothing." No less than five distinct domains have been observed over time in connection with the campaign - manulfie[.]click, first seen in July 2025 neswnsssn[.]click, first seen in December 2025 lanhd6549tdhse[.]top, first seen in March 2026 additionalver[.]com, first seen in June 2026 deepveindrilling[.]com, first seen in October 2026 Sansec said it found deep...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw Oct 26, 2026 Vulnerability / Web Security PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497 , a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but applications and HTTP client libraries can turn it on. The rebuilt packages, numbered 8.5.12-1 , 8.4.27-1 , 8.3.36-1 and 8.2.35-1 , come five days after the October 21 releases that fixed the two PHP2Shell remote code execution flaws . They use the same PHP source, so those fixes stay in place, and they now include Brotli 1.2.1 , the fixed version. PHP publishes a software bill of materials , a list of the components inside, with each package. For last week's x64 Non Thread Safe builds of all four versions, those lists show Brotli 1.2.0, one of the affected versions. PHP advises Windows...
+- **Source URL:** https://thehackernews.com/2026/10/php-issues-second-windows-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware Oct 26, 2026 Social Engineering / Malware Cybersecurity researchers are calling attention to what they say is a "recurring social engineering pattern" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. "A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT Support (Internal)' display names, the same remote-access tools, and increasingly, the same payload domains," Arctic Wolf Labs said in a report shared with The Hacker News. The attacks consistently employ IT-themed display names or friendly-sounding first names to subvert external-user warnings in Teams. These messages originate from Teams identities established through newly created or acquired Microsoft 365 tenants. Nearly 30–40% of the cases investigated by the cybersecurity company involve the use of *.onmicrosoft[.]com , a permanent fallback domain auto...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** ⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More Oct 26, 2026 Cybersecurity News / Hacking This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain attack. AI agents are being tricked into following harmful instructions. Old bugs are still being used to break into systems, and some attacks are so simple it's hard to believe they still work. Some websites even went offline to avoid taking chances. It's been a rough week for anyone trying to keep systems safe. Here's what happened. ⚡ Threat of the Week PHP2Shell Flaws Puts Organizations on Alert — The PHP Foundation released patches for two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, that could lead to unauthenticated remote code execution...
+- **Source URL:** https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes Oct 26, 2026 Vulnerability / Software Security Two critical flaws in Wasmtime , a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on October 19 and 20, and the maintainers have not reported any attacks. Wasmtime runs WebAssembly code outside web browsers. Both bugs are in Cranelift, the compiler it uses by default to turn WebAssembly into machine code. Wasmtime's maintainers at the Bytecode Alliance rated each flaw 9.9 out of 10 on the CVSS scale in advisories published on October 19. CVE-2026-115889 affects Wasmtime across all processor architectures. CVE-2026-115893 affects only ARM64, also called aarch64. The sandbox is meant to keep a module inside set limits. A module can only use its own memory and...
+- **Source URL:** https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** When an AI Agent Is the Incident, the Identity Record Is the Evidence
+- **Source URL:** https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Chinese man extradited for role in $36 million cryptocurrency scam
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** PHP2Shell security flaws now sucessfully exploited in the wild
+- **Source URL:** https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

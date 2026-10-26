@@ -357,7 +357,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-perpetrators-government-impersonation-scheme-over-deceptive-ads-misleading-promises-fake",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/court-permanently-shuts-down-illegal-debt-relief-operation-following-ftc-allegation-schemes"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/court-permanently-shuts-down-illegal-debt-relief-operation-following-ftc-allegation-schemes",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-state-partners-sue-dollar-general-charging-consumers-more-advertised-many-products"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -667,7 +668,8 @@
       "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
       "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
       "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html"
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+      "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2101,7 +2103,12 @@
       "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-      "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
+      "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3408,7 +3415,11 @@
       "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
       "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
       "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+      "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
     ]
   }
 }
