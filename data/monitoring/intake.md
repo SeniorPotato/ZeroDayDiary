@@ -25116,3 +25116,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers Oct 25, 2026 Vulnerability / Network Security A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were published on October 25 in a report called Tailworm by Erica Windisch of Cyberdione Labs. Windisch tested Tailscale version 1.104.2 and headscale version 0.29.5, the self-hosted server some networks use to run Tailscale instead of the company's hosted service, over three days in a lab. The report describes tests on that software, not attacks against real networks. As of publication, Tailscale had issued no security bulletin , no CVE identifier, and no fixed version. Tailscale has responded in public. Mike Shaver, the company's vice president of engineering, wrote on Red...
+- **Source URL:** https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-26
+- **Headline / event:** PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity Oct 25, 2026 Vulnerability / Artificial Intelligence In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. "What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application," a spokesperson for the company told The Hacker News via email. "This led us to believe that it was exploitation of those vulnerabilities. We are unable to confirm that initial access is associated with the specific PHP2Shell CVEs." The original story follows. Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. "In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully acce...
+- **Source URL:** https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
