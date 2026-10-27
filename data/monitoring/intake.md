@@ -25220,3 +25220,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution Oct 27, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities ( KEV ) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. CVE-2026-109619 - A stale internal request-state vulnerability that allows for unauthenticated remote code execution. The addition of the two flaws to the KEV catalog comes after Adel Karimi, detection and response lead at Perplexity, confirmed successful instances of remote code execution against honeypot systems on October 24, 2026. "This is now confirmed RCE with usable memory disclosure, not just a crash followed by a suspicious process," Karimi said . "The response delivered an 800 ...
+- **Source URL:** https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses Oct 26, 2026 Network Security / Threat Detection Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view. SOC teams often first see the shape of an intrusion through a series of smaller alerts that are triggered (e.g., when a signature matches a known malware hash, a threshold flags an unusual spike in failed logins, or an endpoint agent detects suspicious activity). When viewed through the SIEM dashboard, an attack often begins as a series of distinct events with related or overlapping timestamps. Artificial intelligence has accelerated modern attacks, enabling attackers to automate reconnaissance, craft targeted payloads, and execute scripts in seconds. Yet, speed does not obfuscate the need for stealth. To evade detection, adversaries deliberately d...
+- **Source URL:** https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts Oct 26, 2026 Cyber Espionage / Mobile Security A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found . It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo , a backdoor that Doctor Web reported in October 2025 . Doctor Web found Baohuo in tampered copies of Telegram X, an Android app from Telegram. At the time, the company estimated that more than 58,000 devices were infected. The Hacker News compared the two reports. Doctor Web's technical description of Baohuo lists the same code namespace, com.ucreator.tgjar , the same command-and-control (C2) server, and matching command names as Ovi's analysis. Ovi's analysis, published October 21, 2026, does not mention Doctor Web's findings, and Doctor Web did not name the kit. It is not clear whether...
+- **Source URL:** https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations Oct 26, 2026 Identity Security / Email Security Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle ( AitM ) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across the victim organizations from over 200,000 login attempts, with the attackers ultimately compromising 97 accounts and registering 48 rogue Entra devices. "Rather than guessing passwords, the attacker replayed sign-in tokens stolen from victims, and we've traced more than 200,000 failed login attempts from the campaign window back to the 193.26.115[.]0/24 IP range," Huntress researchers Andrea Hatcher, Susannah Matt, Matt Poto, and Andrew Schwartz said. The attack has been found to employ an AitM login page, which sits between the victims and legitimate Microsoft infrastru...
+- **Source URL:** https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs Oct 26, 2026 Cyber Attack / Cloud Security An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud security company Wiz. A GitHub safeguard that pauses suspicious workflow runs stopped every public-repository run Wiz checked, but it does not cover private repositories or GitHub Enterprise Server. Each workflow sits on a new branch named ci-sync- followed by six random characters. Deleting a branch, or the run it started, does not undo the exposure. Every secret the repository could read should be rotated, and the token that pushed the branch revoked. Wiz has tracked the campaign since September 15 and calls it Gheist , after the user agent gheist that the attackers' tool sends with GitHub API requests. Wiz has recovered mor...
+- **Source URL:** https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** DreamHost forces password resets in ongoing "incident"
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** University of Copenhagen data breach exposes data of 525,000 people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-27
+- **Headline / event:** Former pentester used ARTEX AI to steal 8.2 million data records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

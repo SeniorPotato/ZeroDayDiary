@@ -135,7 +135,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
       "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-      "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -2108,7 +2109,12 @@
       "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
       "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
       "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+      "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3419,7 +3425,10 @@
       "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
       "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
       "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-      "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+      "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
     ]
   }
 }
