@@ -359,7 +359,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sues-perpetrators-government-impersonation-scheme-over-deceptive-ads-misleading-promises-fake",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/court-permanently-shuts-down-illegal-debt-relief-operation-following-ftc-allegation-schemes",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-state-partners-sue-dollar-general-charging-consumers-more-advertised-many-products"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-state-partners-sue-dollar-general-charging-consumers-more-advertised-many-products",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-bureau-competition-statement-termination-playpowers-acquisition-rival-playground-manufacturer"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -670,7 +671,8 @@
       "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
       "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
-      "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
+      "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2114,7 +2116,12 @@
       "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
       "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
       "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+      "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3428,7 +3435,12 @@
       "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
       "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
       "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
+      "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/"
     ]
   }
 }
