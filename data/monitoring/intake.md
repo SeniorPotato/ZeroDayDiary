@@ -25388,3 +25388,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges Oct 28, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in Google Brotli that could allow a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial-of-service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. CVE-2026-48356 (CVSS score: 9.3) - An unrestricted upload of a file with dangerous type vulnerability in Adobe Commerce and Magento that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. The development comes days after Sans...
+- **Source URL:** https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets Oct 27, 2026 Artificial Intelligence / Cyber Attack Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published attacks that have leveraged ARTEX , an autonomous AI penetration testing framework, to single out entities in South Korea and Japan. "These environments held reconnaissance and attack tools, scripts, target lists, results, logs, and command histories," security researchers Bakuei Matsukawa and Joseph C Chen said. "They ranged from workspaces used largely by hand by skilled operators to AI-agent platforms that automated the entire workflow, including command and control." The first of the three attacks has been found to abuse CyberStrikeAI , another open-source penetra...
+- **Source URL:** https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption Oct 27, 2026 Cyber Espionage / Malware The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up from where Operation SyncHole left off. "The group targeted victims more selectively, sending spear‑phishing emails with links to fabricated but relevant sites, such as portfolio and résumé pages tailored to each target," Sojun Ryu, senior security researcher at Kaspersky GReAT, said in an exhaustive analysis. Operation SyncHole was first documented by Kaspersky in April 2025, detailing the state-sponsored adversary's targeting of South Korea's software, IT, financial, semiconductor manufacturing, and telecommunications industries since November 2024 to deliver malwa...
+- **Source URL:** https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers Oct 27, 2026 Malware / Cybercrime A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. "The next steps that we took were to disconnect that Amadey controller from all those victims," Tauri Gregory, ASD's acting deputy director-general of intelligence, told ABC News in an interview published on October 27. ASD is Australia's foreign signals intelligence and cyber security agency. Its offensive cyber operations need explicit approval from the Australian government and can disrupt cybercriminals overseas by disabling their infrastructure. Amadey was sold to criminals as a service in 2018, according to ESET's analysis of Amadey . Each buyer runs its own control panel on its own servers. Computers infected with Amadey check ...
+- **Source URL:** https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections Oct 27, 2026 Artificial Intelligence / Data Security OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past the protections OpenAI added in August against this kind of reasoning theft. OpenAI confirmed the problem and fixed it on October 23, according to Xint. Xint ran the technique against gpt-5.6-sol, one of OpenAI's reasoning models, using math and algorithm puzzles its researchers wrote themselves. The reasoning it pulled out came from those same requests, and Xint did not claim the method could reach another user's reasoning. Xint says it cannot prove the copied text is word-for-word the model's real reasoning, because it never had the original to compare against. Two cheaper models e...
+- **Source URL:** https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Japan's GMO urges customers to shut down PCs amid ransomware threat
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** UNM Health ransomware attack disrupts patient care, surgeries
+- **Source URL:** https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Hackers hijack Convertr analytics script to steal payment card data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
