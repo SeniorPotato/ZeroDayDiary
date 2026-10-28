@@ -673,7 +673,8 @@
       "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
       "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-      "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
+      "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2127,7 +2128,12 @@
       "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
       "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
       "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-      "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html"
+      "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+      "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3449,7 +3455,12 @@
       "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
       "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-      "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
+      "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
     ]
   }
 }

@@ -25460,3 +25460,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Studying Fraudulent North Korean IT Workers
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns Oct 28, 2026 Cyber Espionage / Vulnerability The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. "First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure," Lumen Technologies Black Lotus Labs said in a report shared with The Hacker News. "It employs anti-forensic techniques, compartmentalized operations, and post-operation cleanup to minimize detection and attribution." Its main purpose is to facilitate critical attack phases like vulnerability exploitation, credential access, data exfiltration, and to maintain continued access to victim environments. The activity stands out for two main reasons - It singled out entities that could provide scalable access to downstream customers, sensitive networks, or strategic programs. It targeted endpoint management platforms, network...
+- **Source URL:** https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S. Oct 28, 2026 Mobile Security / App Security Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog , along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on devices running Android 17 QPR2 or later in supported countries , which do not include the US. Today, a user installing apps from a third-party store must first enable the store to install apps, then confirm each install and each update. From December 1, a store in Google's Registered App Stores program gets that permission automatically once it is approved, and its updates run in the background under the user's own update settings. Google announced the program in March , alongside changes it said resolved its disputes with Epic Games. Joining is optional, and sto...
+- **Source URL:** https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win Oct 28, 2026 Vulnerability / Browser Security A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin contest in May. Microsoft fixed the Edge bugs the day after the contest, so an up-to-date browser is not at risk. A browser sandbox is the wall that keeps a web page's code inside the browser and off the rest of the computer. Breaking out of it, and then running a program, is what turns a web bug into full control of the machine. Browser escapes like this almost always rely on memory corruption. This one used none. In his write-up , Tsai describes a chain built solely from logic errors in how Edge and Windows handle ordinary features, and he says the whole exploit is under 100 lines of code. The result is a universal cross-site scripting (UXSS) primit...
+- **Source URL:** https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network Oct 28, 2026 Vulnerability / Cyber Espionage Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root 25 servers, including three systems in a U.S. government-affiliated environment. "The affected devices run specific versions of a large vendor's firewall software," cybersecurity firm Dream said . "The attacker then launched attacks against Active Directory. The recovered artifacts confirm credential extraction and directory enumeration." The name of the affected vendor was not disclosed, but the Israeli company said it notified the entity. The attack chain essentially brings together two sets of vulnerabilities impacting PHP and the Linux kernel - PHP2Shell , ...
+- **Source URL:** https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch Oct 28, 2026 Vulnerability / Enterprise Security Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update . Security researchers Brandon Peterson, Jimi Sebree, and Noah King of Horizon3.ai have been credited with discovering and reporting the flaw to Oracle on July 24, 2026. "Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS's Thin Client Framework servlet that chains to remote code execution, this morning, October 27," Defused Cyber said in an X post. In an advisory for the vulnerability, Horizon3.ai described it as an unauthenticated SQL injection vulnerability that could be chaine...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Sony ISP subsidiary data breach exposes 2.5 million customer records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Volt Typhoon hides zero-day attacks using 'Silent Train' framework
+- **Source URL:** https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** InfraTrust report warns of exploited flaws in critical network infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Even after PHP2Shell, blast radius matters more than a CVSS score
+- **Source URL:** https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-28
+- **Headline / event:** Hackers now scanning systems for recently-patched Oracle flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
