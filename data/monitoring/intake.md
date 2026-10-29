@@ -25636,3 +25636,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** FTC Highlights Efforts to Combat Imposter Scams and Protect Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-highlights-efforts-combat-imposter-scams-protect-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** FTC and States Take Action Against Toast Inc. over Hidden and Unauthorized Fees, Deceptive Subscription and Cancellation Practices and Other Unlawful Conduct
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions Oct 29, 2026 Vulnerability / Linux A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432 , affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a multipath TCP listener. As of October 29, Ubuntu and RHEL have not released a fixed kernel. Red Hat, Amazon, Oracle, and SUSE score the flaw between 5.9 and 8.1, lower than the kernel team's 9.8. The flaw is a race condition in the code that sets up new IPv4 TCP connections. It can make the kernel read memory it has already freed, a bug type known as a use-after-free. The kernel fix credits Anthropic researcher Xinyang Ge with reporting the bug. Neither the CVE record nor the fix mentions multipath TCP (MPTCP). The link between that feature and this bug comes from Anthropic'...
+- **Source URL:** https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners Oct 29, 2026 Cryptocurrency / Malware Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba . The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called YobaLoader. "The malware is placed next to legitimate, signed executables from OpenAI and Anthropic so it can be loaded indirectly, a technique commonly known as DLL sideloading, which is often used to bypass security protections," Check Point Research said in an analysis. To add to the project's credibility, the attackers set up GitHub.io pages to describe the capabilities of the software. Although the GitHub projects' popularity is not manipulated using techniques like ghost networks , signs point to the use of SEO poisoning tactics to ensure that links to them are sur...
+- **Source URL:** https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities Oct 29, 2026 Artificial Intelligence / Cybersecurity Google on Wednesday took the wraps off Gemini 4 Carbon , its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. "It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching," Koray Kavukcuoglu, senior vice president of Google DeepMind and chief AI architect at Google, said . On the Artificial Analysis Intelligence Index benchmark, Carbon leads with a score of 59, surpassing Anthropic's Claude Opus 5.5 (58), OpenAI GPT-6 Astra (57), GPT-6.1 Sol (55). One of the core focus areas is cybersecurity, where the latest iteration reportedly delivers significant performance improvements across the board, including vulnerability detection, validation, and remediation. Carbon is also twice as likely to generate secure code ver...
+- **Source URL:** https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls Oct 29, 2026 Vulnerability / Mobile Security A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec disclosed it on October 29 . The flaw can be triggered in every version from 8.6.2 through 12.10.3, NebuSec's co-founder and chief executive said in an email to The Hacker News. Those versions came out between March 2022 and September 2026. The company confirmed it in private phone calls on ARM64-based phones and has no evidence so far that it directly affects Telegram's iOS and desktop apps or group calls. Anyone using Telegram for Android should make sure the app is on version 12.10.4 or later. The version number appears at the bottom of the app's Settings page. The flaw had no CVE identifier as of October 29. The Hacker News has asked NebuSec an...
+- **Source URL:** https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers Oct 29, 2026 Agentic AI / Security Operations AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how decisions are made, and what is expected of the people responsible for defending organizations. For security professionals, this is a chance to take on a much broader role. As AI assumes more of the operational workload, analysts can move beyond individual alerts and investigations to direct the defense across the entire security lifecycle. We call this emerging role the Threat Operator: an AI-native security professional who translates business risk into defensive priorities, directs AI-driven operations, and exercises judgment over the decisions and actions taken by those systems. The impa...
+- **Source URL:** https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** Chrome extensions with 13.4 million installs caught hijacking searches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** 3 Ways AI Agents Already Operate in Your Browser
+- **Source URL:** https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-29
+- **Headline / event:** New Cisco firewall zero-day exploited to crash SSL VPN devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
