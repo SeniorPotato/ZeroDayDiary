@@ -680,7 +680,8 @@
       "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
       "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
       "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
-      "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html"
+      "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
+      "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2154,7 +2155,12 @@
       "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
       "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
       "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
+      "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3494,7 +3500,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
       "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
       "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-      "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
+      "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
     ]
   }
 }

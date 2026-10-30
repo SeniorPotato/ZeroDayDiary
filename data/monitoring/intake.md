@@ -25820,3 +25820,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Bloatware in Aftermarket Auto Parts
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide Oct 30, 2026 Cyber Espionage / Artificial Intelligence Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based "targeted intrusion adversary" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in February 2021, the hacking group overlaps with a threat cluster detailed by Trend Micro as Earth Estries . "Agentic tooling like ARTEX enables this scale of expansion at speed, allowing a small team to pursue a wider target set than manual operations would support, rather than a wholesale shift away from the adversary's established access-development mission," CrowdStrike said in a Thursday analysis. Starting October 17, 2026, Vapor Panda is said to have used the AI tool against more than 200 distinct organizations across the world, including foreign ministries in ...
+- **Source URL:** https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them Oct 30, 2026 Vulnerability / Endpoint Security TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run code on the viewer's computer. This works only after the user starts a remote-control session to that host. The fix is in TeamViewer version 15.83. The flaw is tracked as CVE-2026-111585 and scored 8.8 out of 10, in the high range. It affects the TeamViewer Full Client on Windows, Linux, and macOS, the Windows Portable edition, and the Android Remote Control app, in all versions before 15.83. For this flaw, TeamViewer's bulletin lists the Full Client, Portable, and Android app, but not the Host. The same 15.83 update fixes two other flaws in that bulletin that do affect...
+- **Source URL:** https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours Oct 30, 2026 Vulnerability / Web Security Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October 28, 2026. "This is due to predictable, web-accessible staging paths used during full-package core upgrades," Wordfence said . "This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window." The WordPress security company noted that successful exploitation requires an "attacker to hit a very narrow window while WordPress is unpacking a complete Core update." The issue boils down to the fact that affected versions unpack new files part of a full-package Core update into a predictable directory under "wp-co...
+- **Source URL:** https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis Oct 30, 2026 Hardware Security / Cryptocurrency A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post on October 30 that the report came in two days earlier from a customer in Indonesia. He bought the wallet from CryptoBilis in August, through the marketplace Tokopedia. The board sits between the wallet's main board and its screen, with a cellular module and an antenna, according to the report. It reads the screen, including the recovery phrase (Trezor calls it the wallet backup), and sends it out whenever the device is plugged in. Trezor has the customer's photos and description and has interviewed him on a video call. It is arranging for the wallet to be sent to its lab. Trezor find...
+- **Source URL:** https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving Oct 30, 2026 Intrusion Prevention / Endpoint Security The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application the business depends on. Without evidence, the recommendation waits. Safe remediation answers that hesitation with evidence. It tests the proposed action against your environment, applies the approved change, and confirms the result. Security and operations teams decide together, with facts. The Cost of Leaving Protection in Detect Many organizations already own protection they don’t enforce. Signatures sit inactive or in Detect mode while teams weigh false positives, inspection capacity, and business continuity. Meanwhile, applications and traffic patterns change, excep...
+- **Source URL:** https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Binance links $6.3 billion crypto theft to compromised DevOps laptop
+- **Source URL:** https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Trezor warns of suspected crypto-theft implant in hardware wallet
+- **Source URL:** https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Malicious Claude Code extension on Cursor planted SSH backdoors
+- **Source URL:** https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** CISA says max severity GitLab flaw now exploited in the wild
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
