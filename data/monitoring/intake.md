@@ -25724,3 +25724,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** FTC Staff Warn Marketers of Healthcare Plans and Lead Generators Not to Deceive Consumers about the Terms of the Advertised Plans
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-staff-warn-marketers-healthcare-plans-lead-generators-not-deceive-consumers-about-terms
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen Oct 30, 2026 Cyber Attack / Cryptocurrency Cryptocurrency giant Binance said on Thursday that a "security incident" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million related to the incident, respectively. The Arbitrum Security Council is said to have executed a transaction to freeze about $30.5 million from the Binance Exploit. "Initial investigation suggests that the security incident may involve a compromised DevOps engineer's laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions," Binance said in an update. The company said there is no evidence of a wallet private key leak, adding it will cover all losses from the Secure Asset Fund for Users ( SAFU ) fund and its own funds. Out of an abundance of cautio...
+- **Source URL:** https://thehackernews.com/2026/10/binance-suffers-security-breach.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories Oct 29, 2026 Hacking News / Cybersecurity News Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their own attack files exposed. Not exactly careful work. Different stories, familiar weak spots. Here's what showed up this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** 26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories Oct 29, 2026 Cloud Security / Artificial Intelligence 26,400 credentials that developers left in public code on Gitee , a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by 9,473 Alibaba Cloud AccessKey pairs. Zimmermann sent the vendors with the most exposed keys a list of their credentials, but he did not contact the developers who leaked them. When he published, he had not confirmed that any of the reported credentials had been revoked. So anyone who has pushed a key to a public Gitee repository cannot assume it has been revoked. The scan ran for about a month, but Zimmermann did not provide the dates, so it is unclear how long ago the credentials were tested. He also did not say whether anyone else had used them. He ran two secret scanners, Truf...
+- **Source URL:** https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls Oct 29, 2026 Vulnerability / Network Security Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418 , is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial-of-service (DoS) condition. According to Cisco, the issue is rooted in the Remote Access SSL VPN service of ASA and FTD software. "This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group," it said in a Wednesday advisory. "An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition." The network ...
+- **Source URL:** https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** GitHub Launches npm Firewall to Block Malicious Packages Before Installation Oct 29, 2026 DevSecOps / Vulnerability GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. "The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate," GitHub said . The feature, which currently supports only npm packages, is available in public preview for all GitHub Enterprise Cloud customers, including data-resident GitHub Enterprise Cloud. According to the Microsoft subsidiary, the firewall is placed between endpoints or internal registries and the upstream package repositories so as to deter malware attacks that compromise systems when packages are installed. This behavior can expose users to severe security risks, especially when artificial intelligence (AI) agents and CI runners automatically install dependencies to complete a task or build without their explicit permission. The idea is that endpoints like coding ...
+- **Source URL:** https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Polymarket halts trading after crypto-draining script breach, $2.5M traced
+- **Source URL:** https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Binance probes potential $5.8 billion crypto-theft hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Hugging Face malware campaign returns to hijack GPUs for crypto mining
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-30
+- **Headline / event:** Japan Airlines suffers third-party data breach exposing passenger info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
