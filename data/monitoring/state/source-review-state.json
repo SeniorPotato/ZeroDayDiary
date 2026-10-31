@@ -2167,7 +2167,9 @@
       "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
       "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+      "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3514,7 +3516,11 @@
       "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
       "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-      "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
     ]
   }
 }

@@ -25980,3 +25980,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data Oct 31, 2026 Data Security / Cyber Attack American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. "This month, Chainalysis detected an external actor using offensive agentic techniques to gain unauthorized access to Chainalysis systems and internal tools," Chainalysis said Friday. "Some non-sensitive customer data, such as user IDs, full names, email addresses, and organization role labels for users provisioned on our platform were accessed, including such information relating to your organization and users." The company said it's patching vulnerabilities and hardening its systems in response to the incident. The mention of "offensive agentic techniques" indicates that an artificial intelligence (AI)-powered tool was used ...
+- **Source URL:** https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access Oct 31, 2026 Vulnerability / Cyber Attack The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities ( KEV ) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. CVE-2026-118527 (CVSS score: 4.3) - A generation of predictable numbers or identifiers vulnerability that could allow a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. It's worth noting that the security bugs are part of an exploit chain that was first documented by Volexity earlier this month as weaponized in conjunction with an authentication bypass flaw (CVE-2026-104935, CVSS score: 8.6) by a previously undocumented threat actor dubbed UTA0576. CVE-2026-10493...
+- **Source URL:** https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** New Android SMS of Death exploit can remotely crash unpatched phones
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Reddit to lock content behind logins to fight scrapers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Chainalysis discloses data breach from "offensive agentic techniques"
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
