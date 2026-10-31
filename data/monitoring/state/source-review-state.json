@@ -139,7 +139,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -681,7 +682,8 @@
       "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
       "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
-      "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html"
+      "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2160,7 +2162,12 @@
       "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
       "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
       "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
+      "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3505,7 +3512,9 @@
       "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
       "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
       "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-      "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
     ]
   }
 }

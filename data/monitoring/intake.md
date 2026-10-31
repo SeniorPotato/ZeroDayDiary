@@ -25908,3 +25908,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Friday Squid Blogging: Bigfin Squid Off California Coast
+- **Source URL:** https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats Oct 31, 2026 Vulnerability / Web Security A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category. The trap was an ordinary ChatGPT conversation shared via its public link. It could be sent the same way as any real shared chat: by email, as a chat message, as a support ticket, or as a social post. The victim did not have to install anything, join a workspace, or sign in through the attacker. In the most reliable version of the attack, they opened the link and clicked ChatGPT's Preview button once. In a later version, Parameter set the page to open Preview on its own, so opening the link was the only step. What the Attacker Could Do Once the link opened, the attacker's code ran ins...
+- **Source URL:** https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38% Oct 31, 2026 Threat Intelligence / Network Security Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44 seconds. In comparison, a total of 13.2 million and 10.0 million L3 DDoS attacks were recorded in Q2 and Q1 2026, respectively. The increase has been linked to DDoS-for-hire booter or stresser services that are responsible for hundreds of thousands of attacks. "Short-burst, low-bandwidth attacks lasting under 10 minutes and 1 Gbps surged by 208%," the Cloudforce One threat intelligence team said in its quarterly DDoS Threat Report shared with The Hacker News. An interesting trend is the decline of hyper-volumetric attacks exceeding 1 Tbps by 69% from the previous quarter – going ...
+- **Source URL:** https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison Oct 30, 2026 Cyber Crime / Cyber Espionage Ahmad Umar Agha , a Syrian Electronic Army hacker known online as " Th3Pr0 ," has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence Directorate, the U.S. Justice Department said on October 29. The pro-Assad Syrian Electronic Army began its attacks in 2011. Its members sent phishing emails to steal employees' passwords, then used those passwords to deface websites, redirect web traffic, and hijack social media accounts, according to a 2014 FBI affidavit . On April 23, 2013, the group hijacked the Associated Press's Twitter account and posted a false report that President Barack Obama had been injured in two explosions at the White House. Twitter's message confirming a password reset for that account w...
+- **Source URL:** https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor Oct 30, 2026 Malware / Artificial Intelligence Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut down its marketplace to remove the compromised package. The exact method attackers used to introduce the unauthorized update remains unclear. "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users," Cursor said . "This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the cursor[.]com/marketplace, Grok Bot, Grok, or our other SpaceXSI product. However, Cursor's statement that the...
+- **Source URL:** https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw Oct 30, 2026 Vulnerability / Web Security Drupal has warned that threat actors are exploiting a "highly critical" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. "This module enables you to sell goods and services to customers through an included shopping cart and checkout form or through decoupled applications via APIs," Drupal said in an advisory. "The module doesn't sufficiently protect certain routes and entity fields, leading to an access bypass that may financially impact the vendor." The open-source content-management framework acknowledged that the vulnerability is being "actively exploited in the wild," but provided no specifics about the nature of the activity or the extent of the campaign. Users are being recommended to update to the latest version - Version 3.x - Upgrade to Commerc...
+- **Source URL:** https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Critical Linux kernel flaw allows remote root attacks on MPTCP servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-10-31
+- **Headline / event:** Drupal warns of critical Commerce Core flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
