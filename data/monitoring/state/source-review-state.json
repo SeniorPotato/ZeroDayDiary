@@ -2169,7 +2169,11 @@
       "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
       "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
       "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+      "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3521,7 +3525,8 @@
       "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
       "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
       "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-      "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+      "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
     ]
   }
 }

@@ -26036,3 +26036,43 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-01
+- **Headline / event:** CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key Nov 01, 2026 Vulnerability / Cloud Security A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is privileged, the attacker could gain "root access to the host machine," Canonical said. The flaw, tracked as CVE-2026-112816 , carries a maximum CVSS score of 10.0, and Canonical has released fixed versions of both products. How the Flaw Works LXD and MicroCloud let remote clients access their APIs over mutual TLS, a setup in which the client presents a certificate to prove who it is. A client is trusted when its certificate is in the server's trust store, the list of identities the server will accept. The flaw was in how the server checked that certificate. It compa...
+- **Source URL:** https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-01
+- **Headline / event:** Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script Nov 01, 2026 Cryptocurrency / Web Security Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached the hackers' wallet in under an hour. The replaced script came from DebugBear, whose real user monitoring (RUM) tool measures how fast web pages load for real visitors. Researchers at Hudson Rock downloaded the malicious file on October 29 from the address Polymarket's site used to load the DebugBear script. They also found a change in Polymarket's site code that removed the DebugBear script. DebugBear's DNS records were compromised through its domain registrar, the company said on X. Its early findings indicate the attack targeted one customer's website. It has seen no sign...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-01
+- **Headline / event:** FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist Nov 01, 2026 Cyber Crime / Cryptocurrency The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor , a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it observed the threat actor converting stolen assets primarily into Ethereum (ETH). "It is expected these assets will then be further laundered by converting them using DeFi and instant swap services as they prepare them for further laundering stages," the FBI said in a statement. The agency has also provided a list of wallet addresses that the attackers are said to be using to launder the stolen assets. The development comes as Binance said it has resumed phase one of withdrawals starting today between 6 and 9 a.m. UTC after they were paused in the wake of the incident. "S...
+- **Source URL:** https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-01
+- **Headline / event:** NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection Nov 01, 2026 Windows Security / Cyber Espionage Cybersecurity researchers have disclosed details of what has been described as a "highly sophisticated infection chain" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed NetamLoader . The attack has not been attributed to any known threat actor or group. Nor is it clear if the intrusion compromised more than one system and allowed the hackers to steal any sensitive information. The Russian cybersecurity company said the artifact was detected in the first half of 2026, packaged inside a Windows cabinet archive (CAB) file placed in a directory that stores Windows operating system update packages. It's suspected the operation involved a supply chain attack , in which bad actors compromised a trusted third-party vendor to gain access to downstrea...
+- **Source URL:** https://thehackernews.com/2026/11/netamloader-malware-targets-government.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-01
+- **Headline / event:** Alpine Linux rebuilds GitLab after attempted RCE attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
