@@ -26084,3 +26084,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** FTC, Washington Take Action Against Payment Processor for Deceiving Small Businesses About Costs and Cancellation Terms
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-washington-take-action-against-payment-processor-deceiving-small-businesses-about-costs
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** ⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More Nov 02, 2026 Cybersecurity News / Hacking Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against their users. Even the places meant to keep money and systems safe ended up with problems of their own. The strange part is how often the damage started somewhere nobody was looking. And that's before getting to the long list of fresh bugs, shady services, and scams making the rounds. Quite a bit to sort through. Here's what made the list. ⚡ Threat of the Week N. Korea Sets New Record with Binance $6.43B Crypto Theft — The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to a North Korean hack...
+- **Source URL:** https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment Nov 02, 2026 Cyber Espionage / Cyber Attack Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud environment in the Kurdistan Region. The activity has been attributed to a threat actor known as DarkBlinders , an Iran-nexus group assessed to be active since at least September 2024 and linked to attacks aimed at aviation infrastructure and telecommunications in the U.A.E. and Iraq. It exhibits no technical overlap with other known hacking groups. Attacks mounted by the group are known to rely on spear-phishing as an initial access pathway to lure recipients into opening trojanized utilities or clicking on attacker-controlled websites that host similar tools as direct downloads. Prev...
+- **Source URL:** https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers Nov 02, 2026 Vulnerability / Artificial Intelligence Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week . Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's Known Exploited Vulnerabilities catalog, as of the catalog's October 30 update. Six other Langflow flaws are listed there, most recently CVE-2026-9198, which was added in August . The four Langflow flaws in IBM's bulletin, first published on October 28 and updated the next day, are:
+- **Source URL:** https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy Nov 02, 2026 Artificial Intelligence / Threat Detection Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the problems AI SOC agents are built for, and whether it has the data access, context, written standards and oversight rules that AI agents need to investigate alerts accurately in its environment. A SOC does not need to be far along a maturity model to be ready. AI agents do their first work on the bottom layer, alert handling, and the analyst hours they return give a team room to work on the layers above it. The next section describes those problems. Technical readiness covers four areas: access and context, an investigation standard with baseline metrics, rules for what the agent may do, and a...
+- **Source URL:** https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data Nov 02, 2026 Social Engineering / Active Directory Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company data being copied to an external server. The attackers exploited no flaw in Teams itself. They relied on social engineering and on AD CS that had been set up insecurely, and Microsoft did not tie the activity to any known group. How the Attacks Began Both intrusions started the same way, Microsoft said. The attackers messaged and called employees on Teams while posing as the company's own IT or help desk, working from outside tenants with support-themed names so the contact looked familiar. They talked each user into opening Quick Assist, a remote-help tool built into Windows, and rea...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Hackers disrupt refrigeration systems at European supermarkets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Google disrupts million-device XCPE Android malware botnet, bans TV box maker
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Synology warns of C3RB3R ransomware attacks targeting NAS devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Ivanti patches two more Connect Secure zero-days chained in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-02
+- **Headline / event:** Chinese hackers use ARTEX AI in automated attacks against 200 orgs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
