@@ -26172,3 +26172,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies
+- **Source URL:** https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors Nov 03, 2026 Vulnerability / Cyber Attack A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed . The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. "SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges," Siemens said in an advisory released back in August 2026. The issue has been remediated in versions 4.3.4.1 or later. As mitigations, Siemens recommends that users uninstall Node-RED or harden the installation by following the steps below - Enabling HTTPS access Securing the editor and admin API via cre...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials Nov 03, 2026 Cryptocurrency / Cyber Attack Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract sensitive data, including stored wallet credentials. "The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated users to invoke administrative operations, including deleting arbitrary files on the server, overwriting the payment gateway configuration and recovering stored wallet credentials in cleartext," according to a description of the flaw on the NIST National Vulnerability Database (NVD). The vulnerability affects versions 1.2.1 through 1.2.2, which is the latest version. There are n...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-target-unpatched.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts Nov 02, 2026 Cyber Espionage / Malware Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211 , where "CL" refers to cluster and "UNK" stands for unknown motivation. A notable aspect of the campaign concerns the use of large language models (LLMs) and/or automated artificial intelligence (AI) agents to generate payloads and execute malicious code. "The attackers behind this cluster of activity focused on Linux environments to conduct extensive reconnaissance and maintain persistent network access to support intelligence-gathering," researchers Roey Porat and Tom Fakterman said . "The attackers attempted to dump sensitive databases and exfiltrate government mailboxes to access social media accounts." T...
+- **Source URL:** https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Fintech platform Sageworks taken offline after suspected cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** BTCPay Server warns of hot wallet crypto thefts on outdated instances
+- **Source URL:** https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Your Mobile Carrier Stores Your Call Logs for Years
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Over 1,000 GitLab servers vulnerable to ongoing RCE attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
