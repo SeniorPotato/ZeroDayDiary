@@ -26236,3 +26236,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** AIs Hacking the Law
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity Nov 03, 2026 Password Security / Incident Response Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but does not say what happened or whether anyone's stored data was exposed. The email says it went to current and former mSecure customers. A customer who received it posted its text in a thread on mSecure's support forum on November 3. As of 18:00 UTC on November 3, mSeven had posted nothing about the email on mSecure's X and Facebook accounts. No staff member had replied in that forum thread. The email says mSeven started an investigation, took steps to limit the problem and brought in outside cybersecurity experts. It does not name the systems involved, say when the activity...
+- **Source URL:** https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes Nov 03, 2026 Data Breach / Cyber Attack Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. "An external attacker gained unauthorized access to part of Chainstack's infrastructure through a third-party component," the company said . "We detected the intrusion, cut the access paths, and are hardening our systems." According to the timeline of events shared by Chainstack, the attacker gained access to a development environment on October 26, 2026, and then escalated their access to break into "some parts of our production environment." The intrusion was subsequently detected on October 31, 2026, and the attacker's access was cut off that same day, the company noted. As part of the digital break-in, the ...
+- **Source URL:** https://thehackernews.com/2026/11/chainstack-reports-production-systems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access Nov 03, 2026 Vulnerability / Network Security Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3) and CVE-2026-111560 (CVSS score: 8.6), respectively. While CVE-2026-116606 only affects Email Security Gateway, CVE-2026-111560 impacts the following Barracuda products - Email Security Gateway Load Balancer Application Delivery Controller Message Archiver WAF Control Center Web Application Firewall Web Security Gateway "Successful exploitation requires an attacker to have access to the administrative interface of an affected product," Barracuda said . "If exploited in combination, these vulnerabilities could allow an attacker to bypass authorization co...
+- **Source URL:** https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges Nov 03, 2026 Cloud Security / Artificial Intelligence Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking , a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code to gain unauthorized access to an organization's LLM accounts, while the legitimate owner covers the consumption costs. Such attacks have a wide geographical footprint, with impacted entities located in North America, South America, and Asia Pacific across the financial services, retail, technology, and transportation sectors. "Unlike the gradual resource consumption associated with cryptojacking, LLMJacking can generate large spikes in fraudulent cloud charges in a matter of hours," Google Threat Intelligence Group and Mandiant said in a report shared with The Hacker News...
+- **Source URL:** https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes Nov 03, 2026 Web Security / Cyber Attack An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory . The attacker has since taken some of that data. cPGuard 5.88.25 and later versions remove the backdoor and the files the script left. Credentials the script copied may still work after the update, so any server that may have run the script also needs new passwords and keys. At 02:06 UTC, the attacker, who has not been identified, used compromised credentials to get into cPGuard's update system. The script went out in cPGuard versions 5.88.12 through 5.88.19. The attack was detected within 12 hours of those versions going out, according to OPSSHIELD. The company has cleared its infrastructure credentials and stopped the script from reaching more servers. It is sti...
+- **Source URL:** https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Google: LLMjacking attacks rack up $1 million in cloud AI charges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Barracuda warns of critical flaws allowing root access to devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028
+- **Source URL:** https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** UK school estate hit by 3AM ransomware in suspected AI-assisted attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-03
+- **Headline / event:** Police seizes over 100 servers in investment scam crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

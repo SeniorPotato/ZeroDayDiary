@@ -685,7 +685,8 @@
       "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
       "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html"
+      "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+      "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2183,7 +2184,12 @@
       "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
       "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
       "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html"
+      "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3546,7 +3552,12 @@
       "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
       "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
       "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-      "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
+      "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+      "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+      "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/"
     ]
   }
 }
