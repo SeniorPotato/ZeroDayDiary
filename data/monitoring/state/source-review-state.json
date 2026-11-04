@@ -211,7 +211,8 @@
       "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
       "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
       "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
-      "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities"
+      "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
+      "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -2195,7 +2196,12 @@
       "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
       "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
       "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-      "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
+      "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3566,7 +3572,12 @@
       "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
       "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
       "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-      "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/"
+      "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+      "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/"
     ]
   }
 }

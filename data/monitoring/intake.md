@@ -26396,3 +26396,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Joint statement on cyber incidents in refrigeration systems across the EU
+- **Source URL:** https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root Nov 04, 2026 Linux / Vulnerability A flaw in APT , the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian , Ubuntu , and APT's developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and Ubuntu 22.04 onward. Debian has released fixed versions of APT for the flaw, CVE-2026-109518 . APT's developers, who call the flaw critical, say updates for Ubuntu and its Ubuntu Pro subscription service are being released. Ubuntu 14.04 users with Ubuntu Pro can already get one. Older releases, such as Debian 11 and Ubuntu 20.04, are not exposed by default, according to Ubuntu. But many user scripts may have turned on the retry setting, Acquire::Retries, on those releases anyway, APT's developers say. Debian's testing branch was still on the vulnerable version 3.3.5 at...
+- **Source URL:** https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records Nov 04, 2026 Vulnerability / Enterprise Security SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files, potentially exposing sensitive information. CVE-2026-109594 (CVSS score: 6.8) - A post-authentication SQL injection vulnerability that could allow an authenticated attacker to access or modify information stored in the GMS database under specific conditions. "The affected product has reached End-of-life (EoL)," SonicWall said in a Tuesday alert. "As a result, no remediation or security update will be released for these vulnerabilities. Organizations using the product should be aware of the associated security risks and are strongly encouraged to upgrade to the SonicWa...
+- **Source URL:** https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit Nov 04, 2026 Artificial Intelligence / Cybersecurity Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration files to inject advertisements for the jailbreak author's website into subsequent agent responses. "The advertised service is an opaque, OpenAI-compatible LLM gateway, a middleware between an application and an LLM provider," Check Point Research said in a technical report. "The likely business model is to use the freely distributed jailbreak bundle as an acquisition channel for the paid gateway service." Adware is a type of software that displays unwanted advertisements, which can appear on users' computers or mobile devices, often in the form of ...
+- **Source URL:** https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits Nov 04, 2026 The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. "The injected JavaScript code collects browser and device attributes," Sekoia researchers Amaury-Jacques Garçon and Félix Aime said in a technical report shared with The Hacker News. "Then, the delivery infrastructure delivers a platform-specific N-day exploit chain targeting either iOS or Android." The end goal of the attacks is to serve payloads capable of stealing browser cookies, and in some cases, Wi-Fi passwords or full mobile device data. The activity, codenamed Poisoned Source , was discovered by the French cybersecurity company in mid-October 2026. A defining aspect of the campaign is the use of three infection vectors - Compromise of legitimate websites to inject malicio...
+- **Source URL:** https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads Nov 04, 2026 Vulnerability / Web Security A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick . The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store uploaded files using Active Storage's Disk service, which stores them on the server's disk. In those apps, an attacker could also read any file the app can read. Those files typically include the app's secret_key_base and its credentials for other systems, according to Rails. Reading them may in turn allow remote code execution or lateral movement into those systems. Rails rates the flaw 9.8 out of 10 on the CVSS scale. It is tracked as GHSA-f3w6-w445-fwh9 and does not yet have a CVE identifier. ImageMagick selects a format handler, which it calls a coder, based on the file's c...
+- **Source URL:** https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** NIKKE PC game launcher hacked to spread remote access, data-stealing
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Cyberattack disrupts blood storage refrigeration systems in France
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** CISA flags WordPress RCE flaw as actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** Hackers use n-day exploits in zero-click attacks on iOS, Android devices
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-04
+- **Headline / event:** DreamHost confirms data breach exposed FTP logins and webmail sessions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
