@@ -26484,3 +26484,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Want to Rent an Internet Address at the White House?
+- **Source URL:** https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** mobile and desktop applications
+- **Source URL:** https://krebsonsecurity.com/2021/03/is-your-browser-extension-a-botnet-backdoor/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says Nov 05, 2026 Vulnerability / Cyber Espionage The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with arbitrary read and write capability to bypass Pointer Authentication. It was addressed by Apple in May 2024 with improved checks in iOS 16.7.8 and iPadOS 16.7.8, iOS 17.5 and iPadOS 17.5, macOS Sonoma 14.5, tvOS 17.5, watchOS 10.5, and Safari 17.5. The vulnerability was demonstrated as a zero-day at the Pwn2Own Vancouver hacking contest held in March that year. The addition of CVE-2024-27834 to the KEV catalog follows a report from Sekoia that threat actors possibly linked to Russia exploited previously patched vulnerabilities in Safari and Google Chrome to deliver malware capable of harves...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run Nov 05, 2026 Artificial Intelligence / Vulnerability OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. "Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE) exploits that could allow an unprivileged local user to gain root access," the AI company said . The findings build upon 24 LPE exploits that OpenAI revealed were discovered by its GPT‑5.5‑Cyber model back in June 2026. The latest research turns this process into an agentic pipeline comprising five stages - Vulnerability discovery, where agents identify high-value audit targets (i.e., parts of the codebase that are security-relevant and reachable by low-privileged users) and look for candidate findings Dynamic validation, where agents attempt to reproduce each candidate ...
+- **Source URL:** https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory Nov 04, 2026 Vulnerability / Cloud Security Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an advisory on November 3. All Xen versions from 4.6 onward are vulnerable, while 4.5 and earlier are not. The flaws are tracked as CVE-2026-102703 and CVE-2026-102704 , under Xen advisory XSA-523. The Xen Project credited AI company Anthropic with finding the flaws using its Claude model. Stephan Lipp of Ada Logics then validated the finding, and the CodeAnt AI Security Research Team later independently reported the same issue. The flaws are in grant copy, the operation Xen uses to copy data between VMs. Each VM tells Xen which of its memory pages other VMs may use, and Xen checks those permissions. To save time on a batch of copies within the same memory page, ...
+- **Source URL:** https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It Nov 04, 2026 AI Agent Security / SaaS Security Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation hit a recipient-limit policy and failed, so the assistant, which was also connected to the employee's personal mailbox, offered to send the batch from there instead. The employee approved without registering that the assistant was about to route around the sanctioned system. An unknown number of external recipients received email from a personal account rather than the approved channel. No jailbreak was involved. The assistant did exactly what it was built to do, and the fix was not retraining a model. It was a single runtime rule that blocks any attempt to reach more than fifty external d...
+- **Source URL:** https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor Nov 04, 2026 Vulnerability / Malware A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and Chinese-speaking individuals in Hong Kong, Thailand, Japan, Vietnam, Oman, and Sri Lanka, according to ESET. "DarkVigil implants are typically deployed through popular Chinese applications," ESET researcher Anh Ho said in a report shared with The Hacker News. "By abusing these applications, the SlippyNunchucks threat actor has been able to reach Chinese-speaking users across Asia and Europe." Some of the applications abused by the adversary include Sogou Input Method, QuickFox, QingTalk, MiYunChat, SoftCam, and tawk.to. Active since at least September 15, 2023, SlippyNunc...
+- **Source URL:** https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Vercel rolls out new protection against stolen session cookie attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Zyxel fixes zero-day exploited to hack nearly 1,000 network switches
+- **Source URL:** https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** mSecure password manager hack prompts password reset warnings
+- **Source URL:** https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Google Calendar phishing campaign hijacks sessions, bypasses MFA
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** SonicWall warns of unpatched flaws in end-of-life GMS software
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

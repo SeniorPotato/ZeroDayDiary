@@ -468,7 +468,9 @@
       "https://krebsonsecurity.com/2025/10/canada-fines-cybercrime-friendly-cryptomus-176m/",
       "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
       "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+      "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "https://krebsonsecurity.com/2021/03/is-your-browser-extension-a-botnet-backdoor/"
     ],
     "schneier-on-security": [
       "https://www.schneier.com/blog/about/",
@@ -2201,7 +2203,12 @@
       "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
       "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
       "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
+      "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3577,7 +3584,12 @@
       "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
       "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/"
+      "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/"
     ]
   }
 }
