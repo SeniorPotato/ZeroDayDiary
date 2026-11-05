@@ -26580,3 +26580,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** New Details Emerge in Amazon Ads Auction-Rigging Case
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/new-details-emerge-amazon-ads-auction-rigging-case
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux Nov 05, 2026 Linux / Vulnerability Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every release back to 3.16. The attack works when the OpenSSH server (sshd) checks passwords without the Pluggable Authentication Module (PAM) interface, password logins are enabled, and at least one other account on the machine has a password. Alpine's openssh-server package is built without PAM, and password logins are on by default. The flaw comes from how sshd works with musl, the C library that Alpine is built on. Non-Linux systems, Linux systems built on glibc, and systems that check passwords through PAM are not affected, said Damien Miller of the OpenSSH project. He told anyone run...
+- **Source URL:** https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction Nov 05, 2026 Vulnerability / AI Security Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. "The flaw could enable silent chat data theft, phishing, and malware delivery, including zero-click data exfiltration in the ChatGPT desktop application," Eli Smadja, head of research at Check Point, said in a report shared with The Hacker News. The problem stems from HTML page previews inside ChatGPT code blocks, which allow HTML content to be rendered directly within the application. Given that executing user-supplied HTML and JavaScript can introduce security risks of its own, the content is placed inside a sandbox so that it cannot access data from the app, such as cookies and local storage. The sandbox also prevents the rendere...
+- **Source URL:** https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories Nov 05, 2026 Hacking News / Cybersecurity News How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a great match. The stranger part is how little some attacks now need. Ransom demands without encrypted files. Fake websites that look real enough to steal money. AI tools picking up dangerous instructions while trying to help. Even the attackers are making mistakes in their own code. This week's stories are a reminder that the biggest problems don't always come from clever tricks. Sometimes the easy way works just fine. Here's what else happened. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out Nov 05, 2026 Attack Surface Management A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business. Each missing detail creates another investigation, another handoff, and another delay. An exposure management platform should connect discovery with a clear priority, an appropriate response, and evidence that protection has improved. Continuous threat exposure management (CTEM) connects this work through scoping, discovery, prioritization, validation, and mobilization. These five tests establish whether a platform can support that process across infrastructure, identities, sensitive data, and external threats. Security teams often have several records of the same asset. A cloud platform identifies ...
+- **Source URL:** https://thehackernews.com/2026/11/is-your-exposure-management-platform.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** 5 Active Cyber Threats That Put US Enterprises at Risk in October 2026 Nov 05, 2026 Cyber Attack / Enterprise Security October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five active cyber threats through real-world sandbox investigations, revealing how they operate, the risks they pose to organizations, and how security teams can detect and contain attacks faster to minimize business impact. 1. SkyW4lker: Microsoft 365 Phishing Puts US Corporate Accounts at Risk SkyW4lker is an active phishing kit that exploits Microsoft's legitimate device-code authentication to compromise corporate accounts without stealing passwords or bypassing MFA. ANY.RUN researchers identified 618 related sandbox analyses between June and October 21, 2026, with 46% coming from the US. ...
+- **Source URL:** https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** OpenAI’s GPT-6 Astra silently obstructed safety research tasks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** OpenSSH flaw lets attackers log into password-disabled Linux accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Hackers backdoor Linux servers using trojanized CWP web server
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** DigiCert data breach exposes customer information, identity documents
+- **Source URL:** https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-05
+- **Headline / event:** Closing the Identity Gap at the Service Desk
+- **Source URL:** https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

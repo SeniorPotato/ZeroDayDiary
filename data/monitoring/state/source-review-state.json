@@ -371,7 +371,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-highlights-efforts-combat-imposter-scams-protect-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
       "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-staff-warn-marketers-healthcare-plans-lead-generators-not-deceive-consumers-about-terms",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-washington-take-action-against-payment-processor-deceiving-small-businesses-about-costs"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-washington-take-action-against-payment-processor-deceiving-small-businesses-about-costs",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/new-details-emerge-amazon-ads-auction-rigging-case"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -2208,7 +2209,12 @@
       "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
       "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
       "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+      "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3589,7 +3595,12 @@
       "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
       "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
       "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/"
+      "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+      "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/"
     ]
   }
 }
