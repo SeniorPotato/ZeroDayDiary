@@ -26668,3 +26668,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs Nov 06, 2026 Malware / Web Security A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server. The researchers, who named the backdoor cwpdoor , captured its installer, a shell script posing as a version update, on June 29. The installer handles only two versions of that web server, cwpsrv 1.15.10 and 1.24.0. The researchers do not yet know how attackers get the root access the installer needs. On September 30, an archive holding a copy of the backdoor was uploaded to VirusTotal from Brazil. The researchers say this indicates that "real victims already exist in the wild." They give no count of infected servers. The backdoor is cwpsrv itself, rebuilt with extra code...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login Nov 06, 2026 Vulnerability / Email Security Two flaws in Barracuda's Email Security Gateway , an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606 , is an authorization bypass. An unauthenticated attacker can use it to restore a crafted configuration backup and change the appliance's global settings. The other, CVE-2026-111560 , is a command injection. It runs commands as root but normally needs an administrator account, and on the Email Security Gateway the bypass gives an attacker that access. Chained, the two let an attacker reach root with no login. Affected Products and Fixes The authorization bypass affects only the Email Security Gateway. The command injection reaches five other products, but on those it still needs an administrator account. Mandiant, which assigned the two CVE records, rates...
+- **Source URL:** https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content Nov 05, 2026 Cloud Security / Data Privacy Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to "Anyone with the link." When users choose this option, it makes the content accessible to anyone who has the link, including Apple, the iPhone maker said. "Starting in version 27.3 or later of iOS, iPadOS, macOS, and visionOS, items shared using Anyone with the Link will be checked by Apple for harmful content," it said in a support document published Tuesday. Apple also explicitly noted that sharing an item that can be accessed by Anyone with the Link disables end-to-end encryption (E2EE), even if the owner or the recipients have turned on Advanced Data Protection , an optional setting that secures iCloud Backup, Photos...
+- **Source URL:** https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access Nov 05, 2026 Cyber Attack / Artificial Intelligence The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools like ARTEX, PentAGI, Cairn, and CyberStrikeAI . "These tools execute complete attack chains autonomously at machine speed, generate and refine large numbers of tailored attack scripts in rapid succession, and adapt their payloads based on target responses," CERT-In said . "The supporting attack infrastructure rotates IP addresses within hours to days." The agency said the attacks have also targeted cryptocurrency exchanges and digital asset service providers, resulting in the theft of keys and funds. The update follows an October 2026 alert issued by CERT-In, which wa...
+- **Source URL:** https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution Nov 05, 2026 Vulnerability / Network Security Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90 Patch 2 firmware, named in a June 16 advisory for a flaw tracked as CVE-2026-7273 . The new 2.90 Patch 3 firmware fixes a flaw now tracked separately as CVE-2026-107441, which the exploit relies on. It was posted on October 23, and the vendor announced it in an advisory earlier this week. The researchers, who reported the flaw to the vendor on September 29, call it a zero-day. Attackers already had a working exploit for it by then. GreyNoise, which monitors attack traffic through a network of sensors, reported on September 21 that attackers took data from 996 GS1900 switches around Au...
+- **Source URL:** https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** FBI, CISA warn of cyberattacks targeting refrigeration systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** Nearly 1.5 million exposed secrets targeted in new revocation program
+- **Source URL:** https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-06
+- **Headline / event:** GhostMap Android flaw lets malicious app trigger persistent boot loop
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
