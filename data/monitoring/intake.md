@@ -26836,3 +26836,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** Progress Residential and Owner Pretium Partners to Pay $49.75 Million to Settle FTC and States’ Charges Over Deceptive Rental Pricing Practices and Other Unlawful Conduct
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-4975-million-settle-ftc-states-charges-over
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** Friday Squid Blogging: New Jurassic Squid Predecessors
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** The Flood is Coming And The Pipes Were Already Full Nov 06, 2026 Open Source Security / Supply Chain An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier . I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his plan is the one that asks governments to coordinate. They're in a difficult spot: regulate too little and a US company accidentally builds the weapon, regulate too much and it gets built somewhere else, and open source isn't governable either way. Where governments can act is on consumption: not what the models can do, but what happens to what they find. Who gets a vulnerability first, how fast a fix reaches the people running the code, whether the operators who can't move on an attacker's timeline get a head start. That's what Gold Eagle is. It matters...
+- **Source URL:** https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services Nov 06, 2026 Data Breach / Cyber Attack Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. "While we investigated, we removed access to Reactor and Data Solutions," the company said. "At this time we continue to have no evidence that any investigations data has been accessed or Chainalysis attribution data has been manipulated." Chainalysis said it has implemented additional proactive monitoring systems to detect unusual activity, adding it took the Know Your Transaction (KYT) user interface and API offline, alongside other address screening products and the login page. Previously, Chainalysis said it was probing what it described as an "ongoing multi-front cyber attack," leading to the discovery of an "on-path attack" that exposed a subset of customer passwords. The company said the attack vector has since been addres...
+- **Source URL:** https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** Runaway AI hacking agent behind WorkOS breach after escaping sandbox
+- **Source URL:** https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-07
+- **Headline / event:** OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
