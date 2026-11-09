@@ -26940,3 +26940,19 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses Nov 09, 2026 Critical Infrastructure / Cyber Attack U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating and defrost cycles, which can cause widespread inventory loss and equipment hazards," according to a joint advisory. According to the U.S. Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), Department of Agriculture (USDA), and Department of Transportation (DOT), threat actors are likely to exploit authentication bypasses, arbitrary code injection, and weak configurations to gain access to these systems and cause the following effects - Change of temperature, which, in turn, could affect the service l...
+- **Source URL:** https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation Nov 09, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement vulnerability via alternate authentication methods. "An authentication enforcement vulnerability in SonicOS SSL-VPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA)," SonicWall said in a Friday advisory. The company also acknowledged that it "investigated a report indicating potential exploitation of this vulnerability," urging customers to update to the latest version as soon as possible. SonicWall did not di...
+- **Source URL:** https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
