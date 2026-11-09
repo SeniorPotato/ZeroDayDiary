@@ -26956,3 +26956,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** FTC Secures Settlement with Stream Auto Outlet, Advancing Price Transparency for Auto-Buying Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-secures-settlement-stream-auto-outlet-advancing-price-transparency-auto-buying-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** FTC Action Results in Court Issuing Temporary Restraining Order Halting Phantom Debt Collection Operation
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-action-results-court-issuing-temporary-restraining-order-halting-phantom-debt-collection
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data Nov 09, 2026 Cloud Security / Data Breach An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole , a data lake platform owned by Idera, operates within its customers' AWS accounts. To let it in, a customer creates an IAM role, which is an AWS identity with its own set of permissions. The role's trust policy allows Qubole's AWS account to assume the role, granting those permissions. Each request to do this, called AssumeRole , must include a matching code from Qubole known as an External ID. Apart from the attack, most of the roles the attacker assumed were unused, according to Wiz's researchers. But each role still trusted Qubole's account, so the attacker's requests worked. Any organization...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware Nov 09, 2026 Supply Chain Attack / Malware Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor on Windows, macOS, and Linux machines. The bee-js package is the JavaScript library behind Swarm Desktop and the swarm-cli command-line tool. Swarm Desktop runs a Swarm node on a user's own computer and saves the node's private keys there. Both malicious releases have been taken down, and the project's maintainers released a clean Swarm Desktop update today. Neither step removes a backdoor already installed nor protects a key already sent. No theft of funds had been reported at the time of writing. Swarm Desktop 0.56.2 appeared on GitHub at about 00:36 UTC today and was w...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia Nov 09, 2026 Cyber Espionage / Threat Intelligence The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. "PapRAT has both C++ and Rust implementations," Fortinet FortiGuard Labs researcher Cara Lin said . "Its capabilities include command execution, file uploads and downloads, file deletion, directory and drive enumeration, and screenshot capture. The Rust variant adds PowerShell execution and other commands." The campaign is notable for making use of three different infection chains - A Windows Shortcut (LNK) file that abuses the native "ftp.exe" utility to run scripts and create scheduled tasks designed to maintain contact with a command-and-control (C2) server. A VHDX disk image containing a LNK file that launches a lure Microsoft Excel spreadsheet, while running an MSI installer in the background to d...
+- **Source URL:** https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** ⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More Nov 09, 2026 Cybersecurity News / Hacking A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed systems. AI is helping some of them move faster, but old mistakes are doing plenty of the work too. Even forgotten settings and small changes made months ago are coming back to cause trouble. There's a lot packed into this week's news, including some strange research findings, fresh attacks, and a few warnings worth taking seriously. Here's the full recap. ⚡ Threat of the Week OpenSSH Flaw Sees Exploitation Attempts — Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set....
+- **Source URL:** https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars Nov 09, 2026 Vulnerability / Automotive Security The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock , an identity platform now part of Ping Identity , and on those servers the researchers reached an administrator console that still used its default password. They tested the full attack only on their own and consenting owners' cars in the United States, in February 2026, and both systems were fixed about two hours after they reported the problem. Shubham Shah and Sam Curry published their work late last week. They had started with the apps: both brands signed customers in through the same platform, which runs in two parts: one for login and one, called OpenIDM , that holds customer records. OpenIDM comes with a built-in administrator console powered by the Apache Felix tool. For...
+- **Source URL:** https://thehackernews.com/2026/11/default-adminadmin-server-password.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** SEGA newsletter data breach exposes 2.2 million email addresses
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** N-able takes cloud platform offline after 30+ "zero-days" published
+- **Source URL:** https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** York University breach exposed personal information dating to 2007
+- **Source URL:** https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** France blames Iranian hackers for supermarket attacks that sparked fires
+- **Source URL:** https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-09
+- **Headline / event:** Russian cloud firm Beget rebuilds from scratch after data wiper attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

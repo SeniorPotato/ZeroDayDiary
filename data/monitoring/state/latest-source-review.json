@@ -1,26 +1,136 @@
 {
-  "generatedAt": "2026-11-09T06:40:10.195Z",
-  "packetPath": "data/monitoring/review-packets/2026-11-09T064010Z.md",
+  "generatedAt": "2026-11-09T22:25:13.044Z",
+  "packetPath": "data/monitoring/review-packets/2026-11-09T222513Z.md",
   "candidates": [
     {
       "discovered": "2026-11-09",
-      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses Nov 09, 2026 Critical Infrastructure / Cyber Attack U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating and defrost cycles, which can cause widespread inventory loss and equipment hazards,\" according to a joint advisory. According to the U.S. Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), Department of Agriculture (USDA), and Department of Transportation (DOT), threat actors are likely to exploit authentication bypasses, arbitrary code injection, and weak configurations to gain access to these systems and cause the following effects - Change of temperature, which, in turn, could affect the service l...",
-      "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "u-s-agencies-warn-refrigeration-controller-attacks-could-cause-fires-and-inventory-losses-",
+      "slug": "cisa-adds-four-known-exploited-vulnerabilities-to-catalog",
+      "sourceId": "cisa-advisories",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "FTC Secures Settlement with Stream Auto Outlet, Advancing Price Transparency for Auto-Buying Consumers",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-secures-settlement-stream-auto-outlet-advancing-price-transparency-auto-buying-consumers",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-secures-settlement-with-stream-auto-outlet-advancing-price-transparency-for-auto-buyin",
+      "sourceId": "ftc-press",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "FTC Action Results in Court Issuing Temporary Restraining Order Halting Phantom Debt Collection Operation",
+      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-action-results-court-issuing-temporary-restraining-order-halting-phantom-debt-collection",
+      "tier": "Tier 1",
+      "category": "privacy",
+      "slug": "ftc-action-results-in-court-issuing-temporary-restraining-order-halting-phantom-debt-colle",
+      "sourceId": "ftc-press",
+      "source": "FTC Press Releases"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data Nov 09, 2026 Cloud Security / Data Breach An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole , a data lake platform owned by Idera, operates within its customers' AWS accounts. To let it in, a customer creates an IAM role, which is an AWS identity with its own set of permissions. The role's trust policy allows Qubole's AWS account to assume the role, granting those permissions. Each request to do this, called AssumeRole , must include a matching code from Qubole known as an External ID. Apart from the attack, most of the roles the attacker assumed were unused, according to Wiz's researchers. But each role still trusted Qubole's account, so the attacker's requests worked. Any organization...",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "hackers-exploit-qubole-s-trusted-aws-access-to-breach-customer-accounts-and-steal-data-nov",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
       "discovered": "2026-11-09",
-      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation Nov 09, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement vulnerability via alternate authentication methods. \"An authentication enforcement vulnerability in SonicOS SSL-VPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA),\" SonicWall said in a Friday advisory. The company also acknowledged that it \"investigated a report indicating potential exploitation of this vulnerability,\" urging customers to update to the latest version as soon as possible. SonicWall did not di...",
-      "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware Nov 09, 2026 Supply Chain Attack / Malware Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor on Windows, macOS, and Linux machines. The bee-js package is the JavaScript library behind Swarm Desktop and the swarm-cli command-line tool. Swarm Desktop runs a Swarm node on a user's own computer and saves the node's private keys there. Both malicious releases have been taken down, and the project's maintainers released a clean Swarm Desktop update today. Neither step removes a backdoor already installed nor protects a key already sent. No theft of funds had been reported at the time of writing. Swarm Desktop 0.56.2 appeared on GitHub at about 00:36 UTC today and was w...",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "cisa-flags-sonicwall-sonicos-mfa-bypass-flaw-amid-reports-of-possible-exploitation-nov-09-",
+      "slug": "hackers-compromise-ethersphere-s-bee-js-and-swarm-desktop-to-deliver-wallet-stealing-malwa",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia Nov 09, 2026 Cyber Espionage / Threat Intelligence The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said . \"Its capabilities include command execution, file uploads and downloads, file deletion, directory and drive enumeration, and screenshot capture. The Rust variant adds PowerShell execution and other commands.\" The campaign is notable for making use of three different infection chains - A Windows Shortcut (LNK) file that abuses the native \"ftp.exe\" utility to run scripts and create scheduled tasks designed to maintain contact with a command-and-control (C2) server. A VHDX disk image containing a LNK file that launches a lure Microsoft Excel spreadsheet, while running an MSI installer in the background to d...",
+      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "bitter-hackers-deploy-new-paprat-backdoor-in-cyberespionage-campaign-targeting-south-asia-",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More Nov 09, 2026 Cybersecurity News / Hacking A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed systems. AI is helping some of them move faster, but old mistakes are doing plenty of the work too. Even forgotten settings and small changes made months ago are coming back to cause trouble. There's a lot packed into this week's news, including some strange research findings, fresh attacks, and a few warnings worth taking seriously. Here's the full recap. ⚡ Threat of the Week OpenSSH Flaw Sees Exploitation Attempts — Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set....",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "weekly-recap-sshole-exploited-apt-root-rce-robot-takeovers-15k-hacked-sites-and-more-nov-0",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars Nov 09, 2026 Vulnerability / Automotive Security The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock , an identity platform now part of Ping Identity , and on those servers the researchers reached an administrator console that still used its default password. They tested the full attack only on their own and consenting owners' cars in the United States, in February 2026, and both systems were fixed about two hours after they reported the problem. Shubham Shah and Sam Curry published their work late last week. They had started with the apps: both brands signed customers in through the same platform, which runs in two parts: one for login and one, called OpenIDM , that holds customer records. OpenIDM comes with a built-in administrator console powered by the Apache Felix tool. For...",
+      "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "default-admin-admin-server-password-helps-researchers-hack-two-automakers-unlock-and-start",
+      "sourceId": "the-hacker-news",
+      "source": "The Hacker News"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "sega-newsletter-data-breach-exposes-2-2-million-email-addresses",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "n-able-takes-cloud-platform-offline-after-30-zero-days-published",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "York University breach exposed personal information dating to 2007",
+      "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "york-university-breach-exposed-personal-information-dating-to-2007",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
+    },
+    {
+      "discovered": "2026-11-09",
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack",
+      "sourceId": "bleepingcomputer",
+      "source": "BleepingComputer"
     }
   ]
 }
