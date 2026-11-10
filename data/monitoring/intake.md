@@ -27060,3 +27060,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026 Nov 10, 2026 Vulnerability / Browser Security Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after it has already been freed. Successful exploitation of these vulnerabilities could allow an attacker to achieve data corruption, program crashes, or arbitrary code execution. An anonymous security researcher has been credited with discovering and reporting the flaw on November 6, 2026. Google acknowledged it is "aware that an exploit for CVE-2026-125350 exists in the wild," but has not revealed any additional specific information related to how it's being abused in real-world attacks or who is behind them. "Access to bug details and links may be kept restricted until...
+- **Source URL:** https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits Nov 10, 2026 Vulnerability / Enterprise Security N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell . "As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the environment and implement appropriate remediation," N-able said . "During this time, customers will be unable to access their Hosted N-central classic environment, and associated services may be unavailable. However, the Ecoverse services under N-able Login remain available and online, including Asset View, Patching, Vulnerability Management, scripting, policies and tagging." The company also said it has not observed any signs of active exploitation of these vulnerabilities, adding it's currently working on a hot fix to address them. The following services are impacted -...
+- **Source URL:** https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws Nov 10, 2026 Vulnerability / Cyber Attack The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability in IBM Aspera Faspex that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations. (Fixed in November 2026) CVE-2026-116779 (CVSS score: 9.8) - A code injection vulnerability in SignalWire FreeSwitch that could result in configuration and credential disclosure, arbitrary call control, and command execution. (Fixed in October 2026) CVE-2026-123158 aka SSHole (CVSS score: 8.1) - An unexpected status code or return value vulnerability in OpenBSD OpenSSH on Linux that could allow for authentication bypass. (Fixed in November...
+- **Source URL:** https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety Nov 09, 2026 Cryptocurrency / Vulnerability Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker got to them, it said. It moved that money, with help from the wallet maker, into recovery wallets for safekeeping. So an empty balance may mean the money was rescued, not stolen. Wallets made with a recovery phrase (a backup list of 12 or 24 words) or a hardware wallet are not affected, the wallet maker said. It has paused Google and Apple sign-in while it investigates. What Affected Users Should Do The wallet maker has given this user guidance for accounts created with Google or Apple login: Do not send new funds to the account. Do not re-import the account or recr...
+- **Source URL:** https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks Nov 09, 2026 Vulnerability / Cryptocurrency Everyone running LNbits , a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could stop it. The shutdown notice came about 80 minutes after a first, narrower warning. That warning asked operators to disable Paywall, an add-on that makes people pay to view content, while the project looked into a possible bug. As of 09:00 UTC today, the project had not released a fixed version. On X, it had not canceled the notice, offered another option, or told operators how to check whether their servers were hit before they were shut down. Ben Arc, an LNbits developer, said in a patch estimate yesterday that patches "should be merged and available within 24-48hrs." Cou...
+- **Source URL:** https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Hackers exploit SSHole OpenSSH flaw to breach Linux systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Vanderbilt University hit in BYOD ransomware attack, data theft claimed
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Binance denies data breach after alleged ShinyHunters claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** FBI agent stole $2.5 million in crypto from hackers under investigation
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

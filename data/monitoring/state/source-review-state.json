@@ -2242,7 +2242,12 @@
       "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
       "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
       "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-      "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
+      "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+      "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+      "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+      "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3649,7 +3654,12 @@
       "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
       "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
       "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-      "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/"
+      "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+      "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
     ]
   }
 }
