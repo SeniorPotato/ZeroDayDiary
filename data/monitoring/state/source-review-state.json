@@ -215,7 +215,8 @@
       "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
       "https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge",
       "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
-      "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+      "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+      "https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union"
     ],
     "ncsc-news": [],
     "ftc-press": [
@@ -2247,7 +2248,12 @@
       "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
       "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
       "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-      "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html"
+      "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3659,7 +3665,12 @@
       "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
       "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
       "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-      "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+      "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+      "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+      "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
     ]
   }
 }

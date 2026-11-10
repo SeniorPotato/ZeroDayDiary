@@ -27140,3 +27140,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** ENISA reveals the State of Cybersecurity in the Union
+- **Source URL:** https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from enisa news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones Nov 10, 2026 Vulnerability / Software Security A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760 , is an integer truncation in how Git handles its index. An extremely long path in a repository can pass Git's safety check, but Git then writes it to disk under a shorter name that an attacker can set to .git. This lets an attacker replace a submodule's .git file with a symbolic link to a folder holding malicious hooks or configuration. Hooks are programs Git runs at set points, so once Git uses that folder, the attacker's code can run. Submodules matter here because Git refuses to replace a .git folder with a symbolic link, but in a freshly cloned submodule, .git is a file. The fixed versions, listed in the Git pr...
+- **Source URL:** https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users Nov 10, 2026 Vulnerability / Cloud Security An attacker exploited a remote code execution flaw in SGLang , an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE) designed to keep them private even from the company itself. But the TEE "does not protect against a vulnerability in the software running inside the environment," the company said. SGLang runs inside the TEE, which is how the attacker could reach requests there. That access has since been closed, but not before the attacker moved further into the company's systems. The attacker reached an internal system behind Private Chat, a product the company had already deprecated. So far, the company has confirmed that the attacker downloaded account details for about 100 users...
+- **Source URL:** https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access Nov 10, 2026 Vulnerability / Cyber Attack French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062 . "REST cookie parsing turns authenticationToken=j:%7B%7D into {}," Vates VMS said in an alert. "REST authentication passes that object to the XO token provider without requiring a string." "The token collection treats {} as an unfiltered lookup and returns its first token; the provider authenticates as that token's owner if it is unexpired. The authenticated /rest/v0/users/me/authentication_tokens route then returns reusable login token IDs." In other words, the vulnerability can allow an attacker to bypass authentication by sending a specially crafted cookie and perform arbitrary actions with "Admin" privileges, ultimately resulting in arbitrary code execution on managed pools and ...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem Nov 10, 2026 Cyber Espionage / Malware Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery , OceanGate , and DarkWire . Although initially assumed to be independent sets of attacks, each with its own backdoors and post-exploitation tooling, they have all been linked through a malware ecosystem called Sparrow. The entity behind the Sparrow framework has been codenamed CopperDragon , and is assessed to be a digital quartermaster developing tools for China-nexus threat actors, including FamousSparrow , Earth Estries , Tropic Trooper , UAT-9244 , and UAT-8302 . "Each cluster employed a different toolset and different initial access techniques, including compromising internet-facing inf...
+- **Source URL:** https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor Nov 10, 2026 Vulnerability / Cyber Attack Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two vulnerabilities were released by Ahsay Backup in mid-October 2026. The two vulnerabilities are assessed to have been weaponized as zero-days, with the managed security platform first observing threat actors employing a smash-and-grab approach to deploy web shells and XMRig cryptocurrency miners on compromised systems. "However, this incident reflects a much larger intrusion with more patience; the operator planted shells in several places, ran two different miners, staged tunneling tools, and installed a custom implant, all on servers whose job is to hold backups," Huntress rese...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Hackers exploit trusted AWS access to breach multiple cloud environments
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Binance warns of iOS flaw that could leak crypto wallet secrets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** Ransomware recovery is now a client retention metric
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-10
+- **Headline / event:** SAP patches ICM2SHELL and PROXYGATE maximum severity flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
