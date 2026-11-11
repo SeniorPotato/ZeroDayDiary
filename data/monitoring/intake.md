@@ -27228,3 +27228,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** CISA Adds Six Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Five States Join FTC Lawsuit Alleging Hims and Hers Engaged in Deceptive and Unlawful Privacy Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Microsoft Fixes Nearly 1,100 Security Vulnerabilities
+- **Source URL:** https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches Nov 11, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity reference vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system with the privileges of the Cisco BroadWorks user. (Fixed in August 2026) CVE-2026-111793 (CVSS score: 4.3) - An incorrect resource transfer between spheres vulnerability in Openwave Messaging Webtop Media Transcoder that could allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience. (Fixed in October 2026) There are current...
+- **Source URL:** https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America Nov 10, 2026 Threat Intelligence / Malware The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. "The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings , and administrative documents," Zenox said in a report shared with The Hacker News. Assessed to be a Spanish-speaking group and active since 2018, Blind Eagle (aka APT-C-36) has a track record of using spear-phishing lures to distribute commodity RATs like AsyncRAT, BitRAT, Lime RAT, NjRAT, Quasar RAT, and Remcos RAT. Attack chains begin with phishing emails targeting individuals who handle cases, contracts, judicial, or institutional service requests to trick them into opening a malware-laced attachment. One email containing a Colombian judicial-themed XHTML file has been identified as ...
+- **Source URL:** https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats Nov 10, 2026 Cybercrime / Data Breach Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a "limited set of accounts." In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks credentials that allowed an unauthorized third-party to access environment variables used in evaluation jobs in a limited number of customer accounts. The activity was detected on October 6, 2026, at 9 a.m. PDT. At that time, the AI infrastructure provider said it only found evidence that environment variables, including API keys and tokens stored as secrets, were captured in certain affected accounts, adding that there were no signs that customer models, datasets, training data, inference traffic, or personal information were accessed. In response to the incident, Fireworks AI took th...
+- **Source URL:** https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed Nov 10, 2026 Vulnerability / Mobile Security An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit , in collaboration with 0xjohnny , released the escape, called worse_query , on Sunday, a day before those updates came out. Neither the exchange nor the researcher reported any attacks or thefts involving it. The exchange told users to delete apps installed from untrusted sources, such as sideloaded or manually signed apps, and to update iOS and all their apps. No fix for the escape has been confirmed. For anyone who suspects a breach, the exchange's security warning advises moving funds to a new wallet created on a clean device and resetting all active login sessions. The researcher's proof-of-concept cod...
+- **Source URL:** https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Beyond the Alert: The Case for Rich Network Data Nov 10, 2026 Network Security / Security Operations At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in. After the alert The alert tells you something happened. However, gaining access to your network doesn’t necessarily mean attackers have stolen data or disrupted the systems they were targeting. They may need to obtain additional access, move to another machine, or further explore the network. Being able to see and understand that activity is the intervention opportunity. People naturally gravitate toward detections during product evaluations. They’re tangible, easy to compare and quantify, and address the question everyone wants an answer to: Will they catch the attack? There’s often an assumption that the rest will follow, meaning, if the detections are good, surely...
+- **Source URL:** https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Japanese furniture giant Nitori says hackers stole 37.6M customer records
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Hackers now exploit critical Barracuda ESG flaws to gain root access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Turla hackers use new Cereal malware to spy on govt Exchange servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
