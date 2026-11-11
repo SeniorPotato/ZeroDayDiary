@@ -27316,3 +27316,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Who Runs the Ransomware Group Qilin?
+- **Source URL:** https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Three People Arrested for AI-Enhanced Impersonation Fraud
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation Nov 11, 2026 Vulnerability / Software Security Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via network access. CVE-2026-108187 (CVSS score: 8.1) - An origin validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via network access. Successful exploitation of either of the shortcomings could permit remote attackers to escalate privileges without requiring any special permissions or access. While CVE-2026-108187 affects Zoom Workplace for Windows before version 7.1.5, CVE-2026-108186 impacts versions starting from 7.1.0 and before 7.1.8. Earlier this July, the popular videoconferencing platform shipped fixes for another improper ...
+- **Source URL:** https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets Nov 11, 2026 Artificial Intelligence / Web Security Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. "In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against internet-facing web services and associated AWS environments," Arctic Wolf Labs said in a report shared with The Hacker News. The activity has been observed chaining together web exploitation and web shell deployment to facilitate configuration discovery, credential validation, cloud-service enumeration, secret access, and storage operations. AntiFox, available for download from GitHub, has been described as an artificial intelligence (AI)-driven autonomous penetration testing platform. As of writing, the project has been forked 251 times and starred 474 times. On its README...
+- **Source URL:** https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits Nov 11, 2026 Cyber Attack / Ransomware Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some level of overlap with a November 2023 campaign documented by Arctic Wolf in which threat actors linked to the CACTUS ransomware operation likely weaponized then-newly-disclosed flaws in Qlik Sense to obtain initial access to target environments. The vulnerabilities in question, which were patched by Qlik Sense in August and September 2023, impact Qlik Sense Enterprise for Windows -
+- **Source URL:** https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords Nov 11, 2026 Artificial Intelligence / Data Security Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or personal data. The staff apps included a confidential onboarding plan for a new sales hire, a sales territory map of 594 accounts, and an X advertising proposal to a U.S. federal agency marked confidential. SpaceXSI, formerly known as xAI, has since taken down all 24 staff apps but not other users' apps, the researchers said. Besides those staff apps, the open apps contained internal data from 30 other organizations the researchers could identify, across fields ranging from construction and energy to healthcare and defense. Of those, 26 have more than 1,000 employees, and 6 are Fortune 500 co...
+- **Source URL:** https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** We Built An Agent That Broke All of Our Security Rules. Here's What We Learned. Nov 11, 2026 AI Agent Security We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated session, the application may see the user but not the agent, the delegation, or the task’s intended scope. By creating an agent that breaks all the security rules, Token learned how companies should be using identity to gain control, especially as agent use scales. Standards are coming, but there are steps security teams can take today. The agent we would have flagged The agent we created is named Rehearsal . Its job is to answer questions inside the Token platform by doing rather than telling. It autonomously opens pages in the browser tab, sets filters, and fills in forms. From a secur...
+- **Source URL:** https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Maersk confirms data breach as WhiteArmor ransomware demands $5 million
+- **Source URL:** https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** Hackers use AntiFox AI agents in AWS credential-theft attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** eBPF Rootkits: Why Underground Actors Are Taking Notice
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** N-able releases security hotfixes for zero-day vulnerabilities
+- **Source URL:** https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-11
+- **Headline / event:** CISA flags Cisco BroadWorks flaw as actively exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
