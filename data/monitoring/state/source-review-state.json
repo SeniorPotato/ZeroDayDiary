@@ -2268,7 +2268,12 @@
       "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
       "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
       "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
+      "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3693,7 +3698,11 @@
       "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
       "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
       "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
     ]
   }
 }
