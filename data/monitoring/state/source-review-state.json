@@ -381,7 +381,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-4975-million-settle-ftc-states-charges-over",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-secures-settlement-stream-auto-outlet-advancing-price-transparency-auto-buying-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-action-results-court-issuing-temporary-restraining-order-halting-phantom-debt-collection",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-17-states-secure-63-million-settlement-family-dollar-stores-price-transparency-win-consumers"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -705,7 +706,8 @@
       "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
       "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
-      "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html"
+      "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2273,7 +2275,12 @@
       "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
       "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
       "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
+      "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3702,7 +3709,12 @@
       "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
       "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
       "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-      "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
+      "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+      "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+      "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+      "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
     ]
   }
 }

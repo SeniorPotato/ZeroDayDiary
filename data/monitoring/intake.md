@@ -27484,3 +27484,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** FTC and 17 States Secure $63 Million Settlement with Family Dollar Stores in Price Transparency Win for Consumers
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-17-states-secure-63-million-settlement-family-dollar-stores-price-transparency-win-consumers
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Another Way Police Are Locating People from Their Smartphones
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them Nov 12, 2026 Security Operations / Threat Detection Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody has reviewed recently. Your SIEM or EDR may catch the activity. But without knowing who owns that identity, what permissions it has, and which systems it can reach, your SOC is missing a critical part of the story. And that missing context can turn a manageable incident into a much bigger problem. Join this expert-led webinar to learn how real-time identity context can help your SOC investigate threats faster, understand what's at risk, and respond with confidence. The Blind Spot Between Identity and Security Operations Here's the problem. Identity and access management (...
+- **Source URL:** https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories Nov 12, 2026 Hacking News / Cybersecurity News A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while also giving them new systems to target. Some intruders are staying hidden even after security holes are fixed. Others are moving stolen money through a maze of transactions. And researchers keep finding small coding mistakes that can cause much bigger problems. Different stories, but much of the trouble comes down to making something dangerous look normal. There is some good news, too. Criminal servers have been seized, and a few defenses are getting stronger. Still, plenty of things are going wrong in ways that shouldn't be this easy. Here's what turned up this w...
+- **Source URL:** https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access Nov 12, 2026 Vulnerability / Endpoint Security Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop , targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of the operation. Microsoft has not confirmed the claimed flaw, assigned a CVE, or released a fix. The researcher behind the exploit, who publishes under the name MSNightmare , released the code and a detailed writeup on GitHub on Tuesday, the same day the company published its November security updates. CLFS is a logging subsystem built into Windows. Its driver has been a frequent target for privilege escalation: 10 CLFS flaws appear in CISA's catalog of vulnerabilities known to have been exploited in attacks, including one used in ransomware campaigns in April 2025. To reduce that expo...
+- **Source URL:** https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry Nov 12, 2026 Vulnerability / Cloud Security A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay 3 branches. The flaw is tracked as CVE-2026-123710 (CVSS score: 9.8). Quay uses keys it trusts to sign the access tokens that allow image pushes and pulls. The flaw lets an attacker add their own key to the keys Quay trusts, with no expiry date. Quay then accepts tokens signed with that key for any repository. With those tokens, an attacker can retrieve private images and any secrets or credentials stored within them. The attacker can also push or overwrite images, and the change propagates to every system that later pulls those images. The planted key survives restarts until someone ...
+- **Source URL:** https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass Nov 12, 2026 Vulnerability / Network Security Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet Processing can lead to unpredictable or erroneous behavior or DoS. (All NetScaler ADC and NetScaler Gateway deployments) CVE-2026-107407 (CVSS score: 9.3) - A memory overflow vulnerability in SMPP traffic can lead to unpredictable or erroneous behavior or DoS. (NetScaler ADC configured with a Load Balancing or Content Switching virtual server of type SMPP) CVE-2026-107408 (CVSS score: 9.3) - A memory corruption vulnerability in DNS / DNS-over-HTTPS (DoH) can lead to unpredictable or erroneous behavior or DoS. (NetScaler ADC configured for DNS load balancing and recursive DNS resolution) C...
+- **Source URL:** https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Apache HTTP Server patches critical HTTP/2 remote code execution flaw
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** New Windows SignDrop zero-day gives hackers SYSTEM privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Police dismantle Gootloader, CastleRAT, StealC malware infrastructure
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** New N-able "4EverAble2Shell" zero-day exploited hours after PoC released
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-12
+- **Headline / event:** Your Endpoint Management Platform Could Be Your Biggest Security Risk
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
