@@ -27652,3 +27652,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** FTC Sues to Block Veterinary Supplies Distributor Covetrus’s $3.5 Billion Acquisition of Rival MWI
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-sues-block-veterinary-supplies-distributor-covetruss-35-billion-acquisition-rival-mwi
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** AI Doesn’t Have to Go Rogue to Break the World
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE Nov 13, 2026 Vulnerability / Database Security A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460 , has a CVSS score of 8.8. Any code run this way has the rights of the operating system user that runs PostgreSQL. All versions before 18.7, 17.12, 16.16, 15.20, and 14.25 are affected. The PostgreSQL Global Development Group, which publishes the database's releases, has not reported any attacks using the flaw. CISA's assessment in the CVE record also lists exploitation as none. The flaw involves composite types, which are types built from named fields, each with its own data type. A field's type can be changed while older values of that type are still held in other parts of the server. The server could then read an old value as if it had the new type. T...
+- **Source URL:** https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs Nov 13, 2026 Vulnerability / Hardware Security Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior , can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers showed both in lab tests on AMD EPYC server processors. AMD, which makes the processors, lists SEV firmware for Mior and microcode for Skyfall , both dated August 12. It plans to give server makers platform firmware in November for Skyfall and in December for Mior, and fixes for embedded chips later. Customers are told to get the BIOS update from their server maker. SEV-SNP brings confidential computing to AMD EPYC server processors. It uses hardware-enforced memory encryption and access control to protect a VM, even from the host's hypervisor. The ETH Zurich team behin...
+- **Source URL:** https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls Nov 13, 2026 Cybercrime / Cyber Espionage The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based infrastructure used to pull off the "hard-to-detect" campaign has been seized. In tandem, the U.S. Department of Justice (DoJ) has announced the court-authorized seizure and restraint of more than $1.2 billion worth of cryptocurrency recently stolen by the North Korea-linked TraderTraitor actors following the hack of cryptocurrency exchange Binance. The plundered digital assets are used to fund Pyongyang's illicit weapons program, the DoJ added. "The North Korean regime relies on proceeds from large-scale cryptocurrency theft to fund its illicit weapons program, stealing b...
+- **Source URL:** https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases Nov 13, 2026 Cryptocurrency / Supply Chain Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other two from photos their owners sent, and has had no reports of lost funds. A firmware update released earlier this week, version 2.13.1, stops the implants found so far from capturing anything on wallets that run it, the company said, but “the update can’t protect a wallet backup that was captured before it.” The company has not changed its advice to anyone who bought a Trezor from CryptoBilis since March, including from the reseller's stores on Tokopedia and Shopee: Move your funds to a new wallet with a new recovery phrase. Restoring the old phrase on another wallet does not ...
+- **Source URL:** https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** When an AI Agent Goes Wrong, Can You Stop It? Nov 13, 2026 Artificial Intelligence / Incident Response Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A team may be able to pause the model while a workflow, credential or existing connection remains active. Those pieces can require separate controls. An October 2026 roundup from the OWASP GenAI Security Project describes evaluation agents reaching beyond their intended scope and recommends testing whether containment can revoke both credentials and network access. The roundup is a selected collection, not an exhaustive survey of incidents. Turning off the model may not stop the work An AI agent is usually part of a larger system. A model may choose an action, but an orchestrator runs the w...
+- **Source URL:** https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** German military drone operations disrupted by cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** How one AI agent exposed five critical enterprise security gaps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** Check Point warns of zero-day flaw exploited for root access
+- **Source URL:** https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-13
+- **Headline / event:** Police arrest 354 suspects in dark web cybercrime crackdown
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
