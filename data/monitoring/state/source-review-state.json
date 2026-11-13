@@ -2280,7 +2280,12 @@
       "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
       "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
       "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-      "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
+      "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3714,7 +3719,11 @@
       "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
       "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
       "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
+      "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
     ]
   }
 }
