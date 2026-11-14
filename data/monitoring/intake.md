@@ -27788,3 +27788,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from the hacker news
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-14
+- **Headline / event:** Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection Nov 14, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters that could be used to execute arbitrary commands with server/IRCOp privileges. "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 'label' message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority," reads the description of the flaw in the NIST National Vulnerability Database (NVD). The addition comes nearly a week after UnrealIRCd's project leader, developer, and maintainer, Bram Matthys (aka Syzop), re...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-14
+- **Headline / event:** Cursor confirms security breach led to malicious Claude Code extension
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-14
+- **Headline / event:** US disrupts North Korean campaign behind $400 million crypto theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

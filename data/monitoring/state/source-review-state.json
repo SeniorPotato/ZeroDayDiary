@@ -2297,7 +2297,8 @@
       "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
       "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
       "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+      "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3740,7 +3741,9 @@
       "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
       "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
       "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/"
+      "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+      "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
     ]
   }
 }
