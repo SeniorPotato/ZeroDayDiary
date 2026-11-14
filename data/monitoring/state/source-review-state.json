@@ -145,7 +145,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -709,7 +710,8 @@
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
       "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
       "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
-      "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html"
+      "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2292,7 +2294,10 @@
       "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
       "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
       "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+      "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",

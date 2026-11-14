@@ -1,126 +1,56 @@
 {
-  "generatedAt": "2026-11-13T19:45:38.326Z",
-  "packetPath": "data/monitoring/review-packets/2026-11-13T194538Z.md",
+  "generatedAt": "2026-11-14T06:29:27.002Z",
+  "packetPath": "data/monitoring/review-packets/2026-11-14T062927Z.md",
   "candidates": [
     {
-      "discovered": "2026-11-13",
-      "title": "FTC Sues to Block Veterinary Supplies Distributor Covetrus’s $3.5 Billion Acquisition of Rival MWI",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-sues-block-veterinary-supplies-distributor-covetruss-35-billion-acquisition-rival-mwi",
-      "tier": "Tier 1",
-      "category": "privacy",
-      "slug": "ftc-sues-to-block-veterinary-supplies-distributor-covetrus-s-3-5-billion-acquisition-of-ri",
-      "sourceId": "ftc-press",
-      "source": "FTC Press Releases"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "AI Doesn’t Have to Go Rogue to Break the World",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "discovered": "2026-11-14",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "ai-doesn-t-have-to-go-rogue-to-break-the-world",
+      "slug": "cisa-adds-two-known-exploited-vulnerabilities-to-catalog",
+      "sourceId": "cisa-advisories",
+      "source": "CISA Cybersecurity Advisories"
+    },
+    {
+      "discovered": "2026-11-14",
+      "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+      "tier": "Tier 1",
+      "category": "security",
+      "slug": "friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters",
       "sourceId": "schneier-on-security",
       "source": "Schneier on Security"
     },
     {
-      "discovered": "2026-11-13",
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE Nov 13, 2026 Vulnerability / Database Security A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460 , has a CVSS score of 8.8. Any code run this way has the rights of the operating system user that runs PostgreSQL. All versions before 18.7, 17.12, 16.16, 15.20, and 14.25 are affected. The PostgreSQL Global Development Group, which publishes the database's releases, has not reported any attacks using the flaw. CISA's assessment in the CVE record also lists exploitation as none. The flaw involves composite types, which are types built from named fields, each with its own data type. A field's type can be changed while older values of that type are still held in other parts of the server. The server could then read an old value as if it had the new type. T...",
-      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "discovered": "2026-11-14",
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users Nov 13, 2026 Cyber Espionage / Threat Intelligence A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea , a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor, but linked its activity to China only with low confidence. The company has told the operators where it found SilentAir sources. It said SilentAir has been disrupted for now but could return. The report does not say whether those operators have cleaned up the hacked equipment. Mobile operators use the SS7 and Diameter protocols to exchange signaling messages that route calls and texts and enable roaming. This traffic crosses a shared network called the IPX , which runs on a high level of trust between operators. SilentAir sent its attacks into the IPX from the hacked equipment. For i...",
+      "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "postgresql-patches-52-flaws-including-22-year-old-bug-enabling-authenticated-rce-nov-13-20",
+      "slug": "silentair-hijacks-asian-telecom-networks-to-intercept-sms-2fa-codes-and-spy-on-taiwanese-u",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-11-13",
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs Nov 13, 2026 Vulnerability / Hardware Security Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior , can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers showed both in lab tests on AMD EPYC server processors. AMD, which makes the processors, lists SEV firmware for Mior and microcode for Skyfall , both dated August 12. It plans to give server makers platform firmware in November for Skyfall and in December for Mior, and fixes for embedded chips later. Customers are told to get the BIOS update from their server maker. SEV-SNP brings confidential computing to AMD EPYC server processors. It uses hardware-enforced memory encryption and access control to protect a VM, even from the host's hypervisor. The ETH Zurich team behin...",
-      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "discovered": "2026-11-14",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins Nov 13, 2026 Malware / Cybercrime An international police operation took down servers behind Gootloader , CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader: once on a computer, it could download other malware, especially ransomware. It spread through fake legal documents placed on hacked websites, often WordPress sites. Criminals used SEO poisoning to push those sites high in search results. Gootloader has infected at least 25,000 computers worldwide since 2018, the U.S. Justice Department said. Its operators used those computers to infect more computers, then sold access to the new ones to ransomware criminals. In the U.S., Gootloader was used in ransomware attacks against at least 44 victims, resulting in about $28.8 million in losses. G...",
+      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "new-mior-and-skyfall-attacks-let-rogue-cloud-hosts-steal-secrets-from-amd-sev-snp-vms-nov-",
+      "slug": "operation-endgame-takes-down-gootloader-castlerat-and-stealc-servers-seizes-6-4m-stolen-lo",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
     },
     {
-      "discovered": "2026-11-13",
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls Nov 13, 2026 Cybercrime / Cyber Espionage The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based infrastructure used to pull off the \"hard-to-detect\" campaign has been seized. In tandem, the U.S. Department of Justice (DoJ) has announced the court-authorized seizure and restraint of more than $1.2 billion worth of cryptocurrency recently stolen by the North Korea-linked TraderTraitor actors following the hack of cryptocurrency exchange Binance. The plundered digital assets are used to fund Pyongyang's illicit weapons program, the DoJ added. \"The North Korean regime relies on proceeds from large-scale cryptocurrency theft to fund its illicit weapons program, stealing b...",
-      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "discovered": "2026-11-14",
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files Nov 13, 2026 Vulnerability / Cyber Espionage An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA . The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up wave on November 2, 2026, that targeted organizations across multiple countries and sectors. Some of the organizations singled out in the first wave have also been at the receiving end of destructive actions that include the deployment of wiper malware. \"PHP2Shell provided initial access, followed by privilege escalation through the DynamicCLI interface, tracked as CVE-2026-123039 ,\" Check Point said. \"The attackers then deployed PHP web shells, the persistent TSGA backdoor, and its embedded TSProxy networking component.\" \"The attackers pivoted from the gateway to a VMw...",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
       "tier": "Tier 1",
       "category": "security",
-      "slug": "fbi-says-north-korean-hackers-stole-over-400-million-in-crypto-using-deepfake-video-calls-",
+      "slug": "hackers-exploit-php2shell-flaws-in-check-point-gateways-to-deploy-tsga-backdoor-and-wipe-e",
       "sourceId": "the-hacker-news",
       "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases Nov 13, 2026 Cryptocurrency / Supply Chain Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other two from photos their owners sent, and has had no reports of lost funds. A firmware update released earlier this week, version 2.13.1, stops the implants found so far from capturing anything on wallets that run it, the company said, but “the update can’t protect a wallet backup that was captured before it.” The company has not changed its advice to anyone who bought a Trezor from CryptoBilis since March, including from the reseller's stores on Tokopedia and Shopee: Move your funds to a new wallet with a new recovery phrase. Restoring the old phrase on another wallet does not ...",
-      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "trezor-confirms-hidden-implants-in-cryptobilis-sold-wallets-that-can-steal-recovery-phrase",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "When an AI Agent Goes Wrong, Can You Stop It? Nov 13, 2026 Artificial Intelligence / Incident Response Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A team may be able to pause the model while a workflow, credential or existing connection remains active. Those pieces can require separate controls. An October 2026 roundup from the OWASP GenAI Security Project describes evaluation agents reaching beyond their intended scope and recommends testing whether containment can revoke both credentials and network access. The roundup is a selected collection, not an exhaustive survey of incidents. Turning off the model may not stop the work An AI agent is usually part of a larger system. A model may choose an action, but an orchestrator runs the w...",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "when-an-ai-agent-goes-wrong-can-you-stop-it-nov-13-2026-artificial-intelligence-incident-r",
-      "sourceId": "the-hacker-news",
-      "source": "The Hacker News"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "German military drone operations disrupted by cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "german-military-drone-operations-disrupted-by-cyberattack",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "How one AI agent exposed five critical enterprise security gaps",
-      "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "Check Point warns of zero-day flaw exploited for root access",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "check-point-warns-of-zero-day-flaw-exploited-for-root-access",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
-    },
-    {
-      "discovered": "2026-11-13",
-      "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-      "tier": "Tier 1",
-      "category": "security",
-      "slug": "police-arrest-354-suspects-in-dark-web-cybercrime-crackdown",
-      "sourceId": "bleepingcomputer",
-      "source": "BleepingComputer"
     }
   ]
 }
