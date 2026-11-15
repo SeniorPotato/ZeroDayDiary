@@ -27812,3 +27812,35 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-15
+- **Headline / event:** Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent Nov 15, 2026 Data Privacy / Regulatory Compliance Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to switch the feature off by default, including for people who have already granted the app gallery access, and to request consent separately. Meta plans to appeal and calls the fine "disproportionate", a spokesperson said in a statement reported by Reuters. The app asks for gallery access via a single permission that covers the whole app and several functions with different purposes, the authority found. A general notice about enabling other features appears first, but it does not make it clear to users that they are also enabling gallery suggestions. Fully granted, a pe...
+- **Source URL:** https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-15
+- **Headline / event:** Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident Nov 15, 2026 Artificial Intelligence / Software Security The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI . "An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks , and the attacker used it to copy data from a read-only storage bucket we used to share data with them." The disclosure comes nearly two weeks after a trojanized version of Anthropic's official Claude Code extension was distributed through Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. According to the artificial intelligence (AI)-powered coding platform, the read-only storage bucket is said to have contained limited coding agent traces from sessions that were not in Privacy Mode. Privacy Mode is a Cursor-specific setting that, if enabled, allows ...
+- **Source URL:** https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-15
+- **Headline / event:** FBI warns ARTEX AI hacking tool is powering global cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-15
+- **Headline / event:** TSMC employee data breach linked to cloud provider
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
