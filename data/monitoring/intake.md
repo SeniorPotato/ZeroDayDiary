@@ -27844,3 +27844,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Usable Security at Luxury Hotels
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches Nov 16, 2026 Agentic AI / Cyber Attacks Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs) and agentic frameworks to automate the reverse engineering of patches via differential analysis, allowing them to rapidly weaponize newly disclosed vulnerabilities, as observed in the case of PaperCut NG/MF flaws earlier this September. The abuse of open source, agentic penetration-testing (pentesting) frameworks is seen as a way to "automate discrete phases and specific operational tasks during live intrusions," Google Threat Intelligence Group (GTIG) said in a report shared with The Hacker News. The tech giant said the adoption represents a paradigm shift in which cyber a...
+- **Source URL:** https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** ⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days Nov 16, 2026 Cybersecurity News / Hacking A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely need any. This week's stories show both sides. Here's what happened. ⚡ Threat of the Week N-able 0-Days Exploited for Dropping Crypto Miners — A new set of vulnerabilities tracked as 4EverAble2Shell has come under active exploitation, with attackers exploiting it to deploy cryptocurrency miners on vulnerable servers. According to Huntback, the activity has successfully compromised 21 N-central servers across the U.S., South Africa, Canada, the U.K., Germany, France, and Sweden. Patches for the flaw are expected to be released N-able today.
+- **Source URL:** https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login Nov 16, 2026 Vulnerability / Operational Technology Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to take the controllers' management interfaces off the internet. For a controller left on the internet, updating the firmware, changing default passwords or turning on Strict mode is not enough on its own, the Belgian and Irish agencies said. Strict mode is a login protection that requires encrypted connections and session tokens, but one of the six flaws is in the gateway that enforces it. The AK-SM800A runs a store's fridges and freezers, and maintenance firms can manage it remotely. Such controllers were targeted in attacks in France starting October 11, and in a second wave acros...
+- **Source URL:** https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware Nov 16, 2026 Threat Intelligence / Endpoint Security Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader , a malware designed to deliver additional payloads to infected machines. "On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe," Kaspersky said in an analysis published today. "The '7z.dll' file was a patched version of the original library of the popular 7-Zip archiver. Part of its code had been replaced with malicious self-decrypting shellcode that turned out to be a new version of the Armoury packer." CoffeeLoader was first documented by Zscaler ThreatLabz in March 2025, detailing its use of the Armoury packer to resist analysis and ultimately run Rhadamanthys shellcode. The malware is assessed to share source code similarities with another loader family tracked as SmokeLoader. Malware packed with Armory uses file names like "ArmouryAIOSDK.dll" and "ArmouryA....
+- **Source URL:** https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity Nov 16, 2026 United States A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR , a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in late October 2026. "The threat actor also deployed a kernel rootkit to hide selected processes and files, an NVIDIA Management Library ( NVML ) wrapper to falsify GPU readings, and a separate backdoor named netns," Elastic Security Labs said in a report published last week. "This backdoor retrieves its C2 [command-and-control] address from an Ethereum smart contract before connecting to the server directly." In the attack chain documented by the company, initial access is said to have been achieved via an exposed Ray job agent , allowing the threat actor to execut...
+- **Source URL:** https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Google Project Zero cuts bug disclosures to 30 days amid AI threats
+- **Source URL:** https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** California sues OpenAI over AI agents escaping sandboxes, hacking firms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Barracuda links cloud breach to ARTEX AI-powered cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** Fandango says hackers stole payment card details from checkout pages
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-16
+- **Headline / event:** 7 Tips For Complying with CJIS Password and MFA Requirements
+- **Source URL:** https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
