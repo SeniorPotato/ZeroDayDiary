@@ -28012,3 +28012,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** CISA Adds One Known Exploited Vulnerability to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** FTC Takes Enforcement Action Against Safety-Harness Manufacturer for Allegedly False Made in the USA Claims
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-takes-enforcement-action-against-safety-harness-manufacturer-allegedly-false-made-usa-claims
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Formal Verification of the Signal Protocol Using AI
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses Nov 17, 2026 Vulnerability / Mobile Security A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec , a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send widgets on the live service now. Bots could start sending widgets last week. Two days later, an account called V12 posted a video on X claiming that any Telegram message could now be used to execute remote code. Telegram then put QuickJS , the small engine that runs widget JavaScript, into its own process on Android. It also added a seccomp filte r, which can block or record the system calls that the process makes. Both changes appear in the source code it published for Telegram for Android 13.2.2 (7303). NebuSec said in a technical analysis published earlier this week that its research...
+- **Source URL:** https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges Nov 17, 2026 Vulnerability / Software Security Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice . The company has not disclosed their CVE identifiers, affected components, or the individual consequences of exploitation. The separate OpenJDK vulnerability, tracked as CVE-2026-114938 , has reportedly been assigned a CVSS 4.0 score of 9.2 and affects OpenJDK 17.0.6 and later. However, those details remain unconfirmed, and there is no evidence yet that the reported flaw is among the 11 vulnerabilities Oracle plans to patch. Security firm Calif said in a post on X that it discovered and reported the flaw, which it calls Java4Shell , and that the vulnerability had leaked. Calif said i...
+- **Source URL:** https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers Nov 17, 2026 Malware / Social Engineering Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram . "Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves," Stormshield said in a deep-dive technical report published Monday. "Three social engineering scenarios (recruitment, conference, and package tracking), a software supply-chain compromise, and trojanized code repositories all converge on the same infrastructure and the same payload." The activity is assessed to share similarities with intrusion sets linked to North Korea, particularly Kimsuky and UNK_DeadDrop . Some aspects of this campaign have been previously documented by Proofpoint , SafeDep, Jamf , and Genians Security Center . It's worth noting that the cluster tracked as UNK_DeadDrop exhibits similarities w...
+- **Source URL:** https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap Nov 17, 2026 Supply Chain Security / DevSecOps Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a security fix. Teams pinned to it would have passed every check. The trick works because GitHub lets copies of a project, called forks, share code with the original. In May, the same technique hit the popular actions-cool/issues-helper tool, stealing credentials from the pipelines that ran it. The lesson: pinning guarantees the code won't change, but not who wrote it. That gap is the focus of an upcoming webinar, GitHub Actions Security Beyond SHA Pinning . If your team treats pinning as the finish line, save your seat to learn what it actually protects you from, and what it doesn...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission Nov 17, 2026 Vulnerability / Mobile Security A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped "Don't Allow" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks. Nik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa Calap , a security engineer who reported the same flaw separately, published his own analysis the same day. On iPhones, an orange indicator shows when an app is using the microphone. On one of the researchers' earlier test builds, that indicator stayed off while the app recorded. In Tsytsarkin's tests, the prompt appeared the first time the app opened. Declining it did not stop the recording, and the prompt did not reappear on subsequent launches. In the earlier build of his technical analysis , the system logs showed no record of the app using the microphone...
+- **Source URL:** https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Researchers hijack Hugging Face account for popular Kokoro AI model
+- **Source URL:** https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Tor releases emergency update amid ongoing DDoS attack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Japan takes Fugaku supercomputer offlline after cyberattack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions
+- **Source URL:** https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-17
+- **Headline / event:** Court clears brothers of $25 million Ethereum crypto heist charges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
