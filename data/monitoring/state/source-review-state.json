@@ -2306,7 +2306,12 @@
       "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
       "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
       "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
+      "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3758,7 +3763,12 @@
       "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
       "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
       "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-      "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/"
+      "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+      "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
     ]
   }
 }
