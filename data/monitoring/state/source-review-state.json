@@ -148,7 +148,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+      "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -717,7 +718,8 @@
       "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
       "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
+      "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2326,7 +2328,12 @@
       "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
       "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
       "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
+      "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3791,7 +3798,12 @@
       "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
       "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
       "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+      "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
     ]
   }
 }

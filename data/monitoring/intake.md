@@ -28196,3 +28196,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** France Is Blaming Iran for the Fridge Cyberattack
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** 10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers Nov 18, 2026 Vulnerability / Web Security A flaw in NGINX 's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed " nginx2root ," has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5 , the company behind NGINX, says attackers can run code where ASLR is turned off or can be bypassed. Security researchers at Wiz said they bypassed ASLR and ran code through the flaw in tests. Xint's researchers said they ran code through it with nothing more than a reachable HTTP/2 port. Code run this way gets the permissions of an NGINX worker process. Getting root on the host takes a second way to raise privileges, according to CIRCL, the Computer Incident Response Center Luxembourg. In Xint's tests, code running as a worker could get root on the host through a separate bug in the Linux kernel's SCTP code, even ...
+- **Source URL:** https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE Nov 18, 2026 Network Security / Vulnerability Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP , disclosed the flaws today and says they may also allow remote code execution. The company has released engineering hotfixes and lists no workaround. The company rates all six 9.8 under CVSS v3.1 and 9.3 under CVSS v4.0. They are stack-based buffer overflows in BIG-IP's data plane, the part that processes almost all of its network traffic. The management side is not exposed, according to the company. None of the company's advisories says the flaws have been exploited. WatchTowr researcher Sina Kheirkhah reported four, and the company found the other two itself. Five of the flaws are in iRules, a BIG-IP feature that ad...
+- **Source URL:** https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required Nov 18, 2026 Vulnerability / Cyber Attack A critical security flaw in Apache Roller , an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. "Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code," project maintainers said . "The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester." ASF also noted that the vulnerability is the same as CVE-2026-82384 (CVSS score: 9.8), which was patched in September 2026 and listed only Apache Roller 6.1.5 as affected. "This issue is being actively exploited," it added. ASF did not share any details on how the vulnerability is being exploited, or wh...
+- **Source URL:** https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks Nov 18, 2026 Cyber Espionage / Malware The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. "When attackers are exposed, the cheap response is to rotate," Bitdefender said in a technical report shared with The Hacker News. "A file hash changes with every recompile, a domain costs a few dollars, and a new IP address costs less." "The EggStreme operators did more than rotate – the agent we now see uses a different network protocol, has an enhanced command set, and comes in a passive variant that never beacons out. The infrastructure appears to be moving away from the one certificate authority that tied its older servers together." The end result is that the changes allow it to bypass static signatures and heuristic detections built around the EggStreme malware framework when it was first exposed in September 2025. Delivered via an as-yet-unk...
+- **Source URL:** https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years Nov 18, 2026 Hardware Security / Windows Security On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the researchers and found within 236 tries. From the speeds they measured, they calculate a worst-case of 40 hours for a four-digit Hello PIN, compared to 69 days with the lockout working as documented. For a default six-digit BitLocker PIN, the worst-case time drops from 19 years to 20 days. AMD confirmed yesterday that its processor firmware has a flaw that allows the attack on some PCs with its chips. It plans fixes for most of those chips between November and February 2027. For now, the researchers advise adding at least two digits to Hello and BitLocker PINs. The TPM in these PCs is a firm...
+- **Source URL:** https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Data breach impacts 40 Irish credit unions in reported IT provider hack
+- **Source URL:** https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Microsoft’s Agent Framework PyPI package compromised to steal credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters
+- **Source URL:** https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Dizigom illegal streaming service with 21M monthly visits shuts down
+- **Source URL:** https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Apache warns of Roller RCE vulnerability exploited in attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
