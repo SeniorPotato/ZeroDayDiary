@@ -28116,3 +28116,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Critical Java Vulnerability Requires Immediate Patching
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Attackers Used Optimizely to A/B Test Malware on Top Websites
+- **Source URL:** https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from krebs on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials Nov 18, 2026 Supply Chain Security / Malware Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido , Endor Labs , OX Security , SafeDep , Socket , StepSecurity , and Google-owned Wiz . The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of writing, both the release versions have been quarantined on the Python Package Index (PyPI) repository. It's unclear how the attacker managed to obtain publishing access. Agent-framework is the meta-package for Microsoft Agent Framework, an open-source framework for building and orchestrating artificial intelligence (AI) agents using Python. "Both versions install Python startup hooks that silently collect credentials, environment data, and cloud identity tokens, then exfiltrate them to a webhook[.]site endpoint," Socket said in a report. Once either of the versions is installe...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization Nov 18, 2026 Cyber Espionage / Cloud Security The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged data, the corporate staff directory, and identities harvested during a late-2025 compromise at a separate U.S.-based entity. Cold Relic, also tracked as Callisto, Gossamer Bear, and Star Blizzard, has a track record of orchestrating sophisticated phishing and malware campaigns to gain access information that may be of strategic importance to the Russian government. The access is abused to register rogue multi-factor authentication (MFA) devices, passkeys, and MFA backup codes to establish long-term persistence and then conduct aggressive data collection and exfiltration operations targ...
+- **Source URL:** https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More Nov 18, 2026 Vulnerability / Software Security A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as CVE-2026-114938 , the fix was released today by Oracle and the OpenJDK project, whose open-source code underpins Java builds from many vendors. Amazon has fixed its Corretto Java builds, but Red Hat is still preparing fixes for its own. The researchers are holding back their attack code for the six applications, and other labs have so far reproduced crashes and a memory leak but not the code execution. Canada's Cyber Center said this week that it was not aware of any attacks exploiting the flaw. Servers often decode Base64-encoded data, such as HTTP Basic login headers, SAML artifacts, and CSRF t...
+- **Source URL:** https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels Nov 17, 2026 Cyber Espionage / Malware Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026. "The threat actor behind it is abusing the legitimate MeshAgent utility to drop two brand-new backdoors," Kaspersky researchers Saurabh Sharma and Noushin Shabab said in a two-part analysis . "These implants hide their command‑and‑control (C2) traffic behind cloud services Microsoft SharePoint, GitHub, and Ably, allowing the implants to blend in with normal traffic, effectively evading network-based detections." The modular backdoors, dubbed GraphDoor and GitDoor for their choice of the cloud platform used for C2, enable the download of additional plugins on demand a...
+- **Source URL:** https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks Nov 17, 2026 Artificial Intelligence / Data Privacy Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access. "Before granting an app such extraordinary access, users should understand that it puts all of the data on their Mac at risk," Apple said in a statement. "These changes are designed to help them do that and to empower them to make informed decisions about their own data and privacy." To that end, Device Control and Data Access is being split into two settings: System & App Protection Override and Accessibility. Other changes include - A single method for granting permissions by selecting the requesting app from a list Encouraging users to grant access to just the specific apps (for System ...
+- **Source URL:** https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Critical Java4Shell flaw allows RCE attacks on major Java applications
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Cloud keys leaked in Docker Hub images are stolen within seconds
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-18
+- **Headline / event:** Uber notifies drivers of data breach affecting nearly 150,000 people
+- **Source URL:** https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
