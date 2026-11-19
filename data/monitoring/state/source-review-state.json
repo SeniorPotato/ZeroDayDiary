@@ -2338,7 +2338,12 @@
       "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
       "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
       "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+      "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3811,7 +3816,12 @@
       "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
       "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
       "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-      "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
+      "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
     ]
   }
 }

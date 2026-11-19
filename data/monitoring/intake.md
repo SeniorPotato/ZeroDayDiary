@@ -28356,3 +28356,83 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories Nov 19, 2026 Hacking News / Cybersecurity News The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier to run and harder to spot. Stolen data can now be searched like a shopping catalog. Phishing emails can be tested and rewritten until they get through. At the same time, researchers are finding that even powerful AI systems have safety gaps of their own. And while everyone is watching the new tools, the old problems haven't gone anywhere. Third-party breaches, years of hidden spying, ransomware, and security fixes still need attention. Some stories are clever. Others are painfully simple. Here's what caught our attention this week. The threats change every week. Subscr...
+- **Source URL:** https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution Nov 19, 2026 Vulnerability / Web Security PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell . The flaw is tracked as CVE-2026-126714 and rated 9.2 out of 10 on the CVSS 4.0 scale by PHP's maintainers. Depthfirst, a security company, says it found the flaw and reported it to the maintainers. The October 21 PHP releases, which fixed two critical flaws known as PHP2Shell , do not contain this fix. Servers updated then remain affected until they install today's releases. Neither the maintainers nor the company reports any attacks using phpAfterShell. Who Is Affected and What to Do These releases are affected, according to the maintainers' security advisory : Branch ...
+- **Source URL:** https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution Nov 19, 2026 Vulnerability / Web Security The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific conditions, including non-default configuration or uncommon setups. At a high level, successful exploitation of the defects could pave the way for remote code execution, session corruption, denial-of-service, memory corruption, or local privilege escalation. The list of vulnerabilities is as follows - CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification, session corruption, or denial-of-service. (Fixed in PHP 8.2.36, 8.3.37, 8.4.28, 8.5.13, 8.6.0) CVE-2026-129182 (CVSS score: 9.2) - A use-after-fre...
+- **Source URL:** https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication Nov 19, 2026 Vulnerability / Enterprise Security A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The vulnerability is tracked as CVE-2026-123890 and is rated 9.8 on the CVSS scoring system. "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service," the advisory says. In an FAQ published with the advisory, the company says the issue "qualifies under ITIL methodologies as an emergency change," and urges organizations to consult their security staff immediately on timing. The company has not reported any attacks exploiting the flaw, or any public exploit code. It also does not say what level of access an attacker gains after the bypa...
+- **Source URL:** https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites Nov 19, 2026 Vulnerability / Web Security Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed the flaw, tracked as CVE-2026-132165, yesterday and rated it critical, 18 out of 25 on the project's risk scale. The installer ships in every copy of Drupal core as the file /core/install.php and stays on the site after installation. Core's default .htaccess rules do not block requests to it, so blocking it is left to each site. No attacks are reported in the security advisory , which rates exploitation as complex and records an existing proof-of-concept exploit. Some exploit paths are blocked where the web server cannot write to or change permissions on settings.php. The team ...
+- **Source URL:** https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** NVIDIA investigating Gentlemen ransomware breach claims
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Transport for London breach exposes 265,000 Oyster card users' data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** PHP security updates fix 18 flaws, including critical RCE bugs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Five warning signs of ransomware breach before encryption or data theft
+- **Source URL:** https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
