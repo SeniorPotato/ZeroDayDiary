@@ -2333,7 +2333,12 @@
       "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
       "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
       "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+      "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3803,7 +3808,10 @@
       "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
       "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
       "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
+      "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
     ]
   }
 }

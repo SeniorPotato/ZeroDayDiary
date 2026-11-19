@@ -28292,3 +28292,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19 Nov 19, 2026 Vulnerability / Web Security The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. "These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions," the maintainers said . "The highest severity is CRITICAL." However, the project also noted that issues rated critical require either non-default configuration or uncommon setups. It did not disclose any additional specifics. However, it's expected to include CVE-2026-115560 , a remote code execution flaw that succeeds only if the following conditions are met - An application sets session.serialize_handler to php_binary or php_serialize in its configuration, and its code switches the handler to php with ini_set() before calling session_start(). Session upload progress is ena...
+- **Source URL:** https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor Nov 18, 2026 Penetration Testing / Artificial Intelligence TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make them prove it on your own web apps. Score each vendor on context, reach, validated findings, guardrails, and retests. Choosing an AI pentesting vendor? Get 15 questions, red flags, and a scorecard to test what vendors deliver, not just what they demo. Download the free checklist → AI is speeding attackers up For the first time, Google's Threat Intelligence Group identified a threat actor using a zero-day exploit it believes was developed with AI: a 2FA bypass rooted in a logic flaw that conventional fuzzing and static analysis can easily miss ( GTIG ).
+- **Source URL:** https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are Nov 18, 2026 DevSecOps / Artificial Intelligence AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day . Security testing has to keep up with both. AI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the next scheduled pentest. To see how far adoption has come and what security teams need from it, Intruder surveyed 500 security and engineering leaders across the US and UK. Read on for the top findings. Only 4% of security leaders believe their current testing frequency gives them sufficient coverage 68% of organizations deploy code to production at least daily, and 37% deploy multiple times a day. Understandably, pentesting runs on a much slower cycle. Nearly half (47%) go more than a month between full pentests on their web applications and APIs. Those figures are for each organizati...
+- **Source URL:** https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers Nov 18, 2026 Enterprise Security / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet , an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities ( KEV ) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of deserialization of untrusted data that could result in remote code execution. "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet's report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request," CISA said. "If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and expl...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution Nov 18, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. "This critical memory-corruption vulnerability, known as ' Java4Shell ,' affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK)," CISA said . "Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution." Patches for the flaw have been released by Oracle and OpenJDK . As of writing, there is no evidence the vulnerability has been exploited in the wild. As reported previously by The Hacker News, Java4Shell can enable attackers without an account to execute arbitrary code on Keycloa...
+- **Source URL:** https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam
+- **Source URL:** https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-19
+- **Headline / event:** British Scattered Spider hacker sentenced to 6 years in prison
+- **Source URL:** https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
