@@ -28508,3 +28508,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** CISA Adds Four Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Ten Additional States Join FTC Lawsuit Alleging Dollar General Charged Consumers More than Advertised for Many Products
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ten-additional-states-join-ftc-lawsuit-alleging-dollar-general-charged-consumers-more-advertised
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Opening a 400-Year-Old Cryptex
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams Nov 20, 2026 Vulnerability / Mobile Security Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 , has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could have "caused a target's device to reveal its IP information to an attacker if an attacker sent media from an attacker-controlled URL when a crafted Click to WhatsApp ad-reply message was rendered and displayed in a message thread," WhatsApp said. The messaging platform said it may have been "abused in conjunction with specific spam messages." Internal researchers on the WhatsApp Security Team have been credited with discovering and reporting the issue. When reached for comment, a WhatsApp spokesperson told The Hacker News that the vulnerability was discovered whil...
+- **Source URL:** https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts Nov 20, 2026 Vulnerability / Virtualization A flaw in KVM , the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean . On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312 , affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped upstream on Tuesday, the day before the research went public. The provider patched its own fleet with a live patch, telling Droplet customers: "No action needed on your part." Operators who run their own KVM hosts on AMD hardware need to update the host kernel or turn nested virtualization off. Oren Yomtov , a researcher at the security firm Terra Security , found the flaw and reported it through the provider's bug bounty program. The provider confirmed the exploit worked on its own hosts and treated it as critical, and the Linux KVM maintainers, told on October 21, mer...
+- **Source URL:** https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** The Path to AI Autonomy in the SOC Nov 20, 2026 Security Operations / AI Security Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027. The pressure behind the shift is easy to see. In the same survey, the most common worry was AI-accelerated attacks outpacing the team's ability to respond, selected by 55% of respondents. Analyst time is the scarcest resource in the SOC, and every alert still means pulling evidence from several systems, reconstructing what happened and deciding whether it matters. The same respondents are cautious at the top end. Only 1% are comfortable with agents acting autonomously on most actions today, and only 7% expect to be a year from now. Most teams want more autonomy, just not all of it. Discussions today f...
+- **Source URL:** https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws Nov 20, 2026 Network Security / Vulnerability SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. "Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever," SonicWall said . "We expect internet-facing Gen 6 firewalls to be actively targeted. Treat any Gen 6 firewall still in service as a high-risk exposure, and migrate to a supported Gen 8 firewall running SonicOS 8." The affected products running SonicOS 6.x include - TZ350, TZ350W, TZ500, TZ500W, SOHO 250, SOHO 250W NSA 4600, NSA 5600, NSA 6600 NSa 4650, NSa 5650, NSa 6650 TZ400, TZ400W, TZ600, TZ600P, NSA 3600 NSa 3650 NSa 2650 SOHO, SOHO W, TZ300P, NSa 9250, NSa 9450, NSa 9650 NSv 10 to NSv 1600 (Gen 6 virtual) SuperMassive 9200, 9400, 9600, 9800 NSsp 12800, NSsp 12400 TZ300, ...
+- **Source URL:** https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network Nov 20, 2026 Vulnerability / Network Security Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. "This vulnerability is due to the use of persistent cookies," Cisco said in an advisory released late last month. "Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated." "An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands. A successful exploit could all...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Bell Canada says 'agentic' hacker stole enterprise customer data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Hackers use autonomous AI tool Cairn to find zero-day, take over server
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Vendor data breach exposes Chase, Visa, Mastercard customer info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Still tracking company passwords in spreadsheets? You’re flying blind.
+- **Source URL:** https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** F5 releases emergency patches for critical BIG-IP RCE flaws
+- **Source URL:** https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

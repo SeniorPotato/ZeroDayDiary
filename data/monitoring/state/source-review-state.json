@@ -149,7 +149,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -388,7 +389,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-17-states-secure-63-million-settlement-family-dollar-stores-price-transparency-win-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-sues-block-veterinary-supplies-distributor-covetruss-35-billion-acquisition-rival-mwi",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-takes-enforcement-action-against-safety-harness-manufacturer-allegedly-false-made-usa-claims"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-takes-enforcement-action-against-safety-harness-manufacturer-allegedly-false-made-usa-claims",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ten-additional-states-join-ftc-lawsuit-alleging-dollar-general-charged-consumers-more-advertised"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -719,7 +721,8 @@
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
       "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
       "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html"
+      "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2348,7 +2351,12 @@
       "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
       "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+      "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3830,7 +3838,12 @@
       "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
       "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
       "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-      "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+      "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+      "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+      "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
     ]
   }
 }
