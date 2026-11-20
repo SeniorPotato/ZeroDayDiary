@@ -28436,3 +28436,75 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs Nov 20, 2026 Malware / Threat Intelligence Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. "ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques," Blackpoint Cyber researchers Sam Decker, Nevan Beal, and Andi Ursry said in a report. ROMULUS was first publicly documented by Forescout Research last month, describing it as a malware delivery service that employs ClickFix-style lures to distribute malware families like Legion Loader (aka Satacom downloader, CurlyGate, and RobotDropper). Attacks involving ROMULUS have also leveraged ChatGPT Custom GPTs as a pathway to direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver a RAT payload by means of DLL sideloading. Interestingly, CNCMachineRMS has also been d...
+- **Source URL:** https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data Nov 20, 2026 Vulnerability / Cyber Espionage The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized access to the system. It has been addressed as part of patches released on November 19, 2026, in the following versions - VMware Cloud Foundation, VMware vSphere Foundation 9.1.x.x - Fixed in 9.1.1.0200 VMware Cloud Foundation, VMware vSphere Foundation 9.0.x.x - Fixed in 9.0.2.0200 VMware vCenter 8.0 - Fixed in 8.0 U3m VMware vCenter 7.0 (Contact Broadcom Support, if on extended support contract) VMware Cloud Foundation - Fixed in 5.2.5 VMware Telco Cloud Platform - Fixed in vCenter 8.0 U3m (TCI: 3.0, TCP: 3.0, 4.x, 5.0.x, 5.1.x, 5.2) VMware Telco Cloud Infrastr...
+- **Source URL:** https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It Nov 20, 2026 Vulnerability / Endpoint Security A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse , and the endpoint-security firm ThreatLocker tested it the same day and found it works. There is no fix from Microsoft yet, and nothing shows the method has been used in a real attack. The technique does not work on every machine. It requires physical access to the computer and a Microsoft account accessible through the lock screen's recovery options, and it uses Windows' built-in screen reader, Narrator, to navigate the locked screen. In its test, the firm reached a point where it could run a program from the lock screen in a limited account that ThreatLocker identified as WSIAccount and said is "not an administrat...
+- **Source URL:** https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Everything Is a Web Application, Including Your Firewall Nov 19, 2026 Vulnerability / Web Security One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong. Details leaked on October 20, ahead of the coordinated release, and the PHP project shipped an emergency patch the next day. The vulnerabilities require no authentication, but they are not easy to exploit reliably. It takes skill and additional knowledge about the target system. Where it matters a lot is appliances, which run identical, often outdated software that an attacker can study in advance. That is the bigger picture. An awful lot of web applications control critical devices in your network. Almost anything is a web application to some extent. That often goes unrecognized, and as a result ...
+- **Source URL:** https://thehackernews.com/2026/11/everything-is-web-application-including.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions Nov 19, 2026 Cloud Security / Email Security N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. "We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence," N-able said . "The investigation is ongoing, but at this time we do not have evidence that customer data was compromised, including access to tenants' mailboxes." The following services remain impacted - Mail Assure (Americas) Mail Assure (APAC) Mail Assure (Europe) SpamExperts (Americas) SpamExperts (APAC) SpamExperts (Europe) The discovery comes after N-able began an investigation into a service disruption affecting Mail Assure and SpamExperts Hosted Cloud on November 16, 2026. While it was initially traced to a combination of platform configuration and service dependencies within the Mail Assure and Spam...
+- **Source URL:** https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** VMware patches vCenter zero-day exploited in attacks since September
+- **Source URL:** https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Hackers steal data of 1.6 million SBC Medical Group customers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** ASUS warns of critical hard-coded key flaw in Control Center Express
+- **Source URL:** https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-20
+- **Headline / event:** Drupal patches critical RCE flaw, warns exploits may surface quickly
+- **Source URL:** https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
