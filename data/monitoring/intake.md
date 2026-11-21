@@ -28628,3 +28628,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from schneier on security
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats Nov 21, 2026 Vulnerability / Artificial Intelligence A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's cloud machine. NebuSec , the security firm that published it yesterday, says Muse's team has since fixed every weakness it describes. Muse is Meta's personal AI agent, launched on September 8, that works through the online accounts a user connects to it and can make purchases on their behalf. Each person's agent runs on its own cloud computer. There, a monitoring layer called Sentinel is meant to be the single gate for anything the agent sends out, and the passwords and tokens for connected accounts are supposed to stay beyond the agent's reach.
+- **Source URL:** https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys Nov 21, 2026 Vulnerability / Software Security A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME , the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975 , affects all software that uses GPGME before version 2.3.0, whether the library is loaded as a shared library, a Windows DLL, or statically linked into the program. Examples the project gives include most mail clients, many XMPP clients, Samba, and its own Gpg4win, GnuPG Desktop, and GnuPG VS-Desktop packages. The project has not reported any attacks exploiting the flaw, and it notes that remote code execution cannot be ruled out. Its example of a path to the bug is signed data sent to an application. Which programs pass such material to the library without a manual key import is not something the advisory says. The flaw is a double free, meani...
+- **Source URL:** https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access Nov 21, 2026 Artificial Intelligence / Cyber Espionage Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label , an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup, which runs with no login enabled. The maintainers have merged a fix in the source code, but there is still no fixed version to install. MONAI Label is a server that research teams use to label medical scans and train imaging models; it is a separate program from the broader MONAI framework. The weakness is a path-traversal flaw in the parts of the server that store uploaded images and labels. A file identifier supplied by the caller is appended to the storage folder and written to disk without checking that the result remains within that folder. The server writes with the privileg...
+- **Source URL:** https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS Nov 21, 2026 Privacy / Mobile Security Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete." The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal screen. It also builds upon a similar setting that Signal introduced in Windows 11 last May following Microsoft's release of the controversial Recall feature. Calling the agentic integrations into Android, iOS, and Windows an "existential threat to Signal," Meredith Whittaker, president of the Signal Foundation, said the move is designed to uphold its privacy guarantees in the AI era. "In order to gain access to information about you, these OS AI agents 'scan' the information that's on your screen," Whittaker said . "In doing so, your Signal...
+- **Source URL:** https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge Nov 21, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities ( KEV ), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in Apache Roller that could allow an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. (Fixed in November 2026) CVE-2026-76466 (CVSS score: 9.8) - A use of hard-coded credentials vulnerability in Cisco Expressway Series that could allow an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service. (Fixed in October 2026) CVE-2025-42884 (CVSS score: 6.5) - An improper neutralization of...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** Microsoft Entra Connect Health flaw exploited to steal tenant data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** BADBOX botnet returns with record-breaking 40 billion daily ad requests
+- **Source URL:** https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-21
+- **Headline / event:** FBI reportedly hacked again, this time targeting nationwide police database
+- **Source URL:** https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
