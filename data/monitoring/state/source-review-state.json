@@ -2363,7 +2363,9 @@
       "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
       "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
       "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+      "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3853,7 +3855,8 @@
       "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
       "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+      "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
     ]
   }
 }

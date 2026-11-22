@@ -28692,3 +28692,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-22
+- **Headline / event:** OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms Nov 22, 2026 Artificial Intelligence / Data Breach Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention , the setting that is supposed to mean a prompt is never stored. OpenRouter , a gateway that routes customers' AI requests to a pool of third-party providers, said today that it has removed three providers from its platform, removed 125 endpoints from eligibility for Zero Data Retention, and notified all potentially affected customers. The findings showed no breach of OpenRouter itself, the company said. The earliest of the three breaches began in mid-July. The planted prompts were bait, but they were processed alongside real customer requests, and those were almost certainly copied too, the firm said. The finding comes from canary token research that seeded about two million prompts with unique web links and credentials ...
+- **Source URL:** https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-22
+- **Headline / event:** Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps Nov 22, 2026 Vulnerability / Application Security A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload, preview, and print features in about ten common applications could be tricked into feeding it such a file. The flaw, tracked as CVE-2026-125396 , was fixed on September 8, and there have been no reports of it being used in attacks. Getting a crafted file to Ghostscript is easy, because an application does not have to call it directly. A common image or document library such as ImageMagick, Pillow, libvips, or a Qt plugin will hand PostScript or EPS content to Ghostscript to render, even when the file is named .png, .jpg, or .pdf. A routine feature like making a thumbnail or cropping a pict...
+- **Source URL:** https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-22
+- **Headline / event:** Rackspace Spot breach let hackers access customer Kubernetes secrets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
