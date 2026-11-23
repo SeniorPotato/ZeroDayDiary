@@ -28748,3 +28748,99 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** CISA Adds Two Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Humans Have Rights. Machines Do Not.
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access Nov 23, 2026 Cyber Espionage / Malware The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant "implements various tricks to hide itself from security tools," Rapid7 said in an analysis, attributing it to the adversarial collective with moderate confidence. First publicly detailed by Broadcom-owned Symantec in September 2022, Webworm is the name assigned to a China-aligned nation-state group that has targeted government entities, IT services, and electric power companies across Russia, Georgia, Mongolia, and several other Asian nations. One of the tools used by the threat actor is a legitimate software called SoftEther VPN , with the bridge acting as a pathway connecting the compromised network and the attacker-controlled infrastructure...
+- **Source URL:** https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** ⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble Nov 23, 2026 Cybersecurity News / Hacking A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely on become ways to get inside. Even features built for safety can end up helping the wrong person. And some of the latest research shows just how little effort certain attacks need. The strange part is how normal it all looks until something goes wrong. A few attacks are clever. Others are almost embarrassingly simple. Both can do real damage. Here's what caught our attention this week. ⚡ Threat of the Week Threat Actor Exploits VMware vCenter Flaw as a 0-Day — The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attribut...
+- **Source URL:** https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions Nov 23, 2026 Vulnerability / Open Source A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. "Binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption()," according to a description of the flaw in the NIST National Vulnerability Database (NVD). "Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely() alias values to execute arbitrary JavaScript in the Node.js process when the parser is compiled." According to an advisory released by the project maintainer on November 11, 2026, the problem arose from the fact that some user-controlled string options were ...
+- **Source URL:** https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning Nov 23, 2026 Vulnerability / Cyber Attack Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. "On November 12, 2026, we observed one managed service provider's (MSP) technician's workstation exploited to run a guest-pushed batch file, which then reported to a Telegram bot, downloaded an installer from masterdarky[.]com, and started a rogue ScreenConnect client pointing at the attacker's own relay, all in about 9 seconds," Huntress security researcher John Hammond said . The batch script, "update_224ac089.bat," is designed to decode a Base64 Telegram bot token and chat ID, and register the new infection. Subsequently, it downloads an MSI installer that masquerades as a Windows update ("WindowsUpdate.ms...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation Nov 23, 2026 Vulnerability / Cloud Security N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624 , is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the platform's servers. The company fixed the flaw and restored access to the dashboard and APIs late on Saturday, closing an outage that began last Monday. Email delivery and spam filtering kept working throughout, according to the company. It has not said whether the flaw was the attackers' way in. The bug sat in a connection check that Mail Assure runs for LDAP synchronization when a relay is configured. Before the fixed build, nothing restricted that check's destination, so the server could be pointed at any internal host and port to see which ones answered. "An auth...
+- **Source URL:** https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** South Korea’s power giant KEPCO confirms data breach impacting 1.5 million
+- **Source URL:** https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** OpenRouter drops AI providers over leaked prompts and secrets
+- **Source URL:** https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Microsoft Azure flaw exploited to steal customers' API credentials
+- **Source URL:** https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** Spanish LaLiga confirms hackers stole soccer fans’ personal data
+- **Source URL:** https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-23
+- **Headline / event:** GlobeTopper loses $2.5 million after hackers steal $70k in gift cards
+- **Source URL:** https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

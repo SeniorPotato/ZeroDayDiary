@@ -150,7 +150,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
       "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -724,7 +725,8 @@
       "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
       "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
-      "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html"
+      "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+      "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2365,7 +2367,12 @@
       "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
       "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
       "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+      "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3860,7 +3867,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
       "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
       "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+      "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
     ]
   }
 }
