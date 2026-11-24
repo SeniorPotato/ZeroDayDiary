@@ -28900,3 +28900,107 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** SHEIN to Pay $100 Million Over Allegations of Deceptive and Unfair Practices
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/shein-pay-100-million-over-allegations-deceptive-unfair-practices
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** We Get the Infrastructure We Pay For
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns Nov 24, 2026 Cyber Espionage / Malware A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System ( IPFS ) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of MuddyWater's MuddyC2Go . Evidence indicates that the threat actor has been operational since late August 2025. Also delivered alongside these tools are Remote Monitoring and Management (RMM) programs like MeshCentral and NetLock RMM. In tandem, the group has been observed orchestrating credential harvesting campaigns to harvest email and corporate credentials of some of the impersonated organizations. The use of legitimate RMM tools for persistent access has been a hallmark of the MuddyWater group , although the adversary has since also increasingly deployed its own malware ...
+- **Source URL:** https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation Nov 24, 2026 Vulnerability / Enterprise Security Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903 , is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service ("vmdir"). "A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system," Broadcom said in an advisory released today. The company credited sglab of QiAnXin, Qi Qin (@LeoQ7_) of depthfirst, and VulTeam and XGTP from ThreatBook for independently reporting the flaw. Also patched in vCenter are four high-severity flaws, including an arbitrary file write vulnerability while processing certain archives that could be exploited to achieve code execution on the appliance (CVE-2026-123904, CVSS score: 7.5). The remaining three vul...
+- **Source URL:** https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site Nov 24, 2026 Cybercrime / Identity Security A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION , according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053 , is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving multi-factor authentication (MFA). Okta said it's been tracking the group since March 2026. The identity and access management provider said targets of this cluster previously had stolen data published to the ShinyHunters data leak site (DLS). However, as of November 16, 2026, a new data leak site operating under the name INCEPTION has listed the data siphoned from O-UNC-053 targets. "While this threat cluster has changed their brand affiliation, the operators remain active in targeting organizations with voice phishing attacks and account takeovers resulting in data theft and ex...
+- **Source URL:** https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity Nov 24, 2026 Vulnerability / Windows Security A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268 , and Windows code integrity, tracked as CVE-2026-108398 . Oracle fixed the VirtualBox flaw in September, and Microsoft fixed the Windows one on October 13, both before the write-up appeared. VirtualBox on Windows monitors the system calls that load program files into its virtual machine processes, so a less-trusted user on the same computer cannot push code into them. Forshaw got past that watch through the .NET Framework. The framework can run a .NET program file from a plain copy in memory when the normal way of loading it, as an executable image, fails. Version 4 of the framework takes that fallback on one specifi...
+- **Source URL:** https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** 2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk Nov 24, 2026 Threat Intelligence / Security Operations What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN 's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources. As 2027 approaches, here are five priorities to reduce SOC costs, recover capacity, and strengthen protection against costly cyberattacks. Why 2027 SOC Budget Planning Is Getting More Challenging Cybersecurity spending is facing conflicting pressures. According to IANS and Artico Search, 55% of CISOs reported flat or declining budgets in 2026 . Meanwhile, PwC's 2027 Global Digital Trust Insights found that 84% of surveyed security and finance leaders expect cybersecurity budgets to increase .
+- **Source URL:** https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Rackspace shuts down Spot cloud platform after security breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** New Inception extortion gang launches large-scale vishing campaign
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Turnitin discloses cyberattack affecting customer-facing systems
+- **Source URL:** https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Radware discloses breach exposing customer cloud access keys
+- **Source URL:** https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof
+- **Source URL:** https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

@@ -151,7 +151,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
       "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -391,7 +392,8 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-17-states-secure-63-million-settlement-family-dollar-stores-price-transparency-win-consumers",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-sues-block-veterinary-supplies-distributor-covetruss-35-billion-acquisition-rival-mwi",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-takes-enforcement-action-against-safety-harness-manufacturer-allegedly-false-made-usa-claims",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ten-additional-states-join-ftc-lawsuit-alleging-dollar-general-charged-consumers-more-advertised"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ten-additional-states-join-ftc-lawsuit-alleging-dollar-general-charged-consumers-more-advertised",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/shein-pay-100-million-over-allegations-deceptive-unfair-practices"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -726,7 +728,8 @@
       "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
-      "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html"
+      "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+      "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2377,7 +2380,12 @@
       "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
       "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
       "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+      "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3879,7 +3887,12 @@
       "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
       "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
       "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-      "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
+      "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
     ]
   }
 }
