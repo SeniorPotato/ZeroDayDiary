@@ -2372,7 +2372,12 @@
       "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
       "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+      "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3872,7 +3877,9 @@
       "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
       "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
       "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+      "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
     ]
   }
 }

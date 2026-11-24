@@ -28844,3 +28844,59 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login Nov 24, 2026 Web Security / Vulnerability A flaw in WHMCS 's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released fixed versions. It has not reported attacks using any of the three. Because no login is needed, the flaw, tracked as CVE-2026-82981 (CVSS score: 8.7), is within reach of anyone who can load the shopping cart of a vulnerable installation over the internet. The records an attacker could pull include clients' personal and support information as well as admin accounts with their hashed passwords, according to the company's advisory. A stolen hash is not a working password, but it gives attackers something to try to crack offline. The 9.0.10 and 8.13.8 updates shipped yester...
+- **Source URL:** https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching Nov 24, 2026 Artificial Intelligence / Vulnerability OpenAI and Cisco have teamed up to launch Shirudo (meaning "shield" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. "It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches," OpenAI said in a post on X. The AI upstart called the initiative a "first step" toward "self-defending infrastructure" that can adapt itself to new threats while the services continue to run and enable defenders to test and deploy fixes without any disruption. The development comes as AI is accelerating vulnerability discovery, finding critical bugs in foundational software used to power internet-connected software. Shirudo is being pitched as a way for defenders to test temporary safeguards (aka shields) and check if they block behavior that exposes a vulnerability, while letting legitimate requests pass thro...
+- **Source URL:** https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day Nov 24, 2026 Vulnerability / Artificial Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP synchronization connection check that could allow an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services. CVE-2026-133968 (CVSS score: 9.8) - A path traversal vulnerability in MONAI Label that could allow an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution. The exploitation of CVE-2026-134624 stems from a disclosure last week, in which N-able said it detected a security incident that resul...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE Nov 23, 2026 Vulnerability / Web Security Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf ("Idunno.AntiCsrf.dll") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914 , carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an insecure deserialization vulnerability in the Idunno.AntiCsrf.AntiCsrfModule HTTP module. Idunno.AntiCsrf is a third-party ASP.NET IHttpModule designed to provide double-submit cookie Cross-Site Request Forgery (CSRF) protection for ASP.NET WebForms applications. The open-source project is currently defunct and has not been updated since December 2008. At its core, the problem stems from the fact that the module deserializes untrusted CSRF form token data using an unkeyed .NET System.Web.UI.ObjectStateFormatter instance without cryptographic MAC or signature verification when handlin...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices Nov 23, 2026 Vulnerability / Router Security Hackers exploited a vulnerability in GL.iNet 's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route. The cloud-side fix does not remove malware from devices that were already infected, so owners still need to check their hardware and install the security firmware listed today. A KVM is a small device used to control a computer remotely as if sitting in front of it. The company is still investigating whether computers attached to infected KVMs were affected. It has not said how many devices were infected, when the attacks began, or how its cloud service was breached. It is emailing customers it identifies as affected, but owners do not need to wait for a message to act. A model missin...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** AI Agents Are Creating a Shared Responsibility Gap
+- **Source URL:** https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-24
+- **Headline / event:** Call center operator gets 8 years for helping scam 30,000 Americans
+- **Source URL:** https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
