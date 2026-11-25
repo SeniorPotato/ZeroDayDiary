@@ -29004,3 +29004,67 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign Nov 25, 2026 Cyber Attacks / Network Security An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government, transportation, mining, engineering, and manufacturing sectors across the U.K., Ireland, France, Netherlands, Greece, Germany, Austria, Bulgaria, Poland, India, Thailand, Vietnam, South Korea, Hong Kong, China, Australia, and the U.S. Confirmed attack activity has been recorded between October 17 and November 2, 2026, with the threat actor using 99 IP addresses to conduct scanning, exploitation, and control. Most of these IP addresses are associated with disposable network infrastructure. The campaign has not been attributed to any known threat actor or group. It's suspected that the att...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion Nov 25, 2026 Social Engineering / Cybercrime Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to "numerous waves of vishing attacks" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction, high-technology, transportation, manufacturing, pharmaceuticals, insurance, and real estate sectors. "The victims share a common profile: they hold large volumes of high-impact corporate data where exposure carries severe regulatory, legal, or market consequences," Unit 42 said . "These attackers targeted financial services organizations about twice as often as healthcare organizations in August 2026, but healthcare overtook financial services in September." The activity has been attributed to a number of threat clusters , including - Bling Libra (aka Shiny...
+- **Source URL:** https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live Nov 25, 2026 Web Security / Malware WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has independently detected and blocked the threat before it could be officially released. Visiting each plugin listing now serves the message: "This plugin has been closed as of November 22, 2026, and is not available for download. This closure is permanent." The names of the affected plugins and the malicious versions are listed below - Air WP Sync – Airtable to WordPress (2.9.1 – 2.9.4) WP Sync for Notion – Notion to WordPress (1.7.4) Add-on Brevo for Gravity Forms (2.6.3) Add-On for Contact Form 7 to Airtable (2.5.4) Add-On for Contact Form 7 to Notion (1.6.4) Orders Sync to Airtable for WooCommerce (1.0.2) These plugins have been collectively installed on more than ...
+- **Source URL:** https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets Nov 24, 2026 Cloud Security / Vulnerability Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi . "An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM," NSM said . "It is still uncertain how extensive the exploitation of the vulnerability is, and has been." The security agency said it has so far seen no evidence that has had any impact on Norwegian businesses. According to a non-public advisory issued by Microsoft, the issue is said to affect the APIM classic tier. Instances on v2 tiers are not affected. "On 18 November 2026, Microsoft identified a security issue affecting Azure API Management Classic tiers that could allow unauthorized access to certain management functionality if the service was not configured according to documented se...
+- **Source URL:** https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Hackers reportedly breached CIA intelligence analysis system
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** European Commission confirms data theft in EU Academy breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Hackers compromise Check Point Servers in 22 organizations
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Police disrupt 57 illegal streaming services with 7.3 million visits
+- **Source URL:** https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
