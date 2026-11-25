@@ -29068,3 +29068,115 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** CISA Adds 10 Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** FTC Grants In Part and Denies In Part Northrop Grumman Petition to Set Aside Order
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-grants-part-denies-part-northrop-grumman-petition-set-aside-order
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** FTC Finalizes Order Resolving Antitrust Concerns Stemming from Beretta, Ruger Stock Purchase Deal
+- **Source URL:** https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-finalizes-order-resolving-antitrust-concerns-stemming-beretta-ruger-stock-purchase-deal
+- **Source tier:** Tier 1
+- **Initial category guess:** privacy
+- **Why it may matter:** newly detected through scheduled source review from ftc press releases
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Tracking Incidents of Hacking Using AI Tools
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains Nov 25, 2026 Vulnerability / Cyber Attack Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr . The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch adversary-selected HTTP or HTTPS URLs by means of a single unauthenticated Web Feature Service (WFS) request. CVE-2026-129243 (CVSS score: 8.8) - An incorrect authorization vulnerability that could allow an unauthenticated attacker to invoke OWS operations that are otherwise protected by service security rules. Advisories for both the flaws were published on November 24, 2026, in the following versions - CVE-2026-120705: org.geoserver:gs-wfs-core - 3.0.2, 2.28.6, and 2.27.7 CVE-2026-120705: org.geotools:gt-metadata - 35.2, 34.6, and 33.7 CVE-2026-129243: org.geoserver:gs-ows - 3.0....
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion Nov 25, 2026 Financial Security / Cybersecurity The U.S. Treasury Department's Financial Crimes Enforcement Network ( FinCEN ) has been hit by a cybersecurity incident that resulted in "unauthorized access to a limited subset of its systems," the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial institutions and analyzes them to fight money laundering and terrorist financing. The BSA E-Filing website is still up, although some services may be temporarily unavailable. The agency has not named the systems it reached or those it took offline. To support filers affected by the disruption, the bureau is extending some filing deadlines: covered reports originally due between November 18 and December 29 can now be submitted until December 30. A relief order issued the same day, FIN-2026-R002, applies to three groups: Financial institutions that used Secure Direct Tran...
+- **Source URL:** https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Credential Remediation Is Slow When You Don’t Know What Will Break Nov 25, 2026 Application Security / Enterprise Security TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the risk score as new context arrives. Revoke last, never first: Issue a replacement, store it in the vault, switch every consumer to the vault call, deploy and monitor, then revoke the original and confirm it no longer authenticates. Every modern enterprise depends on credentials. This is how humans, systems, and now AI connect securely to data, services, and each other. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, but credential remediation is where many secret security programs bog ...
+- **Source URL:** https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation Nov 25, 2026 Web Security / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer," CISA said. "Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site." As previously reported by The Hacker News, an attacker can use the installer to attempt to reinstall Drupal, resulting in site takeover or remote code execution under certain circumstances. According to an independent analysis by Searchlight Cyber, it has emerged that ordinary ...
+- **Source URL:** https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail Nov 25, 2026 Insider Threat / Artificial Intelligence A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim of recording sensitive conversations. Subsequent court filings have pointed out that Alfozan was in touch on WhatsApp with a member of the Saudi royal family, as well as expressed interest in moving back to Saudi Arabia following OpenAI's initial public offering (IPO). He has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. If convicted, Alfozan faces a maximum penalty of 5 years in prison and a $250,000 fine, followed by 3 years of supervised release. "At this time, we have no indications of thi...
+- **Source URL:** https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** 1Password customer data stolen after employee GitHub account breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** Italy and Switzerland warn of autonomous AI-driven cyberattacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** CISA warns of critical unpatched flaw in Danfoss refrigeration controllers
+- **Source URL:** https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** More Pentests Without More Pentesters: Where AI Safely Helps
+- **Source URL:** https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-25
+- **Headline / event:** InfraTrust warns of exploited supply chain flaws in network appliances
+- **Source URL:** https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED

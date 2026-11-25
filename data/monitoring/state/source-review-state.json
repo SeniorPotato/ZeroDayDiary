@@ -152,7 +152,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -393,7 +394,9 @@
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-sues-block-veterinary-supplies-distributor-covetruss-35-billion-acquisition-rival-mwi",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-takes-enforcement-action-against-safety-harness-manufacturer-allegedly-false-made-usa-claims",
       "https://www.ftc.gov/news-events/news/press-releases/2026/11/ten-additional-states-join-ftc-lawsuit-alleging-dollar-general-charged-consumers-more-advertised",
-      "https://www.ftc.gov/news-events/news/press-releases/2026/11/shein-pay-100-million-over-allegations-deceptive-unfair-practices"
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/shein-pay-100-million-over-allegations-deceptive-unfair-practices",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-grants-part-denies-part-northrop-grumman-petition-set-aside-order",
+      "https://www.ftc.gov/news-events/news/press-releases/2026/11/ftc-finalizes-order-resolving-antitrust-concerns-stemming-beretta-ruger-stock-purchase-deal"
     ],
     "iso-insights": [
       "https://www.iso.org/contents/news/insights/information%20security/intellectual-property-rights.html",
@@ -729,7 +732,8 @@
       "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
       "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
-      "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html"
+      "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2389,7 +2393,12 @@
       "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
       "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
       "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-      "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
+      "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3900,7 +3909,12 @@
       "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
       "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
       "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-      "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/"
+      "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
     ]
   }
 }
