@@ -29228,3 +29228,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories Nov 26, 2026 Hacking News / Cybersecurity News A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening doors across connected systems, while some AI servers are sitting online for anyone to use at someone else’s expense. Even software responsible for keeping the power on has found its way into an attack. Meanwhile, authorities are taking down large scam operations, extortion gangs are making comebacks, and ransomware activity is picking up. Some of the more worrying findings this week involve things most people would have little reason to suspect. The details are worth a look. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+- **Source URL:** https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware Nov 26, 2026 Malware / Blockchain The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. "The loader hides in a small utils package or in conftest.py," SafeDep said in a report published this week. "When Python imports the file, the loader reads the newest transaction that an Ethereum wallet sent to itself. It decodes the input data of that transaction as JavaScript and runs it with Node.js." The JavaScript code, for its part, reads a second wallet to locate the command-and-control (C2) server and then passes the next stage to a detached interactive Node.js environment by means of a node -i process. The software supply chain security company said it identified the loader in 375 public repositories that belong to 260 accounts. There is no evidence that the loader has been distributed via PyPI or npm. PolinRider is the name assigned to a mali...
+- **Source URL:** https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls Nov 26, 2026 Identity Security / Browser Security Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate : The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an attack breaks through Every browser-based attack starts with a lure, and each control in its path sees only part of the attack: Email security: Half of the attacks we see never touch email. The lure arrives through a search ad, a chat message, social media, a calendar invite, or a QR code. The rest come from trusted senders and services, so they pass reputation checks. Web gateways: The pages sit on trusted hosting and are assembled in the browser. The domains rotate every few days, so reputation data lags behind them. Safe browsing and scanners: Bot checks and cloaking show ...
+- **Source URL:** https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** NordVPN Black Friday Deal: Get 78% off VPN plans in 2026
+- **Source URL:** https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Remus malware steals Gmail messages via fake Google Sheets extension
+- **Source URL:** https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** SYS010 malware abuses browser management to spy on Gmail, Outlook
+- **Source URL:** https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
