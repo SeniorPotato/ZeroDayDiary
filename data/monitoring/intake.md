@@ -29180,3 +29180,51 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation Nov 26, 2026 Vulnerability / Web Security Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states that could still be abused to facilitate site takeover even after the fix. CVE-2026-132165 "recently fixed several vulnerabilities within the Drupal core installer," Drupal maintainers said . "However, certain sites in unusual or incomplete install states remain vulnerable to site takeover following that advisory, including production sites." "It is not apparent in the user interface if a site is in the affected vulnerable state, and sites that are already compromised may no longer be in the vulnerable state." Drupal acknowledged that the vulnerab...
+- **Source URL:** https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products Nov 26, 2026 Industrial Control Systems / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and Video Conferencing (AWV) Component of MiCollab that could allow an attacker to upload arbitrary files to the target system. CVE-2026-133303 (CVSS score: 9.0) - An XML injection vulnerability in the Audio, Web and Video Conferencing (AWV) component of MiCollab that could allow an attacker to execute arbitrary commands within the context of the system. CVE-2026-133311 (CVSS score: 5.9) - An unauthorized access vulnerability in the Audio, Web, and Video Conferencing (AWV) Component of MiCollab that could allow an attacker to obtain sensitive information. CVE-2026-133323 (CVSS s...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** 1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach Nov 26, 2026 Data Breach / Password Security Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. "While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a limited amount of customer account information from a subset of our customers, including names and email addresses," the Toronto-based company said. It noted that no customer vault content, including secrets, passwords, and other vault items, account recovery keys, or the keys that secure them, was accessed or compromised as a result of the breach. It also stated that customers do not need to take any action, but cautioned them to stay vigilant against unexpected phishing attempts. As part of its efforts to remediate the incident, 1Password has disabled the affected GitHub acco...
+- **Source URL:** https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers Nov 25, 2026 Vulnerability / Software Security An attacker ran operating system commands on Monday on six production servers of Hex.pm , the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request. Checks since then found no sign that any package was changed. Whether the attacker read account data such as email addresses, password hashes, and two-factor authentication secrets could not be ruled out, the team said. What Hex Users Should Do Now Everyone with a hex.pm account has been logged out because the maintainers replaced the keys that sign sessions and access tokens. They advise account holders to take these steps: Change your hex.pm password. Reset two-factor authentication by setting up a new authenticator entry, and store the new recovery codes. Log back in to the cli...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks
+- **Source URL:** https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-26
+- **Headline / event:** Hackers now exploit critical Drupal RCE flaw to hijack sites
+- **Source URL:** https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
