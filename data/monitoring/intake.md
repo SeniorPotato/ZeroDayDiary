@@ -29276,3 +29276,27 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators Nov 27, 2026 Artificial Intelligence / Cyber Attacks Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is behind the attacks. Florian Schütz , who directs Switzerland's National Cyber Security Centre, gave the figures in an interview with public broadcaster SRF. All five cases were reported in recent days. Small and medium-sized companies were among the organizations hit, and they came forward voluntarily. The agency's first notice, a security advisory published on Tuesday, said the agents had compromised the victims' IT systems in every case known at that point. Neither the notice nor yesterday's broadcast interview explains why the count changed. "These cases re...
+- **Source URL:** https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access Nov 27, 2026 Zero-Day / Vulnerability Details have emerged about a new zero-day vulnerability in Cacti , an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT . "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server user in four requests," a security researcher who goes by the online alias "ek0ms savi0r" said . "No login. No valid API key. No phishing. Just four HTTP requests against the default guest surface." The shortcoming affects Cacti Core 1.2.31, the latest version , on an isolated host when the guest account is enabled. At a high level, the vulnerability allows an attacker to abuse the guest access to write an unvalidated value (i.e., non-numeric text) into a setting called "preview_graphs_per_page" via "auth_profile.php?action=update_data."...
+- **Source URL:** https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** New NFS2ROOT Linux flaw can let attackers gain root privileges
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
