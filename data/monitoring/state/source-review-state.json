@@ -153,7 +153,8 @@
       "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
+      "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     ],
     "ico-news": [],
     "edpb-news": [
@@ -733,7 +734,8 @@
       "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
       "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
       "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
-      "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"
+      "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html"
     ],
     "the-hacker-news": [
       "https://thehackernews.com/",
@@ -2407,7 +2409,11 @@
       "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
       "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
       "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-      "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+      "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
     ],
     "reddit-security": [
       "https://old.reddit.com/r/security/comments/1rpjcuw/mobile_patrol_paladin_security/",
@@ -3929,7 +3935,12 @@
       "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
       "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
       "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-      "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+      "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/"
     ]
   }
 }

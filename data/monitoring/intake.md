@@ -29300,3 +29300,91 @@ Use this file for raw candidate events before triage.
 - **Initial category guess:** security
 - **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
 - **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** CISA Adds Three Known Exploited Vulnerabilities to Catalog
+- **Source URL:** https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from cisa cybersecurity advisories
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Recent Outages Have Economic Causes
+- **Source URL:** https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from schneier on security
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign Nov 27, 2026 Cyber Espionage / Government Security A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus . The activity is assessed to have comprised five intrusions in Thailand and the Philippines and reconnaissance efforts against Indonesian government organizations. "Initial access was achieved primarily by exploiting web application vulnerabilities and default credentials in open-source software, including GeoServer, JasperReports, osTicket, and exposed Laravel debug mode configurations," SOCRadar said in an analysis published Thursday. "The threat actor established persistent internal network access using reverse SSH tunnels and moved laterally into downstream networks and applications." The links to Vietnam are based on the presence o...
+- **Source URL:** https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control Nov 27, 2026 Malware / Social Engineering Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT . The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool ("snipp.codes-team[.]com"), from where a Microsoft-signed installer called "Snipping-Tool.exe" is downloaded. Executing the binary leads to the installation of Setup Assistant , an Electron-based application published on the Microsoft Store by ETPS Ltd. "The application was heavily obfuscated, maintained communication with C2 [command-and-control] infrastructure, monitored the victim's Downloads folder, and supported execution of C2-supplied PowerShell and JavaScript," eSentire said . "This access was used to launch a malicious PowerShell stager, establish persistence through a scheduled task, and retrieve a previously undocumented PowerShell-based RAT....
+- **Source URL:** https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** How to Keep Your Security Picture Current When Attackers Move at AI Speed Nov 27, 2026 Risk Management / Security Automation Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is, as of that one morning, fine. This is not a failure of effort. Security teams are doing the work, often times more of it than anyone outside the team realizes. The problem is that the reporting cycle rewards the snapshot, and a snapshot is a memory, not a measurement. It tells you how things looked on the day you looked. It says very little about the weeks in between, and risk does not keep to a reporting schedule. Gathering the Picture Is the Hard Part, and It Is Getting Harder The conversation about security metrics usually jumps straight to which numbers matter. That s...
+- **Source URL:** https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware Nov 27, 2026 Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed legitimate programs," South Korean cybersecurity company AhnLab said . Q-Dir, also called the Quad Directory Explorer, is a free, lightweight file manager for Windows developed by SoftwareOK. According to its website, DesktopOK is a free Windows utility designed to save and restore desktop icon positions. The unauthorized modifications are designed such that the malicious activity is challenging to detect when running the programs, while simultaneously retrieving and deploying a Python-based remote control malware (RAT) from an external server. Once installed, the RAT payload is ...
+- **Source URL:** https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from the hacker news
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** pCloud confirms password manager hack after suspicious login alerts
+- **Source URL:** https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** New Boston Scientific data breach exposes personal, medical info
+- **Source URL:** https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Unpatched Cacti zero-day with public PoC gives remote code execution
+- **Source URL:** https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** US Air Force cloud platform reportedly hacked in latest federal breach
+- **Source URL:** https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
+
+- **Date discovered:** 2026-11-27
+- **Headline / event:** Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
+- **Source URL:** https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
+- **Source tier:** Tier 1
+- **Initial category guess:** security
+- **Why it may matter:** newly detected through scheduled source review from bleepingcomputer
+- **Status:** DISCOVERED
